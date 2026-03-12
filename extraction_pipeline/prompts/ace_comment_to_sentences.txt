@@ -1,0 +1,24 @@
+Convert the following article comment into Attempto Controlled English (ACE) sentences.
+
+First, here is a few-shot example showing how to convert a comment into ACE:
+
+<ACE_FEW_SHOT_COMMENT>
+
+Corresponding ACE version:
+
+<ACE_FEW_SHOT_OUTPUT>
+
+Now process this new comment. Output only JSON with the following structure:
+{
+  "ace_sentences": [
+    "First ACE sentence.",
+    "Second ACE sentence.",
+    "..."
+  ]
+}
+
+Here is the new comment to convert:
+
+COMMENT:
+<COMMENT_TEXT>
+

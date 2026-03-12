@@ -1,0 +1,180 @@
+You are given a list of ACE (Atomized, Causal, Explicit) sentences extracted from a student's comment about a news article. Your task is to build a **dependency graph** over these sentences.
+
+## Task
+
+For each sentence, determine which other sentences it **depends on**. A sentence S_b depends on sentence S_a if understanding or justifying S_b requires the information in S_a. Dependency can capture:
+- **Causal links**: S_a describes a cause and S_b describes its effect.
+- **Elaboration / evidence**: S_b elaborates on, explains, or provides evidence for S_a.
+- **Conditional reasoning**: S_b states a consequence that is conditional on the claim in S_a.
+- **Temporal / narrative continuation**: S_b continues a story or timeline begun in S_a.
+- **Reference / anaphora**: S_b refers to an entity, event, or situation introduced in S_a (e.g., "this situation", "that time").
+
+A sentence may depend on **zero, one, or many** other sentences. Sentences can depend on sentences that appear **before or after** them in the list — ordering does not restrict dependency direction.
+
+## Constraints
+
+1. The graph **must be a DAG** (Directed Acyclic Graph): there must be no cycles. If A depends on B, then B must NOT (directly or transitively) depend on A.
+2. Every sentence from the input must appear exactly once in the output.
+3. Each node's `id` must be a 0-based integer matching the sentence's position in the input list.
+4. `depends_on` is an array of integer `id` values (may be empty).
+
+## Output format
+
+Return a single JSON object with exactly this shape:
+
+```json
+{
+  "article_id": <article_id from input>,
+  "comment_index": <comment_index from input>,
+  "dependency_graph": [
+    {
+      "id": <int>,
+      "sentence": "<the sentence text>",
+      "depends_on": [<int>, ...]
+    },
+    ...
+  ]
+}
+```
+
+## Examples
+
+### Example 1
+
+**Input:**
+```json
+{
+  "article_id": "181",
+  "comment_index": 1,
+  "ace_sentences": [
+    "The rate of wind energy and solar energy has increased since 2000.",
+    "However, fossil fuels occupy more than half of energy materials.",
+    "This situation is a problem.",
+    "The governments of various countries promote renewable energy.",
+    "When I was a junior high school student, I had an opportunity.",
+    "At that time, I thought about a solution to improve this situation.",
+    "The electric power generation in the world decreased around 2008.",
+    "The electric power generation in the world also decreased around 2021.",
+    "The Lehman Shock happened in 2008.",
+    "The coronavirus spread in 2021.",
+    "The Lehman Shock caused an economic slump.",
+    "The spread of coronavirus caused an economic slump.",
+    "An economic slump reduces the demand for electric power generation.",
+    "The demand for electric power generation decreased.",
+    "The decrease in electric power generation relates to these events.",
+    "The rate of fossil fuels may remain steady.",
+    "If the rate of fossil fuels remains steady then global warming will worsen.",
+    "If the rate of fossil fuels remains steady then air pollution will worsen.",
+    "Akita has a precious natural environment.",
+    "I live in Akita.",
+    "If global warming worsens then the natural environment in Akita could be negatively affected.",
+    "Akita cedars grow in Akita.",
+    "If global warming worsens then the growth of Akita cedars may deteriorate.",
+    "The headline is: What is the solution to increase the rate of clean energy?"
+  ]
+}
+```
+
+**Output:**
+```json
+{
+  "article_id": "181",
+  "comment_index": 1,
+  "dependency_graph": [
+    { "id": 0, "sentence": "The rate of wind energy and solar energy has increased since 2000.", "depends_on": [] },
+    { "id": 1, "sentence": "However, fossil fuels occupy more than half of energy materials.", "depends_on": [] },
+    { "id": 2, "sentence": "This situation is a problem.", "depends_on": [1] },
+    { "id": 3, "sentence": "The governments of various countries promote renewable energy.", "depends_on": [0] },
+    { "id": 4, "sentence": "When I was a junior high school student, I had an opportunity.", "depends_on": [] },
+    { "id": 5, "sentence": "At that time, I thought about a solution to improve this situation.", "depends_on": [2, 4] },
+    { "id": 6, "sentence": "The electric power generation in the world decreased around 2008.", "depends_on": [] },
+    { "id": 7, "sentence": "The electric power generation in the world also decreased around 2021.", "depends_on": [] },
+    { "id": 8, "sentence": "The Lehman Shock happened in 2008.", "depends_on": [6] },
+    { "id": 9, "sentence": "The coronavirus spread in 2021.", "depends_on": [7] },
+    { "id": 10, "sentence": "The Lehman Shock caused an economic slump.", "depends_on": [8] },
+    { "id": 11, "sentence": "The spread of coronavirus caused an economic slump.", "depends_on": [9] },
+    { "id": 12, "sentence": "An economic slump reduces the demand for electric power generation.", "depends_on": [10, 11] },
+    { "id": 13, "sentence": "The demand for electric power generation decreased.", "depends_on": [12] },
+    { "id": 14, "sentence": "The decrease in electric power generation relates to these events.", "depends_on": [6, 7, 13] },
+    { "id": 15, "sentence": "The rate of fossil fuels may remain steady.", "depends_on": [1] },
+    { "id": 16, "sentence": "If the rate of fossil fuels remains steady then global warming will worsen.", "depends_on": [15] },
+    { "id": 17, "sentence": "If the rate of fossil fuels remains steady then air pollution will worsen.", "depends_on": [15] },
+    { "id": 18, "sentence": "Akita has a precious natural environment.", "depends_on": [] },
+    { "id": 19, "sentence": "I live in Akita.", "depends_on": [] },
+    { "id": 20, "sentence": "If global warming worsens then the natural environment in Akita could be negatively affected.", "depends_on": [16, 18, 19] },
+    { "id": 21, "sentence": "Akita cedars grow in Akita.", "depends_on": [19] },
+    { "id": 22, "sentence": "If global warming worsens then the growth of Akita cedars may deteriorate.", "depends_on": [16, 21] },
+    { "id": 23, "sentence": "The headline is: What is the solution to increase the rate of clean energy?", "depends_on": [] }
+  ]
+}
+```
+
+### Example 2
+
+**Input:**
+```json
+{
+  "article_id": "181",
+  "comment_index": 4,
+  "ace_sentences": [
+    "Electricity generation has increased over time.",
+    "The use of clean energy sources in the world has grown during the last 20 years.",
+    "The use of fossil fuels has been consistently higher than the use of clean energy sources.",
+    "Coal is a popular energy source.",
+    "Gas is a popular energy source.",
+    "Wind power has experienced much growth recently.",
+    "Solar power has experienced much growth recently.",
+    "New ways to generate electricity have proliferated.",
+    "The use of gas has steadily increased.",
+    "The use of coal has steadily increased.",
+    "I wonder why the use of gas and coal has steadily increased.",
+    "The accessibility of resources may explain the increase.",
+    "The global population has grown.",
+    "I wonder how much global population growth affects how electricity is generated.",
+    "Statistics about electricity generation vary from country to country.",
+    "I wonder how greatly these statistics vary from country to country.",
+    "I canvassed for a local democratic campaign.",
+    "During the canvassing, I noticed a fact.",
+    "The fact is that clean energy was a very important issue.",
+    "Everyone is impacted by the negative effects of climate change.",
+    "The expenditure of fossil fuels contributes to global warming.",
+    "It has been proven that the expenditure of fossil fuels greatly contributes to global warming.",
+    "The headline is: Good Ole' Coal: It is electric!"
+  ]
+}
+```
+
+**Output:**
+```json
+{
+  "article_id": "181",
+  "comment_index": 4,
+  "dependency_graph": [
+    { "id": 0, "sentence": "Electricity generation has increased over time.", "depends_on": [] },
+    { "id": 1, "sentence": "The use of clean energy sources in the world has grown during the last 20 years.", "depends_on": [] },
+    { "id": 2, "sentence": "The use of fossil fuels has been consistently higher than the use of clean energy sources.", "depends_on": [1] },
+    { "id": 3, "sentence": "Coal is a popular energy source.", "depends_on": [] },
+    { "id": 4, "sentence": "Gas is a popular energy source.", "depends_on": [] },
+    { "id": 5, "sentence": "Wind power has experienced much growth recently.", "depends_on": [1] },
+    { "id": 6, "sentence": "Solar power has experienced much growth recently.", "depends_on": [1] },
+    { "id": 7, "sentence": "New ways to generate electricity have proliferated.", "depends_on": [5, 6] },
+    { "id": 8, "sentence": "The use of gas has steadily increased.", "depends_on": [4] },
+    { "id": 9, "sentence": "The use of coal has steadily increased.", "depends_on": [3] },
+    { "id": 10, "sentence": "I wonder why the use of gas and coal has steadily increased.", "depends_on": [7, 8, 9] },
+    { "id": 11, "sentence": "The accessibility of resources may explain the increase.", "depends_on": [10] },
+    { "id": 12, "sentence": "The global population has grown.", "depends_on": [] },
+    { "id": 13, "sentence": "I wonder how much global population growth affects how electricity is generated.", "depends_on": [0, 12] },
+    { "id": 14, "sentence": "Statistics about electricity generation vary from country to country.", "depends_on": [] },
+    { "id": 15, "sentence": "I wonder how greatly these statistics vary from country to country.", "depends_on": [14] },
+    { "id": 16, "sentence": "I canvassed for a local democratic campaign.", "depends_on": [] },
+    { "id": 17, "sentence": "During the canvassing, I noticed a fact.", "depends_on": [16] },
+    { "id": 18, "sentence": "The fact is that clean energy was a very important issue.", "depends_on": [17] },
+    { "id": 19, "sentence": "Everyone is impacted by the negative effects of climate change.", "depends_on": [] },
+    { "id": 20, "sentence": "The expenditure of fossil fuels contributes to global warming.", "depends_on": [2, 19] },
+    { "id": 21, "sentence": "It has been proven that the expenditure of fossil fuels greatly contributes to global warming.", "depends_on": [20] },
+    { "id": 22, "sentence": "The headline is: Good Ole' Coal: It is electric!", "depends_on": [] }
+  ]
+}
+```
+
+Now process the following input and return the dependency graph JSON.

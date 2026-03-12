@@ -1,0 +1,753 @@
+#!/usr/bin/env python
+# /// script
+# requires-python = ">=3.10"
+# dependencies = []
+# ///
+
+"""
+6_visualize_graph.py
+
+Visualize ACE dependency graphs as interactive D3.js HTML files.
+
+Input: combined data file from combined_data/ (e.g. combined_data/181.json).
+Each file is a list of comment objects with dependency_graph, raw_comment, comment_tag per node.
+
+Usage:
+    # All comments for article 181 (saved to graph_visualizations/181/)
+    python 6_visualize_graph.py --input combined_data/181.json
+
+    # Single comment
+    python 6_visualize_graph.py --input combined_data/181.json --comment-index 4
+"""
+
+from __future__ import annotations
+
+import argparse
+import json
+import html as html_mod
+from pathlib import Path
+from typing import Dict
+
+
+CATEGORIES = [
+    "Visual feature detection",
+    "Visual data extraction",
+    "Encoding interpretation",
+    "Background knowledge",
+    "Personal/episodic retrieval",
+    "Explanatory inference",
+    "Predictive / counterfactual inference",
+    "Evaluative / affective judgment",
+    "Information need / curiosity",
+    "Meta / paratext",
+]
+
+TAB10_HEX = [
+    "#1f77b4", "#ff7f0e", "#2ca02c", "#d62728", "#9467bd",
+    "#8c564b", "#e377c2", "#7f7f7f", "#bcbd22", "#17becf",
+]
+
+CATEGORY_COLORS: Dict[str, str] = {
+    cat: TAB10_HEX[i % len(TAB10_HEX)] for i, cat in enumerate(CATEGORIES)
+}
+CATEGORY_COLORS["unknown"] = "#b3b3b3"
+
+
+def load_combined_data(combined_path: Path) -> list:
+    """Load combined data JSON (list of comment records with dependency_graph, raw_comment, etc.)."""
+    if not combined_path.exists():
+        raise FileNotFoundError(f"Combined data not found: {combined_path}")
+    with combined_path.open("r", encoding="utf-8") as f:
+        return json.load(f)
+
+
+def classification_lookup_from_dependency_graph(dependency_graph: list) -> Dict[str, str]:
+    """Build sentence -> category lookup from dependency_graph nodes (use comment_tag)."""
+    return {
+        node["sentence"]: node.get("comment_tag", "unknown")
+        for node in dependency_graph
+    }
+
+
+def build_graph_data(
+    dep_graph_data: dict,
+    classification_lookup: Dict[str, str],
+) -> tuple[list[dict], list[dict]]:
+    """Return (nodes, links) lists ready for D3 force simulation."""
+    nodes = []
+    links = []
+
+    for node in dep_graph_data["dependency_graph"]:
+        node_id = node["id"]
+        sentence = node["sentence"]
+        category = classification_lookup.get(sentence, "unknown")
+        cluster_id = node.get("cluster_id") or ""
+        cluster_statement = node.get("cluster_statement") or ""
+        if cluster_id and cluster_statement:
+            cluster_label = f"{cluster_id}: {cluster_statement}"
+        else:
+            cluster_label = sentence  # fallback when no cluster info
+        nodes.append({
+            "id": node_id,
+            "sentence": sentence,
+            "cluster_label": cluster_label,
+            "category": category,
+            "color": CATEGORY_COLORS.get(category, CATEGORY_COLORS["unknown"]),
+        })
+
+    for node in dep_graph_data["dependency_graph"]:
+        node_id = node["id"]
+        for dep_id in node.get("depends_on", []):
+            links.append({"source": dep_id, "target": node_id})
+
+    return nodes, links
+
+
+def generate_html(
+    nodes: list[dict],
+    links: list[dict],
+    article_id: str,
+    comment_index: int,
+    raw_comment: str,
+    max_comment_index: int,
+) -> str:
+    used_categories = sorted({n["category"] for n in nodes})
+    legend_items = [
+        {"category": cat, "color": CATEGORY_COLORS[cat]}
+        for cat in CATEGORIES + ["unknown"]
+        if cat in used_categories
+    ]
+
+    nodes_json = json.dumps(nodes)
+    links_json = json.dumps(links)
+    legend_json = json.dumps(legend_items)
+    escaped_comment = html_mod.escape(raw_comment)
+    title = f"ACE Dependency Graph — article {article_id}, comment {comment_index}"
+
+    return f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>{html_mod.escape(title)}</title>
+<style>
+  * {{ margin: 0; padding: 0; box-sizing: border-box; }}
+  body {{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: #fafafa;
+    color: #222;
+    overflow: hidden;
+  }}
+  #header {{
+    padding: 12px 20px 8px;
+    background: #fff;
+    border-bottom: 1px solid #e0e0e0;
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    flex-wrap: wrap;
+  }}
+  #header h1 {{
+    font-size: 15px;
+    font-weight: 600;
+    white-space: nowrap;
+  }}
+  #header .hint {{
+    font-size: 12px;
+    color: #888;
+  }}
+  #header .label-toggle {{
+    margin-left: auto;
+    font-size: 12px;
+  }}
+  #header .label-toggle button {{
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background: #fff;
+    cursor: pointer;
+    font-size: 12px;
+  }}
+  #header .label-toggle button:hover {{
+    background: #f0f0f0;
+  }}
+  #header .label-toggle button.active {{
+    background: #1f77b4;
+    color: #fff;
+    border-color: #1f77b4;
+  }}
+  #header .comment-selector {{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 12px;
+  }}
+  #header .comment-selector label {{
+    color: #555;
+  }}
+  #header .comment-selector select {{
+    padding: 4px 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 12px;
+    background: #fff;
+  }}
+  #graph-container {{
+    position: relative;
+    width: 100vw;
+  }}
+  svg {{ display: block; }}
+  .node-label {{
+    font-size: 11px;
+    line-height: 1.35;
+    color: #222;
+    padding: 6px 8px;
+    overflow: hidden;
+    word-wrap: break-word;
+    cursor: grab;
+    user-select: none;
+  }}
+  #legend {{
+    position: absolute;
+    top: 12px;
+    right: 16px;
+    background: rgba(255,255,255,0.93);
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 10px 14px;
+    font-size: 12px;
+    line-height: 1.7;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    max-height: calc(100vh - 140px);
+    overflow-y: auto;
+    z-index: 50;
+  }}
+  #legend .title {{
+    font-weight: 600;
+    margin-bottom: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    user-select: none;
+  }}
+  #legend .title .chevron {{
+    font-size: 10px;
+    transition: transform 0.2s;
+  }}
+  #legend.collapsed .title .chevron {{
+    transform: rotate(-90deg);
+  }}
+  #legend.collapsed .legend-body {{
+    display: none;
+  }}
+  #legend .item {{ display: flex; align-items: center; gap: 7px; }}
+  #legend .swatch {{
+    width: 13px; height: 13px; border-radius: 3px; flex-shrink: 0;
+    border: 1px solid rgba(0,0,0,0.15);
+  }}
+  #comment-bar {{
+    position: fixed;
+    bottom: 0; left: 0; right: 0;
+    background: #fffde7;
+    border-top: 1px solid #e0d88a;
+    padding: 10px 20px;
+    font-size: 12px;
+    font-style: italic;
+    color: #555;
+    max-height: 100px;
+    overflow-y: auto;
+    line-height: 1.5;
+  }}
+  #tooltip {{
+    position: absolute;
+    pointer-events: none;
+    background: rgba(30,30,30,0.92);
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-size: 12px;
+    line-height: 1.45;
+    max-width: 360px;
+    opacity: 0;
+    transition: opacity 0.15s;
+    z-index: 100;
+  }}
+  #tooltip .cat {{ color: #aaa; font-size: 11px; margin-top: 3px; }}
+</style>
+</head>
+<body>
+<div id="header">
+  <h1>{html_mod.escape(title)}</h1>
+  <span class="hint">Hover a node to highlight its edges. Drag nodes to rearrange. Scroll to zoom.</span>
+  <div class="comment-selector">
+    <label for="comment-select">Comment:</label>
+    <select id="comment-select"></select>
+  </div>
+  <div class="label-toggle">
+    <button type="button" id="btn-ace" class="active">ACE sentence</button>
+    <button type="button" id="btn-cluster">cluster_id + statement</button>
+  </div>
+</div>
+<div id="graph-container">
+  <svg id="graph"></svg>
+  <div id="legend"></div>
+  <div id="tooltip"></div>
+</div>
+<div id="comment-bar">{escaped_comment}</div>
+
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/dagre@0.8.5/dist/dagre.min.js"></script>
+<script>
+(function() {{
+  const currentCommentIndex = {comment_index};
+  const maxCommentIndex = {max_comment_index};
+  const nodes = {nodes_json};
+  const links = {links_json};
+  const legendItems = {legend_json};
+
+  const NODE_W = 180;
+  const PAD_X = 8, PAD_Y = 6;
+  const LINE_H = 14;
+  const CHAR_W = 6.2;
+  const CHARS_PER_LINE = Math.floor((NODE_W - PAD_X * 2) / CHAR_W);
+
+  function wrapText(text) {{
+    const words = text.split(/\\s+/);
+    const lines = [];
+    let cur = "";
+    words.forEach(w => {{
+      const test = cur ? cur + " " + w : w;
+      if (test.length > CHARS_PER_LINE && cur) {{
+        lines.push(cur);
+        cur = w;
+      }} else {{
+        cur = test;
+      }}
+    }});
+    if (cur) lines.push(cur);
+    return lines;
+  }}
+
+  nodes.forEach(n => {{
+    const lines = wrapText(n.sentence);
+    const clusterLines = wrapText(n.cluster_label);
+    n.nodeW = NODE_W;
+    const hAce = Math.max(30, lines.length * LINE_H + PAD_Y * 2);
+    const hCluster = Math.max(30, clusterLines.length * LINE_H + PAD_Y * 2);
+    // Store separate heights for ACE vs cluster labels so each mode
+    // can use its own minimal height instead of the max of both.
+    n.hAce = hAce;
+    n.hCluster = hCluster;
+    // Default to ACE sentence mode.
+    n.nodeH = hAce;
+    // Layout height used by dagre (max of both modes) so overall layout is stable.
+    n.layoutH = Math.max(hAce, hCluster);
+    n.lines = lines;
+    n.clusterLines = clusterLines;
+    n.showCluster = false;
+  }});
+
+  const commentBarH = document.getElementById("comment-bar").offsetHeight;
+  const headerH = document.getElementById("header").offsetHeight;
+  const width = window.innerWidth;
+  const height = window.innerHeight - headerH - commentBarH;
+
+  const container = document.getElementById("graph-container");
+  container.style.height = height + "px";
+
+  const svg = d3.select("#graph")
+    .attr("width", width)
+    .attr("height", height);
+
+  const g = svg.append("g");
+
+  const zoom = d3.zoom()
+    .scaleExtent([0.05, 6])
+    .on("zoom", (event) => g.attr("transform", event.transform));
+  svg.call(zoom);
+
+  const defs = svg.append("defs");
+
+  function addMarker(id, color) {{
+    defs.append("marker")
+      .attr("id", id)
+      .attr("viewBox", "0 -5 10 10")
+      .attr("refX", 10)
+      .attr("refY", 0)
+      .attr("markerWidth", 8)
+      .attr("markerHeight", 8)
+      .attr("orient", "auto")
+      .append("path")
+      .attr("d", "M0,-4L10,0L0,4")
+      .attr("fill", color);
+  }}
+  addMarker("arrow", "#6a9fd8");
+  addMarker("arrow-dim", "#ddd");
+  addMarker("arrow-hl", "#1a5ea0");
+
+  // Dagre hierarchical layout
+  const nodeById = new Map(nodes.map(n => [n.id, n]));
+  const gDagre = new dagre.graphlib.Graph();
+  gDagre.setGraph({{ rankdir: "TB", nodesep: 25, ranksep: 50, marginx: 20, marginy: 20 }});
+  gDagre.setDefaultEdgeLabel(() => ({{}}));
+  nodes.forEach(n => gDagre.setNode(n.id, {{ width: n.nodeW, height: n.layoutH }}));
+  links.forEach(l => gDagre.setEdge(l.source, l.target));
+  dagre.layout(gDagre);
+  nodes.forEach(n => {{
+    const pos = gDagre.node(n.id);
+    n.x = pos.x - n.nodeW / 2;
+    n.y = pos.y - n.nodeH / 2;
+  }});
+  links.forEach(l => {{
+    if (typeof l.source !== "object") l.source = nodeById.get(l.source);
+    if (typeof l.target !== "object") l.target = nodeById.get(l.target);
+  }});
+
+  const linkSel = g.append("g")
+    .selectAll("line")
+    .data(links)
+    .join("line")
+    .attr("stroke", "#6a9fd8")
+    .attr("stroke-width", 2)
+    .attr("stroke-opacity", 0.55)
+    .attr("marker-end", "url(#arrow)");
+
+  const nodeGroup = g.append("g")
+    .selectAll("g")
+    .data(nodes)
+    .join("g")
+    .attr("cursor", "grab");
+
+  const rectSel = nodeGroup.append("rect")
+    .attr("width", d => d.nodeW)
+    .attr("height", d => d.nodeH)
+    .attr("rx", 6).attr("ry", 6)
+    .attr("fill", d => d.color)
+    .attr("fill-opacity", 0.22)
+    .attr("stroke", d => d.color)
+    .attr("stroke-width", 2)
+    .attr("stroke-opacity", 0.7);
+
+  function setNodeLabel(group, d) {{
+    const lines = d.showCluster ? d.clusterLines : d.lines;
+    let t = group.select("text");
+    if (t.empty()) {{
+      t = group.append("text")
+        .attr("x", d.nodeW / 2)
+        .attr("text-anchor", "middle")
+        .attr("font-size", "11px")
+        .attr("fill", "#222")
+        .attr("pointer-events", "none");
+    }}
+    const startY = PAD_Y + LINE_H * 0.8;
+    const tspans = t.selectAll("tspan").data(lines);
+    tspans.exit().remove();
+    tspans.enter().append("tspan")
+      .attr("text-anchor", "middle")
+      .merge(tspans)
+      .attr("x", d.nodeW / 2)
+      .attr("y", (line, i) => startY + i * LINE_H)
+      .text(line => line);
+  }}
+
+  nodeGroup.each(function(d) {{
+    setNodeLabel(d3.select(this), d);
+  }});
+
+  const tooltip = d3.select("#tooltip");
+
+  const adjacency = new Map();
+  nodes.forEach(n => adjacency.set(n.id, new Set()));
+  links.forEach(l => {{
+    const s = (typeof l.source === "object") ? l.source.id : l.source;
+    const t = (typeof l.target === "object") ? l.target.id : l.target;
+    adjacency.get(s).add(t);
+    adjacency.get(t).add(s);
+  }});
+
+  function isConnected(a, b) {{
+    return a === b || adjacency.get(a).has(b);
+  }}
+
+  function rectEdgePoint(cx, cy, w, h, tx, ty) {{
+    const dx = tx - cx, dy = ty - cy;
+    if (dx === 0 && dy === 0) return [cx, cy];
+    const hw = w / 2, hh = h / 2;
+    const absDx = Math.abs(dx), absDy = Math.abs(dy);
+    let scale;
+    if (absDx / hw > absDy / hh) {{
+      scale = hw / absDx;
+    }} else {{
+      scale = hh / absDy;
+    }}
+    return [cx + dx * scale, cy + dy * scale];
+  }}
+
+  nodeGroup
+    .on("mouseenter", function(event, d) {{
+      rectSel
+        .attr("fill-opacity", o => isConnected(d.id, o.id) ? 0.35 : 0.06)
+        .attr("stroke-opacity", o => isConnected(d.id, o.id) ? 1 : 0.1);
+      nodeGroup.selectAll("text")
+        .attr("fill-opacity", function() {{
+          const o = d3.select(this.parentNode).datum();
+          return isConnected(d.id, o.id) ? 1 : 0.12;
+        }});
+      linkSel
+        .attr("stroke-opacity", l => {{
+          const s = (typeof l.source === "object") ? l.source.id : l.source;
+          const t = (typeof l.target === "object") ? l.target.id : l.target;
+          return (s === d.id || t === d.id) ? 0.85 : 0.06;
+        }})
+        .attr("stroke", l => {{
+          const s = (typeof l.source === "object") ? l.source.id : l.source;
+          const t = (typeof l.target === "object") ? l.target.id : l.target;
+          return (s === d.id || t === d.id) ? "#1a5ea0" : "#ddd";
+        }})
+        .attr("stroke-width", l => {{
+          const s = (typeof l.source === "object") ? l.source.id : l.source;
+          const t = (typeof l.target === "object") ? l.target.id : l.target;
+          return (s === d.id || t === d.id) ? 3 : 1;
+        }})
+        .attr("marker-end", l => {{
+          const s = (typeof l.source === "object") ? l.source.id : l.source;
+          const t = (typeof l.target === "object") ? l.target.id : l.target;
+          return (s === d.id || t === d.id) ? "url(#arrow-hl)" : "url(#arrow-dim)";
+        }});
+
+      tooltip
+        .style("opacity", 1)
+        .html("<strong>" + d.id + ":</strong> " + d.sentence + "<div class='cat'>" + d.category + "</div>");
+    }})
+    .on("mousemove", function(event) {{
+      const [mx, my] = d3.pointer(event, container);
+      tooltip
+        .style("left", (mx + 18) + "px")
+        .style("top", (my - 10) + "px");
+    }})
+    .on("mouseleave", function() {{
+      rectSel.attr("fill-opacity", 0.22).attr("stroke-opacity", 0.7);
+      nodeGroup.selectAll("text").attr("fill-opacity", 1);
+      linkSel
+        .attr("stroke", "#6a9fd8")
+        .attr("stroke-opacity", 0.55)
+        .attr("stroke-width", 2)
+        .attr("marker-end", "url(#arrow)");
+      tooltip.style("opacity", 0);
+    }});
+
+  function updatePositions() {{
+    nodeGroup.attr("transform", d => "translate(" + d.x + "," + d.y + ")");
+    linkSel.each(function(d) {{
+      const sx = d.source.x + d.source.nodeW / 2;
+      const sy = d.source.y + d.source.nodeH / 2;
+      const tx = d.target.x + d.target.nodeW / 2;
+      const ty = d.target.y + d.target.nodeH / 2;
+      const [x1, y1] = rectEdgePoint(sx, sy, d.source.nodeW, d.source.nodeH, tx, ty);
+      const [x2, y2] = rectEdgePoint(tx, ty, d.target.nodeW, d.target.nodeH, sx, sy);
+      d3.select(this)
+        .attr("x1", x1).attr("y1", y1)
+        .attr("x2", x2).attr("y2", y2);
+    }});
+  }}
+
+  const drag = d3.drag()
+    .on("drag", (event, d) => {{
+      d.x = event.x;
+      d.y = event.y;
+      updatePositions();
+    }});
+  nodeGroup.call(drag);
+
+  updatePositions();
+
+  // Comment dropdown: select between comment_1.html ... comment_{max}
+  const commentSelect = document.getElementById("comment-select");
+  if (commentSelect && maxCommentIndex && maxCommentIndex > 0) {{
+    for (let i = 1; i <= maxCommentIndex; i++) {{
+      const opt = document.createElement("option");
+      opt.value = String(i);
+      opt.textContent = String(i);
+      if (i === currentCommentIndex) {{
+        opt.selected = true;
+      }}
+      commentSelect.appendChild(opt);
+    }}
+
+    commentSelect.addEventListener("change", (event) => {{
+      const selected = parseInt(event.target.value, 10);
+      if (!selected || selected === currentCommentIndex) return;
+      const parts = window.location.pathname.split("/");
+      parts[parts.length - 1] = `comment_${{selected}}.html`;
+      const newPath = parts.join("/");
+      window.location.pathname = newPath;
+    }});
+  }}
+
+  // Legend
+  const leg = d3.select("#legend");
+  const titleDiv = leg.append("div").attr("class", "title");
+  titleDiv.append("span").text("Category");
+  titleDiv.append("span").attr("class", "chevron").text("\u25BC");
+  titleDiv.on("click", () => {{
+    leg.classed("collapsed", !leg.classed("collapsed"));
+  }});
+  const legendBody = leg.append("div").attr("class", "legend-body");
+  legendItems.forEach(item => {{
+    const row = legendBody.append("div").attr("class", "item");
+    row.append("div").attr("class", "swatch").style("background", item.color);
+    row.append("span").text(item.category);
+  }});
+
+  // Label toggle: ACE sentence vs cluster_id + cluster_statement
+  document.getElementById("btn-ace").onclick = function() {{
+    nodes.forEach(n => {{
+      n.showCluster = false;
+      n.nodeH = n.hAce;
+    }});
+    rectSel.attr("height", d => d.nodeH);
+    nodeGroup.each(function(d) {{ setNodeLabel(d3.select(this), d); }});
+    updatePositions();
+    document.getElementById("btn-ace").classList.add("active");
+    document.getElementById("btn-cluster").classList.remove("active");
+  }};
+  document.getElementById("btn-cluster").onclick = function() {{
+    nodes.forEach(n => {{
+      n.showCluster = true;
+      n.nodeH = n.hCluster;
+    }});
+    rectSel.attr("height", d => d.nodeH);
+    nodeGroup.each(function(d) {{ setNodeLabel(d3.select(this), d); }});
+    updatePositions();
+    document.getElementById("btn-cluster").classList.add("active");
+    document.getElementById("btn-ace").classList.remove("active");
+  }};
+
+  // Fit to view (dagre positions are known immediately)
+  ;(function() {{
+    const pad = 80;
+    let x0 = Infinity, y0 = Infinity, x1 = -Infinity, y1 = -Infinity;
+    nodes.forEach(n => {{
+      if (n.x < x0) x0 = n.x;
+      if (n.y < y0) y0 = n.y;
+      const nr = n.x + n.nodeW;
+      const nb = n.y + n.nodeH;
+      if (nr > x1) x1 = nr;
+      if (nb > y1) y1 = nb;
+    }});
+    const bw = x1 - x0 + pad * 2;
+    const bh = y1 - y0 + pad * 2;
+    const scale = Math.min(width / bw, height / bh, 1.5);
+    const cx = (x0 + x1) / 2;
+    const cy = (y0 + y1) / 2;
+    const tx = width / 2 - scale * cx;
+    const ty = height / 2 - scale * cy;
+    svg.transition().duration(600).call(
+      zoom.transform,
+      d3.zoomIdentity.translate(tx, ty).scale(scale)
+    );
+  }})();
+}})();
+</script>
+</body>
+</html>"""
+
+
+def visualize_comment_from_combined(
+    comment_record: dict,
+    article_id: str,
+    output_file: Path | None,
+    max_comment_index: int,
+) -> None:
+    """Build and save graph visualization from a single combined-data comment record."""
+    dependency_graph = comment_record.get("dependency_graph", [])
+    raw_comment = comment_record.get("raw_comment", "")
+    comment_index = int(comment_record.get("comment_index", 0))
+
+    dep_data = {"dependency_graph": dependency_graph}
+    classification_lookup = classification_lookup_from_dependency_graph(dependency_graph)
+    nodes, links = build_graph_data(dep_data, classification_lookup)
+
+    print(f"ACE Dependency Graph for article {article_id}, comment {comment_index}:")
+    print(f"  Nodes: {len(nodes)}")
+    print(f"  Edges: {len(links)}")
+
+    cat_counts: Dict[str, int] = {}
+    for n in nodes:
+        cat = n["category"]
+        cat_counts[cat] = cat_counts.get(cat, 0) + 1
+    print("  Categories:")
+    for cat, count in sorted(cat_counts.items()):
+        print(f"    {cat}: {count}")
+
+    html_content = generate_html(
+        nodes,
+        links,
+        article_id,
+        comment_index,
+        raw_comment,
+        max_comment_index,
+    )
+
+    if output_file is not None:
+        output_file.parent.mkdir(parents=True, exist_ok=True)
+        output_file.write_text(html_content, encoding="utf-8")
+        print(f"Saved interactive graph to {output_file}")
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser(
+        description="Visualize ACE dependency graphs from combined_data JSON as interactive D3.js HTML files."
+    )
+    parser.add_argument(
+        "--input",
+        required=True,
+        type=Path,
+        help="Path to combined data JSON (e.g. combined_data/181.json). Article ID is derived from filename.",
+    )
+    parser.add_argument(
+        "--comment-index",
+        type=int,
+        default=None,
+        help="Comment index within the article. If omitted, all comments are visualized.",
+    )
+    parser.add_argument(
+        "--output-dir",
+        type=Path,
+        default=Path("graph_visualizations"),
+        help="Directory for output (default: graph_visualizations). HTML files go in {output_dir}/{article_id}/.",
+    )
+
+    args = parser.parse_args()
+    combined_path = args.input.resolve()
+    article_id = combined_path.stem
+
+    comments = load_combined_data(combined_path)
+    if not comments:
+        print(f"No comments in {combined_path}")
+        return
+
+    max_comment_index = max(int(c.get("comment_index", 0)) for c in comments)
+
+    out_dir = args.output_dir / article_id
+    out_dir.mkdir(parents=True, exist_ok=True)
+
+    if args.comment_index is not None:
+        matching = [c for c in comments if int(c.get("comment_index", -1)) == args.comment_index]
+        if not matching:
+            print(f"No comment with index {args.comment_index} in {combined_path}")
+            return
+        comment_record = matching[0]
+        output_file = out_dir / f"comment_{args.comment_index}.html"
+        visualize_comment_from_combined(comment_record, article_id, output_file, max_comment_index)
+    else:
+        print(f"Found {len(comments)} comments for article {article_id}")
+        for comment_record in comments:
+            idx = int(comment_record.get("comment_index", 0))
+            output_file = out_dir / f"comment_{idx}.html"
+            visualize_comment_from_combined(comment_record, article_id, output_file, max_comment_index)
+
+
+if __name__ == "__main__":
+    main()
