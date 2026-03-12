@@ -52,6 +52,27 @@ CATEGORY_COLORS: Dict[str, str] = {
 }
 CATEGORY_COLORS["unknown"] = "#b3b3b3"
 
+EDGE_TYPES = [
+    "Causal",
+    "Elaboration",
+    "Conditional",
+    "Evaluative",
+    "Questioning",
+    "Contrastive",
+    "Narrative/Referential",
+]
+
+EDGE_TYPE_COLORS: Dict[str, str] = {
+    "Causal":               "#e41a1c",
+    "Elaboration":          "#377eb8",
+    "Conditional":          "#ff7f00",
+    "Evaluative":           "#984ea3",
+    "Questioning":          "#4daf4a",
+    "Contrastive":          "#a65628",
+    "Narrative/Referential": "#f781bf",
+    "unknown":              "#999999",
+}
+
 
 def load_combined_data(combined_path: Path) -> list:
     """Load combined data JSON (list of comment records with dependency_graph, raw_comment, etc.)."""
@@ -81,24 +102,28 @@ def build_graph_data(
         node_id = node["id"]
         sentence = node["sentence"]
         category = classification_lookup.get(sentence, "unknown")
-        cluster_id = node.get("cluster_id") or ""
-        cluster_statement = node.get("cluster_statement") or ""
-        if cluster_id and cluster_statement:
-            cluster_label = f"{cluster_id}: {cluster_statement}"
-        else:
-            cluster_label = sentence  # fallback when no cluster info
         nodes.append({
             "id": node_id,
             "sentence": sentence,
-            "cluster_label": cluster_label,
             "category": category,
             "color": CATEGORY_COLORS.get(category, CATEGORY_COLORS["unknown"]),
         })
 
     for node in dep_graph_data["dependency_graph"]:
         node_id = node["id"]
-        for dep_id in node.get("depends_on", []):
-            links.append({"source": dep_id, "target": node_id})
+        for dep in node.get("depends_on", []):
+            if isinstance(dep, dict):
+                dep_id = dep["id"]
+                edge_type = dep.get("edge_type", "unknown")
+            else:
+                dep_id = dep
+                edge_type = "unknown"
+            links.append({
+                "source": dep_id,
+                "target": node_id,
+                "edge_type": edge_type,
+                "color": EDGE_TYPE_COLORS.get(edge_type, EDGE_TYPE_COLORS["unknown"]),
+            })
 
     return nodes, links
 
@@ -118,9 +143,17 @@ def generate_html(
         if cat in used_categories
     ]
 
+    used_edge_types = sorted({l["edge_type"] for l in links})
+    edge_legend_items = [
+        {"edge_type": et, "color": EDGE_TYPE_COLORS.get(et, EDGE_TYPE_COLORS["unknown"])}
+        for et in EDGE_TYPES + ["unknown"]
+        if et in used_edge_types
+    ]
+
     nodes_json = json.dumps(nodes)
     links_json = json.dumps(links)
     legend_json = json.dumps(legend_items)
+    edge_legend_json = json.dumps(edge_legend_items)
     escaped_comment = html_mod.escape(raw_comment)
     title = f"ACE Dependency Graph — article {article_id}, comment {comment_index}"
 
@@ -154,26 +187,6 @@ def generate_html(
   #header .hint {{
     font-size: 12px;
     color: #888;
-  }}
-  #header .label-toggle {{
-    margin-left: auto;
-    font-size: 12px;
-  }}
-  #header .label-toggle button {{
-    padding: 6px 12px;
-    border: 1px solid #ccc;
-    border-radius: 6px;
-    background: #fff;
-    cursor: pointer;
-    font-size: 12px;
-  }}
-  #header .label-toggle button:hover {{
-    background: #f0f0f0;
-  }}
-  #header .label-toggle button.active {{
-    background: #1f77b4;
-    color: #fff;
-    border-color: #1f77b4;
   }}
   #header .comment-selector {{
     display: flex;
@@ -246,6 +259,15 @@ def generate_html(
     width: 13px; height: 13px; border-radius: 3px; flex-shrink: 0;
     border: 1px solid rgba(0,0,0,0.15);
   }}
+  #legend .edge-swatch {{
+    width: 22px; height: 3px; flex-shrink: 0;
+    border-radius: 1px;
+  }}
+  #legend .section-divider {{
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 6px 0;
+  }}
   #comment-bar {{
     position: fixed;
     bottom: 0; left: 0; right: 0;
@@ -284,10 +306,6 @@ def generate_html(
     <label for="comment-select">Comment:</label>
     <select id="comment-select"></select>
   </div>
-  <div class="label-toggle">
-    <button type="button" id="btn-ace" class="active">ACE sentence</button>
-    <button type="button" id="btn-cluster">cluster_id + statement</button>
-  </div>
 </div>
 <div id="graph-container">
   <svg id="graph"></svg>
@@ -305,6 +323,7 @@ def generate_html(
   const nodes = {nodes_json};
   const links = {links_json};
   const legendItems = {legend_json};
+  const edgeLegendItems = {edge_legend_json};
 
   const NODE_W = 180;
   const PAD_X = 8, PAD_Y = 6;
@@ -330,22 +349,9 @@ def generate_html(
   }}
 
   nodes.forEach(n => {{
-    const lines = wrapText(n.sentence);
-    const clusterLines = wrapText(n.cluster_label);
+    n.lines = wrapText(n.sentence);
     n.nodeW = NODE_W;
-    const hAce = Math.max(30, lines.length * LINE_H + PAD_Y * 2);
-    const hCluster = Math.max(30, clusterLines.length * LINE_H + PAD_Y * 2);
-    // Store separate heights for ACE vs cluster labels so each mode
-    // can use its own minimal height instead of the max of both.
-    n.hAce = hAce;
-    n.hCluster = hCluster;
-    // Default to ACE sentence mode.
-    n.nodeH = hAce;
-    // Layout height used by dagre (max of both modes) so overall layout is stable.
-    n.layoutH = Math.max(hAce, hCluster);
-    n.lines = lines;
-    n.clusterLines = clusterLines;
-    n.showCluster = false;
+    n.nodeH = Math.max(30, n.lines.length * LINE_H + PAD_Y * 2);
   }});
 
   const commentBarH = document.getElementById("comment-bar").offsetHeight;
@@ -382,16 +388,22 @@ def generate_html(
       .attr("d", "M0,-4L10,0L0,4")
       .attr("fill", color);
   }}
-  addMarker("arrow", "#6a9fd8");
   addMarker("arrow-dim", "#ddd");
   addMarker("arrow-hl", "#1a5ea0");
+
+  const edgeTypeSet = new Set(links.map(l => l.edge_type || "unknown"));
+  edgeTypeSet.forEach(et => {{
+    const c = links.find(l => (l.edge_type || "unknown") === et);
+    const color = c ? c.color : "#999";
+    addMarker("arrow-" + et.replace(/[^a-zA-Z0-9]/g, "_"), color);
+  }});
 
   // Dagre hierarchical layout
   const nodeById = new Map(nodes.map(n => [n.id, n]));
   const gDagre = new dagre.graphlib.Graph();
   gDagre.setGraph({{ rankdir: "TB", nodesep: 25, ranksep: 50, marginx: 20, marginy: 20 }});
   gDagre.setDefaultEdgeLabel(() => ({{}}));
-  nodes.forEach(n => gDagre.setNode(n.id, {{ width: n.nodeW, height: n.layoutH }}));
+  nodes.forEach(n => gDagre.setNode(n.id, {{ width: n.nodeW, height: n.nodeH }}));
   links.forEach(l => gDagre.setEdge(l.source, l.target));
   dagre.layout(gDagre);
   nodes.forEach(n => {{
@@ -404,14 +416,18 @@ def generate_html(
     if (typeof l.target !== "object") l.target = nodeById.get(l.target);
   }});
 
+  function markerIdFor(edgeType) {{
+    return "arrow-" + (edgeType || "unknown").replace(/[^a-zA-Z0-9]/g, "_");
+  }}
+
   const linkSel = g.append("g")
     .selectAll("line")
     .data(links)
     .join("line")
-    .attr("stroke", "#6a9fd8")
+    .attr("stroke", d => d.color)
     .attr("stroke-width", 2)
-    .attr("stroke-opacity", 0.55)
-    .attr("marker-end", "url(#arrow)");
+    .attr("stroke-opacity", 0.65)
+    .attr("marker-end", d => "url(#" + markerIdFor(d.edge_type) + ")");
 
   const nodeGroup = g.append("g")
     .selectAll("g")
@@ -430,7 +446,7 @@ def generate_html(
     .attr("stroke-opacity", 0.7);
 
   function setNodeLabel(group, d) {{
-    const lines = d.showCluster ? d.clusterLines : d.lines;
+    const lines = d.lines;
     let t = group.select("text");
     if (t.empty()) {{
       t = group.append("text")
@@ -498,12 +514,12 @@ def generate_html(
         .attr("stroke-opacity", l => {{
           const s = (typeof l.source === "object") ? l.source.id : l.source;
           const t = (typeof l.target === "object") ? l.target.id : l.target;
-          return (s === d.id || t === d.id) ? 0.85 : 0.06;
+          return (s === d.id || t === d.id) ? 0.9 : 0.08;
         }})
         .attr("stroke", l => {{
           const s = (typeof l.source === "object") ? l.source.id : l.source;
           const t = (typeof l.target === "object") ? l.target.id : l.target;
-          return (s === d.id || t === d.id) ? "#1a5ea0" : "#ddd";
+          return (s === d.id || t === d.id) ? l.color : "#ddd";
         }})
         .attr("stroke-width", l => {{
           const s = (typeof l.source === "object") ? l.source.id : l.source;
@@ -513,12 +529,23 @@ def generate_html(
         .attr("marker-end", l => {{
           const s = (typeof l.source === "object") ? l.source.id : l.source;
           const t = (typeof l.target === "object") ? l.target.id : l.target;
-          return (s === d.id || t === d.id) ? "url(#arrow-hl)" : "url(#arrow-dim)";
+          return (s === d.id || t === d.id) ? "url(#" + markerIdFor(l.edge_type) + ")" : "url(#arrow-dim)";
         }});
 
+      const inEdges = links.filter(l => {{
+        const t = (typeof l.target === "object") ? l.target.id : l.target;
+        return t === d.id;
+      }});
+      let edgeInfo = "";
+      if (inEdges.length > 0) {{
+        edgeInfo = "<div class='cat'>Incoming edges: " +
+          inEdges.map(l => "<span style='color:" + l.color + ";font-weight:600'>" + l.edge_type + "</span>").join(", ") +
+          "</div>";
+      }}
       tooltip
         .style("opacity", 1)
-        .html("<strong>" + d.id + ":</strong> " + d.sentence + "<div class='cat'>" + d.category + "</div>");
+        .html("<strong>" + d.id + ":</strong> " + d.sentence +
+          "<div class='cat'>" + d.category + "</div>" + edgeInfo);
     }})
     .on("mousemove", function(event) {{
       const [mx, my] = d3.pointer(event, container);
@@ -530,10 +557,10 @@ def generate_html(
       rectSel.attr("fill-opacity", 0.22).attr("stroke-opacity", 0.7);
       nodeGroup.selectAll("text").attr("fill-opacity", 1);
       linkSel
-        .attr("stroke", "#6a9fd8")
-        .attr("stroke-opacity", 0.55)
+        .attr("stroke", d => d.color)
+        .attr("stroke-opacity", 0.65)
         .attr("stroke-width", 2)
-        .attr("marker-end", "url(#arrow)");
+        .attr("marker-end", d => "url(#" + markerIdFor(d.edge_type) + ")");
       tooltip.style("opacity", 0);
     }});
 
@@ -578,51 +605,36 @@ def generate_html(
     commentSelect.addEventListener("change", (event) => {{
       const selected = parseInt(event.target.value, 10);
       if (!selected || selected === currentCommentIndex) return;
-      const parts = window.location.pathname.split("/");
-      parts[parts.length - 1] = `comment_${{selected}}.html`;
-      const newPath = parts.join("/");
-      window.location.pathname = newPath;
+      window.location.href = `comment_${{selected}}.html`;
     }});
   }}
 
   // Legend
   const leg = d3.select("#legend");
   const titleDiv = leg.append("div").attr("class", "title");
-  titleDiv.append("span").text("Category");
+  titleDiv.append("span").text("Legend");
   titleDiv.append("span").attr("class", "chevron").text("\u25BC");
   titleDiv.on("click", () => {{
     leg.classed("collapsed", !leg.classed("collapsed"));
   }});
   const legendBody = leg.append("div").attr("class", "legend-body");
+
+  legendBody.append("div").style("font-weight", "600").style("font-size", "11px").style("margin-bottom", "2px").text("Node categories");
   legendItems.forEach(item => {{
     const row = legendBody.append("div").attr("class", "item");
     row.append("div").attr("class", "swatch").style("background", item.color);
     row.append("span").text(item.category);
   }});
 
-  // Label toggle: ACE sentence vs cluster_id + cluster_statement
-  document.getElementById("btn-ace").onclick = function() {{
-    nodes.forEach(n => {{
-      n.showCluster = false;
-      n.nodeH = n.hAce;
+  if (edgeLegendItems.length > 0) {{
+    legendBody.append("hr").attr("class", "section-divider");
+    legendBody.append("div").style("font-weight", "600").style("font-size", "11px").style("margin-bottom", "2px").text("Edge types");
+    edgeLegendItems.forEach(item => {{
+      const row = legendBody.append("div").attr("class", "item");
+      row.append("div").attr("class", "edge-swatch").style("background", item.color);
+      row.append("span").text(item.edge_type);
     }});
-    rectSel.attr("height", d => d.nodeH);
-    nodeGroup.each(function(d) {{ setNodeLabel(d3.select(this), d); }});
-    updatePositions();
-    document.getElementById("btn-ace").classList.add("active");
-    document.getElementById("btn-cluster").classList.remove("active");
-  }};
-  document.getElementById("btn-cluster").onclick = function() {{
-    nodes.forEach(n => {{
-      n.showCluster = true;
-      n.nodeH = n.hCluster;
-    }});
-    rectSel.attr("height", d => d.nodeH);
-    nodeGroup.each(function(d) {{ setNodeLabel(d3.select(this), d); }});
-    updatePositions();
-    document.getElementById("btn-cluster").classList.add("active");
-    document.getElementById("btn-ace").classList.remove("active");
-  }};
+  }}
 
   // Fit to view (dagre positions are known immediately)
   ;(function() {{
