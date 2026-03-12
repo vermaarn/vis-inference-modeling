@@ -72,32 +72,32 @@ ACE_FEW_SHOT_OUTPUT = """{
     "The headline is:",
     "What is the solution to increase the rate of clean energy?"
   ],
-  "source_mappings": [
-    "The rate of wind and solar have been becoming higher since 2000",
-    "but fossil fuels occupies more than half of materials",
-    "the situation is seen as a problem",
-    "the governments of various countries are promoting renewable energy",
-    "I had an opportunity to think about a solution to improve the situations when I was a junior high school student",
-    "I had an opportunity to think about a solution to improve the situations when I was a junior high school student",
-    "the electric power generation in the world decreased in around 2008",
-    "the electric power generation in the world decreased in around ... 2021",
-    "the Lehman shock in 2008",
-    "the spreading of coronavirus",
-    "the economy was in a slump because of them",
-    "the economy was in a slump because of them",
-    "demand of electric power generation decreased",
-    "I wonder why the electric power generation in the world decreased in around 2008 and 2021. I think that the Lehman shock in 2008 and the spreading of coronavirus relate to the result.",
-    "If the rate of fossil fuels remains steady",
-    "the global warming ... will worsen",
-    "the air pollution will worsen",
-    "the precious natural environment in Akita",
-    "where I live",
-    "the precious natural environment in Akita, where I live, could be negatively affected",
-    "the growth of Akita cedars",
-    "the growth of Akita cedars may deteriorate",
-    "Catchy headline",
-    "What is the Solution to Increase the Rate of Clean Energy?"
-  ]
+  "source_mappings": {
+    "The rate of wind energy and solar energy has increased since 2000.": ["The rate of wind and solar have been becoming higher since 2000"],
+    "However, fossil fuels occupy more than half of energy materials.": ["but fossil fuels occupies more than half of materials"],
+    "This situation is a problem.": ["the situation is seen as a problem"],
+    "The governments of many countries promote renewable energy.": ["the governments of various countries are promoting renewable energy"],
+    "When I was a junior high school student, I had an opportunity.": ["I had an opportunity", "when I was a junior high school student"],
+    "At that time, I thought about a solution to improve this situation.": ["to think about a solution to improve the situations"],
+    "The electric power generation in the world decreased around 2008.": ["the electric power generation in the world decreased in around", "2008"],
+    "The electric power generation in the world also decreased around 2021.": ["the electric power generation in the world decreased in around", "2021"],
+    "The Lehman Shock happened in 2008.": ["the Lehman shock in 2008"],
+    "The coronavirus spread in 2021.": ["the spreading of coronavirus"m "2008"],
+    "The Lehman Shock caused an economic slump.": ["the Lehman shock", "the economy was in a slump because of them"],
+    "The spread of coronavirus caused an economic slump.": ["the economy was in a slump because of them"],
+    "An economic slump reduces the demand for electric power.": ["demand of electric power generation decreased"],
+    "The decrease in electric power generation relates to these events.": ["I wonder why the electric power generation in the world decreased in around 2008 and 2021", "I think that the Lehman shock in 2008 and the spreading of coronavirus relate to the result"],
+    "The rate of fossil fuels may remain steady.": ["If the rate of fossil fuels remains steady"],
+    "If the rate of fossil fuels remains steady, global warming will worsen.": ["the global warming", "will worsen"],
+    "If the rate of fossil fuels remains steady, air pollution will worsen.": ["the air pollution will worsen"],
+    "Akita has a precious natural environment.": ["the precious natural environment in Akita"],
+    "I live in Akita.": ["where I live"],
+    "If global warming worsens, the natural environment in Akita will be negatively affected.": ["the precious natural environment in Akita, where I live, could be negatively affected"],
+    "Akita cedars grow in Akita.": ["the growth of Akita cedars"],
+    "If global warming worsens, the growth of Akita cedars may deteriorate.": ["the growth of Akita cedars may deteriorate"],
+    "The headline is:": ["Catchy headline"],
+    "What is the solution to increase the rate of clean energy?": ["What is the Solution to Increase the Rate of Clean Energy?"]
+  }
 }
 """
 
@@ -130,7 +130,7 @@ def generate_ace_for_comment(
     Returns a dict with ``ace_sentences`` and ``source_mappings`` lists.
     """
     if not comment_text.strip():
-        return {"ace_sentences": [], "source_mappings": []}
+        return {"ace_sentences": [], "source_mappings": {}}
 
     system_content = (
         "You are an expert in Attempto Controlled English (ACE). "
@@ -163,9 +163,12 @@ def generate_ace_for_comment(
         raise ValueError(f"Failed to parse ACE JSON for comment: {exc}\nRaw: {content}")
 
     ace_sentences = parsed.get("ace_sentences") or []
-    source_mappings = parsed.get("source_mappings") or []
+    source_mappings = parsed.get("source_mappings") or {}
     cleaned_sentences = [str(s).strip() for s in ace_sentences if str(s).strip()]
-    cleaned_mappings = [str(s).strip() for s in source_mappings]
+    cleaned_mappings = {
+        str(k).strip(): [str(v).strip() for v in vals]
+        for k, vals in source_mappings.items()
+    }
     return {"ace_sentences": cleaned_sentences, "source_mappings": cleaned_mappings}
 
 

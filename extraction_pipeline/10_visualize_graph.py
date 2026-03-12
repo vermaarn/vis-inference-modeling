@@ -99,7 +99,7 @@ def classification_lookup_from_dependency_graph(dependency_graph: list) -> Dict[
 def build_graph_data(
     dep_graph_data: dict,
     classification_lookup: Dict[str, list[str]],
-    source_mappings: list[str] | None = None,
+    source_mappings: dict[str, list[str]] | list[str] | None = None,
 ) -> tuple[list[dict], list[dict]]:
     """Return (nodes, links) lists ready for D3 force simulation."""
     nodes = []
@@ -112,15 +112,19 @@ def build_graph_data(
         if not categories:
             categories = ["unknown"]
         colors = [CATEGORY_COLORS.get(cat, CATEGORY_COLORS["unknown"]) for cat in categories]
-        source_mapping = ""
-        if source_mappings and isinstance(node_id, int) and 0 <= node_id < len(source_mappings):
-            source_mapping = source_mappings[node_id]
+        source_mapping_list: list[str] = []
+        if source_mappings:
+            if isinstance(source_mappings, dict):
+                source_mapping_list = source_mappings.get(sentence, [])
+            elif isinstance(source_mappings, list) and isinstance(node_id, int) and 0 <= node_id < len(source_mappings):
+                val = source_mappings[node_id]
+                source_mapping_list = [val] if val else []
         nodes.append({
             "id": node_id,
             "sentence": sentence,
             "categories": categories,
             "colors": colors,
-            "source_mapping": source_mapping,
+            "source_mappings": source_mapping_list,
         })
 
     for node in dep_graph_data["dependency_graph"]:
@@ -561,23 +565,43 @@ def generate_html(
   }}
 
   function highlightCommentBar(d) {{
-    if (!d.source_mapping) return;
+    if (!d.source_mappings || d.source_mappings.length === 0) return;
     const raw = commentBar.textContent;
-    const pattern = escapeRegex(d.source_mapping);
-    const re = new RegExp("(" + pattern + ")", "i");
-    const match = raw.match(re);
-    if (!match) return;
-    const idx = match.index;
-    const matchedText = match[0];
-    const before = raw.substring(0, idx);
-    const after = raw.substring(idx + matchedText.length);
     const color = (d.colors && d.colors.length > 0) ? d.colors[0] : "#888";
-    commentBar.innerHTML =
-      escapeHTML(before) +
-      "<span class='source-hl' style='background:" + color + "33;outline:2px solid " + color + "'>" +
-      escapeHTML(matchedText) +
-      "</span>" +
-      escapeHTML(after);
+
+    const ranges = [];
+    d.source_mappings.forEach(function(mapping) {{
+      const pattern = escapeRegex(mapping);
+      const re = new RegExp(pattern, "gi");
+      let m;
+      while ((m = re.exec(raw)) !== null) {{
+        ranges.push({{ start: m.index, end: m.index + m[0].length }});
+      }}
+    }});
+    if (ranges.length === 0) return;
+
+    ranges.sort(function(a, b) {{ return a.start - b.start; }});
+    const merged = [{{ start: ranges[0].start, end: ranges[0].end }}];
+    for (let i = 1; i < ranges.length; i++) {{
+      const last = merged[merged.length - 1];
+      if (ranges[i].start <= last.end) {{
+        last.end = Math.max(last.end, ranges[i].end);
+      }} else {{
+        merged.push({{ start: ranges[i].start, end: ranges[i].end }});
+      }}
+    }}
+
+    let html = "";
+    let pos = 0;
+    merged.forEach(function(r) {{
+      html += escapeHTML(raw.substring(pos, r.start));
+      html += "<span class='source-hl' style='background:" + color + "33;outline:2px solid " + color + "'>";
+      html += escapeHTML(raw.substring(r.start, r.end));
+      html += "</span>";
+      pos = r.end;
+    }});
+    html += escapeHTML(raw.substring(pos));
+    commentBar.innerHTML = html;
   }}
 
   function escapeHTML(s) {{
@@ -635,8 +659,8 @@ def generate_html(
           "</div>";
       }}
       let srcInfo = "";
-      if (d.source_mapping) {{
-        srcInfo = "<div class='src'>&#128206; " + d.source_mapping + "</div>";
+      if (d.source_mappings && d.source_mappings.length > 0) {{
+        srcInfo = "<div class='src'>&#128206; " + d.source_mappings.join(" &bull; ") + "</div>";
       }}
       tooltip
         .style("opacity", 1)
@@ -815,9 +839,18 @@ def main() -> None:
     )
     parser.add_argument(
         "--input",
-        required=True,
         type=Path,
-        help="Path to combined data JSON (e.g. combined_data/181.json). Article ID is derived from filename.",
+        default=None,
+        help="Path to combined data JSON (e.g. combined_data/181.json). "
+             "If omitted, it will be inferred as combined_data/{article_id}.json when --article-id is provided.",
+    )
+    parser.add_argument(
+        "--article-id",
+        type=str,
+        default=None,
+        help="Article ID to use for output directory and titles. "
+             "If --input is omitted, this will also be used to infer the input path as combined_data/{article_id}.json. "
+             "If not provided, it defaults to the stem of the input filename.",
     )
     parser.add_argument(
         "--comment-index",
@@ -833,8 +866,17 @@ def main() -> None:
     )
 
     args = parser.parse_args()
-    combined_path = args.input.resolve()
-    article_id = combined_path.stem
+
+    if args.input is None and args.article_id is None:
+        parser.error("You must specify either --input or --article-id.")
+
+    if args.input is not None:
+        combined_path = args.input.resolve()
+    else:
+        # Infer input from article_id as combined_data/{article_id}.json
+        combined_path = (Path("combined_data") / f"{args.article_id}.json").resolve()
+
+    article_id = args.article_id or combined_path.stem
 
     comments = load_combined_data(combined_path)
     if not comments:

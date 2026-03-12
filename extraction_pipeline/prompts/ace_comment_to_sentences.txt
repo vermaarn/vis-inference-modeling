@@ -15,11 +15,11 @@ Now process this new comment. Output only JSON with the following structure:
     "Second ACE sentence.",
     "..."
   ],
-  "source_mappings": [
-    "The part of the raw comment that the first ACE sentence maps to.",
-    "The part of the raw comment that the second ACE sentence maps to.",
-    "..."
-  ]
+  "source_mappings": {
+    "First ACE sentence.": ["The part of the raw comment that this ACE sentence maps to.", "Another part if non-contiguous."],
+    "Second ACE sentence.": ["The part of the raw comment that this ACE sentence maps to."],
+    "...": ["..."]
+  }
 }
 
 Here is the new comment to convert:
