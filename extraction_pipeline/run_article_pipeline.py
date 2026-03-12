@@ -71,7 +71,7 @@ def run_pipeline_for_article(article_id: str, *, test: bool = False) -> None:
     run_step(
         [
             "1_extract_ace_comments.py",
-            "--article_id",
+            "--article-id",
             str(article_id),
         ],
         test=test,

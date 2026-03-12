@@ -247,7 +247,7 @@ def main() -> None:
         )
     )
     parser.add_argument(
-        "--article_id",
+        "--article-id",
         type=str,
         help="Article ID (e.g., '38'). If omitted, use --all to process every JSON in the data directory.",
     )
@@ -284,7 +284,7 @@ def main() -> None:
     args = parser.parse_args()
 
     if not args.all and not args.article_id:
-        parser.error("You must specify either --article_id or --all.")
+        parser.error("You must specify either --article-id or --all.")
 
     results: List[Dict[str, Any]] = []
 
