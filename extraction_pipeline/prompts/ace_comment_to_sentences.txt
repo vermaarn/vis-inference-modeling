@@ -4,7 +4,7 @@ First, here is a few-shot example showing how to convert a comment into ACE:
 
 <ACE_FEW_SHOT_COMMENT>
 
-Corresponding ACE version:
+Corresponding ACE JSON output:
 
 <ACE_FEW_SHOT_OUTPUT>
 
@@ -13,6 +13,11 @@ Now process this new comment. Output only JSON with the following structure:
   "ace_sentences": [
     "First ACE sentence.",
     "Second ACE sentence.",
+    "..."
+  ],
+  "source_mappings": [
+    "The part of the raw comment that the first ACE sentence maps to.",
+    "The part of the raw comment that the second ACE sentence maps to.",
     "..."
   ]
 }
