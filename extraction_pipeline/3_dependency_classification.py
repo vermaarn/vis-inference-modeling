@@ -8,7 +8,7 @@ article_id, comment_index, and dependency_graph (nodes with id, sentence,
 depends_on list of {id, edge_type}).
 
 Edge types: Causal, Elaboration, Conditional, Evaluative, Questioning,
-Contrastive, Narrative/Referential.
+Contrastive, Narrative/Referential, Uncategorized.
 
 Usage:
   python 3_dependency_classification.py --article-id 181
@@ -43,6 +43,7 @@ VALID_EDGE_TYPES = frozenset([
     "Questioning",
     "Contrastive",
     "Narrative/Referential",
+    "Uncategorized",
 ])
 
 # ---------------------------------------------------------------------------

@@ -36,6 +36,8 @@ Assign exactly one of the following edge types to each dependency:
    - *"When I was a junior high school student, I had an opportunity" → "At that time, I thought about a solution"*
    - *"I live in Akita" → "Akita cedars grow in Akita"*
 
+8. **Uncategorized** — The dependency between A and B is clear but does not fit any of the above categories. Use this when none of the other 7 edge types adequately describe the relationship.
+
 A sentence may depend on **zero, one, or many** other sentences. Each dependency edge receives exactly one edge type. Sentences can depend on sentences that appear **before or after** them in the list — ordering does not restrict dependency direction.
 
 ## Constraints
@@ -43,8 +45,8 @@ A sentence may depend on **zero, one, or many** other sentences. Each dependency
 1. The graph **must be a DAG** (Directed Acyclic Graph): there must be no cycles. If A depends on B, then B must NOT (directly or transitively) depend on A.
 2. Every sentence from the input must appear exactly once in the output.
 3. Each node's `id` must be a 0-based integer matching the sentence's position in the input list.
-4. `depends_on` is an array of objects, each with `id` (integer) and `edge_type` (one of the 7 labels above). May be empty.
-5. Use the exact edge type labels: "Causal", "Elaboration", "Conditional", "Evaluative", "Questioning", "Contrastive", "Narrative/Referential".
+4. `depends_on` is an array of objects, each with `id` (integer) and `edge_type` (one of the 8 labels above). May be empty.
+5. Use the exact edge type labels: "Causal", "Elaboration", "Conditional", "Evaluative", "Questioning", "Contrastive", "Narrative/Referential", "Uncategorized".
 
 ## Output format
 
@@ -59,7 +61,7 @@ Return a single JSON object with exactly this shape:
       "id": <int>,
       "sentence": "<the sentence text>",
       "depends_on": [
-        { "id": <int>, "edge_type": "<one of the 7 labels>" },
+        { "id": <int>, "edge_type": "<one of the 8 labels>" },
         ...
       ]
     },

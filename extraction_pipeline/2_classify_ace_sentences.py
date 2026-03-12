@@ -4,7 +4,9 @@ Classify ACE sentences from extracted ACE comments into semantic categories.
 Reads ACE comment JSONs produced by 1_extract_ace_comments.py (under ace_comments/),
 loads the classification prompt from prompts/classify_ace_sentences.txt, sends all
 ACE sentences to an LLM in one or more batches, and writes a JSON file with
-article_id, comment_id, original_comment, and comment_tag per sentence.
+article_id, comment_id, original_comment, and comment_tags per sentence.
+
+Each sentence may receive one or more category tags.
 """
 
 from __future__ import annotations
@@ -35,6 +37,90 @@ DEFAULT_IMAGES_DIR = PROJECT_ROOT / "data" / "images"
 
 # Max sentences per API call to stay within context limits
 BATCH_SIZE = 500
+
+# ---------------------------------------------------------------------------
+# Few-shot examples injected into the prompt at <CLASSIFICATION_EXAMPLES>
+# ---------------------------------------------------------------------------
+
+_CLASSIFICATION_EXAMPLES: List[Dict[str, Any]] = [
+    {
+        "input": [
+            {"article_id": "183", "comment_id": 1, "original_comment": "The author asks about gender-neutrality."},
+            {"article_id": "183", "comment_id": 1, "original_comment": "Young women reach out to the family."},
+        ],
+        "output": {
+            "classifications": [
+                {"article_id": "183", "comment_id": 1, "original_comment": "The author asks about gender-neutrality.", "comment_tags": ["Information need / curiosity"]},
+                {"article_id": "183", "comment_id": 1, "original_comment": "Young women reach out to the family.", "comment_tags": ["Visual data extraction"]},
+            ]
+        },
+    },
+    {
+        "input": [
+            {"article_id": "183", "comment_id": 4, "original_comment": "Young women reach out to their parents more often than young men."},
+            {"article_id": "183", "comment_id": 4, "original_comment": "Less than 25 percent of young men visit their parents in person at least once a day or a few times a week."},
+            {"article_id": "183", "comment_id": 4, "original_comment": "Less than 25 percent of young women visit their parents in person at least once a day or a few times a week."},
+            {"article_id": "183", "comment_id": 4, "original_comment": "Text messages and phone calls are more accessible ways of connection than in-person visits."},
+            {"article_id": "183", "comment_id": 4, "original_comment": "Text messages and phone calls show a greater divide than in-person visits between young men and young women in interaction with their parents."},
+            {"article_id": "183", "comment_id": 4, "original_comment": "Traditional gender stereotypes may affect how often a young person reaches out to the person's parents."},
+            {"article_id": "183", "comment_id": 4, "original_comment": "Society typically encourages young men to be independent."},
+            {"article_id": "183", "comment_id": 4, "original_comment": "Society typically encourages young men to not ask for help often."},
+            {"article_id": "183", "comment_id": 4, "original_comment": "Society expects women to lead domestic lives."},
+            {"article_id": "183", "comment_id": 4, "original_comment": "Society expects women to lead family-centric lives."},
+            {"article_id": "183", "comment_id": 4, "original_comment": "This phenomenon may have deeper roots."},
+            {"article_id": "183", "comment_id": 4, "original_comment": "These deeper roots may include biological instincts."},
+            {"article_id": "183", "comment_id": 4, "original_comment": "Biological instincts may be unique to each gender."},
+            {"article_id": "183", "comment_id": 4, "original_comment": "I have a very close relationship with my parents."},
+            {"article_id": "183", "comment_id": 4, "original_comment": "I am an only child."},
+            {"article_id": "183", "comment_id": 4, "original_comment": "I am an only daughter."},
+            {"article_id": "183", "comment_id": 4, "original_comment": "Many family friends of my family are adults who have only boys."},
+            {"article_id": "183", "comment_id": 4, "original_comment": "I am an honorary daughter of these adults."},
+            {"article_id": "183", "comment_id": 4, "original_comment": "People frequently mention that I reach out to these adults more than other people do."},
+            {"article_id": "183", "comment_id": 4, "original_comment": "People frequently mention that parenting a girl is very different."},
+            {"article_id": "183", "comment_id": 4, "original_comment": "Some people think that daughters are favorites for a reason."},
+        ],
+        "output": {
+            "classifications": [
+                {"article_id": "183", "comment_id": 4, "original_comment": "Young women reach out to their parents more often than young men.", "comment_tags": ["Visual data extraction"]},
+                {"article_id": "183", "comment_id": 4, "original_comment": "Less than 25 percent of young men visit their parents in person at least once a day or a few times a week.", "comment_tags": ["Visual data extraction"]},
+                {"article_id": "183", "comment_id": 4, "original_comment": "Less than 25 percent of young women visit their parents in person at least once a day or a few times a week.", "comment_tags": ["Visual data extraction"]},
+                {"article_id": "183", "comment_id": 4, "original_comment": "Text messages and phone calls are more accessible ways of connection than in-person visits.", "comment_tags": ["Background knowledge"]},
+                {"article_id": "183", "comment_id": 4, "original_comment": "Text messages and phone calls show a greater divide than in-person visits between young men and young women in interaction with their parents.", "comment_tags": ["Visual data extraction"]},
+                {"article_id": "183", "comment_id": 4, "original_comment": "Traditional gender stereotypes may affect how often a young person reaches out to the person's parents.", "comment_tags": ["Background knowledge", "Explanatory inference"]},
+                {"article_id": "183", "comment_id": 4, "original_comment": "Society typically encourages young men to be independent.", "comment_tags": ["Background knowledge"]},
+                {"article_id": "183", "comment_id": 4, "original_comment": "Society typically encourages young men to not ask for help often.", "comment_tags": ["Background knowledge"]},
+                {"article_id": "183", "comment_id": 4, "original_comment": "Society expects women to lead domestic lives.", "comment_tags": ["Background knowledge"]},
+                {"article_id": "183", "comment_id": 4, "original_comment": "Society expects women to lead family-centric lives.", "comment_tags": ["Background knowledge"]},
+                {"article_id": "183", "comment_id": 4, "original_comment": "This phenomenon may have deeper roots.", "comment_tags": ["Explanatory inference"]},
+                {"article_id": "183", "comment_id": 4, "original_comment": "These deeper roots may include biological instincts.", "comment_tags": ["Explanatory inference"]},
+                {"article_id": "183", "comment_id": 4, "original_comment": "Biological instincts may be unique to each gender.", "comment_tags": ["Background knowledge"]},
+                {"article_id": "183", "comment_id": 4, "original_comment": "I have a very close relationship with my parents.", "comment_tags": ["Personal/episodic retrieval"]},
+                {"article_id": "183", "comment_id": 4, "original_comment": "I am an only child.", "comment_tags": ["Personal/episodic retrieval"]},
+                {"article_id": "183", "comment_id": 4, "original_comment": "I am an only daughter.", "comment_tags": ["Personal/episodic retrieval"]},
+                {"article_id": "183", "comment_id": 4, "original_comment": "Many family friends of my family are adults who have only boys.", "comment_tags": ["Personal/episodic retrieval"]},
+                {"article_id": "183", "comment_id": 4, "original_comment": "I am an honorary daughter of these adults.", "comment_tags": ["Personal/episodic retrieval"]},
+                {"article_id": "183", "comment_id": 4, "original_comment": "People frequently mention that I reach out to these adults more than other people do.", "comment_tags": ["Personal/episodic retrieval"]},
+                {"article_id": "183", "comment_id": 4, "original_comment": "People frequently mention that parenting a girl is very different.", "comment_tags": ["Personal/episodic retrieval", "Background knowledge"]},
+                {"article_id": "183", "comment_id": 4, "original_comment": "Some people think that daughters are favorites for a reason.", "comment_tags": ["Evaluative / affective judgment"]},
+            ]
+        },
+    },
+]
+
+
+def _format_classification_examples() -> str:
+    """Render _CLASSIFICATION_EXAMPLES as Markdown for injection into the prompt."""
+    sections: List[str] = []
+    for i, ex in enumerate(_CLASSIFICATION_EXAMPLES, 1):
+        inp = json.dumps(ex["input"], indent=2, ensure_ascii=False)
+        out = json.dumps(ex["output"], indent=2, ensure_ascii=False)
+        sections.append(
+            f"### Example {i}\n\n"
+            f"**Input:**\n```json\n{inp}\n```\n\n"
+            f"**Output:**\n```json\n{out}\n```"
+        )
+    return "## Few-shot examples\n\n" + "\n\n".join(sections)
+
 
 IMAGE_ANALYSIS_PROMPT = """Analyze this data visualization image. Provide a concise, structured description covering:
 
@@ -246,7 +332,7 @@ def run_classification(
 ) -> List[Dict[str, Any]]:
     """
     Load ACE items, run classification in batches, merge results, and save JSON.
-    Returns the full list of { article_id, comment_id, original_comment, comment_tag }.
+    Returns the full list of { article_id, comment_id, original_comment, comment_tags }.
     If article_id_folder is set, load only from that directory. Else if article_id
     is set, load only from ace_comments_dir / article_id.
     """
@@ -295,6 +381,9 @@ def run_classification(
         batch_article_ids = {item["article_id"] for item in batch}
         image_info = _build_image_info_section(image_descriptions, batch_article_ids)
         prompt_text = prompt_template.replace("<IMAGE_INFORMATION>", image_info)
+        prompt_text = prompt_text.replace(
+            "<CLASSIFICATION_EXAMPLES>", _format_classification_examples()
+        )
 
         print(f"Classifying batch {batch_num} ({len(batch)} sentences)...")
         classifications = classify_batch(client, prompt_text, batch, model)
@@ -303,11 +392,14 @@ def run_classification(
         for c in classifications:
             if not isinstance(c, dict):
                 continue
+            tags = c.get("comment_tags", c.get("comment_tag", []))
+            if isinstance(tags, str):
+                tags = [tags] if tags else []
             row = {
                 "article_id": c.get("article_id", ""),
                 "comment_id": c.get("comment_id", 0),
                 "original_comment": c.get("original_comment", ""),
-                "comment_tag": c.get("comment_tag", ""),
+                "comment_tags": tags,
             }
             all_classifications.append(row)
             batch_rows.append(row)

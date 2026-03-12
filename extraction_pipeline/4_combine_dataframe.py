@@ -24,8 +24,8 @@ SCRIPT_DIR = Path(__file__).resolve().parent
 DEFAULT_DATA_DIR = SCRIPT_DIR
 
 
-def load_classifications(data_dir: Path, article_id: str) -> dict[int, dict[str, str]]:
-    """Load classifications and return {comment_id: {sentence: comment_tag}}."""
+def load_classifications(data_dir: Path, article_id: str) -> dict[int, dict[str, list[str]]]:
+    """Load classifications and return {comment_id: {sentence: comment_tags}}."""
     path = data_dir / "ace_classifications" / f"ace_sentence_classifications_{article_id}.json"
     if not path.exists():
         print(f"Warning: classifications file not found at {path}")
@@ -34,9 +34,15 @@ def load_classifications(data_dir: Path, article_id: str) -> dict[int, dict[str,
     with open(path) as f:
         raw = json.load(f)
 
-    grouped: dict[int, dict[str, str]] = defaultdict(dict)
+    grouped: dict[int, dict[str, list[str]]] = defaultdict(dict)
     for entry in raw:
-        grouped[entry["comment_id"]][entry["original_comment"]] = entry["comment_tag"]
+        tags = entry.get("comment_tags", None)
+        if tags is None:
+            tag = entry.get("comment_tag", "unknown")
+            tags = [tag] if tag else ["unknown"]
+        if isinstance(tags, str):
+            tags = [tags]
+        grouped[entry["comment_id"]][entry["original_comment"]] = tags
     return dict(grouped)
 
 
@@ -54,7 +60,7 @@ def combine_comment(
     data_dir: Path,
     article_id: str,
     comment_index: int,
-    classifications_by_comment: dict[int, dict[str, str]],
+    classifications_by_comment: dict[int, dict[str, list[str]]],
 ) -> dict | None:
     """Build a single combined object for one comment."""
     comment_path = data_dir / "ace_comments" / article_id / f"{comment_index}.json"
@@ -78,7 +84,7 @@ def combine_comment(
     tag_lookup = classifications_by_comment.get(comment_index, {})
     if dependency_graph is not None:
         for node in dependency_graph:
-            node["comment_tag"] = tag_lookup.get(node["sentence"])
+            node["comment_tags"] = tag_lookup.get(node["sentence"], ["unknown"])
 
     return {
         "article_id": article_id,

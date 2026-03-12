@@ -82,17 +82,24 @@ def load_combined_data(combined_path: Path) -> list:
         return json.load(f)
 
 
-def classification_lookup_from_dependency_graph(dependency_graph: list) -> Dict[str, str]:
-    """Build sentence -> category lookup from dependency_graph nodes (use comment_tag)."""
-    return {
-        node["sentence"]: node.get("comment_tag", "unknown")
-        for node in dependency_graph
-    }
+def classification_lookup_from_dependency_graph(dependency_graph: list) -> Dict[str, list[str]]:
+    """Build sentence -> categories lookup from dependency_graph nodes."""
+    result: Dict[str, list[str]] = {}
+    for node in dependency_graph:
+        tags = node.get("comment_tags")
+        if tags is None:
+            tag = node.get("comment_tag", "unknown")
+            tags = [tag] if tag else ["unknown"]
+        if isinstance(tags, str):
+            tags = [tags]
+        result[node["sentence"]] = tags
+    return result
 
 
 def build_graph_data(
     dep_graph_data: dict,
-    classification_lookup: Dict[str, str],
+    classification_lookup: Dict[str, list[str]],
+    source_mappings: list[str] | None = None,
 ) -> tuple[list[dict], list[dict]]:
     """Return (nodes, links) lists ready for D3 force simulation."""
     nodes = []
@@ -101,12 +108,19 @@ def build_graph_data(
     for node in dep_graph_data["dependency_graph"]:
         node_id = node["id"]
         sentence = node["sentence"]
-        category = classification_lookup.get(sentence, "unknown")
+        categories = classification_lookup.get(sentence, ["unknown"])
+        if not categories:
+            categories = ["unknown"]
+        colors = [CATEGORY_COLORS.get(cat, CATEGORY_COLORS["unknown"]) for cat in categories]
+        source_mapping = ""
+        if source_mappings and isinstance(node_id, int) and 0 <= node_id < len(source_mappings):
+            source_mapping = source_mappings[node_id]
         nodes.append({
             "id": node_id,
             "sentence": sentence,
-            "category": category,
-            "color": CATEGORY_COLORS.get(category, CATEGORY_COLORS["unknown"]),
+            "categories": categories,
+            "colors": colors,
+            "source_mapping": source_mapping,
         })
 
     for node in dep_graph_data["dependency_graph"]:
@@ -136,7 +150,7 @@ def generate_html(
     raw_comment: str,
     max_comment_index: int,
 ) -> str:
-    used_categories = sorted({n["category"] for n in nodes})
+    used_categories = sorted({cat for n in nodes for cat in n["categories"]})
     legend_items = [
         {"category": cat, "color": CATEGORY_COLORS[cat]}
         for cat in CATEGORIES + ["unknown"]
@@ -296,6 +310,13 @@ def generate_html(
     z-index: 100;
   }}
   #tooltip .cat {{ color: #aaa; font-size: 11px; margin-top: 3px; }}
+  #tooltip .src {{ color: #ccc; font-size: 11px; margin-top: 3px; font-style: italic; }}
+  #comment-bar .source-hl {{
+    border-radius: 3px;
+    padding: 1px 2px;
+    font-style: normal;
+    font-weight: 600;
+  }}
 </style>
 </head>
 <body>
@@ -435,13 +456,43 @@ def generate_html(
     .join("g")
     .attr("cursor", "grab");
 
+  // ClipPath per node for rounded corners on color slices
+  nodes.forEach(n => {{
+    defs.append("clipPath")
+      .attr("id", "clip-node-" + n.id)
+      .append("rect")
+      .attr("width", n.nodeW)
+      .attr("height", n.nodeH)
+      .attr("rx", 6).attr("ry", 6);
+  }});
+
+  // Vertical color slices (clipped to rounded rect)
+  const colorSliceGroups = nodeGroup.append("g")
+    .attr("clip-path", d => "url(#clip-node-" + d.id + ")");
+
+  colorSliceGroups.each(function(d) {{
+    const grp = d3.select(this);
+    const nColors = d.colors.length;
+    const sliceW = d.nodeW / nColors;
+    d.colors.forEach((color, i) => {{
+      grp.append("rect")
+        .attr("class", "fill-slice")
+        .attr("x", i * sliceW)
+        .attr("y", 0)
+        .attr("width", sliceW + 0.5)
+        .attr("height", d.nodeH)
+        .attr("fill", color)
+        .attr("fill-opacity", 0.22);
+    }});
+  }});
+
+  // Stroke rect on top
   const rectSel = nodeGroup.append("rect")
     .attr("width", d => d.nodeW)
     .attr("height", d => d.nodeH)
     .attr("rx", 6).attr("ry", 6)
-    .attr("fill", d => d.color)
-    .attr("fill-opacity", 0.22)
-    .attr("stroke", d => d.color)
+    .attr("fill", "none")
+    .attr("stroke", d => d.colors.length === 1 ? d.colors[0] : "#888")
     .attr("stroke-width", 2)
     .attr("stroke-opacity", 0.7);
 
@@ -500,10 +551,51 @@ def generate_html(
     return [cx + dx * scale, cy + dy * scale];
   }}
 
+  const allFillSlices = nodeGroup.selectAll(".fill-slice");
+
+  const commentBar = document.getElementById("comment-bar");
+  const originalCommentHTML = commentBar.innerHTML;
+
+  function escapeRegex(s) {{
+    return s.replace(/[.*+?^${{}}()|[\\]\\\\]/g, "\\\\$&");
+  }}
+
+  function highlightCommentBar(d) {{
+    if (!d.source_mapping) return;
+    const raw = commentBar.textContent;
+    const pattern = escapeRegex(d.source_mapping);
+    const re = new RegExp("(" + pattern + ")", "i");
+    const match = raw.match(re);
+    if (!match) return;
+    const idx = match.index;
+    const matchedText = match[0];
+    const before = raw.substring(0, idx);
+    const after = raw.substring(idx + matchedText.length);
+    const color = (d.colors && d.colors.length > 0) ? d.colors[0] : "#888";
+    commentBar.innerHTML =
+      escapeHTML(before) +
+      "<span class='source-hl' style='background:" + color + "33;outline:2px solid " + color + "'>" +
+      escapeHTML(matchedText) +
+      "</span>" +
+      escapeHTML(after);
+  }}
+
+  function escapeHTML(s) {{
+    return s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+  }}
+
+  function restoreCommentBar() {{
+    commentBar.innerHTML = originalCommentHTML;
+  }}
+
   nodeGroup
     .on("mouseenter", function(event, d) {{
+      allFillSlices
+        .attr("fill-opacity", function() {{
+          const o = d3.select(this.parentNode.parentNode).datum();
+          return isConnected(d.id, o.id) ? 0.35 : 0.06;
+        }});
       rectSel
-        .attr("fill-opacity", o => isConnected(d.id, o.id) ? 0.35 : 0.06)
         .attr("stroke-opacity", o => isConnected(d.id, o.id) ? 1 : 0.1);
       nodeGroup.selectAll("text")
         .attr("fill-opacity", function() {{
@@ -542,10 +634,16 @@ def generate_html(
           inEdges.map(l => "<span style='color:" + l.color + ";font-weight:600'>" + l.edge_type + "</span>").join(", ") +
           "</div>";
       }}
+      let srcInfo = "";
+      if (d.source_mapping) {{
+        srcInfo = "<div class='src'>&#128206; " + d.source_mapping + "</div>";
+      }}
       tooltip
         .style("opacity", 1)
         .html("<strong>" + d.id + ":</strong> " + d.sentence +
-          "<div class='cat'>" + d.category + "</div>" + edgeInfo);
+          "<div class='cat'>" + d.categories.join(", ") + "</div>" + edgeInfo + srcInfo);
+
+      highlightCommentBar(d);
     }})
     .on("mousemove", function(event) {{
       const [mx, my] = d3.pointer(event, container);
@@ -554,7 +652,8 @@ def generate_html(
         .style("top", (my - 10) + "px");
     }})
     .on("mouseleave", function() {{
-      rectSel.attr("fill-opacity", 0.22).attr("stroke-opacity", 0.7);
+      allFillSlices.attr("fill-opacity", 0.22);
+      rectSel.attr("stroke-opacity", 0.7);
       nodeGroup.selectAll("text").attr("fill-opacity", 1);
       linkSel
         .attr("stroke", d => d.color)
@@ -562,6 +661,7 @@ def generate_html(
         .attr("stroke-width", 2)
         .attr("marker-end", d => "url(#" + markerIdFor(d.edge_type) + ")");
       tooltip.style("opacity", 0);
+      restoreCommentBar();
     }});
 
   function updatePositions() {{
@@ -676,10 +776,11 @@ def visualize_comment_from_combined(
     dependency_graph = comment_record.get("dependency_graph", [])
     raw_comment = comment_record.get("raw_comment", "")
     comment_index = int(comment_record.get("comment_index", 0))
+    source_mappings = comment_record.get("source_mappings", [])
 
     dep_data = {"dependency_graph": dependency_graph}
     classification_lookup = classification_lookup_from_dependency_graph(dependency_graph)
-    nodes, links = build_graph_data(dep_data, classification_lookup)
+    nodes, links = build_graph_data(dep_data, classification_lookup, source_mappings)
 
     print(f"ACE Dependency Graph for article {article_id}, comment {comment_index}:")
     print(f"  Nodes: {len(nodes)}")
@@ -687,8 +788,8 @@ def visualize_comment_from_combined(
 
     cat_counts: Dict[str, int] = {}
     for n in nodes:
-        cat = n["category"]
-        cat_counts[cat] = cat_counts.get(cat, 0) + 1
+        for cat in n["categories"]:
+            cat_counts[cat] = cat_counts.get(cat, 0) + 1
     print("  Categories:")
     for cat, count in sorted(cat_counts.items()):
         print(f"    {cat}: {count}")

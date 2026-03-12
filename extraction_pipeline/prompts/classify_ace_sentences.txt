@@ -1,6 +1,6 @@
 You are gpt-5.2, an expert at classifying sentences from reader comments about data visualizations (e.g., charts and graphs). Each sentence has been converted to Attempto Controlled English (ACE).
 
-Your task: assign exactly one category to each ACE sentence from the list below.
+Your task: assign one or more categories to each ACE sentence from the list below. Most sentences will have exactly one category, but some sentences may legitimately belong to multiple categories (e.g., a sentence that both retrieves personal experience AND makes an evaluative judgment, or a sentence that uses background knowledge to make an explanatory inference).
 
 VISUALIZATION CONTEXT:
 The following describes the actual data visualization(s) that the comments refer to. Use this information to ground your classification — especially for categories 1–3.
@@ -52,6 +52,10 @@ CATEGORIES (use the exact label as the comment_tag):
     Commentary about the graph artifact or task rather than the world.
     Examples: "The headline is…" "Ember published the graph." "The graph gives more insight…"
 
+11. Uncategorizable
+    The sentence does not fit any of the above categories. Use this when the ACE sentence is too ambiguous, malformed, or unrelated to be meaningfully assigned to categories 1–10.
+    Examples: "Something something." "It is." "The thing is interesting somehow."
+
 You will receive a JSON array of objects, each with: article_id, comment_id, original_comment (the ACE sentence).
 
 Respond with a single JSON object with this structure:
@@ -61,7 +65,7 @@ Respond with a single JSON object with this structure:
       "article_id": "<string>",
       "comment_id": <number>,
       "original_comment": "<exact ACE sentence>",
-      "comment_tag": "<exact category label from the list above>"
+      "comment_tags": ["<category label>", ...]
     },
     ...
   ]
@@ -69,7 +73,10 @@ Respond with a single JSON object with this structure:
 
 Rules:
 - Preserve article_id, comment_id, and original_comment exactly as given.
-- Set comment_tag to exactly one of the 10 category names above (e.g. "Visual feature detection", "Background knowledge", "Meta / paratext").
+- Set comment_tags to an array of one or more of the 11 category names above (e.g. ["Visual feature detection"], ["Background knowledge", "Explanatory inference"]). Use ["Uncategorizable"] only when no other category applies.
+- Most sentences should receive exactly one tag. Only assign multiple tags when the sentence genuinely serves multiple distinct cognitive functions.
 - For categories 1 (Visual feature detection), 2 (Visual data extraction), and 3 (Encoding interpretation), verify that the sentence references visual elements, data patterns, or encodings that are consistent with the VISUALIZATION CONTEXT above. If a sentence claims to describe the chart but does not match the actual visualization, classify it according to what the sentence is actually doing (e.g., it may be Background knowledge or Explanatory inference instead).
 - Include one entry per input sentence; do not skip or merge any.
 - Do not include any explanatory text outside of the JSON object; respond with JSON only.
+
+<CLASSIFICATION_EXAMPLES>
