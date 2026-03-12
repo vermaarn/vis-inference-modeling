@@ -46,11 +46,28 @@ def load_classifications(data_dir: Path, article_id: str) -> dict[int, dict[str,
     return dict(grouped)
 
 
-def discover_comment_indices(data_dir: Path, article_id: str) -> list[int]:
-    """Find all comment indices available in the ace_comments folder."""
+def discover_comment_indices(
+    data_dir: Path,
+    article_id: str,
+    comment_index: int | None = None,
+) -> list[int]:
+    """Find all comment indices available in the ace_comments folder.
+
+    If comment_index is provided, only that index is returned (if present).
+    """
     comments_dir = data_dir / "ace_comments" / article_id
     if not comments_dir.is_dir():
         return []
+
+    if comment_index is not None:
+        target = comments_dir / f"{comment_index}.json"
+        if target.exists():
+            return [comment_index]
+        print(
+            f"No ace_comments file found for article {article_id}, comment_index {comment_index}"
+        )
+        return []
+
     return sorted(
         int(p.stem) for p in comments_dir.glob("*.json") if p.stem.isdigit()
     )
@@ -104,20 +121,37 @@ def main() -> None:
         "--data-dir",
         type=Path,
         default=DEFAULT_DATA_DIR,
-        help=f"Root data directory containing ace_comments/, ace_dependency_graphs/, ace_classifications/ (default: {DEFAULT_DATA_DIR}).",
+        help=(
+            "Root data directory containing ace_comments/, ace_dependency_graphs/, "
+            f"ace_classifications/ (default: {DEFAULT_DATA_DIR})."
+        ),
     )
     parser.add_argument(
         "--article-id",
         required=True,
         help="Article ID to combine.",
     )
+    parser.add_argument(
+        "--comment-index",
+        type=int,
+        default=None,
+        help=(
+            "Optional 1-based comment index. If set, only this comment is combined "
+            "for the given article."
+        ),
+    )
+
     args = parser.parse_args()
 
     data_dir = args.data_dir.resolve()
     article_id = args.article_id
 
     classifications = load_classifications(data_dir, article_id)
-    indices = discover_comment_indices(data_dir, article_id)
+    indices = discover_comment_indices(
+        data_dir,
+        article_id,
+        comment_index=args.comment_index,
+    )
 
     if not indices:
         print(f"No comments found for article {article_id}")

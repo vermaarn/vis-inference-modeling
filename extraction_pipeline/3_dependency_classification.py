@@ -260,6 +260,7 @@ def _ensure_client(api_key: str | None) -> OpenAI:
 def load_comment_files(
     ace_comments_dir: Path,
     article_id: str,
+    comment_index: int | None = None,
 ) -> List[Path]:
     """
     Return paths to all comment JSON files for the given article_id, sorted by
@@ -275,7 +276,13 @@ def load_comment_files(
             return int(p.stem)
         except ValueError:
             return -1
-    return sorted(paths, key=key)
+    paths = sorted(paths, key=key)
+
+    if comment_index is not None:
+        target = str(comment_index)
+        paths = [p for p in paths if p.stem == target]
+
+    return paths
 
 
 def _format_edge_examples() -> str:
@@ -361,12 +368,13 @@ def run_dependency_classification(
     article_id: str,
     api_key: str | None = None,
     model: str = "gpt-5.2",
+    comment_index: int | None = None,
 ) -> List[Dict[str, Any]]:
     """
     Load all comments for article_id, build a dependency graph for each, and
     write one JSON per comment to output_dir/{article_id}/{comment_index}.json.
     """
-    comment_paths = load_comment_files(ace_comments_dir, article_id)
+    comment_paths = load_comment_files(ace_comments_dir, article_id, comment_index=comment_index)
     if not comment_paths:
         print(f"No comment files found in {ace_comments_dir / article_id}")
         return []
@@ -463,6 +471,15 @@ def main() -> None:
         required=True,
         help="Article ID: only process comments under ace_comments/<article_id>/",
     )
+    parser.add_argument(
+        "--comment-index",
+        type=int,
+        default=None,
+        help=(
+            "Optional 1-based comment index. If set, only this comment is processed "
+            "for the given article."
+        ),
+    )
     args = parser.parse_args()
 
     run_dependency_classification(
@@ -472,6 +489,7 @@ def main() -> None:
         article_id=args.article_id,
         api_key=args.api_key,
         model=args.model,
+        comment_index=args.comment_index,
     )
 
 

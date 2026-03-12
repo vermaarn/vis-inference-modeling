@@ -60,7 +60,12 @@ def run_step(cmd: list[str], *, test: bool = False) -> None:
         raise
 
 
-def run_pipeline_for_article(article_id: str, *, test: bool = False) -> None:
+def run_pipeline_for_article(
+    article_id: str,
+    *,
+    test: bool = False,
+    comment_index: int | None = None,
+) -> None:
     """
     Run the full 5-step pipeline for a single article_id.
 
@@ -68,44 +73,44 @@ def run_pipeline_for_article(article_id: str, *, test: bool = False) -> None:
     can quickly verify every script at least starts up correctly.
     """
     # 1) Extract ACE comments
-    run_step(
-        [
-            "1_extract_ace_comments.py",
-            "--article-id",
-            str(article_id),
-        ],
-        test=test,
-    )
+    cmd_1 = [
+        "1_extract_ace_comments.py",
+        "--article-id",
+        str(article_id),
+    ]
+    if comment_index is not None:
+        cmd_1 += ["--comment-index", str(comment_index)]
+    run_step(cmd_1, test=test)
 
     # 2) Classify ACE sentences
-    run_step(
-        [
-            "2_classify_ace_sentences.py",
-            "--article-id",
-            str(article_id),
-        ],
-        test=test,
-    )
+    cmd_2 = [
+        "2_classify_ace_sentences.py",
+        "--article-id",
+        str(article_id),
+    ]
+    if comment_index is not None:
+        cmd_2 += ["--comment-index", str(comment_index)]
+    run_step(cmd_2, test=test)
 
     # 3) Dependency classification
-    run_step(
-        [
-            "3_dependency_classification.py",
-            "--article-id",
-            str(article_id),
-        ],
-        test=test,
-    )
+    cmd_3 = [
+        "3_dependency_classification.py",
+        "--article-id",
+        str(article_id),
+    ]
+    if comment_index is not None:
+        cmd_3 += ["--comment-index", str(comment_index)]
+    run_step(cmd_3, test=test)
 
     # 4) Combine per-comment data
-    run_step(
-        [
-            "4_combine_dataframe.py",
-            "--article-id",
-            str(article_id),
-        ],
-        test=test,
-    )
+    cmd_4 = [
+        "4_combine_dataframe.py",
+        "--article-id",
+        str(article_id),
+    ]
+    if comment_index is not None:
+        cmd_4 += ["--comment-index", str(comment_index)]
+    run_step(cmd_4, test=test)
 
     # 5) Visualize graph from combined data
     combined_path = SCRIPT_DIR / "combined_data" / f"{article_id}.json"
@@ -141,6 +146,15 @@ def main() -> None:
         help="List of article IDs to process (e.g. 181 202 305).",
     )
     parser.add_argument(
+        "--comment-index",
+        type=int,
+        default=None,
+        help=(
+            "Optional 1-based comment index. If set, each step in the pipeline is "
+            "restricted to this single comment for the selected article(s)."
+        ),
+    )
+    parser.add_argument(
         "--test",
         action="store_true",
         help="Test mode: run each step but kill it after 5 seconds.",
@@ -156,7 +170,11 @@ def main() -> None:
         print(f"\n{'#' * 80}")
         print(f"# Processing article {article_id} ({i}/{len(article_ids)})")
         print(f"{'#' * 80}")
-        run_pipeline_for_article(article_id, test=args.test)
+        run_pipeline_for_article(
+            article_id,
+            test=args.test,
+            comment_index=args.comment_index,
+        )
 
 
 if __name__ == "__main__":

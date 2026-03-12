@@ -16,14 +16,20 @@ Now process this new comment. Output only JSON with the following structure:
     "..."
   ],
   "source_mappings": {
-    "First ACE sentence.": ["The part of the raw comment that this ACE sentence maps to.", "Another part if non-contiguous."],
-    "Second ACE sentence.": ["The part of the raw comment that this ACE sentence maps to."],
+    "First ACE sentence.": ["exact verbatim span from original", "another exact verbatim span if non-contiguous"],
+    "Second ACE sentence.": ["exact verbatim span from original"],
     "...": ["..."]
   }
 }
+
+Rules for source_mappings:
+1. Every string in a source_mappings array must be copied CHARACTER-FOR-CHARACTER from the original comment. Do not paraphrase, correct grammar, or reconstruct the source text in any way.
+2. Each array element must be a single contiguous sequence of consecutive words exactly as they appear in the comment.
+3. If the evidence for one ACE sentence comes from two or more non-adjacent parts of the comment, use separate array elements — but each element must still be a verbatim substring.
+4. CRITICAL — splitting shared source spans: If a single phrase in the original covers two pieces of information that you split into different ACE sentences (e.g. "decreased in around 2008 and 2021" produces two sentences, one for 2008 and one for 2021), do NOT cite the full combined phrase for both sentences. Instead, cite only the portion relevant to each: use the shared prefix once and the specific year/item as a separate element. See the few-shot example for how "decreased around 2008" and "decreased around 2021" are handled.
+5. Before outputting, verify that every source_mappings string can be found WORD-FOR-WORD as a substring of the original comment text.
 
 Here is the new comment to convert:
 
 COMMENT:
 <COMMENT_TEXT>
-

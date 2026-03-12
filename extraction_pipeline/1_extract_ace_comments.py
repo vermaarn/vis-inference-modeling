@@ -75,14 +75,14 @@ ACE_FEW_SHOT_OUTPUT = """{
   "source_mappings": {
     "The rate of wind energy and solar energy has increased since 2000.": ["The rate of wind and solar have been becoming higher since 2000"],
     "However, fossil fuels occupy more than half of energy materials.": ["but fossil fuels occupies more than half of materials"],
-    "This situation is a problem.": ["the situation is seen as a problem"],
+    "This situation is a problem.": ["In fact, the situation is seen as a problem"],
     "The governments of many countries promote renewable energy.": ["the governments of various countries are promoting renewable energy"],
     "When I was a junior high school student, I had an opportunity.": ["I had an opportunity", "when I was a junior high school student"],
     "At that time, I thought about a solution to improve this situation.": ["to think about a solution to improve the situations"],
     "The electric power generation in the world decreased around 2008.": ["the electric power generation in the world decreased in around", "2008"],
     "The electric power generation in the world also decreased around 2021.": ["the electric power generation in the world decreased in around", "2021"],
     "The Lehman Shock happened in 2008.": ["the Lehman shock in 2008"],
-    "The coronavirus spread in 2021.": ["the spreading of coronavirus"m "2008"],
+    "The coronavirus spread in 2021.": ["the spreading of coronavirus", "2021"],
     "The Lehman Shock caused an economic slump.": ["the Lehman shock", "the economy was in a slump because of them"],
     "The spread of coronavirus caused an economic slump.": ["the economy was in a slump because of them"],
     "An economic slump reduces the demand for electric power.": ["demand of electric power generation decreased"],
@@ -178,6 +178,7 @@ def extract_ace_for_article(
     ace_comments_base_dir: str = "ace_comments",
     api_key: str | None = None,
     model: str = "gpt-5.2",
+    comment_index: int | None = None,
 ) -> Dict[str, Any]:
     """
     Run ACE extraction (stage 1) for a single article's comments.
@@ -195,6 +196,13 @@ def extract_ace_for_article(
     print(f"Reading {json_path}...")
     comments_data: List[Dict[str, Any]] = read_json_file(json_path)
 
+    if comment_index is not None:
+        if comment_index < 1 or comment_index > len(comments_data):
+            raise ValueError(
+                f"Requested comment_index {comment_index} is out of range for article "
+                f"{article_id} (num comments: {len(comments_data)})."
+            )
+
     client = _ensure_client(api_key)
 
     ace_article_dir = os.path.join(ace_comments_base_dir, str(article_id))
@@ -202,7 +210,13 @@ def extract_ace_for_article(
 
     processed_comments: List[Dict[str, Any]] = []
 
-    for idx, comment in enumerate(comments_data, start=1):
+    if comment_index is not None:
+        indices_to_process = [comment_index]
+    else:
+        indices_to_process = list(range(1, len(comments_data) + 1))
+
+    for idx in indices_to_process:
+        comment = comments_data[idx - 1]
         raw_comment = str(comment.get("comment info", "") or "").strip()
         if not raw_comment:
             print(f"Skipping empty comment {idx} for article {article_id}.")
@@ -250,6 +264,15 @@ def main() -> None:
         "--article-id",
         type=str,
         help="Article ID (e.g., '38'). If omitted, use --all to process every JSON in the data directory.",
+    )
+    parser.add_argument(
+        "--comment-index",
+        type=int,
+        default=None,
+        help=(
+            "Optional 1-based comment index. If set, only this comment is processed "
+            "for each selected article."
+        ),
     )
     parser.add_argument(
         "--articles-data-dir",
@@ -301,6 +324,7 @@ def main() -> None:
                     ace_comments_base_dir=args.ace_comments_dir,
                     api_key=args.api_key,
                     model=args.model,
+                    comment_index=args.comment_index,
                 )
                 results.append(result)
             except Exception as e:
@@ -312,6 +336,7 @@ def main() -> None:
             ace_comments_base_dir=args.ace_comments_dir,
             api_key=args.api_key,
             model=args.model,
+            comment_index=args.comment_index,
         )
         results.append(result)
 

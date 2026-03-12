@@ -203,6 +203,7 @@ def load_ace_comment_items(
     ace_comments_dir: Path,
     article_id: str | None = None,
     article_id_folder: Path | None = None,
+    comment_index: int | None = None,
 ) -> List[Dict[str, Any]]:
     """
     Load all ACE comment JSON files and return a flat list of items:
@@ -244,6 +245,8 @@ def load_ace_comment_items(
             comment_id = data.get("comment_index")
             if comment_id is None:
                 comment_id = int(json_path.stem) if json_path.stem.isdigit() else 0
+            if comment_index is not None and int(comment_id) != int(comment_index):
+                continue
             ace_sentences = data.get("ace_sentences") or []
             for sent in ace_sentences:
                 s = (sent if isinstance(sent, str) else str(sent)).strip()
@@ -329,6 +332,7 @@ def run_classification(
     article_id: str | None = None,
     article_id_folder: Path | None = None,
     images_dir: Path = DEFAULT_IMAGES_DIR,
+    comment_index: int | None = None,
 ) -> List[Dict[str, Any]]:
     """
     Load ACE items, run classification in batches, merge results, and save JSON.
@@ -340,6 +344,7 @@ def run_classification(
         ace_comments_dir,
         article_id=article_id,
         article_id_folder=article_id_folder,
+        comment_index=comment_index,
     )
     if not items:
         print("No ACE sentences found. Nothing to classify.")
@@ -488,6 +493,15 @@ def main() -> None:
         ),
     )
     parser.add_argument(
+        "--comment-index",
+        type=int,
+        default=None,
+        help=(
+            "Optional 1-based comment index. If set, only ACE sentences from this "
+            "comment are classified for the selected article."
+        ),
+    )
+    parser.add_argument(
         "--images-dir",
         type=Path,
         default=DEFAULT_IMAGES_DIR,
@@ -507,6 +521,9 @@ def main() -> None:
         else:
             article_id_folder = None
 
+    if args.comment_index is not None and article_id is None and article_id_folder is None:
+        parser.error("--comment-index currently requires --article-id (single-article mode).")
+
     run_classification(
         ace_comments_dir=args.ace_comments_dir,
         prompt_path=args.prompt_file,
@@ -518,6 +535,7 @@ def main() -> None:
         article_id=article_id,
         article_id_folder=article_id_folder,
         images_dir=args.images_dir,
+        comment_index=args.comment_index,
     )
 
 
