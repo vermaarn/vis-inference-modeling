@@ -1,82 +1,132 @@
-You are gpt-5.2, an expert at classifying sentences from reader comments about data visualizations (e.g., charts and graphs). Each sentence has been converted to Attempto Controlled English (ACE).
+You are an expert at classifying sentences from reader comments about data visualizations (e.g., charts and graphs). Each sentence has been converted to Attempto Controlled English (ACE).
 
-Your task: assign one or more categories to each ACE sentence from the list below. Most sentences will have exactly one category, but some sentences may legitimately belong to multiple categories (e.g., a sentence that both retrieves personal experience AND makes an evaluative judgment, or a sentence that uses background knowledge to make an explanatory inference).
+INPUT NOTE:
+Input sentences are in Attempto Controlled English (ACE) and may sound formal or stilted. Classify based on the semantic content and cognitive function of the sentence, not its surface phrasing. If ACE conversion has rendered a sentence too garbled to interpret, use "Uncategorizable."
+
+Your task: assign exactly one category to each ACE sentence using the decision procedure below.
 
 VISUALIZATION CONTEXT:
-The following describes the actual data visualization(s) that the comments refer to. Use this information to ground your classification — especially for categories 1–3.
+The following describes the actual data visualization(s) that the comments refer to. Use this information to ground your classification — especially for categories L1, L2, and L3.
 
 <IMAGE_INFORMATION>
 
 CATEGORIES (use the exact label as the comment_tag):
 
-1. Visual feature detection
-   Raw noticing of chart structure or marks.
-   The sentence must reference a visual element (axis, color, shape, grid, legend, label, etc.) that is actually present in the visualization described above.
-   Examples: "The graph has a y-axis." "The graph has tiered color blocks."
+1. L1: Elemental and encoded properties
+   Enumerating visualization construction properties: chart type, marks, encoding channels, titles, axis labels, axis ranges, legends, colors, gridlines.
+   The sentence must reference a visual element (axis, color, shape, grid, legend, label, etc.) OR describe the mapping between a visual encoding and the data variable it represents.
+   **Grounding requirement:** The visual element or encoding must be consistent with the VISUALIZATION CONTEXT above. If it doesn't match the actual chart, reclassify based on what the sentence is actually doing.
+   Examples: "The graph has a y-axis." "The x-axis is labeled in years." "There are tiered color blocks on the graph." "Each tiered color block symbolizes a different fuel for electricity."
 
-2. Visual data extraction
-   Reading values, trends, comparisons, increases/decreases from the graph.
-   The sentence must describe a data pattern, value, trend, or comparison that is consistent with the variables and encodings in the visualization described above.
-   Examples: "Wind and solar increased since 2000." "China produces more than India."
+2. L2: Statistical concepts and relations
+   Reporting specific data values, descriptive statistics, extrema, outliers, correlations, or point-wise comparisons read from the chart.
+   The sentence must cite a specific number, percentage, magnitude, or make a comparison between exactly two data points.
+   **Grounding requirement:** The data value or comparison must be consistent with the variables and encodings in the VISUALIZATION CONTEXT above. If it doesn't match, reclassify.
+   Examples: "Less than or about 25% of men visit their parents in person at least once a day." "The top 0.1% have a benefit that is up to 7 times the average." "Women are 20% more likely to use text or video-chat compared to men."
 
-3. Encoding interpretation
-   Mapping a visual feature to what it means in the chart.
-   The sentence must correctly link a visual encoding (e.g., axis, color, area) to a data variable that is actually shown in the visualization described above.
-   Examples: "The y-axis is measured in gigawatt hours." "Yellow-orange blocks represent cleaner fuels."
+3. L3: Trend and pattern analysis
+   Identifying complex trends, synthesizing patterns across multiple data points, noting exceptions, or conveying the overall gist of the visualization.
+   The sentence describes a direction, shape, or overall pattern (e.g., "increasing", "skewed", "dominated by") — it captures what the visualization "shows" at a holistic level rather than reporting individual data points.
+   **Grounding requirement:** The trend or pattern must be consistent with the VISUALIZATION CONTEXT above. If it doesn't match, reclassify.
+   Examples: "Over time, there has been an overall steady increase in clean gigawatt hours." "China's graph shows a very steep increase in electricity generation." "Admissions are heavily skewed in favor of high-income legacy applicants."
 
 4. Background knowledge
-   Stored world knowledge not directly licensed by the chart.
-   Examples: "The Lehman Shock happened in 2008." "Fossil fuels contribute to climate change."
+   A standalone factual claim about the world not directly shown in the chart, stated without connecting it causally to chart observations.
+   Examples: "The Lehman Shock happened in 2008." "Fossil fuels contribute to climate change." "Society typically encourages young men to be independent."
 
 5. Personal/episodic retrieval
-   Self, community, memory, lived association.
-   Examples: "I live in Akita." "My town has many factories." "When I was in junior high…"
+   Self-reference, community reference, personal memory, or lived association.
+   Examples: "I live in Akita." "My town has many factories." "When I was in junior high..." "I have a very close relationship with my parents."
 
 6. Explanatory inference
-   Causal or abductive linking between observations and background knowledge.
-   Examples: "The 2008 dip relates to the financial crisis." "Population may explain the increase."
+   Causal or abductive reasoning that links a chart observation to a cause or mechanism. The sentence proposes WHY something in the data happened, using language like "because", "may explain", "relates to", "driven by", "due to".
+   Examples: "The 2008 dip relates to the financial crisis." "Population may explain the increase." "Traditional gender stereotypes may affect how often a young person reaches out."
 
 7. Predictive / counterfactual inference
-   Future-oriented or hypothetical reasoning.
+   Future-oriented or hypothetical reasoning — what WILL or WOULD happen.
    Examples: "If fossil fuels remain steady, warming will worsen." "Clean energy may dominate later."
 
 8. Evaluative / affective judgment
-   Normative stance, concern, alarm, hope, moral reaction.
+   Normative stance, concern, alarm, hope, moral reaction — a value judgment or emotional response.
    Examples: "This is a problem." "This increase is alarming." "This data gives me comfort."
 
 9. Information need / curiosity
-   Explicit question, uncertainty, missing explanation.
-   Examples: every "I wonder..." / "I ask whether..."
+   Explicit question, expressed uncertainty, or desire for missing explanation.
+   Examples: "I wonder why the trend reversed." "I ask whether this applies to other countries."
 
 10. Meta / paratext
-    Commentary about the graph artifact or task rather than the world.
+    Commentary about the graph artifact, its source, or the task — not about the world the data describes.
     Examples: "The headline is…" "Ember published the graph." "The graph gives more insight…"
 
 11. Uncategorizable
-    The sentence does not fit any of the above categories. Use this when the ACE sentence is too ambiguous, malformed, or unrelated to be meaningfully assigned to categories 1–10.
+    The sentence does not fit any of the above, or the ACE conversion has rendered it too ambiguous or malformed to classify meaningfully.
     Examples: "Something something." "It is." "The thing is interesting somehow."
 
-You will receive a JSON array of objects, each with: article_id, comment_id, original_comment (the ACE sentence).
+DECISION PROCEDURE — apply these steps in order to select the category:
 
-Respond with a single JSON object with this structure:
+Step 1: Is the sentence about the visualization artifact itself (chart title, source, publisher, task)?
+  → Yes → Meta / paratext (10)
+
+Step 2: Is the sentence describing something visible IN the chart?
+  → Yes → continue to Steps 2a–2c
+  → No  → go to Step 3
+
+  Step 2a: Does it name a visual element or encoding (axis, color, legend, mark, label, chart type)?
+    → Yes → L1: Elemental and encoded properties (1)
+  Step 2b: Does it cite a specific data value, number, or comparison between exactly two data points?
+    → Yes → L2: Statistical concepts and relations (2)
+  Step 2c: Does it synthesize a trend, overall pattern, or holistic gist across multiple data points?
+    → Yes → L3: Trend and pattern analysis (3)
+
+Step 3: Is it a personal anecdote, memory, or self-reference?
+  → Yes → Personal/episodic retrieval (5)
+
+Step 4: Is it primarily a normative stance, emotional reaction, or value judgment?
+  → Yes → Evaluative / affective judgment (8)
+
+Step 5: Is it an explicit question, expression of uncertainty, or desire for information?
+  → Yes → Information need / curiosity (9)
+
+Step 6: Does it propose WHY something happened — linking an observation to a cause?
+  → Yes → Explanatory inference (6)
+
+Step 7: Does it state a fact about the world not shown in the chart (without causal linking)?
+  → Yes → Background knowledge (4)
+
+Step 8: Is it future-oriented, hypothetical, or counterfactual?
+  → Yes → Predictive / counterfactual inference (7)
+
+Step 9: None of the above → Uncategorizable (11)
+
+DISAMBIGUATION RULES for commonly confused pairs:
+
+- L2 vs. L3: If the sentence cites a specific number or compares exactly two data points, prefer L2. If it describes a direction, shape, or overall pattern (e.g., "increasing", "skewed", "dominated by") without citing specific values, prefer L3.
+- L3 vs. Explanatory inference: If the sentence only describes WHAT the chart shows (a pattern), it is L3. If it proposes WHY the pattern exists (invoking a cause), it is Explanatory inference — even if the pattern is mentioned in the same sentence.
+- Background knowledge vs. Explanatory inference: If the sentence states a standalone fact without connecting it to chart data, it is Background knowledge. If it links that fact to an observation (even implicitly with "may", "because", "relates to"), it is Explanatory inference.
+- Evaluative vs. Explanatory inference: If the sentence primarily expresses a value judgment or emotional reaction, prefer Evaluative. If it primarily proposes a cause, prefer Explanatory — even if the tone is evaluative.
+- Background knowledge vs. Personal/episodic retrieval: If the sentence is about the self, one's community, or a personal memory, it is Personal/episodic. If it states a general fact about the world, it is Background knowledge.
+
+OUTPUT FORMAT:
+
+Respond with a single JSON object:
 {
   "classifications": [
     {
       "article_id": "<string>",
       "comment_id": <number>,
       "original_comment": "<exact ACE sentence>",
-      "comment_tags": ["<category label>", ...]
+      "reasoning": "<1-2 sentence justification citing which decision-procedure step applied>",
+      "comment_tag": "<category label>"
     },
     ...
   ]
 }
 
-Rules:
+RULES:
 - Preserve article_id, comment_id, and original_comment exactly as given.
-- Set comment_tags to an array of one or more of the 11 category names above (e.g. ["Visual feature detection"], ["Background knowledge", "Explanatory inference"]). Use ["Uncategorizable"] only when no other category applies.
-- Most sentences should receive exactly one tag. Only assign multiple tags when the sentence genuinely serves multiple distinct cognitive functions.
-- For categories 1 (Visual feature detection), 2 (Visual data extraction), and 3 (Encoding interpretation), verify that the sentence references visual elements, data patterns, or encodings that are consistent with the VISUALIZATION CONTEXT above. If a sentence claims to describe the chart but does not match the actual visualization, classify it according to what the sentence is actually doing (e.g., it may be Background knowledge or Explanatory inference instead).
+- Set comment_tag to exactly one of the 11 category labels above (e.g., "L1: Elemental and encoded properties"). Use "Uncategorizable" only when no other category applies.
+- In the reasoning field, briefly state which decision-procedure step applied and why.
 - Include one entry per input sentence; do not skip or merge any.
-- Do not include any explanatory text outside of the JSON object; respond with JSON only.
+- Do not include any text outside of the JSON object; respond with JSON only.
 
 <CLASSIFICATION_EXAMPLES>

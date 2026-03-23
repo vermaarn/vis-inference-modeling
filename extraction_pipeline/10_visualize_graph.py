@@ -10,7 +10,7 @@
 Visualize ACE dependency graphs as interactive D3.js HTML files.
 
 Input: combined data file from combined_data/ (e.g. combined_data/181.json).
-Each file is a list of comment objects with dependency_graph, raw_comment, comment_tag per node.
+Each file is a list of comment objects with dependency_graph, raw_comment, and a single comment_tag per node.
 
 Usage:
     # All comments for article 181 (saved to graph_visualizations/181/)
@@ -30,9 +30,9 @@ from typing import Dict
 
 
 CATEGORIES = [
-    "Visual feature detection",
-    "Visual data extraction",
-    "Encoding interpretation",
+    "L1: Elemental and encoded properties",
+    "L2: Statistical concepts and relations",
+    "L3: Trend and pattern analysis",
     "Background knowledge",
     "Personal/episodic retrieval",
     "Explanatory inference",
@@ -40,11 +40,13 @@ CATEGORIES = [
     "Evaluative / affective judgment",
     "Information need / curiosity",
     "Meta / paratext",
+    "Uncategorizable",
 ]
 
 TAB10_HEX = [
     "#1f77b4", "#ff7f0e", "#2ca02c", "#d62728", "#9467bd",
     "#8c564b", "#e377c2", "#7f7f7f", "#bcbd22", "#17becf",
+    "#aec7e8",
 ]
 
 CATEGORY_COLORS: Dict[str, str] = {
@@ -82,23 +84,22 @@ def load_combined_data(combined_path: Path) -> list:
         return json.load(f)
 
 
-def classification_lookup_from_dependency_graph(dependency_graph: list) -> Dict[str, list[str]]:
-    """Build sentence -> categories lookup from dependency_graph nodes."""
-    result: Dict[str, list[str]] = {}
+def classification_lookup_from_dependency_graph(dependency_graph: list) -> Dict[str, str]:
+    """Build sentence -> category lookup from dependency_graph nodes."""
+    result: Dict[str, str] = {}
     for node in dependency_graph:
-        tags = node.get("comment_tags")
-        if tags is None:
-            tag = node.get("comment_tag", "unknown")
-            tags = [tag] if tag else ["unknown"]
-        if isinstance(tags, str):
-            tags = [tags]
-        result[node["sentence"]] = tags
+        tag = node.get("comment_tag", "unknown")
+        if isinstance(tag, list):
+            tag = tag[0] if tag else "unknown"
+        if not tag:
+            tag = "unknown"
+        result[node["sentence"]] = tag
     return result
 
 
 def build_graph_data(
     dep_graph_data: dict,
-    classification_lookup: Dict[str, list[str]],
+    classification_lookup: Dict[str, str],
     source_mappings: dict[str, list[str]] | list[str] | None = None,
 ) -> tuple[list[dict], list[dict]]:
     """Return (nodes, links) lists ready for D3 force simulation."""
@@ -108,10 +109,10 @@ def build_graph_data(
     for node in dep_graph_data["dependency_graph"]:
         node_id = node["id"]
         sentence = node["sentence"]
-        categories = classification_lookup.get(sentence, ["unknown"])
-        if not categories:
-            categories = ["unknown"]
-        colors = [CATEGORY_COLORS.get(cat, CATEGORY_COLORS["unknown"]) for cat in categories]
+        category = classification_lookup.get(sentence, "unknown")
+        if not category:
+            category = "unknown"
+        color = CATEGORY_COLORS.get(category, CATEGORY_COLORS["unknown"])
         source_mapping_list: list[str] = []
         if source_mappings:
             if isinstance(source_mappings, dict):
@@ -122,8 +123,8 @@ def build_graph_data(
         nodes.append({
             "id": node_id,
             "sentence": sentence,
-            "categories": categories,
-            "colors": colors,
+            "category": category,
+            "color": color,
             "source_mappings": source_mapping_list,
         })
 
@@ -154,7 +155,7 @@ def generate_html(
     raw_comment: str,
     max_comment_index: int,
 ) -> str:
-    used_categories = sorted({cat for n in nodes for cat in n["categories"]})
+    used_categories = sorted({n["category"] for n in nodes})
     legend_items = [
         {"category": cat, "color": CATEGORY_COLORS[cat]}
         for cat in CATEGORIES + ["unknown"]
@@ -476,18 +477,14 @@ def generate_html(
 
   colorSliceGroups.each(function(d) {{
     const grp = d3.select(this);
-    const nColors = d.colors.length;
-    const sliceW = d.nodeW / nColors;
-    d.colors.forEach((color, i) => {{
-      grp.append("rect")
-        .attr("class", "fill-slice")
-        .attr("x", i * sliceW)
-        .attr("y", 0)
-        .attr("width", sliceW + 0.5)
-        .attr("height", d.nodeH)
-        .attr("fill", color)
-        .attr("fill-opacity", 0.22);
-    }});
+    grp.append("rect")
+      .attr("class", "fill-slice")
+      .attr("x", 0)
+      .attr("y", 0)
+      .attr("width", d.nodeW)
+      .attr("height", d.nodeH)
+      .attr("fill", d.color)
+      .attr("fill-opacity", 0.22);
   }});
 
   // Stroke rect on top
@@ -496,7 +493,7 @@ def generate_html(
     .attr("height", d => d.nodeH)
     .attr("rx", 6).attr("ry", 6)
     .attr("fill", "none")
-    .attr("stroke", d => d.colors.length === 1 ? d.colors[0] : "#888")
+    .attr("stroke", d => d.color)
     .attr("stroke-width", 2)
     .attr("stroke-opacity", 0.7);
 
@@ -567,7 +564,7 @@ def generate_html(
   function highlightCommentBar(d) {{
     if (!d.source_mappings || d.source_mappings.length === 0) return;
     const raw = commentBar.textContent;
-    const color = (d.colors && d.colors.length > 0) ? d.colors[0] : "#888";
+    const color = d.color || "#888";
 
     const ranges = [];
     d.source_mappings.forEach(function(mapping) {{
@@ -665,7 +662,7 @@ def generate_html(
       tooltip
         .style("opacity", 1)
         .html("<strong>" + d.id + ":</strong> " + d.sentence +
-          "<div class='cat'>" + d.categories.join(", ") + "</div>" + edgeInfo + srcInfo);
+          "<div class='cat'>" + d.category + "</div>" + edgeInfo + srcInfo);
 
       highlightCommentBar(d);
     }})
@@ -812,8 +809,7 @@ def visualize_comment_from_combined(
 
     cat_counts: Dict[str, int] = {}
     for n in nodes:
-        for cat in n["categories"]:
-            cat_counts[cat] = cat_counts.get(cat, 0) + 1
+        cat_counts[n["category"]] = cat_counts.get(n["category"], 0) + 1
     print("  Categories:")
     for cat, count in sorted(cat_counts.items()):
         print(f"    {cat}: {count}")

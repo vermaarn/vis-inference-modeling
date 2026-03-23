@@ -24,26 +24,30 @@ SCRIPT_DIR = Path(__file__).resolve().parent
 DEFAULT_DATA_DIR = SCRIPT_DIR
 
 
-def load_classifications(data_dir: Path, article_id: str) -> dict[int, dict[str, list[str]]]:
-    """Load classifications and return {comment_id: {sentence: comment_tags}}."""
+def load_classifications(
+    data_dir: Path, article_id: str
+) -> tuple[dict[int, dict[str, str]], str]:
+    """Load classifications and return ({comment_id: {sentence: tag}}, image_description)."""
     path = data_dir / "ace_classifications" / f"ace_sentence_classifications_{article_id}.json"
     if not path.exists():
         print(f"Warning: classifications file not found at {path}")
-        return {}
+        return {}, ""
 
     with open(path) as f:
         raw = json.load(f)
 
-    grouped: dict[int, dict[str, list[str]]] = defaultdict(dict)
+    grouped: dict[int, dict[str, str]] = defaultdict(dict)
+    image_description = ""
     for entry in raw:
-        tags = entry.get("comment_tags", None)
-        if tags is None:
-            tag = entry.get("comment_tag", "unknown")
-            tags = [tag] if tag else ["unknown"]
-        if isinstance(tags, str):
-            tags = [tags]
-        grouped[entry["comment_id"]][entry["original_comment"]] = tags
-    return dict(grouped)
+        tag = entry.get("comment_tag", "")
+        if isinstance(tag, list):
+            tag = tag[0] if tag else "unknown"
+        if not tag:
+            tag = "unknown"
+        grouped[entry["comment_id"]][entry["original_comment"]] = tag
+        if not image_description:
+            image_description = entry.get("image_description", "")
+    return dict(grouped), image_description
 
 
 def discover_comment_indices(
@@ -77,7 +81,8 @@ def combine_comment(
     data_dir: Path,
     article_id: str,
     comment_index: int,
-    classifications_by_comment: dict[int, dict[str, list[str]]],
+    classifications_by_comment: dict[int, dict[str, str]],
+    image_description: str = "",
 ) -> dict | None:
     """Build a single combined object for one comment."""
     comment_path = data_dir / "ace_comments" / article_id / f"{comment_index}.json"
@@ -101,11 +106,12 @@ def combine_comment(
     tag_lookup = classifications_by_comment.get(comment_index, {})
     if dependency_graph is not None:
         for node in dependency_graph:
-            node["comment_tags"] = tag_lookup.get(node["sentence"], ["unknown"])
+            node["comment_tag"] = tag_lookup.get(node["sentence"], "unknown")
 
     return {
         "article_id": article_id,
         "comment_index": comment_index,
+        "image_description": image_description,
         "raw_comment": comment_data.get("raw_comment"),
         "ace_sentences": comment_data.get("ace_sentences", []),
         "source_mappings": comment_data.get("source_mappings", []),
@@ -146,7 +152,7 @@ def main() -> None:
     data_dir = args.data_dir.resolve()
     article_id = args.article_id
 
-    classifications = load_classifications(data_dir, article_id)
+    classifications, image_description = load_classifications(data_dir, article_id)
     indices = discover_comment_indices(
         data_dir,
         article_id,
@@ -161,7 +167,7 @@ def main() -> None:
 
     combined = []
     for idx in indices:
-        result = combine_comment(data_dir, article_id, idx, classifications)
+        result = combine_comment(data_dir, article_id, idx, classifications, image_description)
         if result is not None:
             combined.append(result)
 

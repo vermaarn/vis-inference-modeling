@@ -102,12 +102,17 @@ Assign each ACE sentence to one semantic category. The script reads ACE comment 
 # Reading visualization
 - **Visual feature detection** — Raw noticing of chart structure or marks.  
   e.g. “The graph has a y-axis.” “The graph has tiered color blocks.”
+  - L1
 
-- **Visual data extraction** — Reading values, trends, comparisons from the graph.  
-  e.g. “Wind and solar increased since 2000.” “China produces more than India.”
-
-- **Encoding interpretation** — Mapping a visual feature to what it means.  
+- **Encoding extraction** — Mapping a visual feature to what it means.  
   e.g. “The y-axis is measured in gigawatt hours.” “Yellow-orange blocks represent cleaner fuels.”
+  - L2
+
+- **Visual data interpretation** — Reading values, trends, comparisons from the graph.  
+  e.g. “Wind and solar increased since 2000.” “China produces more than India.”
+  -- L3
+
+
 
 # Drawing on prior knowledge
 - **Background knowledge** — World knowledge not directly shown in the chart.  

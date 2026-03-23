@@ -4,9 +4,9 @@ Classify ACE sentences from extracted ACE comments into semantic categories.
 Reads ACE comment JSONs produced by 1_extract_ace_comments.py (under ace_comments/),
 loads the classification prompt from prompts/classify_ace_sentences.txt, sends all
 ACE sentences to an LLM in one or more batches, and writes a JSON file with
-article_id, comment_id, original_comment, and comment_tags per sentence.
+article_id, comment_id, original_comment, and comment_tag per sentence.
 
-Each sentence may receive one or more category tags.
+Each sentence receives exactly one category tag.
 """
 
 from __future__ import annotations
@@ -35,14 +35,15 @@ DEFAULT_INTERMEDIATE_DIR = SCRIPT_DIR / "ace_sentence_classifications_batches"
 DEFAULT_ACE_CLASSIFICATIONS_DIR = SCRIPT_DIR / "ace_classifications"
 DEFAULT_IMAGES_DIR = PROJECT_ROOT / "data" / "images"
 
-# Max sentences per API call to stay within context limits
-BATCH_SIZE = 500
+# Max sentences per API call — kept small to preserve per-item attention
+BATCH_SIZE = 100
 
 # ---------------------------------------------------------------------------
 # Few-shot examples injected into the prompt at <CLASSIFICATION_EXAMPLES>
 # ---------------------------------------------------------------------------
 
 _CLASSIFICATION_EXAMPLES: List[Dict[str, Any]] = [
+    # Example 1 — article 183 (parent contact), short comment
     {
         "input": [
             {"article_id": "183", "comment_id": 1, "original_comment": "The author asks about gender-neutrality."},
@@ -50,11 +51,12 @@ _CLASSIFICATION_EXAMPLES: List[Dict[str, Any]] = [
         ],
         "output": {
             "classifications": [
-                {"article_id": "183", "comment_id": 1, "original_comment": "The author asks about gender-neutrality.", "comment_tags": ["Information need / curiosity"]},
-                {"article_id": "183", "comment_id": 1, "original_comment": "Young women reach out to the family.", "comment_tags": ["Visual data extraction"]},
+                {"article_id": "183", "comment_id": 1, "original_comment": "The author asks about gender-neutrality.", "reasoning": "Step 5: Reports that the author poses a question, indicating an information need.", "comment_tag": "Information need / curiosity"},
+                {"article_id": "183", "comment_id": 1, "original_comment": "Young women reach out to the family.", "reasoning": "Step 2c: Synthesizes a pattern from the chart data about young women's behavior overall, without citing a specific number.", "comment_tag": "L3: Trend and pattern analysis"},
             ]
         },
     },
+    # Example 2 — article 183, long comment spanning many categories
     {
         "input": [
             {"article_id": "183", "comment_id": 4, "original_comment": "Young women reach out to their parents more often than young men."},
@@ -64,44 +66,69 @@ _CLASSIFICATION_EXAMPLES: List[Dict[str, Any]] = [
             {"article_id": "183", "comment_id": 4, "original_comment": "Text messages and phone calls show a greater divide than in-person visits between young men and young women in interaction with their parents."},
             {"article_id": "183", "comment_id": 4, "original_comment": "Traditional gender stereotypes may affect how often a young person reaches out to the person's parents."},
             {"article_id": "183", "comment_id": 4, "original_comment": "Society typically encourages young men to be independent."},
-            {"article_id": "183", "comment_id": 4, "original_comment": "Society typically encourages young men to not ask for help often."},
-            {"article_id": "183", "comment_id": 4, "original_comment": "Society expects women to lead domestic lives."},
             {"article_id": "183", "comment_id": 4, "original_comment": "Society expects women to lead family-centric lives."},
             {"article_id": "183", "comment_id": 4, "original_comment": "This phenomenon may have deeper roots."},
             {"article_id": "183", "comment_id": 4, "original_comment": "These deeper roots may include biological instincts."},
             {"article_id": "183", "comment_id": 4, "original_comment": "Biological instincts may be unique to each gender."},
             {"article_id": "183", "comment_id": 4, "original_comment": "I have a very close relationship with my parents."},
-            {"article_id": "183", "comment_id": 4, "original_comment": "I am an only child."},
             {"article_id": "183", "comment_id": 4, "original_comment": "I am an only daughter."},
-            {"article_id": "183", "comment_id": 4, "original_comment": "Many family friends of my family are adults who have only boys."},
-            {"article_id": "183", "comment_id": 4, "original_comment": "I am an honorary daughter of these adults."},
             {"article_id": "183", "comment_id": 4, "original_comment": "People frequently mention that I reach out to these adults more than other people do."},
-            {"article_id": "183", "comment_id": 4, "original_comment": "People frequently mention that parenting a girl is very different."},
             {"article_id": "183", "comment_id": 4, "original_comment": "Some people think that daughters are favorites for a reason."},
         ],
         "output": {
             "classifications": [
-                {"article_id": "183", "comment_id": 4, "original_comment": "Young women reach out to their parents more often than young men.", "comment_tags": ["Visual data extraction"]},
-                {"article_id": "183", "comment_id": 4, "original_comment": "Less than 25 percent of young men visit their parents in person at least once a day or a few times a week.", "comment_tags": ["Visual data extraction"]},
-                {"article_id": "183", "comment_id": 4, "original_comment": "Less than 25 percent of young women visit their parents in person at least once a day or a few times a week.", "comment_tags": ["Visual data extraction"]},
-                {"article_id": "183", "comment_id": 4, "original_comment": "Text messages and phone calls are more accessible ways of connection than in-person visits.", "comment_tags": ["Background knowledge"]},
-                {"article_id": "183", "comment_id": 4, "original_comment": "Text messages and phone calls show a greater divide than in-person visits between young men and young women in interaction with their parents.", "comment_tags": ["Visual data extraction"]},
-                {"article_id": "183", "comment_id": 4, "original_comment": "Traditional gender stereotypes may affect how often a young person reaches out to the person's parents.", "comment_tags": ["Background knowledge", "Explanatory inference"]},
-                {"article_id": "183", "comment_id": 4, "original_comment": "Society typically encourages young men to be independent.", "comment_tags": ["Background knowledge"]},
-                {"article_id": "183", "comment_id": 4, "original_comment": "Society typically encourages young men to not ask for help often.", "comment_tags": ["Background knowledge"]},
-                {"article_id": "183", "comment_id": 4, "original_comment": "Society expects women to lead domestic lives.", "comment_tags": ["Background knowledge"]},
-                {"article_id": "183", "comment_id": 4, "original_comment": "Society expects women to lead family-centric lives.", "comment_tags": ["Background knowledge"]},
-                {"article_id": "183", "comment_id": 4, "original_comment": "This phenomenon may have deeper roots.", "comment_tags": ["Explanatory inference"]},
-                {"article_id": "183", "comment_id": 4, "original_comment": "These deeper roots may include biological instincts.", "comment_tags": ["Explanatory inference"]},
-                {"article_id": "183", "comment_id": 4, "original_comment": "Biological instincts may be unique to each gender.", "comment_tags": ["Background knowledge"]},
-                {"article_id": "183", "comment_id": 4, "original_comment": "I have a very close relationship with my parents.", "comment_tags": ["Personal/episodic retrieval"]},
-                {"article_id": "183", "comment_id": 4, "original_comment": "I am an only child.", "comment_tags": ["Personal/episodic retrieval"]},
-                {"article_id": "183", "comment_id": 4, "original_comment": "I am an only daughter.", "comment_tags": ["Personal/episodic retrieval"]},
-                {"article_id": "183", "comment_id": 4, "original_comment": "Many family friends of my family are adults who have only boys.", "comment_tags": ["Personal/episodic retrieval"]},
-                {"article_id": "183", "comment_id": 4, "original_comment": "I am an honorary daughter of these adults.", "comment_tags": ["Personal/episodic retrieval"]},
-                {"article_id": "183", "comment_id": 4, "original_comment": "People frequently mention that I reach out to these adults more than other people do.", "comment_tags": ["Personal/episodic retrieval"]},
-                {"article_id": "183", "comment_id": 4, "original_comment": "People frequently mention that parenting a girl is very different.", "comment_tags": ["Personal/episodic retrieval", "Background knowledge"]},
-                {"article_id": "183", "comment_id": 4, "original_comment": "Some people think that daughters are favorites for a reason.", "comment_tags": ["Evaluative / affective judgment"]},
+                {"article_id": "183", "comment_id": 4, "original_comment": "Young women reach out to their parents more often than young men.", "reasoning": "Step 2c: Synthesizes a holistic pattern ('more often') across data points rather than citing a specific number.", "comment_tag": "L3: Trend and pattern analysis"},
+                {"article_id": "183", "comment_id": 4, "original_comment": "Less than 25 percent of young men visit their parents in person at least once a day or a few times a week.", "reasoning": "Step 2b: Cites a specific data value ('less than 25 percent') read from the chart.", "comment_tag": "L2: Statistical concepts and relations"},
+                {"article_id": "183", "comment_id": 4, "original_comment": "Less than 25 percent of young women visit their parents in person at least once a day or a few times a week.", "reasoning": "Step 2b: Cites a specific data value ('less than 25 percent') for a different group.", "comment_tag": "L2: Statistical concepts and relations"},
+                {"article_id": "183", "comment_id": 4, "original_comment": "Text messages and phone calls are more accessible ways of connection than in-person visits.", "reasoning": "Step 7: General world knowledge about communication accessibility, not derived from the chart.", "comment_tag": "Background knowledge"},
+                {"article_id": "183", "comment_id": 4, "original_comment": "Text messages and phone calls show a greater divide than in-person visits between young men and young women in interaction with their parents.", "reasoning": "Step 2c: Synthesizes a comparative pattern across categories without citing a specific number.", "comment_tag": "L3: Trend and pattern analysis"},
+                {"article_id": "183", "comment_id": 4, "original_comment": "Traditional gender stereotypes may affect how often a young person reaches out to the person's parents.", "reasoning": "Step 6: 'May affect' links a background cause (gender stereotypes) to the chart observation (contact frequency). This is causal reasoning.", "comment_tag": "Explanatory inference"},
+                {"article_id": "183", "comment_id": 4, "original_comment": "Society typically encourages young men to be independent.", "reasoning": "Step 7: General claim about societal norms, stated as standalone fact without linking to chart data.", "comment_tag": "Background knowledge"},
+                {"article_id": "183", "comment_id": 4, "original_comment": "Society expects women to lead family-centric lives.", "reasoning": "Step 7: Standalone societal claim not directly tied to any chart observation.", "comment_tag": "Background knowledge"},
+                {"article_id": "183", "comment_id": 4, "original_comment": "This phenomenon may have deeper roots.", "reasoning": "Step 6: 'May have deeper roots' proposes a causal explanation for the observed chart pattern.", "comment_tag": "Explanatory inference"},
+                {"article_id": "183", "comment_id": 4, "original_comment": "These deeper roots may include biological instincts.", "reasoning": "Step 6: Extends causal reasoning by proposing a specific mechanism ('biological instincts').", "comment_tag": "Explanatory inference"},
+                {"article_id": "183", "comment_id": 4, "original_comment": "Biological instincts may be unique to each gender.", "reasoning": "Step 7: States a general claim about biology without linking it causally to chart data.", "comment_tag": "Background knowledge"},
+                {"article_id": "183", "comment_id": 4, "original_comment": "I have a very close relationship with my parents.", "reasoning": "Step 3: Personal self-reference about the commenter's own life.", "comment_tag": "Personal/episodic retrieval"},
+                {"article_id": "183", "comment_id": 4, "original_comment": "I am an only daughter.", "reasoning": "Step 3: Personal self-reference.", "comment_tag": "Personal/episodic retrieval"},
+                {"article_id": "183", "comment_id": 4, "original_comment": "People frequently mention that I reach out to these adults more than other people do.", "reasoning": "Step 3: Recounts a personal experience ('People mention that I...').", "comment_tag": "Personal/episodic retrieval"},
+                {"article_id": "183", "comment_id": 4, "original_comment": "Some people think that daughters are favorites for a reason.", "reasoning": "Step 4: Expresses a normative/evaluative stance ('favorites for a reason').", "comment_tag": "Evaluative / affective judgment"},
+            ]
+        },
+    },
+    # Example 3 — article 181 (electricity generation), contrastive pairs
+    # Demonstrates L1 vs L2 vs L3 vs Explanatory vs Predictive vs Evaluative
+    {
+        "input": [
+            {"article_id": "181", "comment_id": 7, "original_comment": "The graph uses a stacked area chart."},
+            {"article_id": "181", "comment_id": 7, "original_comment": "Coal generated over 5000 TWh in China by 2020."},
+            {"article_id": "181", "comment_id": 7, "original_comment": "China's electricity generation increased sharply after 2000."},
+            {"article_id": "181", "comment_id": 7, "original_comment": "China's electricity generation increased because of rapid industrialization."},
+            {"article_id": "181", "comment_id": 7, "original_comment": "If coal use continues at this rate, emissions will keep rising."},
+            {"article_id": "181", "comment_id": 7, "original_comment": "This trend is concerning."},
+        ],
+        "output": {
+            "classifications": [
+                {"article_id": "181", "comment_id": 7, "original_comment": "The graph uses a stacked area chart.", "reasoning": "Step 2a: Names the chart type, a visual construction property.", "comment_tag": "L1: Elemental and encoded properties"},
+                {"article_id": "181", "comment_id": 7, "original_comment": "Coal generated over 5000 TWh in China by 2020.", "reasoning": "Step 2b: Cites a specific data value ('over 5000 TWh') for a particular variable and time point.", "comment_tag": "L2: Statistical concepts and relations"},
+                {"article_id": "181", "comment_id": 7, "original_comment": "China's electricity generation increased sharply after 2000.", "reasoning": "Step 2c: Describes an overall trend ('increased sharply') across multiple time points rather than a single value.", "comment_tag": "L3: Trend and pattern analysis"},
+                {"article_id": "181", "comment_id": 7, "original_comment": "China's electricity generation increased because of rapid industrialization.", "reasoning": "Step 6: 'Because of rapid industrialization' proposes a cause for the chart pattern. Although it mentions a trend, the primary function is causal explanation.", "comment_tag": "Explanatory inference"},
+                {"article_id": "181", "comment_id": 7, "original_comment": "If coal use continues at this rate, emissions will keep rising.", "reasoning": "Step 8: Future-oriented hypothetical reasoning ('if... will').", "comment_tag": "Predictive / counterfactual inference"},
+                {"article_id": "181", "comment_id": 7, "original_comment": "This trend is concerning.", "reasoning": "Step 4: Expresses an emotional/normative reaction ('concerning') to the data.", "comment_tag": "Evaluative / affective judgment"},
+            ]
+        },
+    },
+    # Example 4 — article 173 (admissions), contrastive: Background vs Explanatory vs Curiosity
+    {
+        "input": [
+            {"article_id": "173", "comment_id": 3, "original_comment": "Legacy admissions have been controversial in higher education."},
+            {"article_id": "173", "comment_id": 3, "original_comment": "The skew toward high-income applicants may be driven by legacy admission policies."},
+            {"article_id": "173", "comment_id": 3, "original_comment": "I wonder whether this data accounts for financial aid recipients."},
+        ],
+        "output": {
+            "classifications": [
+                {"article_id": "173", "comment_id": 3, "original_comment": "Legacy admissions have been controversial in higher education.", "reasoning": "Step 7: Standalone fact about the world not directly shown in the chart, with no causal link to chart data.", "comment_tag": "Background knowledge"},
+                {"article_id": "173", "comment_id": 3, "original_comment": "The skew toward high-income applicants may be driven by legacy admission policies.", "reasoning": "Step 6: Links a chart observation ('skew toward high-income') to a proposed cause ('legacy admission policies'). 'May be driven by' signals causal reasoning.", "comment_tag": "Explanatory inference"},
+                {"article_id": "173", "comment_id": 3, "original_comment": "I wonder whether this data accounts for financial aid recipients.", "reasoning": "Step 5: 'I wonder whether' is an explicit expression of uncertainty and desire for information.", "comment_tag": "Information need / curiosity"},
             ]
         },
     },
@@ -260,6 +287,48 @@ def load_ace_comment_items(
     return items
 
 
+def _build_comment_grouped_batches(
+    items: List[Dict[str, Any]],
+    max_batch_size: int,
+) -> List[List[Dict[str, Any]]]:
+    """
+    Group items by (article_id, comment_id) and pack whole comments into
+    batches that respect *max_batch_size* while keeping each comment's
+    sentences together for discourse context.
+
+    If a single comment exceeds *max_batch_size*, it gets its own batch.
+    """
+    groups: Dict[tuple, List[Dict[str, Any]]] = {}
+    group_order: List[tuple] = []
+    for item in items:
+        key = (item["article_id"], item["comment_id"])
+        if key not in groups:
+            groups[key] = []
+            group_order.append(key)
+        groups[key].append(item)
+
+    batches: List[List[Dict[str, Any]]] = []
+    current_batch: List[Dict[str, Any]] = []
+
+    for key in group_order:
+        comment_items = groups[key]
+        if len(comment_items) > max_batch_size:
+            if current_batch:
+                batches.append(current_batch)
+                current_batch = []
+            batches.append(comment_items)
+            continue
+        if current_batch and len(current_batch) + len(comment_items) > max_batch_size:
+            batches.append(current_batch)
+            current_batch = []
+        current_batch.extend(comment_items)
+
+    if current_batch:
+        batches.append(current_batch)
+
+    return batches
+
+
 def load_prompt(prompt_path: Path) -> str:
     """Load the classification prompt from a text file."""
     with prompt_path.open("r", encoding="utf-8") as f:
@@ -282,7 +351,16 @@ def classify_batch(
     response = client.chat.completions.create(
         model=model,
         messages=[
-            {"role": "system", "content": "You classify ACE sentences into the given categories. Respond only with valid JSON."},
+            {
+                "role": "system",
+                "content": (
+                    "You are an expert classifier of Attempto Controlled English "
+                    "(ACE) sentences from reader comments about data visualizations. "
+                    "Follow the decision procedure and disambiguation rules in the "
+                    "user prompt exactly. Always produce reasoning before selecting "
+                    "a category. Respond with valid JSON only."
+                ),
+            },
             {"role": "user", "content": user_content},
         ],
         response_format={"type": "json_object"},
@@ -336,7 +414,7 @@ def run_classification(
 ) -> List[Dict[str, Any]]:
     """
     Load ACE items, run classification in batches, merge results, and save JSON.
-    Returns the full list of { article_id, comment_id, original_comment, comment_tags }.
+    Returns the full list of { article_id, comment_id, original_comment, comment_tag }.
     If article_id_folder is set, load only from that directory. Else if article_id
     is set, load only from ace_comments_dir / article_id.
     """
@@ -378,9 +456,13 @@ def run_classification(
     if intermediate_dir is not None:
         intermediate_dir.mkdir(parents=True, exist_ok=True)
 
-    for i in range(0, len(items), batch_size):
-        batch = items[i : i + batch_size]
-        batch_index = i // batch_size
+    batches = _build_comment_grouped_batches(items, batch_size)
+    print(
+        f"Split {len(items)} sentences into {len(batches)} comment-grouped "
+        f"batch(es) (max {batch_size} sentences each)."
+    )
+
+    for batch_index, batch in enumerate(batches):
         batch_num = batch_index + 1
 
         batch_article_ids = {item["article_id"] for item in batch}
@@ -397,14 +479,19 @@ def run_classification(
         for c in classifications:
             if not isinstance(c, dict):
                 continue
-            tags = c.get("comment_tags", c.get("comment_tag", []))
-            if isinstance(tags, str):
-                tags = [tags] if tags else []
+            tag = c.get("comment_tag", "")
+            if isinstance(tag, list):
+                tag = tag[0] if tag else "unknown"
+            if not tag:
+                tag = "unknown"
+            row_article_id = c.get("article_id", "")
             row = {
-                "article_id": c.get("article_id", ""),
+                "article_id": row_article_id,
                 "comment_id": c.get("comment_id", 0),
                 "original_comment": c.get("original_comment", ""),
-                "comment_tags": tags,
+                "reasoning": c.get("reasoning", ""),
+                "comment_tag": tag,
+                "image_description": image_descriptions.get(row_article_id, ""),
             }
             all_classifications.append(row)
             batch_rows.append(row)

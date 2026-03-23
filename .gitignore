@@ -27,3 +27,4 @@ analysis/outputs/comment_similarity/
 *.json
 *.png
 *.webp
+extraction_pipeline/visual_observations.csv

@@ -97,6 +97,32 @@ ACE_FEW_SHOT_OUTPUT = """{
     "If global warming worsens, the growth of Akita cedars may deteriorate.": ["the growth of Akita cedars may deteriorate"],
     "The headline is:": ["Catchy headline"],
     "What is the solution to increase the rate of clean energy?": ["What is the Solution to Increase the Rate of Clean Energy?"]
+  },
+  "order": {
+    "The rate of wind energy and solar energy has increased since 2000.": 1,
+    "However, fossil fuels occupy more than half of energy materials.": 2,
+    "This situation is a problem.": 3,
+    "The governments of many countries promote renewable energy.": 4,
+    "When I was a junior high school student, I had an opportunity.": 5,
+    "At that time, I thought about a solution to improve this situation.": 6,
+    "The electric power generation in the world decreased around 2008.": 7,
+    "The electric power generation in the world also decreased around 2021.": 8,
+    "The Lehman Shock happened in 2008.": 9,
+    "The coronavirus spread in 2021.": 10,
+    "The Lehman Shock caused an economic slump.": 11,
+    "The spread of coronavirus caused an economic slump.": 12,
+    "An economic slump reduces the demand for electric power.": 13,
+    "The decrease in electric power generation relates to these events.": 14,
+    "The rate of fossil fuels may remain steady.": 15,
+    "If the rate of fossil fuels remains steady, global warming will worsen.": 16,
+    "If the rate of fossil fuels remains steady, air pollution will worsen.": 17,
+    "Akita has a precious natural environment.": 18,
+    "I live in Akita.": 19,
+    "If global warming worsens, the natural environment in Akita will be negatively affected.": 20,
+    "Akita cedars grow in Akita.": 21,
+    "If global warming worsens, the growth of Akita cedars may deteriorate.": 22,
+    "The headline is:": 23,
+    "What is the solution to increase the rate of clean energy?": 24
   }
 }
 """
@@ -130,7 +156,7 @@ def generate_ace_for_comment(
     Returns a dict with ``ace_sentences`` and ``source_mappings`` lists.
     """
     if not comment_text.strip():
-        return {"ace_sentences": [], "source_mappings": {}}
+        return {"ace_sentences": [], "source_mappings": {}, "order": {}}
 
     system_content = (
         "You are an expert in Attempto Controlled English (ACE). "
@@ -164,12 +190,14 @@ def generate_ace_for_comment(
 
     ace_sentences = parsed.get("ace_sentences") or []
     source_mappings = parsed.get("source_mappings") or {}
+    order = parsed.get("order") or {}
     cleaned_sentences = [str(s).strip() for s in ace_sentences if str(s).strip()]
     cleaned_mappings = {
         str(k).strip(): [str(v).strip() for v in vals]
         for k, vals in source_mappings.items()
     }
-    return {"ace_sentences": cleaned_sentences, "source_mappings": cleaned_mappings}
+    cleaned_order = {str(k).strip(): int(v) for k, v in order.items()}
+    return {"ace_sentences": cleaned_sentences, "source_mappings": cleaned_mappings, "order": cleaned_order}
 
 
 def extract_ace_for_article(
@@ -235,6 +263,7 @@ def extract_ace_for_article(
             "raw_comment": raw_comment,
             "ace_sentences": ace_result["ace_sentences"],
             "source_mappings": ace_result["source_mappings"],
+            "order": ace_result["order"],
         }
 
         ace_output_path = os.path.join(ace_article_dir, f"{idx}.json")
@@ -303,6 +332,11 @@ def main() -> None:
         action="store_true",
         help="Process all article JSON files found in --articles-data-dir",
     )
+    parser.add_argument(
+        "--skip-existing",
+        action="store_true",
+        help="Skip articles that already have a folder in --ace-comments-dir",
+    )
 
     args = parser.parse_args()
 
@@ -311,12 +345,25 @@ def main() -> None:
 
     results: List[Dict[str, Any]] = []
 
+    ace_base = Path(args.ace_comments_dir)
+
+    def _should_skip(article_id: str) -> bool:
+        if not args.skip_existing:
+            return False
+        article_dir = ace_base / str(article_id)
+        if article_dir.is_dir() and any(article_dir.iterdir()):
+            print(f"⏭ Skipping article {article_id} (already in {article_dir})")
+            return True
+        return False
+
     if args.all:
         data_path = Path(args.articles_data_dir)
         article_ids = [p.stem for p in data_path.glob("*.json")]
         print(f"Found {len(article_ids)} articles to process for ACE extraction.")
 
         for article_id in sorted(article_ids):
+            if _should_skip(article_id):
+                continue
             try:
                 result = extract_ace_for_article(
                     article_id=article_id,
@@ -330,15 +377,16 @@ def main() -> None:
             except Exception as e:
                 print(f"✗ Error extracting ACE for article {article_id}: {e}")
     else:
-        result = extract_ace_for_article(
-            article_id=args.article_id,
-            articles_data_dir=args.articles_data_dir,
-            ace_comments_base_dir=args.ace_comments_dir,
-            api_key=args.api_key,
-            model=args.model,
-            comment_index=args.comment_index,
-        )
-        results.append(result)
+        if not _should_skip(args.article_id):
+            result = extract_ace_for_article(
+                article_id=args.article_id,
+                articles_data_dir=args.articles_data_dir,
+                ace_comments_base_dir=args.ace_comments_dir,
+                api_key=args.api_key,
+                model=args.model,
+                comment_index=args.comment_index,
+            )
+            results.append(result)
 
 
 if __name__ == "__main__":
