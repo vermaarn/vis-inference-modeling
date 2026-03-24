@@ -26,7 +26,7 @@ analysis/outputs/comment_similarity/
 *.html
 !extraction_pipeline/graph_visualizations/181/*.html
 *.json
-!extraction_pipeline/combined_data/181.json
+!extraction_pipeline/combined_data/*.json
 *.png
 *.webp
 extraction_pipeline/visual_observations.csv
