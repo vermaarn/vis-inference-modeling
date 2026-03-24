@@ -4,6 +4,8 @@ You are given a list of ACE (Atomized, Causal, Explicit) sentences extracted fro
 
 For each sentence, determine which other sentences it **depends on** and classify each dependency with an **edge type**. A sentence S_b depends on sentence S_a if understanding or justifying S_b requires the information in S_a.
 
+The input includes an `order` field that maps each ACE sentence to its position in the original source comment. This ordering constrains dependency direction: for every direct edge where sentence B depends on sentence A, **A must have a lower `order` value than B** (i.e., A appears earlier in the source than B). No backward edges are allowed.
+
 ## Edge Types
 
 Assign exactly one of the following edge types to each dependency:
@@ -38,7 +40,7 @@ Assign exactly one of the following edge types to each dependency:
 
 8. **Uncategorized** — The dependency between A and B is clear but does not fit any of the above categories. Use this when none of the other 7 edge types adequately describe the relationship.
 
-A sentence may depend on **zero, one, or many** other sentences. Each dependency edge receives exactly one edge type. Sentences can depend on sentences that appear **before or after** them in the list — ordering does not restrict dependency direction.
+A sentence may depend on **zero, one, or many** other sentences. Each dependency edge receives exactly one edge type.
 
 ## Constraints
 
@@ -47,6 +49,7 @@ A sentence may depend on **zero, one, or many** other sentences. Each dependency
 3. Each node's `id` must be a 0-based integer matching the sentence's position in the input list.
 4. `depends_on` is an array of objects, each with `id` (integer) and `edge_type` (one of the 8 labels above). May be empty.
 5. Use the exact edge type labels: "Causal", "Elaboration", "Conditional", "Evaluative", "Questioning", "Contrastive", "Narrative/Referential", "Uncategorized".
+6. **Ordering constraint**: For every direct edge (B `depends_on` A), A must have a strictly lower `order` value than B. In other words, the parent node must appear before the child node in the original source comment. No backward edges are permitted.
 
 ## Output format
 

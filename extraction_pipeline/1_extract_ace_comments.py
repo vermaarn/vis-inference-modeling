@@ -324,7 +324,7 @@ def main() -> None:
     parser.add_argument(
         "--model",
         type=str,
-        default="gpt-5.2",
+        default="gpt-5.4-mini",
         help="OpenAI model to use for ACE extraction (default: gpt-5.2)",
     )
     parser.add_argument(

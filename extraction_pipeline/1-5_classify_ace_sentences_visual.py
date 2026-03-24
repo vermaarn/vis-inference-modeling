@@ -144,7 +144,7 @@ def describe_visualization(
     client: OpenAI,
     article_id: str,
     images_dir: Path = DEFAULT_IMAGES_DIR,
-    model: str = "gpt-5.2",
+    model: str = "gpt-5.4",
 ) -> str:
     """
     Send the visualization image for *article_id* to the vision model and
@@ -356,7 +356,7 @@ def run_classification(
     prompt_path: Path,
     output_path: Path,
     api_key: str | None = None,
-    model: str = "gpt-5.2",
+    model: str = "gpt-5.4-mini",
     batch_size: int = BATCH_SIZE,
     intermediate_dir: Path | None = DEFAULT_INTERMEDIATE_DIR,
     article_id: str | None = None,
@@ -486,6 +486,86 @@ def run_classification(
 DEFAULT_VISUAL_CSV = SCRIPT_DIR / "visual_observations.csv"
 DEFAULT_PROPOSED_LABELS_JSON = SCRIPT_DIR / "proposed_visual_labels.json"
 DEFAULT_LABEL_ITERATIONS_DIR = SCRIPT_DIR / "label_iterations"
+
+# ---------------------------------------------------------------------------
+# Seed categories for seeded label refinement (--seed-categories)
+# ---------------------------------------------------------------------------
+
+SEED_VISUAL_CATEGORIES: List[Dict[str, Any]] = [
+    {
+        "label": "Retrieve & Identify (Read the Data)",
+        "description": (
+            "Baseline extraction of what is explicitly shown on the chart without "
+            "performing math or finding patterns. Includes identifying text or "
+            "marks, finding a single specific data point or extremum, and "
+            "identifying the topic or scope of the visualization. Equivalent to "
+            "VLAT 'Retrieve Value', HOLF 'Retrieve Value'."
+        ),
+        "decision_criteria": (
+            "The observer simply locates and extracts information that is "
+            "explicitly written or encoded on the chart: a label, a single value, "
+            "an axis title, a chart type, a mark identity, or the topic/scope. "
+            "No computation, comparison, or pattern recognition is required."
+        ),
+        "examples": [
+            "This says 20%.",
+            "The x-axis is labeled in years.",
+            "The graph uses a stacked area chart.",
+            "Coal generated over 5000 TWh in China by 2020.",
+            "The chart is about electricity generation by fuel type.",
+        ],
+    },
+    {
+        "label": "Compare & Compute (Read Between the Data)",
+        "description": (
+            "The observer holds at least two pieces of information to find a "
+            "difference, sum, ratio, ranking, or cross-panel comparison. Includes "
+            "two-point comparisons (A vs B), cross-panel comparisons, ranking and "
+            "ordering, and understanding denominators or baselines to compute a "
+            "relative value. Equivalent to VLAT 'Make Comparisons', HOLF "
+            "'Determine Range'."
+        ),
+        "decision_criteria": (
+            "The sentence relates two or more data points to find a delta, "
+            "hierarchy, or relative measure. It cites a comparison between "
+            "specific values, a ranking, a ratio, or a cross-panel contrast. "
+            "The key signal is that two or more pieces of chart information are "
+            "being related to each other."
+        ),
+        "examples": [
+            "Women are 20% more likely to use text or video-chat compared to men.",
+            "Less than 25% of young men visit their parents vs. over 40% of young women.",
+            "The top 0.1% have a benefit that is up to 7 times the average.",
+            "In-person visits are the least common form of communication.",
+            "China generates far more electricity from coal than from any other source.",
+        ],
+    },
+    {
+        "label": "Infer & Characterize (Read Beyond the Data)",
+        "description": (
+            "The observer synthesizes all or many data points into a single "
+            "pattern, trend, correlation, or functional form. Includes trends "
+            "and trajectories, cross-variable relationships and geographic "
+            "clustering, statistical significance or residuals, and density or "
+            "concentration patterns. Equivalent to VLAT 'Find Correlations/"
+            "Trends', CALVI 'Find Anomalies/Clusters'."
+        ),
+        "decision_criteria": (
+            "The sentence describes a direction, shape, overall pattern, "
+            "correlation, clustering, or distributional property across the "
+            "data as a whole — not individual points. The observer is looking "
+            "at the behavior of the data rather than reading off specific values "
+            "or comparing a small number of points."
+        ),
+        "examples": [
+            "Over time, there has been an overall steady increase in clean gigawatt hours.",
+            "China's graph shows a very steep increase in electricity generation.",
+            "Admissions are heavily skewed in favor of high-income legacy applicants.",
+            "There appears to be a positive correlation between income and acceptance rate.",
+            "Abortion is most restricted in the south.",
+        ],
+    },
+]
 
 PROPOSE_LABELS_SYSTEM_PROMPT = (
     "You are an expert in data visualization literacy and discourse analysis. "
@@ -689,21 +769,25 @@ def propose_labels(
     observations: List[Dict[str, Any]],
     num_labels: int,
     api_key: str | None = None,
-    model: str = "gpt-5.2",
+    model: str = "gpt-5.4-mini",
     output_path: Path = DEFAULT_PROPOSED_LABELS_JSON,
     sample_size: int = 500,
     num_iterations: int = 25,
     iterations_dir: Path = DEFAULT_LABEL_ITERATIONS_DIR,
+    seed_labels: List[Dict[str, Any]] | None = None,
 ) -> Dict[str, Any]:
     """
     Iteratively refine a taxonomy for visual observations.
 
-    Round 1: sample *sample_size* observations and ask the LLM to propose
-    *num_labels* initial labels.
-    Rounds 2–*num_iterations*: sample a fresh *sample_size* observations, present
-    the current labels, and ask the LLM whether the categories still fit or need
-    to be split / merged / added / refined. The updated label set is saved after
-    every round.
+    If *seed_labels* is provided, skip the from-scratch proposal and start
+    every iteration as a refinement round using the seeds as the initial
+    taxonomy.  Otherwise, round 1 asks the LLM to propose *num_labels*
+    initial labels and subsequent rounds refine.
+
+    Rounds 2–*num_iterations* (or 1–*num_iterations* when seeded): sample a
+    fresh *sample_size* observations, present the current labels, and ask the
+    LLM whether the categories still fit or need to be split / merged / added
+    / refined.  The updated label set is saved after every round.
     """
     import random
 
@@ -711,7 +795,13 @@ def propose_labels(
     iterations_dir.mkdir(parents=True, exist_ok=True)
 
     effective_sample = min(sample_size, len(observations))
-    current_labels: List[Dict[str, Any]] = []
+
+    if seed_labels:
+        current_labels: List[Dict[str, Any]] = [dict(l) for l in seed_labels]
+        print(f"\nSeeded with {len(current_labels)} initial categories:")
+        _print_labels(current_labels, header="SEED CATEGORIES")
+    else:
+        current_labels: List[Dict[str, Any]] = []
 
     for iteration in range(1, num_iterations + 1):
         sample = random.sample(observations, effective_sample)
@@ -721,7 +811,7 @@ def propose_labels(
               f"({effective_sample} sampled observations)")
         print(f"{'#'*60}")
 
-        if iteration == 1:
+        if iteration == 1 and not seed_labels:
             user_prompt = _build_initial_proposal_prompt(sample, num_labels)
             system_prompt = PROPOSE_LABELS_SYSTEM_PROMPT
         else:
@@ -801,8 +891,9 @@ def propose_labels(
             "sample_size": effective_sample,
             "num_iterations": num_iterations,
             "model": model,
-            "num_labels_initial": num_labels,
+            "num_labels_initial": len(seed_labels) if seed_labels else num_labels,
             "num_labels_final": len(current_labels),
+            "seeded": bool(seed_labels),
         },
     }
 
@@ -813,7 +904,10 @@ def propose_labels(
     print(f"\n{'='*60}")
     print(f"FINAL TAXONOMY after {num_iterations} iterations")
     print(f"{'='*60}")
-    print(f"Started with {num_labels} requested labels, ended with {len(current_labels)}.")
+    if seed_labels:
+        print(f"Seeded with {len(seed_labels)} categories, ended with {len(current_labels)}.")
+    else:
+        print(f"Started with {num_labels} requested labels, ended with {len(current_labels)}.")
     print(f"Saved to {output_path}")
     _print_labels(current_labels, header="FINAL LABELS")
 
@@ -864,8 +958,8 @@ def main() -> None:
     parser.add_argument(
         "--model",
         type=str,
-        default="gpt-5.2",
-        help="OpenAI model for classification (default: gpt-5.2)",
+        default="gpt-5.4-mini",
+        help="OpenAI model for classification (default: gpt-5.4-mini)",
     )
     parser.add_argument(
         "--batch-size",
@@ -958,6 +1052,16 @@ def main() -> None:
         default=DEFAULT_LABEL_ITERATIONS_DIR,
         help=f"Directory to save per-iteration label snapshots (default: {DEFAULT_LABEL_ITERATIONS_DIR}).",
     )
+    propose_group.add_argument(
+        "--seed-categories",
+        action="store_true",
+        help=(
+            "Seed the iterative refinement with three reading-level categories "
+            "(Retrieve & Identify, Compare & Compute, Infer & Characterize) "
+            "instead of asking the model to propose labels from scratch. "
+            "All iterations become refinement rounds."
+        ),
+    )
     args = parser.parse_args()
 
     if args.propose_labels:
@@ -980,6 +1084,7 @@ def main() -> None:
             sample_size=args.sample_size,
             num_iterations=args.num_iterations,
             iterations_dir=args.iterations_dir,
+            seed_labels=SEED_VISUAL_CATEGORIES if args.seed_categories else None,
         )
         return
 
