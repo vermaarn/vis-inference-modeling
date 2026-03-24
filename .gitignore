@@ -24,6 +24,7 @@ node_modules/
 analysis/outputs/comment_similarity/
 
 *.html
+!extraction_pipeline/graph_visualizations/181/*.html
 *.json
 *.png
 *.webp
