@@ -1,0 +1,132 @@
+{
+  "article_id": "181",
+  "comment_index": 18,
+  "raw_comment": "This graph shows the World's Electricity Generation from 2000-2022, specifies where this energy is derived from, and if that energy is clean or fossil. I notice that there are more gigawatt hours of fossil electricity such as gas, oil, and coal than clean electricity. This is expected given the global warming crisis that we are currently facing as a result of these fossil fuels being emitted into the air in order to generate electricity. However, I also noticed that clean energy has significantly increased since 2000, especially wind and solar electricity which faced a significant increase. As climate change has become a more real and pressing issue over the past couple of years, there has been a bigger push to use renewable energy such as putting solar panels on your roof. The more specific graphs demonstrate electric generation in countries like China, India, and the U.S. I noticed that China used significantly more electricity than India even though they have the same population. China also generates most of its electricity through coal. This makes sense considering how industrialized China is and how many factories it needs to upkeep. I can infer this is why China has such bad air quality and pollution. The graph of the U.S. concerns me because while our population is much less than India's, we still use more electricity than them. I wonder what other innovations we will develop to limit fossil electricity generation.\n\"The Future is Clean!\"",
+  "ace_sentences": [
+    "This graph shows the World's Electricity Generation from 2000-2022.",
+    "This graph specifies where this energy is derived from.",
+    "This graph specifies if that energy is clean or fossil.",
+    "There are more gigawatt hours of fossil electricity than clean electricity.",
+    "Fossil electricity includes gas.",
+    "Fossil electricity includes oil.",
+    "Fossil electricity includes coal.",
+    "We are currently facing the global warming crisis.",
+    "We are currently facing the global warming crisis as a result of these fossil fuels being emitted into the air in order to generate electricity.",
+    "Clean energy has significantly increased since 2000.",
+    "Wind electricity faced a significant increase since 2000.",
+    "Solar electricity faced a significant increase since 2000.",
+    "Climate change has become a more real and pressing issue over the past couple of years.",
+    "There has been a bigger push to use renewable energy over the past couple of years.",
+    "Putting solar panels on your roof is a use of renewable energy.",
+    "The more specific graphs demonstrate electric generation in China.",
+    "The more specific graphs demonstrate electric generation in India.",
+    "The more specific graphs demonstrate electric generation in the U.S.",
+    "China used significantly more electricity than India.",
+    "China and India have the same population.",
+    "China generates most of its electricity through coal.",
+    "China is industrialized.",
+    "China needs to upkeep many factories.",
+    "I can infer that China has bad air quality and pollution.",
+    "The graph of the U.S. concerns me.",
+    "Our population is much less than India's.",
+    "We still use more electricity than India.",
+    "I wonder what other innovations we will develop.",
+    "I wonder what other innovations we will develop to limit fossil electricity generation.",
+    "The Future is Clean!"
+  ],
+  "source_mappings": {
+    "This graph shows the World's Electricity Generation from 2000-2022.": [
+      "This graph shows the World's Electricity Generation from 2000-2022"
+    ],
+    "This graph specifies where this energy is derived from.": [
+      "specifies where this energy is derived from"
+    ],
+    "This graph specifies if that energy is clean or fossil.": [
+      "if that energy is clean or fossil"
+    ],
+    "There are more gigawatt hours of fossil electricity than clean electricity.": [
+      "there are more gigawatt hours of fossil electricity such as gas, oil, and coal than clean electricity"
+    ],
+    "Fossil electricity includes gas.": [
+      "gas"
+    ],
+    "Fossil electricity includes oil.": [
+      "oil"
+    ],
+    "Fossil electricity includes coal.": [
+      "coal"
+    ],
+    "We are currently facing the global warming crisis.": [
+      "the global warming crisis that we are currently facing"
+    ],
+    "We are currently facing the global warming crisis as a result of these fossil fuels being emitted into the air in order to generate electricity.": [
+      "we are currently facing as a result of these fossil fuels being emitted into the air in order to generate electricity"
+    ],
+    "Clean energy has significantly increased since 2000.": [
+      "clean energy has significantly increased since 2000"
+    ],
+    "Wind electricity faced a significant increase since 2000.": [
+      "wind and solar electricity which faced a significant increase",
+      "since 2000"
+    ],
+    "Solar electricity faced a significant increase since 2000.": [
+      "wind and solar electricity which faced a significant increase",
+      "since 2000"
+    ],
+    "Climate change has become a more real and pressing issue over the past couple of years.": [
+      "climate change has become a more real and pressing issue over the past couple of years"
+    ],
+    "There has been a bigger push to use renewable energy over the past couple of years.": [
+      "there has been a bigger push to use renewable energy",
+      "over the past couple of years"
+    ],
+    "Putting solar panels on your roof is a use of renewable energy.": [
+      "putting solar panels on your roof"
+    ],
+    "The more specific graphs demonstrate electric generation in China.": [
+      "The more specific graphs demonstrate electric generation in countries like China"
+    ],
+    "The more specific graphs demonstrate electric generation in India.": [
+      "India"
+    ],
+    "The more specific graphs demonstrate electric generation in the U.S.": [
+      "the U.S."
+    ],
+    "China used significantly more electricity than India.": [
+      "China used significantly more electricity than India"
+    ],
+    "China and India have the same population.": [
+      "they have the same population"
+    ],
+    "China generates most of its electricity through coal.": [
+      "China also generates most of its electricity through coal"
+    ],
+    "China is industrialized.": [
+      "how industrialized China is"
+    ],
+    "China needs to upkeep many factories.": [
+      "how many factories it needs to upkeep"
+    ],
+    "I can infer that China has bad air quality and pollution.": [
+      "I can infer this is why China has such bad air quality and pollution"
+    ],
+    "The graph of the U.S. concerns me.": [
+      "The graph of the U.S. concerns me"
+    ],
+    "Our population is much less than India's.": [
+      "our population is much less than India's"
+    ],
+    "We still use more electricity than India.": [
+      "we still use more electricity than them"
+    ],
+    "I wonder what other innovations we will develop.": [
+      "I wonder what other innovations we will develop"
+    ],
+    "I wonder what other innovations we will develop to limit fossil electricity generation.": [
+      "I wonder what other innovations we will develop to limit fossil electricity generation"
+    ],
+    "The Future is Clean!": [
+      "\"The Future is Clean!\""
+    ]
+  }
+}

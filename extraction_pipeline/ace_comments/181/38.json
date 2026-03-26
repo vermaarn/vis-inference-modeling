@@ -1,0 +1,89 @@
+{
+  "article_id": "181",
+  "comment_index": 38,
+  "raw_comment": "What I notice is how coal has generated the most amount of gigawatt hours, which is the worst for the environment, and  oil has generated the least amount of hours. Additionally, China uses some of the most electricity in the world, especially with coal , and it keeps increasing, whereas American has stayed pretty steady. What I wonder is why wind, solar, oil, and others are used less the nuclear or hydroelectric.  What's going on in this graph is it is trying to show people how the clean and fossil fuel energy is being used around the world and how many hours are being put in for each type of energy. This effects my community because we want more clean electricity generation being used rather then fossil fuels because it is better for the environment and more hours of that electricity is better., rather then how coal is being used right now. Catchy headline: The World's electricity generation: The results will really SHOCK you",
+  "ace_sentences": [
+    "I notice that coal has generated the most amount of gigawatt hours.",
+    "Coal is the worst for the environment.",
+    "Oil has generated the least amount of hours.",
+    "China uses some of the most electricity in the world.",
+    "China uses especially coal.",
+    "The electricity use in China keeps increasing.",
+    "American has stayed pretty steady.",
+    "I wonder why wind is used less than nuclear or hydroelectric.",
+    "I wonder why solar is used less than nuclear or hydroelectric.",
+    "I wonder why oil is used less than nuclear or hydroelectric.",
+    "I wonder why others are used less than nuclear or hydroelectric.",
+    "This graph is trying to show people how the clean energy and fossil fuel energy is being used around the world.",
+    "This graph is trying to show people how many hours are being put in for each type of energy.",
+    "This affects my community.",
+    "We want more clean electricity generation being used rather then fossil fuels.",
+    "Clean electricity generation is better for the environment.",
+    "More hours of that electricity is better.",
+    "Coal is being used right now.",
+    "The headline is: The World's electricity generation: The results will really SHOCK you."
+  ],
+  "source_mappings": {
+    "I notice that coal has generated the most amount of gigawatt hours.": [
+      "What I notice is how coal has generated the most amount of gigawatt hours"
+    ],
+    "Coal is the worst for the environment.": [
+      "which is the worst for the environment"
+    ],
+    "Oil has generated the least amount of hours.": [
+      "oil has generated the least amount of hours"
+    ],
+    "China uses some of the most electricity in the world.": [
+      "China uses some of the most electricity in the world"
+    ],
+    "China uses especially coal.": [
+      "especially with coal"
+    ],
+    "The electricity use in China keeps increasing.": [
+      "and it keeps increasing"
+    ],
+    "American has stayed pretty steady.": [
+      "American has stayed pretty steady"
+    ],
+    "I wonder why wind is used less than nuclear or hydroelectric.": [
+      "What I wonder is why wind",
+      "are used less the nuclear or hydroelectric"
+    ],
+    "I wonder why solar is used less than nuclear or hydroelectric.": [
+      "solar",
+      "are used less the nuclear or hydroelectric"
+    ],
+    "I wonder why oil is used less than nuclear or hydroelectric.": [
+      "oil",
+      "are used less the nuclear or hydroelectric"
+    ],
+    "I wonder why others are used less than nuclear or hydroelectric.": [
+      "and others",
+      "are used less the nuclear or hydroelectric"
+    ],
+    "This graph is trying to show people how the clean energy and fossil fuel energy is being used around the world.": [
+      "What's going on in this graph is it is trying to show people how the clean and fossil fuel energy is being used around the world"
+    ],
+    "This graph is trying to show people how many hours are being put in for each type of energy.": [
+      "and how many hours are being put in for each type of energy"
+    ],
+    "This affects my community.": [
+      "This effects my community"
+    ],
+    "We want more clean electricity generation being used rather then fossil fuels.": [
+      "we want more clean electricity generation being used rather then fossil fuels"
+    ],
+    "Clean electricity generation is better for the environment.": [
+      "because it is better for the environment"
+    ],
+    "More hours of that electricity is better.": [
+      "more hours of that electricity is better"
+    ],
+    "Coal is being used right now.": [
+      "how coal is being used right now"
+    ],
+    "The headline is: The World's electricity generation: The results will really SHOCK you.": [
+      "Catchy headline: The World's electricity generation: The results will really SHOCK you"
+    ]
+  }
+}

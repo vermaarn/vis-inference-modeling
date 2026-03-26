@@ -1,0 +1,33 @@
+{
+  "article_id": "181",
+  "comment_index": 48,
+  "raw_comment": "I noticed that China has more of everything on the chart I wonder how China has more of everything than the U.S It kinda relates to to here in the U.S because we use most of these things on the chart as well. China uses more than us that makes us low country.",
+  "ace_sentences": [
+    "I noticed that China has more of everything on the chart.",
+    "I wonder how China has more of everything than the U.S.",
+    "This relates to here in the U.S.",
+    "We use most of these things on the chart.",
+    "China uses more than us.",
+    "This makes us a low country."
+  ],
+  "source_mappings": {
+    "I noticed that China has more of everything on the chart.": [
+      "I noticed that China has more of everything on the chart"
+    ],
+    "I wonder how China has more of everything than the U.S.": [
+      "I wonder how China has more of everything than the U.S"
+    ],
+    "This relates to here in the U.S.": [
+      "It kinda relates to to here in the U.S"
+    ],
+    "We use most of these things on the chart.": [
+      "we use most of these things on the chart as well."
+    ],
+    "China uses more than us.": [
+      "China uses more than us"
+    ],
+    "This makes us a low country.": [
+      "that makes us low country."
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "article_id": "181",
+  "comment_index": 124,
+  "raw_comment": "1. Notice: \n- China has more clean power and fossils than the United States.\n- In 2020, India had more coal than the United States.\n- India barely has gas. \n\n2. Wonder:\n- Why is India low on gas?\n- Why did the coal decline in the United States in 2020?\n\n3. Story:\n- The change in electricity generation of clean power and fossils around the world. \n\n4. Headline:\n- The World's Electricity: Clean or Dirty?",
+  "ace_sentences": [
+    "China has more clean power than the United States.",
+    "China has more fossils than the United States.",
+    "In 2020, India had more coal than the United States.",
+    "India barely has gas.",
+    "I wonder why India is low on gas.",
+    "I wonder why the coal declined in the United States in 2020.",
+    "There is a change in electricity generation of clean power around the world.",
+    "There is a change in electricity generation of fossils around the world.",
+    "The headline is:",
+    "The World's Electricity: Clean or Dirty?"
+  ],
+  "source_mappings": {
+    "China has more clean power than the United States.": [
+      "China has more clean power and fossils than the United States."
+    ],
+    "China has more fossils than the United States.": [
+      "China has more clean power and fossils than the United States."
+    ],
+    "In 2020, India had more coal than the United States.": [
+      "In 2020, India had more coal than the United States."
+    ],
+    "India barely has gas.": [
+      "India barely has gas."
+    ],
+    "I wonder why India is low on gas.": [
+      "Why is India low on gas?"
+    ],
+    "I wonder why the coal declined in the United States in 2020.": [
+      "Why did the coal decline in the United States in 2020?"
+    ],
+    "There is a change in electricity generation of clean power around the world.": [
+      "The change in electricity generation of clean power and fossils around the world."
+    ],
+    "There is a change in electricity generation of fossils around the world.": [
+      "The change in electricity generation of clean power and fossils around the world."
+    ],
+    "The headline is:": [
+      "Headline:"
+    ],
+    "The World's Electricity: Clean or Dirty?": [
+      "The World's Electricity: Clean or Dirty?"
+    ]
+  }
+}

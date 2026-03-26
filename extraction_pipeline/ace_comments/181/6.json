@@ -1,0 +1,61 @@
+{
+  "article_id": "181",
+  "comment_index": 6,
+  "raw_comment": "I notice that the electricity has been increasing in clean energy. With China making more energy than the U.S, India makes less than both the U.S and China. \nI wonder what are the rising factors that are causing for Chinas increase and Indias decrease. \nThis relates because it still demonstrates that their is electricity that produces bad energy which affects the lives of people their bodies. \nWorld Countries And Their Energy Production",
+  "ace_sentences": [
+    "I notice that the electricity has been increasing in clean energy.",
+    "China makes more energy than the U.S.",
+    "India makes less energy than the U.S.",
+    "India makes less energy than China.",
+    "I wonder what are the rising factors.",
+    "These rising factors are causing for Chinas increase.",
+    "These rising factors are causing for Indias decrease.",
+    "This relates.",
+    "It still demonstrates that their is electricity.",
+    "This electricity produces bad energy.",
+    "Bad energy affects the lives of people.",
+    "Bad energy affects their bodies.",
+    "The headline is World Countries And Their Energy Production."
+  ],
+  "source_mappings": {
+    "I notice that the electricity has been increasing in clean energy.": [
+      "I notice that the electricity has been increasing in clean energy."
+    ],
+    "China makes more energy than the U.S.": [
+      "China making more energy than the U.S"
+    ],
+    "India makes less energy than the U.S.": [
+      "India makes less than both the U.S"
+    ],
+    "India makes less energy than China.": [
+      "India makes less than both the U.S and China"
+    ],
+    "I wonder what are the rising factors.": [
+      "I wonder what are the rising factors"
+    ],
+    "These rising factors are causing for Chinas increase.": [
+      "are causing for Chinas increase"
+    ],
+    "These rising factors are causing for Indias decrease.": [
+      "Indias decrease"
+    ],
+    "This relates.": [
+      "This relates"
+    ],
+    "It still demonstrates that their is electricity.": [
+      "it still demonstrates that their is electricity"
+    ],
+    "This electricity produces bad energy.": [
+      "electricity that produces bad energy"
+    ],
+    "Bad energy affects the lives of people.": [
+      "affects the lives of people"
+    ],
+    "Bad energy affects their bodies.": [
+      "their bodies"
+    ],
+    "The headline is World Countries And Their Energy Production.": [
+      "World Countries And Their Energy Production"
+    ]
+  }
+}

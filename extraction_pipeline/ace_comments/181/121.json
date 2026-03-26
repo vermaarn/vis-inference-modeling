@@ -1,0 +1,36 @@
+{
+  "article_id": "181",
+  "comment_index": 121,
+  "raw_comment": "I notice coal in the US is the only thing significantly decreasing.\n\nI wonder why the US stayed roughly the same in its graph.\n\nI live in the US so it shows the usage of fossil fuels ad clean power in my country.\n\n\"The extent the US, India, and China will go for clean power, oil, gas, and coal\" would by my headline.",
+  "ace_sentences": [
+    "Coal in the US is the only thing that is significantly decreasing.",
+    "I wonder why the US stayed roughly the same in its graph.",
+    "I live in the US.",
+    "The graph shows the usage of fossil fuels in my country.",
+    "The graph shows the usage of clean power in my country.",
+    "The headline would be \"The extent the US, India, and China will go for clean power, oil, gas, and coal\"."
+  ],
+  "source_mappings": {
+    "Coal in the US is the only thing that is significantly decreasing.": [
+      "coal in the US is the only thing significantly decreasing"
+    ],
+    "I wonder why the US stayed roughly the same in its graph.": [
+      "I wonder why the US stayed roughly the same in its graph."
+    ],
+    "I live in the US.": [
+      "I live in the US"
+    ],
+    "The graph shows the usage of fossil fuels in my country.": [
+      "it shows the usage of fossil fuels",
+      "in my country"
+    ],
+    "The graph shows the usage of clean power in my country.": [
+      "it shows the usage of",
+      "clean power",
+      "in my country"
+    ],
+    "The headline would be \"The extent the US, India, and China will go for clean power, oil, gas, and coal\".": [
+      "\"The extent the US, India, and China will go for clean power, oil, gas, and coal\" would by my headline."
+    ]
+  }
+}

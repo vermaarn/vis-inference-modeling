@@ -1,0 +1,53 @@
+{
+  "article_id": "181",
+  "comment_index": 36,
+  "raw_comment": "What do you notice about how electricity generation around the world is changing? What do you wonder? \nOver the past 20 years the electricity has increased. I wonder if any of these resources will ever run out and we won’t have any resources to rely on anymore. Nuclear energy has always been high but it has climaxed.  Coal has been steady throughout the past 20 years though. In the 4charts it seems that China uses the most energy and surprisingly Chins uses more energy than the United states. I already know that India is going to have the lowest in resources because they have to reserve theirs because it is limited.",
+  "ace_sentences": [
+    "The electricity has increased over the past 20 years.",
+    "I wonder if any of these resources will ever run out.",
+    "I wonder if we will not have any resources to rely on anymore.",
+    "Nuclear energy has always been high.",
+    "Nuclear energy has climaxed.",
+    "Coal has been steady throughout the past 20 years.",
+    "In the 4charts, it seems that China uses the most energy.",
+    "In the 4charts, it seems that Chins uses more energy than the United states.",
+    "I already know that India is going to have the lowest in resources.",
+    "India has to reserve theirs.",
+    "The resources of India are limited."
+  ],
+  "source_mappings": {
+    "The electricity has increased over the past 20 years.": [
+      "Over the past 20 years the electricity has increased."
+    ],
+    "I wonder if any of these resources will ever run out.": [
+      "I wonder if any of these resources will ever run out"
+    ],
+    "I wonder if we will not have any resources to rely on anymore.": [
+      "we won’t have any resources to rely on anymore."
+    ],
+    "Nuclear energy has always been high.": [
+      "Nuclear energy has always been high"
+    ],
+    "Nuclear energy has climaxed.": [
+      "it has climaxed."
+    ],
+    "Coal has been steady throughout the past 20 years.": [
+      "Coal has been steady throughout the past 20 years though."
+    ],
+    "In the 4charts, it seems that China uses the most energy.": [
+      "In the 4charts it seems that China uses the most energy"
+    ],
+    "In the 4charts, it seems that Chins uses more energy than the United states.": [
+      "surprisingly Chins uses more energy than the United states."
+    ],
+    "I already know that India is going to have the lowest in resources.": [
+      "I already know that India is going to have the lowest in resources"
+    ],
+    "India has to reserve theirs.": [
+      "they have to reserve theirs"
+    ],
+    "The resources of India are limited.": [
+      "it is limited."
+    ]
+  }
+}

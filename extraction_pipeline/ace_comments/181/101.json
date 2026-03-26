@@ -1,0 +1,33 @@
+{
+  "article_id": "181",
+  "comment_index": 101,
+  "raw_comment": "The production of electricity continues to increase globally. Clean electricity is used more frequently than fossil fuels which is better for Earth. When looking at the three smaller scales, America's has pretty much stayed constant, as well as, India's. China on the other hand has been showing exponential growth.",
+  "ace_sentences": [
+    "The production of electricity continues to increase globally.",
+    "Clean electricity is used more frequently than fossil fuels.",
+    "This is better for Earth.",
+    "When looking at the three smaller scales, America's has pretty much stayed constant.",
+    "When looking at the three smaller scales, India's has pretty much stayed constant.",
+    "China has been showing exponential growth."
+  ],
+  "source_mappings": {
+    "The production of electricity continues to increase globally.": [
+      "The production of electricity continues to increase globally."
+    ],
+    "Clean electricity is used more frequently than fossil fuels.": [
+      "Clean electricity is used more frequently than fossil fuels"
+    ],
+    "This is better for Earth.": [
+      "which is better for Earth."
+    ],
+    "When looking at the three smaller scales, America's has pretty much stayed constant.": [
+      "When looking at the three smaller scales, America's has pretty much stayed constant"
+    ],
+    "When looking at the three smaller scales, India's has pretty much stayed constant.": [
+      "India's."
+    ],
+    "China has been showing exponential growth.": [
+      "China on the other hand has been showing exponential growth."
+    ]
+  }
+}

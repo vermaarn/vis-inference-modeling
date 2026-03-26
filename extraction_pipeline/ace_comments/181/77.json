@@ -1,0 +1,77 @@
+{
+  "article_id": "181",
+  "comment_index": 77,
+  "raw_comment": "- I notice that present day fossil fuels make up the majority of electricity generation with clean sources making up less. Furthermore, I notice that in the past 2 decades electricity usage has gone up with unclean sources going up while clean sources remain the same over the years.\n- I wonder how much more expensive it is to produce electricity from clean sources compared to fossil fuels.Furthermore, I wonder how much the switch to clean electricity from fossil fuels would be.\n- This relates to me and my community as the increased pollution from fossil fuels are slowly ruining the quality of air which will eventually ruin the quality of life for myself and my peers. It also puts into perspective how much electricity is being used globally and how fast it grew from two decades prior to the present day. In addition, in surrounding towns the production of energy is a major thing with many power plants that produce energy with these fossil fuels, progressing the irreversible damage of global warming.\n- Although Ancient, Fossil Fuels Remain Relevant",
+  "ace_sentences": [
+    "Present day fossil fuels make up the majority of electricity generation.",
+    "Clean sources make up less of electricity generation.",
+    "In the past 2 decades, electricity usage has gone up.",
+    "In the past 2 decades, unclean sources have gone up.",
+    "Clean sources remain the same over the years.",
+    "I wonder how much more expensive it is to produce electricity from clean sources compared to fossil fuels.",
+    "I wonder how much the switch to clean electricity from fossil fuels would be.",
+    "This relates to me and my community.",
+    "The increased pollution from fossil fuels is slowly ruining the quality of air.",
+    "The quality of air will eventually ruin the quality of life for myself and my peers.",
+    "This puts into perspective how much electricity is being used globally.",
+    "This puts into perspective how fast electricity grew from two decades prior to the present day.",
+    "In surrounding towns, the production of energy is a major thing.",
+    "In surrounding towns, many power plants produce energy with these fossil fuels.",
+    "The production of energy with these fossil fuels progresses the irreversible damage of global warming.",
+    "The headline is:",
+    "Although Ancient, Fossil Fuels Remain Relevant."
+  ],
+  "source_mappings": {
+    "Present day fossil fuels make up the majority of electricity generation.": [
+      "present day fossil fuels make up the majority of electricity generation"
+    ],
+    "Clean sources make up less of electricity generation.": [
+      "clean sources making up less"
+    ],
+    "In the past 2 decades, electricity usage has gone up.": [
+      "in the past 2 decades electricity usage has gone up"
+    ],
+    "In the past 2 decades, unclean sources have gone up.": [
+      "unclean sources going up"
+    ],
+    "Clean sources remain the same over the years.": [
+      "clean sources remain the same over the years"
+    ],
+    "I wonder how much more expensive it is to produce electricity from clean sources compared to fossil fuels.": [
+      "I wonder how much more expensive it is to produce electricity from clean sources compared to fossil fuels"
+    ],
+    "I wonder how much the switch to clean electricity from fossil fuels would be.": [
+      "I wonder how much the switch to clean electricity from fossil fuels would be"
+    ],
+    "This relates to me and my community.": [
+      "This relates to me and my community"
+    ],
+    "The increased pollution from fossil fuels is slowly ruining the quality of air.": [
+      "the increased pollution from fossil fuels are slowly ruining the quality of air"
+    ],
+    "The quality of air will eventually ruin the quality of life for myself and my peers.": [
+      "which will eventually ruin the quality of life for myself and my peers"
+    ],
+    "This puts into perspective how much electricity is being used globally.": [
+      "It also puts into perspective how much electricity is being used globally"
+    ],
+    "This puts into perspective how fast electricity grew from two decades prior to the present day.": [
+      "how fast it grew from two decades prior to the present day"
+    ],
+    "In surrounding towns, the production of energy is a major thing.": [
+      "in surrounding towns the production of energy is a major thing"
+    ],
+    "In surrounding towns, many power plants produce energy with these fossil fuels.": [
+      "many power plants that produce energy with these fossil fuels"
+    ],
+    "The production of energy with these fossil fuels progresses the irreversible damage of global warming.": [
+      "progressing the irreversible damage of global warming"
+    ],
+    "The headline is:": [
+      "Although Ancient, Fossil Fuels Remain Relevant"
+    ],
+    "Although Ancient, Fossil Fuels Remain Relevant.": [
+      "Although Ancient, Fossil Fuels Remain Relevant"
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "article_id": "181",
+  "comment_index": 119,
+  "raw_comment": "1. I notice that the US non-renewable energy use has said pretty consistent over the past 20 years. \n2. I wonder why India's so low on all energy? \n3.Related to my community, more use of clean energy. Headline: 4. Where is our electricity coming from?",
+  "ace_sentences": [
+    "I notice that the US non-renewable energy use has stayed consistent over the past 20 years.",
+    "I wonder why India is so low on all energy.",
+    "My community relates to more use of clean energy.",
+    "The headline is:",
+    "Where is our electricity coming from?"
+  ],
+  "source_mappings": {
+    "I notice that the US non-renewable energy use has stayed consistent over the past 20 years.": [
+      "I notice that the US non-renewable energy use has said pretty consistent over the past 20 years."
+    ],
+    "I wonder why India is so low on all energy.": [
+      "I wonder why India's so low on all energy?"
+    ],
+    "My community relates to more use of clean energy.": [
+      "Related to my community, more use of clean energy."
+    ],
+    "The headline is:": [
+      "Headline:"
+    ],
+    "Where is our electricity coming from?": [
+      "Where is our electricity coming from?"
+    ]
+  }
+}

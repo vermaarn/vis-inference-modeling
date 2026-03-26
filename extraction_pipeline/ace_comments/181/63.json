@@ -1,0 +1,97 @@
+{
+  "article_id": "181",
+  "comment_index": 63,
+  "raw_comment": "This graph depicts the proportion of how different energy sources are used. Coal and gas are used most, but are also fossil fuels. The learner enemies of Nuclear, hydroelectric, and wind/solar are used far less. I wonder how the unclean sources are still the majority when climate change and environmental health have been such prevalent topics of conversation for years. While it was expected that fossil fuels would still be used more, It is surprising that they still dominate as the main sources of energy. There has been a large upsurge in the interests of the environment, hence the amount of energy produced by clean materials should be rising as years pass. This relates to every community because the health of the planet is the most important thing in preserving the health of the people. We need to care for our environment because it is our only home. It is my hope that change continues to push the use of fossil fuels down. A possible title is “Clean v Fossil; Who’s in Charge?”",
+  "ace_sentences": [
+    "This graph depicts the proportion of how different energy sources are used.",
+    "Coal is used most.",
+    "Gas is used most.",
+    "Coal is a fossil fuel.",
+    "Gas is a fossil fuel.",
+    "Nuclear energy is used far less.",
+    "Hydroelectric energy is used far less.",
+    "Wind energy is used far less.",
+    "Solar energy is used far less.",
+    "Unclean sources are still the majority.",
+    "Climate change has been a prevalent topic of conversation for years.",
+    "Environmental health has been a prevalent topic of conversation for years.",
+    "It was expected that fossil fuels would still be used more.",
+    "It is surprising that fossil fuels still dominate as the main sources of energy.",
+    "There has been a large upsurge in the interests of the environment.",
+    "The amount of energy produced by clean materials should be rising as years pass.",
+    "This relates to every community.",
+    "The health of the planet is the most important thing in preserving the health of the people.",
+    "We need to care for our environment.",
+    "Our environment is our only home.",
+    "I hope that change continues to push the use of fossil fuels down.",
+    "A possible title is “Clean v Fossil; Who’s in Charge?”."
+  ],
+  "source_mappings": {
+    "This graph depicts the proportion of how different energy sources are used.": [
+      "This graph depicts the proportion of how different energy sources are used."
+    ],
+    "Coal is used most.": [
+      "Coal and gas are used most"
+    ],
+    "Gas is used most.": [
+      "Coal and gas are used most"
+    ],
+    "Coal is a fossil fuel.": [
+      "Coal and gas are used most, but are also fossil fuels."
+    ],
+    "Gas is a fossil fuel.": [
+      "Coal and gas are used most, but are also fossil fuels."
+    ],
+    "Nuclear energy is used far less.": [
+      "Nuclear, hydroelectric, and wind/solar are used far less."
+    ],
+    "Hydroelectric energy is used far less.": [
+      "Nuclear, hydroelectric, and wind/solar are used far less."
+    ],
+    "Wind energy is used far less.": [
+      "wind/solar are used far less."
+    ],
+    "Solar energy is used far less.": [
+      "wind/solar are used far less."
+    ],
+    "Unclean sources are still the majority.": [
+      "the unclean sources are still the majority"
+    ],
+    "Climate change has been a prevalent topic of conversation for years.": [
+      "climate change and environmental health have been such prevalent topics of conversation for years."
+    ],
+    "Environmental health has been a prevalent topic of conversation for years.": [
+      "climate change and environmental health have been such prevalent topics of conversation for years."
+    ],
+    "It was expected that fossil fuels would still be used more.": [
+      "While it was expected that fossil fuels would still be used more"
+    ],
+    "It is surprising that fossil fuels still dominate as the main sources of energy.": [
+      "It is surprising that they still dominate as the main sources of energy."
+    ],
+    "There has been a large upsurge in the interests of the environment.": [
+      "There has been a large upsurge in the interests of the environment"
+    ],
+    "The amount of energy produced by clean materials should be rising as years pass.": [
+      "the amount of energy produced by clean materials should be rising as years pass."
+    ],
+    "This relates to every community.": [
+      "This relates to every community"
+    ],
+    "The health of the planet is the most important thing in preserving the health of the people.": [
+      "the health of the planet is the most important thing in preserving the health of the people."
+    ],
+    "We need to care for our environment.": [
+      "We need to care for our environment"
+    ],
+    "Our environment is our only home.": [
+      "because it is our only home."
+    ],
+    "I hope that change continues to push the use of fossil fuels down.": [
+      "It is my hope that change continues to push the use of fossil fuels down."
+    ],
+    "A possible title is “Clean v Fossil; Who’s in Charge?”.": [
+      "A possible title is “Clean v Fossil; Who’s in Charge?”"
+    ]
+  }
+}

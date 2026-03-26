@@ -1,0 +1,69 @@
+{
+  "article_id": "181",
+  "comment_index": 100,
+  "raw_comment": "1) I noticed that China has a greater total electrical generation than the U.S. and India. I also noticed that clean, renewable power tends to be used over fossil fuels.\n\n2) I wonder why China and the U.S. have more electrical generation than India when India has the same population as China. How are they supplying electricity to their over 1 billion population?\n\n3) As the world turns to more clean & renewable sources for electricity, the pollution of fossil fuels will likely decrease, which is beneficial to the planet we live in. In addition the overall increase in the world's total electrical generation reflects the rapid advancements in technology and other things that require electricity to power.\n\n4) Electric Boom",
+  "ace_sentences": [
+    "China has a greater total electrical generation than the U.S.",
+    "China has a greater total electrical generation than India.",
+    "Clean renewable power tends to be used over fossil fuels.",
+    "China has more electrical generation than India.",
+    "The U.S. has more electrical generation than India.",
+    "India has the same population as China.",
+    "China supplies electricity to its over 1 billion population.",
+    "India supplies electricity to its over 1 billion population.",
+    "The world turns to more clean and renewable sources for electricity.",
+    "The pollution of fossil fuels will likely decrease.",
+    "This decrease is beneficial to the planet we live in.",
+    "The world's total electrical generation increases overall.",
+    "This increase reflects the rapid advancements in technology.",
+    "Some things require electricity to power.",
+    "The headline is Electric Boom."
+  ],
+  "source_mappings": {
+    "China has a greater total electrical generation than the U.S.": [
+      "China has a greater total electrical generation than the U.S."
+    ],
+    "China has a greater total electrical generation than India.": [
+      "China has a greater total electrical generation than the U.S. and India."
+    ],
+    "Clean renewable power tends to be used over fossil fuels.": [
+      "clean, renewable power tends to be used over fossil fuels"
+    ],
+    "China has more electrical generation than India.": [
+      "China and the U.S. have more electrical generation than India"
+    ],
+    "The U.S. has more electrical generation than India.": [
+      "China and the U.S. have more electrical generation than India"
+    ],
+    "India has the same population as China.": [
+      "India has the same population as China"
+    ],
+    "China supplies electricity to its over 1 billion population.": [
+      "supplying electricity to their over 1 billion population"
+    ],
+    "India supplies electricity to its over 1 billion population.": [
+      "supplying electricity to their over 1 billion population"
+    ],
+    "The world turns to more clean and renewable sources for electricity.": [
+      "As the world turns to more clean & renewable sources for electricity"
+    ],
+    "The pollution of fossil fuels will likely decrease.": [
+      "the pollution of fossil fuels will likely decrease"
+    ],
+    "This decrease is beneficial to the planet we live in.": [
+      "which is beneficial to the planet we live in"
+    ],
+    "The world's total electrical generation increases overall.": [
+      "the overall increase in the world's total electrical generation"
+    ],
+    "This increase reflects the rapid advancements in technology.": [
+      "reflects the rapid advancements in technology"
+    ],
+    "Some things require electricity to power.": [
+      "other things that require electricity to power"
+    ],
+    "The headline is Electric Boom.": [
+      "Electric Boom"
+    ]
+  }
+}

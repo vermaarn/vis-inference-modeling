@@ -1,0 +1,52 @@
+{
+  "article_id": "181",
+  "comment_index": 102,
+  "raw_comment": "1. What do you notice? If your notice makes a claim, where in the graph is the evidence to support it?\n\nI notice that nuclear and hydroelectric electricity is increasing especially in 2020 but coal and gas still take up a big chunk at the bottom.\n\n2. What do you wonder?\n\nI wonder if we are making a new change and switching to more electric electricity's rather than gas and coal. \n\n3. What impact does this have on you and your community?\n\nThis relates to my community because we use a lot of gas. \n\n4. What's going on in this graph? Write a catchy headline that captures the graph's main idea.\n\nIs clean enegry taking over?",
+  "ace_sentences": [
+    "I notice that nuclear electricity is increasing in 2020.",
+    "I notice that hydroelectric electricity is increasing in 2020.",
+    "I notice that coal still takes up a big chunk at the bottom.",
+    "I notice that gas still takes up a big chunk at the bottom.",
+    "I wonder if we are making a new change.",
+    "I wonder if we are switching to more electric electricity's rather than gas and coal.",
+    "This relates to my community.",
+    "We use a lot of gas.",
+    "The headline is:",
+    "Is clean enegry taking over?"
+  ],
+  "source_mappings": {
+    "I notice that nuclear electricity is increasing in 2020.": [
+      "I notice that nuclear",
+      "is increasing especially in 2020"
+    ],
+    "I notice that hydroelectric electricity is increasing in 2020.": [
+      "and hydroelectric electricity is increasing especially in 2020"
+    ],
+    "I notice that coal still takes up a big chunk at the bottom.": [
+      "but coal",
+      "still take up a big chunk at the bottom"
+    ],
+    "I notice that gas still takes up a big chunk at the bottom.": [
+      "and gas",
+      "still take up a big chunk at the bottom"
+    ],
+    "I wonder if we are making a new change.": [
+      "I wonder if we are making a new change"
+    ],
+    "I wonder if we are switching to more electric electricity's rather than gas and coal.": [
+      "switching to more electric electricity's rather than gas and coal"
+    ],
+    "This relates to my community.": [
+      "This relates to my community"
+    ],
+    "We use a lot of gas.": [
+      "we use a lot of gas"
+    ],
+    "The headline is:": [
+      "Write a catchy headline"
+    ],
+    "Is clean enegry taking over?": [
+      "Is clean enegry taking over?"
+    ]
+  }
+}

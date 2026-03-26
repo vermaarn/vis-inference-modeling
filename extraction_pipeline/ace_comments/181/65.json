@@ -1,0 +1,101 @@
+{
+  "article_id": "181",
+  "comment_index": 65,
+  "raw_comment": "Welcome to Wednesday's live moderation of “What’s Going On in This Graph?”  Today’s graphs display the sources of electricity globally and by country for China, the U.S. and India. \n\nFrom 9 am – 2 pm E.T. today, share with us your responses online for the four questions listed in the release.  If your notice includes a claim, please back it up with evidence that supports your claim.  By Friday morning, we’ll reveal the free link to the online article that included these graphs, shout outs for some of the catchiest headlines and more.  \n\nYou can get a link to your response to share with your teacher and classmates by clicking the response box below your response “Email me when my comment is published.”  \n\nThe next graph will be released by Friday, April 12, with live-moderation in two weeks later on Wednesday, April 17.  The topic – shrinkflation!",
+  "ace_sentences": [
+    "This is Wednesday's live moderation of “What’s Going On in This Graph?”.",
+    "Today’s graphs display the sources of electricity globally.",
+    "Today’s graphs display the sources of electricity by country for China.",
+    "Today’s graphs display the sources of electricity by country for the U.S..",
+    "Today’s graphs display the sources of electricity by country for India.",
+    "From 9 am to 2 pm E.T. today, you can share your responses online.",
+    "The release lists four questions.",
+    "You can share responses for the four questions.",
+    "If your notice includes a claim then you must back it up with evidence.",
+    "The evidence must support your claim.",
+    "By Friday morning, we will reveal the free link to the online article.",
+    "The online article included these graphs.",
+    "By Friday morning, we will reveal shout outs for some of the catchiest headlines.",
+    "By Friday morning, we will reveal more.",
+    "You can get a link to your response.",
+    "You can share the link with your teacher.",
+    "You can share the link with your classmates.",
+    "You can get the link by clicking the response box.",
+    "The response box is below your response.",
+    "You must click “Email me when my comment is published.”.",
+    "The next graph will be released by Friday, April 12.",
+    "There will be live-moderation in two weeks later on Wednesday, April 17.",
+    "The topic is shrinkflation."
+  ],
+  "source_mappings": {
+    "This is Wednesday's live moderation of “What’s Going On in This Graph?”.": [
+      "Welcome to Wednesday's live moderation of “What’s Going On in This Graph?”"
+    ],
+    "Today’s graphs display the sources of electricity globally.": [
+      "Today’s graphs display the sources of electricity globally"
+    ],
+    "Today’s graphs display the sources of electricity by country for China.": [
+      "Today’s graphs display the sources of electricity globally and by country for China"
+    ],
+    "Today’s graphs display the sources of electricity by country for the U.S..": [
+      "the U.S."
+    ],
+    "Today’s graphs display the sources of electricity by country for India.": [
+      "India"
+    ],
+    "From 9 am to 2 pm E.T. today, you can share your responses online.": [
+      "From 9 am – 2 pm E.T. today, share with us your responses online"
+    ],
+    "The release lists four questions.": [
+      "the four questions listed in the release"
+    ],
+    "You can share responses for the four questions.": [
+      "share with us your responses online for the four questions"
+    ],
+    "If your notice includes a claim then you must back it up with evidence.": [
+      "If your notice includes a claim, please back it up with evidence"
+    ],
+    "The evidence must support your claim.": [
+      "evidence that supports your claim"
+    ],
+    "By Friday morning, we will reveal the free link to the online article.": [
+      "By Friday morning, we’ll reveal the free link to the online article"
+    ],
+    "The online article included these graphs.": [
+      "the online article that included these graphs"
+    ],
+    "By Friday morning, we will reveal shout outs for some of the catchiest headlines.": [
+      "shout outs for some of the catchiest headlines"
+    ],
+    "By Friday morning, we will reveal more.": [
+      "and more"
+    ],
+    "You can get a link to your response.": [
+      "You can get a link to your response"
+    ],
+    "You can share the link with your teacher.": [
+      "share with your teacher"
+    ],
+    "You can share the link with your classmates.": [
+      "classmates"
+    ],
+    "You can get the link by clicking the response box.": [
+      "by clicking the response box"
+    ],
+    "The response box is below your response.": [
+      "below your response"
+    ],
+    "You must click “Email me when my comment is published.”.": [
+      "“Email me when my comment is published.”"
+    ],
+    "The next graph will be released by Friday, April 12.": [
+      "The next graph will be released by Friday, April 12"
+    ],
+    "There will be live-moderation in two weeks later on Wednesday, April 17.": [
+      "with live-moderation in two weeks later on Wednesday, April 17"
+    ],
+    "The topic is shrinkflation.": [
+      "The topic – shrinkflation!"
+    ]
+  }
+}

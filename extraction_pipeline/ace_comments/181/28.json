@@ -1,0 +1,70 @@
+{
+  "article_id": "181",
+  "comment_index": 28,
+  "raw_comment": "When looking at this graph, we notice that it is about electricity. Nuclear, Hydroelectric and other, and wind and solar, are increasing more than coal and gas, which have remained similar gigawatt hours each year since 2000. It is interesting to see that the clean electricity is rising more in recent years as compared to the fossil electricity which is at a slower increase. I wonder if this will continue to happen, and if the fossil electricities such as coal or gas will begin decreasing in the coming years. I also wonder the reason for the difference in inclines when comparing clean and fossil electricity. This relates to me and my community because these me and the people around me are users of electricity in several shapes and forms. We all use it every day and it is important to be educated on it.",
+  "ace_sentences": [
+    "This graph is about electricity.",
+    "Nuclear energy is increasing more than coal and gas.",
+    "Hydroelectric energy is increasing more than coal and gas.",
+    "Other energy is increasing more than coal and gas.",
+    "Wind energy and solar energy are increasing more than coal and gas.",
+    "Coal and gas have remained similar gigawatt hours each year since 2000.",
+    "Clean electricity is rising more in recent years.",
+    "Fossil electricity is at a slower increase.",
+    "I wonder if this will continue to happen.",
+    "I wonder if fossil electricities such as coal or gas will begin decreasing in the coming years.",
+    "I wonder about the reason for the difference in inclines when comparing clean electricity and fossil electricity.",
+    "This relates to me and my community.",
+    "Me and the people around me are users of electricity in several shapes and forms.",
+    "We all use electricity every day.",
+    "It is important to be educated on electricity."
+  ],
+  "source_mappings": {
+    "This graph is about electricity.": [
+      "this graph",
+      "it is about electricity"
+    ],
+    "Nuclear energy is increasing more than coal and gas.": [
+      "Nuclear, Hydroelectric and other, and wind and solar, are increasing more than coal and gas"
+    ],
+    "Hydroelectric energy is increasing more than coal and gas.": [
+      "Nuclear, Hydroelectric and other, and wind and solar, are increasing more than coal and gas"
+    ],
+    "Other energy is increasing more than coal and gas.": [
+      "Nuclear, Hydroelectric and other, and wind and solar, are increasing more than coal and gas"
+    ],
+    "Wind energy and solar energy are increasing more than coal and gas.": [
+      "Nuclear, Hydroelectric and other, and wind and solar, are increasing more than coal and gas"
+    ],
+    "Coal and gas have remained similar gigawatt hours each year since 2000.": [
+      "coal and gas, which have remained similar gigawatt hours each year since 2000"
+    ],
+    "Clean electricity is rising more in recent years.": [
+      "the clean electricity is rising more in recent years"
+    ],
+    "Fossil electricity is at a slower increase.": [
+      "the fossil electricity which is at a slower increase"
+    ],
+    "I wonder if this will continue to happen.": [
+      "I wonder if this will continue to happen"
+    ],
+    "I wonder if fossil electricities such as coal or gas will begin decreasing in the coming years.": [
+      "if the fossil electricities such as coal or gas will begin decreasing in the coming years"
+    ],
+    "I wonder about the reason for the difference in inclines when comparing clean electricity and fossil electricity.": [
+      "I also wonder the reason for the difference in inclines when comparing clean and fossil electricity"
+    ],
+    "This relates to me and my community.": [
+      "This relates to me and my community"
+    ],
+    "Me and the people around me are users of electricity in several shapes and forms.": [
+      "these me and the people around me are users of electricity in several shapes and forms"
+    ],
+    "We all use electricity every day.": [
+      "We all use it every day"
+    ],
+    "It is important to be educated on electricity.": [
+      "it is important to be educated on it"
+    ]
+  }
+}

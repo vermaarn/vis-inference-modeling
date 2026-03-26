@@ -1,0 +1,113 @@
+{
+  "article_id": "181",
+  "comment_index": 80,
+  "raw_comment": "When analyzing the graphs depicting total electricity generation in China, the United States, and India, China immediately captured my attention. This is because it displays a tremendous increase in electricity generated in a short amount of time (only about 20 years). This is vastly different from the graph of the United States, which reveals a relatively stable trend in electricity generated. India on the other hand, has the lowest amount of electricity generated, and not only that, but most of their electricity is generated from fossil fuels, instead of clean power sources. The initial graph displaying the global levels of electricity generation indicates that there has been a steady increase over time, accompanied by a noticeable shift towards increased utilization of clean energy sources.\nSomething I wonder is if China and India both have similar populations, why is China's electricity usage about 4 times larger than India's? I also wonder how the United States electricity usage has remained so consistent throughout the years, even though we have had many new inventions/resources that require an immense amount of power.\nThe fact that still over half of our electricity production is coming from fossil fuels, is a bit concerning due to the fact of their many harmful impacts on Earth. I know switching to cleaner forms of electricity can be more expensive, but they are overall better for our planet.\nTitle: \"Powering the World: Electricity Generation Over the Last 20 Years\"",
+  "ace_sentences": [
+    "I analyzed the graphs.",
+    "The graphs depict total electricity generation in China.",
+    "The graphs depict total electricity generation in the United States.",
+    "The graphs depict total electricity generation in India.",
+    "China immediately captured my attention.",
+    "China displays a tremendous increase in electricity generated in a short amount of time.",
+    "The short amount of time is only about 20 years.",
+    "This is vastly different from the graph of the United States.",
+    "The graph of the United States reveals a relatively stable trend in electricity generated.",
+    "India has the lowest amount of electricity generated.",
+    "Most of the electricity of India is generated from fossil fuels.",
+    "Most of the electricity of India is not generated from clean power sources.",
+    "The initial graph displays the global levels of electricity generation.",
+    "The initial graph indicates that there has been a steady increase over time.",
+    "The initial graph indicates a noticeable shift towards increased utilization of clean energy sources.",
+    "I wonder if China and India both have similar populations.",
+    "I wonder why China's electricity usage is about 4 times larger than India's.",
+    "I wonder how the United States electricity usage has remained so consistent throughout the years.",
+    "We have had many new inventions or resources.",
+    "Many new inventions or resources require an immense amount of power.",
+    "Still over half of our electricity production is coming from fossil fuels.",
+    "This fact is a bit concerning.",
+    "Fossil fuels have many harmful impacts on Earth.",
+    "Switching to cleaner forms of electricity can be more expensive.",
+    "Cleaner forms of electricity are overall better for our planet.",
+    "The title is \"Powering the World: Electricity Generation Over the Last 20 Years\"."
+  ],
+  "source_mappings": {
+    "I analyzed the graphs.": [
+      "When analyzing the graphs"
+    ],
+    "The graphs depict total electricity generation in China.": [
+      "the graphs depicting total electricity generation in China"
+    ],
+    "The graphs depict total electricity generation in the United States.": [
+      "the graphs depicting total electricity generation in China, the United States"
+    ],
+    "The graphs depict total electricity generation in India.": [
+      "the graphs depicting total electricity generation in China, the United States, and India"
+    ],
+    "China immediately captured my attention.": [
+      "China immediately captured my attention."
+    ],
+    "China displays a tremendous increase in electricity generated in a short amount of time.": [
+      "it displays a tremendous increase in electricity generated in a short amount of time"
+    ],
+    "The short amount of time is only about 20 years.": [
+      "(only about 20 years)"
+    ],
+    "This is vastly different from the graph of the United States.": [
+      "This is vastly different from the graph of the United States"
+    ],
+    "The graph of the United States reveals a relatively stable trend in electricity generated.": [
+      "which reveals a relatively stable trend in electricity generated."
+    ],
+    "India has the lowest amount of electricity generated.": [
+      "India on the other hand, has the lowest amount of electricity generated"
+    ],
+    "Most of the electricity of India is generated from fossil fuels.": [
+      "most of their electricity is generated from fossil fuels"
+    ],
+    "Most of the electricity of India is not generated from clean power sources.": [
+      "instead of clean power sources"
+    ],
+    "The initial graph displays the global levels of electricity generation.": [
+      "The initial graph displaying the global levels of electricity generation"
+    ],
+    "The initial graph indicates that there has been a steady increase over time.": [
+      "indicates that there has been a steady increase over time"
+    ],
+    "The initial graph indicates a noticeable shift towards increased utilization of clean energy sources.": [
+      "accompanied by a noticeable shift towards increased utilization of clean energy sources."
+    ],
+    "I wonder if China and India both have similar populations.": [
+      "Something I wonder is if China and India both have similar populations"
+    ],
+    "I wonder why China's electricity usage is about 4 times larger than India's.": [
+      "why is China's electricity usage about 4 times larger than India's?"
+    ],
+    "I wonder how the United States electricity usage has remained so consistent throughout the years.": [
+      "I also wonder how the United States electricity usage has remained so consistent throughout the years"
+    ],
+    "We have had many new inventions or resources.": [
+      "we have had many new inventions/resources"
+    ],
+    "Many new inventions or resources require an immense amount of power.": [
+      "that require an immense amount of power."
+    ],
+    "Still over half of our electricity production is coming from fossil fuels.": [
+      "still over half of our electricity production is coming from fossil fuels"
+    ],
+    "This fact is a bit concerning.": [
+      "is a bit concerning"
+    ],
+    "Fossil fuels have many harmful impacts on Earth.": [
+      "their many harmful impacts on Earth"
+    ],
+    "Switching to cleaner forms of electricity can be more expensive.": [
+      "switching to cleaner forms of electricity can be more expensive"
+    ],
+    "Cleaner forms of electricity are overall better for our planet.": [
+      "they are overall better for our planet."
+    ],
+    "The title is \"Powering the World: Electricity Generation Over the Last 20 Years\".": [
+      "Title: \"Powering the World: Electricity Generation Over the Last 20 Years\""
+    ]
+  }
+}

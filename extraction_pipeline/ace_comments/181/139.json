@@ -1,0 +1,43 @@
+{
+  "article_id": "181",
+  "comment_index": 139,
+  "raw_comment": "I noticed that where ever the bigger country is the more fossil fuels that are being used, This is also where there are more clean power supplies as well. So why don't we just go all clean and get rid of the fossil fuels. I also noticed that China's amount of energy usage is on a straight incline where the US and India are a somewhat straight line.",
+  "ace_sentences": [
+    "I noticed a pattern.",
+    "A bigger country uses more fossil fuels.",
+    "A bigger country has more clean power supplies.",
+    "We should go all clean.",
+    "We should get rid of the fossil fuels.",
+    "I noticed that China's amount of energy usage is on a straight incline.",
+    "I noticed that the US is a somewhat straight line.",
+    "I noticed that India is a somewhat straight line."
+  ],
+  "source_mappings": {
+    "I noticed a pattern.": [
+      "I noticed that"
+    ],
+    "A bigger country uses more fossil fuels.": [
+      "where ever the bigger country is the more fossil fuels that are being used"
+    ],
+    "A bigger country has more clean power supplies.": [
+      "where there are more clean power supplies as well"
+    ],
+    "We should go all clean.": [
+      "So why don't we just go all clean"
+    ],
+    "We should get rid of the fossil fuels.": [
+      "get rid of the fossil fuels"
+    ],
+    "I noticed that China's amount of energy usage is on a straight incline.": [
+      "I also noticed that China's amount of energy usage is on a straight incline"
+    ],
+    "I noticed that the US is a somewhat straight line.": [
+      "the US",
+      "are a somewhat straight line"
+    ],
+    "I noticed that India is a somewhat straight line.": [
+      "India",
+      "are a somewhat straight line"
+    ]
+  }
+}

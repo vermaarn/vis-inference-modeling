@@ -1,0 +1,53 @@
+{
+  "article_id": "181",
+  "comment_index": 46,
+  "raw_comment": "I notice that China has the greatest rate of change and the US is staying more constant. Cleaner energy is more used in all the countries. \n\nI wonder why cleaner energy is more used. I wonder if the economy effects the different type of electricity. \n\nThis relates t me and my community because we are part of the US that isn’t increasing their electricity. They are still using non-clean electricity. \n\nTitle: New World of Clean electricity",
+  "ace_sentences": [
+    "China has the greatest rate of change.",
+    "The US is staying more constant.",
+    "Cleaner energy is more used in all the countries.",
+    "I wonder why cleaner energy is more used.",
+    "I wonder if the economy affects the different type of electricity.",
+    "This relates to me.",
+    "This relates to my community.",
+    "We are part of the US.",
+    "The US is not increasing their electricity.",
+    "They are still using non-clean electricity.",
+    "The title is New World of Clean electricity."
+  ],
+  "source_mappings": {
+    "China has the greatest rate of change.": [
+      "China has the greatest rate of change"
+    ],
+    "The US is staying more constant.": [
+      "the US is staying more constant"
+    ],
+    "Cleaner energy is more used in all the countries.": [
+      "Cleaner energy is more used in all the countries."
+    ],
+    "I wonder why cleaner energy is more used.": [
+      "I wonder why cleaner energy is more used."
+    ],
+    "I wonder if the economy affects the different type of electricity.": [
+      "I wonder if the economy effects the different type of electricity."
+    ],
+    "This relates to me.": [
+      "This relates t me"
+    ],
+    "This relates to my community.": [
+      "my community"
+    ],
+    "We are part of the US.": [
+      "we are part of the US"
+    ],
+    "The US is not increasing their electricity.": [
+      "isn’t increasing their electricity"
+    ],
+    "They are still using non-clean electricity.": [
+      "They are still using non-clean electricity."
+    ],
+    "The title is New World of Clean electricity.": [
+      "Title: New World of Clean electricity"
+    ]
+  }
+}

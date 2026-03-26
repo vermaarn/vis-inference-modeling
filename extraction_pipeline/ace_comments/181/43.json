@@ -1,0 +1,67 @@
+{
+  "article_id": "181",
+  "comment_index": 43,
+  "raw_comment": "What do you notice?\nI notice that Nuclear and Hydroelectric stayed the same in terms of energy, and it’s decently clean. I noticed that Gas and Coal increased a lot. \nWhat do you wonder?\nI wonder why our coal production is going down, could this be because of different sources of energy? Could this be because company’s care more about the environment?\nHow does this relate to you and your community?\nThis relates to me and my community because we are starting to feel the effects of climate change. \nCreate a catchy headline that captures the graph’s main idea.\nA catchy headline would be “Should Electric Cars Be Mandatory?”",
+  "ace_sentences": [
+    "I notice that nuclear energy stayed the same in terms of energy.",
+    "I notice that hydroelectric energy stayed the same in terms of energy.",
+    "Nuclear energy is decently clean.",
+    "Hydroelectric energy is decently clean.",
+    "I noticed that gas increased a lot.",
+    "I noticed that coal increased a lot.",
+    "I wonder why our coal production is going down.",
+    "This could be because of different sources of energy.",
+    "This could be because companies care more about the environment.",
+    "This relates to me.",
+    "This relates to my community.",
+    "We are starting to feel the effects of climate change.",
+    "A catchy headline would be “Should Electric Cars Be Mandatory?”."
+  ],
+  "source_mappings": {
+    "I notice that nuclear energy stayed the same in terms of energy.": [
+      "I notice that Nuclear",
+      "stayed the same in terms of energy"
+    ],
+    "I notice that hydroelectric energy stayed the same in terms of energy.": [
+      "and Hydroelectric",
+      "stayed the same in terms of energy"
+    ],
+    "Nuclear energy is decently clean.": [
+      "Nuclear",
+      "it’s decently clean"
+    ],
+    "Hydroelectric energy is decently clean.": [
+      "Hydroelectric",
+      "it’s decently clean"
+    ],
+    "I noticed that gas increased a lot.": [
+      "I noticed that Gas",
+      "increased a lot"
+    ],
+    "I noticed that coal increased a lot.": [
+      "and Coal",
+      "increased a lot"
+    ],
+    "I wonder why our coal production is going down.": [
+      "I wonder why our coal production is going down"
+    ],
+    "This could be because of different sources of energy.": [
+      "could this be because of different sources of energy?"
+    ],
+    "This could be because companies care more about the environment.": [
+      "Could this be because company’s care more about the environment?"
+    ],
+    "This relates to me.": [
+      "This relates to me"
+    ],
+    "This relates to my community.": [
+      "my community"
+    ],
+    "We are starting to feel the effects of climate change.": [
+      "we are starting to feel the effects of climate change."
+    ],
+    "A catchy headline would be “Should Electric Cars Be Mandatory?”.": [
+      "A catchy headline would be “Should Electric Cars Be Mandatory?”"
+    ]
+  }
+}

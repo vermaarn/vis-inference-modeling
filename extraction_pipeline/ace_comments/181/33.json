@@ -1,0 +1,90 @@
+{
+  "article_id": "181",
+  "comment_index": 33,
+  "raw_comment": "I've noticed that oil has produced the fewest gigawatt hours and coal has produced the most, with coal being the least environmentally friendly. In addition, since 2000, the amount of electricity generated worldwide has increased, with a rise from 5 to 15 million GWH in the use of clean energy.China consumes a significant amount of electricity globally, mostly from coal, and this consumption is still growing, while US electricity consumption has been relatively stable. I wonder why do the US and China have such differing overall energy usage? Why is the US's production staying steady over the past 20 years while China's is increasing so quickly? I also wonder how much more expensive it is to produce electricity from clean sources compared to fossil fuels?This affects my community because it would be better for everyone  if we continue to use clean energy sources over fossil fuels. In addition, clean energy sources are more sustainable and efficient than the current coal-based electricity system because they generate a greater quantity of electricity over a longer period of time.\n\nCatchy headline: Watt a Way to Save the Environment",
+  "ace_sentences": [
+    "I have noticed that oil has produced the fewest gigawatt hours.",
+    "I have noticed that coal has produced the most gigawatt hours.",
+    "Coal is the least environmentally friendly.",
+    "Since 2000, the amount of electricity generated worldwide has increased.",
+    "Since 2000, the use of clean energy has risen from 5 to 15 million GWH.",
+    "China consumes a significant amount of electricity globally.",
+    "China consumes electricity mostly from coal.",
+    "This consumption is still growing.",
+    "US electricity consumption has been relatively stable.",
+    "I wonder why the US and China have such differing overall energy usage.",
+    "I wonder why the US's production is staying steady over the past 20 years.",
+    "I wonder why China's production is increasing so quickly.",
+    "I wonder how much more expensive it is to produce electricity from clean sources compared to fossil fuels.",
+    "This affects my community.",
+    "It would be better for everyone if we continue to use clean energy sources over fossil fuels.",
+    "Clean energy sources are more sustainable than the current coal-based electricity system.",
+    "Clean energy sources are more efficient than the current coal-based electricity system.",
+    "Clean energy sources generate a greater quantity of electricity over a longer period of time.",
+    "The headline is:",
+    "Watt a Way to Save the Environment."
+  ],
+  "source_mappings": {
+    "I have noticed that oil has produced the fewest gigawatt hours.": [
+      "I've noticed that oil has produced the fewest gigawatt hours"
+    ],
+    "I have noticed that coal has produced the most gigawatt hours.": [
+      "coal has produced the most"
+    ],
+    "Coal is the least environmentally friendly.": [
+      "coal being the least environmentally friendly"
+    ],
+    "Since 2000, the amount of electricity generated worldwide has increased.": [
+      "since 2000, the amount of electricity generated worldwide has increased"
+    ],
+    "Since 2000, the use of clean energy has risen from 5 to 15 million GWH.": [
+      "a rise from 5 to 15 million GWH in the use of clean energy"
+    ],
+    "China consumes a significant amount of electricity globally.": [
+      "China consumes a significant amount of electricity globally"
+    ],
+    "China consumes electricity mostly from coal.": [
+      "mostly from coal"
+    ],
+    "This consumption is still growing.": [
+      "this consumption is still growing"
+    ],
+    "US electricity consumption has been relatively stable.": [
+      "US electricity consumption has been relatively stable"
+    ],
+    "I wonder why the US and China have such differing overall energy usage.": [
+      "I wonder why do the US and China have such differing overall energy usage?"
+    ],
+    "I wonder why the US's production is staying steady over the past 20 years.": [
+      "Why is the US's production staying steady over the past 20 years"
+    ],
+    "I wonder why China's production is increasing so quickly.": [
+      "while China's is increasing so quickly?"
+    ],
+    "I wonder how much more expensive it is to produce electricity from clean sources compared to fossil fuels.": [
+      "I also wonder how much more expensive it is to produce electricity from clean sources compared to fossil fuels?"
+    ],
+    "This affects my community.": [
+      "This affects my community"
+    ],
+    "It would be better for everyone if we continue to use clean energy sources over fossil fuels.": [
+      "it would be better for everyone  if we continue to use clean energy sources over fossil fuels"
+    ],
+    "Clean energy sources are more sustainable than the current coal-based electricity system.": [
+      "clean energy sources are more sustainable",
+      "the current coal-based electricity system"
+    ],
+    "Clean energy sources are more efficient than the current coal-based electricity system.": [
+      "efficient than the current coal-based electricity system"
+    ],
+    "Clean energy sources generate a greater quantity of electricity over a longer period of time.": [
+      "they generate a greater quantity of electricity over a longer period of time"
+    ],
+    "The headline is:": [
+      "Catchy headline:"
+    ],
+    "Watt a Way to Save the Environment.": [
+      "Watt a Way to Save the Environment"
+    ]
+  }
+}

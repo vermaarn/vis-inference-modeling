@@ -1,0 +1,108 @@
+{
+  "article_id": "181",
+  "comment_index": 104,
+  "raw_comment": "What do you notice?\n\nLooking at the global scale, the production of electricity has been continuously increasing. This increase is also followed by the rise in the consumption of resources. Despite clean electricity sources having the ability to produce more electricity than fossil fuels, it seems that fossil fuels are more popular in terms of consumption. Coal, for instance, is the most consumed, but generates the least amount of electricity\n\nWind and solar energy began to receive more traction around 2010 and produces a significant amount of electricity.\n\nUnlike China and India, the fossil fuel consumption in the United States began to decrease around 2010.\n\nWhat do you wonder?\n\nWhy do China and India continue to consume fossil fuels?\n\nDespite having a smaller population, why does India produce less electricity and consume fewer resources than the United States?\n\nWhat does the steady trend in clean electricity production and the decrease in fossil fuel electricity production say about electricity production in the United States?\n\nHow does this relate to you and your community?\n\nThis is relevant to me and my community because we can see how much renewable energy sources can generate more electricity. Knowing how much fossil fuels cause pollution, I wonder how much I contribute to the consumption of these resources and how my community and I can avoid it.\n\nCatchy Headline:\n\n\"Clean Energy: More Power, Less Consumption - But why?\"",
+  "ace_sentences": [
+    "The production of electricity has been continuously increasing on the global scale.",
+    "This increase is followed by the rise in the consumption of resources.",
+    "Clean electricity sources have the ability to produce more electricity than fossil fuels.",
+    "However, fossil fuels seem to be more popular in terms of consumption.",
+    "Coal is the most consumed.",
+    "Coal generates the least amount of electricity.",
+    "Wind energy and solar energy began to receive more traction around 2010.",
+    "Wind energy and solar energy produce a significant amount of electricity.",
+    "The fossil fuel consumption in the United States began to decrease around 2010.",
+    "China consumes fossil fuels.",
+    "India consumes fossil fuels.",
+    "China continues to consume fossil fuels.",
+    "India continues to consume fossil fuels.",
+    "India has a smaller population.",
+    "India produces less electricity than the United States.",
+    "India consumes fewer resources than the United States.",
+    "Clean electricity production has a steady trend in the United States.",
+    "Fossil fuel electricity production decreases in the United States.",
+    "This is relevant to me and my community.",
+    "We can see how much renewable energy sources can generate more electricity.",
+    "Fossil fuels cause pollution.",
+    "I wonder how much I contribute to the consumption of these resources.",
+    "I wonder how my community and I can avoid it.",
+    "The catchy headline is \"Clean Energy: More Power, Less Consumption - But why?\"."
+  ],
+  "source_mappings": {
+    "The production of electricity has been continuously increasing on the global scale.": [
+      "Looking at the global scale, the production of electricity has been continuously increasing."
+    ],
+    "This increase is followed by the rise in the consumption of resources.": [
+      "This increase is also followed by the rise in the consumption of resources."
+    ],
+    "Clean electricity sources have the ability to produce more electricity than fossil fuels.": [
+      "Despite clean electricity sources having the ability to produce more electricity than fossil fuels"
+    ],
+    "However, fossil fuels seem to be more popular in terms of consumption.": [
+      "it seems that fossil fuels are more popular in terms of consumption."
+    ],
+    "Coal is the most consumed.": [
+      "Coal, for instance, is the most consumed"
+    ],
+    "Coal generates the least amount of electricity.": [
+      "but generates the least amount of electricity"
+    ],
+    "Wind energy and solar energy began to receive more traction around 2010.": [
+      "Wind and solar energy began to receive more traction around 2010"
+    ],
+    "Wind energy and solar energy produce a significant amount of electricity.": [
+      "and produces a significant amount of electricity."
+    ],
+    "The fossil fuel consumption in the United States began to decrease around 2010.": [
+      "the fossil fuel consumption in the United States began to decrease around 2010."
+    ],
+    "China consumes fossil fuels.": [
+      "China and India continue to consume fossil fuels"
+    ],
+    "India consumes fossil fuels.": [
+      "China and India continue to consume fossil fuels"
+    ],
+    "China continues to consume fossil fuels.": [
+      "China and India continue to consume fossil fuels"
+    ],
+    "India continues to consume fossil fuels.": [
+      "China and India continue to consume fossil fuels"
+    ],
+    "India has a smaller population.": [
+      "Despite having a smaller population"
+    ],
+    "India produces less electricity than the United States.": [
+      "why does India produce less electricity",
+      "than the United States?"
+    ],
+    "India consumes fewer resources than the United States.": [
+      "and consume fewer resources than the United States?"
+    ],
+    "Clean electricity production has a steady trend in the United States.": [
+      "the steady trend in clean electricity production",
+      "in the United States?"
+    ],
+    "Fossil fuel electricity production decreases in the United States.": [
+      "the decrease in fossil fuel electricity production",
+      "in the United States?"
+    ],
+    "This is relevant to me and my community.": [
+      "This is relevant to me and my community"
+    ],
+    "We can see how much renewable energy sources can generate more electricity.": [
+      "we can see how much renewable energy sources can generate more electricity."
+    ],
+    "Fossil fuels cause pollution.": [
+      "Knowing how much fossil fuels cause pollution"
+    ],
+    "I wonder how much I contribute to the consumption of these resources.": [
+      "I wonder how much I contribute to the consumption of these resources"
+    ],
+    "I wonder how my community and I can avoid it.": [
+      "and how my community and I can avoid it."
+    ],
+    "The catchy headline is \"Clean Energy: More Power, Less Consumption - But why?\".": [
+      "\"Clean Energy: More Power, Less Consumption - But why?\""
+    ]
+  }
+}

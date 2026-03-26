@@ -1,0 +1,102 @@
+{
+  "article_id": "181",
+  "comment_index": 59,
+  "raw_comment": "These graphs show the universal and individually national use of clean and fossil fuels. In the universal graph, I notice that there is a definite spike in the use of clean energy, which is probably due to growing environmental awareness and research. In the graph depicting China's energy use, it seems that although clean fuel is increasing, fossil fuels are too, and to a much larger extent, especially with the use of coal. The United States seems to be significantly improving on their use of fossil fuels. I notice that India uses very little energy at all. I wonder why this is, especially since India is an extremely large country with a large population. This relates to me and my community because if we don't start caring for our planet more, we will have a much dirtier and unhealthy world to live in and leave for future generations. I hope that government leaders everywhere understand the impact of using such detrimental fossil fuels and understand the benefit of using cleaner energy sources. \n\"Reaching a Cleaner Future: Energy Sources Around the World\"",
+  "ace_sentences": [
+    "These graphs show the universal use of clean fuels and fossil fuels.",
+    "These graphs show the individually national use of clean fuels and fossil fuels.",
+    "In the universal graph, I notice a definite spike in the use of clean energy.",
+    "This spike is probably due to growing environmental awareness.",
+    "This spike is probably due to research.",
+    "The graph depicts China's energy use.",
+    "In this graph, clean fuel is increasing.",
+    "In this graph, fossil fuels are increasing.",
+    "In this graph, fossil fuels increase to a much larger extent.",
+    "In this graph, the use of coal is especially large.",
+    "The United States seems to be significantly improving on their use of fossil fuels.",
+    "I notice that India uses very little energy.",
+    "India is an extremely large country.",
+    "India has a large population.",
+    "I wonder why India uses very little energy.",
+    "This relates to me and my community.",
+    "If we do not start caring for our planet more, we will have a much dirtier world to live in.",
+    "If we do not start caring for our planet more, we will have an unhealthy world to live in.",
+    "If we do not start caring for our planet more, we will leave a much dirtier world for future generations.",
+    "If we do not start caring for our planet more, we will leave an unhealthy world for future generations.",
+    "I hope that government leaders everywhere understand the impact of using such detrimental fossil fuels.",
+    "I hope that government leaders everywhere understand the benefit of using cleaner energy sources.",
+    "The title is \"Reaching a Cleaner Future: Energy Sources Around the World\"."
+  ],
+  "source_mappings": {
+    "These graphs show the universal use of clean fuels and fossil fuels.": [
+      "These graphs show the universal and individually national use of clean and fossil fuels."
+    ],
+    "These graphs show the individually national use of clean fuels and fossil fuels.": [
+      "These graphs show the universal and individually national use of clean and fossil fuels."
+    ],
+    "In the universal graph, I notice a definite spike in the use of clean energy.": [
+      "In the universal graph, I notice that there is a definite spike in the use of clean energy"
+    ],
+    "This spike is probably due to growing environmental awareness.": [
+      "which is probably due to growing environmental awareness"
+    ],
+    "This spike is probably due to research.": [
+      "and research."
+    ],
+    "The graph depicts China's energy use.": [
+      "In the graph depicting China's energy use"
+    ],
+    "In this graph, clean fuel is increasing.": [
+      "it seems that although clean fuel is increasing"
+    ],
+    "In this graph, fossil fuels are increasing.": [
+      "fossil fuels are too"
+    ],
+    "In this graph, fossil fuels increase to a much larger extent.": [
+      "and to a much larger extent"
+    ],
+    "In this graph, the use of coal is especially large.": [
+      "especially with the use of coal."
+    ],
+    "The United States seems to be significantly improving on their use of fossil fuels.": [
+      "The United States seems to be significantly improving on their use of fossil fuels."
+    ],
+    "I notice that India uses very little energy.": [
+      "I notice that India uses very little energy at all."
+    ],
+    "India is an extremely large country.": [
+      "India is an extremely large country"
+    ],
+    "India has a large population.": [
+      "with a large population."
+    ],
+    "I wonder why India uses very little energy.": [
+      "I wonder why this is",
+      "I notice that India uses very little energy at all."
+    ],
+    "This relates to me and my community.": [
+      "This relates to me and my community"
+    ],
+    "If we do not start caring for our planet more, we will have a much dirtier world to live in.": [
+      "if we don't start caring for our planet more, we will have a much dirtier and unhealthy world to live in"
+    ],
+    "If we do not start caring for our planet more, we will have an unhealthy world to live in.": [
+      "if we don't start caring for our planet more, we will have a much dirtier and unhealthy world to live in"
+    ],
+    "If we do not start caring for our planet more, we will leave a much dirtier world for future generations.": [
+      "and leave for future generations."
+    ],
+    "If we do not start caring for our planet more, we will leave an unhealthy world for future generations.": [
+      "and leave for future generations."
+    ],
+    "I hope that government leaders everywhere understand the impact of using such detrimental fossil fuels.": [
+      "I hope that government leaders everywhere understand the impact of using such detrimental fossil fuels"
+    ],
+    "I hope that government leaders everywhere understand the benefit of using cleaner energy sources.": [
+      "and understand the benefit of using cleaner energy sources."
+    ],
+    "The title is \"Reaching a Cleaner Future: Energy Sources Around the World\".": [
+      "\"Reaching a Cleaner Future: Energy Sources Around the World\""
+    ]
+  }
+}

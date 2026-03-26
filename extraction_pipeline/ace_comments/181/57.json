@@ -1,0 +1,94 @@
+{
+  "article_id": "181",
+  "comment_index": 57,
+  "raw_comment": "I notice that every category is rapidly increasing over the years. The clean category also seems to be outweighing the fossil category. I also noticed in the other graphs that China has a significantly larger increase in the graph than the United states and India, which is significantly low. I wonder what they can do to end up with only clean power. I'm sure in the long run that would be the goal because it is so much better for our planet. I wonder what it would take to get there though because countries like China have such large amounts of fossil electricity. I think this can relate to money. Like in countries like China, some people have a lot of money and are very wealthy but misuse that money. China is granted large amounts of electricity but still uses a lot of unclean sources. This can be similar to people with a lot of money in our world today and choose not to spend it on anything useful or to help out other people. If I had to make a headline I would make it, “The unfair and uneven spread of resources around our world”.",
+  "ace_sentences": [
+    "Every category is rapidly increasing over the years.",
+    "The clean category seems to be outweighing the fossil category.",
+    "In the other graphs, China has a significantly larger increase in the graph than the United states.",
+    "In the other graphs, China has a significantly larger increase in the graph than India.",
+    "India is significantly low.",
+    "I wonder what they can do to end up with only clean power.",
+    "In the long run, only clean power would be the goal.",
+    "Only clean power is much better for our planet.",
+    "I wonder what it would take to get there.",
+    "Countries like China have large amounts of fossil electricity.",
+    "I think this can relate to money.",
+    "In countries like China, some people have a lot of money.",
+    "In countries like China, some people are very wealthy.",
+    "In countries like China, some people misuse that money.",
+    "China is granted large amounts of electricity.",
+    "China still uses a lot of unclean sources.",
+    "This can be similar to people with a lot of money in our world today.",
+    "People with a lot of money in our world today choose not to spend it on anything useful.",
+    "People with a lot of money in our world today choose not to spend it to help out other people.",
+    "If I had to make a headline, I would make it.",
+    "The headline is \"The unfair and uneven spread of resources around our world\"."
+  ],
+  "source_mappings": {
+    "Every category is rapidly increasing over the years.": [
+      "every category is rapidly increasing over the years"
+    ],
+    "The clean category seems to be outweighing the fossil category.": [
+      "The clean category also seems to be outweighing the fossil category."
+    ],
+    "In the other graphs, China has a significantly larger increase in the graph than the United states.": [
+      "in the other graphs that China has a significantly larger increase in the graph than the United states"
+    ],
+    "In the other graphs, China has a significantly larger increase in the graph than India.": [
+      "in the other graphs that China has a significantly larger increase in the graph than",
+      "India"
+    ],
+    "India is significantly low.": [
+      "India, which is significantly low"
+    ],
+    "I wonder what they can do to end up with only clean power.": [
+      "I wonder what they can do to end up with only clean power."
+    ],
+    "In the long run, only clean power would be the goal.": [
+      "in the long run that would be the goal"
+    ],
+    "Only clean power is much better for our planet.": [
+      "it is so much better for our planet"
+    ],
+    "I wonder what it would take to get there.": [
+      "I wonder what it would take to get there though"
+    ],
+    "Countries like China have large amounts of fossil electricity.": [
+      "countries like China have such large amounts of fossil electricity"
+    ],
+    "I think this can relate to money.": [
+      "I think this can relate to money."
+    ],
+    "In countries like China, some people have a lot of money.": [
+      "in countries like China, some people have a lot of money"
+    ],
+    "In countries like China, some people are very wealthy.": [
+      "are very wealthy"
+    ],
+    "In countries like China, some people misuse that money.": [
+      "misuse that money"
+    ],
+    "China is granted large amounts of electricity.": [
+      "China is granted large amounts of electricity"
+    ],
+    "China still uses a lot of unclean sources.": [
+      "but still uses a lot of unclean sources"
+    ],
+    "This can be similar to people with a lot of money in our world today.": [
+      "This can be similar to people with a lot of money in our world today"
+    ],
+    "People with a lot of money in our world today choose not to spend it on anything useful.": [
+      "choose not to spend it on anything useful"
+    ],
+    "People with a lot of money in our world today choose not to spend it to help out other people.": [
+      "or to help out other people"
+    ],
+    "If I had to make a headline, I would make it.": [
+      "If I had to make a headline I would make it"
+    ],
+    "The headline is \"The unfair and uneven spread of resources around our world\".": [
+      "“The unfair and uneven spread of resources around our world”."
+    ]
+  }
+}

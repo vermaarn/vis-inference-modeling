@@ -1,0 +1,56 @@
+{
+  "article_id": "181",
+  "comment_index": 111,
+  "raw_comment": "Notice: India uses a lot less energy than China and US.\nWonder: What are some reasons for the differences in energy sources between India, China, and the US?\nRelate: relates to me and my community because we use energy everyday. \nHeadline: Energy Sources",
+  "ace_sentences": [
+    "India uses a lot less energy than China.",
+    "India uses a lot less energy than US.",
+    "I wonder about some reasons.",
+    "The reasons are reasons for the differences in energy sources between India and China.",
+    "The reasons are reasons for the differences in energy sources between India and the US.",
+    "The reasons are reasons for the differences in energy sources between China and the US.",
+    "This relates to me.",
+    "This relates to my community.",
+    "We use energy everyday.",
+    "The headline is Energy Sources."
+  ],
+  "source_mappings": {
+    "India uses a lot less energy than China.": [
+      "India uses a lot less energy than China"
+    ],
+    "India uses a lot less energy than US.": [
+      "India uses a lot less energy than China and US",
+      "US"
+    ],
+    "I wonder about some reasons.": [
+      "Wonder: What are some reasons"
+    ],
+    "The reasons are reasons for the differences in energy sources between India and China.": [
+      "differences in energy sources between India, China, and the US",
+      "India",
+      "China"
+    ],
+    "The reasons are reasons for the differences in energy sources between India and the US.": [
+      "differences in energy sources between India, China, and the US",
+      "India",
+      "the US"
+    ],
+    "The reasons are reasons for the differences in energy sources between China and the US.": [
+      "differences in energy sources between India, China, and the US",
+      "China",
+      "the US"
+    ],
+    "This relates to me.": [
+      "relates to me"
+    ],
+    "This relates to my community.": [
+      "my community"
+    ],
+    "We use energy everyday.": [
+      "we use energy everyday"
+    ],
+    "The headline is Energy Sources.": [
+      "Headline: Energy Sources"
+    ]
+  }
+}

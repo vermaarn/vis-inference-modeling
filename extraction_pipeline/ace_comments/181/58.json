@@ -1,0 +1,69 @@
+{
+  "article_id": "181",
+  "comment_index": 58,
+  "raw_comment": "In these four graphs presented to us I notice the differences in exports and imports of Electricity generation. Notice how each Nuclear energy is at the top of each graph and coal is at the least amount. I wonder if these countries partnered up, would the exports and imports double to produce for both countries, or would it decrease due to the fact of it being harder to produce and keep stable for two countries. Well I live in the United States so this tells me were only making enough in my country just to get by for 330 million people, this also tells me our environment is being harmed in the process of creating these oils. My headline would be: Differences in Countries' Electricity.",
+  "ace_sentences": [
+    "Four graphs are presented to us.",
+    "I notice differences in exports and imports of electricity generation.",
+    "In each graph, nuclear energy is at the top.",
+    "In each graph, coal is at the least amount.",
+    "I wonder if these countries partnered up.",
+    "If these countries partnered up, exports and imports would double.",
+    "If these countries partnered up, exports and imports would decrease.",
+    "It would be harder to produce for two countries.",
+    "It would be harder to keep stable for two countries.",
+    "I live in the United States.",
+    "This tells me that we are only making enough in my country.",
+    "We are only making enough in my country for 330 million people.",
+    "This tells me that our environment is being harmed.",
+    "Our environment is being harmed in the process of creating these oils.",
+    "My headline would be: Differences in Countries' Electricity."
+  ],
+  "source_mappings": {
+    "Four graphs are presented to us.": [
+      "these four graphs presented to us"
+    ],
+    "I notice differences in exports and imports of electricity generation.": [
+      "I notice the differences in exports and imports of Electricity generation"
+    ],
+    "In each graph, nuclear energy is at the top.": [
+      "each Nuclear energy is at the top of each graph"
+    ],
+    "In each graph, coal is at the least amount.": [
+      "coal is at the least amount"
+    ],
+    "I wonder if these countries partnered up.": [
+      "I wonder if these countries partnered up"
+    ],
+    "If these countries partnered up, exports and imports would double.": [
+      "if these countries partnered up, would the exports and imports double"
+    ],
+    "If these countries partnered up, exports and imports would decrease.": [
+      "or would it decrease"
+    ],
+    "It would be harder to produce for two countries.": [
+      "harder to produce"
+    ],
+    "It would be harder to keep stable for two countries.": [
+      "keep stable for two countries"
+    ],
+    "I live in the United States.": [
+      "I live in the United States"
+    ],
+    "This tells me that we are only making enough in my country.": [
+      "this tells me were only making enough in my country just to get by"
+    ],
+    "We are only making enough in my country for 330 million people.": [
+      "for 330 million people"
+    ],
+    "This tells me that our environment is being harmed.": [
+      "this also tells me our environment is being harmed"
+    ],
+    "Our environment is being harmed in the process of creating these oils.": [
+      "being harmed in the process of creating these oils"
+    ],
+    "My headline would be: Differences in Countries' Electricity.": [
+      "My headline would be: Differences in Countries' Electricity."
+    ]
+  }
+}

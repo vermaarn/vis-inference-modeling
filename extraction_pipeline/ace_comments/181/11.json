@@ -1,0 +1,59 @@
+{
+  "article_id": "181",
+  "comment_index": 11,
+  "raw_comment": "1. I notice that generation of electricity has increased in all modes over time. I also noticed that china produces more electricity than the United States and India combined.\n\n2. I wonder what can be done to reduce the use of gas and fossil fuels, and how might that decline appear on this graph.\n\n3. This has a tremendous impact of me and my community as fossil fuels, and our consumption of them threaten to destroy human life as we know it through climate change.\n\n4. Coal in our stockings: trends in electricity generation",
+  "ace_sentences": [
+    "I notice that generation of electricity has increased over time.",
+    "The generation of electricity has increased in all modes over time.",
+    "I noticed that china produces more electricity than the United States and India combined.",
+    "I wonder what can be done to reduce the use of gas.",
+    "I wonder what can be done to reduce the use of fossil fuels.",
+    "I wonder how this decline might appear on this graph.",
+    "This has a tremendous impact on me.",
+    "This has a tremendous impact on my community.",
+    "Fossil fuels threaten to destroy human life as we know it through climate change.",
+    "Our consumption of fossil fuels threatens to destroy human life as we know it through climate change.",
+    "The headline is:",
+    "Coal in our stockings: trends in electricity generation."
+  ],
+  "source_mappings": {
+    "I notice that generation of electricity has increased over time.": [
+      "I notice that generation of electricity has increased",
+      "over time"
+    ],
+    "The generation of electricity has increased in all modes over time.": [
+      "generation of electricity has increased in all modes over time"
+    ],
+    "I noticed that china produces more electricity than the United States and India combined.": [
+      "I also noticed that china produces more electricity than the United States and India combined."
+    ],
+    "I wonder what can be done to reduce the use of gas.": [
+      "I wonder what can be done to reduce the use of gas"
+    ],
+    "I wonder what can be done to reduce the use of fossil fuels.": [
+      "I wonder what can be done to reduce the use of gas and fossil fuels"
+    ],
+    "I wonder how this decline might appear on this graph.": [
+      "how might that decline appear on this graph"
+    ],
+    "This has a tremendous impact on me.": [
+      "This has a tremendous impact of me"
+    ],
+    "This has a tremendous impact on my community.": [
+      "me and my community"
+    ],
+    "Fossil fuels threaten to destroy human life as we know it through climate change.": [
+      "fossil fuels",
+      "threaten to destroy human life as we know it through climate change"
+    ],
+    "Our consumption of fossil fuels threatens to destroy human life as we know it through climate change.": [
+      "our consumption of them threaten to destroy human life as we know it through climate change"
+    ],
+    "The headline is:": [
+      "Coal in our stockings: trends in electricity generation"
+    ],
+    "Coal in our stockings: trends in electricity generation.": [
+      "Coal in our stockings: trends in electricity generation"
+    ]
+  }
+}

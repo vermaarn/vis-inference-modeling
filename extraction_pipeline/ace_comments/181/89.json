@@ -1,0 +1,106 @@
+{
+  "article_id": "181",
+  "comment_index": 89,
+  "raw_comment": "The first thing I noticed was that the United States' energy usage was only about twice as less as China's usage despite having a population less than a quarter the size of China's. This means that the average energy usage per person in the US is significantly greater than China's and especially India's. I then noticed the change in the type of energy the United States' has used over the years. From 2000 to 2020 there seems to be a decrease in coal, an small but noticeable increase in wind and solar, and then an increase in oil. So while the increased use of the clean wind and solar energy, and the decrease of coal energy looks good, I wonder if it is offset by the dramatic increase in oil. \nAs the graph depicts energy usage from 2000 to 2020, I am able to observe if me and my family's energy usage coorelates with the graph. Over the last 20 years many families in my neighborhood, including my own, added solar panels to their roofs, this lines up fairly accurately with when solar and wind power starts to increase (around 2010). I am glad to see this change, however I unfortunately also observe that with the layout of my suburban town, driving is almost essential to go to places so seeing an increase in oil also makes sense. These graphs should encourage people to cut out oil, if they need to go somewhere close and walking/biking is a feasible means of travel then they should consider that instead. My title: \"3 largest countries in the world, and how they consume energy\"",
+  "ace_sentences": [
+    "I noticed the first thing.",
+    "The energy usage of the United States was only about twice as less as the usage of China.",
+    "The United States has a population less than a quarter the size of China.",
+    "The average energy usage per person in the US is significantly greater than the average energy usage per person in China.",
+    "The average energy usage per person in the US is significantly greater than the average energy usage per person in India.",
+    "I noticed the change in the type of energy that the United States has used over the years.",
+    "From 2000 to 2020, there seems to be a decrease in coal.",
+    "From 2000 to 2020, there seems to be a small but noticeable increase in wind and solar.",
+    "From 2000 to 2020, there seems to be an increase in oil.",
+    "The increased use of the clean wind and solar energy looks good.",
+    "The decrease of coal energy looks good.",
+    "I wonder if the decrease of coal energy is offset by the dramatic increase in oil.",
+    "The graph depicts energy usage from 2000 to 2020.",
+    "I am able to observe if my family's energy usage coorelates with the graph.",
+    "Over the last 20 years, many families in my neighborhood added solar panels to their roofs.",
+    "My own family added solar panels to their roofs.",
+    "This lines up fairly accurately with when solar and wind power starts to increase around 2010.",
+    "I am glad to see this change.",
+    "I observe that driving is almost essential to go to places.",
+    "The layout of my suburban town makes driving almost essential to go to places.",
+    "Seeing an increase in oil also makes sense.",
+    "These graphs should encourage people to cut out oil.",
+    "If people need to go somewhere close and walking or biking is a feasible means of travel then people should consider that instead.",
+    "My title is \"3 largest countries in the world, and how they consume energy\"."
+  ],
+  "source_mappings": {
+    "I noticed the first thing.": [
+      "The first thing I noticed"
+    ],
+    "The energy usage of the United States was only about twice as less as the usage of China.": [
+      "the United States' energy usage was only about twice as less as China's usage"
+    ],
+    "The United States has a population less than a quarter the size of China.": [
+      "despite having a population less than a quarter the size of China's"
+    ],
+    "The average energy usage per person in the US is significantly greater than the average energy usage per person in China.": [
+      "the average energy usage per person in the US is significantly greater than China's"
+    ],
+    "The average energy usage per person in the US is significantly greater than the average energy usage per person in India.": [
+      "and especially India's"
+    ],
+    "I noticed the change in the type of energy that the United States has used over the years.": [
+      "I then noticed the change in the type of energy the United States' has used over the years."
+    ],
+    "From 2000 to 2020, there seems to be a decrease in coal.": [
+      "From 2000 to 2020 there seems to be a decrease in coal"
+    ],
+    "From 2000 to 2020, there seems to be a small but noticeable increase in wind and solar.": [
+      "an small but noticeable increase in wind and solar"
+    ],
+    "From 2000 to 2020, there seems to be an increase in oil.": [
+      "and then an increase in oil"
+    ],
+    "The increased use of the clean wind and solar energy looks good.": [
+      "the increased use of the clean wind and solar energy"
+    ],
+    "The decrease of coal energy looks good.": [
+      "the decrease of coal energy looks good"
+    ],
+    "I wonder if the decrease of coal energy is offset by the dramatic increase in oil.": [
+      "I wonder if it is offset by the dramatic increase in oil"
+    ],
+    "The graph depicts energy usage from 2000 to 2020.": [
+      "As the graph depicts energy usage from 2000 to 2020"
+    ],
+    "I am able to observe if my family's energy usage coorelates with the graph.": [
+      "I am able to observe if me and my family's energy usage coorelates with the graph."
+    ],
+    "Over the last 20 years, many families in my neighborhood added solar panels to their roofs.": [
+      "Over the last 20 years many families in my neighborhood, including my own, added solar panels to their roofs"
+    ],
+    "My own family added solar panels to their roofs.": [
+      "including my own, added solar panels to their roofs"
+    ],
+    "This lines up fairly accurately with when solar and wind power starts to increase around 2010.": [
+      "this lines up fairly accurately with when solar and wind power starts to increase",
+      "(around 2010)"
+    ],
+    "I am glad to see this change.": [
+      "I am glad to see this change"
+    ],
+    "I observe that driving is almost essential to go to places.": [
+      "I unfortunately also observe that with the layout of my suburban town, driving is almost essential to go to places"
+    ],
+    "The layout of my suburban town makes driving almost essential to go to places.": [
+      "with the layout of my suburban town, driving is almost essential to go to places"
+    ],
+    "Seeing an increase in oil also makes sense.": [
+      "so seeing an increase in oil also makes sense"
+    ],
+    "These graphs should encourage people to cut out oil.": [
+      "These graphs should encourage people to cut out oil"
+    ],
+    "If people need to go somewhere close and walking or biking is a feasible means of travel then people should consider that instead.": [
+      "if they need to go somewhere close and walking/biking is a feasible means of travel then they should consider that instead"
+    ],
+    "My title is \"3 largest countries in the world, and how they consume energy\".": [
+      "My title: \"3 largest countries in the world, and how they consume energy\""
+    ]
+  }
+}

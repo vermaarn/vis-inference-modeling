@@ -1,0 +1,58 @@
+{
+  "article_id": "181",
+  "comment_index": 30,
+  "raw_comment": "I  notice that over time the electricity in the world has increased in both the clean energy areas and the fossil fuels areas. I wonder why India generates less electricity than the US even though they have a bigger population. This can relate to my community because I live in the US and it makes me curious to see how much clean energy and fossil fuels my country uses in comparison to others. A catchy headline would be: \"On the road to cleaner energy?\"",
+  "ace_sentences": [
+    "Over time, the electricity in the world has increased in the clean energy areas.",
+    "Over time, the electricity in the world has increased in the fossil fuels areas.",
+    "India generates less electricity than the US.",
+    "India has a bigger population than the US.",
+    "I wonder why India generates less electricity than the US even though India has a bigger population than the US.",
+    "This can relate to my community.",
+    "I live in the US.",
+    "This makes me curious.",
+    "I want to see how much clean energy my country uses in comparison to others.",
+    "I want to see how much fossil fuels my country uses in comparison to others.",
+    "A catchy headline would be:",
+    "On the road to cleaner energy?"
+  ],
+  "source_mappings": {
+    "Over time, the electricity in the world has increased in the clean energy areas.": [
+      "over time the electricity in the world has increased in both the clean energy areas"
+    ],
+    "Over time, the electricity in the world has increased in the fossil fuels areas.": [
+      "over time the electricity in the world has increased in both",
+      "the fossil fuels areas"
+    ],
+    "India generates less electricity than the US.": [
+      "India generates less electricity than the US"
+    ],
+    "India has a bigger population than the US.": [
+      "they have a bigger population"
+    ],
+    "I wonder why India generates less electricity than the US even though India has a bigger population than the US.": [
+      "I wonder why India generates less electricity than the US even though they have a bigger population"
+    ],
+    "This can relate to my community.": [
+      "This can relate to my community"
+    ],
+    "I live in the US.": [
+      "I live in the US"
+    ],
+    "This makes me curious.": [
+      "it makes me curious"
+    ],
+    "I want to see how much clean energy my country uses in comparison to others.": [
+      "to see how much clean energy and fossil fuels my country uses in comparison to others"
+    ],
+    "I want to see how much fossil fuels my country uses in comparison to others.": [
+      "to see how much clean energy and fossil fuels my country uses in comparison to others"
+    ],
+    "A catchy headline would be:": [
+      "A catchy headline would be:"
+    ],
+    "On the road to cleaner energy?": [
+      "On the road to cleaner energy?"
+    ]
+  }
+}

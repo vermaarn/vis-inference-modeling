@@ -1,0 +1,37 @@
+{
+  "article_id": "181",
+  "comment_index": 10,
+  "raw_comment": "If a neighborhood of 100 or 1,000 houses installed roof solar panels, what would the installation price for those homes be? Energy $ savings for average household?  For 5-10 regions of the  country.\nThanks.",
+  "ace_sentences": [
+    "A neighborhood can have 100 houses.",
+    "A neighborhood can have 1,000 houses.",
+    "The houses can install roof solar panels.",
+    "The user asks what the installation price for the homes would be.",
+    "The user asks about energy dollar savings for an average household.",
+    "The user asks about 5-10 regions of the country.",
+    "The user says thanks."
+  ],
+  "source_mappings": {
+    "A neighborhood can have 100 houses.": [
+      "a neighborhood of 100"
+    ],
+    "A neighborhood can have 1,000 houses.": [
+      "1,000 houses"
+    ],
+    "The houses can install roof solar panels.": [
+      "houses installed roof solar panels"
+    ],
+    "The user asks what the installation price for the homes would be.": [
+      "what would the installation price for those homes be?"
+    ],
+    "The user asks about energy dollar savings for an average household.": [
+      "Energy $ savings for average household?"
+    ],
+    "The user asks about 5-10 regions of the country.": [
+      "For 5-10 regions of the  country."
+    ],
+    "The user says thanks.": [
+      "Thanks."
+    ]
+  }
+}

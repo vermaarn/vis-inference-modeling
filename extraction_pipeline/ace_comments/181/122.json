@@ -1,0 +1,29 @@
+{
+  "article_id": "181",
+  "comment_index": 122,
+  "raw_comment": "1. I notice that China uses coal as their most used fossil fuel. They also use the most clean power. \nI wonder if this has anything to do with their high population. \nThis relates to my community because of the impacts of using these different energy sources have on my future.",
+  "ace_sentences": [
+    "I notice that China uses coal as its most used fossil fuel.",
+    "China uses the most clean power.",
+    "I wonder if this has anything to do with the high population of China.",
+    "This relates to my community.",
+    "The impacts of using these different energy sources affect my future."
+  ],
+  "source_mappings": {
+    "I notice that China uses coal as its most used fossil fuel.": [
+      "I notice that China uses coal as their most used fossil fuel."
+    ],
+    "China uses the most clean power.": [
+      "They also use the most clean power."
+    ],
+    "I wonder if this has anything to do with the high population of China.": [
+      "I wonder if this has anything to do with their high population."
+    ],
+    "This relates to my community.": [
+      "This relates to my community"
+    ],
+    "The impacts of using these different energy sources affect my future.": [
+      "the impacts of using these different energy sources have on my future."
+    ]
+  }
+}

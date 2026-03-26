@@ -1,0 +1,61 @@
+{
+  "article_id": "181",
+  "comment_index": 81,
+  "raw_comment": "I noticed that India's energy consumption was the lowest over all years, while the US's was the largest until around ‘10 when it was passed by China. Additionally, clean power has increased in all countries, with wind and solar energy becoming more popular recently.\n\nI wonder why the United States' energy consumption has remained about the same despite the population becoming larger.\n\nThis allows me to see the energy I am likely consuming. It is difficult to know exactly where one's energy is coming from; however, this graph gives some context of the United States' and likely my own energy consumption.\n\nChange of type and amount of energy",
+  "ace_sentences": [
+    "I noticed that India's energy consumption was the lowest over all years.",
+    "I noticed that the US's energy consumption was the largest until around ‘10.",
+    "China passed the US around ‘10.",
+    "Clean power has increased in all countries.",
+    "Wind energy and solar energy have become more popular recently.",
+    "I wonder why the United States' energy consumption has remained about the same.",
+    "The population has become larger.",
+    "The population became larger despite the United States' energy consumption remaining about the same.",
+    "This allows me to see the energy that I am likely consuming.",
+    "It is difficult to know exactly where one's energy is coming from.",
+    "However, this graph gives some context of the United States' energy consumption.",
+    "This graph gives some context of my own energy consumption.",
+    "The headline is \"Change of type and amount of energy\"."
+  ],
+  "source_mappings": {
+    "I noticed that India's energy consumption was the lowest over all years.": [
+      "I noticed that India's energy consumption was the lowest over all years"
+    ],
+    "I noticed that the US's energy consumption was the largest until around ‘10.": [
+      "the US's was the largest until around ‘10"
+    ],
+    "China passed the US around ‘10.": [
+      "it was passed by China"
+    ],
+    "Clean power has increased in all countries.": [
+      "clean power has increased in all countries"
+    ],
+    "Wind energy and solar energy have become more popular recently.": [
+      "wind and solar energy becoming more popular recently"
+    ],
+    "I wonder why the United States' energy consumption has remained about the same.": [
+      "I wonder why the United States' energy consumption has remained about the same"
+    ],
+    "The population has become larger.": [
+      "the population becoming larger"
+    ],
+    "The population became larger despite the United States' energy consumption remaining about the same.": [
+      "despite the population becoming larger"
+    ],
+    "This allows me to see the energy that I am likely consuming.": [
+      "This allows me to see the energy I am likely consuming."
+    ],
+    "It is difficult to know exactly where one's energy is coming from.": [
+      "It is difficult to know exactly where one's energy is coming from"
+    ],
+    "However, this graph gives some context of the United States' energy consumption.": [
+      "however, this graph gives some context of the United States'"
+    ],
+    "This graph gives some context of my own energy consumption.": [
+      "and likely my own energy consumption"
+    ],
+    "The headline is \"Change of type and amount of energy\".": [
+      "Change of type and amount of energy"
+    ]
+  }
+}

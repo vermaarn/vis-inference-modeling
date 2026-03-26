@@ -1,0 +1,45 @@
+{
+  "article_id": "181",
+  "comment_index": 123,
+  "raw_comment": "I noticed the totals in China are steadily increasing, the US is staying constant, and India is slowly increasing. \n\nI wonder why there is such a difference in the amount.\n\nThis relates to me and my community by making us think about how much energy we are using on a daily base.\n\n\"Which Country Uses the Most Energy?\"",
+  "ace_sentences": [
+    "I noticed that the totals in China are steadily increasing.",
+    "I noticed that the totals in the US are staying constant.",
+    "I noticed that the totals in India are slowly increasing.",
+    "I wonder why there is such a difference in the amount.",
+    "This relates to me.",
+    "This relates to my community.",
+    "This makes us think about how much energy we are using on a daily base.",
+    "The question is:",
+    "Which Country Uses the Most Energy?"
+  ],
+  "source_mappings": {
+    "I noticed that the totals in China are steadily increasing.": [
+      "I noticed the totals in China are steadily increasing"
+    ],
+    "I noticed that the totals in the US are staying constant.": [
+      "the US is staying constant"
+    ],
+    "I noticed that the totals in India are slowly increasing.": [
+      "and India is slowly increasing"
+    ],
+    "I wonder why there is such a difference in the amount.": [
+      "I wonder why there is such a difference in the amount."
+    ],
+    "This relates to me.": [
+      "This relates to me"
+    ],
+    "This relates to my community.": [
+      "and my community"
+    ],
+    "This makes us think about how much energy we are using on a daily base.": [
+      "by making us think about how much energy we are using on a daily base."
+    ],
+    "The question is:": [
+      "\"Which Country Uses the Most Energy?\""
+    ],
+    "Which Country Uses the Most Energy?": [
+      "\"Which Country Uses the Most Energy?\""
+    ]
+  }
+}

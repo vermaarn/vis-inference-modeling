@@ -1,0 +1,17 @@
+{
+  "article_id": "181",
+  "comment_index": 3,
+  "raw_comment": "hello i am brody and I think over 25 gigawatts is crazy.",
+  "ace_sentences": [
+    "The speaker is Brody.",
+    "Brody thinks that over 25 gigawatts is crazy."
+  ],
+  "source_mappings": {
+    "The speaker is Brody.": [
+      "i am brody"
+    ],
+    "Brody thinks that over 25 gigawatts is crazy.": [
+      "I think over 25 gigawatts is crazy"
+    ]
+  }
+}

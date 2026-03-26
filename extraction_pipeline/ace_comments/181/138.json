@@ -1,0 +1,41 @@
+{
+  "article_id": "181",
+  "comment_index": 138,
+  "raw_comment": "The US is using about 2x the energy per person as China and about 8x as India. It reflects the populations living in those countries with a standard of living similar to the US.  Green sources are increasing in all 3.  Coal is a substantial proportion of energy production.",
+  "ace_sentences": [
+    "The US uses about 2x the energy per person as China.",
+    "The US uses about 8x the energy per person as India.",
+    "It reflects the populations living in those countries.",
+    "These populations have a standard of living similar to the US.",
+    "Green sources are increasing in the US.",
+    "Green sources are increasing in China.",
+    "Green sources are increasing in India.",
+    "Coal is a substantial proportion of energy production."
+  ],
+  "source_mappings": {
+    "The US uses about 2x the energy per person as China.": [
+      "The US is using about 2x the energy per person as China"
+    ],
+    "The US uses about 8x the energy per person as India.": [
+      "The US is using about 8x as India"
+    ],
+    "It reflects the populations living in those countries.": [
+      "It reflects the populations living in those countries"
+    ],
+    "These populations have a standard of living similar to the US.": [
+      "with a standard of living similar to the US"
+    ],
+    "Green sources are increasing in the US.": [
+      "Green sources are increasing in all 3"
+    ],
+    "Green sources are increasing in China.": [
+      "Green sources are increasing in all 3"
+    ],
+    "Green sources are increasing in India.": [
+      "Green sources are increasing in all 3"
+    ],
+    "Coal is a substantial proportion of energy production.": [
+      "Coal is a substantial proportion of energy production."
+    ]
+  }
+}

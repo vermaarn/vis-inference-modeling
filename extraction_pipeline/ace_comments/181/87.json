@@ -1,0 +1,111 @@
+{
+  "article_id": "181",
+  "comment_index": 87,
+  "raw_comment": "First examining the “World electricity generation” graph demonstrates an evident increase in electricity generation with fossil fuels dominating a majority of the sources of that energy. Of the clean energy, it’s interesting to note that hydroelectric and other is the greatest source of clean energy compared to nuclear and wind/solar. Of the fossil fuels, coal is the greatest source of fossil fuels compared to gas and oil (and other). Another intriguing thing to note is that clean energy seems to be increasing faster than fossil fuels, however, with clean energy sources taking a bigger share of the total world electricity generation as time passes. I wonder how this increase in clean energy will affect the countries’ totals since China seems to follow that trend of clean energy’s greater share of the world total, but the United States’s and India’s totals seem to be changing at slower rates than China’s. With the rise of clean energy, I hope that statistics like these cause us to reflect on how our communities and we use electricity and where our electricity is coming from. I strongly hope there are more talks especially regarding sustainability when it comes to unrenewable sources of energy such as fossil fuels. A catchy headline could be “Our Energy Sources are Electrifying the World - 2000 to 2022”",
+  "ace_sentences": [
+    "The \"World electricity generation\" graph demonstrates an increase in electricity generation.",
+    "Fossil fuels dominate a majority of the sources of that energy.",
+    "Hydroelectric and other is the greatest source of clean energy.",
+    "Hydroelectric and other is a greater source of clean energy than nuclear.",
+    "Hydroelectric and other is a greater source of clean energy than wind/solar.",
+    "Coal is the greatest source of fossil fuels.",
+    "Coal is a greater source of fossil fuels than gas.",
+    "Coal is a greater source of fossil fuels than oil.",
+    "Coal is a greater source of fossil fuels than other.",
+    "Clean energy seems to be increasing faster than fossil fuels.",
+    "Clean energy sources take a bigger share of the total world electricity generation as time passes.",
+    "I wonder how this increase in clean energy will affect the countries' totals.",
+    "China seems to follow that trend of clean energy's greater share of the world total.",
+    "The United States's totals seem to be changing at slower rates than China's.",
+    "India's totals seem to be changing at slower rates than China's.",
+    "Clean energy rises.",
+    "I hope that statistics like these cause us to reflect.",
+    "We use electricity.",
+    "Our communities use electricity.",
+    "I hope that we reflect on how we use electricity.",
+    "I hope that we reflect on where our electricity is coming from.",
+    "I strongly hope that there are more talks.",
+    "I strongly hope that there are more talks regarding sustainability.",
+    "Fossil fuels are unrenewable sources of energy.",
+    "A catchy headline could be \"Our Energy Sources are Electrifying the World - 2000 to 2022\"."
+  ],
+  "source_mappings": {
+    "The \"World electricity generation\" graph demonstrates an increase in electricity generation.": [
+      "First examining the “World electricity generation” graph demonstrates an evident increase in electricity generation"
+    ],
+    "Fossil fuels dominate a majority of the sources of that energy.": [
+      "with fossil fuels dominating a majority of the sources of that energy"
+    ],
+    "Hydroelectric and other is the greatest source of clean energy.": [
+      "hydroelectric and other is the greatest source of clean energy"
+    ],
+    "Hydroelectric and other is a greater source of clean energy than nuclear.": [
+      "hydroelectric and other is the greatest source of clean energy compared to nuclear"
+    ],
+    "Hydroelectric and other is a greater source of clean energy than wind/solar.": [
+      "hydroelectric and other is the greatest source of clean energy compared to",
+      "wind/solar"
+    ],
+    "Coal is the greatest source of fossil fuels.": [
+      "coal is the greatest source of fossil fuels"
+    ],
+    "Coal is a greater source of fossil fuels than gas.": [
+      "coal is the greatest source of fossil fuels compared to gas"
+    ],
+    "Coal is a greater source of fossil fuels than oil.": [
+      "coal is the greatest source of fossil fuels compared to gas and oil"
+    ],
+    "Coal is a greater source of fossil fuels than other.": [
+      "coal is the greatest source of fossil fuels compared to",
+      "other"
+    ],
+    "Clean energy seems to be increasing faster than fossil fuels.": [
+      "clean energy seems to be increasing faster than fossil fuels"
+    ],
+    "Clean energy sources take a bigger share of the total world electricity generation as time passes.": [
+      "clean energy sources taking a bigger share of the total world electricity generation as time passes"
+    ],
+    "I wonder how this increase in clean energy will affect the countries' totals.": [
+      "I wonder how this increase in clean energy will affect the countries’ totals"
+    ],
+    "China seems to follow that trend of clean energy's greater share of the world total.": [
+      "since China seems to follow that trend of clean energy’s greater share of the world total"
+    ],
+    "The United States's totals seem to be changing at slower rates than China's.": [
+      "but the United States’s and India’s totals seem to be changing at slower rates than China’s"
+    ],
+    "India's totals seem to be changing at slower rates than China's.": [
+      "but the United States’s and India’s totals seem to be changing at slower rates than China’s"
+    ],
+    "Clean energy rises.": [
+      "With the rise of clean energy"
+    ],
+    "I hope that statistics like these cause us to reflect.": [
+      "I hope that statistics like these cause us to reflect"
+    ],
+    "We use electricity.": [
+      "we use electricity"
+    ],
+    "Our communities use electricity.": [
+      "our communities and we use electricity"
+    ],
+    "I hope that we reflect on how we use electricity.": [
+      "reflect on how our communities and we use electricity"
+    ],
+    "I hope that we reflect on where our electricity is coming from.": [
+      "where our electricity is coming from"
+    ],
+    "I strongly hope that there are more talks.": [
+      "I strongly hope there are more talks"
+    ],
+    "I strongly hope that there are more talks regarding sustainability.": [
+      "I strongly hope there are more talks especially regarding sustainability"
+    ],
+    "Fossil fuels are unrenewable sources of energy.": [
+      "unrenewable sources of energy such as fossil fuels"
+    ],
+    "A catchy headline could be \"Our Energy Sources are Electrifying the World - 2000 to 2022\".": [
+      "A catchy headline could be “Our Energy Sources are Electrifying the World - 2000 to 2022”"
+    ]
+  }
+}

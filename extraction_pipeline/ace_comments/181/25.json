@@ -1,0 +1,105 @@
+{
+  "article_id": "181",
+  "comment_index": 25,
+  "raw_comment": "1.I notice up to 15 million gigawatt hours, takes up from fossil fuel, with majority being coal and gas, while little being oil. Clean gigawatts start from 10 to 30 million gigawatt hours, with most being taken up from Nuclear and Hydroelectric energy, with little being from wind turbines. \n\n2.I wonder how the graph will be affected in the future, will there be more fossil fuel or clean energy generation? I also wonder how both types of energy deeply affect our atmosphere and our ecosystem. \n\n3.This relates to my community as where I live, there are many factories letting out smoke (fossil fuel) which damages the Earth and my community, as my town needs more clean energy. \n\n4.Clean vs. Fossil electric generation, and it's effects",
+  "ace_sentences": [
+    "Fossil fuel takes up up to 15 million gigawatt hours.",
+    "Coal is a majority of fossil fuel.",
+    "Gas is a majority of fossil fuel.",
+    "Oil is a little of fossil fuel.",
+    "Clean gigawatts start from 10 to 30 million gigawatt hours.",
+    "Nuclear energy takes up most clean gigawatts.",
+    "Hydroelectric energy takes up most clean gigawatts.",
+    "Wind turbines take up a little of clean gigawatts.",
+    "I wonder how the graph will be affected in the future.",
+    "I wonder if there will be more fossil fuel generation in the future.",
+    "I wonder if there will be more clean energy generation in the future.",
+    "I wonder how fossil fuel deeply affects our atmosphere.",
+    "I wonder how clean energy generation deeply affects our atmosphere.",
+    "I wonder how fossil fuel deeply affects our ecosystem.",
+    "I wonder how clean energy generation deeply affects our ecosystem.",
+    "This relates to my community.",
+    "I live in my community.",
+    "There are many factories in my community.",
+    "The factories let out smoke.",
+    "The smoke is fossil fuel.",
+    "The smoke damages the Earth.",
+    "The smoke damages my community.",
+    "My town needs more clean energy.",
+    "The title is \"Clean vs. Fossil electric generation, and it's effects\"."
+  ],
+  "source_mappings": {
+    "Fossil fuel takes up up to 15 million gigawatt hours.": [
+      "up to 15 million gigawatt hours, takes up from fossil fuel"
+    ],
+    "Coal is a majority of fossil fuel.": [
+      "with majority being coal"
+    ],
+    "Gas is a majority of fossil fuel.": [
+      "and gas"
+    ],
+    "Oil is a little of fossil fuel.": [
+      "while little being oil"
+    ],
+    "Clean gigawatts start from 10 to 30 million gigawatt hours.": [
+      "Clean gigawatts start from 10 to 30 million gigawatt hours"
+    ],
+    "Nuclear energy takes up most clean gigawatts.": [
+      "with most being taken up from Nuclear"
+    ],
+    "Hydroelectric energy takes up most clean gigawatts.": [
+      "and Hydroelectric energy"
+    ],
+    "Wind turbines take up a little of clean gigawatts.": [
+      "with little being from wind turbines"
+    ],
+    "I wonder how the graph will be affected in the future.": [
+      "I wonder how the graph will be affected in the future"
+    ],
+    "I wonder if there will be more fossil fuel generation in the future.": [
+      "will there be more fossil fuel"
+    ],
+    "I wonder if there will be more clean energy generation in the future.": [
+      "or clean energy generation?"
+    ],
+    "I wonder how fossil fuel deeply affects our atmosphere.": [
+      "I also wonder how both types of energy deeply affect our atmosphere"
+    ],
+    "I wonder how clean energy generation deeply affects our atmosphere.": [
+      "I also wonder how both types of energy deeply affect our atmosphere"
+    ],
+    "I wonder how fossil fuel deeply affects our ecosystem.": [
+      "and our ecosystem."
+    ],
+    "I wonder how clean energy generation deeply affects our ecosystem.": [
+      "and our ecosystem."
+    ],
+    "This relates to my community.": [
+      "This relates to my community"
+    ],
+    "I live in my community.": [
+      "as where I live"
+    ],
+    "There are many factories in my community.": [
+      "there are many factories"
+    ],
+    "The factories let out smoke.": [
+      "factories letting out smoke"
+    ],
+    "The smoke is fossil fuel.": [
+      "smoke (fossil fuel)"
+    ],
+    "The smoke damages the Earth.": [
+      "which damages the Earth"
+    ],
+    "The smoke damages my community.": [
+      "and my community"
+    ],
+    "My town needs more clean energy.": [
+      "as my town needs more clean energy"
+    ],
+    "The title is \"Clean vs. Fossil electric generation, and it's effects\".": [
+      "Clean vs. Fossil electric generation, and it's effects"
+    ]
+  }
+}

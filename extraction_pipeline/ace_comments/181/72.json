@@ -1,0 +1,77 @@
+{
+  "article_id": "181",
+  "comment_index": 72,
+  "raw_comment": "1. I notice that the electricity generation has been increasing over time. As well as coal being the major generator which could negatively affect our environment but there is also an increase in clean generators. Also I could notice how China produces more electricity than the U.S by double and India by 5+ times.\n\n2.  I wonder what will happen over time and if the generators of electricity will be fossil or instead clean as time goes on. Also what is the reason for the difference in electricity generation for each country.\n\n3. This relates to me and my community because many people consider putting up solar panels in their houses and by doing so my town could really benefit as it seems that in the U.S a major part of the electricity produced is from coal or oil and it looks that slowly the U.S is using more clean ways to gather electricity.\n\n4. Electricity Across Borders: Exploring Global Differences in Power Generation",
+  "ace_sentences": [
+    "I notice that the electricity generation has been increasing over time.",
+    "Coal is the major generator.",
+    "Coal could negatively affect our environment.",
+    "There is an increase in clean generators.",
+    "China produces more electricity than the U.S by double.",
+    "China produces more electricity than India by 5+ times.",
+    "I wonder what will happen over time.",
+    "I wonder if the generators of electricity will be fossil over time.",
+    "I wonder if the generators of electricity will instead be clean as time goes on.",
+    "I ask what is the reason for the difference in electricity generation for each country.",
+    "This relates to me and my community.",
+    "Many people consider putting up solar panels in their houses.",
+    "By putting up solar panels in their houses, my town could really benefit.",
+    "In the U.S a major part of the electricity produced is from coal or oil.",
+    "Slowly the U.S is using more clean ways to gather electricity.",
+    "The headline is:",
+    "Electricity Across Borders: Exploring Global Differences in Power Generation."
+  ],
+  "source_mappings": {
+    "I notice that the electricity generation has been increasing over time.": [
+      "I notice that the electricity generation has been increasing over time."
+    ],
+    "Coal is the major generator.": [
+      "coal being the major generator"
+    ],
+    "Coal could negatively affect our environment.": [
+      "could negatively affect our environment"
+    ],
+    "There is an increase in clean generators.": [
+      "there is also an increase in clean generators"
+    ],
+    "China produces more electricity than the U.S by double.": [
+      "China produces more electricity than the U.S by double"
+    ],
+    "China produces more electricity than India by 5+ times.": [
+      "China produces more electricity than the U.S by double and India by 5+ times"
+    ],
+    "I wonder what will happen over time.": [
+      "I wonder what will happen over time"
+    ],
+    "I wonder if the generators of electricity will be fossil over time.": [
+      "if the generators of electricity will be fossil"
+    ],
+    "I wonder if the generators of electricity will instead be clean as time goes on.": [
+      "or instead clean as time goes on"
+    ],
+    "I ask what is the reason for the difference in electricity generation for each country.": [
+      "what is the reason for the difference in electricity generation for each country"
+    ],
+    "This relates to me and my community.": [
+      "This relates to me and my community"
+    ],
+    "Many people consider putting up solar panels in their houses.": [
+      "many people consider putting up solar panels in their houses"
+    ],
+    "By putting up solar panels in their houses, my town could really benefit.": [
+      "by doing so my town could really benefit"
+    ],
+    "In the U.S a major part of the electricity produced is from coal or oil.": [
+      "in the U.S a major part of the electricity produced is from coal or oil"
+    ],
+    "Slowly the U.S is using more clean ways to gather electricity.": [
+      "slowly the U.S is using more clean ways to gather electricity"
+    ],
+    "The headline is:": [
+      "Electricity Across Borders: Exploring Global Differences in Power Generation"
+    ],
+    "Electricity Across Borders: Exploring Global Differences in Power Generation.": [
+      "Electricity Across Borders: Exploring Global Differences in Power Generation"
+    ]
+  }
+}

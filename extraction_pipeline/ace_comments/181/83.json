@@ -1,0 +1,96 @@
+{
+  "article_id": "181",
+  "comment_index": 83,
+  "raw_comment": "1) I notice that overall electricity generation has increased over the years. It is seen that in all the graphs, there is more fossil-sourced generation than clean globally. Coal seems to be the main source, as it's the biggest category across all graphs. As the years pass cleaner sources are also increasing. When looking at particular countries, in China it is constantly growing, with the U.S. having a rather constant electricity generation and a rather slow increase in India. \n\n2) How do China's, the U.S.'s, and India's societies contrast each other considering their electricity generation?  May there be a decrease in fossil fuels and more clean power in years to come? \n\n3) As electricity generation only seems to generally increase, while fossil fuels seem to be the main sources, there are also cleaner options. As the years pass and more modern inventions are made, it is expected electricity generation will only increase, however cleaner and healthier methods shall be considered as they also affect the environment. The U.S. seems to be trying to make this change.\n\n4)  The Rise of Electricity Generation: Fossil vs Clean Energy",
+  "ace_sentences": [
+    "Overall electricity generation has increased over the years.",
+    "In all the graphs, there is more fossil-sourced generation than clean globally.",
+    "Coal seems to be the main source.",
+    "Coal is the biggest category across all graphs.",
+    "Cleaner sources are also increasing as the years pass.",
+    "In China, electricity generation is constantly growing.",
+    "The U.S. has a rather constant electricity generation.",
+    "India has a rather slow increase in electricity generation.",
+    "China's society and the U.S.'s society and India's society may contrast each other considering their electricity generation.",
+    "There may be a decrease in fossil fuels in years to come.",
+    "There may be more clean power in years to come.",
+    "Electricity generation seems to generally increase.",
+    "Fossil fuels seem to be the main sources.",
+    "There are cleaner options.",
+    "As the years pass, more modern inventions are made.",
+    "It is expected that electricity generation will only increase.",
+    "Cleaner and healthier methods shall be considered.",
+    "Cleaner and healthier methods affect the environment.",
+    "The U.S. seems to be trying to make this change.",
+    "The headline is:",
+    "The Rise of Electricity Generation: Fossil vs Clean Energy."
+  ],
+  "source_mappings": {
+    "Overall electricity generation has increased over the years.": [
+      "overall electricity generation has increased over the years"
+    ],
+    "In all the graphs, there is more fossil-sourced generation than clean globally.": [
+      "in all the graphs, there is more fossil-sourced generation than clean globally"
+    ],
+    "Coal seems to be the main source.": [
+      "Coal seems to be the main source"
+    ],
+    "Coal is the biggest category across all graphs.": [
+      "it's the biggest category across all graphs"
+    ],
+    "Cleaner sources are also increasing as the years pass.": [
+      "cleaner sources are also increasing",
+      "As the years pass"
+    ],
+    "In China, electricity generation is constantly growing.": [
+      "in China it is constantly growing"
+    ],
+    "The U.S. has a rather constant electricity generation.": [
+      "the U.S. having a rather constant electricity generation"
+    ],
+    "India has a rather slow increase in electricity generation.": [
+      "a rather slow increase in India"
+    ],
+    "China's society and the U.S.'s society and India's society may contrast each other considering their electricity generation.": [
+      "How do China's, the U.S.'s, and India's societies contrast each other considering their electricity generation?"
+    ],
+    "There may be a decrease in fossil fuels in years to come.": [
+      "May there be a decrease in fossil fuels",
+      "in years to come?"
+    ],
+    "There may be more clean power in years to come.": [
+      "more clean power",
+      "in years to come?"
+    ],
+    "Electricity generation seems to generally increase.": [
+      "electricity generation only seems to generally increase"
+    ],
+    "Fossil fuels seem to be the main sources.": [
+      "fossil fuels seem to be the main sources"
+    ],
+    "There are cleaner options.": [
+      "there are also cleaner options"
+    ],
+    "As the years pass, more modern inventions are made.": [
+      "As the years pass and more modern inventions are made"
+    ],
+    "It is expected that electricity generation will only increase.": [
+      "it is expected electricity generation will only increase"
+    ],
+    "Cleaner and healthier methods shall be considered.": [
+      "cleaner and healthier methods shall be considered"
+    ],
+    "Cleaner and healthier methods affect the environment.": [
+      "they also affect the environment"
+    ],
+    "The U.S. seems to be trying to make this change.": [
+      "The U.S. seems to be trying to make this change"
+    ],
+    "The headline is:": [
+      "The Rise of Electricity Generation: Fossil vs Clean Energy"
+    ],
+    "The Rise of Electricity Generation: Fossil vs Clean Energy.": [
+      "The Rise of Electricity Generation: Fossil vs Clean Energy"
+    ]
+  }
+}

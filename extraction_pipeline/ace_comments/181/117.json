@@ -1,0 +1,45 @@
+{
+  "article_id": "181",
+  "comment_index": 117,
+  "raw_comment": "1. Notice: India does not use a lot of energy compared to China and the U.S., even though the population of India is larger than the U.S. population and comparable to the population of China.\n\n2. Wonder: Why does India use less energy? Why has the use of coal decreased in the U.S.?\n\n3. Story: Energy usage has shifted from fossil fuels to clean energy\n\n4. Headline: Energy Shifts: How Energy Use around the World Is Changing",
+  "ace_sentences": [
+    "India does not use a lot of energy compared to China.",
+    "India does not use a lot of energy compared to the U.S..",
+    "The population of India is larger than the U.S. population.",
+    "The population of India is comparable to the population of China.",
+    "India uses less energy.",
+    "The use of coal has decreased in the U.S..",
+    "Energy usage has shifted from fossil fuels to clean energy.",
+    "The headline is:",
+    "Energy Shifts: How Energy Use around the World Is Changing."
+  ],
+  "source_mappings": {
+    "India does not use a lot of energy compared to China.": [
+      "India does not use a lot of energy compared to China"
+    ],
+    "India does not use a lot of energy compared to the U.S..": [
+      "India does not use a lot of energy compared to China and the U.S."
+    ],
+    "The population of India is larger than the U.S. population.": [
+      "the population of India is larger than the U.S. population"
+    ],
+    "The population of India is comparable to the population of China.": [
+      "comparable to the population of China"
+    ],
+    "India uses less energy.": [
+      "India use less energy"
+    ],
+    "The use of coal has decreased in the U.S..": [
+      "the use of coal decreased in the U.S."
+    ],
+    "Energy usage has shifted from fossil fuels to clean energy.": [
+      "Energy usage has shifted from fossil fuels to clean energy"
+    ],
+    "The headline is:": [
+      "Headline:"
+    ],
+    "Energy Shifts: How Energy Use around the World Is Changing.": [
+      "Energy Shifts: How Energy Use around the World Is Changing"
+    ]
+  }
+}

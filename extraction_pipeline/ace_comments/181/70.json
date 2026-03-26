@@ -1,0 +1,94 @@
+{
+  "article_id": "181",
+  "comment_index": 70,
+  "raw_comment": "The biggest thing that stands out to me from the four graphs is the increasing usage of coal power in China. In recent years, there's been a large global push towards clean energy in response to severe climate change, but these global trends don't appear whatsoever in China. In fact, the total coal usage from China is more than the total energy usage in the US. This makes sense from a population stand point, but looking at the graphs with that perspective makes me wonder why India's total energy usage is so low compared to China and the US, especially when the population of India is about the same as the population of China, which is much larger than the US. These graphs also make me wonder about how effective global initiatives can really be if there are still large nations not meeting the regulations designed to help clean our planet.\nUnderstanding how our nation produces the energy that we've grown to rely on helps contextualize issues regarding our energy grid. Ideas of severely reducing one form of energy versus another need to be backed by the knowledge of how we are currently relying on that energy. Simply making decisions or forming ideas without knowledge of the implications will lead to ignorant and damaging decisions.\nFor a title of the graphs, you could use \n\"What Powers the People? Energy Production Across the Years\"",
+  "ace_sentences": [
+    "Four graphs exist.",
+    "The increasing usage of coal power in China stands out to me from the four graphs.",
+    "In recent years, there has been a large global push towards clean energy.",
+    "This global push is in response to severe climate change.",
+    "These global trends do not appear whatsoever in China.",
+    "The total coal usage from China is more than the total energy usage in the US.",
+    "This makes sense from a population stand point.",
+    "I look at the graphs with that perspective.",
+    "This perspective makes me wonder why India's total energy usage is so low compared to China and the US.",
+    "The population of India is about the same as the population of China.",
+    "The population of China is much larger than the US.",
+    "These graphs make me wonder about how effective global initiatives can really be.",
+    "There are still large nations not meeting the regulations.",
+    "The regulations are designed to help clean our planet.",
+    "Understanding how our nation produces the energy helps contextualize issues regarding our energy grid.",
+    "Our nation produces the energy.",
+    "We have grown to rely on the energy.",
+    "Ideas of severely reducing one form of energy versus another need to be backed by the knowledge.",
+    "The knowledge is knowledge of how we are currently relying on that energy.",
+    "Simply making decisions or forming ideas without knowledge of the implications will lead to ignorant and damaging decisions.",
+    "A title of the graphs could be \"What Powers the People? Energy Production Across the Years\"."
+  ],
+  "source_mappings": {
+    "Four graphs exist.": [
+      "the four graphs"
+    ],
+    "The increasing usage of coal power in China stands out to me from the four graphs.": [
+      "the increasing usage of coal power in China",
+      "stands out to me from the four graphs"
+    ],
+    "In recent years, there has been a large global push towards clean energy.": [
+      "In recent years, there's been a large global push towards clean energy"
+    ],
+    "This global push is in response to severe climate change.": [
+      "in response to severe climate change"
+    ],
+    "These global trends do not appear whatsoever in China.": [
+      "these global trends don't appear whatsoever in China"
+    ],
+    "The total coal usage from China is more than the total energy usage in the US.": [
+      "the total coal usage from China is more than the total energy usage in the US"
+    ],
+    "This makes sense from a population stand point.": [
+      "This makes sense from a population stand point"
+    ],
+    "I look at the graphs with that perspective.": [
+      "looking at the graphs with that perspective"
+    ],
+    "This perspective makes me wonder why India's total energy usage is so low compared to China and the US.": [
+      "makes me wonder why India's total energy usage is so low compared to China and the US"
+    ],
+    "The population of India is about the same as the population of China.": [
+      "the population of India is about the same as the population of China"
+    ],
+    "The population of China is much larger than the US.": [
+      "which is much larger than the US"
+    ],
+    "These graphs make me wonder about how effective global initiatives can really be.": [
+      "These graphs also make me wonder about how effective global initiatives can really be"
+    ],
+    "There are still large nations not meeting the regulations.": [
+      "there are still large nations not meeting the regulations"
+    ],
+    "The regulations are designed to help clean our planet.": [
+      "the regulations designed to help clean our planet"
+    ],
+    "Understanding how our nation produces the energy helps contextualize issues regarding our energy grid.": [
+      "Understanding how our nation produces the energy that we've grown to rely on helps contextualize issues regarding our energy grid"
+    ],
+    "Our nation produces the energy.": [
+      "our nation produces the energy"
+    ],
+    "We have grown to rely on the energy.": [
+      "we've grown to rely on"
+    ],
+    "Ideas of severely reducing one form of energy versus another need to be backed by the knowledge.": [
+      "Ideas of severely reducing one form of energy versus another need to be backed by the knowledge"
+    ],
+    "The knowledge is knowledge of how we are currently relying on that energy.": [
+      "the knowledge of how we are currently relying on that energy"
+    ],
+    "Simply making decisions or forming ideas without knowledge of the implications will lead to ignorant and damaging decisions.": [
+      "Simply making decisions or forming ideas without knowledge of the implications will lead to ignorant and damaging decisions"
+    ],
+    "A title of the graphs could be \"What Powers the People? Energy Production Across the Years\".": [
+      "For a title of the graphs, you could use \n\"What Powers the People? Energy Production Across the Years\""
+    ]
+  }
+}

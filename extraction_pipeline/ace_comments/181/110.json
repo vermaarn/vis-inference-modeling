@@ -1,0 +1,80 @@
+{
+  "article_id": "181",
+  "comment_index": 110,
+  "raw_comment": "I notice that globally, all sources of electricity generation are increasing, as can be depicted by the world electricity generation graph. Currently, it looks like global source of energy production through clean methods are being utilized at similar rates to fossil fuel sources. \n\nI wonder what countries most largely contribute focus on using clean energy sources being that the break down of China, United States, and India show that these 3 countries rely mostly on fossil fuels.  I also wonder what the color scale means, aside from differentiating the different groups - Is coal the worst fossil fuel as it is put on the bottom and the darkest, and is Nuclear the cleanest source as it is on the top of the clean category and the lightest in color.\n\nThis is impactful as it makes my community and I aware of where we are getting our power from, and can possibly incentive the advocacy for more focus on clean energy production\n\nHeadline: Changing Global Sources of Energy",
+  "ace_sentences": [
+    "Globally, all sources of electricity generation are increasing.",
+    "The world electricity generation graph can depict this.",
+    "Currently, clean methods are utilized at similar rates to fossil fuel sources.",
+    "I wonder what countries most largely contribute focus on using clean energy sources.",
+    "The break down of China shows that China relies mostly on fossil fuels.",
+    "The break down of United States shows that United States relies mostly on fossil fuels.",
+    "The break down of India shows that India relies mostly on fossil fuels.",
+    "I wonder what the color scale means.",
+    "The color scale differentiates the different groups.",
+    "I wonder if coal is the worst fossil fuel.",
+    "Coal is put on the bottom and the darkest.",
+    "I wonder if Nuclear is the cleanest source.",
+    "Nuclear is on the top of the clean category and the lightest in color.",
+    "This is impactful.",
+    "This makes my community and I aware of where we are getting our power from.",
+    "This can possibly incentive the advocacy for more focus on clean energy production.",
+    "The headline is Changing Global Sources of Energy."
+  ],
+  "source_mappings": {
+    "Globally, all sources of electricity generation are increasing.": [
+      "globally, all sources of electricity generation are increasing"
+    ],
+    "The world electricity generation graph can depict this.": [
+      "as can be depicted by the world electricity generation graph"
+    ],
+    "Currently, clean methods are utilized at similar rates to fossil fuel sources.": [
+      "Currently, it looks like global source of energy production through clean methods are being utilized at similar rates to fossil fuel sources."
+    ],
+    "I wonder what countries most largely contribute focus on using clean energy sources.": [
+      "I wonder what countries most largely contribute focus on using clean energy sources"
+    ],
+    "The break down of China shows that China relies mostly on fossil fuels.": [
+      "the break down of China",
+      "these 3 countries rely mostly on fossil fuels"
+    ],
+    "The break down of United States shows that United States relies mostly on fossil fuels.": [
+      "United States",
+      "these 3 countries rely mostly on fossil fuels"
+    ],
+    "The break down of India shows that India relies mostly on fossil fuels.": [
+      "India",
+      "these 3 countries rely mostly on fossil fuels"
+    ],
+    "I wonder what the color scale means.": [
+      "I also wonder what the color scale means"
+    ],
+    "The color scale differentiates the different groups.": [
+      "aside from differentiating the different groups"
+    ],
+    "I wonder if coal is the worst fossil fuel.": [
+      "Is coal the worst fossil fuel"
+    ],
+    "Coal is put on the bottom and the darkest.": [
+      "as it is put on the bottom and the darkest"
+    ],
+    "I wonder if Nuclear is the cleanest source.": [
+      "and is Nuclear the cleanest source"
+    ],
+    "Nuclear is on the top of the clean category and the lightest in color.": [
+      "as it is on the top of the clean category and the lightest in color"
+    ],
+    "This is impactful.": [
+      "This is impactful"
+    ],
+    "This makes my community and I aware of where we are getting our power from.": [
+      "it makes my community and I aware of where we are getting our power from"
+    ],
+    "This can possibly incentive the advocacy for more focus on clean energy production.": [
+      "can possibly incentive the advocacy for more focus on clean energy production"
+    ],
+    "The headline is Changing Global Sources of Energy.": [
+      "Headline: Changing Global Sources of Energy"
+    ]
+  }
+}

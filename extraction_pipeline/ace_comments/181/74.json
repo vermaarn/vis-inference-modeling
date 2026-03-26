@@ -1,0 +1,69 @@
+{
+  "article_id": "181",
+  "comment_index": 74,
+  "raw_comment": "Switching fully to clean energy is crucial to mitigating environmental damage. The 'World Electricity Generation' graph shows energy trends over 20+ years, revealing a concerning global reliance on coal and gas, despite advances in renewable energy technology. It's alarming that, globally, these non-renewables dominate, even as the US shifts from coal to natural gas—ironic, given America's role in clean energy innovation. This data prompts questions about the fossil fuel industry's influence in maintaining this imbalance, despite its known environmental costs. I hope that eye-opening statistics like this help influence my local policymakers to make better, more environmentally conscious decisions regarding the continued use of fossil fuels. My personal suggested headline for this graph is, “Capturing the Disproportionality Between Renewable and Fossil Fuel Energy Sources - 2000 to 2022.”",
+  "ace_sentences": [
+    "Switching fully to clean energy is crucial to mitigating environmental damage.",
+    "The 'World Electricity Generation' graph shows energy trends over 20+ years.",
+    "The graph reveals a concerning global reliance on coal and gas.",
+    "Advances in renewable energy technology exist.",
+    "Globally, these non-renewables dominate.",
+    "The US shifts from coal to natural gas.",
+    "America has a role in clean energy innovation.",
+    "This data prompts questions about the fossil fuel industry's influence.",
+    "The fossil fuel industry maintains this imbalance.",
+    "The fossil fuel industry has known environmental costs.",
+    "I hope that eye-opening statistics like this help influence my local policymakers.",
+    "I want my local policymakers to make better decisions.",
+    "I want my local policymakers to make more environmentally conscious decisions.",
+    "These decisions concern the continued use of fossil fuels.",
+    "My personal suggested headline for this graph is “Capturing the Disproportionality Between Renewable and Fossil Fuel Energy Sources - 2000 to 2022.”"
+  ],
+  "source_mappings": {
+    "Switching fully to clean energy is crucial to mitigating environmental damage.": [
+      "Switching fully to clean energy is crucial to mitigating environmental damage."
+    ],
+    "The 'World Electricity Generation' graph shows energy trends over 20+ years.": [
+      "The 'World Electricity Generation' graph shows energy trends over 20+ years"
+    ],
+    "The graph reveals a concerning global reliance on coal and gas.": [
+      "revealing a concerning global reliance on coal and gas"
+    ],
+    "Advances in renewable energy technology exist.": [
+      "despite advances in renewable energy technology"
+    ],
+    "Globally, these non-renewables dominate.": [
+      "globally, these non-renewables dominate"
+    ],
+    "The US shifts from coal to natural gas.": [
+      "the US shifts from coal to natural gas"
+    ],
+    "America has a role in clean energy innovation.": [
+      "America's role in clean energy innovation"
+    ],
+    "This data prompts questions about the fossil fuel industry's influence.": [
+      "This data prompts questions about the fossil fuel industry's influence"
+    ],
+    "The fossil fuel industry maintains this imbalance.": [
+      "maintaining this imbalance"
+    ],
+    "The fossil fuel industry has known environmental costs.": [
+      "its known environmental costs"
+    ],
+    "I hope that eye-opening statistics like this help influence my local policymakers.": [
+      "I hope that eye-opening statistics like this help influence my local policymakers"
+    ],
+    "I want my local policymakers to make better decisions.": [
+      "my local policymakers to make better, more environmentally conscious decisions"
+    ],
+    "I want my local policymakers to make more environmentally conscious decisions.": [
+      "my local policymakers to make better, more environmentally conscious decisions"
+    ],
+    "These decisions concern the continued use of fossil fuels.": [
+      "decisions regarding the continued use of fossil fuels"
+    ],
+    "My personal suggested headline for this graph is “Capturing the Disproportionality Between Renewable and Fossil Fuel Energy Sources - 2000 to 2022.”": [
+      "My personal suggested headline for this graph is, “Capturing the Disproportionality Between Renewable and Fossil Fuel Energy Sources - 2000 to 2022.”"
+    ]
+  }
+}

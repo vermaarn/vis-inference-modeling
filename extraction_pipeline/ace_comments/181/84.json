@@ -1,0 +1,73 @@
+{
+  "article_id": "181",
+  "comment_index": 84,
+  "raw_comment": "I noticed that the graph's general increasing trend and the significant increase in energy consumption starting in 2000. China's growth in electricity generation over time has been the steepest when compared to India and the US. In general, the bulk of this energy growth is coming from clean energy, since coal, gas, and oil have essentially stagnated over the past 20 years. \nI wonder what factors caused China to have a big increase in electricity generated compared to the US and India.\nThis relates because I use a lot of electricity and gas. Also, now awareness can be raised so that it is detectable how renewable energy sources can generate more electricity. \nCountry Power and Energy!",
+  "ace_sentences": [
+    "I noticed the graph's general increasing trend.",
+    "I noticed the significant increase in energy consumption starting in 2000.",
+    "China's growth in electricity generation over time has been the steepest.",
+    "China's growth in electricity generation over time has been the steepest when compared to India.",
+    "China's growth in electricity generation over time has been the steepest when compared to the US.",
+    "In general, the bulk of this energy growth is coming from clean energy.",
+    "Coal has essentially stagnated over the past 20 years.",
+    "Gas has essentially stagnated over the past 20 years.",
+    "Oil has essentially stagnated over the past 20 years.",
+    "I wonder what factors caused China to have a big increase in electricity generated compared to the US.",
+    "I wonder what factors caused China to have a big increase in electricity generated compared to India.",
+    "This relates because I use a lot of electricity.",
+    "This relates because I use a lot of electricity and gas.",
+    "Now awareness can be raised.",
+    "It is detectable how renewable energy sources can generate more electricity.",
+    "The headline is Country Power and Energy."
+  ],
+  "source_mappings": {
+    "I noticed the graph's general increasing trend.": [
+      "I noticed that the graph's general increasing trend"
+    ],
+    "I noticed the significant increase in energy consumption starting in 2000.": [
+      "the significant increase in energy consumption starting in 2000"
+    ],
+    "China's growth in electricity generation over time has been the steepest.": [
+      "China's growth in electricity generation over time has been the steepest"
+    ],
+    "China's growth in electricity generation over time has been the steepest when compared to India.": [
+      "China's growth in electricity generation over time has been the steepest when compared to India"
+    ],
+    "China's growth in electricity generation over time has been the steepest when compared to the US.": [
+      "China's growth in electricity generation over time has been the steepest when compared to India and the US"
+    ],
+    "In general, the bulk of this energy growth is coming from clean energy.": [
+      "In general, the bulk of this energy growth is coming from clean energy"
+    ],
+    "Coal has essentially stagnated over the past 20 years.": [
+      "coal, gas, and oil have essentially stagnated over the past 20 years"
+    ],
+    "Gas has essentially stagnated over the past 20 years.": [
+      "coal, gas, and oil have essentially stagnated over the past 20 years"
+    ],
+    "Oil has essentially stagnated over the past 20 years.": [
+      "coal, gas, and oil have essentially stagnated over the past 20 years"
+    ],
+    "I wonder what factors caused China to have a big increase in electricity generated compared to the US.": [
+      "I wonder what factors caused China to have a big increase in electricity generated compared to the US"
+    ],
+    "I wonder what factors caused China to have a big increase in electricity generated compared to India.": [
+      "I wonder what factors caused China to have a big increase in electricity generated compared to the US and India"
+    ],
+    "This relates because I use a lot of electricity.": [
+      "This relates because I use a lot of electricity"
+    ],
+    "This relates because I use a lot of electricity and gas.": [
+      "I use a lot of electricity and gas"
+    ],
+    "Now awareness can be raised.": [
+      "now awareness can be raised"
+    ],
+    "It is detectable how renewable energy sources can generate more electricity.": [
+      "it is detectable how renewable energy sources can generate more electricity"
+    ],
+    "The headline is Country Power and Energy.": [
+      "Country Power and Energy!"
+    ]
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "article_id": "181",
+  "comment_index": 66,
+  "raw_comment": "The main thing that I notice is the widths of each of the stacked sections of the graphs. The thing that immediately stands out is the increase over time for the Wind and Solar section across the past decade. Also while coal is also increasing, it is noticeably slower than the increase in Wind and Solar. Looking at the country graphs, what stood out to me was the U.S.'s apparent stagnation in overall production of energy when compared to India and China. This is also combined with a marked reduction in Coal production which is in stark contrast to China which seems to have not slowed down on their coal energy production. \nI wonder why the US and China have such different overall energy profiles. Why is China's production rising at such a rapid rate while the US's has been stable for the past 2 decades?\nThis is significant to my community because how our electricity is produced directly affects our lives. Cleaner energy production means cleaner air which is overall better for human health. Also, in my area there are currently questions regarding a nuclear power plant that is reaching its EOL. Whether or not it's shut down might affect things like energy prices locally but also contributes to the overall landscape of energy production in the US.\nTitle: \"Global Electricity Production Continues to Rise\"",
+  "ace_sentences": [
+    "I notice the widths of each of the stacked sections of the graphs.",
+    "The increase over time for the Wind and Solar section stands out across the past decade.",
+    "Coal is increasing.",
+    "The increase in coal is noticeably slower than the increase in Wind and Solar.",
+    "I look at the country graphs.",
+    "The U.S.'s overall production of energy shows apparent stagnation when compared to India and China.",
+    "This stagnation is combined with a marked reduction in Coal production.",
+    "China seems to have not slowed down on their coal energy production.",
+    "I wonder why the US and China have such different overall energy profiles.",
+    "China's production is rising at such a rapid rate.",
+    "The US's production has been stable for the past 2 decades.",
+    "This is significant to my community.",
+    "How our electricity is produced directly affects our lives.",
+    "Cleaner energy production means cleaner air.",
+    "Cleaner air is overall better for human health.",
+    "In my area, there are currently questions regarding a nuclear power plant.",
+    "The nuclear power plant is reaching its EOL.",
+    "It might be shut down.",
+    "If it is shut down, it might affect energy prices locally.",
+    "If it is shut down, it contributes to the overall landscape of energy production in the US.",
+    "The title is \"Global Electricity Production Continues to Rise\"."
+  ],
+  "source_mappings": {
+    "I notice the widths of each of the stacked sections of the graphs.": [
+      "The main thing that I notice is the widths of each of the stacked sections of the graphs."
+    ],
+    "The increase over time for the Wind and Solar section stands out across the past decade.": [
+      "the increase over time for the Wind and Solar section across the past decade"
+    ],
+    "Coal is increasing.": [
+      "coal is also increasing"
+    ],
+    "The increase in coal is noticeably slower than the increase in Wind and Solar.": [
+      "it is noticeably slower than the increase in Wind and Solar"
+    ],
+    "I look at the country graphs.": [
+      "Looking at the country graphs"
+    ],
+    "The U.S.'s overall production of energy shows apparent stagnation when compared to India and China.": [
+      "the U.S.'s apparent stagnation in overall production of energy when compared to India and China"
+    ],
+    "This stagnation is combined with a marked reduction in Coal production.": [
+      "This is also combined with a marked reduction in Coal production"
+    ],
+    "China seems to have not slowed down on their coal energy production.": [
+      "China which seems to have not slowed down on their coal energy production"
+    ],
+    "I wonder why the US and China have such different overall energy profiles.": [
+      "I wonder why the US and China have such different overall energy profiles."
+    ],
+    "China's production is rising at such a rapid rate.": [
+      "China's production rising at such a rapid rate"
+    ],
+    "The US's production has been stable for the past 2 decades.": [
+      "the US's has been stable for the past 2 decades"
+    ],
+    "This is significant to my community.": [
+      "This is significant to my community"
+    ],
+    "How our electricity is produced directly affects our lives.": [
+      "how our electricity is produced directly affects our lives"
+    ],
+    "Cleaner energy production means cleaner air.": [
+      "Cleaner energy production means cleaner air"
+    ],
+    "Cleaner air is overall better for human health.": [
+      "cleaner air which is overall better for human health"
+    ],
+    "In my area, there are currently questions regarding a nuclear power plant.": [
+      "in my area there are currently questions regarding a nuclear power plant"
+    ],
+    "The nuclear power plant is reaching its EOL.": [
+      "a nuclear power plant that is reaching its EOL"
+    ],
+    "It might be shut down.": [
+      "Whether or not it's shut down might affect"
+    ],
+    "If it is shut down, it might affect energy prices locally.": [
+      "it's shut down might affect things like energy prices locally"
+    ],
+    "If it is shut down, it contributes to the overall landscape of energy production in the US.": [
+      "but also contributes to the overall landscape of energy production in the US"
+    ],
+    "The title is \"Global Electricity Production Continues to Rise\".": [
+      "Title: \"Global Electricity Production Continues to Rise\""
+    ]
+  }
+}

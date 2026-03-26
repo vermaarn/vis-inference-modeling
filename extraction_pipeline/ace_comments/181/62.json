@@ -1,0 +1,141 @@
+{
+  "article_id": "181",
+  "comment_index": 62,
+  "raw_comment": "This graph shows the world’s electrical energy resources and how much is estimated to have been used from 2000 to 2022. Those resources being shown include nuclear, gas, coal, wind, solar, oil, hydroelectric, and others. The second graph shows how much of those resources are being used in various countries. Overall, the world has seen a steady increase in the use of the noted resources to power electricity.  Mostly so in nuclear power which was used around 15 million gigawatt hours in 2000 and jumped to surpassing 25 million gigawatt hours in 2020. Out of the country graphs, China is seen to have the biggest jump in use. Nuclear alone jumped over 8 million gigawatt hours in 20 years. India has the slowest incline while America has remained rather stagnant in the amount of resources and energy being produced since 2000. I wonder why America has not seen a drastic increase in the use of resources the way countries like China have. I wonder if there will be a noticeable increase in oil use with the Willow Project being pursued. This relates to my community because we are all affected by the different uses of electrical power. Both clean power and fossil fuels have their pros and cons for communities. For example, clean power is better for the environment but can be less efficient and more cost-effective. Not every community has the privilege of being able to use better, cleaner energy sources. \n\n“What Lights Up The World? Our Energy Sources Since the 2000s”",
+  "ace_sentences": [
+    "This graph shows the world’s electrical energy resources.",
+    "This graph shows how much is estimated to have been used from 2000 to 2022.",
+    "Those resources include nuclear.",
+    "Those resources include gas.",
+    "Those resources include coal.",
+    "Those resources include wind.",
+    "Those resources include solar.",
+    "Those resources include oil.",
+    "Those resources include hydroelectric.",
+    "Those resources include others.",
+    "The second graph shows how much of those resources are being used in various countries.",
+    "Overall, the world has seen a steady increase in the use of the noted resources to power electricity.",
+    "Nuclear power was used around 15 million gigawatt hours in 2000.",
+    "Nuclear power jumped to surpassing 25 million gigawatt hours in 2020.",
+    "Out of the country graphs, China has the biggest jump in use.",
+    "Nuclear alone jumped over 8 million gigawatt hours in 20 years.",
+    "India has the slowest incline.",
+    "America has remained rather stagnant in the amount of resources and energy being produced since 2000.",
+    "I wonder why America has not seen a drastic increase in the use of resources.",
+    "I wonder why countries like China have seen a drastic increase in the use of resources.",
+    "I wonder if there will be a noticeable increase in oil use.",
+    "The Willow Project is being pursued.",
+    "This relates to my community.",
+    "We are all affected by the different uses of electrical power.",
+    "Clean power has pros for communities.",
+    "Clean power has cons for communities.",
+    "Fossil fuels have pros for communities.",
+    "Fossil fuels have cons for communities.",
+    "Clean power is better for the environment.",
+    "Clean power can be less efficient.",
+    "Clean power can be more cost-effective.",
+    "Not every community has the privilege of being able to use better, cleaner energy sources.",
+    "The title is “What Lights Up The World? Our Energy Sources Since the 2000s”."
+  ],
+  "source_mappings": {
+    "This graph shows the world’s electrical energy resources.": [
+      "This graph shows the world’s electrical energy resources"
+    ],
+    "This graph shows how much is estimated to have been used from 2000 to 2022.": [
+      "how much is estimated to have been used from 2000 to 2022"
+    ],
+    "Those resources include nuclear.": [
+      "include nuclear"
+    ],
+    "Those resources include gas.": [
+      "gas"
+    ],
+    "Those resources include coal.": [
+      "coal"
+    ],
+    "Those resources include wind.": [
+      "wind"
+    ],
+    "Those resources include solar.": [
+      "solar"
+    ],
+    "Those resources include oil.": [
+      "oil"
+    ],
+    "Those resources include hydroelectric.": [
+      "hydroelectric"
+    ],
+    "Those resources include others.": [
+      "and others"
+    ],
+    "The second graph shows how much of those resources are being used in various countries.": [
+      "The second graph shows how much of those resources are being used in various countries."
+    ],
+    "Overall, the world has seen a steady increase in the use of the noted resources to power electricity.": [
+      "Overall, the world has seen a steady increase in the use of the noted resources to power electricity."
+    ],
+    "Nuclear power was used around 15 million gigawatt hours in 2000.": [
+      "nuclear power which was used around 15 million gigawatt hours in 2000"
+    ],
+    "Nuclear power jumped to surpassing 25 million gigawatt hours in 2020.": [
+      "jumped to surpassing 25 million gigawatt hours in 2020"
+    ],
+    "Out of the country graphs, China has the biggest jump in use.": [
+      "Out of the country graphs, China is seen to have the biggest jump in use."
+    ],
+    "Nuclear alone jumped over 8 million gigawatt hours in 20 years.": [
+      "Nuclear alone jumped over 8 million gigawatt hours in 20 years."
+    ],
+    "India has the slowest incline.": [
+      "India has the slowest incline"
+    ],
+    "America has remained rather stagnant in the amount of resources and energy being produced since 2000.": [
+      "America has remained rather stagnant in the amount of resources and energy being produced since 2000."
+    ],
+    "I wonder why America has not seen a drastic increase in the use of resources.": [
+      "I wonder why America has not seen a drastic increase in the use of resources"
+    ],
+    "I wonder why countries like China have seen a drastic increase in the use of resources.": [
+      "the way countries like China have"
+    ],
+    "I wonder if there will be a noticeable increase in oil use.": [
+      "I wonder if there will be a noticeable increase in oil use"
+    ],
+    "The Willow Project is being pursued.": [
+      "the Willow Project being pursued"
+    ],
+    "This relates to my community.": [
+      "This relates to my community"
+    ],
+    "We are all affected by the different uses of electrical power.": [
+      "we are all affected by the different uses of electrical power"
+    ],
+    "Clean power has pros for communities.": [
+      "Both clean power and fossil fuels have their pros"
+    ],
+    "Clean power has cons for communities.": [
+      "Both clean power and fossil fuels have their pros and cons for communities."
+    ],
+    "Fossil fuels have pros for communities.": [
+      "fossil fuels have their pros"
+    ],
+    "Fossil fuels have cons for communities.": [
+      "fossil fuels have their pros and cons for communities."
+    ],
+    "Clean power is better for the environment.": [
+      "clean power is better for the environment"
+    ],
+    "Clean power can be less efficient.": [
+      "can be less efficient"
+    ],
+    "Clean power can be more cost-effective.": [
+      "more cost-effective"
+    ],
+    "Not every community has the privilege of being able to use better, cleaner energy sources.": [
+      "Not every community has the privilege of being able to use better, cleaner energy sources."
+    ],
+    "The title is “What Lights Up The World? Our Energy Sources Since the 2000s”.": [
+      "“What Lights Up The World? Our Energy Sources Since the 2000s”"
+    ]
+  }
+}

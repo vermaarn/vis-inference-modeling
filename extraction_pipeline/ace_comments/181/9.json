@@ -1,0 +1,111 @@
+{
+  "article_id": "181",
+  "comment_index": 9,
+  "raw_comment": "We evaluated a 2022 graph titled “World electricity generation” by Ember. We noticed that it displayed the types and amounts of energy used throughout the world as a whole from 2000 to the 2020s. There were also separate graphs that specifically documented the energy usage of the United States, China, and India over the same time period. We noted that the overall energy usage worldwide for all types is going up, and that nuclear is the most prominent energy source while coal is the least prominent. We also noticed that there were “dips” in worldwide energy usage around 2008 and 2020, which probably correspond with the economic hardships caused by the 2008 housing crisis and the coronavirus pandemic. \n\n \n\nWe wonder what the data looked like before 2000, as “clean” energy seems to be a relatively new phenomenon. We also wonder why India’s energy usage is so low when compared to the United States and China.\n\n \n\nThis topic is important because we all use energy every day, and it is useful to know the main types of energy being used. It also gives more insight into how different countries operate.\n\n \n\nOur title for the graph is “Ember’s Evaluation of the Evolution of Electricity.”",
+  "ace_sentences": [
+    "We evaluated a 2022 graph.",
+    "The title of the graph is \"World electricity generation\".",
+    "Ember is the source of the graph.",
+    "The graph displayed the types of energy used throughout the world as a whole from 2000 to the 2020s.",
+    "The graph displayed the amounts of energy used throughout the world as a whole from 2000 to the 2020s.",
+    "There were separate graphs.",
+    "The separate graphs documented the energy usage of the United States over the same time period.",
+    "The separate graphs documented the energy usage of China over the same time period.",
+    "The separate graphs documented the energy usage of India over the same time period.",
+    "The overall energy usage worldwide for all types is going up.",
+    "Nuclear is the most prominent energy source.",
+    "Coal is the least prominent energy source.",
+    "There were dips in worldwide energy usage around 2008.",
+    "There were dips in worldwide energy usage around 2020.",
+    "The dips probably correspond with the economic hardships caused by the 2008 housing crisis.",
+    "The dips probably correspond with the economic hardships caused by the coronavirus pandemic.",
+    "We wonder what the data looked like before 2000.",
+    "Clean energy seems to be a relatively new phenomenon.",
+    "We wonder why India's energy usage is so low when compared to the United States and China.",
+    "This topic is important.",
+    "We all use energy every day.",
+    "It is useful to know the main types of energy being used.",
+    "It gives more insight into how different countries operate.",
+    "Our title for the graph is \"Ember's Evaluation of the Evolution of Electricity\"."
+  ],
+  "source_mappings": {
+    "We evaluated a 2022 graph.": [
+      "We evaluated a 2022 graph"
+    ],
+    "The title of the graph is \"World electricity generation\".": [
+      "titled “World electricity generation”"
+    ],
+    "Ember is the source of the graph.": [
+      "by Ember"
+    ],
+    "The graph displayed the types of energy used throughout the world as a whole from 2000 to the 2020s.": [
+      "it displayed the types",
+      "used throughout the world as a whole from 2000 to the 2020s"
+    ],
+    "The graph displayed the amounts of energy used throughout the world as a whole from 2000 to the 2020s.": [
+      "and amounts of energy used throughout the world as a whole from 2000 to the 2020s"
+    ],
+    "There were separate graphs.": [
+      "There were also separate graphs"
+    ],
+    "The separate graphs documented the energy usage of the United States over the same time period.": [
+      "separate graphs that specifically documented the energy usage of the United States",
+      "over the same time period"
+    ],
+    "The separate graphs documented the energy usage of China over the same time period.": [
+      "separate graphs that specifically documented the energy usage of the United States, China, and India",
+      "over the same time period"
+    ],
+    "The separate graphs documented the energy usage of India over the same time period.": [
+      "separate graphs that specifically documented the energy usage of the United States, China, and India",
+      "over the same time period"
+    ],
+    "The overall energy usage worldwide for all types is going up.": [
+      "the overall energy usage worldwide for all types is going up"
+    ],
+    "Nuclear is the most prominent energy source.": [
+      "nuclear is the most prominent energy source"
+    ],
+    "Coal is the least prominent energy source.": [
+      "coal is the least prominent"
+    ],
+    "There were dips in worldwide energy usage around 2008.": [
+      "there were “dips” in worldwide energy usage around",
+      "2008"
+    ],
+    "There were dips in worldwide energy usage around 2020.": [
+      "there were “dips” in worldwide energy usage around",
+      "2020"
+    ],
+    "The dips probably correspond with the economic hardships caused by the 2008 housing crisis.": [
+      "which probably correspond with the economic hardships caused by the 2008 housing crisis"
+    ],
+    "The dips probably correspond with the economic hardships caused by the coronavirus pandemic.": [
+      "and the coronavirus pandemic"
+    ],
+    "We wonder what the data looked like before 2000.": [
+      "We wonder what the data looked like before 2000"
+    ],
+    "Clean energy seems to be a relatively new phenomenon.": [
+      "“clean” energy seems to be a relatively new phenomenon"
+    ],
+    "We wonder why India's energy usage is so low when compared to the United States and China.": [
+      "We also wonder why India’s energy usage is so low when compared to the United States and China"
+    ],
+    "This topic is important.": [
+      "This topic is important"
+    ],
+    "We all use energy every day.": [
+      "we all use energy every day"
+    ],
+    "It is useful to know the main types of energy being used.": [
+      "it is useful to know the main types of energy being used"
+    ],
+    "It gives more insight into how different countries operate.": [
+      "It also gives more insight into how different countries operate"
+    ],
+    "Our title for the graph is \"Ember's Evaluation of the Evolution of Electricity\".": [
+      "Our title for the graph is “Ember’s Evaluation of the Evolution of Electricity.”"
+    ]
+  }
+}

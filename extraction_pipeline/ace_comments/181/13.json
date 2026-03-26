@@ -1,0 +1,82 @@
+{
+  "article_id": "181",
+  "comment_index": 13,
+  "raw_comment": "What I noticed: Our use of electric energy has almost doubled since 2000.- alarming! Utilities are still using fossil fuels way more than clean energy - 3x times more! - to create our electricity.\n\nWhat I wonder: How will we ever save life on this planet with humanity’s addiction to a lifestyle that is not sustainable, electric utilities and the fossil fuel industry focused on amassing wealth and power, and government afraid to make the needed moves to regulate the solution.\n\nHow it will affect my community: Quality of life will fall slowly and then quickly for all my neighbors and me, and existential despair will be rampant.\n\nCatchy headline: Humanity’s Energy Use: Way Too Much, Way Too Dirty - What’s the Fix?",
+  "ace_sentences": [
+    "Our use of electric energy has almost doubled since 2000.",
+    "Utilities still use fossil fuels more than clean energy.",
+    "Utilities use fossil fuels 3 times more than clean energy.",
+    "Utilities create our electricity.",
+    "Utilities use fossil fuels to create our electricity.",
+    "I wonder how we will ever save life on this planet.",
+    "Humanity has an addiction to a lifestyle.",
+    "This lifestyle is not sustainable.",
+    "Electric utilities are focused on amassing wealth and power.",
+    "The fossil fuel industry is focused on amassing wealth and power.",
+    "The government is afraid to make the needed moves.",
+    "The needed moves regulate the solution.",
+    "The quality of life will fall slowly.",
+    "The quality of life will fall quickly.",
+    "The quality of life will fall for all my neighbors and me.",
+    "Existential despair will be rampant.",
+    "The headline is:",
+    "Humanity’s Energy Use: Way Too Much, Way Too Dirty - What’s the Fix?"
+  ],
+  "source_mappings": {
+    "Our use of electric energy has almost doubled since 2000.": [
+      "Our use of electric energy has almost doubled since 2000."
+    ],
+    "Utilities still use fossil fuels more than clean energy.": [
+      "Utilities are still using fossil fuels way more than clean energy"
+    ],
+    "Utilities use fossil fuels 3 times more than clean energy.": [
+      "3x times more!"
+    ],
+    "Utilities create our electricity.": [
+      "to create our electricity."
+    ],
+    "Utilities use fossil fuels to create our electricity.": [
+      "Utilities are still using fossil fuels",
+      "to create our electricity."
+    ],
+    "I wonder how we will ever save life on this planet.": [
+      "How will we ever save life on this planet"
+    ],
+    "Humanity has an addiction to a lifestyle.": [
+      "humanity’s addiction to a lifestyle"
+    ],
+    "This lifestyle is not sustainable.": [
+      "a lifestyle that is not sustainable"
+    ],
+    "Electric utilities are focused on amassing wealth and power.": [
+      "electric utilities and the fossil fuel industry focused on amassing wealth and power"
+    ],
+    "The fossil fuel industry is focused on amassing wealth and power.": [
+      "electric utilities and the fossil fuel industry focused on amassing wealth and power"
+    ],
+    "The government is afraid to make the needed moves.": [
+      "government afraid to make the needed moves"
+    ],
+    "The needed moves regulate the solution.": [
+      "to regulate the solution."
+    ],
+    "The quality of life will fall slowly.": [
+      "Quality of life will fall slowly"
+    ],
+    "The quality of life will fall quickly.": [
+      "and then quickly"
+    ],
+    "The quality of life will fall for all my neighbors and me.": [
+      "for all my neighbors and me"
+    ],
+    "Existential despair will be rampant.": [
+      "existential despair will be rampant."
+    ],
+    "The headline is:": [
+      "Catchy headline:"
+    ],
+    "Humanity’s Energy Use: Way Too Much, Way Too Dirty - What’s the Fix?": [
+      "Humanity’s Energy Use: Way Too Much, Way Too Dirty - What’s the Fix?"
+    ]
+  }
+}

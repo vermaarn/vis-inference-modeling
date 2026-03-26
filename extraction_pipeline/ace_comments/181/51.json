@@ -1,0 +1,111 @@
+{
+  "article_id": "181",
+  "comment_index": 51,
+  "raw_comment": "In this graph, it is measuring the amount of world electricity generation from different types of clean and fossil fuels in gigawatt hours over the years 2000-2020. I noticed that for every type of fuel, there was a general increase in the amount of gigawatt hours of electricity generated over time. I wonder if this is due to advancements in technology for each type of energy source. Also, I noticed that for all 20 years, the clean energy sources had the highest electricity generation with nuclear being the highest reaching over 25 million gigawatt hours in 2020. Out of the clean energy sources, I noticed that wind and solar energy had the lowest electricity generation, and I wonder if this is because they are not as reliable sources as something like nuclear energy since they depend on the weather. Additionally, I noticed that coal had the lowest world electricity generation out of both fossil fuels and all types of fuels, approximating 8 million gigawatt hours around the year 2020. I wonder if it had such low gigawatt hours compared to other sources because it has become less and less popular over the years due to its harmful environmental risks. This relates to my community because I have noticed a greater implementation of clean, renewable energy sources as climate change has become a greater issue. My headline for this graph would be: “The Future of Clean Energy Awaits”.",
+  "ace_sentences": [
+    "This graph measures the amount of world electricity generation.",
+    "The world electricity generation is from different types of clean fuels.",
+    "The world electricity generation is from different types of fossil fuels.",
+    "The amount is in gigawatt hours.",
+    "The years are 2000-2020.",
+    "For every type of fuel, there was a general increase over time.",
+    "I noticed this general increase.",
+    "This general increase may be due to advancements in technology.",
+    "The advancements in technology may be for each type of energy source.",
+    "For all 20 years, the clean energy sources had the highest electricity generation.",
+    "Nuclear was the highest clean energy source.",
+    "Nuclear reached over 25 million gigawatt hours in 2020.",
+    "Out of the clean energy sources, wind energy had the lowest electricity generation.",
+    "Out of the clean energy sources, solar energy had the lowest electricity generation.",
+    "Wind energy and solar energy may be not as reliable as nuclear energy.",
+    "Wind energy and solar energy depend on the weather.",
+    "Coal had the lowest world electricity generation out of both fossil fuels and all types of fuels.",
+    "Coal approximated 8 million gigawatt hours around the year 2020.",
+    "Coal has become less and less popular over the years.",
+    "Coal has harmful environmental risks.",
+    "The low gigawatt hours of coal may be due to these harmful environmental risks.",
+    "This relates to my community.",
+    "I have noticed a greater implementation of clean, renewable energy sources.",
+    "Climate change has become a greater issue.",
+    "My headline for this graph would be: “The Future of Clean Energy Awaits”."
+  ],
+  "source_mappings": {
+    "This graph measures the amount of world electricity generation.": [
+      "In this graph, it is measuring the amount of world electricity generation"
+    ],
+    "The world electricity generation is from different types of clean fuels.": [
+      "from different types of clean"
+    ],
+    "The world electricity generation is from different types of fossil fuels.": [
+      "and fossil fuels"
+    ],
+    "The amount is in gigawatt hours.": [
+      "in gigawatt hours"
+    ],
+    "The years are 2000-2020.": [
+      "over the years 2000-2020"
+    ],
+    "For every type of fuel, there was a general increase over time.": [
+      "for every type of fuel, there was a general increase",
+      "over time"
+    ],
+    "I noticed this general increase.": [
+      "I noticed that for every type of fuel, there was a general increase"
+    ],
+    "This general increase may be due to advancements in technology.": [
+      "I wonder if this is due to advancements in technology"
+    ],
+    "The advancements in technology may be for each type of energy source.": [
+      "for each type of energy source"
+    ],
+    "For all 20 years, the clean energy sources had the highest electricity generation.": [
+      "for all 20 years, the clean energy sources had the highest electricity generation"
+    ],
+    "Nuclear was the highest clean energy source.": [
+      "with nuclear being the highest"
+    ],
+    "Nuclear reached over 25 million gigawatt hours in 2020.": [
+      "reaching over 25 million gigawatt hours in 2020"
+    ],
+    "Out of the clean energy sources, wind energy had the lowest electricity generation.": [
+      "Out of the clean energy sources, I noticed that wind"
+    ],
+    "Out of the clean energy sources, solar energy had the lowest electricity generation.": [
+      "and solar energy had the lowest electricity generation"
+    ],
+    "Wind energy and solar energy may be not as reliable as nuclear energy.": [
+      "they are not as reliable sources as something like nuclear energy"
+    ],
+    "Wind energy and solar energy depend on the weather.": [
+      "since they depend on the weather"
+    ],
+    "Coal had the lowest world electricity generation out of both fossil fuels and all types of fuels.": [
+      "coal had the lowest world electricity generation out of both fossil fuels and all types of fuels"
+    ],
+    "Coal approximated 8 million gigawatt hours around the year 2020.": [
+      "approximating 8 million gigawatt hours around the year 2020"
+    ],
+    "Coal has become less and less popular over the years.": [
+      "it has become less and less popular over the years"
+    ],
+    "Coal has harmful environmental risks.": [
+      "its harmful environmental risks"
+    ],
+    "The low gigawatt hours of coal may be due to these harmful environmental risks.": [
+      "I wonder if it had such low gigawatt hours compared to other sources",
+      "due to its harmful environmental risks"
+    ],
+    "This relates to my community.": [
+      "This relates to my community"
+    ],
+    "I have noticed a greater implementation of clean, renewable energy sources.": [
+      "I have noticed a greater implementation of clean, renewable energy sources"
+    ],
+    "Climate change has become a greater issue.": [
+      "as climate change has become a greater issue"
+    ],
+    "My headline for this graph would be: “The Future of Clean Energy Awaits”.": [
+      "My headline for this graph would be: “The Future of Clean Energy Awaits”."
+    ]
+  }
+}

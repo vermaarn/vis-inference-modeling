@@ -1,0 +1,64 @@
+{
+  "article_id": "181",
+  "comment_index": 29,
+  "raw_comment": "I notice that fossil fuels are still the most used electricity resource, even with the amount of renewable resources available in 2024. I notice that solar energy has significantly increased since 2000. Oil and Hydroelectric have stayed steady, and I wonder if that is because of their limited capacities as a resource or their accessibility. This applies to my community because the use of fossil fuels can impact the earth and our environment for years to come. \nname : \"ENERGY\"",
+  "ace_sentences": [
+    "Fossil fuels are still the most used electricity resource.",
+    "Renewable resources are available in 2024.",
+    "Solar energy has significantly increased since 2000.",
+    "Oil has stayed steady.",
+    "Hydroelectric has stayed steady.",
+    "Oil and Hydroelectric may have limited capacities as a resource.",
+    "Oil and Hydroelectric may have limited accessibility.",
+    "This applies to my community.",
+    "The use of fossil fuels can impact the earth.",
+    "The use of fossil fuels can impact our environment.",
+    "The use of fossil fuels can impact the earth for years to come.",
+    "The use of fossil fuels can impact our environment for years to come.",
+    "The name is \"ENERGY\"."
+  ],
+  "source_mappings": {
+    "Fossil fuels are still the most used electricity resource.": [
+      "fossil fuels are still the most used electricity resource"
+    ],
+    "Renewable resources are available in 2024.": [
+      "the amount of renewable resources available in 2024"
+    ],
+    "Solar energy has significantly increased since 2000.": [
+      "solar energy has significantly increased since 2000"
+    ],
+    "Oil has stayed steady.": [
+      "Oil and Hydroelectric have stayed steady",
+      "Oil"
+    ],
+    "Hydroelectric has stayed steady.": [
+      "Oil and Hydroelectric have stayed steady",
+      "Hydroelectric"
+    ],
+    "Oil and Hydroelectric may have limited capacities as a resource.": [
+      "their limited capacities as a resource"
+    ],
+    "Oil and Hydroelectric may have limited accessibility.": [
+      "their accessibility"
+    ],
+    "This applies to my community.": [
+      "This applies to my community"
+    ],
+    "The use of fossil fuels can impact the earth.": [
+      "the use of fossil fuels can impact the earth"
+    ],
+    "The use of fossil fuels can impact our environment.": [
+      "the use of fossil fuels can impact the earth and our environment"
+    ],
+    "The use of fossil fuels can impact the earth for years to come.": [
+      "the use of fossil fuels can impact the earth",
+      "for years to come"
+    ],
+    "The use of fossil fuels can impact our environment for years to come.": [
+      "our environment for years to come"
+    ],
+    "The name is \"ENERGY\".": [
+      "name : \"ENERGY\""
+    ]
+  }
+}

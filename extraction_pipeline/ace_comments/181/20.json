@@ -1,0 +1,113 @@
+{
+  "article_id": "181",
+  "comment_index": 20,
+  "raw_comment": "The first thing I notice in the first graph \"World Electricity Generation\", is that over time there has been an overall steady increase in both clean and fossil fuel gigawatt hours. I additionally noticed that even over time, coal and gas, both very harmful to the environment, are still the most used. I wonder if gas and coal are more affordable, in comparison to clean electricity. In regards to the second group of graphs, I noticed all three countries given have very different graphs. China's graph shows a very steep increase in electricity generation. The United States graph displays a consistent generation of both fossil and clean electricity. India's graph shows very little generation of electricity at all. I wonder if the generation of electricity is affected by the country's economy or level of technological advancement. All three of these countries are all very populated, so that could be why they all still rely on fossil fuels. This relates to me and my community, as it is important to acknowledge the need for clean energy to preserve our environment. \"Clean Countries or Coal Countries\"",
+  "ace_sentences": [
+    "I notice the first graph.",
+    "The first graph is \"World Electricity Generation\".",
+    "Over time, there has been an overall steady increase in clean gigawatt hours.",
+    "Over time, there has been an overall steady increase in fossil fuel gigawatt hours.",
+    "Coal is very harmful to the environment.",
+    "Gas is very harmful to the environment.",
+    "Coal is still the most used over time.",
+    "Gas is still the most used over time.",
+    "Gas may be more affordable than clean electricity.",
+    "Coal may be more affordable than clean electricity.",
+    "I notice the second group of graphs.",
+    "All three countries given have very different graphs.",
+    "China's graph shows a very steep increase in electricity generation.",
+    "The United States graph displays a consistent generation of fossil electricity.",
+    "The United States graph displays a consistent generation of clean electricity.",
+    "India's graph shows very little generation of electricity.",
+    "The generation of electricity may be affected by the country's economy.",
+    "The generation of electricity may be affected by the level of technological advancement of the country.",
+    "All three of these countries are very populated.",
+    "All three of these countries still rely on fossil fuels.",
+    "This relates to me and my community.",
+    "It is important to acknowledge the need for clean energy.",
+    "Clean energy preserves our environment.",
+    "The title is \"Clean Countries or Coal Countries\"."
+  ],
+  "source_mappings": {
+    "I notice the first graph.": [
+      "The first thing I notice in the first graph"
+    ],
+    "The first graph is \"World Electricity Generation\".": [
+      "the first graph \"World Electricity Generation\""
+    ],
+    "Over time, there has been an overall steady increase in clean gigawatt hours.": [
+      "over time there has been an overall steady increase in both clean",
+      "gigawatt hours"
+    ],
+    "Over time, there has been an overall steady increase in fossil fuel gigawatt hours.": [
+      "over time there has been an overall steady increase in both clean and fossil fuel",
+      "gigawatt hours"
+    ],
+    "Coal is very harmful to the environment.": [
+      "coal",
+      "both very harmful to the environment"
+    ],
+    "Gas is very harmful to the environment.": [
+      "gas",
+      "both very harmful to the environment"
+    ],
+    "Coal is still the most used over time.": [
+      "even over time, coal",
+      "are still the most used"
+    ],
+    "Gas is still the most used over time.": [
+      "coal and gas",
+      "are still the most used"
+    ],
+    "Gas may be more affordable than clean electricity.": [
+      "I wonder if gas",
+      "are more affordable, in comparison to clean electricity"
+    ],
+    "Coal may be more affordable than clean electricity.": [
+      "gas and coal",
+      "are more affordable, in comparison to clean electricity"
+    ],
+    "I notice the second group of graphs.": [
+      "In regards to the second group of graphs, I noticed"
+    ],
+    "All three countries given have very different graphs.": [
+      "all three countries given have very different graphs"
+    ],
+    "China's graph shows a very steep increase in electricity generation.": [
+      "China's graph shows a very steep increase in electricity generation"
+    ],
+    "The United States graph displays a consistent generation of fossil electricity.": [
+      "The United States graph displays a consistent generation of both fossil"
+    ],
+    "The United States graph displays a consistent generation of clean electricity.": [
+      "The United States graph displays a consistent generation of both fossil and clean electricity"
+    ],
+    "India's graph shows very little generation of electricity.": [
+      "India's graph shows very little generation of electricity at all"
+    ],
+    "The generation of electricity may be affected by the country's economy.": [
+      "I wonder if the generation of electricity is affected by the country's economy"
+    ],
+    "The generation of electricity may be affected by the level of technological advancement of the country.": [
+      "or level of technological advancement"
+    ],
+    "All three of these countries are very populated.": [
+      "All three of these countries are all very populated"
+    ],
+    "All three of these countries still rely on fossil fuels.": [
+      "they all still rely on fossil fuels"
+    ],
+    "This relates to me and my community.": [
+      "This relates to me and my community"
+    ],
+    "It is important to acknowledge the need for clean energy.": [
+      "it is important to acknowledge the need for clean energy"
+    ],
+    "Clean energy preserves our environment.": [
+      "to preserve our environment"
+    ],
+    "The title is \"Clean Countries or Coal Countries\".": [
+      "\"Clean Countries or Coal Countries\""
+    ]
+  }
+}

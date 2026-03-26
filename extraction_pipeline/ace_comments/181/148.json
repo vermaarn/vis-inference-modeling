@@ -1,0 +1,41 @@
+{
+  "article_id": "181",
+  "comment_index": 148,
+  "raw_comment": "1. I notice that nuclear is generating the most electricity . I also notice that coal generate electricity \n2. I wonder how coal generate electricity? \n3. this relates to my community because we use the electricity to do a lot of things like watch TV or use our phones. \n4. NUCLEAR ON TOP!!!",
+  "ace_sentences": [
+    "I notice that nuclear generates the most electricity.",
+    "I notice that coal generates electricity.",
+    "I wonder how coal generates electricity.",
+    "This relates to my community.",
+    "We use the electricity.",
+    "We use the electricity to watch TV.",
+    "We use the electricity to use our phones.",
+    "Nuclear is on top."
+  ],
+  "source_mappings": {
+    "I notice that nuclear generates the most electricity.": [
+      "I notice that nuclear is generating the most electricity"
+    ],
+    "I notice that coal generates electricity.": [
+      "I also notice that coal generate electricity"
+    ],
+    "I wonder how coal generates electricity.": [
+      "I wonder how coal generate electricity?"
+    ],
+    "This relates to my community.": [
+      "this relates to my community"
+    ],
+    "We use the electricity.": [
+      "we use the electricity"
+    ],
+    "We use the electricity to watch TV.": [
+      "watch TV"
+    ],
+    "We use the electricity to use our phones.": [
+      "use our phones"
+    ],
+    "Nuclear is on top.": [
+      "NUCLEAR ON TOP!!!"
+    ]
+  }
+}

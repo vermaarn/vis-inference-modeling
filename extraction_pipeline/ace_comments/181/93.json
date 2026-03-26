@@ -1,0 +1,72 @@
+{
+  "article_id": "181",
+  "comment_index": 93,
+  "raw_comment": "1. Immediately, I noticed the overall upwards trend of the graph, and how from 2000 onwards, there has been a huge expansion of the amount of energy used. However, the majority of this expansion of energy is resulting from clean energy, as coal, gas, and oil, have somewhat stagnated throughout these 20 years.\n \n2. What metrics or units are being used to \"color\" the different types of energy - does a different color relate to how \"clean\" the energy is or how \"fossil-ly\" the energy is?\n\n3. Although I currently live in SLO, I primarily grew up in a town that uses hydroelectric energy. I know that the amount of energy that can be produced by hydroelectric energy is substantial, and although it is not underrepresented, it is interesting to see such a small portion of the graph taken up by hydroelectric energy.\n\n4. ZAP! Energy Production by Energy Type:  2000 to 2020 (gigawatt hours)",
+  "ace_sentences": [
+    "I noticed the overall upwards trend of the graph.",
+    "From 2000 onwards, there has been a huge expansion of the amount of energy used.",
+    "The majority of this expansion of energy is resulting from clean energy.",
+    "Coal has somewhat stagnated throughout these 20 years.",
+    "Gas has somewhat stagnated throughout these 20 years.",
+    "Oil has somewhat stagnated throughout these 20 years.",
+    "I ask what metrics or units are being used to color the different types of energy.",
+    "I ask if a different color relates to how clean the energy is.",
+    "I ask if a different color relates to how fossil-ly the energy is.",
+    "I currently live in SLO.",
+    "I primarily grew up in a town that uses hydroelectric energy.",
+    "The amount of energy that can be produced by hydroelectric energy is substantial.",
+    "Hydroelectric energy is not underrepresented.",
+    "It is interesting to see such a small portion of the graph taken up by hydroelectric energy.",
+    "The headline is: ZAP! Energy Production by Energy Type:  2000 to 2020 (gigawatt hours)."
+  ],
+  "source_mappings": {
+    "I noticed the overall upwards trend of the graph.": [
+      "I noticed the overall upwards trend of the graph"
+    ],
+    "From 2000 onwards, there has been a huge expansion of the amount of energy used.": [
+      "from 2000 onwards, there has been a huge expansion of the amount of energy used"
+    ],
+    "The majority of this expansion of energy is resulting from clean energy.": [
+      "the majority of this expansion of energy is resulting from clean energy"
+    ],
+    "Coal has somewhat stagnated throughout these 20 years.": [
+      "coal",
+      "have somewhat stagnated throughout these 20 years"
+    ],
+    "Gas has somewhat stagnated throughout these 20 years.": [
+      "gas",
+      "have somewhat stagnated throughout these 20 years"
+    ],
+    "Oil has somewhat stagnated throughout these 20 years.": [
+      "oil",
+      "have somewhat stagnated throughout these 20 years"
+    ],
+    "I ask what metrics or units are being used to color the different types of energy.": [
+      "What metrics or units are being used to \"color\" the different types of energy"
+    ],
+    "I ask if a different color relates to how clean the energy is.": [
+      "does a different color relate to how \"clean\" the energy is"
+    ],
+    "I ask if a different color relates to how fossil-ly the energy is.": [
+      "or how \"fossil-ly\" the energy is?"
+    ],
+    "I currently live in SLO.": [
+      "I currently live in SLO"
+    ],
+    "I primarily grew up in a town that uses hydroelectric energy.": [
+      "I primarily grew up in a town that uses hydroelectric energy"
+    ],
+    "The amount of energy that can be produced by hydroelectric energy is substantial.": [
+      "the amount of energy that can be produced by hydroelectric energy is substantial"
+    ],
+    "Hydroelectric energy is not underrepresented.": [
+      "it is not underrepresented"
+    ],
+    "It is interesting to see such a small portion of the graph taken up by hydroelectric energy.": [
+      "it is interesting to see such a small portion of the graph taken up by hydroelectric energy"
+    ],
+    "The headline is: ZAP! Energy Production by Energy Type:  2000 to 2020 (gigawatt hours).": [
+      "ZAP! Energy Production by Energy Type:  2000 to 2020 (gigawatt hours)"
+    ]
+  }
+}

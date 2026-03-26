@@ -1,0 +1,93 @@
+{
+  "article_id": "181",
+  "comment_index": 16,
+  "raw_comment": "The world's electricity generation has been steadily climbing for the past 25 years, with a particular increase in clean energy. China produces the more energy than the US, with India producing less than both.\nI wonder why India produces so much less energy than China despite the vast population living in both countries. Maybe China is more urbanized and industrialized than India. I also find it interesting that the United States has a small amount of people compared to both China and India, yet produces so much energy.\nAs someone who lives on Earth during the current climate crisis, it is somewhat relieving to see the amount of clean energy being produced. This data gives me some comfort that people are working together to find new ways to mobilize society in a safe and clean way.\nHeadline: RISE AND SHINE, WORLD",
+  "ace_sentences": [
+    "The world's electricity generation has been steadily climbing for the past 25 years.",
+    "Clean energy has a particular increase.",
+    "China produces more energy than the US.",
+    "India produces less energy than China.",
+    "India produces less energy than the US.",
+    "I wonder why India produces so much less energy than China.",
+    "A vast population lives in China.",
+    "A vast population lives in India.",
+    "China may be more urbanized than India.",
+    "China may be more industrialized than India.",
+    "The United States has a small amount of people compared to China.",
+    "The United States has a small amount of people compared to India.",
+    "The United States produces so much energy.",
+    "I live on Earth.",
+    "The current climate crisis exists.",
+    "It is somewhat relieving to see the amount of clean energy being produced.",
+    "This data gives me some comfort.",
+    "People are working together.",
+    "People are working together to find new ways.",
+    "People are working together to mobilize society in a safe and clean way.",
+    "The headline is RISE AND SHINE, WORLD."
+  ],
+  "source_mappings": {
+    "The world's electricity generation has been steadily climbing for the past 25 years.": [
+      "The world's electricity generation has been steadily climbing for the past 25 years"
+    ],
+    "Clean energy has a particular increase.": [
+      "with a particular increase in clean energy"
+    ],
+    "China produces more energy than the US.": [
+      "China produces the more energy than the US"
+    ],
+    "India produces less energy than China.": [
+      "with India producing less than both"
+    ],
+    "India produces less energy than the US.": [
+      "with India producing less than both"
+    ],
+    "I wonder why India produces so much less energy than China.": [
+      "I wonder why India produces so much less energy than China"
+    ],
+    "A vast population lives in China.": [
+      "the vast population living in both countries"
+    ],
+    "A vast population lives in India.": [
+      "the vast population living in both countries"
+    ],
+    "China may be more urbanized than India.": [
+      "Maybe China is more urbanized and industrialized than India"
+    ],
+    "China may be more industrialized than India.": [
+      "Maybe China is more urbanized and industrialized than India"
+    ],
+    "The United States has a small amount of people compared to China.": [
+      "the United States has a small amount of people compared to both China and India"
+    ],
+    "The United States has a small amount of people compared to India.": [
+      "the United States has a small amount of people compared to both China and India"
+    ],
+    "The United States produces so much energy.": [
+      "yet produces so much energy"
+    ],
+    "I live on Earth.": [
+      "As someone who lives on Earth"
+    ],
+    "The current climate crisis exists.": [
+      "during the current climate crisis"
+    ],
+    "It is somewhat relieving to see the amount of clean energy being produced.": [
+      "it is somewhat relieving to see the amount of clean energy being produced"
+    ],
+    "This data gives me some comfort.": [
+      "This data gives me some comfort"
+    ],
+    "People are working together.": [
+      "people are working together"
+    ],
+    "People are working together to find new ways.": [
+      "people are working together to find new ways"
+    ],
+    "People are working together to mobilize society in a safe and clean way.": [
+      "to mobilize society in a safe and clean way"
+    ],
+    "The headline is RISE AND SHINE, WORLD.": [
+      "Headline: RISE AND SHINE, WORLD"
+    ]
+  }
+}

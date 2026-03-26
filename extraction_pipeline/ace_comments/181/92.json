@@ -1,0 +1,129 @@
+{
+  "article_id": "181",
+  "comment_index": 92,
+  "raw_comment": "The graph shows the world electricity generation from the year 2000 to just beyond 2020, with sources split into \"clean\" and \"fossil\". Coal, gas, oil and other fossil fuels are represented alongside nuclear, hydroelectric and other clean sources such as wind and solar. There's a visible trend showing a decline in coal use, a relatively steady production from gas, and an increase in wind and solar energy generation over time.\n\nI'm curious about what is behind the decline in coal usage and the increase in wind and solar energy. It could be technological advancements, economic factors, or policy changes. \n\n\nThis trend reflects a global shift towards more sustainable energy sources which could be influencing local energy policies and infrastructure. Our community is experiencing changes in energy costs(PGE keeps going up!),  so this may reflect,. or be shifted by an increase in renewable energy. It was interesting to see that the US is relatively stagnant for clean energy compared to china.\n\nI would call this graph, \"The Rise of Renewables: Wind and Solar Power Surge Forward in the Global Energy Mix\"",
+  "ace_sentences": [
+    "The graph shows the world electricity generation.",
+    "The graph shows the world electricity generation from the year 2000.",
+    "The graph shows the world electricity generation to just beyond 2020.",
+    "The graph has sources split into \"clean\" and \"fossil\".",
+    "Coal is a fossil fuel.",
+    "Gas is a fossil fuel.",
+    "Oil is a fossil fuel.",
+    "Other fossil fuels are fossil fuels.",
+    "Nuclear is a clean source.",
+    "Hydroelectric is a clean source.",
+    "Wind is a clean source.",
+    "Solar is a clean source.",
+    "There is a visible trend.",
+    "Coal use declines.",
+    "The production from gas is relatively steady.",
+    "Wind energy generation increases over time.",
+    "Solar energy generation increases over time.",
+    "I am curious about what is behind the decline in coal usage.",
+    "I am curious about what is behind the increase in wind and solar energy.",
+    "It could be technological advancements.",
+    "It could be economic factors.",
+    "It could be policy changes.",
+    "This trend reflects a global shift towards more sustainable energy sources.",
+    "This global shift could be influencing local energy policies and infrastructure.",
+    "Our community is experiencing changes in energy costs.",
+    "PGE keeps going up.",
+    "This may reflect an increase in renewable energy.",
+    "This may be shifted by an increase in renewable energy.",
+    "It was interesting to see that the US is relatively stagnant for clean energy compared to china.",
+    "I would call this graph \"The Rise of Renewables: Wind and Solar Power Surge Forward in the Global Energy Mix\"."
+  ],
+  "source_mappings": {
+    "The graph shows the world electricity generation.": [
+      "The graph shows the world electricity generation"
+    ],
+    "The graph shows the world electricity generation from the year 2000.": [
+      "The graph shows the world electricity generation from the year 2000"
+    ],
+    "The graph shows the world electricity generation to just beyond 2020.": [
+      "to just beyond 2020"
+    ],
+    "The graph has sources split into \"clean\" and \"fossil\".": [
+      "with sources split into \"clean\" and \"fossil\""
+    ],
+    "Coal is a fossil fuel.": [
+      "Coal"
+    ],
+    "Gas is a fossil fuel.": [
+      "gas"
+    ],
+    "Oil is a fossil fuel.": [
+      "oil"
+    ],
+    "Other fossil fuels are fossil fuels.": [
+      "other fossil fuels"
+    ],
+    "Nuclear is a clean source.": [
+      "nuclear"
+    ],
+    "Hydroelectric is a clean source.": [
+      "hydroelectric"
+    ],
+    "Wind is a clean source.": [
+      "wind"
+    ],
+    "Solar is a clean source.": [
+      "solar"
+    ],
+    "There is a visible trend.": [
+      "There's a visible trend"
+    ],
+    "Coal use declines.": [
+      "a decline in coal use"
+    ],
+    "The production from gas is relatively steady.": [
+      "a relatively steady production from gas"
+    ],
+    "Wind energy generation increases over time.": [
+      "an increase in wind"
+    ],
+    "Solar energy generation increases over time.": [
+      "solar energy generation over time"
+    ],
+    "I am curious about what is behind the decline in coal usage.": [
+      "I'm curious about what is behind the decline in coal usage"
+    ],
+    "I am curious about what is behind the increase in wind and solar energy.": [
+      "the increase in wind and solar energy"
+    ],
+    "It could be technological advancements.": [
+      "It could be technological advancements"
+    ],
+    "It could be economic factors.": [
+      "economic factors"
+    ],
+    "It could be policy changes.": [
+      "policy changes"
+    ],
+    "This trend reflects a global shift towards more sustainable energy sources.": [
+      "This trend reflects a global shift towards more sustainable energy sources"
+    ],
+    "This global shift could be influencing local energy policies and infrastructure.": [
+      "which could be influencing local energy policies and infrastructure"
+    ],
+    "Our community is experiencing changes in energy costs.": [
+      "Our community is experiencing changes in energy costs"
+    ],
+    "PGE keeps going up.": [
+      "PGE keeps going up!"
+    ],
+    "This may reflect an increase in renewable energy.": [
+      "so this may reflect,. or be shifted by an increase in renewable energy"
+    ],
+    "This may be shifted by an increase in renewable energy.": [
+      "or be shifted by an increase in renewable energy"
+    ],
+    "It was interesting to see that the US is relatively stagnant for clean energy compared to china.": [
+      "It was interesting to see that the US is relatively stagnant for clean energy compared to china"
+    ],
+    "I would call this graph \"The Rise of Renewables: Wind and Solar Power Surge Forward in the Global Energy Mix\".": [
+      "I would call this graph, \"The Rise of Renewables: Wind and Solar Power Surge Forward in the Global Energy Mix\""
+    ]
+  }
+}

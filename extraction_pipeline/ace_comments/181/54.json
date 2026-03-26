@@ -1,0 +1,125 @@
+{
+  "article_id": "181",
+  "comment_index": 54,
+  "raw_comment": "I noticed that the generation of electricity is increasing over the years as the world is changing. Additionally, more clean energy is being used as the world changes rather than using fossil fuels. Looking at the three smaller graphs, I notice that each graph contains vastly different amounts of energy use. For reference, India has the least usage while China uses the most.  I wonder why they change what energy is used throughout the years. I also wonder about ways we can lessen the energy consumption to have a decrease in statistics. Lastly I think about the last 3 graphs and how we can even achieve those rates. Even how those rates came to be would be beneficial to analyze a deeper look into how electricity is generated.\nThis relates to me and my community because we all generate electricity and this in turn consumes energy. This is not to say that energy should not be used at all, but especially fossil fuels can be harmful. In order to do this, there would need to be some sort of intervention. If my community does not begin to reduce their energy consumption, the world will not change for the better. I do not think that it is a matter of one energy being better than another, it has been made common sense that clean energy is, but overall reducing our usage will better support the earth than replacing energy sources. It is a start, but there still can be improvements made.\n\nNew Global Data on how Electricity is Generated- How will it affect our kids in the future?",
+  "ace_sentences": [
+    "The generation of electricity is increasing over the years.",
+    "The world is changing.",
+    "More clean energy is being used rather than using fossil fuels.",
+    "The three smaller graphs contain different amounts of energy use.",
+    "India has the least usage.",
+    "China uses the most.",
+    "Energy that is used changes throughout the years.",
+    "We can lessen the energy consumption.",
+    "If we lessen the energy consumption, then the statistics will decrease.",
+    "I think about the last 3 graphs.",
+    "We can achieve those rates.",
+    "Those rates came to be.",
+    "It is beneficial to analyze how electricity is generated.",
+    "This relates to me and my community.",
+    "We all generate electricity.",
+    "This consumes energy.",
+    "Energy should be used.",
+    "Fossil fuels can be harmful.",
+    "There would need to be some sort of intervention.",
+    "My community may not begin to reduce their energy consumption.",
+    "If my community does not begin to reduce their energy consumption, the world will not change for the better.",
+    "It is not a matter of one energy being better than another energy.",
+    "It has been made common sense that clean energy is better than another energy.",
+    "Overall reducing our usage will better support the earth than replacing energy sources.",
+    "It is a start.",
+    "There still can be improvements made.",
+    "The headline is:",
+    "New Global Data on how Electricity is Generated- How will it affect our kids in the future?"
+  ],
+  "source_mappings": {
+    "The generation of electricity is increasing over the years.": [
+      "the generation of electricity is increasing over the years"
+    ],
+    "The world is changing.": [
+      "the world is changing"
+    ],
+    "More clean energy is being used rather than using fossil fuels.": [
+      "more clean energy is being used",
+      "rather than using fossil fuels"
+    ],
+    "The three smaller graphs contain different amounts of energy use.": [
+      "the three smaller graphs",
+      "each graph contains vastly different amounts of energy use"
+    ],
+    "India has the least usage.": [
+      "India has the least usage"
+    ],
+    "China uses the most.": [
+      "China uses the most"
+    ],
+    "Energy that is used changes throughout the years.": [
+      "they change what energy is used throughout the years"
+    ],
+    "We can lessen the energy consumption.": [
+      "ways we can lessen the energy consumption"
+    ],
+    "If we lessen the energy consumption, then the statistics will decrease.": [
+      "lessen the energy consumption",
+      "to have a decrease in statistics"
+    ],
+    "I think about the last 3 graphs.": [
+      "I think about the last 3 graphs"
+    ],
+    "We can achieve those rates.": [
+      "how we can even achieve those rates"
+    ],
+    "Those rates came to be.": [
+      "how those rates came to be"
+    ],
+    "It is beneficial to analyze how electricity is generated.": [
+      "would be beneficial to analyze",
+      "how electricity is generated"
+    ],
+    "This relates to me and my community.": [
+      "This relates to me and my community"
+    ],
+    "We all generate electricity.": [
+      "we all generate electricity"
+    ],
+    "This consumes energy.": [
+      "this in turn consumes energy"
+    ],
+    "Energy should be used.": [
+      "energy should not be used at all"
+    ],
+    "Fossil fuels can be harmful.": [
+      "fossil fuels can be harmful"
+    ],
+    "There would need to be some sort of intervention.": [
+      "there would need to be some sort of intervention"
+    ],
+    "My community may not begin to reduce their energy consumption.": [
+      "my community does not begin to reduce their energy consumption"
+    ],
+    "If my community does not begin to reduce their energy consumption, the world will not change for the better.": [
+      "If my community does not begin to reduce their energy consumption, the world will not change for the better"
+    ],
+    "It is not a matter of one energy being better than another energy.": [
+      "I do not think that it is a matter of one energy being better than another"
+    ],
+    "It has been made common sense that clean energy is better than another energy.": [
+      "it has been made common sense that clean energy is"
+    ],
+    "Overall reducing our usage will better support the earth than replacing energy sources.": [
+      "overall reducing our usage will better support the earth than replacing energy sources"
+    ],
+    "It is a start.": [
+      "It is a start"
+    ],
+    "There still can be improvements made.": [
+      "there still can be improvements made"
+    ],
+    "The headline is:": [
+      "New Global Data on how Electricity is Generated- How will it affect our kids in the future?"
+    ],
+    "New Global Data on how Electricity is Generated- How will it affect our kids in the future?": [
+      "New Global Data on how Electricity is Generated- How will it affect our kids in the future?"
+    ]
+  }
+}

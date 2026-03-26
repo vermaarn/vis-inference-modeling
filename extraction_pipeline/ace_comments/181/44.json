@@ -1,0 +1,73 @@
+{
+  "article_id": "181",
+  "comment_index": 44,
+  "raw_comment": "In this graph, I noticed that China produces the most energy in general, and produces the most coal, which is not the cleanest power for the Earth. The United States produces an equal amount of each energy source and has started to have a decline in coal production. I wonder if China will ever stop producing so much coal because it is extremely bad for our planet. I wonder why China produces so much coal, and why India produces such little energy and if it has anything to do with the economic states of those countries. This relates to me and my community because the town that I live in makes a big effort to not produce as much fossil fuel. \nHeadline:\nThe energy you produce, is what you feel!",
+  "ace_sentences": [
+    "This graph exists.",
+    "I noticed that China produces the most energy in general.",
+    "I noticed that China produces the most coal.",
+    "Coal is not the cleanest power for the Earth.",
+    "The United States produces an equal amount of each energy source.",
+    "The United States has started to have a decline in coal production.",
+    "I wonder if China will ever stop producing so much coal.",
+    "Producing so much coal is extremely bad for our planet.",
+    "I wonder why China produces so much coal.",
+    "I wonder why India produces such little energy.",
+    "I wonder if it has anything to do with the economic states of those countries.",
+    "This relates to me and my community.",
+    "The town that I live in makes a big effort.",
+    "The town that I live in makes a big effort to not produce as much fossil fuel.",
+    "The headline is:",
+    "The energy you produce, is what you feel!"
+  ],
+  "source_mappings": {
+    "This graph exists.": [
+      "In this graph"
+    ],
+    "I noticed that China produces the most energy in general.": [
+      "I noticed that China produces the most energy in general"
+    ],
+    "I noticed that China produces the most coal.": [
+      "and produces the most coal"
+    ],
+    "Coal is not the cleanest power for the Earth.": [
+      "which is not the cleanest power for the Earth"
+    ],
+    "The United States produces an equal amount of each energy source.": [
+      "The United States produces an equal amount of each energy source"
+    ],
+    "The United States has started to have a decline in coal production.": [
+      "has started to have a decline in coal production"
+    ],
+    "I wonder if China will ever stop producing so much coal.": [
+      "I wonder if China will ever stop producing so much coal"
+    ],
+    "Producing so much coal is extremely bad for our planet.": [
+      "because it is extremely bad for our planet"
+    ],
+    "I wonder why China produces so much coal.": [
+      "I wonder why China produces so much coal"
+    ],
+    "I wonder why India produces such little energy.": [
+      "why India produces such little energy"
+    ],
+    "I wonder if it has anything to do with the economic states of those countries.": [
+      "if it has anything to do with the economic states of those countries"
+    ],
+    "This relates to me and my community.": [
+      "This relates to me and my community"
+    ],
+    "The town that I live in makes a big effort.": [
+      "the town that I live in makes a big effort"
+    ],
+    "The town that I live in makes a big effort to not produce as much fossil fuel.": [
+      "the town that I live in makes a big effort to not produce as much fossil fuel"
+    ],
+    "The headline is:": [
+      "Headline:"
+    ],
+    "The energy you produce, is what you feel!": [
+      "The energy you produce, is what you feel!"
+    ]
+  }
+}

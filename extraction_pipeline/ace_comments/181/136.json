@@ -1,0 +1,127 @@
+{
+  "article_id": "181",
+  "comment_index": 136,
+  "raw_comment": "These graphs show total energy generation by country but the text says they exclude imports and exports so they probably don't represent usage by that country. If any of these countries are net importers of energy then their total consumption would be higher, whereas if they're net exporters it then it would be lower. \n\nWe can figure out something about the trends in production though. Overall, energy production has nearly doubled in 22 years. Coal and gas still by far make up the largest part of the market however wind and solar production is increasing at the fastest rate. Nuclear and other seam to have slightly reduced in production and hydro slightly increased.\n\nThere are two dips in production at around 2008 and 2019 (less pronounced in coal). I wonder what caused them. Something to do with the GFC and COVID19?\n\nIn terms of country level, China is by far producing the most coal and its coal production has increased around 4 times since 2000 and it looks to be the biggest coal producer in the world.\n\nIn the US by comparison, coal production has decreased by more than half and oil has increased. Oil and gas combined has stayed fairly steady and still make up more than half of overall production. Overall US energy production has stayed fairly steady over the 22 years.  \n\nIndia does not produce very much energy at all compared to the other countries and it is mostly coal.",
+  "ace_sentences": [
+    "These graphs show total energy generation by country.",
+    "The text says that the graphs exclude imports and exports.",
+    "Therefore, the graphs probably do not represent usage by that country.",
+    "Some of these countries may be net importers of energy.",
+    "If a country is a net importer of energy then the total consumption of the country would be higher.",
+    "Some of these countries may be net exporters of energy.",
+    "If a country is a net exporter of energy then the total consumption of the country would be lower.",
+    "We can figure out something about the trends in production.",
+    "Overall, energy production has nearly doubled in 22 years.",
+    "Coal and gas still by far make up the largest part of the market.",
+    "However, wind and solar production is increasing at the fastest rate.",
+    "Nuclear and other seam to have slightly reduced in production.",
+    "Hydro slightly increased.",
+    "There are two dips in production around 2008.",
+    "There are two dips in production around 2019.",
+    "The dips are less pronounced in coal.",
+    "I wonder what caused the dips.",
+    "Something may have to do with the GFC.",
+    "Something may have to do with COVID19.",
+    "In terms of country level, China is by far producing the most coal.",
+    "The coal production of China has increased around 4 times since 2000.",
+    "It looks to be the biggest coal producer in the world.",
+    "In the US by comparison, coal production has decreased by more than half.",
+    "In the US by comparison, oil has increased.",
+    "Oil and gas combined has stayed fairly steady.",
+    "Oil and gas combined still make up more than half of overall production.",
+    "Overall US energy production has stayed fairly steady over the 22 years.",
+    "India does not produce very much energy at all compared to the other countries.",
+    "In India, it is mostly coal."
+  ],
+  "source_mappings": {
+    "These graphs show total energy generation by country.": [
+      "These graphs show total energy generation by country"
+    ],
+    "The text says that the graphs exclude imports and exports.": [
+      "the text says they exclude imports and exports"
+    ],
+    "Therefore, the graphs probably do not represent usage by that country.": [
+      "so they probably don't represent usage by that country"
+    ],
+    "Some of these countries may be net importers of energy.": [
+      "If any of these countries are net importers of energy"
+    ],
+    "If a country is a net importer of energy then the total consumption of the country would be higher.": [
+      "then their total consumption would be higher"
+    ],
+    "Some of these countries may be net exporters of energy.": [
+      "whereas if they're net exporters"
+    ],
+    "If a country is a net exporter of energy then the total consumption of the country would be lower.": [
+      "it then it would be lower"
+    ],
+    "We can figure out something about the trends in production.": [
+      "We can figure out something about the trends in production though."
+    ],
+    "Overall, energy production has nearly doubled in 22 years.": [
+      "Overall, energy production has nearly doubled in 22 years."
+    ],
+    "Coal and gas still by far make up the largest part of the market.": [
+      "Coal and gas still by far make up the largest part of the market"
+    ],
+    "However, wind and solar production is increasing at the fastest rate.": [
+      "however wind and solar production is increasing at the fastest rate"
+    ],
+    "Nuclear and other seam to have slightly reduced in production.": [
+      "Nuclear and other seam to have slightly reduced in production"
+    ],
+    "Hydro slightly increased.": [
+      "hydro slightly increased"
+    ],
+    "There are two dips in production around 2008.": [
+      "There are two dips in production at around",
+      "2008"
+    ],
+    "There are two dips in production around 2019.": [
+      "There are two dips in production at around",
+      "2019"
+    ],
+    "The dips are less pronounced in coal.": [
+      "(less pronounced in coal)"
+    ],
+    "I wonder what caused the dips.": [
+      "I wonder what caused them."
+    ],
+    "Something may have to do with the GFC.": [
+      "Something to do with the GFC"
+    ],
+    "Something may have to do with COVID19.": [
+      "COVID19?"
+    ],
+    "In terms of country level, China is by far producing the most coal.": [
+      "In terms of country level, China is by far producing the most coal"
+    ],
+    "The coal production of China has increased around 4 times since 2000.": [
+      "its coal production has increased around 4 times since 2000"
+    ],
+    "It looks to be the biggest coal producer in the world.": [
+      "it looks to be the biggest coal producer in the world"
+    ],
+    "In the US by comparison, coal production has decreased by more than half.": [
+      "In the US by comparison, coal production has decreased by more than half"
+    ],
+    "In the US by comparison, oil has increased.": [
+      "and oil has increased"
+    ],
+    "Oil and gas combined has stayed fairly steady.": [
+      "Oil and gas combined has stayed fairly steady"
+    ],
+    "Oil and gas combined still make up more than half of overall production.": [
+      "and still make up more than half of overall production"
+    ],
+    "Overall US energy production has stayed fairly steady over the 22 years.": [
+      "Overall US energy production has stayed fairly steady over the 22 years."
+    ],
+    "India does not produce very much energy at all compared to the other countries.": [
+      "India does not produce very much energy at all compared to the other countries"
+    ],
+    "In India, it is mostly coal.": [
+      "and it is mostly coal"
+    ]
+  }
+}

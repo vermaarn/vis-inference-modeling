@@ -27,6 +27,9 @@ analysis/outputs/comment_similarity/
 !extraction_pipeline/graph_visualizations/181/*.html
 *.json
 !extraction_pipeline/combined_data/*.json
+!extraction_pipeline/ace_comments/181/*.json
+!extraction_pipeline/ace_classifications/ace_sentence_classifications_181.json
 *.png
 *.webp
 extraction_pipeline/visual_observations.csv
+# !extraction_pipeline/ace_comments/*.json

@@ -1,0 +1,25 @@
+{
+  "article_id": "181",
+  "comment_index": 153,
+  "raw_comment": "As an estimate, it's probably accurate and sadly will keep increasing",
+  "ace_sentences": [
+    "This is an estimate.",
+    "It is probably accurate.",
+    "This will keep increasing.",
+    "This is sad."
+  ],
+  "source_mappings": {
+    "This is an estimate.": [
+      "As an estimate"
+    ],
+    "It is probably accurate.": [
+      "it's probably accurate"
+    ],
+    "This will keep increasing.": [
+      "will keep increasing"
+    ],
+    "This is sad.": [
+      "sadly"
+    ]
+  }
+}

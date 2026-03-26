@@ -1,0 +1,123 @@
+{
+  "article_id": "181",
+  "comment_index": 132,
+  "raw_comment": "I notice that the United States' electricity generation has barely raised at all since 2000 (with gas and wind/solar power taking much of the share from coal), while the world's total generation has raised by well over 10 million gigawatt hours (GWh). China's generation alone accounts for about 8 million GWh, with India accounting for about 1 million GWh. Furthermore, we see that worldwide nuclear generation has barely moved at all, while hydroelectric looks like it's about doubled. Wind and solar has gone from no generation to about 3 million GWh, gas looks like it's about doubled from 3 to 6 million GWh, and coal has risen from 5 to about 8 million GWh.\n\nI wonder why China's generation has increased so much while the United States remained so similar. China has certainly been developing, but more than quintupling their electricity generation seems absurd. What were they doing before they were generating it themselves? Were they importing all of it? I also wonder why no new nuclear energy is being produced when we know how safe and reliable it is.\n\nAs the world looks to move towards renewable energy, we see that fossil fuel consumption is still only increasing worldwide. With climate change impacting the world more and more, we are seeing more extreme weather like the polar vortexes that sweep across the US in winter, plunging the Midwest into wind chills below -40 degrees Fahrenheit.\n\n\"Electricity Generation in China Soars to More Than Double the United States\"",
+  "ace_sentences": [
+    "I notice that the United States' electricity generation has barely raised at all since 2000.",
+    "Gas takes much of the share from coal.",
+    "Wind and solar power takes much of the share from coal.",
+    "The world's total generation has raised by well over 10 million gigawatt hours (GWh).",
+    "China's generation alone accounts for about 8 million GWh.",
+    "India accounts for about 1 million GWh.",
+    "Worldwide nuclear generation has barely moved at all.",
+    "Hydroelectric looks like it is about doubled.",
+    "Wind and solar has gone from no generation to about 3 million GWh.",
+    "Gas looks like it is about doubled from 3 to 6 million GWh.",
+    "Coal has risen from 5 to about 8 million GWh.",
+    "I wonder why China's generation has increased so much.",
+    "I wonder why the United States remained so similar.",
+    "China has certainly been developing.",
+    "China has more than quintupled their electricity generation.",
+    "This seems absurd.",
+    "I ask what they were doing before they were generating it themselves.",
+    "I ask if they were importing all of it.",
+    "I also wonder why no new nuclear energy is being produced.",
+    "We know how safe nuclear energy is.",
+    "We know how reliable nuclear energy is.",
+    "The world looks to move towards renewable energy.",
+    "Fossil fuel consumption is still only increasing worldwide.",
+    "Climate change impacts the world more and more.",
+    "We are seeing more extreme weather.",
+    "The polar vortexes sweep across the US in winter.",
+    "The polar vortexes plunge the Midwest into wind chills below -40 degrees Fahrenheit.",
+    "The headline is \"Electricity Generation in China Soars to More Than Double the United States\"."
+  ],
+  "source_mappings": {
+    "I notice that the United States' electricity generation has barely raised at all since 2000.": [
+      "I notice that the United States' electricity generation has barely raised at all since 2000"
+    ],
+    "Gas takes much of the share from coal.": [
+      "gas",
+      "taking much of the share from coal"
+    ],
+    "Wind and solar power takes much of the share from coal.": [
+      "wind/solar power",
+      "taking much of the share from coal"
+    ],
+    "The world's total generation has raised by well over 10 million gigawatt hours (GWh).": [
+      "the world's total generation has raised by well over 10 million gigawatt hours (GWh)"
+    ],
+    "China's generation alone accounts for about 8 million GWh.": [
+      "China's generation alone accounts for about 8 million GWh"
+    ],
+    "India accounts for about 1 million GWh.": [
+      "India accounting for about 1 million GWh"
+    ],
+    "Worldwide nuclear generation has barely moved at all.": [
+      "worldwide nuclear generation has barely moved at all"
+    ],
+    "Hydroelectric looks like it is about doubled.": [
+      "hydroelectric looks like it's about doubled"
+    ],
+    "Wind and solar has gone from no generation to about 3 million GWh.": [
+      "Wind and solar has gone from no generation to about 3 million GWh"
+    ],
+    "Gas looks like it is about doubled from 3 to 6 million GWh.": [
+      "gas looks like it's about doubled from 3 to 6 million GWh"
+    ],
+    "Coal has risen from 5 to about 8 million GWh.": [
+      "coal has risen from 5 to about 8 million GWh"
+    ],
+    "I wonder why China's generation has increased so much.": [
+      "I wonder why China's generation has increased so much"
+    ],
+    "I wonder why the United States remained so similar.": [
+      "the United States remained so similar"
+    ],
+    "China has certainly been developing.": [
+      "China has certainly been developing"
+    ],
+    "China has more than quintupled their electricity generation.": [
+      "more than quintupling their electricity generation"
+    ],
+    "This seems absurd.": [
+      "seems absurd"
+    ],
+    "I ask what they were doing before they were generating it themselves.": [
+      "What were they doing before they were generating it themselves?"
+    ],
+    "I ask if they were importing all of it.": [
+      "Were they importing all of it?"
+    ],
+    "I also wonder why no new nuclear energy is being produced.": [
+      "I also wonder why no new nuclear energy is being produced"
+    ],
+    "We know how safe nuclear energy is.": [
+      "we know how safe"
+    ],
+    "We know how reliable nuclear energy is.": [
+      "reliable it is"
+    ],
+    "The world looks to move towards renewable energy.": [
+      "the world looks to move towards renewable energy"
+    ],
+    "Fossil fuel consumption is still only increasing worldwide.": [
+      "fossil fuel consumption is still only increasing worldwide"
+    ],
+    "Climate change impacts the world more and more.": [
+      "climate change impacting the world more and more"
+    ],
+    "We are seeing more extreme weather.": [
+      "we are seeing more extreme weather"
+    ],
+    "The polar vortexes sweep across the US in winter.": [
+      "the polar vortexes that sweep across the US in winter"
+    ],
+    "The polar vortexes plunge the Midwest into wind chills below -40 degrees Fahrenheit.": [
+      "plunging the Midwest into wind chills below -40 degrees Fahrenheit"
+    ],
+    "The headline is \"Electricity Generation in China Soars to More Than Double the United States\".": [
+      "\"Electricity Generation in China Soars to More Than Double the United States\""
+    ]
+  }
+}

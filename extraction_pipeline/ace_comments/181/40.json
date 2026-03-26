@@ -1,0 +1,85 @@
+{
+  "article_id": "181",
+  "comment_index": 40,
+  "raw_comment": "These graphs are very intriguing to me, as I have recently been learning a lot about wind and solar energy. Overall, the first graph shows the huge amount of energy consumed across the globe. Energy consumption seems to be on a rapidly rising trend, and although it does not show up to 2024, I am sure the trend will continue upward. I was shocked at how low India's consumption was considering the huge number of people they have. India is more populated than the US and uses significantly less energy. China is similar in population to India but uses so much more energy. I was also surprised that nuclear energy is clean energy. I feel that the only things I hear regarding the word 'nuclear' are negative, so it is surprising that it is associated with something I think of as good and helpful like clean energy. I would title these graphs \"Energy Consumption: Where does your country fall?\"",
+  "ace_sentences": [
+    "These graphs are intriguing to me.",
+    "I have recently been learning a lot about wind energy.",
+    "I have recently been learning a lot about solar energy.",
+    "Overall, the first graph shows the huge amount of energy consumed across the globe.",
+    "Energy consumption seems to be on a rapidly rising trend.",
+    "The first graph does not show up to 2024.",
+    "I am sure that the trend will continue upward.",
+    "I was shocked at how low India's consumption was.",
+    "India has a huge number of people.",
+    "India is more populated than the US.",
+    "India uses significantly less energy than the US.",
+    "China is similar in population to India.",
+    "China uses so much more energy than India.",
+    "I was surprised that nuclear energy is clean energy.",
+    "I hear only negative things regarding the word 'nuclear'.",
+    "It is surprising that nuclear energy is associated with clean energy.",
+    "I think of clean energy as good.",
+    "I think of clean energy as helpful.",
+    "I would title these graphs \"Energy Consumption: Where does your country fall?\""
+  ],
+  "source_mappings": {
+    "These graphs are intriguing to me.": [
+      "These graphs are very intriguing to me"
+    ],
+    "I have recently been learning a lot about wind energy.": [
+      "I have recently been learning a lot about wind"
+    ],
+    "I have recently been learning a lot about solar energy.": [
+      "I have recently been learning a lot about wind and solar energy"
+    ],
+    "Overall, the first graph shows the huge amount of energy consumed across the globe.": [
+      "Overall, the first graph shows the huge amount of energy consumed across the globe."
+    ],
+    "Energy consumption seems to be on a rapidly rising trend.": [
+      "Energy consumption seems to be on a rapidly rising trend"
+    ],
+    "The first graph does not show up to 2024.": [
+      "although it does not show up to 2024"
+    ],
+    "I am sure that the trend will continue upward.": [
+      "I am sure the trend will continue upward."
+    ],
+    "I was shocked at how low India's consumption was.": [
+      "I was shocked at how low India's consumption was"
+    ],
+    "India has a huge number of people.": [
+      "the huge number of people they have"
+    ],
+    "India is more populated than the US.": [
+      "India is more populated than the US"
+    ],
+    "India uses significantly less energy than the US.": [
+      "uses significantly less energy"
+    ],
+    "China is similar in population to India.": [
+      "China is similar in population to India"
+    ],
+    "China uses so much more energy than India.": [
+      "but uses so much more energy."
+    ],
+    "I was surprised that nuclear energy is clean energy.": [
+      "I was also surprised that nuclear energy is clean energy."
+    ],
+    "I hear only negative things regarding the word 'nuclear'.": [
+      "the only things I hear regarding the word 'nuclear' are negative"
+    ],
+    "It is surprising that nuclear energy is associated with clean energy.": [
+      "it is surprising that it is associated with something I think of as good and helpful like clean energy"
+    ],
+    "I think of clean energy as good.": [
+      "something I think of as good"
+    ],
+    "I think of clean energy as helpful.": [
+      "helpful like clean energy"
+    ],
+    "I would title these graphs \"Energy Consumption: Where does your country fall?\"": [
+      "I would title these graphs \"Energy Consumption: Where does your country fall?\""
+    ]
+  }
+}

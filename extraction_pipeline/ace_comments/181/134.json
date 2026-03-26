@@ -1,0 +1,65 @@
+{
+  "article_id": "181",
+  "comment_index": 134,
+  "raw_comment": "I noticed that in recent years, it appears that all countries have been increasing in the wind and solar electricity categories. It seemed like the USA was about the only country who leveled out or decreased their coal use. China seemed to significantly increase in it. I wonder why everyones wind and solar sections haven't drastically increased in the last couple of years. All we ever hear is how good solar energy and wind power is and I would think by now it would have drastically increased in other places. I wonder if this is due to some other countries not being as developed or financially able? I would say this applies to my community because I see several areas that have a lot of wind turbines and they are really trying to convert to more solar power and stuff it seems. A catchy headline for this graph I would say is \"Wind to coal, for our energy, what's our main goal\".",
+  "ace_sentences": [
+    "In recent years, it appears that all countries have been increasing in the wind and solar electricity categories.",
+    "It seemed like the USA was about the only country.",
+    "The USA leveled out their coal use.",
+    "The USA decreased their coal use.",
+    "China seemed to significantly increase in it.",
+    "I wonder why everyones wind and solar sections have not drastically increased in the last couple of years.",
+    "All we ever hear is how good solar energy and wind power is.",
+    "I would think that by now it would have drastically increased in other places.",
+    "I wonder if this is due to some other countries not being as developed.",
+    "I wonder if this is due to some other countries not being financially able.",
+    "This applies to my community.",
+    "I see several areas that have a lot of wind turbines.",
+    "They are really trying to convert to more solar power and stuff.",
+    "A catchy headline for this graph is \"Wind to coal, for our energy, what's our main goal\"."
+  ],
+  "source_mappings": {
+    "In recent years, it appears that all countries have been increasing in the wind and solar electricity categories.": [
+      "in recent years, it appears that all countries have been increasing in the wind and solar electricity categories."
+    ],
+    "It seemed like the USA was about the only country.": [
+      "It seemed like the USA was about the only country"
+    ],
+    "The USA leveled out their coal use.": [
+      "leveled out"
+    ],
+    "The USA decreased their coal use.": [
+      "decreased their coal use"
+    ],
+    "China seemed to significantly increase in it.": [
+      "China seemed to significantly increase in it."
+    ],
+    "I wonder why everyones wind and solar sections have not drastically increased in the last couple of years.": [
+      "I wonder why everyones wind and solar sections haven't drastically increased in the last couple of years."
+    ],
+    "All we ever hear is how good solar energy and wind power is.": [
+      "All we ever hear is how good solar energy and wind power is"
+    ],
+    "I would think that by now it would have drastically increased in other places.": [
+      "I would think by now it would have drastically increased in other places."
+    ],
+    "I wonder if this is due to some other countries not being as developed.": [
+      "I wonder if this is due to some other countries not being as developed"
+    ],
+    "I wonder if this is due to some other countries not being financially able.": [
+      "or financially able?"
+    ],
+    "This applies to my community.": [
+      "I would say this applies to my community"
+    ],
+    "I see several areas that have a lot of wind turbines.": [
+      "I see several areas that have a lot of wind turbines"
+    ],
+    "They are really trying to convert to more solar power and stuff.": [
+      "they are really trying to convert to more solar power and stuff"
+    ],
+    "A catchy headline for this graph is \"Wind to coal, for our energy, what's our main goal\".": [
+      "A catchy headline for this graph I would say is \"Wind to coal, for our energy, what's our main goal\""
+    ]
+  }
+}

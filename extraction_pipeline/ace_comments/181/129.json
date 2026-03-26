@@ -1,0 +1,73 @@
+{
+  "article_id": "181",
+  "comment_index": 129,
+  "raw_comment": "Over the past two decades, global electricity generation has experienced a steady rise, driven by advancements in technology. Examining country-specific data reveals intriguing patterns in developed countries such as the United States, but also in third world countries such as India. I wonder why the United States' electricity generation has been largely stagnant compared to that of China.  This especially intrigues me given the United States' drastic economic development throughout the 21st century. This relates to my community because the transition to renewable energy carries significant benefits, notably in reducing air pollution and enhancing overall health for so many individuals alike. Headline: \"Powering Progress: The Rise of Renewable Energy\"",
+  "ace_sentences": [
+    "Over the past two decades, global electricity generation has experienced a steady rise.",
+    "Advancements in technology have driven this steady rise.",
+    "Examining country-specific data reveals intriguing patterns in developed countries.",
+    "The United States is a developed country.",
+    "Examining country-specific data reveals intriguing patterns in third world countries.",
+    "India is a third world country.",
+    "I wonder why the United States' electricity generation has been largely stagnant compared to that of China.",
+    "The United States has had drastic economic development throughout the 21st century.",
+    "This especially intrigues me.",
+    "This relates to my community.",
+    "The transition to renewable energy carries significant benefits.",
+    "Reducing air pollution is a significant benefit of the transition to renewable energy.",
+    "Enhancing overall health is a significant benefit of the transition to renewable energy.",
+    "This benefit is for so many individuals alike.",
+    "The headline is:",
+    "Powering Progress: The Rise of Renewable Energy."
+  ],
+  "source_mappings": {
+    "Over the past two decades, global electricity generation has experienced a steady rise.": [
+      "Over the past two decades, global electricity generation has experienced a steady rise"
+    ],
+    "Advancements in technology have driven this steady rise.": [
+      "driven by advancements in technology"
+    ],
+    "Examining country-specific data reveals intriguing patterns in developed countries.": [
+      "Examining country-specific data reveals intriguing patterns in developed countries"
+    ],
+    "The United States is a developed country.": [
+      "developed countries such as the United States"
+    ],
+    "Examining country-specific data reveals intriguing patterns in third world countries.": [
+      "but also in third world countries such as India"
+    ],
+    "India is a third world country.": [
+      "third world countries such as India"
+    ],
+    "I wonder why the United States' electricity generation has been largely stagnant compared to that of China.": [
+      "I wonder why the United States' electricity generation has been largely stagnant compared to that of China."
+    ],
+    "The United States has had drastic economic development throughout the 21st century.": [
+      "the United States' drastic economic development throughout the 21st century"
+    ],
+    "This especially intrigues me.": [
+      "This especially intrigues me"
+    ],
+    "This relates to my community.": [
+      "This relates to my community"
+    ],
+    "The transition to renewable energy carries significant benefits.": [
+      "the transition to renewable energy carries significant benefits"
+    ],
+    "Reducing air pollution is a significant benefit of the transition to renewable energy.": [
+      "notably in reducing air pollution"
+    ],
+    "Enhancing overall health is a significant benefit of the transition to renewable energy.": [
+      "enhancing overall health"
+    ],
+    "This benefit is for so many individuals alike.": [
+      "for so many individuals alike"
+    ],
+    "The headline is:": [
+      "Headline:"
+    ],
+    "Powering Progress: The Rise of Renewable Energy.": [
+      "\"Powering Progress: The Rise of Renewable Energy\""
+    ]
+  }
+}

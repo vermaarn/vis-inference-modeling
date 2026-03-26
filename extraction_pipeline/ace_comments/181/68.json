@@ -1,0 +1,76 @@
+{
+  "article_id": "181",
+  "comment_index": 68,
+  "raw_comment": "The first thing that popped out to me about these graphs was the sheer amount of energy generation produced by China. In just the coal industry, China uses more energy than the US uses in all industries combined. Another thing that interested me was the steady proportion of nuclear energy throughout the years. Nuclear power has gone through many recent developments making it extremely less dangerous for the environment, but those advancements aren't reflected in its usage. With issues such as clean energy, I wonder how strongly connotations surrounding certain types of energy effect their usage on large scales. Wind and solar energy appears to be the \"least\" clean form of clean energy according to the graphs, but among the three main types of clean energy, it is the only form that has seen a large increase in usage over time. Though it could also be due to the fact that nuclear and hydroelectric plants both require large amounts of space and infrastructure in order to construct and maintain. \nBeing informed about this information is very important because of the prevalence of energy discussions. Hearing debates and making conclusions from there is an incomplete way of developing a strategy for energy moving forward. By seeing how much each country relies on each form of energy, you are better equipped to talk about how those infrastructures could be changed to better the world going forward.\nTitle: How the US has Moved Away from Coal Energy.",
+  "ace_sentences": [
+    "The graphs show a sheer amount of energy generation produced by China.",
+    "In the coal industry, China uses more energy than the US uses in all industries combined.",
+    "The proportion of nuclear energy is steady throughout the years.",
+    "Nuclear power has gone through many recent developments.",
+    "These developments make nuclear power extremely less dangerous for the environment.",
+    "These advancements are not reflected in the usage of nuclear power.",
+    "Clean energy has issues.",
+    "I wonder how strongly connotations surrounding certain types of energy effect their usage on large scales.",
+    "According to the graphs, wind energy and solar energy appear to be the least clean form of clean energy.",
+    "Among the three main types of clean energy, wind energy and solar energy are the only form that has seen a large increase in usage over time.",
+    "Nuclear plants require large amounts of space and infrastructure in order to construct and maintain.",
+    "Hydroelectric plants require large amounts of space and infrastructure in order to construct and maintain.",
+    "Being informed about this information is very important because of the prevalence of energy discussions.",
+    "Hearing debates and making conclusions from there is an incomplete way of developing a strategy for energy moving forward.",
+    "By seeing how much each country relies on each form of energy, you are better equipped to talk about how those infrastructures could be changed to better the world going forward.",
+    "The title is: How the US has Moved Away from Coal Energy."
+  ],
+  "source_mappings": {
+    "The graphs show a sheer amount of energy generation produced by China.": [
+      "these graphs",
+      "the sheer amount of energy generation produced by China"
+    ],
+    "In the coal industry, China uses more energy than the US uses in all industries combined.": [
+      "In just the coal industry, China uses more energy than the US uses in all industries combined."
+    ],
+    "The proportion of nuclear energy is steady throughout the years.": [
+      "the steady proportion of nuclear energy throughout the years"
+    ],
+    "Nuclear power has gone through many recent developments.": [
+      "Nuclear power has gone through many recent developments"
+    ],
+    "These developments make nuclear power extremely less dangerous for the environment.": [
+      "making it extremely less dangerous for the environment"
+    ],
+    "These advancements are not reflected in the usage of nuclear power.": [
+      "those advancements aren't reflected in its usage"
+    ],
+    "Clean energy has issues.": [
+      "With issues such as clean energy"
+    ],
+    "I wonder how strongly connotations surrounding certain types of energy effect their usage on large scales.": [
+      "I wonder how strongly connotations surrounding certain types of energy effect their usage on large scales."
+    ],
+    "According to the graphs, wind energy and solar energy appear to be the least clean form of clean energy.": [
+      "Wind and solar energy appears to be the \"least\" clean form of clean energy according to the graphs"
+    ],
+    "Among the three main types of clean energy, wind energy and solar energy are the only form that has seen a large increase in usage over time.": [
+      "among the three main types of clean energy, it is the only form that has seen a large increase in usage over time"
+    ],
+    "Nuclear plants require large amounts of space and infrastructure in order to construct and maintain.": [
+      "nuclear",
+      "require large amounts of space and infrastructure in order to construct and maintain"
+    ],
+    "Hydroelectric plants require large amounts of space and infrastructure in order to construct and maintain.": [
+      "hydroelectric plants",
+      "require large amounts of space and infrastructure in order to construct and maintain"
+    ],
+    "Being informed about this information is very important because of the prevalence of energy discussions.": [
+      "Being informed about this information is very important because of the prevalence of energy discussions."
+    ],
+    "Hearing debates and making conclusions from there is an incomplete way of developing a strategy for energy moving forward.": [
+      "Hearing debates and making conclusions from there is an incomplete way of developing a strategy for energy moving forward."
+    ],
+    "By seeing how much each country relies on each form of energy, you are better equipped to talk about how those infrastructures could be changed to better the world going forward.": [
+      "By seeing how much each country relies on each form of energy, you are better equipped to talk about how those infrastructures could be changed to better the world going forward."
+    ],
+    "The title is: How the US has Moved Away from Coal Energy.": [
+      "Title: How the US has Moved Away from Coal Energy."
+    ]
+  }
+}

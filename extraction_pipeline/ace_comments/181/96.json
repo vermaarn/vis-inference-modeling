@@ -1,0 +1,73 @@
+{
+  "article_id": "181",
+  "comment_index": 96,
+  "raw_comment": "I noticed that worldwide clean electricity sources such as nuclear, wind, solar, and hydroelectric have experienced a greater increase in output of electricity over time compared to fossil fuels. When examining the individual countries' graphs we can see that, for the United States specifically, clean electricity sources have only experienced a relatively slight increase over time. Meanwhile, the United States’ coal usage is the only source that experienced a decrease in generation. \nI am curious as to why the US is less reliant on coal, if it has something to do with the cost of mining coal, or if the US is choosing to prioritize investing in clean sources instead. If the US is in fact choosing to spend more on clean sources of electricity this would mean, policymakers are becoming more conscious of the need to take steps to protect the environment so our planet can be habitable for the next generation. I would title this graph: “Electricity Generation for our Next Generation”.",
+  "ace_sentences": [
+    "Worldwide clean electricity sources include nuclear energy.",
+    "Worldwide clean electricity sources include wind energy.",
+    "Worldwide clean electricity sources include solar energy.",
+    "Worldwide clean electricity sources include hydroelectric energy.",
+    "Worldwide clean electricity sources have experienced a greater increase in output of electricity over time compared to fossil fuels.",
+    "When we examine the individual countries' graphs, we can see a fact.",
+    "For the United States, clean electricity sources have only experienced a relatively slight increase over time.",
+    "The United States’ coal usage is a source.",
+    "The United States’ coal usage experienced a decrease in generation.",
+    "I am curious as to why the US is less reliant on coal.",
+    "The cost of mining coal may relate to this fact.",
+    "The US may choose to prioritize investing in clean sources.",
+    "The US may choose to spend more on clean sources of electricity.",
+    "If the US is choosing to spend more on clean sources of electricity, policymakers are becoming more conscious of the need to take steps to protect the environment.",
+    "If policymakers take steps to protect the environment, our planet can be habitable for the next generation.",
+    "I would title this graph: “Electricity Generation for our Next Generation”."
+  ],
+  "source_mappings": {
+    "Worldwide clean electricity sources include nuclear energy.": [
+      "worldwide clean electricity sources such as nuclear"
+    ],
+    "Worldwide clean electricity sources include wind energy.": [
+      "worldwide clean electricity sources such as nuclear, wind"
+    ],
+    "Worldwide clean electricity sources include solar energy.": [
+      "worldwide clean electricity sources such as nuclear, wind, solar"
+    ],
+    "Worldwide clean electricity sources include hydroelectric energy.": [
+      "worldwide clean electricity sources such as nuclear, wind, solar, and hydroelectric"
+    ],
+    "Worldwide clean electricity sources have experienced a greater increase in output of electricity over time compared to fossil fuels.": [
+      "worldwide clean electricity sources such as nuclear, wind, solar, and hydroelectric have experienced a greater increase in output of electricity over time compared to fossil fuels"
+    ],
+    "When we examine the individual countries' graphs, we can see a fact.": [
+      "When examining the individual countries' graphs we can see that"
+    ],
+    "For the United States, clean electricity sources have only experienced a relatively slight increase over time.": [
+      "for the United States specifically, clean electricity sources have only experienced a relatively slight increase over time"
+    ],
+    "The United States’ coal usage is a source.": [
+      "the United States’ coal usage is the only source"
+    ],
+    "The United States’ coal usage experienced a decrease in generation.": [
+      "the United States’ coal usage is the only source that experienced a decrease in generation"
+    ],
+    "I am curious as to why the US is less reliant on coal.": [
+      "I am curious as to why the US is less reliant on coal"
+    ],
+    "The cost of mining coal may relate to this fact.": [
+      "the cost of mining coal"
+    ],
+    "The US may choose to prioritize investing in clean sources.": [
+      "the US is choosing to prioritize investing in clean sources instead"
+    ],
+    "The US may choose to spend more on clean sources of electricity.": [
+      "the US is in fact choosing to spend more on clean sources of electricity"
+    ],
+    "If the US is choosing to spend more on clean sources of electricity, policymakers are becoming more conscious of the need to take steps to protect the environment.": [
+      "If the US is in fact choosing to spend more on clean sources of electricity this would mean, policymakers are becoming more conscious of the need to take steps to protect the environment"
+    ],
+    "If policymakers take steps to protect the environment, our planet can be habitable for the next generation.": [
+      "so our planet can be habitable for the next generation"
+    ],
+    "I would title this graph: “Electricity Generation for our Next Generation”.": [
+      "I would title this graph: “Electricity Generation for our Next Generation”."
+    ]
+  }
+}

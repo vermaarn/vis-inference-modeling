@@ -1,0 +1,89 @@
+{
+  "article_id": "181",
+  "comment_index": 141,
+  "raw_comment": "I notice that the US is using less coal than other countries like China. I also notice that wind and solar seem to be making their way into the picture. They started gathering traction around 2010 and now it’s made a decent sized impact with the use of it similar to nuclear. I wonder how long it will take for wind and solar to become very predominate and surpass coal and gas. Will it take 2 or 3 decades? I think the community would do better on a more sustainable form of renewable electricity. If we can see an increase in hydroelectric, wind, and solar, then this will be very beneficial. A catchy headline would be “The generational switch in Electricity, Lump of Coal to Solar and Gold”.",
+  "ace_sentences": [
+    "The US uses less coal than China.",
+    "The US uses less coal than other countries.",
+    "Wind energy and solar energy seem to be making their way into the picture.",
+    "Wind energy and solar energy started gathering traction around 2010.",
+    "Now wind energy and solar energy have made a decent sized impact.",
+    "The use of wind energy and solar energy is similar to nuclear energy.",
+    "Wind energy and solar energy will become very predominate.",
+    "Wind energy and solar energy will surpass coal and gas.",
+    "I wonder how long it will take for wind energy and solar energy to become very predominate.",
+    "I wonder how long it will take for wind energy and solar energy to surpass coal and gas.",
+    "It will take 2 decades or 3 decades.",
+    "I think that the community would do better on a more sustainable form of renewable electricity.",
+    "We can see an increase in hydroelectric power.",
+    "We can see an increase in wind energy.",
+    "We can see an increase in solar energy.",
+    "If we can see an increase in hydroelectric power, then this will be very beneficial.",
+    "If we can see an increase in wind energy, then this will be very beneficial.",
+    "If we can see an increase in solar energy, then this will be very beneficial.",
+    "A catchy headline would be “The generational switch in Electricity, Lump of Coal to Solar and Gold”."
+  ],
+  "source_mappings": {
+    "The US uses less coal than China.": [
+      "the US is using less coal than other countries like China"
+    ],
+    "The US uses less coal than other countries.": [
+      "the US is using less coal than other countries"
+    ],
+    "Wind energy and solar energy seem to be making their way into the picture.": [
+      "wind and solar seem to be making their way into the picture"
+    ],
+    "Wind energy and solar energy started gathering traction around 2010.": [
+      "They started gathering traction around 2010"
+    ],
+    "Now wind energy and solar energy have made a decent sized impact.": [
+      "now it’s made a decent sized impact"
+    ],
+    "The use of wind energy and solar energy is similar to nuclear energy.": [
+      "the use of it similar to nuclear"
+    ],
+    "Wind energy and solar energy will become very predominate.": [
+      "wind and solar to become very predominate"
+    ],
+    "Wind energy and solar energy will surpass coal and gas.": [
+      "surpass coal and gas"
+    ],
+    "I wonder how long it will take for wind energy and solar energy to become very predominate.": [
+      "I wonder how long it will take for wind and solar to become very predominate"
+    ],
+    "I wonder how long it will take for wind energy and solar energy to surpass coal and gas.": [
+      "I wonder how long it will take for wind and solar",
+      "surpass coal and gas"
+    ],
+    "It will take 2 decades or 3 decades.": [
+      "Will it take 2 or 3 decades?"
+    ],
+    "I think that the community would do better on a more sustainable form of renewable electricity.": [
+      "I think the community would do better on a more sustainable form of renewable electricity."
+    ],
+    "We can see an increase in hydroelectric power.": [
+      "If we can see an increase in hydroelectric"
+    ],
+    "We can see an increase in wind energy.": [
+      "wind"
+    ],
+    "We can see an increase in solar energy.": [
+      "solar"
+    ],
+    "If we can see an increase in hydroelectric power, then this will be very beneficial.": [
+      "If we can see an increase in hydroelectric",
+      "then this will be very beneficial."
+    ],
+    "If we can see an increase in wind energy, then this will be very beneficial.": [
+      "wind",
+      "then this will be very beneficial."
+    ],
+    "If we can see an increase in solar energy, then this will be very beneficial.": [
+      "solar",
+      "then this will be very beneficial."
+    ],
+    "A catchy headline would be “The generational switch in Electricity, Lump of Coal to Solar and Gold”.": [
+      "A catchy headline would be “The generational switch in Electricity, Lump of Coal to Solar and Gold”."
+    ]
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "article_id": "181",
+  "comment_index": 53,
+  "raw_comment": "This graph charts the source of the world’s electricity supply based on the method of its production--that is, whether the electricity was produced via fossil fuel consumption in the form of oil, gas, and coal; or, if clean sources like hydroelectric, wind, solar, and nuclear power were used in production. The lion’s share of global power production, as the graph indicates, originates in the burning of coal, and, more broadly, other fossil fuels. This is despite an evident recent uptick in reliance on clean energy sources, perhaps spurred on by recent ecocentric movements and such measures as the Paris Accords. Indeed, the pressures to which such a move responds seem pressing, so much so that the global predominance of coal energy sources--which produce the greatest amount of and therefore most harmful greenhouse emissions--incites no little concern. This concerning trend finds further grounding in the subsequent graphs included below, wherein the global energy consumption is broken apart into a few constituent countries’. The graph evinces that China, one of the world’s foremost economic and industrial superpowers, remains largely dependent on coal energy for its massive energy consumption, around twice that of the United States. The unfortunate truth of such statistics is that overreliance on coal does not only affect the country producing it, but has devastating environmental ramifications for the entire world.",
+  "ace_sentences": [
+    "This graph charts the source of the world’s electricity supply.",
+    "This graph charts the source of the world’s electricity supply based on the method of its production.",
+    "The electricity was produced via fossil fuel consumption.",
+    "The fossil fuel consumption was in the form of oil.",
+    "The fossil fuel consumption was in the form of gas.",
+    "The fossil fuel consumption was in the form of coal.",
+    "Clean sources were used in production.",
+    "Hydroelectric power is a clean source.",
+    "Wind power is a clean source.",
+    "Solar power is a clean source.",
+    "Nuclear power is a clean source.",
+    "The lion’s share of global power production originates in the burning of coal.",
+    "The lion’s share of global power production originates in other fossil fuels.",
+    "There is an evident recent uptick in reliance on clean energy sources.",
+    "Recent ecocentric movements perhaps spurred on this uptick.",
+    "The Paris Accords perhaps spurred on this uptick.",
+    "The global predominance of coal energy sources incites concern.",
+    "Coal energy sources produce the greatest amount of greenhouse emissions.",
+    "Coal energy sources produce the most harmful greenhouse emissions.",
+    "This concerning trend finds further grounding in the subsequent graphs included below.",
+    "In the subsequent graphs included below, the global energy consumption is broken apart into a few constituent countries’.",
+    "The graph evinces that China remains largely dependent on coal energy for its massive energy consumption.",
+    "China is one of the world’s foremost economic and industrial superpowers.",
+    "China has massive energy consumption.",
+    "China has energy consumption around twice that of the United States.",
+    "Overreliance on coal does not only affect the country producing it.",
+    "Overreliance on coal has devastating environmental ramifications for the entire world."
+  ],
+  "source_mappings": {
+    "This graph charts the source of the world’s electricity supply.": [
+      "This graph charts the source of the world’s electricity supply"
+    ],
+    "This graph charts the source of the world’s electricity supply based on the method of its production.": [
+      "This graph charts the source of the world’s electricity supply based on the method of its production"
+    ],
+    "The electricity was produced via fossil fuel consumption.": [
+      "the electricity was produced via fossil fuel consumption"
+    ],
+    "The fossil fuel consumption was in the form of oil.": [
+      "in the form of oil"
+    ],
+    "The fossil fuel consumption was in the form of gas.": [
+      "gas"
+    ],
+    "The fossil fuel consumption was in the form of coal.": [
+      "coal"
+    ],
+    "Clean sources were used in production.": [
+      "clean sources like hydroelectric, wind, solar, and nuclear power were used in production"
+    ],
+    "Hydroelectric power is a clean source.": [
+      "clean sources like hydroelectric"
+    ],
+    "Wind power is a clean source.": [
+      "wind"
+    ],
+    "Solar power is a clean source.": [
+      "solar"
+    ],
+    "Nuclear power is a clean source.": [
+      "nuclear power"
+    ],
+    "The lion’s share of global power production originates in the burning of coal.": [
+      "The lion’s share of global power production, as the graph indicates, originates in the burning of coal"
+    ],
+    "The lion’s share of global power production originates in other fossil fuels.": [
+      "more broadly, other fossil fuels"
+    ],
+    "There is an evident recent uptick in reliance on clean energy sources.": [
+      "an evident recent uptick in reliance on clean energy sources"
+    ],
+    "Recent ecocentric movements perhaps spurred on this uptick.": [
+      "perhaps spurred on by recent ecocentric movements"
+    ],
+    "The Paris Accords perhaps spurred on this uptick.": [
+      "the Paris Accords"
+    ],
+    "The global predominance of coal energy sources incites concern.": [
+      "the global predominance of coal energy sources--which produce the greatest amount of and therefore most harmful greenhouse emissions--incites no little concern"
+    ],
+    "Coal energy sources produce the greatest amount of greenhouse emissions.": [
+      "produce the greatest amount of"
+    ],
+    "Coal energy sources produce the most harmful greenhouse emissions.": [
+      "most harmful greenhouse emissions"
+    ],
+    "This concerning trend finds further grounding in the subsequent graphs included below.": [
+      "This concerning trend finds further grounding in the subsequent graphs included below"
+    ],
+    "In the subsequent graphs included below, the global energy consumption is broken apart into a few constituent countries’.": [
+      "wherein the global energy consumption is broken apart into a few constituent countries’"
+    ],
+    "The graph evinces that China remains largely dependent on coal energy for its massive energy consumption.": [
+      "The graph evinces that China",
+      "remains largely dependent on coal energy for its massive energy consumption"
+    ],
+    "China is one of the world’s foremost economic and industrial superpowers.": [
+      "China, one of the world’s foremost economic and industrial superpowers"
+    ],
+    "China has massive energy consumption.": [
+      "its massive energy consumption"
+    ],
+    "China has energy consumption around twice that of the United States.": [
+      "around twice that of the United States"
+    ],
+    "Overreliance on coal does not only affect the country producing it.": [
+      "overreliance on coal does not only affect the country producing it"
+    ],
+    "Overreliance on coal has devastating environmental ramifications for the entire world.": [
+      "has devastating environmental ramifications for the entire world"
+    ]
+  }
+}

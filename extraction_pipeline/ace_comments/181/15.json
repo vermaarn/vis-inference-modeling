@@ -1,0 +1,45 @@
+{
+  "article_id": "181",
+  "comment_index": 15,
+  "raw_comment": "I notice that there has been a lot of growth over time especially with the fossil fuels.\nI wonder why India produces less energy than China \nThis relates to me because as climate change takes place we are setting up future generations for failure by leaving them a world full of habitat loss and endangered species.\nMy headline is “It’s getting hot in here: what energy sources are worse ting climate change?”",
+  "ace_sentences": [
+    "I notice that there has been a lot of growth over time.",
+    "This growth is especially with the fossil fuels.",
+    "I wonder why India produces less energy than China.",
+    "This relates to me.",
+    "Climate change takes place.",
+    "We are setting up future generations for failure.",
+    "We are leaving future generations a world full of habitat loss.",
+    "We are leaving future generations a world full of endangered species.",
+    "My headline is “It’s getting hot in here: what energy sources are worse ting climate change?”."
+  ],
+  "source_mappings": {
+    "I notice that there has been a lot of growth over time.": [
+      "I notice that there has been a lot of growth over time"
+    ],
+    "This growth is especially with the fossil fuels.": [
+      "especially with the fossil fuels"
+    ],
+    "I wonder why India produces less energy than China.": [
+      "I wonder why India produces less energy than China"
+    ],
+    "This relates to me.": [
+      "This relates to me"
+    ],
+    "Climate change takes place.": [
+      "as climate change takes place"
+    ],
+    "We are setting up future generations for failure.": [
+      "we are setting up future generations for failure"
+    ],
+    "We are leaving future generations a world full of habitat loss.": [
+      "by leaving them a world full of habitat loss"
+    ],
+    "We are leaving future generations a world full of endangered species.": [
+      "and endangered species"
+    ],
+    "My headline is “It’s getting hot in here: what energy sources are worse ting climate change?”.": [
+      "My headline is “It’s getting hot in here: what energy sources are worse ting climate change?”"
+    ]
+  }
+}

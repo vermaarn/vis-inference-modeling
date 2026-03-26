@@ -1,0 +1,57 @@
+{
+  "article_id": "181",
+  "comment_index": 17,
+  "raw_comment": "I noticed that in the graph for the world electricity had a growth overtime, specifically of fossil fuels, where as in the United States, it relatively remained the same over time. In India the electricity is predominantly fossil and there is little clean electricity. China had the largest spike over time.\nI wonder what causes countries like India to only produce fossil electricity. I also wonder which countries contribute the most to the fossil electricity. \nThis affects my community because it shows the amount of bad electricity that is contributed to the world and shows how it affects global warming.\n\"Create more clean energy!\"",
+  "ace_sentences": [
+    "I noticed that in the graph for the world electricity had a growth overtime.",
+    "This growth was specifically of fossil fuels.",
+    "In the United States, it relatively remained the same over time.",
+    "In India the electricity is predominantly fossil.",
+    "In India there is little clean electricity.",
+    "China had the largest spike over time.",
+    "I wonder what causes countries like India to only produce fossil electricity.",
+    "I also wonder which countries contribute the most to the fossil electricity.",
+    "This affects my community.",
+    "It shows the amount of bad electricity that is contributed to the world.",
+    "It shows how it affects global warming.",
+    "Create more clean energy!"
+  ],
+  "source_mappings": {
+    "I noticed that in the graph for the world electricity had a growth overtime.": [
+      "I noticed that in the graph for the world electricity had a growth overtime"
+    ],
+    "This growth was specifically of fossil fuels.": [
+      "specifically of fossil fuels"
+    ],
+    "In the United States, it relatively remained the same over time.": [
+      "in the United States, it relatively remained the same over time"
+    ],
+    "In India the electricity is predominantly fossil.": [
+      "In India the electricity is predominantly fossil"
+    ],
+    "In India there is little clean electricity.": [
+      "there is little clean electricity"
+    ],
+    "China had the largest spike over time.": [
+      "China had the largest spike over time"
+    ],
+    "I wonder what causes countries like India to only produce fossil electricity.": [
+      "I wonder what causes countries like India to only produce fossil electricity"
+    ],
+    "I also wonder which countries contribute the most to the fossil electricity.": [
+      "I also wonder which countries contribute the most to the fossil electricity"
+    ],
+    "This affects my community.": [
+      "This affects my community"
+    ],
+    "It shows the amount of bad electricity that is contributed to the world.": [
+      "it shows the amount of bad electricity that is contributed to the world"
+    ],
+    "It shows how it affects global warming.": [
+      "shows how it affects global warming"
+    ],
+    "Create more clean energy!": [
+      "\"Create more clean energy!\""
+    ]
+  }
+}

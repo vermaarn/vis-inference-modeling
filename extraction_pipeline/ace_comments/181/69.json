@@ -1,0 +1,116 @@
+{
+  "article_id": "181",
+  "comment_index": 69,
+  "raw_comment": "Immediately, I noticed how a stacked area chart is being utilized to visualize the data presented. The issue with using a stacked area chart like these graphs is that it is difficult to determine the actual size of one section in the chart since each section is built on top of one another like layers of sediment. This also makes it difficult to visually see trends in specific sections since their baselines are all different and affected by the layers below. I also noticed how it appears clean energy sources have increased in the past 22 years, specifically how much wind and solar have exploded recently. \nI wonder how the U.S. has stayed fairly consistent with energy production when it feels as if electricity has become more and more integral to life each day in the twenty-first century. Similarly, on the opposite side, why has China’s production boomed so much?\nThese graphs relate to me and my community because as climate change continues and natural fossil fuels begin to run out, the need for sustainable energy sources and better energy consumption practices is more important than ever. Keeping energy use steady, or even decreasing is something that we as a community should strive for. Additionally, by making sure we continue to switch more and more to clean energy production, we are helping the prosperity and longevity of the planet and our own futures. \nTitle: “A Decade of the World’s Energy: Is Clean Power the Future?”",
+  "ace_sentences": [
+    "A stacked area chart is utilized to visualize the data presented.",
+    "Using a stacked area chart like these graphs is difficult.",
+    "It is difficult to determine the actual size of one section in the chart.",
+    "Each section is built on top of one another like layers of sediment.",
+    "It is difficult to visually see trends in specific sections.",
+    "The baselines of the sections are all different.",
+    "The baselines of the sections are affected by the layers below.",
+    "Clean energy sources have increased in the past 22 years.",
+    "Wind energy has exploded recently.",
+    "Solar energy has exploded recently.",
+    "The U.S. has stayed fairly consistent with energy production.",
+    "Electricity has become more and more integral to life each day in the twenty-first century.",
+    "China’s production has boomed so much.",
+    "These graphs relate to me and my community.",
+    "Climate change continues.",
+    "Natural fossil fuels begin to run out.",
+    "The need for sustainable energy sources is more important than ever.",
+    "The need for better energy consumption practices is more important than ever.",
+    "We as a community should strive for keeping energy use steady.",
+    "We as a community should strive for decreasing energy use.",
+    "We continue to switch more and more to clean energy production.",
+    "By switching more and more to clean energy production, we are helping the prosperity of the planet.",
+    "By switching more and more to clean energy production, we are helping the longevity of the planet.",
+    "By switching more and more to clean energy production, we are helping our own futures.",
+    "The title is “A Decade of the World’s Energy: Is Clean Power the Future?”."
+  ],
+  "source_mappings": {
+    "A stacked area chart is utilized to visualize the data presented.": [
+      "a stacked area chart is being utilized to visualize the data presented"
+    ],
+    "Using a stacked area chart like these graphs is difficult.": [
+      "The issue with using a stacked area chart like these graphs is that it is difficult"
+    ],
+    "It is difficult to determine the actual size of one section in the chart.": [
+      "it is difficult to determine the actual size of one section in the chart"
+    ],
+    "Each section is built on top of one another like layers of sediment.": [
+      "each section is built on top of one another like layers of sediment"
+    ],
+    "It is difficult to visually see trends in specific sections.": [
+      "makes it difficult to visually see trends in specific sections"
+    ],
+    "The baselines of the sections are all different.": [
+      "their baselines are all different"
+    ],
+    "The baselines of the sections are affected by the layers below.": [
+      "affected by the layers below"
+    ],
+    "Clean energy sources have increased in the past 22 years.": [
+      "it appears clean energy sources have increased in the past 22 years"
+    ],
+    "Wind energy has exploded recently.": [
+      "how much wind",
+      "have exploded recently"
+    ],
+    "Solar energy has exploded recently.": [
+      "and solar",
+      "have exploded recently"
+    ],
+    "The U.S. has stayed fairly consistent with energy production.": [
+      "the U.S. has stayed fairly consistent with energy production"
+    ],
+    "Electricity has become more and more integral to life each day in the twenty-first century.": [
+      "electricity has become more and more integral to life each day in the twenty-first century"
+    ],
+    "China’s production has boomed so much.": [
+      "China’s production boomed so much"
+    ],
+    "These graphs relate to me and my community.": [
+      "These graphs relate to me and my community"
+    ],
+    "Climate change continues.": [
+      "climate change continues"
+    ],
+    "Natural fossil fuels begin to run out.": [
+      "natural fossil fuels begin to run out"
+    ],
+    "The need for sustainable energy sources is more important than ever.": [
+      "the need for sustainable energy sources",
+      "is more important than ever"
+    ],
+    "The need for better energy consumption practices is more important than ever.": [
+      "better energy consumption practices",
+      "is more important than ever"
+    ],
+    "We as a community should strive for keeping energy use steady.": [
+      "Keeping energy use steady",
+      "we as a community should strive for"
+    ],
+    "We as a community should strive for decreasing energy use.": [
+      "or even decreasing",
+      "we as a community should strive for"
+    ],
+    "We continue to switch more and more to clean energy production.": [
+      "we continue to switch more and more to clean energy production"
+    ],
+    "By switching more and more to clean energy production, we are helping the prosperity of the planet.": [
+      "by making sure we continue to switch more and more to clean energy production, we are helping the prosperity",
+      "of the planet"
+    ],
+    "By switching more and more to clean energy production, we are helping the longevity of the planet.": [
+      "and longevity of the planet"
+    ],
+    "By switching more and more to clean energy production, we are helping our own futures.": [
+      "and our own futures"
+    ],
+    "The title is “A Decade of the World’s Energy: Is Clean Power the Future?”.": [
+      "Title: “A Decade of the World’s Energy: Is Clean Power the Future?”"
+    ]
+  }
+}

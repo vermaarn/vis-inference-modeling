@@ -1,0 +1,79 @@
+{
+  "article_id": "181",
+  "comment_index": 32,
+  "raw_comment": "Second comment:\n In the second set of graphs, I notice that China's use of clean sources of power has significantly increased whereas the U.S.'s use of clean power sources has remained relatively the same over the past twenty years. I also noticed that India uses incredibly less power than both the U.S. and China. I wonder why India uses such little power and why China uses so much power even though their populations are both 1.4 billion. I wonder why the U.S. uses more power than India although their population is so much larger than that of the U.S. This relates to myself and my community as the fate of our environment is dependent on the U.S.'s choice to either pursue using cleaner sources of power in the future or to continue to rely so heavily upon fossil fuels.\n\nEnergy & the Environment:",
+  "ace_sentences": [
+    "I notice a second set of graphs.",
+    "China's use of clean sources of power has significantly increased over the past twenty years.",
+    "The U.S.'s use of clean power sources has remained relatively the same over the past twenty years.",
+    "I noticed that India uses less power than the U.S.",
+    "I noticed that India uses less power than China.",
+    "I wonder why India uses little power.",
+    "I wonder why China uses much power.",
+    "The population of India is 1.4 billion.",
+    "The population of China is 1.4 billion.",
+    "I wonder why the U.S. uses more power than India.",
+    "The population of India is much larger than the population of the U.S.",
+    "This relates to myself.",
+    "This relates to my community.",
+    "The fate of our environment is dependent on the U.S.'s choice.",
+    "In the future, the U.S. can pursue using cleaner sources of power.",
+    "In the future, the U.S. can continue to rely heavily upon fossil fuels.",
+    "The topic is energy and the environment."
+  ],
+  "source_mappings": {
+    "I notice a second set of graphs.": [
+      "In the second set of graphs, I notice"
+    ],
+    "China's use of clean sources of power has significantly increased over the past twenty years.": [
+      "China's use of clean sources of power has significantly increased",
+      "over the past twenty years"
+    ],
+    "The U.S.'s use of clean power sources has remained relatively the same over the past twenty years.": [
+      "the U.S.'s use of clean power sources has remained relatively the same",
+      "over the past twenty years"
+    ],
+    "I noticed that India uses less power than the U.S.": [
+      "I also noticed that India uses incredibly less power than both the U.S."
+    ],
+    "I noticed that India uses less power than China.": [
+      "I also noticed that India uses incredibly less power than both the U.S. and China."
+    ],
+    "I wonder why India uses little power.": [
+      "I wonder why India uses such little power"
+    ],
+    "I wonder why China uses much power.": [
+      "why China uses so much power"
+    ],
+    "The population of India is 1.4 billion.": [
+      "their populations are both 1.4 billion"
+    ],
+    "The population of China is 1.4 billion.": [
+      "their populations are both 1.4 billion"
+    ],
+    "I wonder why the U.S. uses more power than India.": [
+      "I wonder why the U.S. uses more power than India"
+    ],
+    "The population of India is much larger than the population of the U.S.": [
+      "their population is so much larger than that of the U.S."
+    ],
+    "This relates to myself.": [
+      "This relates to myself"
+    ],
+    "This relates to my community.": [
+      "and my community"
+    ],
+    "The fate of our environment is dependent on the U.S.'s choice.": [
+      "the fate of our environment is dependent on the U.S.'s choice"
+    ],
+    "In the future, the U.S. can pursue using cleaner sources of power.": [
+      "to either pursue using cleaner sources of power in the future"
+    ],
+    "In the future, the U.S. can continue to rely heavily upon fossil fuels.": [
+      "or to continue to rely so heavily upon fossil fuels"
+    ],
+    "The topic is energy and the environment.": [
+      "Energy & the Environment:"
+    ]
+  }
+}

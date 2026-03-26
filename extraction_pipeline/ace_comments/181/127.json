@@ -1,0 +1,73 @@
+{
+  "article_id": "181",
+  "comment_index": 127,
+  "raw_comment": "1. What do you notice? \nI notice that there has been an increase in coal usage as well as gasoline, which both fall under fossil fuels. \n2. What do you wonder?\nI wonder how there has been an increase in fossil fuel use, when there is a lot of companies working against harmful fuel usage and activists in support of transitioning to clean energy. \n3. What impact does this have on you and your community?\nThis shows the popularity of different types of electricities in the world and what the trends show. If our abuse of fossil fuels continue, we will be without resources and unprepared. \n4. What's going on in this graph? Write a catchy headline that captures the graph's main idea.\n\"Fossil Fuel Use Trumps Clean Fuels\"",
+  "ace_sentences": [
+    "I notice an increase in coal usage.",
+    "I notice an increase in gasoline usage.",
+    "Coal usage falls under fossil fuels.",
+    "Gasoline falls under fossil fuels.",
+    "I wonder how there has been an increase in fossil fuel use.",
+    "There is a lot of companies.",
+    "These companies work against harmful fuel usage.",
+    "There are activists.",
+    "These activists support transitioning to clean energy.",
+    "This shows the popularity of different types of electricities in the world.",
+    "This shows what the trends show.",
+    "Our abuse of fossil fuels may continue.",
+    "If our abuse of fossil fuels continues, we will be without resources.",
+    "If our abuse of fossil fuels continues, we will be unprepared.",
+    "The headline is \"Fossil Fuel Use Trumps Clean Fuels\"."
+  ],
+  "source_mappings": {
+    "I notice an increase in coal usage.": [
+      "I notice that there has been an increase in coal usage"
+    ],
+    "I notice an increase in gasoline usage.": [
+      "as well as gasoline"
+    ],
+    "Coal usage falls under fossil fuels.": [
+      "coal usage",
+      "fall under fossil fuels"
+    ],
+    "Gasoline falls under fossil fuels.": [
+      "gasoline",
+      "fall under fossil fuels"
+    ],
+    "I wonder how there has been an increase in fossil fuel use.": [
+      "I wonder how there has been an increase in fossil fuel use"
+    ],
+    "There is a lot of companies.": [
+      "there is a lot of companies"
+    ],
+    "These companies work against harmful fuel usage.": [
+      "companies working against harmful fuel usage"
+    ],
+    "There are activists.": [
+      "activists"
+    ],
+    "These activists support transitioning to clean energy.": [
+      "activists in support of transitioning to clean energy"
+    ],
+    "This shows the popularity of different types of electricities in the world.": [
+      "This shows the popularity of different types of electricities in the world"
+    ],
+    "This shows what the trends show.": [
+      "what the trends show"
+    ],
+    "Our abuse of fossil fuels may continue.": [
+      "If our abuse of fossil fuels continue"
+    ],
+    "If our abuse of fossil fuels continues, we will be without resources.": [
+      "If our abuse of fossil fuels continue",
+      "we will be without resources"
+    ],
+    "If our abuse of fossil fuels continues, we will be unprepared.": [
+      "If our abuse of fossil fuels continue",
+      "unprepared"
+    ],
+    "The headline is \"Fossil Fuel Use Trumps Clean Fuels\".": [
+      "\"Fossil Fuel Use Trumps Clean Fuels\""
+    ]
+  }
+}

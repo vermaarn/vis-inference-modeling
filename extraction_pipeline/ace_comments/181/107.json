@@ -1,0 +1,73 @@
+{
+  "article_id": "181",
+  "comment_index": 107,
+  "raw_comment": "After examining the World’s Electricity Generation Graph, I noticed that clean sources produce the most amount of power in the world compared to fossil fuels. More specifically, nuclear sources produce the most overall. Additionally, as the years increase, more and more electricity is being produced from all sources. In the smaller graphs below, I notice that China uses by far the most electricity compared to the United States and India. India produces the least amount of electricity and also uses the least amount of clean energy sources to produce electricity. I wonder if there is a reason as to why India produces the least amount of electricity. India is a very large country with over a billion people, so based on that, I would assume that India would be one of the countries that produces the most amount of electricity. The impact that this has on me and my community is making me wonder how much electricity I use daily and what kind of energy sources produce my electricity. Although, when observing the United States graph I notice that as the years increase, fossil fuel usage decreases. I am pointing this out because based on this observation, the electricity I use is more likely to be powered by clean energy sources. After looking at the main graph and the sub-graphs of the other countries, a catchy “headline” that captures these graphs is “How Different Powers Charge the World”.",
+  "ace_sentences": [
+    "I examined the World’s Electricity Generation Graph.",
+    "I noticed that clean sources produce the most amount of power in the world compared to fossil fuels.",
+    "Nuclear sources produce the most overall.",
+    "As the years increase, more and more electricity is being produced from all sources.",
+    "In the smaller graphs below, I notice that China uses by far the most electricity compared to the United States and India.",
+    "India produces the least amount of electricity.",
+    "India uses the least amount of clean energy sources to produce electricity.",
+    "I wonder if there is a reason as to why India produces the least amount of electricity.",
+    "India is a very large country.",
+    "India has over a billion people.",
+    "I assume that India would be one of the countries that produces the most amount of electricity.",
+    "The impact that this has on me and my community is making me wonder how much electricity I use daily.",
+    "The impact that this has on me and my community is making me wonder what kind of energy sources produce my electricity.",
+    "When observing the United States graph I notice that as the years increase, fossil fuel usage decreases.",
+    "I am pointing this out because based on this observation, the electricity I use is more likely to be powered by clean energy sources.",
+    "After looking at the main graph and the sub-graphs of the other countries, a catchy “headline” that captures these graphs is “How Different Powers Charge the World”."
+  ],
+  "source_mappings": {
+    "I examined the World’s Electricity Generation Graph.": [
+      "After examining the World’s Electricity Generation Graph"
+    ],
+    "I noticed that clean sources produce the most amount of power in the world compared to fossil fuels.": [
+      "I noticed that clean sources produce the most amount of power in the world compared to fossil fuels."
+    ],
+    "Nuclear sources produce the most overall.": [
+      "More specifically, nuclear sources produce the most overall."
+    ],
+    "As the years increase, more and more electricity is being produced from all sources.": [
+      "as the years increase, more and more electricity is being produced from all sources."
+    ],
+    "In the smaller graphs below, I notice that China uses by far the most electricity compared to the United States and India.": [
+      "In the smaller graphs below, I notice that China uses by far the most electricity compared to the United States and India."
+    ],
+    "India produces the least amount of electricity.": [
+      "India produces the least amount of electricity"
+    ],
+    "India uses the least amount of clean energy sources to produce electricity.": [
+      "also uses the least amount of clean energy sources to produce electricity."
+    ],
+    "I wonder if there is a reason as to why India produces the least amount of electricity.": [
+      "I wonder if there is a reason as to why India produces the least amount of electricity."
+    ],
+    "India is a very large country.": [
+      "India is a very large country"
+    ],
+    "India has over a billion people.": [
+      "with over a billion people"
+    ],
+    "I assume that India would be one of the countries that produces the most amount of electricity.": [
+      "I would assume that India would be one of the countries that produces the most amount of electricity."
+    ],
+    "The impact that this has on me and my community is making me wonder how much electricity I use daily.": [
+      "The impact that this has on me and my community is making me wonder how much electricity I use daily"
+    ],
+    "The impact that this has on me and my community is making me wonder what kind of energy sources produce my electricity.": [
+      "and what kind of energy sources produce my electricity."
+    ],
+    "When observing the United States graph I notice that as the years increase, fossil fuel usage decreases.": [
+      "when observing the United States graph I notice that as the years increase, fossil fuel usage decreases."
+    ],
+    "I am pointing this out because based on this observation, the electricity I use is more likely to be powered by clean energy sources.": [
+      "I am pointing this out because based on this observation, the electricity I use is more likely to be powered by clean energy sources."
+    ],
+    "After looking at the main graph and the sub-graphs of the other countries, a catchy “headline” that captures these graphs is “How Different Powers Charge the World”.": [
+      "After looking at the main graph and the sub-graphs of the other countries, a catchy “headline” that captures these graphs is “How Different Powers Charge the World”."
+    ]
+  }
+}

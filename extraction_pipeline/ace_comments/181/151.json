@@ -1,0 +1,67 @@
+{
+  "article_id": "181",
+  "comment_index": 151,
+  "raw_comment": "I noticed that out of China, the United States, and India, China appears to use the most clean energy but all of them mainly use fossil fuels. I wonder what will be the breaking point to cause more places to switch to clean energy. I know that places are trying to switch to just clean energy, but the cost of it can be expensive. This impacts my community because if the U.S. starts to run out of fossil fuels or is unable to purchase fossil fuels from other countries, people may start to struggle to afford using clean energy all the time. A  catchy headline would be \"The future towards clean energy.\"",
+  "ace_sentences": [
+    "China uses the most clean energy out of China and the United States and India.",
+    "China mainly uses fossil fuels.",
+    "The United States mainly uses fossil fuels.",
+    "India mainly uses fossil fuels.",
+    "I wonder what will be the breaking point.",
+    "I wonder what will cause more places to switch to clean energy.",
+    "Places are trying to switch to just clean energy.",
+    "The cost of clean energy can be expensive.",
+    "This impacts my community.",
+    "The U.S. may start to run out of fossil fuels.",
+    "The U.S. may be unable to purchase fossil fuels from other countries.",
+    "If the U.S. starts to run out of fossil fuels then people may start to struggle to afford using clean energy all the time.",
+    "If the U.S. is unable to purchase fossil fuels from other countries then people may start to struggle to afford using clean energy all the time.",
+    "A catchy headline would be \"The future towards clean energy.\""
+  ],
+  "source_mappings": {
+    "China uses the most clean energy out of China and the United States and India.": [
+      "out of China, the United States, and India, China appears to use the most clean energy"
+    ],
+    "China mainly uses fossil fuels.": [
+      "but all of them mainly use fossil fuels"
+    ],
+    "The United States mainly uses fossil fuels.": [
+      "but all of them mainly use fossil fuels"
+    ],
+    "India mainly uses fossil fuels.": [
+      "but all of them mainly use fossil fuels"
+    ],
+    "I wonder what will be the breaking point.": [
+      "I wonder what will be the breaking point"
+    ],
+    "I wonder what will cause more places to switch to clean energy.": [
+      "to cause more places to switch to clean energy"
+    ],
+    "Places are trying to switch to just clean energy.": [
+      "places are trying to switch to just clean energy"
+    ],
+    "The cost of clean energy can be expensive.": [
+      "the cost of it can be expensive"
+    ],
+    "This impacts my community.": [
+      "This impacts my community"
+    ],
+    "The U.S. may start to run out of fossil fuels.": [
+      "if the U.S. starts to run out of fossil fuels"
+    ],
+    "The U.S. may be unable to purchase fossil fuels from other countries.": [
+      "or is unable to purchase fossil fuels from other countries"
+    ],
+    "If the U.S. starts to run out of fossil fuels then people may start to struggle to afford using clean energy all the time.": [
+      "if the U.S. starts to run out of fossil fuels",
+      "people may start to struggle to afford using clean energy all the time"
+    ],
+    "If the U.S. is unable to purchase fossil fuels from other countries then people may start to struggle to afford using clean energy all the time.": [
+      "is unable to purchase fossil fuels from other countries",
+      "people may start to struggle to afford using clean energy all the time"
+    ],
+    "A catchy headline would be \"The future towards clean energy.\"": [
+      "A  catchy headline would be \"The future towards clean energy.\""
+    ]
+  }
+}

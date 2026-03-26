@@ -1,0 +1,21 @@
+{
+  "article_id": "181",
+  "comment_index": 144,
+  "raw_comment": "I am very surprised that the US has such a low energy usage increase. I would expect the energy to rise drastically through 2000-2024. I was also surprised how low India's energy usage was.",
+  "ace_sentences": [
+    "I am very surprised that the US has such a low energy usage increase.",
+    "I would expect the energy to rise drastically through 2000-2024.",
+    "I was also surprised how low India's energy usage was."
+  ],
+  "source_mappings": {
+    "I am very surprised that the US has such a low energy usage increase.": [
+      "I am very surprised that the US has such a low energy usage increase."
+    ],
+    "I would expect the energy to rise drastically through 2000-2024.": [
+      "I would expect the energy to rise drastically through 2000-2024."
+    ],
+    "I was also surprised how low India's energy usage was.": [
+      "I was also surprised how low India's energy usage was."
+    ]
+  }
+}

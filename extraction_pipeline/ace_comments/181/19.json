@@ -1,0 +1,79 @@
+{
+  "article_id": "181",
+  "comment_index": 19,
+  "raw_comment": "1) Throughout time, fossil fuels have been widely utilized in many forms, such as coal and gas. Additionally, I've seen that the amount of clean power generated lately seems to be growing over time, gradually reducing the amount of fossil fuels used for electricity generation and gradually converting people to utilize clean electricity generation.\n2)I'm interested in learning how or why people moved toward using clean electricity. additionally, if the components of clean electricity are more widely available or considerably simpler to locate than the materials that make up fossil fuel electricity.\n3)this relates to my community because everything has electricity and we have to take care of our community by filling it with clean supplies and have a healthy non toxic environment\n4)Leave toxic electricity behind and improve with clean electricity",
+  "ace_sentences": [
+    "Throughout time, fossil fuels have been widely utilized in many forms.",
+    "Coal is a form of fossil fuel.",
+    "Gas is a form of fossil fuel.",
+    "I have seen that the amount of clean power generated lately seems to be growing over time.",
+    "The amount of clean power generated lately gradually reduces the amount of fossil fuels used for electricity generation.",
+    "The amount of clean power generated lately gradually converts people to utilize clean electricity generation.",
+    "I am interested in learning how people moved toward using clean electricity.",
+    "I am interested in learning why people moved toward using clean electricity.",
+    "I am interested in learning if the components of clean electricity are more widely available than the materials that make up fossil fuel electricity.",
+    "I am interested in learning if the components of clean electricity are considerably simpler to locate than the materials that make up fossil fuel electricity.",
+    "This relates to my community.",
+    "Everything has electricity.",
+    "We have to take care of our community.",
+    "We have to fill our community with clean supplies.",
+    "We have to have a healthy non toxic environment.",
+    "We should leave toxic electricity behind.",
+    "We should improve with clean electricity."
+  ],
+  "source_mappings": {
+    "Throughout time, fossil fuels have been widely utilized in many forms.": [
+      "Throughout time, fossil fuels have been widely utilized in many forms"
+    ],
+    "Coal is a form of fossil fuel.": [
+      "coal"
+    ],
+    "Gas is a form of fossil fuel.": [
+      "gas"
+    ],
+    "I have seen that the amount of clean power generated lately seems to be growing over time.": [
+      "I've seen that the amount of clean power generated lately seems to be growing over time"
+    ],
+    "The amount of clean power generated lately gradually reduces the amount of fossil fuels used for electricity generation.": [
+      "gradually reducing the amount of fossil fuels used for electricity generation"
+    ],
+    "The amount of clean power generated lately gradually converts people to utilize clean electricity generation.": [
+      "gradually converting people to utilize clean electricity generation"
+    ],
+    "I am interested in learning how people moved toward using clean electricity.": [
+      "I'm interested in learning how"
+    ],
+    "I am interested in learning why people moved toward using clean electricity.": [
+      "or why people moved toward using clean electricity"
+    ],
+    "I am interested in learning if the components of clean electricity are more widely available than the materials that make up fossil fuel electricity.": [
+      "if the components of clean electricity are more widely available",
+      "than the materials that make up fossil fuel electricity"
+    ],
+    "I am interested in learning if the components of clean electricity are considerably simpler to locate than the materials that make up fossil fuel electricity.": [
+      "or considerably simpler to locate",
+      "than the materials that make up fossil fuel electricity"
+    ],
+    "This relates to my community.": [
+      "this relates to my community"
+    ],
+    "Everything has electricity.": [
+      "everything has electricity"
+    ],
+    "We have to take care of our community.": [
+      "we have to take care of our community"
+    ],
+    "We have to fill our community with clean supplies.": [
+      "by filling it with clean supplies"
+    ],
+    "We have to have a healthy non toxic environment.": [
+      "have a healthy non toxic environment"
+    ],
+    "We should leave toxic electricity behind.": [
+      "Leave toxic electricity behind"
+    ],
+    "We should improve with clean electricity.": [
+      "improve with clean electricity"
+    ]
+  }
+}

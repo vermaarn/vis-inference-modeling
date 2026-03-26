@@ -1,0 +1,53 @@
+{
+  "article_id": "181",
+  "comment_index": 103,
+  "raw_comment": "I notice that clean energy has been taking up more and more of a fraction, but every single method of electricity has increased over the years, likely because of an increase of population and an increase of areas with electricity over the years.  I wonder if there's going to be a bigger shift towards clean energy in the future that will shift the ratios of energy usage.  This relates to my community because we use a lot of gas, but we also have wind farms and solar farms here as well.  A headline could be \"What Kind Of Energy Does The World Use?\"",
+  "ace_sentences": [
+    "Clean energy has been taking up more and more of a fraction.",
+    "However, every single method of electricity has increased over the years.",
+    "This increase is likely because of an increase of population.",
+    "This increase is likely because of an increase of areas with electricity over the years.",
+    "I wonder if there is going to be a bigger shift towards clean energy in the future.",
+    "I wonder if this shift will shift the ratios of energy usage.",
+    "This relates to my community.",
+    "We use a lot of gas.",
+    "We have wind farms here.",
+    "We have solar farms here as well.",
+    "A headline could be \"What Kind Of Energy Does The World Use?\""
+  ],
+  "source_mappings": {
+    "Clean energy has been taking up more and more of a fraction.": [
+      "clean energy has been taking up more and more of a fraction"
+    ],
+    "However, every single method of electricity has increased over the years.": [
+      "but every single method of electricity has increased over the years"
+    ],
+    "This increase is likely because of an increase of population.": [
+      "likely because of an increase of population"
+    ],
+    "This increase is likely because of an increase of areas with electricity over the years.": [
+      "and an increase of areas with electricity over the years"
+    ],
+    "I wonder if there is going to be a bigger shift towards clean energy in the future.": [
+      "I wonder if there's going to be a bigger shift towards clean energy in the future"
+    ],
+    "I wonder if this shift will shift the ratios of energy usage.": [
+      "that will shift the ratios of energy usage"
+    ],
+    "This relates to my community.": [
+      "This relates to my community"
+    ],
+    "We use a lot of gas.": [
+      "we use a lot of gas"
+    ],
+    "We have wind farms here.": [
+      "we also have wind farms"
+    ],
+    "We have solar farms here as well.": [
+      "and solar farms here as well"
+    ],
+    "A headline could be \"What Kind Of Energy Does The World Use?\"": [
+      "A headline could be \"What Kind Of Energy Does The World Use?\""
+    ]
+  }
+}

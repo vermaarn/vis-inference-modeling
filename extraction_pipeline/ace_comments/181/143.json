@@ -1,0 +1,37 @@
+{
+  "article_id": "181",
+  "comment_index": 143,
+  "raw_comment": "I notice that China by far leads the world with pollution. So if they lead the U.S in pollution why do all of the diesel engines that go out to them not get emissions controls put on them? I think that since the U.S has to have emissions controls the rest of the world should too.",
+  "ace_sentences": [
+    "I notice that China leads the world with pollution.",
+    "China leads the world with pollution by far.",
+    "China leads the U.S in pollution.",
+    "Diesel engines go out to China.",
+    "Diesel engines that go out to China do not get emissions controls put on them.",
+    "The U.S has to have emissions controls.",
+    "I think that the rest of the world should have emissions controls."
+  ],
+  "source_mappings": {
+    "I notice that China leads the world with pollution.": [
+      "I notice that China by far leads the world with pollution."
+    ],
+    "China leads the world with pollution by far.": [
+      "China by far leads the world with pollution."
+    ],
+    "China leads the U.S in pollution.": [
+      "they lead the U.S in pollution"
+    ],
+    "Diesel engines go out to China.": [
+      "the diesel engines that go out to them"
+    ],
+    "Diesel engines that go out to China do not get emissions controls put on them.": [
+      "the diesel engines that go out to them not get emissions controls put on them"
+    ],
+    "The U.S has to have emissions controls.": [
+      "the U.S has to have emissions controls"
+    ],
+    "I think that the rest of the world should have emissions controls.": [
+      "I think that since the U.S has to have emissions controls the rest of the world should too."
+    ]
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "article_id": "181",
+  "comment_index": 56,
+  "raw_comment": "The four graphs shown depict energy and electricity use in China, the United States, India, and the worldwide average. The first thing I found interesting about this graph was that the majority of energy being used comes from fossil fuels, which are extremely harmful to the environment. It's also extremely interesting to me how India has such a large population but uses very little energy compared to China and the U.S, and I wonder why that is. India also has continued to use mainly fossil fuels for energy, while China and the U.S seem to be using more renewable resources as time goes on. Out of the three counties, the U.S seems to be the only one cutting back on unsustainable resources like gas and oil. I wonder why other countries continue to use so much fossil fuels to fuel their energy system although its harm to the environment is widely known.",
+  "ace_sentences": [
+    "Four graphs are shown.",
+    "The four graphs depict energy use in China.",
+    "The four graphs depict electricity use in China.",
+    "The four graphs depict energy use in the United States.",
+    "The four graphs depict electricity use in the United States.",
+    "The four graphs depict energy use in India.",
+    "The four graphs depict electricity use in India.",
+    "The four graphs depict the worldwide average.",
+    "The majority of energy that is used comes from fossil fuels.",
+    "Fossil fuels are extremely harmful to the environment.",
+    "India has a large population.",
+    "India uses very little energy compared to China.",
+    "India uses very little energy compared to the U.S.",
+    "I wonder why India uses very little energy compared to China and the U.S.",
+    "India has continued to use mainly fossil fuels for energy.",
+    "China seems to be using more renewable resources as time goes on.",
+    "The U.S seem to be using more renewable resources as time goes on.",
+    "Out of the three counties, the U.S seems to be the only one cutting back on unsustainable resources like gas and oil.",
+    "Other countries continue to use so much fossil fuels to fuel their energy system.",
+    "The harm of fossil fuels to the environment is widely known.",
+    "I wonder why other countries continue to use so much fossil fuels although its harm to the environment is widely known."
+  ],
+  "source_mappings": {
+    "Four graphs are shown.": [
+      "The four graphs shown"
+    ],
+    "The four graphs depict energy use in China.": [
+      "The four graphs shown depict energy and electricity use in China"
+    ],
+    "The four graphs depict electricity use in China.": [
+      "The four graphs shown depict energy and electricity use in China"
+    ],
+    "The four graphs depict energy use in the United States.": [
+      "the United States"
+    ],
+    "The four graphs depict electricity use in the United States.": [
+      "the United States"
+    ],
+    "The four graphs depict energy use in India.": [
+      "India"
+    ],
+    "The four graphs depict electricity use in India.": [
+      "India"
+    ],
+    "The four graphs depict the worldwide average.": [
+      "the worldwide average"
+    ],
+    "The majority of energy that is used comes from fossil fuels.": [
+      "the majority of energy being used comes from fossil fuels"
+    ],
+    "Fossil fuels are extremely harmful to the environment.": [
+      "fossil fuels, which are extremely harmful to the environment"
+    ],
+    "India has a large population.": [
+      "India has such a large population"
+    ],
+    "India uses very little energy compared to China.": [
+      "uses very little energy compared to China"
+    ],
+    "India uses very little energy compared to the U.S.": [
+      "uses very little energy compared to China and the U.S"
+    ],
+    "I wonder why India uses very little energy compared to China and the U.S.": [
+      "I wonder why that is"
+    ],
+    "India has continued to use mainly fossil fuels for energy.": [
+      "India also has continued to use mainly fossil fuels for energy"
+    ],
+    "China seems to be using more renewable resources as time goes on.": [
+      "China and the U.S seem to be using more renewable resources as time goes on"
+    ],
+    "The U.S seem to be using more renewable resources as time goes on.": [
+      "China and the U.S seem to be using more renewable resources as time goes on"
+    ],
+    "Out of the three counties, the U.S seems to be the only one cutting back on unsustainable resources like gas and oil.": [
+      "Out of the three counties, the U.S seems to be the only one cutting back on unsustainable resources like gas and oil"
+    ],
+    "Other countries continue to use so much fossil fuels to fuel their energy system.": [
+      "other countries continue to use so much fossil fuels to fuel their energy system"
+    ],
+    "The harm of fossil fuels to the environment is widely known.": [
+      "its harm to the environment is widely known"
+    ],
+    "I wonder why other countries continue to use so much fossil fuels although its harm to the environment is widely known.": [
+      "I wonder why other countries continue to use so much fossil fuels to fuel their energy system although its harm to the environment is widely known"
+    ]
+  }
+}

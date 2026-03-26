@@ -1,0 +1,81 @@
+{
+  "article_id": "181",
+  "comment_index": 5,
+  "raw_comment": "Something that I noticed is that there is a graph that has a y-axis that is counted in gigawatt hours and an x-axis that is labeled in years. Additionally, there are tiered color blocks on the graph that each symbolize a different fuel for electricity. Another point is that the yellow-orange colored blocks are made of a cleaner fuel alternative and the black-gray blacks represent fossil fuel-based electricity options. Something that I wonder is how much a gigawatt is and what the best thing to compare it to would be in order to comprehend the size of it better. Another thing I wonder is what some of the differences between clean and fossil-based electricity are. This data affects the community around me because fossil fuels are a large contributor to climate change so it is important to see how much energy we are basing on fossil fuels versus cleaner fuel options. One headline for this graph could be, “Global Use and Differences in the Electricity Generation”",
+  "ace_sentences": [
+    "I noticed a graph.",
+    "The graph has a y-axis.",
+    "The y-axis is counted in gigawatt hours.",
+    "The graph has an x-axis.",
+    "The x-axis is labeled in years.",
+    "There are tiered color blocks on the graph.",
+    "Each tiered color block symbolizes a different fuel for electricity.",
+    "The yellow-orange colored blocks are made of a cleaner fuel alternative.",
+    "The black-gray blacks represent fossil fuel-based electricity options.",
+    "I wonder how much a gigawatt is.",
+    "I wonder what the best thing to compare a gigawatt to would be.",
+    "I want to comprehend the size of a gigawatt better.",
+    "I wonder what some of the differences between clean electricity and fossil-based electricity are.",
+    "This data affects the community around me.",
+    "Fossil fuels are a large contributor to climate change.",
+    "It is important to see how much energy we are basing on fossil fuels.",
+    "It is important to see how much energy we are basing on cleaner fuel options.",
+    "One headline for this graph could be “Global Use and Differences in the Electricity Generation”."
+  ],
+  "source_mappings": {
+    "I noticed a graph.": [
+      "Something that I noticed is that there is a graph"
+    ],
+    "The graph has a y-axis.": [
+      "there is a graph that has a y-axis"
+    ],
+    "The y-axis is counted in gigawatt hours.": [
+      "a y-axis that is counted in gigawatt hours"
+    ],
+    "The graph has an x-axis.": [
+      "an x-axis"
+    ],
+    "The x-axis is labeled in years.": [
+      "an x-axis that is labeled in years"
+    ],
+    "There are tiered color blocks on the graph.": [
+      "there are tiered color blocks on the graph"
+    ],
+    "Each tiered color block symbolizes a different fuel for electricity.": [
+      "that each symbolize a different fuel for electricity"
+    ],
+    "The yellow-orange colored blocks are made of a cleaner fuel alternative.": [
+      "the yellow-orange colored blocks are made of a cleaner fuel alternative"
+    ],
+    "The black-gray blacks represent fossil fuel-based electricity options.": [
+      "the black-gray blacks represent fossil fuel-based electricity options"
+    ],
+    "I wonder how much a gigawatt is.": [
+      "Something that I wonder is how much a gigawatt is"
+    ],
+    "I wonder what the best thing to compare a gigawatt to would be.": [
+      "what the best thing to compare it to would be"
+    ],
+    "I want to comprehend the size of a gigawatt better.": [
+      "in order to comprehend the size of it better"
+    ],
+    "I wonder what some of the differences between clean electricity and fossil-based electricity are.": [
+      "Another thing I wonder is what some of the differences between clean and fossil-based electricity are"
+    ],
+    "This data affects the community around me.": [
+      "This data affects the community around me"
+    ],
+    "Fossil fuels are a large contributor to climate change.": [
+      "fossil fuels are a large contributor to climate change"
+    ],
+    "It is important to see how much energy we are basing on fossil fuels.": [
+      "it is important to see how much energy we are basing on fossil fuels"
+    ],
+    "It is important to see how much energy we are basing on cleaner fuel options.": [
+      "versus cleaner fuel options"
+    ],
+    "One headline for this graph could be “Global Use and Differences in the Electricity Generation”.": [
+      "One headline for this graph could be, “Global Use and Differences in the Electricity Generation”"
+    ]
+  }
+}

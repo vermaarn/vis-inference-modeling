@@ -1,0 +1,73 @@
+{
+  "article_id": "181",
+  "comment_index": 152,
+  "raw_comment": "What do you notice?\nI notice that the non-clean energy supplies is generally dropping in the United States. The power in China and India seems to haves similar trends.\nWhat do you wonder?\nIn what ways does this graph correlate to the passing of economic laws such as solar or wind tax credits.\nHow does this relate to you and your community?\nIt helps to inform me and my community how the power we use is from and if this power is sustainable for future generations. \nCreate a catchy headline that captures the graph’s main idea\nWorld Super-Powers in more ways then one, How China and United States get there energy.",
+  "ace_sentences": [
+    "I notice a thing.",
+    "The non-clean energy supplies in the United States are generally dropping.",
+    "The power in China seems to have similar trends.",
+    "The power in India seems to have similar trends.",
+    "I wonder about a thing.",
+    "This graph correlates to the passing of economic laws.",
+    "Solar tax credits are economic laws.",
+    "Wind tax credits are economic laws.",
+    "It helps to inform me.",
+    "It helps to inform my community.",
+    "My community uses power.",
+    "The power that my community uses is from a source.",
+    "This power is sustainable for future generations.",
+    "The headline is:",
+    "World Super-Powers in more ways then one, How China and United States get there energy."
+  ],
+  "source_mappings": {
+    "I notice a thing.": [
+      "What do you notice?"
+    ],
+    "The non-clean energy supplies in the United States are generally dropping.": [
+      "the non-clean energy supplies is generally dropping in the United States."
+    ],
+    "The power in China seems to have similar trends.": [
+      "The power in China",
+      "seems to haves similar trends."
+    ],
+    "The power in India seems to have similar trends.": [
+      "India seems to haves similar trends."
+    ],
+    "I wonder about a thing.": [
+      "What do you wonder?"
+    ],
+    "This graph correlates to the passing of economic laws.": [
+      "does this graph correlate to the passing of economic laws"
+    ],
+    "Solar tax credits are economic laws.": [
+      "solar",
+      "economic laws"
+    ],
+    "Wind tax credits are economic laws.": [
+      "wind tax credits",
+      "economic laws"
+    ],
+    "It helps to inform me.": [
+      "It helps to inform me"
+    ],
+    "It helps to inform my community.": [
+      "It helps to inform me and my community"
+    ],
+    "My community uses power.": [
+      "my community",
+      "the power we use"
+    ],
+    "The power that my community uses is from a source.": [
+      "how the power we use is from"
+    ],
+    "This power is sustainable for future generations.": [
+      "if this power is sustainable for future generations."
+    ],
+    "The headline is:": [
+      "Create a catchy headline that captures the graph’s main idea"
+    ],
+    "World Super-Powers in more ways then one, How China and United States get there energy.": [
+      "World Super-Powers in more ways then one, How China and United States get there energy."
+    ]
+  }
+}

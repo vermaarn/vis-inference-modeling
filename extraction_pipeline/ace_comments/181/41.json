@@ -1,0 +1,155 @@
+{
+  "article_id": "181",
+  "comment_index": 41,
+  "raw_comment": "There are 2 graphs displayed here. The first graph displays the world electricity in the clean category: nuclear, hydroelectric and other, wind, solar and the fossil category oil, gas, and coal from years 2000 to 2020. I noticed there was a large increase in the use of cleaner energy and fossil fuels in recent years. I wonder how those environmentalists or those who care about the environment feel about the increased use of fossil fuel emissions and how that affects the environment. Does using clean energy help? The second graph below depicts the total electricity generation graphs for China, the U.S. and India with the year range of 2000 to 2020. I notice that China produces the most coal and India produces the least. I wonder why China produces more fossil fuels than the US and India and how that affects the environment and pollution. I wonder if population has an affect on the mass production of fossil fuels in China and India's because the current population in both of those countries about 1.4 billion each. With the same population you would think they would produce the same amount of fuel. This relates to me and my community as my dad owns an electric car which is environmental friendly and I have been more aware of how much fuel and gas costs affect the world around me. \n\nTitle: Gasolina",
+  "ace_sentences": [
+    "There are 2 graphs displayed here.",
+    "The first graph displays the world electricity.",
+    "The first graph displays nuclear electricity.",
+    "The first graph displays hydroelectric electricity.",
+    "The first graph displays other electricity.",
+    "The first graph displays wind electricity.",
+    "The first graph displays solar electricity.",
+    "The first graph displays oil electricity.",
+    "The first graph displays gas electricity.",
+    "The first graph displays coal electricity.",
+    "The first graph covers years 2000 to 2020.",
+    "In recent years, there was a large increase in the use of cleaner energy.",
+    "In recent years, there was a large increase in the use of fossil fuels.",
+    "Some environmentalists care about the environment.",
+    "The use of fossil fuel emissions increased.",
+    "The increased use of fossil fuel emissions affects the environment.",
+    "Using clean energy may help.",
+    "The second graph below depicts the total electricity generation graphs for China.",
+    "The second graph below depicts the total electricity generation graphs for the U.S..",
+    "The second graph below depicts the total electricity generation graphs for India.",
+    "The second graph covers the year range of 2000 to 2020.",
+    "China produces the most coal.",
+    "India produces the least coal.",
+    "China produces more fossil fuels than the US.",
+    "China produces more fossil fuels than India.",
+    "This affects the environment.",
+    "This affects pollution.",
+    "Population may have an affect on the mass production of fossil fuels in China.",
+    "Population may have an affect on the mass production of fossil fuels in India's.",
+    "The current population in both of those countries is about 1.4 billion each.",
+    "With the same population, they would produce the same amount of fuel.",
+    "This relates to me and my community.",
+    "My dad owns an electric car.",
+    "The electric car is environmental friendly.",
+    "I have been more aware of how much fuel and gas costs affect the world around me.",
+    "The title is Gasolina."
+  ],
+  "source_mappings": {
+    "There are 2 graphs displayed here.": [
+      "There are 2 graphs displayed here."
+    ],
+    "The first graph displays the world electricity.": [
+      "The first graph displays the world electricity"
+    ],
+    "The first graph displays nuclear electricity.": [
+      "nuclear"
+    ],
+    "The first graph displays hydroelectric electricity.": [
+      "hydroelectric"
+    ],
+    "The first graph displays other electricity.": [
+      "other"
+    ],
+    "The first graph displays wind electricity.": [
+      "wind"
+    ],
+    "The first graph displays solar electricity.": [
+      "solar"
+    ],
+    "The first graph displays oil electricity.": [
+      "oil"
+    ],
+    "The first graph displays gas electricity.": [
+      "gas"
+    ],
+    "The first graph displays coal electricity.": [
+      "coal"
+    ],
+    "The first graph covers years 2000 to 2020.": [
+      "from years 2000 to 2020"
+    ],
+    "In recent years, there was a large increase in the use of cleaner energy.": [
+      "there was a large increase in the use of cleaner energy",
+      "in recent years"
+    ],
+    "In recent years, there was a large increase in the use of fossil fuels.": [
+      "there was a large increase in the use of cleaner energy and fossil fuels",
+      "in recent years"
+    ],
+    "Some environmentalists care about the environment.": [
+      "those environmentalists or those who care about the environment"
+    ],
+    "The use of fossil fuel emissions increased.": [
+      "the increased use of fossil fuel emissions"
+    ],
+    "The increased use of fossil fuel emissions affects the environment.": [
+      "how that affects the environment"
+    ],
+    "Using clean energy may help.": [
+      "Does using clean energy help?"
+    ],
+    "The second graph below depicts the total electricity generation graphs for China.": [
+      "The second graph below depicts the total electricity generation graphs for China"
+    ],
+    "The second graph below depicts the total electricity generation graphs for the U.S..": [
+      "the total electricity generation graphs for China, the U.S."
+    ],
+    "The second graph below depicts the total electricity generation graphs for India.": [
+      "the total electricity generation graphs for China, the U.S. and India"
+    ],
+    "The second graph covers the year range of 2000 to 2020.": [
+      "with the year range of 2000 to 2020"
+    ],
+    "China produces the most coal.": [
+      "China produces the most coal"
+    ],
+    "India produces the least coal.": [
+      "India produces the least"
+    ],
+    "China produces more fossil fuels than the US.": [
+      "China produces more fossil fuels than the US"
+    ],
+    "China produces more fossil fuels than India.": [
+      "China produces more fossil fuels than the US and India"
+    ],
+    "This affects the environment.": [
+      "how that affects the environment"
+    ],
+    "This affects pollution.": [
+      "pollution"
+    ],
+    "Population may have an affect on the mass production of fossil fuels in China.": [
+      "population has an affect on the mass production of fossil fuels in China"
+    ],
+    "Population may have an affect on the mass production of fossil fuels in India's.": [
+      "population has an affect on the mass production of fossil fuels in China and India's"
+    ],
+    "The current population in both of those countries is about 1.4 billion each.": [
+      "the current population in both of those countries about 1.4 billion each"
+    ],
+    "With the same population, they would produce the same amount of fuel.": [
+      "With the same population you would think they would produce the same amount of fuel."
+    ],
+    "This relates to me and my community.": [
+      "This relates to me and my community"
+    ],
+    "My dad owns an electric car.": [
+      "my dad owns an electric car"
+    ],
+    "The electric car is environmental friendly.": [
+      "which is environmental friendly"
+    ],
+    "I have been more aware of how much fuel and gas costs affect the world around me.": [
+      "I have been more aware of how much fuel and gas costs affect the world around me."
+    ],
+    "The title is Gasolina.": [
+      "Title: Gasolina"
+    ]
+  }
+}

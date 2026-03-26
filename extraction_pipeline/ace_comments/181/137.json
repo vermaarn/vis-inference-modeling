@@ -1,0 +1,69 @@
+{
+  "article_id": "181",
+  "comment_index": 137,
+  "raw_comment": "As expected with new technology all over, world electricity generation has steadily increased over the last 20+ years. With this increase, fossil fuels have of course increased as well, but at an encouragingly slower rate. Worldwide, renewable energy sources have have begun to take up a large proportion of the electricity generation. The country-specific plots show some interesting trends. I wonder why the electricity generation in the United States has been mostly flat for two decades, even after all of the 21st century economic development. In my community, I hear about renewable energy all the time through campaigns, and it is encouraging to see in these graphs that the rate of increasing fossil fuels has slowed down dramatically, especially in the U.S. This personally affects me and everyone in my community because renewable energy reduces air pollution, leading better overall health. Headline: \"Fueling the Future: Cleaning Up Our Energy\"",
+  "ace_sentences": [
+    "World electricity generation has steadily increased over the last 20+ years.",
+    "Fossil fuels have increased as well.",
+    "The rate of increase of fossil fuels is slower.",
+    "Worldwide, renewable energy sources have begun to take up a large proportion of the electricity generation.",
+    "The country-specific plots show some interesting trends.",
+    "The electricity generation in the United States has been mostly flat for two decades.",
+    "The United States has economic development in the 21st century.",
+    "In my community, I hear about renewable energy all the time through campaigns.",
+    "It is encouraging to see in these graphs that the rate of increasing fossil fuels has slowed down dramatically.",
+    "This slowing down is especially in the U.S.",
+    "This personally affects me.",
+    "This personally affects everyone in my community.",
+    "Renewable energy reduces air pollution.",
+    "Renewable energy leads better overall health.",
+    "The headline is \"Fueling the Future: Cleaning Up Our Energy\"."
+  ],
+  "source_mappings": {
+    "World electricity generation has steadily increased over the last 20+ years.": [
+      "world electricity generation has steadily increased over the last 20+ years"
+    ],
+    "Fossil fuels have increased as well.": [
+      "fossil fuels have of course increased as well"
+    ],
+    "The rate of increase of fossil fuels is slower.": [
+      "but at an encouragingly slower rate"
+    ],
+    "Worldwide, renewable energy sources have begun to take up a large proportion of the electricity generation.": [
+      "Worldwide, renewable energy sources have have begun to take up a large proportion of the electricity generation"
+    ],
+    "The country-specific plots show some interesting trends.": [
+      "The country-specific plots show some interesting trends"
+    ],
+    "The electricity generation in the United States has been mostly flat for two decades.": [
+      "the electricity generation in the United States has been mostly flat for two decades"
+    ],
+    "The United States has economic development in the 21st century.": [
+      "the 21st century economic development"
+    ],
+    "In my community, I hear about renewable energy all the time through campaigns.": [
+      "In my community, I hear about renewable energy all the time through campaigns"
+    ],
+    "It is encouraging to see in these graphs that the rate of increasing fossil fuels has slowed down dramatically.": [
+      "it is encouraging to see in these graphs that the rate of increasing fossil fuels has slowed down dramatically"
+    ],
+    "This slowing down is especially in the U.S.": [
+      "especially in the U.S."
+    ],
+    "This personally affects me.": [
+      "This personally affects me"
+    ],
+    "This personally affects everyone in my community.": [
+      "everyone in my community"
+    ],
+    "Renewable energy reduces air pollution.": [
+      "renewable energy reduces air pollution"
+    ],
+    "Renewable energy leads better overall health.": [
+      "leading better overall health"
+    ],
+    "The headline is \"Fueling the Future: Cleaning Up Our Energy\".": [
+      "Headline: \"Fueling the Future: Cleaning Up Our Energy\""
+    ]
+  }
+}

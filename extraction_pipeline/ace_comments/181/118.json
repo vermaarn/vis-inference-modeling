@@ -1,0 +1,33 @@
+{
+  "article_id": "181",
+  "comment_index": 118,
+  "raw_comment": "notice - one is rising, one is steady, one is slowly rising.\nwonder - why china's is skyrocketing over US and India and if its a good or bad thing.",
+  "ace_sentences": [
+    "One is rising.",
+    "One is steady.",
+    "One is slowly rising.",
+    "I wonder why China's is skyrocketing over the US and India.",
+    "I wonder if this is a good thing.",
+    "I wonder if this is a bad thing."
+  ],
+  "source_mappings": {
+    "One is rising.": [
+      "one is rising"
+    ],
+    "One is steady.": [
+      "one is steady"
+    ],
+    "One is slowly rising.": [
+      "one is slowly rising"
+    ],
+    "I wonder why China's is skyrocketing over the US and India.": [
+      "wonder - why china's is skyrocketing over US and India"
+    ],
+    "I wonder if this is a good thing.": [
+      "if its a good"
+    ],
+    "I wonder if this is a bad thing.": [
+      "bad thing"
+    ]
+  }
+}

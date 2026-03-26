@@ -1,0 +1,53 @@
+{
+  "article_id": "181",
+  "comment_index": 126,
+  "raw_comment": "1. I noticed that electricity generation has increased by about 5 million gigawatt hours in the past 20 years. Most notably in China, the total generation has increased by about 8 mill. in that country alone.\n2. I wonder why the usage of coal had increased dramatically in China yet decreased in the United States.\n3. This graph has a large impact on my future, in another 5-10 years the trend of this graph could have a huge place in the world around me.\n4. Electricity Around the World: How Is It Changing?",
+  "ace_sentences": [
+    "I noticed something.",
+    "Electricity generation has increased by about 5 million gigawatt hours in the past 20 years.",
+    "The total generation in China has increased by about 8 mill.",
+    "This increase happened in that country alone.",
+    "I wonder about something.",
+    "The usage of coal had increased dramatically in China.",
+    "The usage of coal had decreased in the United States.",
+    "This graph has a large impact on my future.",
+    "In another 5-10 years, the trend of this graph could have a huge place in the world around me.",
+    "The headline is:",
+    "Electricity Around the World: How Is It Changing?"
+  ],
+  "source_mappings": {
+    "I noticed something.": [
+      "I noticed that"
+    ],
+    "Electricity generation has increased by about 5 million gigawatt hours in the past 20 years.": [
+      "electricity generation has increased by about 5 million gigawatt hours in the past 20 years"
+    ],
+    "The total generation in China has increased by about 8 mill.": [
+      "Most notably in China, the total generation has increased by about 8 mill."
+    ],
+    "This increase happened in that country alone.": [
+      "in that country alone"
+    ],
+    "I wonder about something.": [
+      "I wonder why"
+    ],
+    "The usage of coal had increased dramatically in China.": [
+      "the usage of coal had increased dramatically in China"
+    ],
+    "The usage of coal had decreased in the United States.": [
+      "decreased in the United States"
+    ],
+    "This graph has a large impact on my future.": [
+      "This graph has a large impact on my future"
+    ],
+    "In another 5-10 years, the trend of this graph could have a huge place in the world around me.": [
+      "in another 5-10 years the trend of this graph could have a huge place in the world around me"
+    ],
+    "The headline is:": [
+      "Electricity Around the World:"
+    ],
+    "Electricity Around the World: How Is It Changing?": [
+      "Electricity Around the World: How Is It Changing?"
+    ]
+  }
+}

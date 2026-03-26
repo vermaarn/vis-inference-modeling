@@ -1,0 +1,65 @@
+{
+  "article_id": "181",
+  "comment_index": 24,
+  "raw_comment": "I notice that fossil fuels are the main source of energy in the world with coal leading. Also wind and solar energy are used the least with nuclear and hydroelectric energy being used more.\n\nI wonder how fossil fuels are still the main source of energy especially since our fossil fuels are expected to run out in the near future.\n\nThis relates to me and my community because debates of what energy is safe and should be used by the US to keep the environment more healthy.\n\nEnergy Consumption: Fossil Fuels Continue to Lead The Way",
+  "ace_sentences": [
+    "Fossil fuels are the main source of energy in the world.",
+    "Coal leads among fossil fuels.",
+    "Wind energy is used the least.",
+    "Solar energy is used the least.",
+    "Nuclear energy is used more.",
+    "Hydroelectric energy is used more.",
+    "Fossil fuels are still the main source of energy.",
+    "Our fossil fuels are expected to run out in the near future.",
+    "This relates to me and my community.",
+    "There are debates about what energy is safe.",
+    "There are debates about what energy should be used by the US.",
+    "The US should keep the environment more healthy.",
+    "The headline is:",
+    "Energy Consumption: Fossil Fuels Continue to Lead The Way."
+  ],
+  "source_mappings": {
+    "Fossil fuels are the main source of energy in the world.": [
+      "fossil fuels are the main source of energy in the world"
+    ],
+    "Coal leads among fossil fuels.": [
+      "with coal leading"
+    ],
+    "Wind energy is used the least.": [
+      "wind"
+    ],
+    "Solar energy is used the least.": [
+      "solar energy are used the least"
+    ],
+    "Nuclear energy is used more.": [
+      "nuclear"
+    ],
+    "Hydroelectric energy is used more.": [
+      "hydroelectric energy being used more"
+    ],
+    "Fossil fuels are still the main source of energy.": [
+      "fossil fuels are still the main source of energy"
+    ],
+    "Our fossil fuels are expected to run out in the near future.": [
+      "our fossil fuels are expected to run out in the near future"
+    ],
+    "This relates to me and my community.": [
+      "This relates to me and my community"
+    ],
+    "There are debates about what energy is safe.": [
+      "debates of what energy is safe"
+    ],
+    "There are debates about what energy should be used by the US.": [
+      "should be used by the US"
+    ],
+    "The US should keep the environment more healthy.": [
+      "to keep the environment more healthy"
+    ],
+    "The headline is:": [
+      "Energy Consumption: Fossil Fuels Continue to Lead The Way"
+    ],
+    "Energy Consumption: Fossil Fuels Continue to Lead The Way.": [
+      "Energy Consumption: Fossil Fuels Continue to Lead The Way"
+    ]
+  }
+}

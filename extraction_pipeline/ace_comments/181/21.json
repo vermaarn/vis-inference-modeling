@@ -1,0 +1,121 @@
+{
+  "article_id": "181",
+  "comment_index": 21,
+  "raw_comment": "I see a rise in electricity generation and a positive correlation with years in these graphs. I noted that, as the graphs of China, India, and the US demonstrate, this increase is not necessarily uniform across all nations. China's electrical production expanded year after year between 2000 and 2020 at a high linear pace, while the US increased only slightly throughout that time. I can also see that each nation uses coal as its main source of electricity generation, but over time, the US has been using less of it while the other two have both been using more. \n\n I wonder how the United States has managed to maintain steady electricity generation in spite of economic and population growth. Although China has a much greater population, the huge difference in electrical generation is still confusing. This raises the question of whether environmental laws and regulations are in force in nations other than the United States.\n\n\nThis relates to my town since switching to renewable energy offers many advantages, especially in terms of lowering air pollution and enhancing general health for a large number of people.\n\nHow do China, the U.S., and India generate their electricity?",
+  "ace_sentences": [
+    "I see a rise in electricity generation in these graphs.",
+    "I see a positive correlation with years in these graphs.",
+    "The graphs of China demonstrate this increase.",
+    "The graphs of India demonstrate this increase.",
+    "The graphs of the US demonstrate this increase.",
+    "This increase is not necessarily uniform across all nations.",
+    "China's electrical production expanded year after year between 2000 and 2020.",
+    "China's electrical production expanded at a high linear pace.",
+    "The US increased only slightly throughout that time.",
+    "Each nation uses coal as its main source of electricity generation.",
+    "Over time, the US has been using less coal.",
+    "Over time, China has been using more coal.",
+    "Over time, India has been using more coal.",
+    "I wonder how the United States has managed to maintain steady electricity generation.",
+    "The United States has economic growth.",
+    "The United States has population growth.",
+    "The United States maintains steady electricity generation in spite of economic growth.",
+    "The United States maintains steady electricity generation in spite of population growth.",
+    "China has a much greater population.",
+    "The huge difference in electrical generation is still confusing.",
+    "This raises the question of whether environmental laws and regulations are in force in nations other than the United States.",
+    "This relates to my town.",
+    "Switching to renewable energy offers many advantages.",
+    "Switching to renewable energy offers advantages in terms of lowering air pollution.",
+    "Switching to renewable energy offers advantages in terms of enhancing general health for a large number of people.",
+    "How do China, the U.S., and India generate their electricity?"
+  ],
+  "source_mappings": {
+    "I see a rise in electricity generation in these graphs.": [
+      "I see a rise in electricity generation",
+      "in these graphs"
+    ],
+    "I see a positive correlation with years in these graphs.": [
+      "a positive correlation with years in these graphs"
+    ],
+    "The graphs of China demonstrate this increase.": [
+      "the graphs of China",
+      "demonstrate, this increase"
+    ],
+    "The graphs of India demonstrate this increase.": [
+      "the graphs of China, India, and the US demonstrate, this increase",
+      "India"
+    ],
+    "The graphs of the US demonstrate this increase.": [
+      "the graphs of China, India, and the US demonstrate, this increase",
+      "the US"
+    ],
+    "This increase is not necessarily uniform across all nations.": [
+      "this increase is not necessarily uniform across all nations"
+    ],
+    "China's electrical production expanded year after year between 2000 and 2020.": [
+      "China's electrical production expanded year after year between 2000 and 2020"
+    ],
+    "China's electrical production expanded at a high linear pace.": [
+      "at a high linear pace"
+    ],
+    "The US increased only slightly throughout that time.": [
+      "the US increased only slightly throughout that time"
+    ],
+    "Each nation uses coal as its main source of electricity generation.": [
+      "each nation uses coal as its main source of electricity generation"
+    ],
+    "Over time, the US has been using less coal.": [
+      "over time, the US has been using less of it"
+    ],
+    "Over time, China has been using more coal.": [
+      "the other two have both been using more"
+    ],
+    "Over time, India has been using more coal.": [
+      "the other two have both been using more"
+    ],
+    "I wonder how the United States has managed to maintain steady electricity generation.": [
+      "I wonder how the United States has managed to maintain steady electricity generation"
+    ],
+    "The United States has economic growth.": [
+      "economic",
+      "growth"
+    ],
+    "The United States has population growth.": [
+      "population",
+      "growth"
+    ],
+    "The United States maintains steady electricity generation in spite of economic growth.": [
+      "maintain steady electricity generation in spite of economic",
+      "growth"
+    ],
+    "The United States maintains steady electricity generation in spite of population growth.": [
+      "maintain steady electricity generation in spite of",
+      "population growth"
+    ],
+    "China has a much greater population.": [
+      "China has a much greater population"
+    ],
+    "The huge difference in electrical generation is still confusing.": [
+      "the huge difference in electrical generation is still confusing"
+    ],
+    "This raises the question of whether environmental laws and regulations are in force in nations other than the United States.": [
+      "This raises the question of whether environmental laws and regulations are in force in nations other than the United States"
+    ],
+    "This relates to my town.": [
+      "This relates to my town"
+    ],
+    "Switching to renewable energy offers many advantages.": [
+      "switching to renewable energy offers many advantages"
+    ],
+    "Switching to renewable energy offers advantages in terms of lowering air pollution.": [
+      "in terms of lowering air pollution"
+    ],
+    "Switching to renewable energy offers advantages in terms of enhancing general health for a large number of people.": [
+      "enhancing general health for a large number of people"
+    ],
+    "How do China, the U.S., and India generate their electricity?": [
+      "How do China, the U.S., and India generate their electricity?"
+    ]
+  }
+}

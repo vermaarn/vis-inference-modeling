@@ -1,0 +1,71 @@
+{
+  "article_id": "181",
+  "comment_index": 27,
+  "raw_comment": "I notice that there is more clean energy being used as time goes on, also that the gap between fossil fuels and clean energy continues to grow greater. I noticed that China has significantly higher numbers than The U.S. and India. I wonder why China's numbers continue to skyrocket while the U.S. stays the same or even drops in fossil fuels. I also wonder why Inda's numbers are so consistently low. This relates to me and my community because the use of fossil fuels and clean energy affects the environment around us. Using clean energy can help save our environment as global warming has become a big concern in the U.S., and this is why we can see the number of fossil fuels drop in the U.S..\n\"We Got Energy!\"",
+  "ace_sentences": [
+    "More clean energy is used as time goes on.",
+    "The gap between fossil fuels and clean energy continues to grow greater.",
+    "China has significantly higher numbers than The U.S..",
+    "China has significantly higher numbers than India.",
+    "China's numbers continue to skyrocket.",
+    "The U.S. stays the same in fossil fuels.",
+    "The U.S. drops in fossil fuels.",
+    "Inda's numbers are consistently low.",
+    "This relates to me and my community.",
+    "The use of fossil fuels affects the environment around us.",
+    "The use of clean energy affects the environment around us.",
+    "Using clean energy can help save our environment.",
+    "Global warming has become a big concern in the U.S..",
+    "This is why we can see the number of fossil fuels drop in the U.S..",
+    "The headline is \"We Got Energy!\"."
+  ],
+  "source_mappings": {
+    "More clean energy is used as time goes on.": [
+      "there is more clean energy being used as time goes on"
+    ],
+    "The gap between fossil fuels and clean energy continues to grow greater.": [
+      "the gap between fossil fuels and clean energy continues to grow greater"
+    ],
+    "China has significantly higher numbers than The U.S..": [
+      "China has significantly higher numbers than The U.S."
+    ],
+    "China has significantly higher numbers than India.": [
+      "China has significantly higher numbers than The U.S. and India"
+    ],
+    "China's numbers continue to skyrocket.": [
+      "China's numbers continue to skyrocket"
+    ],
+    "The U.S. stays the same in fossil fuels.": [
+      "the U.S. stays the same",
+      "in fossil fuels"
+    ],
+    "The U.S. drops in fossil fuels.": [
+      "even drops in fossil fuels"
+    ],
+    "Inda's numbers are consistently low.": [
+      "Inda's numbers are so consistently low"
+    ],
+    "This relates to me and my community.": [
+      "This relates to me and my community"
+    ],
+    "The use of fossil fuels affects the environment around us.": [
+      "the use of fossil fuels",
+      "affects the environment around us"
+    ],
+    "The use of clean energy affects the environment around us.": [
+      "clean energy affects the environment around us"
+    ],
+    "Using clean energy can help save our environment.": [
+      "Using clean energy can help save our environment"
+    ],
+    "Global warming has become a big concern in the U.S..": [
+      "global warming has become a big concern in the U.S."
+    ],
+    "This is why we can see the number of fossil fuels drop in the U.S..": [
+      "this is why we can see the number of fossil fuels drop in the U.S.."
+    ],
+    "The headline is \"We Got Energy!\".": [
+      "\"We Got Energy!\""
+    ]
+  }
+}

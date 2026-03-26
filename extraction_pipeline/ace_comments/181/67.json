@@ -1,0 +1,114 @@
+{
+  "article_id": "181",
+  "comment_index": 67,
+  "raw_comment": "The first thing I notice about this graph is how much coal and gas contribute to the electricity generated between 2000 and 2022 overall. What I notice about China's graph in particular is that it's electricity production has been on the rise, along with its use of coal and gas. The United States' electricity production is the opposite; its electricity production slightly increased while its use of Coal has significantly decreased. India's electricity production, while on the rise, still relies overwhelmingly on coal, and produces less than a quarter of the electricity China produces, despite having similar populations. \nI wonder why China's use of hydroelectric makes up the majority of its clean energy, while nuclear makes up the majority of the United States' energy. I wonder if the difference is due to the country's philosophies regarding these two power sources, or if its due to the different geography of each country. \nThe increasing trend of emitting less carbon emissions relates to our community since a decrease in carbon emissions could slow down the effects of climate change. Although the world produces more electricity, the United States has seen a reduction in the use of coal, while China has seen an increase in clean energy production.\nTwo titles I suggest would be \"Electricity Production Stabilizes in the U.S.\", or \"Electricity Production on the Rise Around the Globe.\"",
+  "ace_sentences": [
+    "I notice this graph.",
+    "Coal contributes to the electricity generated between 2000 and 2022 overall.",
+    "Gas contributes to the electricity generated between 2000 and 2022 overall.",
+    "I notice China's graph in particular.",
+    "China's electricity production has been on the rise.",
+    "China's use of coal has been on the rise.",
+    "China's use of gas has been on the rise.",
+    "The United States' electricity production is the opposite.",
+    "The United States' electricity production slightly increased.",
+    "The United States' use of Coal has significantly decreased.",
+    "India's electricity production is on the rise.",
+    "India relies overwhelmingly on coal.",
+    "India produces less than a quarter of the electricity China produces.",
+    "India has similar populations to China.",
+    "I wonder why China's use of hydroelectric makes up the majority of its clean energy.",
+    "I wonder why nuclear makes up the majority of the United States' energy.",
+    "I wonder if the difference is due to the country's philosophies regarding these two power sources.",
+    "I wonder if the difference is due to the different geography of each country.",
+    "The increasing trend of emitting less carbon emissions relates to our community.",
+    "A decrease in carbon emissions could slow down the effects of climate change.",
+    "The world produces more electricity.",
+    "The United States has seen a reduction in the use of coal.",
+    "China has seen an increase in clean energy production.",
+    "I suggest two titles.",
+    "Electricity Production Stabilizes in the U.S. is a title.",
+    "Electricity Production on the Rise Around the Globe. is a title."
+  ],
+  "source_mappings": {
+    "I notice this graph.": [
+      "The first thing I notice about this graph"
+    ],
+    "Coal contributes to the electricity generated between 2000 and 2022 overall.": [
+      "how much coal",
+      "contribute to the electricity generated between 2000 and 2022 overall"
+    ],
+    "Gas contributes to the electricity generated between 2000 and 2022 overall.": [
+      "and gas contribute to the electricity generated between 2000 and 2022 overall"
+    ],
+    "I notice China's graph in particular.": [
+      "What I notice about China's graph in particular"
+    ],
+    "China's electricity production has been on the rise.": [
+      "it's electricity production has been on the rise"
+    ],
+    "China's use of coal has been on the rise.": [
+      "along with its use of coal"
+    ],
+    "China's use of gas has been on the rise.": [
+      "and gas"
+    ],
+    "The United States' electricity production is the opposite.": [
+      "The United States' electricity production is the opposite"
+    ],
+    "The United States' electricity production slightly increased.": [
+      "its electricity production slightly increased"
+    ],
+    "The United States' use of Coal has significantly decreased.": [
+      "its use of Coal has significantly decreased"
+    ],
+    "India's electricity production is on the rise.": [
+      "India's electricity production, while on the rise"
+    ],
+    "India relies overwhelmingly on coal.": [
+      "still relies overwhelmingly on coal"
+    ],
+    "India produces less than a quarter of the electricity China produces.": [
+      "produces less than a quarter of the electricity China produces"
+    ],
+    "India has similar populations to China.": [
+      "despite having similar populations"
+    ],
+    "I wonder why China's use of hydroelectric makes up the majority of its clean energy.": [
+      "I wonder why China's use of hydroelectric makes up the majority of its clean energy"
+    ],
+    "I wonder why nuclear makes up the majority of the United States' energy.": [
+      "while nuclear makes up the majority of the United States' energy"
+    ],
+    "I wonder if the difference is due to the country's philosophies regarding these two power sources.": [
+      "I wonder if the difference is due to the country's philosophies regarding these two power sources"
+    ],
+    "I wonder if the difference is due to the different geography of each country.": [
+      "or if its due to the different geography of each country"
+    ],
+    "The increasing trend of emitting less carbon emissions relates to our community.": [
+      "The increasing trend of emitting less carbon emissions relates to our community"
+    ],
+    "A decrease in carbon emissions could slow down the effects of climate change.": [
+      "a decrease in carbon emissions could slow down the effects of climate change"
+    ],
+    "The world produces more electricity.": [
+      "the world produces more electricity"
+    ],
+    "The United States has seen a reduction in the use of coal.": [
+      "the United States has seen a reduction in the use of coal"
+    ],
+    "China has seen an increase in clean energy production.": [
+      "China has seen an increase in clean energy production"
+    ],
+    "I suggest two titles.": [
+      "Two titles I suggest"
+    ],
+    "Electricity Production Stabilizes in the U.S. is a title.": [
+      "\"Electricity Production Stabilizes in the U.S.\""
+    ],
+    "Electricity Production on the Rise Around the Globe. is a title.": [
+      "\"Electricity Production on the Rise Around the Globe.\""
+    ]
+  }
+}

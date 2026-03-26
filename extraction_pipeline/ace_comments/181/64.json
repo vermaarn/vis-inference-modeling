@@ -1,0 +1,37 @@
+{
+  "article_id": "181",
+  "comment_index": 64,
+  "raw_comment": "Just a reminder for headlines.  Feature the graph’s surprise to encourage viewers to read the article.  Include only what you see in the graph.  There’s already a lot in the graph to pique readers’ interests. Finally, short is good.",
+  "ace_sentences": [
+    "This is a reminder for headlines.",
+    "A headline should feature the graph’s surprise.",
+    "A headline should encourage viewers to read the article.",
+    "A headline should include only what a person sees in the graph.",
+    "There is already a lot in the graph.",
+    "The graph can pique readers’ interests.",
+    "A headline should be short."
+  ],
+  "source_mappings": {
+    "This is a reminder for headlines.": [
+      "Just a reminder for headlines."
+    ],
+    "A headline should feature the graph’s surprise.": [
+      "Feature the graph’s surprise"
+    ],
+    "A headline should encourage viewers to read the article.": [
+      "to encourage viewers to read the article."
+    ],
+    "A headline should include only what a person sees in the graph.": [
+      "Include only what you see in the graph."
+    ],
+    "There is already a lot in the graph.": [
+      "There’s already a lot in the graph"
+    ],
+    "The graph can pique readers’ interests.": [
+      "to pique readers’ interests."
+    ],
+    "A headline should be short.": [
+      "Finally, short is good."
+    ]
+  }
+}

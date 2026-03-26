@@ -1,0 +1,85 @@
+{
+  "article_id": "181",
+  "comment_index": 61,
+  "raw_comment": "1-I noticed the overall upward trend in the graph as well as the notable spike in energy usage that began in 2000. However, as coal, gas, and oil have essentially stagnated over the past 20 years, the majority of this energy growth is coming from renewable energy.\n2-It is surprising to me that China and the US produce more electricity than India considering that both countries have about the same population. How do they provide over a billion people in their population with electricity?\n3-This worries me and my neighborhood because it is anticipated that pollution from fossil fuels will decline as the globe switches to more renewable and clean energy sources, which is helpful for the environment and will help all living things. \n4-Energizing the Future: Re-purposing Our Energy",
+  "ace_sentences": [
+    "I noticed the overall upward trend in the graph.",
+    "I noticed the notable spike in energy usage.",
+    "The notable spike in energy usage began in 2000.",
+    "Coal has essentially stagnated over the past 20 years.",
+    "Gas has essentially stagnated over the past 20 years.",
+    "Oil has essentially stagnated over the past 20 years.",
+    "The majority of this energy growth is coming from renewable energy.",
+    "It is surprising to me that China produces more electricity than India.",
+    "It is surprising to me that the US produces more electricity than India.",
+    "Both countries have about the same population.",
+    "China provides over a billion people in their population with electricity.",
+    "The US provides over a billion people in their population with electricity.",
+    "This worries me and my neighborhood.",
+    "It is anticipated that pollution from fossil fuels will decline.",
+    "The globe switches to more renewable and clean energy sources.",
+    "Pollution from fossil fuels will decline as the globe switches to more renewable and clean energy sources.",
+    "This is helpful for the environment.",
+    "This will help all living things.",
+    "The headline is Energizing the Future: Re-purposing Our Energy."
+  ],
+  "source_mappings": {
+    "I noticed the overall upward trend in the graph.": [
+      "I noticed the overall upward trend in the graph"
+    ],
+    "I noticed the notable spike in energy usage.": [
+      "the notable spike in energy usage"
+    ],
+    "The notable spike in energy usage began in 2000.": [
+      "the notable spike in energy usage that began in 2000"
+    ],
+    "Coal has essentially stagnated over the past 20 years.": [
+      "coal, gas, and oil have essentially stagnated over the past 20 years"
+    ],
+    "Gas has essentially stagnated over the past 20 years.": [
+      "coal, gas, and oil have essentially stagnated over the past 20 years"
+    ],
+    "Oil has essentially stagnated over the past 20 years.": [
+      "coal, gas, and oil have essentially stagnated over the past 20 years"
+    ],
+    "The majority of this energy growth is coming from renewable energy.": [
+      "the majority of this energy growth is coming from renewable energy"
+    ],
+    "It is surprising to me that China produces more electricity than India.": [
+      "It is surprising to me that China and the US produce more electricity than India"
+    ],
+    "It is surprising to me that the US produces more electricity than India.": [
+      "It is surprising to me that China and the US produce more electricity than India"
+    ],
+    "Both countries have about the same population.": [
+      "both countries have about the same population"
+    ],
+    "China provides over a billion people in their population with electricity.": [
+      "How do they provide over a billion people in their population with electricity?"
+    ],
+    "The US provides over a billion people in their population with electricity.": [
+      "How do they provide over a billion people in their population with electricity?"
+    ],
+    "This worries me and my neighborhood.": [
+      "This worries me and my neighborhood"
+    ],
+    "It is anticipated that pollution from fossil fuels will decline.": [
+      "it is anticipated that pollution from fossil fuels will decline"
+    ],
+    "The globe switches to more renewable and clean energy sources.": [
+      "as the globe switches to more renewable and clean energy sources"
+    ],
+    "Pollution from fossil fuels will decline as the globe switches to more renewable and clean energy sources.": [
+      "it is anticipated that pollution from fossil fuels will decline as the globe switches to more renewable and clean energy sources"
+    ],
+    "This is helpful for the environment.": [
+      "which is helpful for the environment"
+    ],
+    "This will help all living things.": [
+      "will help all living things"
+    ],
+    "The headline is Energizing the Future: Re-purposing Our Energy.": [
+      "Energizing the Future: Re-purposing Our Energy"
+    ]
+  }
+}

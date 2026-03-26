@@ -1,0 +1,111 @@
+{
+  "article_id": "181",
+  "comment_index": 35,
+  "raw_comment": "In the world graph I noticed that fossil fuels remain as the source that generates the most amount of electricity from 2000-2020. The electricity generation has increased slightly for gas and coal. However, the electricity generation remained generally the same for nuclear energy at about 2 million gigawatt hours and hydroelectric sources at producing about 5 million gigawatt hours. Oil and other sources have remained constant as well at around 1 million gigawatt hours. I also noticed that the generation of electricity for wind and solar has greatly increased. From 2000-2o10 wind and solar were barely used to produce electricity, but there has been a steady rise to about 4 million gigawatt hours in 2020. Furthermore, for the country totals graphs, I noticed that the use of coal has increased in China and India, but has decreased in the United States. I wonder how the data will change once countries start to come closer to their climate change goals (will there truly be an increase in generation of electricity from clean energy than with fossil fuels?) I wonder what the data would be prior to 2000? Why is the United States more steady in electricity generation from 2000-2020 in comparison to China and India? This relates to my community because whether the United States generates electricity with clean power or fossil fuels will impact the economy and economic development. \n\n“Shocking News: Coal Remains as the Top Producer of Energy in the World”",
+  "ace_sentences": [
+    "I noticed a world graph.",
+    "Fossil fuels remain as the source that generates the most amount of electricity from 2000-2020.",
+    "The electricity generation has increased slightly for gas.",
+    "The electricity generation has increased slightly for coal.",
+    "The electricity generation remained generally the same for nuclear energy.",
+    "Nuclear energy is at about 2 million gigawatt hours.",
+    "The electricity generation remained generally the same for hydroelectric sources.",
+    "Hydroelectric sources are at producing about 5 million gigawatt hours.",
+    "Oil and other sources have remained constant as well.",
+    "Oil and other sources are at around 1 million gigawatt hours.",
+    "I noticed that the generation of electricity for wind and solar has greatly increased.",
+    "From 2000-2o10 wind and solar were barely used to produce electricity.",
+    "There has been a steady rise to about 4 million gigawatt hours in 2020.",
+    "I noticed country totals graphs.",
+    "The use of coal has increased in China.",
+    "The use of coal has increased in India.",
+    "The use of coal has decreased in the United States.",
+    "I wonder how the data will change once countries start to come closer to their climate change goals.",
+    "I wonder if there will truly be an increase in generation of electricity from clean energy than with fossil fuels.",
+    "I wonder what the data would be prior to 2000.",
+    "I wonder why the United States is more steady in electricity generation from 2000-2020 in comparison to China and India.",
+    "This relates to my community.",
+    "The United States generates electricity with clean power or fossil fuels.",
+    "This will impact the economy and economic development.",
+    "The headline is \"Shocking News: Coal Remains as the Top Producer of Energy in the World\"."
+  ],
+  "source_mappings": {
+    "I noticed a world graph.": [
+      "In the world graph I noticed"
+    ],
+    "Fossil fuels remain as the source that generates the most amount of electricity from 2000-2020.": [
+      "fossil fuels remain as the source that generates the most amount of electricity from 2000-2020"
+    ],
+    "The electricity generation has increased slightly for gas.": [
+      "The electricity generation has increased slightly for gas"
+    ],
+    "The electricity generation has increased slightly for coal.": [
+      "The electricity generation has increased slightly for gas and coal",
+      "coal"
+    ],
+    "The electricity generation remained generally the same for nuclear energy.": [
+      "the electricity generation remained generally the same for nuclear energy"
+    ],
+    "Nuclear energy is at about 2 million gigawatt hours.": [
+      "nuclear energy at about 2 million gigawatt hours"
+    ],
+    "The electricity generation remained generally the same for hydroelectric sources.": [
+      "hydroelectric sources"
+    ],
+    "Hydroelectric sources are at producing about 5 million gigawatt hours.": [
+      "hydroelectric sources at producing about 5 million gigawatt hours"
+    ],
+    "Oil and other sources have remained constant as well.": [
+      "Oil and other sources have remained constant as well"
+    ],
+    "Oil and other sources are at around 1 million gigawatt hours.": [
+      "at around 1 million gigawatt hours"
+    ],
+    "I noticed that the generation of electricity for wind and solar has greatly increased.": [
+      "I also noticed that the generation of electricity for wind and solar has greatly increased"
+    ],
+    "From 2000-2o10 wind and solar were barely used to produce electricity.": [
+      "From 2000-2o10 wind and solar were barely used to produce electricity"
+    ],
+    "There has been a steady rise to about 4 million gigawatt hours in 2020.": [
+      "there has been a steady rise to about 4 million gigawatt hours in 2020"
+    ],
+    "I noticed country totals graphs.": [
+      "for the country totals graphs, I noticed"
+    ],
+    "The use of coal has increased in China.": [
+      "the use of coal has increased in China"
+    ],
+    "The use of coal has increased in India.": [
+      "the use of coal has increased in China and India",
+      "India"
+    ],
+    "The use of coal has decreased in the United States.": [
+      "has decreased in the United States"
+    ],
+    "I wonder how the data will change once countries start to come closer to their climate change goals.": [
+      "I wonder how the data will change once countries start to come closer to their climate change goals"
+    ],
+    "I wonder if there will truly be an increase in generation of electricity from clean energy than with fossil fuels.": [
+      "will there truly be an increase in generation of electricity from clean energy than with fossil fuels?"
+    ],
+    "I wonder what the data would be prior to 2000.": [
+      "I wonder what the data would be prior to 2000?"
+    ],
+    "I wonder why the United States is more steady in electricity generation from 2000-2020 in comparison to China and India.": [
+      "Why is the United States more steady in electricity generation from 2000-2020 in comparison to China and India?"
+    ],
+    "This relates to my community.": [
+      "This relates to my community"
+    ],
+    "The United States generates electricity with clean power or fossil fuels.": [
+      "the United States generates electricity with clean power or fossil fuels"
+    ],
+    "This will impact the economy and economic development.": [
+      "will impact the economy and economic development"
+    ],
+    "The headline is \"Shocking News: Coal Remains as the Top Producer of Energy in the World\".": [
+      "“Shocking News: Coal Remains as the Top Producer of Energy in the World”"
+    ]
+  }
+}
