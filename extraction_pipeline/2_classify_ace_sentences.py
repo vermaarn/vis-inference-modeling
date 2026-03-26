@@ -36,7 +36,7 @@ DEFAULT_ACE_CLASSIFICATIONS_DIR = SCRIPT_DIR / "ace_classifications"
 DEFAULT_IMAGES_DIR = PROJECT_ROOT / "data" / "images"
 
 # Max sentences per API call — kept small to preserve per-item attention
-BATCH_SIZE = 100
+BATCH_SIZE = 200
 
 # ---------------------------------------------------------------------------
 # Few-shot examples injected into the prompt at <CLASSIFICATION_EXAMPLES>
@@ -51,8 +51,8 @@ _CLASSIFICATION_EXAMPLES: List[Dict[str, Any]] = [
         ],
         "output": {
             "classifications": [
-                {"article_id": "183", "comment_id": 1, "original_comment": "The author asks about gender-neutrality.", "reasoning": "Step 5: Reports that the author poses a question, indicating an information need.", "comment_tag": "Information need / curiosity"},
-                {"article_id": "183", "comment_id": 1, "original_comment": "Young women reach out to the family.", "reasoning": "Step 2c: Synthesizes a pattern from the chart data about young women's behavior overall, without citing a specific number.", "comment_tag": "L3: Trend and pattern analysis"},
+                {"article_id": "183", "comment_id": 1, "original_comment": "The author asks about gender-neutrality.", "reasoning": "Step 5: Reports that the author poses a question, indicating curiosity about information not shown.", "comment_tag": "Curiosity"},
+                {"article_id": "183", "comment_id": 1, "original_comment": "Young women reach out to the family.", "reasoning": "Step 2c: Synthesizes a pattern from the chart data about young women's behavior overall, without citing a specific number.", "comment_tag": "Visual Observation: Cross-point Pattern Recognition"},
             ]
         },
     },
@@ -77,29 +77,30 @@ _CLASSIFICATION_EXAMPLES: List[Dict[str, Any]] = [
         ],
         "output": {
             "classifications": [
-                {"article_id": "183", "comment_id": 4, "original_comment": "Young women reach out to their parents more often than young men.", "reasoning": "Step 2c: Synthesizes a holistic pattern ('more often') across data points rather than citing a specific number.", "comment_tag": "L3: Trend and pattern analysis"},
-                {"article_id": "183", "comment_id": 4, "original_comment": "Less than 25 percent of young men visit their parents in person at least once a day or a few times a week.", "reasoning": "Step 2b: Cites a specific data value ('less than 25 percent') read from the chart.", "comment_tag": "L2: Statistical concepts and relations"},
-                {"article_id": "183", "comment_id": 4, "original_comment": "Less than 25 percent of young women visit their parents in person at least once a day or a few times a week.", "reasoning": "Step 2b: Cites a specific data value ('less than 25 percent') for a different group.", "comment_tag": "L2: Statistical concepts and relations"},
-                {"article_id": "183", "comment_id": 4, "original_comment": "Text messages and phone calls are more accessible ways of connection than in-person visits.", "reasoning": "Step 7: General world knowledge about communication accessibility, not derived from the chart.", "comment_tag": "Background knowledge"},
-                {"article_id": "183", "comment_id": 4, "original_comment": "Text messages and phone calls show a greater divide than in-person visits between young men and young women in interaction with their parents.", "reasoning": "Step 2c: Synthesizes a comparative pattern across categories without citing a specific number.", "comment_tag": "L3: Trend and pattern analysis"},
-                {"article_id": "183", "comment_id": 4, "original_comment": "Traditional gender stereotypes may affect how often a young person reaches out to the person's parents.", "reasoning": "Step 6: 'May affect' links a background cause (gender stereotypes) to the chart observation (contact frequency). This is causal reasoning.", "comment_tag": "Explanatory inference"},
-                {"article_id": "183", "comment_id": 4, "original_comment": "Society typically encourages young men to be independent.", "reasoning": "Step 7: General claim about societal norms, stated as standalone fact without linking to chart data.", "comment_tag": "Background knowledge"},
-                {"article_id": "183", "comment_id": 4, "original_comment": "Society expects women to lead family-centric lives.", "reasoning": "Step 7: Standalone societal claim not directly tied to any chart observation.", "comment_tag": "Background knowledge"},
-                {"article_id": "183", "comment_id": 4, "original_comment": "This phenomenon may have deeper roots.", "reasoning": "Step 6: 'May have deeper roots' proposes a causal explanation for the observed chart pattern.", "comment_tag": "Explanatory inference"},
-                {"article_id": "183", "comment_id": 4, "original_comment": "These deeper roots may include biological instincts.", "reasoning": "Step 6: Extends causal reasoning by proposing a specific mechanism ('biological instincts').", "comment_tag": "Explanatory inference"},
-                {"article_id": "183", "comment_id": 4, "original_comment": "Biological instincts may be unique to each gender.", "reasoning": "Step 7: States a general claim about biology without linking it causally to chart data.", "comment_tag": "Background knowledge"},
-                {"article_id": "183", "comment_id": 4, "original_comment": "I have a very close relationship with my parents.", "reasoning": "Step 3: Personal self-reference about the commenter's own life.", "comment_tag": "Personal/episodic retrieval"},
-                {"article_id": "183", "comment_id": 4, "original_comment": "I am an only daughter.", "reasoning": "Step 3: Personal self-reference.", "comment_tag": "Personal/episodic retrieval"},
-                {"article_id": "183", "comment_id": 4, "original_comment": "People frequently mention that I reach out to these adults more than other people do.", "reasoning": "Step 3: Recounts a personal experience ('People mention that I...').", "comment_tag": "Personal/episodic retrieval"},
-                {"article_id": "183", "comment_id": 4, "original_comment": "Some people think that daughters are favorites for a reason.", "reasoning": "Step 4: Expresses a normative/evaluative stance ('favorites for a reason').", "comment_tag": "Evaluative / affective judgment"},
+                {"article_id": "183", "comment_id": 4, "original_comment": "Young women reach out to their parents more often than young men.", "reasoning": "Step 2c: Compares two groups ('more often') across the chart without citing a specific number.", "comment_tag": "Visual Observation: Cross-point Pattern Recognition"},
+                {"article_id": "183", "comment_id": 4, "original_comment": "Less than 25 percent of young men visit their parents in person at least once a day or a few times a week.", "reasoning": "Step 2b: Extracts a specific data value ('less than 25 percent') for one group from the chart.", "comment_tag": "Visual Observation: Data Point Extraction"},
+                {"article_id": "183", "comment_id": 4, "original_comment": "Less than 25 percent of young women visit their parents in person at least once a day or a few times a week.", "reasoning": "Step 2b: Extracts a specific data value ('less than 25 percent') for a different group.", "comment_tag": "Visual Observation: Data Point Extraction"},
+                {"article_id": "183", "comment_id": 4, "original_comment": "Text messages and phone calls are more accessible ways of connection than in-person visits.", "reasoning": "Step 7: General world knowledge about communication accessibility, not derived from the chart.", "comment_tag": "Prior Knowledge: Background"},
+                {"article_id": "183", "comment_id": 4, "original_comment": "Text messages and phone calls show a greater divide than in-person visits between young men and young women in interaction with their parents.", "reasoning": "Step 2c: Compares multiple categories and groups without citing a specific number.", "comment_tag": "Visual Observation: Cross-point Pattern Recognition"},
+                {"article_id": "183", "comment_id": 4, "original_comment": "Traditional gender stereotypes may affect how often a young person reaches out to the person's parents.", "reasoning": "Step 6: 'May affect' links a background cause (gender stereotypes) to the chart observation (contact frequency). This is causal reasoning.", "comment_tag": "Inference: Explanatory"},
+                {"article_id": "183", "comment_id": 4, "original_comment": "Society typically encourages young men to be independent.", "reasoning": "Step 7: General claim about societal norms, stated as standalone fact without linking to chart data.", "comment_tag": "Prior Knowledge: Background"},
+                {"article_id": "183", "comment_id": 4, "original_comment": "Society expects women to lead family-centric lives.", "reasoning": "Step 7: Standalone societal claim not directly tied to any chart observation.", "comment_tag": "Prior Knowledge: Background"},
+                {"article_id": "183", "comment_id": 4, "original_comment": "This phenomenon may have deeper roots.", "reasoning": "Step 6: 'May have deeper roots' proposes a causal explanation for the observed chart pattern.", "comment_tag": "Inference: Explanatory"},
+                {"article_id": "183", "comment_id": 4, "original_comment": "These deeper roots may include biological instincts.", "reasoning": "Step 6: Extends causal reasoning by proposing a specific mechanism ('biological instincts').", "comment_tag": "Inference: Explanatory"},
+                {"article_id": "183", "comment_id": 4, "original_comment": "Biological instincts may be unique to each gender.", "reasoning": "Step 7: States a general claim about biology without linking it causally to chart data.", "comment_tag": "Prior Knowledge: Background"},
+                {"article_id": "183", "comment_id": 4, "original_comment": "I have a very close relationship with my parents.", "reasoning": "Step 3: Personal self-reference about the commenter's own life.", "comment_tag": "Prior Knowledge: Personal / Episodic"},
+                {"article_id": "183", "comment_id": 4, "original_comment": "I am an only daughter.", "reasoning": "Step 3: Personal self-reference.", "comment_tag": "Prior Knowledge: Personal / Episodic"},
+                {"article_id": "183", "comment_id": 4, "original_comment": "People frequently mention that I reach out to these adults more than other people do.", "reasoning": "Step 3: Recounts a personal experience ('People mention that I...').", "comment_tag": "Prior Knowledge: Personal / Episodic"},
+                {"article_id": "183", "comment_id": 4, "original_comment": "Some people think that daughters are favorites for a reason.", "reasoning": "Step 4b: Expresses a general evaluative stance ('favorites for a reason') without prescribing action.", "comment_tag": "Evaluative: Reactive"},
             ]
         },
     },
     # Example 3 — article 181 (electricity generation), contrastive pairs
-    # Demonstrates L1 vs L2 vs L3 vs Explanatory vs Predictive vs Evaluative
+    # Demonstrates Visual Observation subtypes vs Explanatory vs Predictive vs Evaluative
     {
         "input": [
             {"article_id": "181", "comment_id": 7, "original_comment": "The graph uses a stacked area chart."},
+            {"article_id": "181", "comment_id": 7, "original_comment": "The y-axis is counted in gigawatt hours."},
             {"article_id": "181", "comment_id": 7, "original_comment": "Coal generated over 5000 TWh in China by 2020."},
             {"article_id": "181", "comment_id": 7, "original_comment": "China's electricity generation increased sharply after 2000."},
             {"article_id": "181", "comment_id": 7, "original_comment": "China's electricity generation increased because of rapid industrialization."},
@@ -108,12 +109,13 @@ _CLASSIFICATION_EXAMPLES: List[Dict[str, Any]] = [
         ],
         "output": {
             "classifications": [
-                {"article_id": "181", "comment_id": 7, "original_comment": "The graph uses a stacked area chart.", "reasoning": "Step 2a: Names the chart type, a visual construction property.", "comment_tag": "L1: Elemental and encoded properties"},
-                {"article_id": "181", "comment_id": 7, "original_comment": "Coal generated over 5000 TWh in China by 2020.", "reasoning": "Step 2b: Cites a specific data value ('over 5000 TWh') for a particular variable and time point.", "comment_tag": "L2: Statistical concepts and relations"},
-                {"article_id": "181", "comment_id": 7, "original_comment": "China's electricity generation increased sharply after 2000.", "reasoning": "Step 2c: Describes an overall trend ('increased sharply') across multiple time points rather than a single value.", "comment_tag": "L3: Trend and pattern analysis"},
-                {"article_id": "181", "comment_id": 7, "original_comment": "China's electricity generation increased because of rapid industrialization.", "reasoning": "Step 6: 'Because of rapid industrialization' proposes a cause for the chart pattern. Although it mentions a trend, the primary function is causal explanation.", "comment_tag": "Explanatory inference"},
-                {"article_id": "181", "comment_id": 7, "original_comment": "If coal use continues at this rate, emissions will keep rising.", "reasoning": "Step 8: Future-oriented hypothetical reasoning ('if... will').", "comment_tag": "Predictive / counterfactual inference"},
-                {"article_id": "181", "comment_id": 7, "original_comment": "This trend is concerning.", "reasoning": "Step 4: Expresses an emotional/normative reaction ('concerning') to the data.", "comment_tag": "Evaluative / affective judgment"},
+                {"article_id": "181", "comment_id": 7, "original_comment": "The graph uses a stacked area chart.", "reasoning": "Step 2a: Names the chart type, a visual structural property.", "comment_tag": "Visual Observation: Chart Structure & Text"},
+                {"article_id": "181", "comment_id": 7, "original_comment": "The y-axis is counted in gigawatt hours.", "reasoning": "Step 2a: Reads the axis label/unit text on the chart without extracting a data value.", "comment_tag": "Visual Observation: Chart Structure & Text"},
+                {"article_id": "181", "comment_id": 7, "original_comment": "Coal generated over 5000 TWh in China by 2020.", "reasoning": "Step 2b: Extracts a specific data value ('over 5000 TWh') for one variable at one time point.", "comment_tag": "Visual Observation: Data Point Extraction"},
+                {"article_id": "181", "comment_id": 7, "original_comment": "China's electricity generation increased sharply after 2000.", "reasoning": "Step 2c: Traces a trend ('increased sharply') across multiple time points rather than reporting a single value.", "comment_tag": "Visual Observation: Cross-point Pattern Recognition"},
+                {"article_id": "181", "comment_id": 7, "original_comment": "China's electricity generation increased because of rapid industrialization.", "reasoning": "Step 6: 'Because of rapid industrialization' proposes a cause for the chart pattern. Although it mentions a trend, the primary function is causal explanation.", "comment_tag": "Inference: Explanatory"},
+                {"article_id": "181", "comment_id": 7, "original_comment": "If coal use continues at this rate, emissions will keep rising.", "reasoning": "Step 8: Future-oriented hypothetical reasoning ('if... will').", "comment_tag": "Inference: Predictive / Hypothetical"},
+                {"article_id": "181", "comment_id": 7, "original_comment": "This trend is concerning.", "reasoning": "Step 4b: Expresses an emotional reaction ('concerning') to the data without prescribing action.", "comment_tag": "Evaluative: Reactive"},
             ]
         },
     },
@@ -126,9 +128,94 @@ _CLASSIFICATION_EXAMPLES: List[Dict[str, Any]] = [
         ],
         "output": {
             "classifications": [
-                {"article_id": "173", "comment_id": 3, "original_comment": "Legacy admissions have been controversial in higher education.", "reasoning": "Step 7: Standalone fact about the world not directly shown in the chart, with no causal link to chart data.", "comment_tag": "Background knowledge"},
-                {"article_id": "173", "comment_id": 3, "original_comment": "The skew toward high-income applicants may be driven by legacy admission policies.", "reasoning": "Step 6: Links a chart observation ('skew toward high-income') to a proposed cause ('legacy admission policies'). 'May be driven by' signals causal reasoning.", "comment_tag": "Explanatory inference"},
-                {"article_id": "173", "comment_id": 3, "original_comment": "I wonder whether this data accounts for financial aid recipients.", "reasoning": "Step 5: 'I wonder whether' is an explicit expression of uncertainty and desire for information.", "comment_tag": "Information need / curiosity"},
+                {"article_id": "173", "comment_id": 3, "original_comment": "Legacy admissions have been controversial in higher education.", "reasoning": "Step 7: Standalone fact about the world not directly shown in the chart, with no causal link to chart data.", "comment_tag": "Prior Knowledge: Background"},
+                {"article_id": "173", "comment_id": 3, "original_comment": "The skew toward high-income applicants may be driven by legacy admission policies.", "reasoning": "Step 6: Links a chart observation ('skew toward high-income') to a proposed cause ('legacy admission policies'). 'May be driven by' signals causal reasoning.", "comment_tag": "Inference: Explanatory"},
+                {"article_id": "173", "comment_id": 3, "original_comment": "I wonder whether this data accounts for financial aid recipients.", "reasoning": "Step 5: 'I wonder whether' is an explicit expression of uncertainty and desire for information.", "comment_tag": "Curiosity"},
+            ]
+        },
+    },
+    # Example 5 — article 92 (air pollution), demonstrating Background vs Explanatory vs Curiosity vs Prescriptive
+    {
+        "input": [
+            {"article_id": "92", "comment_id": 141, "original_comment": "Carbon dioxide damages the atmosphere."},
+            {"article_id": "92", "comment_id": 141, "original_comment": "This could be because there is a high use in vehicles and motors."},
+            {"article_id": "92", "comment_id": 141, "original_comment": "I wonder what are other ways that air pollution has caused death for many Americans."},
+            {"article_id": "92", "comment_id": 141, "original_comment": "People should start using more recyclable materials and resources."},
+        ],
+        "output": {
+            "classifications": [
+                {"article_id": "92", "comment_id": 141, "original_comment": "Carbon dioxide damages the atmosphere.", "reasoning": "Step 7: Standalone factual claim about environmental science, not derived from or linked to the chart data.", "comment_tag": "Prior Knowledge: Background"},
+                {"article_id": "92", "comment_id": 141, "original_comment": "This could be because there is a high use in vehicles and motors.", "reasoning": "Step 6: 'Could be because' proposes a causal explanation for a chart observation, linking it to vehicle/motor use.", "comment_tag": "Inference: Explanatory"},
+                {"article_id": "92", "comment_id": 141, "original_comment": "I wonder what are other ways that air pollution has caused death for many Americans.", "reasoning": "Step 5: 'I wonder what' signals an explicit information need and desire for additional explanation.", "comment_tag": "Curiosity"},
+                {"article_id": "92", "comment_id": 141, "original_comment": "People should start using more recyclable materials and resources.", "reasoning": "Step 4a: 'Should start using' contains a deontic operator prescribing action.", "comment_tag": "Evaluative: Prescriptive"},
+            ]
+        },
+    },
+    # Example 6 — article 95 (COVID vaccines), demonstrating Predictive vs Prescriptive vs Personal vs Background
+    {
+        "input": [
+            {"article_id": "95", "comment_id": 154, "original_comment": "If restrictions are lifted in Texas, then results similar to graph C may occur in Texas."},
+            {"article_id": "95", "comment_id": 154, "original_comment": "We should do our best to stay on a model that is reflected by graph A and graph B."},
+            {"article_id": "95", "comment_id": 154, "original_comment": "I am a student."},
+            {"article_id": "95", "comment_id": 154, "original_comment": "More than half a million Americans died from the pandemic."},
+        ],
+        "output": {
+            "classifications": [
+                {"article_id": "95", "comment_id": 154, "original_comment": "If restrictions are lifted in Texas, then results similar to graph C may occur in Texas.", "reasoning": "Step 8: Hypothetical conditional ('if… then… may occur') projects a future outcome beyond the chart data.", "comment_tag": "Inference: Predictive / Hypothetical"},
+                {"article_id": "95", "comment_id": 154, "original_comment": "We should do our best to stay on a model that is reflected by graph A and graph B.", "reasoning": "Step 4a: 'We should' prescribes a course of action.", "comment_tag": "Evaluative: Prescriptive"},
+                {"article_id": "95", "comment_id": 154, "original_comment": "I am a student.", "reasoning": "Step 3: Personal self-reference about the commenter's own identity.", "comment_tag": "Prior Knowledge: Personal / Episodic"},
+                {"article_id": "95", "comment_id": 154, "original_comment": "More than half a million Americans died from the pandemic.", "reasoning": "Step 7: Standalone factual claim about pandemic deaths, not directly visible in the chart data.", "comment_tag": "Prior Knowledge: Background"},
+            ]
+        },
+    },
+    # Example 7 — article 116 (CO2 emissions), demonstrating Meta vs Curiosity vs Background vs Predictive
+    {
+        "input": [
+            {"article_id": "116", "comment_id": 167, "original_comment": "A catchy headline for the graph would be 'Developing Countries Lead the Charge for Carbon Emissions!'."},
+            {"article_id": "116", "comment_id": 167, "original_comment": "I wonder what causes this big difference between the small ratio and the big ratio of countries."},
+            {"article_id": "116", "comment_id": 167, "original_comment": "The rich countries make up much less of the world's population than the less rich countries."},
+            {"article_id": "116", "comment_id": 167, "original_comment": "If we do not see a drastic change in greenhouse gas emissions then humanity will face these dangers in around 20 years."},
+        ],
+        "output": {
+            "classifications": [
+                {"article_id": "116", "comment_id": 167, "original_comment": "A catchy headline for the graph would be 'Developing Countries Lead the Charge for Carbon Emissions!'.", "reasoning": "Step 1: A user-generated headline about the graph artifact, not text read from the chart itself.", "comment_tag": "Meta / Paratext"},
+                {"article_id": "116", "comment_id": 167, "original_comment": "I wonder what causes this big difference between the small ratio and the big ratio of countries.", "reasoning": "Step 5: 'I wonder what causes' expresses curiosity and desire for explanation.", "comment_tag": "Curiosity"},
+                {"article_id": "116", "comment_id": 167, "original_comment": "The rich countries make up much less of the world's population than the less rich countries.", "reasoning": "Step 7: Standalone factual claim about global demographics, not derived from the chart.", "comment_tag": "Prior Knowledge: Background"},
+                {"article_id": "116", "comment_id": 167, "original_comment": "If we do not see a drastic change in greenhouse gas emissions then humanity will face these dangers in around 20 years.", "reasoning": "Step 8: Future-oriented hypothetical reasoning ('if… then… will face') projecting beyond the chart data.", "comment_tag": "Inference: Predictive / Hypothetical"},
+            ]
+        },
+    },
+    # Example 8 — diverse Personal/episodic subtypes and Reactive evaluation
+    {
+        "input": [
+            {"article_id": "128", "comment_id": 202, "original_comment": "I am an immigrant from Venezuela."},
+            {"article_id": "128", "comment_id": 202, "original_comment": "It is sad to see the refugees leave."},
+            {"article_id": "128", "comment_id": 202, "original_comment": "I wonder where all the refugees end up going to."},
+            {"article_id": "128", "comment_id": 202, "original_comment": "The refugees are going to need food."},
+        ],
+        "output": {
+            "classifications": [
+                {"article_id": "128", "comment_id": 202, "original_comment": "I am an immigrant from Venezuela.", "reasoning": "Step 3: Personal self-reference about the commenter's own identity and immigration background.", "comment_tag": "Prior Knowledge: Personal / Episodic"},
+                {"article_id": "128", "comment_id": 202, "original_comment": "It is sad to see the refugees leave.", "reasoning": "Step 4b: 'It is sad' expresses an emotional reaction without prescribing action.", "comment_tag": "Evaluative: Reactive"},
+                {"article_id": "128", "comment_id": 202, "original_comment": "I wonder where all the refugees end up going to.", "reasoning": "Step 5: 'I wonder where' expresses explicit curiosity about information not shown.", "comment_tag": "Curiosity"},
+                {"article_id": "128", "comment_id": 202, "original_comment": "The refugees are going to need food.", "reasoning": "Step 8: 'Are going to need' is a future-oriented prediction about consequences not shown in the chart.", "comment_tag": "Inference: Predictive / Hypothetical"},
+            ]
+        },
+    },
+    # Example 9 — Evaluative: Prescriptive vs Reactive contrastive pairs
+    {
+        "input": [
+            {"article_id": "173", "comment_id": 12, "original_comment": "It is shocking to see how much quarantine affected people's everyday life."},
+            {"article_id": "173", "comment_id": 12, "original_comment": "The government needs to do more to address income inequality."},
+            {"article_id": "173", "comment_id": 12, "original_comment": "I am worried for those who do not make a large salary."},
+            {"article_id": "173", "comment_id": 12, "original_comment": "It seems unfair to accept higher income applicants more than lower income applicants."},
+        ],
+        "output": {
+            "classifications": [
+                {"article_id": "173", "comment_id": 12, "original_comment": "It is shocking to see how much quarantine affected people's everyday life.", "reasoning": "Step 4b: 'It is shocking' expresses an emotional reaction to the data without prescribing what should change.", "comment_tag": "Evaluative: Reactive"},
+                {"article_id": "173", "comment_id": 12, "original_comment": "The government needs to do more to address income inequality.", "reasoning": "Step 4a: 'Needs to do more' is a deontic operator prescribing governmental action.", "comment_tag": "Evaluative: Prescriptive"},
+                {"article_id": "173", "comment_id": 12, "original_comment": "I am worried for those who do not make a large salary.", "reasoning": "Step 4b: 'I am worried' reports the reader's emotional state in response to the data without recommending a course of action.", "comment_tag": "Evaluative: Reactive"},
+                {"article_id": "173", "comment_id": 12, "original_comment": "It seems unfair to accept higher income applicants more than lower income applicants.", "reasoning": "Step 4a: 'Unfair' is a moral judgment that implicitly prescribes that the practice should change.", "comment_tag": "Evaluative: Prescriptive"},
             ]
         },
     },
@@ -182,7 +269,7 @@ def describe_visualization(
     client: OpenAI,
     article_id: str,
     images_dir: Path = DEFAULT_IMAGES_DIR,
-    model: str = "gpt-5.2",
+    model: str = "gpt-5.4",
 ) -> str:
     """
     Send the visualization image for *article_id* to the vision model and
@@ -404,7 +491,7 @@ def run_classification(
     prompt_path: Path,
     output_path: Path,
     api_key: str | None = None,
-    model: str = "gpt-5.2",
+    model: str = "gpt-5.4-mini",
     batch_size: int = BATCH_SIZE,
     intermediate_dir: Path | None = DEFAULT_INTERMEDIATE_DIR,
     article_id: str | None = None,
@@ -448,7 +535,7 @@ def run_classification(
     unique_article_ids = {item["article_id"] for item in items}
     image_descriptions: Dict[str, str] = {}
     for aid in sorted(unique_article_ids):
-        desc = describe_visualization(client, aid, images_dir=images_dir, model=model)
+        desc = describe_visualization(client, aid, images_dir=images_dir)
         image_descriptions[aid] = desc
 
     all_classifications: List[Dict[str, Any]] = []
@@ -560,8 +647,8 @@ def main() -> None:
     parser.add_argument(
         "--model",
         type=str,
-        default="gpt-5.2",
-        help="OpenAI model for classification (default: gpt-5.2)",
+        default="gpt-5.4-mini",
+        help="OpenAI model for classification (default: gpt-5.4-mini)",
     )
     parser.add_argument(
         "--batch-size",

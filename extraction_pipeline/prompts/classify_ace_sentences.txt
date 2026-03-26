@@ -6,105 +6,183 @@ Input sentences are in Attempto Controlled English (ACE) and may sound formal or
 Your task: assign exactly one category to each ACE sentence using the decision procedure below.
 
 VISUALIZATION CONTEXT:
-The following describes the actual data visualization(s) that the comments refer to. Use this information to ground your classification — especially for categories L1, L2, and L3.
+The following describes the actual data visualization(s) that the comments refer to. Use this information to ground your classification — especially for Visual Observation categories.
 
 <IMAGE_INFORMATION>
 
 CATEGORIES (use the exact label as the comment_tag):
 
-1. L1: Elemental and encoded properties
-   Enumerating visualization construction properties: chart type, marks, encoding channels, titles, axis labels, axis ranges, legends, colors, gridlines.
-   The sentence must reference a visual element (axis, color, shape, grid, legend, label, etc.) OR describe the mapping between a visual encoding and the data variable it represents.
-   **Grounding requirement:** The visual element or encoding must be consistent with the VISUALIZATION CONTEXT above. If it doesn't match the actual chart, reclassify based on what the sentence is actually doing.
-   Examples: "The graph has a y-axis." "The x-axis is labeled in years." "There are tiered color blocks on the graph." "Each tiered color block symbolizes a different fuel for electricity."
+Categories are organized into 7 top-level groups with 12 subcategories total.
 
-2. L2: Statistical concepts and relations
-   Reporting specific data values, descriptive statistics, extrema, outliers, correlations, or point-wise comparisons read from the chart.
-   The sentence must cite a specific number, percentage, magnitude, or make a comparison between exactly two data points.
-   **Grounding requirement:** The data value or comparison must be consistent with the variables and encodings in the VISUALIZATION CONTEXT above. If it doesn't match, reclassify.
-   Examples: "Less than or about 25% of men visit their parents in person at least once a day." "The top 0.1% have a benefit that is up to 7 times the average." "Women are 20% more likely to use text or video-chat compared to men."
+═══ GROUP 1: VISUAL OBSERVATION ═══
+Sentences that describe what the chart shows, grounded in visible elements.
 
-3. L3: Trend and pattern analysis
-   Identifying complex trends, synthesizing patterns across multiple data points, noting exceptions, or conveying the overall gist of the visualization.
-   The sentence describes a direction, shape, or overall pattern (e.g., "increasing", "skewed", "dominated by") — it captures what the visualization "shows" at a holistic level rather than reporting individual data points.
-   **Grounding requirement:** The trend or pattern must be consistent with the VISUALIZATION CONTEXT above. If it doesn't match, reclassify.
-   Examples: "Over time, there has been an overall steady increase in clean gigawatt hours." "China's graph shows a very steep increase in electricity generation." "Admissions are heavily skewed in favor of high-income legacy applicants."
+1. Visual Observation: Chart Structure & Text
+   A visual observation about the form, organization, or textual scaffolding of the visualization. The observer identifies the chart type, counts panels, describes how visual elements are arranged, notes how categories are grouped, reads literal text printed on the chart (axis labels, units, legend entries, category names, annotations, captions), or decodes what a visual symbol/color/mark represents. Also covers noting that such elements are missing or truncated.
+   The sentence describes what the chart IS, what it SAYS, and what its symbols MEAN — without extracting specific numerical data values or making comparisons.
+   **Grounding requirement:** The visual element, encoding, text, or symbol must be consistent with the VISUALIZATION CONTEXT above. If it doesn't match the actual chart, reclassify based on what the sentence is actually doing.
+   Note: User-generated headlines/titles written in response to a task prompt (not text on the chart itself) belong in Meta / Paratext, not here.
+   Examples (chart type & structure): "This is a line graph." "There are four graphs." "The graph is organized like a map." "There are two color choices." "I notice that the graph is color coordinated."
+   Examples (axis labels & units): "The x-axis is labeled in years." "The y-axis is counted in gigawatt hours." "The Y axis shows what nutritionists think about each food." "We notice that the units are in time." "The scale is measured in fractions."
+   Examples (legend / key / symbol meaning): "I looked at the key at the top of the graph." "The key on the type is labeled with months." "I notice that it's color-coded by age." "The darker pink bars represent the players of color." "Grey cars represent gasoline cars."
+   Examples (category names & labels): "The dots are labeled with different countries." "The 3 labeled maps read 1990, 2023, and 2050." "The zones are labeled by time." "The ever smaller section is labeled 'affordable housing'."
+   Examples (titles, captions & annotations on the chart): "The title of the graph is 'Cargo Transit Times From Indonesia to Orlando, Fla.'." "In the caption, it says hurricane Harvey." "At the top it says '10 most vaccinated states'."
+   Examples (noting absence / presence): "I notice that there are two non-labeled y-axes." "Not all circles are labeled."
 
-4. Background knowledge
+2. Visual Observation: Data Point Extraction
+   A visual observation that extracts a specific numerical value, quantity, date, or magnitude from the chart, or locates a particular data element by name with its associated value. The observer is pointing at one item in the chart and reporting what it shows — a bar height, a percentage, a count, a dollar amount, a time point, or the position of a named entity on a scale.
+   The sentence is about ONE data point or entity at a time.
+   **Grounding requirement:** The data value must be consistent with the variables and encodings in the VISUALIZATION CONTEXT above. If it doesn't match, reclassify.
+   Examples (exact / approximate value retrieval): "The top 0.1% has 7 times the chance of getting admitted." "Nuclear energy is at about 2 million gigawatt hours." "It is around 70% for females." "India accounts for about 1 million GWh." "Natural gas has risen from 17% to 42%." "Pasta costs $16." "There is $174 billion reserved for electric vehicle incentives." "One cargo time took 59 days to get to Florida."
+   Examples (count / presence of specific items): "There are 21 states." "Michigan lost a seat in congress." "The notable spike in energy usage began in 2000."
+   Examples (reading a named entity's position or value): "The National Basketball Association has 83% of players of color." "The U.S. is at around 140 doses per capita." "MLB is 40% players of color." "In Lawrence, Massachusetts, Hilary is favored to 86% over Trump's 10%." "In December, immunity rates were below 20%." "The 23 richest countries contribute to half of all historical CO2 emissions."
+   Examples (date-specific readings): "The average game duration was relatively low around the year 2005." "The time went from 3 hours and 8 minutes to 2 hours and 39 minutes." "Then the wedding numbers drop to almost one million weddings."
+
+3. Visual Observation: Cross-point Pattern Recognition
+   A visual observation that operates across multiple data points visible in the chart. The observer compares values between groups, traces a trend over time, describes geographic or spatial distributions, characterizes the overall shape or spread of the data, or identifies correlations and relationships between variables.
+   The sentence must be grounded in what the chart visually depicts — not hypothetical scenarios, forecasts, projections, or inferences about data not shown in the chart.
+   **Grounding requirement:** The comparison, trend, or pattern must be consistent with the VISUALIZATION CONTEXT above. If it doesn't match, reclassify.
+   Examples (comparisons): "The black line is significantly higher than the gray line." "The least popular method of reaching out to parents was visiting in person." "Women communicate with their parents more than men do in all forms."
+   Examples (trends over time): "Solar electricity faced a significant increase since 2000." "The United States has started to have a decline in coal production." "I noticed the overall upward trend in the graph."
+   Examples (geographic / spatial distribution): "I noticed that most states with bans and restrictions were in the south." "The areas in the Midwest saw their first leaf a month or two later than many states."
+   Examples (distributional / variability): "Almost all of the orange states stress abstinence." "The majority of the states have heavily restricted abortion."
+   Examples (correlations / holistic patterns): "I notice an obvious correlation between parents' income and the likelihood of getting into an Ivy League." "The more upper class an applicant is, the higher the chance of admission." "Males are less likely to reach out to their parents in every category." "In every poll, the percentage of head coaches of color is significantly lower than the percentage of players of color." "I noticed that in all states where abortion is heavily restricted or banned, abstinence is required to be stressed." "Admissions are heavily skewed in favor of high-income legacy applicants."
+
+═══ GROUP 2: PRIOR KNOWLEDGE ═══
+Information the reader brings to the chart from memory or experience, not derived from the chart itself.
+
+4. Prior Knowledge: Background
    A standalone factual claim about the world not directly shown in the chart, stated without connecting it causally to chart observations.
-   Examples: "The Lehman Shock happened in 2008." "Fossil fuels contribute to climate change." "Society typically encourages young men to be independent."
+   Examples (geopolitics / history): "Pakistan and India are mortal enemies." "The Lehman Shock happened in 2008." "The dustbowl was a major factor in the great depression."
+   Examples (environment / science): "Carbon dioxide damages the atmosphere." "Fossil fuels contribute to climate change." "Hurricanes can be devastating." "Butterflies are prey for many other animals."
+   Examples (society / culture): "Non-Western cultures tend to be more family-oriented than the more individualistic Western cultures." "Hunting culture is so predominant in the Midwest." "Society typically encourages young men to be independent." "In the United States, hard work is considered an important factor in determining success."
+   Examples (health / economics): "Many people cannot afford health care." "Covid affects adults who are not vaccinated more than kids who are not vaccinated." "In these other countries, colleges are more affordable." "The overall fertility rate has been rapidly decreasing for many decades."
+   Examples (geography / demographics): "The east coast has more people living closer together." "The United States is one of the larger populated countries." "The rich countries make up much less of the world's population than the less rich countries."
+   Examples (technology / other): "Electric cars are becoming a trend." "School time is typically constant." "India was named the worst country in the world for pollution." "Farmers in India have been forced to move from their hometowns because of climate change." "Foods that are portrayed by the media and seen as fast foods tend to be known for being bad for one's health."
 
-5. Personal/episodic retrieval
+5. Prior Knowledge: Personal / Episodic
    Self-reference, community reference, personal memory, or lived association.
-   Examples: "I live in Akita." "My town has many factories." "When I was in junior high..." "I have a very close relationship with my parents."
+   Examples (location / residence): "I live in Akita." "I reside in Virginia." "I am from Philadelphia." "I live in Ohio." "I am from the Dominican Republic."
+   Examples (identity): "I am a student." "I am a woman resident of New Jersey." "I am an immigrant from Venezuela." "I am not interested in sports." "This involves me because I am hispanic."
+   Examples (family / community): "My brothers do not get vaccinated." "My family spends more than $193 when my family goes to the grocery store." "My mom is a doctor." "My family often orders stuff online from Amazon." "My family in Argentina did not get vaccinated until much later than my family in the United States."
+   Examples (memory / experience): "When I was a child, I would see butterflies flying around in my backyard." "I remember learning about the ruling before it was overturned." "I grew up playing other sports." "When I was in junior high..."
+   Examples (personal habits / work): "I eat uncrustables often as snacks." "I work in the restaurant business."
 
-6. Explanatory inference
+═══ GROUP 3: EVALUATIVE RESPONSE ═══
+Normative stances, emotional reactions, and value judgments about what the data shows.
+
+6. Evaluative: Prescriptive
+   A sentence that asserts what *should* happen, what is *right/wrong/fair/unfair*, or makes a recommendation, moral assessment, or call to action. The sentence's primary communicative function is to advocate for change or make a normative claim about how things ought to be.
+   **Key signals:** should, must, need to, ought to, unfair, wrong, "a problem," recommendations for action.
+   Examples (should / ought): "The diversity of the athletes in the sports should be close to the same amount as the diversity of those leading the athletes." "People should start using more recyclable materials and resources." "We should do our best to stay on a model that is reflected by graph A and graph B."
+   Examples (need to / must): "I feel like they need to check their priorities." "The government needs to do more to address income inequality."
+   Examples (moral judgment): "It seems unfair to accept higher income applicants more than lower income applicants." "This is a problem in society."
+
+7. Evaluative: Reactive
+   A sentence that expresses an emotional or evaluative *reaction* to the data without prescribing what should change. The sentence reports a feeling (shock, worry, sadness, hope, frustration, approval) or makes a general evaluative remark without a deontic or moral operator that implies action.
+   **Key signals:** shocking, sad, concerning, worrying, heartbreaking, disappointing, hopeful, unfortunately, "it was cool to see."
+   Examples (alarm / shock): "My daily habits contribute to the alarmingly high amount of carbon emissions." "It is shocking to see how much quarantine affected people's everyday life."
+   Examples (sadness / heartbreak): "It is saddening that a few months can make a big difference in the number of deaths." "It is sad that many cases are unsolved." "This is heartbreaking to me."
+   Examples (concern / worry / fear): "The west side is quite scary when it comes to biodiversity." "I am worried for those who do not make a large salary." "Looking at the concentration and air quality of the country is very concerning." "This trend is concerning."
+   Examples (hope): "I hope that along with that diversity, this reflects tolerance throughout all states."
+   Examples (disappointment / frustration): "Unfortunately, the government does not care a whole lot about immigrants." "I am utterly disappointed at our country from this graph." "Knowing this data is frustrating." "Unfortunately no one in government is stepping up."
+   Examples (general approval / disapproval): "Biden is a great choice." "I fairly agree that sometimes adults may not be doing a great job in running this world." "It was cool to see this. I never knew that this was possible."
+
+═══ GROUP 4: INFERENCE ═══
+Reasoning that goes beyond what the chart directly shows.
+
+8. Inference: Explanatory
    Causal or abductive reasoning that links a chart observation to a cause or mechanism. The sentence proposes WHY something in the data happened, using language like "because", "may explain", "relates to", "driven by", "due to".
-   Examples: "The 2008 dip relates to the financial crisis." "Population may explain the increase." "Traditional gender stereotypes may affect how often a young person reaches out."
+   Examples (because): "This is because of the isolation we all had to do from quarantining." "This is because it is apart of our constitution." "This might be because students are stuck on screens." "This is because R&B/Hip-Hop is mainly catered to the younger generation."
+   Examples (due to / as a result of): "I expect that the large percent growth of jobs for E-commerce is due to going from a relatively small number to a large one." "This is due to the fact that schools combine." "This disparity may be a gender difference as a result of socialization."
+   Examples (may explain): "This may explain why there is the least endangered biodiversity." "This might explain why the number of teenagers is down by such a large percentage in this time period." "The different incentives that some countries offer to owners of electric cars may explain this difference."
+   Examples (reason / cause / driven by): "The reason for the low percentage may be the areas where they live." "The sudden increase may be caused by the delta variant." "This situation could be driven by the high level of independently wealthy men in the US." "This shift is possibly driven by advancements in technology." "This might be the reason for Japan to have a higher Labor force participation rate."
+   Examples (attributed / contributed / led to): "This transformation might be attributed to the ongoing development and modernization of these countries." "I think that this can be attributed to the colder climate in the north." "This can probably be contributed to the middle part of the United States being less densely populated." "This increase has led to an overall increase in tobacco use." "Pollution may have contributed to the decrease in butterfly species."
+   Examples (relates to / affect): "The 2008 dip relates to the financial crisis." "Traditional gender stereotypes may affect how often a young person reaches out."
 
-7. Predictive / counterfactual inference
+9. Inference: Predictive / Hypothetical
    Future-oriented or hypothetical reasoning — what WILL or WOULD happen.
-   Examples: "If fossil fuels remain steady, warming will worsen." "Clean energy may dominate later."
+   Examples (if-then): "If restrictions are lifted in Texas, then results similar to graph C may occur in Texas." "If we keep on buying electric cars, gas stations will disappear." "If we do not see a drastic change in greenhouse gas emissions then humanity will face these dangers in around 20 years." "If most adults or teens know the importance of safe sex, then that would decrease the number of abortions performed every year." "If the U.S. increases the supply of vaccinations, then the U.S. may reach herd immunity by May." "If we had a different perspective about wealth and education and hard work like most of the world, then many views would change drastically." "If the rate of fossil fuels remains steady, the global warming will worsen." "If the more recent, precise terminology is used frequently enough, it will eventually overtake the current descriptive phrases."
+   Examples (will / going to): "This will lead to a decrease in animal populations." "This will result in guns being a bigger problem in the future." "These temperatures will eventually make it to where I reside." "We will eventually have to adapt to changing temperatures." "The quality of air will eventually ruin the quality of life for myself and my peers." "By 2040, we are going to have more electric networks." "We are going to increase our solar panel energy in the next 30 years." "Things are going to get worse." "The refugees are going to need food."
+   Examples (in the future): "In the future, there will not be as much jobs in the food service." "Many areas especially on the border will become more arid." "In 25 years, people my age will become the workforce."
 
-8. Evaluative / affective judgment
-   Normative stance, concern, alarm, hope, moral reaction — a value judgment or emotional response.
-   Examples: "This is a problem." "This increase is alarming." "This data gives me comfort."
+═══ GROUP 5: CURIOSITY ═══
 
-9. Information need / curiosity
-   Explicit question, expressed uncertainty, or desire for missing explanation.
-   Examples: "I wonder why the trend reversed." "I ask whether this applies to other countries."
+10. Curiosity
+    Explicit question, expressed uncertainty, or desire for missing explanation.
+    Examples (wonder why): "I wonder why the East Coast favored Hilary." "I wonder why there is much water stress in Asia." "I wonder why California is losing seats."
+    Examples (wonder how): "I wonder how we will pay for more of these facilities." "I wonder how the views of these children will change in a few years." "I wonder how often the wind reaches a certain point."
+    Examples (wonder what): "I wonder what impact humans had on this situation." "I wonder what causes this big difference between the small ratio and the big ratio of countries." "I wonder what caused certain powers to decrease in percentage."
+    Examples (wonder if / whether): "I wonder if the data would be the same 30 years ago." "I wonder if these extreme tempatures are a good thing."
+    Examples (wonder where): "I wonder where all the refugees end up going to." "I wonder where all 700 of these sandwiches are going weekly."
+    Examples (ask / curious / want to know): "I ask if certain groups will become more spread out over time." "I ask whether the adults are doing something that is wrong." "I am curious as to why 'Black American' is the only politically correct phrase." "I am curious about how this will impact the way the game is played." "I do not know when it happened." "I want to know how high our CO2 emissions are." "I would like to know if they are players that you picked to graph randomly."
 
-10. Meta / paratext
+═══ GROUP 6: META ═══
+
+11. Meta / Paratext
     Commentary about the graph artifact, its source, or the task — not about the world the data describes.
-    Examples: "The headline is…" "Ember published the graph." "The graph gives more insight…"
+    Examples (user-generated headlines): "A catchy headline would be 'Save Yourself by Saving the Earth'." "A catchy headline is 'Warming Across America: Will Our Agriculture Adapt?'." "I would name it 'Why Americans don't Want To Use These terms'." "A catchy headline for the graph would be 'Developing Countries Lead the Charge for Carbon Emissions!'." "The headline is 'Delivery Delay to Our Dismay'." "A catchy headline is '55 Years of Weddings'." "The headline is 'Asian Population Rising on the Coast'." "A catchy headline would be Hurricane Strikes." "The name is 'how much time until the government steps in'." "I would title this graph 'Civilians Movements Affect On Congressional Seats'."
+    Examples (source / article): "The New York Times implies that less guns mean more solved crimes." "I observed the graphs and the article." "The article included much more." "Ember published the graph."
+    Examples (graph purpose / artifact): "I think that the point of this map is to show someone the voting statistics visually." "The graph is trying to show how people dealed with the prices." "I think that the graph is trying to show the maturing that takes place in the 4 years of college." "I think that the story this graph is trying to tell us is that changing the graph from net to percentage can change the way different retail jobs look." "The graph gives more insight…"
 
-11. Uncategorizable
+═══ GROUP 7: OTHER ═══
+
+12. Uncategorizable
     The sentence does not fit any of the above, or the ACE conversion has rendered it too ambiguous or malformed to classify meaningfully.
-    Examples: "Something something." "It is." "The thing is interesting somehow."
+    Examples: "Something something." "It is."
 
 DECISION PROCEDURE — apply these steps in order to select the category:
 
 Step 1: Is the sentence about the visualization artifact itself (chart title, source, publisher, task)?
-  → Yes → Meta / paratext (10)
+  → Yes → Meta / Paratext (11)
 
 Step 2: Is the sentence describing something visible IN the chart?
   → Yes → continue to Steps 2a–2c
   → No  → go to Step 3
 
-  Step 2a: Does it name a visual element or encoding (axis, color, legend, mark, label, chart type)?
-    → Yes → L1: Elemental and encoded properties (1)
-  Step 2b: Does it cite a specific data value, number, or comparison between exactly two data points?
-    → Yes → L2: Statistical concepts and relations (2)
-  Step 2c: Does it synthesize a trend, overall pattern, or holistic gist across multiple data points?
-    → Yes → L3: Trend and pattern analysis (3)
+  Step 2a: Does it describe chart structure, layout, text labels, what a symbol/color means, or the presence/absence of visual elements — WITHOUT extracting a numerical data value or comparing data points?
+    → Yes → Visual Observation: Chart Structure & Text (1)
+  Step 2b: Does it extract a specific numerical value, quantity, or magnitude for ONE data point or entity?
+    → Yes → Visual Observation: Data Point Extraction (2)
+  Step 2c: Does it compare two or more data points, trace a trend over time, describe a spatial distribution, characterize the overall shape/spread of data, or identify a correlation — all grounded in what the chart visually shows?
+    → Yes → Visual Observation: Cross-point Pattern Recognition (3)
 
 Step 3: Is it a personal anecdote, memory, or self-reference?
-  → Yes → Personal/episodic retrieval (5)
+  → Yes → Prior Knowledge: Personal / Episodic (5)
 
 Step 4: Is it primarily a normative stance, emotional reaction, or value judgment?
-  → Yes → Evaluative / affective judgment (8)
+  → Yes → continue to Steps 4a–4b
+  → No  → go to Step 5
+
+  Step 4a: Does the sentence contain a deontic operator (should, must, need to, ought to), a moral judgment (unfair, wrong, "a problem"), or a recommendation for action?
+    → Yes → Evaluative: Prescriptive (6)
+  Step 4b: Does the sentence express an emotional reaction, general approval/disapproval, or evaluative stance WITHOUT prescribing what should change?
+    → Yes → Evaluative: Reactive (7)
 
 Step 5: Is it an explicit question, expression of uncertainty, or desire for information?
-  → Yes → Information need / curiosity (9)
+  → Yes → Curiosity (10)
 
 Step 6: Does it propose WHY something happened — linking an observation to a cause?
-  → Yes → Explanatory inference (6)
+  → Yes → Inference: Explanatory (8)
 
 Step 7: Does it state a fact about the world not shown in the chart (without causal linking)?
-  → Yes → Background knowledge (4)
+  → Yes → Prior Knowledge: Background (4)
 
 Step 8: Is it future-oriented, hypothetical, or counterfactual?
-  → Yes → Predictive / counterfactual inference (7)
+  → Yes → Inference: Predictive / Hypothetical (9)
 
-Step 9: None of the above → Uncategorizable (11)
+Step 9: None of the above → Uncategorizable (12)
 
 DISAMBIGUATION RULES for commonly confused pairs:
 
-- L2 vs. L3: If the sentence cites a specific number or compares exactly two data points, prefer L2. If it describes a direction, shape, or overall pattern (e.g., "increasing", "skewed", "dominated by") without citing specific values, prefer L3.
-- L3 vs. Explanatory inference: If the sentence only describes WHAT the chart shows (a pattern), it is L3. If it proposes WHY the pattern exists (invoking a cause), it is Explanatory inference — even if the pattern is mentioned in the same sentence.
-- Background knowledge vs. Explanatory inference: If the sentence states a standalone fact without connecting it to chart data, it is Background knowledge. If it links that fact to an observation (even implicitly with "may", "because", "relates to"), it is Explanatory inference.
-- Evaluative vs. Explanatory inference: If the sentence primarily expresses a value judgment or emotional reaction, prefer Evaluative. If it primarily proposes a cause, prefer Explanatory — even if the tone is evaluative.
-- Background knowledge vs. Personal/episodic retrieval: If the sentence is about the self, one's community, or a personal memory, it is Personal/episodic. If it states a general fact about the world, it is Background knowledge.
+- Visual Observation: Chart Structure & Text vs. Data Point Extraction: If the statement describes structure, layout, text labels, or what a symbol/color means, it is Chart Structure & Text. If it extracts a specific numerical value or quantity, it is Data Point Extraction. Example: "The darker pink bars represent the players of color" → Chart Structure & Text (symbol meaning); "The NBA has 83% of players of color" → Data Point Extraction (specific value).
+- Visual Observation: Data Point Extraction vs. Cross-point Pattern Recognition: If the statement is about ONE data point or entity, prefer Data Point Extraction. The moment it holds TWO or more data points in mind to compare, trace a trend, or characterize a pattern, prefer Cross-point Pattern Recognition. Example: "Less than 25% of young men visit in person" → Data Point Extraction (single value); "Women communicate with their parents more than men in all forms" → Cross-point Pattern Recognition (comparison across groups).
+- Visual Observation: Cross-point Pattern Recognition vs. Inference: Explanatory: If the sentence only describes WHAT the chart shows (a comparison, trend, or pattern), it is Cross-point Pattern Recognition. If it proposes WHY the pattern exists (invoking a cause), it is Inference: Explanatory — even if the pattern is mentioned in the same sentence.
+- Visual Observation: Cross-point Pattern Recognition vs. Inference: Predictive / Hypothetical: If the statement describes what the chart visually depicts (observed data), it is Cross-point Pattern Recognition. If it speculates about the future, projects beyond the data, or proposes hypothetical scenarios, it is Inference: Predictive / Hypothetical — not a visual observation.
+- Prior Knowledge: Background vs. Inference: Explanatory: If the sentence states a standalone fact without connecting it to chart data, it is Prior Knowledge: Background. If it links that fact to an observation (even implicitly with "may", "because", "relates to"), it is Inference: Explanatory.
+- Evaluative: Prescriptive vs. Evaluative: Reactive: If the sentence contains a deontic operator (should, must, need to, ought to), a moral judgment term (unfair, wrong), identifies a "problem" requiring change, or recommends action, it is Prescriptive. If the sentence expresses an emotional reaction (shock, worry, sadness, hope, disappointment) or general approval/disapproval without prescribing change, it is Reactive. Tie-breaker: if both are present, classify by primary communicative function — advocating for change → Prescriptive; expressing a feeling → Reactive.
+- Evaluative vs. Inference: Explanatory: If the sentence primarily expresses a value judgment or emotional reaction, prefer Evaluative (Prescriptive or Reactive). If it primarily proposes a cause, prefer Inference: Explanatory — even if the tone is evaluative.
+- Prior Knowledge: Background vs. Prior Knowledge: Personal / Episodic: If the sentence is about the self, one's community, or a personal memory, it is Personal / Episodic. If it states a general fact about the world, it is Background.
 
 OUTPUT FORMAT:
 
@@ -124,7 +202,7 @@ Respond with a single JSON object:
 
 RULES:
 - Preserve article_id, comment_id, and original_comment exactly as given.
-- Set comment_tag to exactly one of the 11 category labels above (e.g., "L1: Elemental and encoded properties"). Use "Uncategorizable" only when no other category applies.
+- Set comment_tag to exactly one of the 12 category labels above (e.g., "Visual Observation: Chart Structure & Text"). Use "Uncategorizable" only when no other category applies.
 - In the reasoning field, briefly state which decision-procedure step applied and why.
 - Include one entry per input sentence; do not skip or merge any.
 - Do not include any text outside of the JSON object; respond with JSON only.
