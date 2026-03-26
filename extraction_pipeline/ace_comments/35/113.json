@@ -1,0 +1,29 @@
+{
+  "article_id": "35",
+  "comment_index": 113,
+  "raw_comment": "I just noticed that we don't get leaves until April and we are from WI. I noticed that leaves don't and the united states are being split in different places",
+  "ace_sentences": [
+    "I noticed something.",
+    "We do not get leaves until April.",
+    "We are from WI.",
+    "I noticed that leaves do not.",
+    "The United States is being split in different places."
+  ],
+  "source_mappings": {
+    "I noticed something.": [
+      "I just noticed"
+    ],
+    "We do not get leaves until April.": [
+      "we don't get leaves until April"
+    ],
+    "We are from WI.": [
+      "we are from WI"
+    ],
+    "I noticed that leaves do not.": [
+      "I noticed that leaves don't"
+    ],
+    "The United States is being split in different places.": [
+      "the united states are being split in different places"
+    ]
+  }
+}

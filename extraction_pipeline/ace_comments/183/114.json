@@ -1,0 +1,97 @@
+{
+  "article_id": "183",
+  "comment_index": 114,
+  "raw_comment": "I notice that on average young women reach out to their parents more than young men in each surveyed form of communication. This gap is much larger when it comes to electronic communication, either through texts or calls, as women do so at about 20 percentage points higher than men. Young women still visit their parents in person more on average than young men, but the difference is only a few percentage points in this category. \n\nI wonder how these differences look when the groups of interest are broken down beyond gender and the 18 to 34 age range. First,  I would be interested in seeing just college age (around 18-24) because this is their first experience living away from home, while a 34 year old has been away from their parents for possibly 16 years. Also, college students technically still live at home and are usually dependent on their parents in some way, as opposed to 34 year olds who likely live on their own and are fully independent from their parents. \n\nThis relates to me and my community because I am currently  a male in this age range (and will be for many more years), so the disparity is concerning. It makes me more conscious of how often I am communicating with my parents and something I should consider more in the future. \n\nHeadline: \"How Often Do You Check on Your Parents?\"",
+  "ace_sentences": [
+    "On average, young women reach out to their parents more than young men in each surveyed form of communication.",
+    "This gap is much larger in electronic communication.",
+    "Electronic communication is through texts.",
+    "Electronic communication is through calls.",
+    "Women reach out through electronic communication about 20 percentage points more than men.",
+    "On average, young women visit their parents in person more than young men.",
+    "In this category, the difference is only a few percentage points.",
+    "I wonder how these differences look when the groups of interest are broken down beyond gender and the 18 to 34 age range.",
+    "I would be interested in seeing just college age around 18-24.",
+    "This is their first experience living away from home.",
+    "A 34 year old has been away from their parents for possibly 16 years.",
+    "College students technically still live at home.",
+    "College students are usually dependent on their parents in some way.",
+    "34 year olds likely live on their own.",
+    "34 year olds are fully independent from their parents.",
+    "This relates to me and my community.",
+    "I am currently a male in this age range.",
+    "I will be a male in this age range for many more years.",
+    "The disparity is concerning.",
+    "It makes me more conscious of how often I am communicating with my parents.",
+    "I should consider this more in the future.",
+    "The headline is \"How Often Do You Check on Your Parents?\"."
+  ],
+  "source_mappings": {
+    "On average, young women reach out to their parents more than young men in each surveyed form of communication.": [
+      "on average young women reach out to their parents more than young men in each surveyed form of communication."
+    ],
+    "This gap is much larger in electronic communication.": [
+      "This gap is much larger when it comes to electronic communication"
+    ],
+    "Electronic communication is through texts.": [
+      "through texts"
+    ],
+    "Electronic communication is through calls.": [
+      "calls"
+    ],
+    "Women reach out through electronic communication about 20 percentage points more than men.": [
+      "as women do so at about 20 percentage points higher than men."
+    ],
+    "On average, young women visit their parents in person more than young men.": [
+      "Young women still visit their parents in person more on average than young men"
+    ],
+    "In this category, the difference is only a few percentage points.": [
+      "but the difference is only a few percentage points in this category."
+    ],
+    "I wonder how these differences look when the groups of interest are broken down beyond gender and the 18 to 34 age range.": [
+      "I wonder how these differences look when the groups of interest are broken down beyond gender and the 18 to 34 age range."
+    ],
+    "I would be interested in seeing just college age around 18-24.": [
+      "I would be interested in seeing just college age (around 18-24)"
+    ],
+    "This is their first experience living away from home.": [
+      "because this is their first experience living away from home"
+    ],
+    "A 34 year old has been away from their parents for possibly 16 years.": [
+      "while a 34 year old has been away from their parents for possibly 16 years."
+    ],
+    "College students technically still live at home.": [
+      "college students technically still live at home"
+    ],
+    "College students are usually dependent on their parents in some way.": [
+      "are usually dependent on their parents in some way"
+    ],
+    "34 year olds likely live on their own.": [
+      "34 year olds who likely live on their own"
+    ],
+    "34 year olds are fully independent from their parents.": [
+      "are fully independent from their parents."
+    ],
+    "This relates to me and my community.": [
+      "This relates to me and my community"
+    ],
+    "I am currently a male in this age range.": [
+      "I am currently  a male in this age range"
+    ],
+    "I will be a male in this age range for many more years.": [
+      "and will be for many more years"
+    ],
+    "The disparity is concerning.": [
+      "so the disparity is concerning."
+    ],
+    "It makes me more conscious of how often I am communicating with my parents.": [
+      "It makes me more conscious of how often I am communicating with my parents"
+    ],
+    "I should consider this more in the future.": [
+      "something I should consider more in the future."
+    ],
+    "The headline is \"How Often Do You Check on Your Parents?\".": [
+      "Headline: \"How Often Do You Check on Your Parents?\""
+    ]
+  }
+}

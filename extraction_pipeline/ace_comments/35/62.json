@@ -1,0 +1,17 @@
+{
+  "article_id": "35",
+  "comment_index": 62,
+  "raw_comment": "I assume why the southern states saw the first leaves first?",
+  "ace_sentences": [
+    "I assume a reason.",
+    "The southern states saw the first leaves first."
+  ],
+  "source_mappings": {
+    "I assume a reason.": [
+      "I assume why"
+    ],
+    "The southern states saw the first leaves first.": [
+      "the southern states saw the first leaves first"
+    ]
+  }
+}

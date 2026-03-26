@@ -1,0 +1,38 @@
+{
+  "article_id": "91",
+  "comment_index": 216,
+  "raw_comment": "1. I notice that the percentages of head coaches of color are much lower than the percentages of players of color.\n\n2. I wonder if there is a connection between the number of players of color and the sport. For example, the number of players of color in both national basketball associations are over 50% greater than the number in Major League Baseball.\n\n3. I think that more representation for people of color in sports will allow more people of color to be comfortable with and motivated to play sports professionally.\n\n4. This graph shows the amount of diversity in major sports leagues. A catchy headline would be \"Diversity in Sports\".",
+  "ace_sentences": [
+    "I notice that the percentages of head coaches of color are much lower than the percentages of players of color.",
+    "I wonder if there is a connection between the number of players of color and the sport.",
+    "The number of players of color in both national basketball associations is over 50% greater than the number in Major League Baseball.",
+    "I think that more representation for people of color in sports will allow more people of color to be comfortable with sports.",
+    "I think that more representation for people of color in sports will allow more people of color to be motivated to play sports professionally.",
+    "This graph shows the amount of diversity in major sports leagues.",
+    "A catchy headline would be \"Diversity in Sports\"."
+  ],
+  "source_mappings": {
+    "I notice that the percentages of head coaches of color are much lower than the percentages of players of color.": [
+      "I notice that the percentages of head coaches of color are much lower than the percentages of players of color."
+    ],
+    "I wonder if there is a connection between the number of players of color and the sport.": [
+      "I wonder if there is a connection between the number of players of color and the sport."
+    ],
+    "The number of players of color in both national basketball associations is over 50% greater than the number in Major League Baseball.": [
+      "the number of players of color in both national basketball associations are over 50% greater than the number in Major League Baseball."
+    ],
+    "I think that more representation for people of color in sports will allow more people of color to be comfortable with sports.": [
+      "I think that more representation for people of color in sports will allow more people of color to be comfortable with"
+    ],
+    "I think that more representation for people of color in sports will allow more people of color to be motivated to play sports professionally.": [
+      "I think that more representation for people of color in sports will allow more people of color to be",
+      "motivated to play sports professionally."
+    ],
+    "This graph shows the amount of diversity in major sports leagues.": [
+      "This graph shows the amount of diversity in major sports leagues."
+    ],
+    "A catchy headline would be \"Diversity in Sports\".": [
+      "A catchy headline would be \"Diversity in Sports\"."
+    ]
+  }
+}

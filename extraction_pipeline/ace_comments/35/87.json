@@ -1,0 +1,25 @@
+{
+  "article_id": "35",
+  "comment_index": 87,
+  "raw_comment": "Spring? Where, When?",
+  "ace_sentences": [
+    "The headline is:",
+    "Spring?",
+    "Where?",
+    "When?"
+  ],
+  "source_mappings": {
+    "The headline is:": [
+      "Spring? Where, When?"
+    ],
+    "Spring?": [
+      "Spring?"
+    ],
+    "Where?": [
+      "Where"
+    ],
+    "When?": [
+      "When?"
+    ]
+  }
+}

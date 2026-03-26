@@ -1,0 +1,65 @@
+{
+  "article_id": "183",
+  "comment_index": 66,
+  "raw_comment": "The first thing I notice is that the percentage of young adults that visit their parents at least once a week was much higher than I expected. I did not expect that around a quarter of all young adults visit in person on a weekly basis because this would mean that around that number live in close enough vicinity to visit frequently. I wonder why the difference between men and women seem about the same for texts and video-chats but the difference is not very wide for visits in person. \nThis is related to me because I fit the age demographic and don't live with my parents; since I'm a college student the people around me also fit these categories.\nTitle: \"How often do Young Adults Contact their Parents?\"",
+  "ace_sentences": [
+    "I notice the first thing.",
+    "The percentage of young adults that visit their parents at least once a week was much higher than I expected.",
+    "Around a quarter of all young adults visit in person on a weekly basis.",
+    "I did not expect this.",
+    "This would mean that around that number live in close enough vicinity to visit frequently.",
+    "I wonder why the difference between men and women seems about the same for texts.",
+    "I wonder why the difference between men and women seems about the same for video-chats.",
+    "I wonder why the difference is not very wide for visits in person.",
+    "This is related to me.",
+    "I fit the age demographic.",
+    "I do not live with my parents.",
+    "I am a college student.",
+    "The people around me also fit these categories.",
+    "The title is \"How often do Young Adults Contact their Parents?\"."
+  ],
+  "source_mappings": {
+    "I notice the first thing.": [
+      "The first thing I notice"
+    ],
+    "The percentage of young adults that visit their parents at least once a week was much higher than I expected.": [
+      "the percentage of young adults that visit their parents at least once a week was much higher than I expected"
+    ],
+    "Around a quarter of all young adults visit in person on a weekly basis.": [
+      "around a quarter of all young adults visit in person on a weekly basis"
+    ],
+    "I did not expect this.": [
+      "I did not expect that"
+    ],
+    "This would mean that around that number live in close enough vicinity to visit frequently.": [
+      "this would mean that around that number live in close enough vicinity to visit frequently"
+    ],
+    "I wonder why the difference between men and women seems about the same for texts.": [
+      "I wonder why the difference between men and women seem about the same for texts"
+    ],
+    "I wonder why the difference between men and women seems about the same for video-chats.": [
+      "and video-chats"
+    ],
+    "I wonder why the difference is not very wide for visits in person.": [
+      "but the difference is not very wide for visits in person"
+    ],
+    "This is related to me.": [
+      "This is related to me"
+    ],
+    "I fit the age demographic.": [
+      "I fit the age demographic"
+    ],
+    "I do not live with my parents.": [
+      "don't live with my parents"
+    ],
+    "I am a college student.": [
+      "I'm a college student"
+    ],
+    "The people around me also fit these categories.": [
+      "the people around me also fit these categories"
+    ],
+    "The title is \"How often do Young Adults Contact their Parents?\".": [
+      "Title: \"How often do Young Adults Contact their Parents?\""
+    ]
+  }
+}

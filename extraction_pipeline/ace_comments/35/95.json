@@ -1,0 +1,36 @@
+{
+  "article_id": "35",
+  "comment_index": 95,
+  "raw_comment": "I noticed:\n- each color represented the month\n- the leaves grow quickly on the east and not as fast on the west\n\nI wondered\n- why did the the leaves grow slower in the west\n-why may took longer \n\nCatchy title name Growth of the leaves",
+  "ace_sentences": [
+    "I noticed that each color represented the month.",
+    "I noticed that the leaves grow quickly on the east.",
+    "I noticed that the leaves do not grow as fast on the west.",
+    "I wondered why the leaves grow slower in the west.",
+    "I wondered why it may took longer.",
+    "The title is Growth of the leaves."
+  ],
+  "source_mappings": {
+    "I noticed that each color represented the month.": [
+      "I noticed:",
+      "each color represented the month"
+    ],
+    "I noticed that the leaves grow quickly on the east.": [
+      "I noticed:",
+      "the leaves grow quickly on the east"
+    ],
+    "I noticed that the leaves do not grow as fast on the west.": [
+      "not as fast on the west"
+    ],
+    "I wondered why the leaves grow slower in the west.": [
+      "I wondered",
+      "why did the the leaves grow slower in the west"
+    ],
+    "I wondered why it may took longer.": [
+      "why may took longer"
+    ],
+    "The title is Growth of the leaves.": [
+      "Catchy title name Growth of the leaves"
+    ]
+  }
+}

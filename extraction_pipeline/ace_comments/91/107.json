@@ -1,0 +1,52 @@
+{
+  "article_id": "91",
+  "comment_index": 107,
+  "raw_comment": "I noticed that there are more people of color on the WNBA and the NBA.\n\nI wonder why most managers are not people of color and why the MLB has less people of color as players.\n\nThis affects my community because it can inspire or encourage more kids to play sports, they can look up to these people.\n\n\"White people still want control?: Graph about players of color.\"",
+  "ace_sentences": [
+    "I noticed that there are more people of color on the WNBA.",
+    "I noticed that there are more people of color on the NBA.",
+    "I wonder why most managers are not people of color.",
+    "I wonder why the MLB has less people of color as players.",
+    "This affects my community.",
+    "This can inspire more kids to play sports.",
+    "This can encourage more kids to play sports.",
+    "Kids can look up to these people.",
+    "The headline is:",
+    "White people still want control?: Graph about players of color."
+  ],
+  "source_mappings": {
+    "I noticed that there are more people of color on the WNBA.": [
+      "I noticed that there are more people of color on the WNBA"
+    ],
+    "I noticed that there are more people of color on the NBA.": [
+      "I noticed that there are more people of color on the WNBA and the NBA",
+      "the NBA"
+    ],
+    "I wonder why most managers are not people of color.": [
+      "I wonder why most managers are not people of color"
+    ],
+    "I wonder why the MLB has less people of color as players.": [
+      "why the MLB has less people of color as players"
+    ],
+    "This affects my community.": [
+      "This affects my community"
+    ],
+    "This can inspire more kids to play sports.": [
+      "it can inspire",
+      "more kids to play sports"
+    ],
+    "This can encourage more kids to play sports.": [
+      "or encourage",
+      "more kids to play sports"
+    ],
+    "Kids can look up to these people.": [
+      "they can look up to these people"
+    ],
+    "The headline is:": [
+      "\"White people still want control?: Graph about players of color.\""
+    ],
+    "White people still want control?: Graph about players of color.": [
+      "\"White people still want control?: Graph about players of color.\""
+    ]
+  }
+}

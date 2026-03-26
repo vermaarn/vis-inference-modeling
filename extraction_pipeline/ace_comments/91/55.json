@@ -1,0 +1,85 @@
+{
+  "article_id": "91",
+  "comment_index": 55,
+  "raw_comment": "1. After looking over the graphs, I noticed that less than half of the coaches and managers are of color, compared to the players of color, holding a higher percentage.\n\n2. I wonder why there's a higher percentage of colored coaches than there are of players.\n\n3.  Just like players, kids also look up to coaches, and because of the lack of diverse coaches in these sports, there are fewer coaches that minorities can not only look up to but also relate to.\n\n4. The graph is showing the percentage of players, managers, and coaches of color in the N.F.L, W.N.B.A., N.B.A., M.L.B, and M.L.S.\nHeadline: \"The Gap Between Players of Color and Coaches of color.\"",
+  "ace_sentences": [
+    "I looked over the graphs.",
+    "I noticed that less than half of the coaches are of color.",
+    "I noticed that less than half of the managers are of color.",
+    "The players of color hold a higher percentage than the coaches and managers of color.",
+    "I wonder why there is a higher percentage of colored coaches than there are of players.",
+    "Kids look up to coaches.",
+    "Players look up to coaches.",
+    "There is a lack of diverse coaches in these sports.",
+    "Because of the lack of diverse coaches in these sports, there are fewer coaches that minorities can look up to.",
+    "Because of the lack of diverse coaches in these sports, there are fewer coaches that minorities can relate to.",
+    "The graph shows the percentage of players of color.",
+    "The graph shows the percentage of managers of color.",
+    "The graph shows the percentage of coaches of color.",
+    "The graph shows the percentage in the N.F.L.",
+    "The graph shows the percentage in the W.N.B.A..",
+    "The graph shows the percentage in the N.B.A..",
+    "The graph shows the percentage in the M.L.B.",
+    "The graph shows the percentage in the M.L.S..",
+    "The headline is \"The Gap Between Players of Color and Coaches of color.\"."
+  ],
+  "source_mappings": {
+    "I looked over the graphs.": [
+      "After looking over the graphs"
+    ],
+    "I noticed that less than half of the coaches are of color.": [
+      "I noticed that less than half of the coaches and managers are of color"
+    ],
+    "I noticed that less than half of the managers are of color.": [
+      "I noticed that less than half of the coaches and managers are of color"
+    ],
+    "The players of color hold a higher percentage than the coaches and managers of color.": [
+      "compared to the players of color, holding a higher percentage"
+    ],
+    "I wonder why there is a higher percentage of colored coaches than there are of players.": [
+      "I wonder why there's a higher percentage of colored coaches than there are of players."
+    ],
+    "Kids look up to coaches.": [
+      "kids also look up to coaches"
+    ],
+    "Players look up to coaches.": [
+      "Just like players"
+    ],
+    "There is a lack of diverse coaches in these sports.": [
+      "the lack of diverse coaches in these sports"
+    ],
+    "Because of the lack of diverse coaches in these sports, there are fewer coaches that minorities can look up to.": [
+      "because of the lack of diverse coaches in these sports, there are fewer coaches that minorities can not only look up to"
+    ],
+    "Because of the lack of diverse coaches in these sports, there are fewer coaches that minorities can relate to.": [
+      "but also relate to."
+    ],
+    "The graph shows the percentage of players of color.": [
+      "The graph is showing the percentage of players, managers, and coaches of color"
+    ],
+    "The graph shows the percentage of managers of color.": [
+      "The graph is showing the percentage of players, managers, and coaches of color"
+    ],
+    "The graph shows the percentage of coaches of color.": [
+      "The graph is showing the percentage of players, managers, and coaches of color"
+    ],
+    "The graph shows the percentage in the N.F.L.": [
+      "in the N.F.L"
+    ],
+    "The graph shows the percentage in the W.N.B.A..": [
+      "W.N.B.A."
+    ],
+    "The graph shows the percentage in the N.B.A..": [
+      "N.B.A."
+    ],
+    "The graph shows the percentage in the M.L.B.": [
+      "M.L.B"
+    ],
+    "The graph shows the percentage in the M.L.S..": [
+      "M.L.S."
+    ],
+    "The headline is \"The Gap Between Players of Color and Coaches of color.\".": [
+      "Headline: \"The Gap Between Players of Color and Coaches of color.\""
+    ]
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "article_id": "91",
+  "comment_index": 104,
+  "raw_comment": "I noticed how the percent of colored players are higher than the percentage of colored coaches. I also noticed how the percentage of color varies per different sport. For example, the highest percentage of diversity is in the NBA (83%), and the lowest is the MLB (40%). I wonder why is is not consistent, and why there are more colored players than coaches. I understand how more players come and go then coaches, but it is still a question that lingers in my head. A catchy title would be “Diversity in the Game”.",
+  "ace_sentences": [
+    "I noticed that the percent of colored players is higher than the percentage of colored coaches.",
+    "I also noticed that the percentage of color varies per different sport.",
+    "The highest percentage of diversity is in the NBA.",
+    "The highest percentage of diversity in the NBA is 83%.",
+    "The lowest percentage of diversity is the MLB.",
+    "The lowest percentage of diversity in the MLB is 40%.",
+    "I wonder why it is not consistent.",
+    "I wonder why there are more colored players than coaches.",
+    "I understand that more players come and go than coaches.",
+    "However, it is still a question that lingers in my head.",
+    "A catchy title would be “Diversity in the Game”."
+  ],
+  "source_mappings": {
+    "I noticed that the percent of colored players is higher than the percentage of colored coaches.": [
+      "I noticed how the percent of colored players are higher than the percentage of colored coaches."
+    ],
+    "I also noticed that the percentage of color varies per different sport.": [
+      "I also noticed how the percentage of color varies per different sport."
+    ],
+    "The highest percentage of diversity is in the NBA.": [
+      "the highest percentage of diversity is in the NBA"
+    ],
+    "The highest percentage of diversity in the NBA is 83%.": [
+      "the highest percentage of diversity is in the NBA (83%)"
+    ],
+    "The lowest percentage of diversity is the MLB.": [
+      "the lowest is the MLB"
+    ],
+    "The lowest percentage of diversity in the MLB is 40%.": [
+      "the lowest is the MLB (40%)"
+    ],
+    "I wonder why it is not consistent.": [
+      "I wonder why is is not consistent"
+    ],
+    "I wonder why there are more colored players than coaches.": [
+      "why there are more colored players than coaches"
+    ],
+    "I understand that more players come and go than coaches.": [
+      "I understand how more players come and go then coaches"
+    ],
+    "However, it is still a question that lingers in my head.": [
+      "but it is still a question that lingers in my head."
+    ],
+    "A catchy title would be “Diversity in the Game”.": [
+      "A catchy title would be “Diversity in the Game”."
+    ]
+  }
+}

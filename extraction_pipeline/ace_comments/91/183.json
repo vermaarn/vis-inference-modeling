@@ -1,0 +1,39 @@
+{
+  "article_id": "91",
+  "comment_index": 183,
+  "raw_comment": "I notice the red percentage represents the players of color and the lighter red represents the head coaches of color. The percentages of the Women's National Basketball Association and National Basketball Association of players of color are the same. The number of players who are colored is less in MLP than the rest of the associations. I also noticed that the NBA and the WNBA have the highest percentage out of all of them. It seems that soccer is the least diverse sport.",
+  "ace_sentences": [
+    "The red percentage represents the players of color.",
+    "The lighter red represents the head coaches of color.",
+    "The percentage of players of color in the Women's National Basketball Association is the same as the percentage of players of color in the National Basketball Association.",
+    "The number of players of color is less in MLP than in the rest of the associations.",
+    "The NBA has the highest percentage out of all of them.",
+    "The WNBA has the highest percentage out of all of them.",
+    "Soccer seems to be the least diverse sport."
+  ],
+  "source_mappings": {
+    "The red percentage represents the players of color.": [
+      "the red percentage represents the players of color"
+    ],
+    "The lighter red represents the head coaches of color.": [
+      "the lighter red represents the head coaches of color"
+    ],
+    "The percentage of players of color in the Women's National Basketball Association is the same as the percentage of players of color in the National Basketball Association.": [
+      "The percentages of the Women's National Basketball Association and National Basketball Association of players of color are the same."
+    ],
+    "The number of players of color is less in MLP than in the rest of the associations.": [
+      "The number of players who are colored is less in MLP than the rest of the associations."
+    ],
+    "The NBA has the highest percentage out of all of them.": [
+      "the NBA",
+      "have the highest percentage out of all of them"
+    ],
+    "The WNBA has the highest percentage out of all of them.": [
+      "the WNBA",
+      "have the highest percentage out of all of them"
+    ],
+    "Soccer seems to be the least diverse sport.": [
+      "soccer is the least diverse sport"
+    ]
+  }
+}

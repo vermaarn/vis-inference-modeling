@@ -1,0 +1,45 @@
+{
+  "article_id": "35",
+  "comment_index": 106,
+  "raw_comment": "The southern states get flowers, and plants earlier than the northern states. Also I noticed that the western states have more diversity in when they sprout.  Additionally, where we live, in MD the flowers, and greenery ARE blooming And sprouting when the chart says so. Therefore I can infer that this chart is accurate.",
+  "ace_sentences": [
+    "The southern states get flowers earlier than the northern states.",
+    "The southern states get plants earlier than the northern states.",
+    "I noticed that the western states have more diversity in when they sprout.",
+    "We live in MD.",
+    "In MD, the flowers are blooming when the chart says so.",
+    "In MD, the greenery is blooming when the chart says so.",
+    "In MD, the flowers are sprouting when the chart says so.",
+    "In MD, the greenery is sprouting when the chart says so.",
+    "Therefore, I can infer that this chart is accurate."
+  ],
+  "source_mappings": {
+    "The southern states get flowers earlier than the northern states.": [
+      "The southern states get flowers, and plants earlier than the northern states."
+    ],
+    "The southern states get plants earlier than the northern states.": [
+      "The southern states get flowers, and plants earlier than the northern states."
+    ],
+    "I noticed that the western states have more diversity in when they sprout.": [
+      "Also I noticed that the western states have more diversity in when they sprout."
+    ],
+    "We live in MD.": [
+      "where we live, in MD"
+    ],
+    "In MD, the flowers are blooming when the chart says so.": [
+      "in MD the flowers, and greenery ARE blooming And sprouting when the chart says so."
+    ],
+    "In MD, the greenery is blooming when the chart says so.": [
+      "in MD the flowers, and greenery ARE blooming And sprouting when the chart says so."
+    ],
+    "In MD, the flowers are sprouting when the chart says so.": [
+      "in MD the flowers, and greenery ARE blooming And sprouting when the chart says so."
+    ],
+    "In MD, the greenery is sprouting when the chart says so.": [
+      "in MD the flowers, and greenery ARE blooming And sprouting when the chart says so."
+    ],
+    "Therefore, I can infer that this chart is accurate.": [
+      "Therefore I can infer that this chart is accurate."
+    ]
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "article_id": "91",
+  "comment_index": 43,
+  "raw_comment": "I notice that the women of color are at quite a high percentage, which means lots of women of color get a chance to be equal players and head coaches. The National Football League are also doing well in diversifying players, and the same for the National Basketball Association. However, the Major League Baseball is lacking a little more than the others in people of color, the percentage being less than 50. Major League Soccer is also slightly less than the others, but it stays above 50 as well. The Major League Soccer also has the highest percentage of head coaches who are people of color.\nI wonder why the Major League Baseball doesn't have as much as the others. I thought every sport would have at least 50% people of color. It seems that it needs a little more diversification, because it is lacking in people of color compared to the other leagues and associations.\nThis doesn't have much impact on me, but it probably has a slight impact on my community. I'm glad that there's a lot more diversification in sports. I'm South Asian so if anyone from there is interested in any of these sports, I know race wouldn't stop them. I'm glad there's a more positive impact on sports.\nThe graph shows the percentage of players of color and head coaches of color in different sports leagues and associations. The graph's main idea would be \"The Diversification in Different Sports Leagues and Associations\". That's what I would make the title and what captures the main idea of the graph.",
+  "ace_sentences": [
+    "I notice that the women of color are at quite a high percentage.",
+    "This means that many women of color get a chance to be equal players.",
+    "This means that many women of color get a chance to be head coaches.",
+    "The National Football League is doing well in diversifying players.",
+    "The National Basketball Association is doing well in diversifying players.",
+    "The Major League Baseball is lacking in people of color.",
+    "The percentage in the Major League Baseball is less than 50.",
+    "Major League Soccer is slightly less than the others.",
+    "Major League Soccer stays above 50.",
+    "The Major League Soccer has the highest percentage of head coaches who are people of color.",
+    "I wonder why the Major League Baseball does not have as much as the others.",
+    "I thought that every sport would have at least 50% people of color.",
+    "It seems that the Major League Baseball needs a little more diversification.",
+    "The Major League Baseball is lacking in people of color compared to the other leagues and associations.",
+    "This does not have much impact on me.",
+    "This probably has a slight impact on my community.",
+    "I am glad that there is a lot more diversification in sports.",
+    "I am South Asian.",
+    "If anyone from there is interested in any of these sports then race would not stop them.",
+    "I am glad that there is a more positive impact on sports.",
+    "The graph shows the percentage of players of color in different sports leagues and associations.",
+    "The graph shows the percentage of head coaches of color in different sports leagues and associations.",
+    "The graph's main idea would be \"The Diversification in Different Sports Leagues and Associations\".",
+    "I would make the title \"The Diversification in Different Sports Leagues and Associations\".",
+    "This captures the main idea of the graph."
+  ],
+  "source_mappings": {
+    "I notice that the women of color are at quite a high percentage.": [
+      "I notice that the women of color are at quite a high percentage"
+    ],
+    "This means that many women of color get a chance to be equal players.": [
+      "which means lots of women of color get a chance to be equal players"
+    ],
+    "This means that many women of color get a chance to be head coaches.": [
+      "which means lots of women of color get a chance to be",
+      "head coaches"
+    ],
+    "The National Football League is doing well in diversifying players.": [
+      "The National Football League are also doing well in diversifying players"
+    ],
+    "The National Basketball Association is doing well in diversifying players.": [
+      "the same for the National Basketball Association"
+    ],
+    "The Major League Baseball is lacking in people of color.": [
+      "the Major League Baseball is lacking a little more than the others in people of color"
+    ],
+    "The percentage in the Major League Baseball is less than 50.": [
+      "the percentage being less than 50"
+    ],
+    "Major League Soccer is slightly less than the others.": [
+      "Major League Soccer is also slightly less than the others"
+    ],
+    "Major League Soccer stays above 50.": [
+      "but it stays above 50 as well"
+    ],
+    "The Major League Soccer has the highest percentage of head coaches who are people of color.": [
+      "The Major League Soccer also has the highest percentage of head coaches who are people of color"
+    ],
+    "I wonder why the Major League Baseball does not have as much as the others.": [
+      "I wonder why the Major League Baseball doesn't have as much as the others"
+    ],
+    "I thought that every sport would have at least 50% people of color.": [
+      "I thought every sport would have at least 50% people of color"
+    ],
+    "It seems that the Major League Baseball needs a little more diversification.": [
+      "It seems that it needs a little more diversification"
+    ],
+    "The Major League Baseball is lacking in people of color compared to the other leagues and associations.": [
+      "it is lacking in people of color compared to the other leagues and associations"
+    ],
+    "This does not have much impact on me.": [
+      "This doesn't have much impact on me"
+    ],
+    "This probably has a slight impact on my community.": [
+      "but it probably has a slight impact on my community"
+    ],
+    "I am glad that there is a lot more diversification in sports.": [
+      "I'm glad that there's a lot more diversification in sports"
+    ],
+    "I am South Asian.": [
+      "I'm South Asian"
+    ],
+    "If anyone from there is interested in any of these sports then race would not stop them.": [
+      "if anyone from there is interested in any of these sports, I know race wouldn't stop them"
+    ],
+    "I am glad that there is a more positive impact on sports.": [
+      "I'm glad there's a more positive impact on sports"
+    ],
+    "The graph shows the percentage of players of color in different sports leagues and associations.": [
+      "The graph shows the percentage of players of color",
+      "in different sports leagues and associations"
+    ],
+    "The graph shows the percentage of head coaches of color in different sports leagues and associations.": [
+      "The graph shows the percentage of",
+      "head coaches of color in different sports leagues and associations"
+    ],
+    "The graph's main idea would be \"The Diversification in Different Sports Leagues and Associations\".": [
+      "The graph's main idea would be \"The Diversification in Different Sports Leagues and Associations\""
+    ],
+    "I would make the title \"The Diversification in Different Sports Leagues and Associations\".": [
+      "That's what I would make the title"
+    ],
+    "This captures the main idea of the graph.": [
+      "what captures the main idea of the graph"
+    ]
+  }
+}

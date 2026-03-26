@@ -1,0 +1,94 @@
+{
+  "article_id": "183",
+  "comment_index": 50,
+  "raw_comment": "I notice that there is an apparent difference between the percentage of men and women, with women contacting/visiting their parents more than men. I additionally noticed that the majority of young adults contact their parents virtually, either through texting or calling, with a minority of young adults visiting in person, likely due to long distances between them and their parents. I find it interesting that while women and men are almost just as likely to visit in person, there is a much larger gap between women who virtually keep in touch with their parents and men that do. I wonder what factors contribute to this large difference. I am curious to know what this graph would look like if they provided different, more specific age groups within the young adult category. Given that the survey includes young adults from ages 18-34, I wonder how many college students reach out their parents vs older young adults in their thirties. This graph affects me and my community, as in the next couple of years I will be in college, and I am aware of the importance of keeping in touch with my parents, even if I end up at a school that is not close to home. \"Keeping Connected\"",
+  "ace_sentences": [
+    "There is an apparent difference between the percentage of men and women.",
+    "Women contact their parents more than men contact their parents.",
+    "Women visit their parents more than men visit their parents.",
+    "The majority of young adults contact their parents virtually.",
+    "Young adults contact their parents virtually through texting.",
+    "Young adults contact their parents virtually through calling.",
+    "A minority of young adults visit their parents in person.",
+    "Long distances between young adults and their parents are a likely reason.",
+    "Women are almost as likely as men to visit their parents in person.",
+    "There is a much larger gap between women who virtually keep in touch with their parents and men who virtually keep in touch with their parents.",
+    "Some factors contribute to this large difference.",
+    "The graph would look different if it provided different age groups within the young adult category.",
+    "The graph would look different if it provided more specific age groups within the young adult category.",
+    "The survey includes young adults from ages 18-34.",
+    "Some young adults are college students.",
+    "Some young adults are older young adults in their thirties.",
+    "This graph affects me and my community.",
+    "In the next couple of years, I will be in college.",
+    "I am aware of the importance of keeping in touch with my parents.",
+    "I may end up at a school that is not close to home.",
+    "Keeping Connected is a headline."
+  ],
+  "source_mappings": {
+    "There is an apparent difference between the percentage of men and women.": [
+      "there is an apparent difference between the percentage of men and women"
+    ],
+    "Women contact their parents more than men contact their parents.": [
+      "women contacting",
+      "their parents more than men"
+    ],
+    "Women visit their parents more than men visit their parents.": [
+      "women contacting/visiting their parents more than men"
+    ],
+    "The majority of young adults contact their parents virtually.": [
+      "the majority of young adults contact their parents virtually"
+    ],
+    "Young adults contact their parents virtually through texting.": [
+      "through texting"
+    ],
+    "Young adults contact their parents virtually through calling.": [
+      "or calling"
+    ],
+    "A minority of young adults visit their parents in person.": [
+      "with a minority of young adults visiting in person"
+    ],
+    "Long distances between young adults and their parents are a likely reason.": [
+      "likely due to long distances between them and their parents"
+    ],
+    "Women are almost as likely as men to visit their parents in person.": [
+      "women and men are almost just as likely to visit in person"
+    ],
+    "There is a much larger gap between women who virtually keep in touch with their parents and men who virtually keep in touch with their parents.": [
+      "there is a much larger gap between women who virtually keep in touch with their parents and men that do"
+    ],
+    "Some factors contribute to this large difference.": [
+      "what factors contribute to this large difference"
+    ],
+    "The graph would look different if it provided different age groups within the young adult category.": [
+      "what this graph would look like if they provided different, more specific age groups within the young adult category"
+    ],
+    "The graph would look different if it provided more specific age groups within the young adult category.": [
+      "more specific age groups within the young adult category"
+    ],
+    "The survey includes young adults from ages 18-34.": [
+      "the survey includes young adults from ages 18-34"
+    ],
+    "Some young adults are college students.": [
+      "college students"
+    ],
+    "Some young adults are older young adults in their thirties.": [
+      "older young adults in their thirties"
+    ],
+    "This graph affects me and my community.": [
+      "This graph affects me and my community"
+    ],
+    "In the next couple of years, I will be in college.": [
+      "in the next couple of years I will be in college"
+    ],
+    "I am aware of the importance of keeping in touch with my parents.": [
+      "I am aware of the importance of keeping in touch with my parents"
+    ],
+    "I may end up at a school that is not close to home.": [
+      "if I end up at a school that is not close to home"
+    ],
+    "Keeping Connected is a headline.": [
+      "\"Keeping Connected\""
+    ]
+  }
+}

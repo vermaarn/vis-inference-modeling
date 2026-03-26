@@ -1,0 +1,49 @@
+{
+  "article_id": "91",
+  "comment_index": 9,
+  "raw_comment": "I noticed that in all the leagues except the MLB, the majority of the players were colored. I also noticed that in all the leagues, colored people were less than 50% of the total head coaches.\n\nI wonder why MLB doesn't have a majority of colored people. I also wonder why colored people aren't the majority of head coaches in any of the leagues. \n\nThis graph impacts my community and I positively, because it tells us that majority of players in most leagues are colored, so there is no discrimination in sports. However, it also impacts us negatively, because the graph implicates that colored people aren't the majority of head coaches in any of the leagues. \n\nMy title for this graph is: \"Majority of non-colored head coaches in leagues, but a majority of colored players in most leagues, is there a reason?\"",
+  "ace_sentences": [
+    "I noticed that in all the leagues except the MLB, the majority of the players were colored.",
+    "I noticed that in all the leagues, colored people were less than 50% of the total head coaches.",
+    "I wonder why MLB does not have a majority of colored people.",
+    "I wonder why colored people are not the majority of head coaches in any of the leagues.",
+    "This graph impacts my community and me positively.",
+    "This graph tells us that the majority of players in most leagues are colored.",
+    "If the majority of players in most leagues are colored then there is no discrimination in sports.",
+    "This graph impacts us negatively.",
+    "This graph implicates that colored people are not the majority of head coaches in any of the leagues.",
+    "My title for this graph is \"Majority of non-colored head coaches in leagues, but a majority of colored players in most leagues, is there a reason?\"."
+  ],
+  "source_mappings": {
+    "I noticed that in all the leagues except the MLB, the majority of the players were colored.": [
+      "I noticed that in all the leagues except the MLB, the majority of the players were colored."
+    ],
+    "I noticed that in all the leagues, colored people were less than 50% of the total head coaches.": [
+      "I also noticed that in all the leagues, colored people were less than 50% of the total head coaches."
+    ],
+    "I wonder why MLB does not have a majority of colored people.": [
+      "I wonder why MLB doesn't have a majority of colored people."
+    ],
+    "I wonder why colored people are not the majority of head coaches in any of the leagues.": [
+      "I also wonder why colored people aren't the majority of head coaches in any of the leagues."
+    ],
+    "This graph impacts my community and me positively.": [
+      "This graph impacts my community and I positively"
+    ],
+    "This graph tells us that the majority of players in most leagues are colored.": [
+      "it tells us that majority of players in most leagues are colored"
+    ],
+    "If the majority of players in most leagues are colored then there is no discrimination in sports.": [
+      "majority of players in most leagues are colored, so there is no discrimination in sports"
+    ],
+    "This graph impacts us negatively.": [
+      "it also impacts us negatively"
+    ],
+    "This graph implicates that colored people are not the majority of head coaches in any of the leagues.": [
+      "the graph implicates that colored people aren't the majority of head coaches in any of the leagues."
+    ],
+    "My title for this graph is \"Majority of non-colored head coaches in leagues, but a majority of colored players in most leagues, is there a reason?\".": [
+      "My title for this graph is: \"Majority of non-colored head coaches in leagues, but a majority of colored players in most leagues, is there a reason?\""
+    ]
+  }
+}

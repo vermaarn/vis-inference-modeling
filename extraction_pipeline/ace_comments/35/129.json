@@ -1,0 +1,33 @@
+{
+  "article_id": "35",
+  "comment_index": 129,
+  "raw_comment": "I notice that the graph is animated, graph is color coded, and it goes from January through May. I wonder what the different colors on the graph represent.  In this graph it is showing the regions where spring has sprung. My title is  “Spring Has Sprung in the U.S.”",
+  "ace_sentences": [
+    "I notice that the graph is animated.",
+    "I notice that the graph is color coded.",
+    "I notice that the graph goes from January through May.",
+    "I wonder what the different colors on the graph represent.",
+    "In this graph, it shows the regions where spring has sprung.",
+    "My title is “Spring Has Sprung in the U.S.”."
+  ],
+  "source_mappings": {
+    "I notice that the graph is animated.": [
+      "I notice that the graph is animated"
+    ],
+    "I notice that the graph is color coded.": [
+      "graph is color coded"
+    ],
+    "I notice that the graph goes from January through May.": [
+      "it goes from January through May"
+    ],
+    "I wonder what the different colors on the graph represent.": [
+      "I wonder what the different colors on the graph represent."
+    ],
+    "In this graph, it shows the regions where spring has sprung.": [
+      "In this graph it is showing the regions where spring has sprung."
+    ],
+    "My title is “Spring Has Sprung in the U.S.”.": [
+      "My title is  “Spring Has Sprung in the U.S.”"
+    ]
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "article_id": "35",
+  "comment_index": 132,
+  "raw_comment": "Welcome to Wednesday's moderation of  “What’s Going On in This Graph?”  \n\nToday’s graph shows the 30-year average date across the country for the first sign of spring – leaves. \n\nFrom 9 am – 2 pm E.T. today, share with us your responses online to these three questions -- \"What do you notice?\",  \"What do you wonder?\", and  \"What's going on in this graph?\"  \n\nPlus, please share with us a catchy headline that captures the ideas about the graph. \n\nOn Thursday afternoon, we’ll reveal the article that included this graph and much more.  We look forward to reading your discoveries.\n\nThe next “What’s Going On in This Graph?” will be released tomorrow -- Thursday, April 4 with moderation on Wednesday, April 10.  The topic – summer pop songs.\n\nAlso, to view the March 20 webinar about teaching with graphs from The New York Times, go tohttps://webinars.on24.com/nyt/Graphs?partnerref=OnDemand",
+  "ace_sentences": [
+    "This is Wednesday's moderation of “What’s Going On in This Graph?”.",
+    "Today’s graph shows the 30-year average date across the country for the first sign of spring.",
+    "Leaves are the first sign of spring.",
+    "From 9 am to 2 pm E.T. today, you can share responses online.",
+    "There are three questions.",
+    "The first question is \"What do you notice?\".",
+    "The second question is \"What do you wonder?\".",
+    "The third question is \"What's going on in this graph?\".",
+    "You can share a catchy headline.",
+    "The catchy headline captures the ideas about the graph.",
+    "On Thursday afternoon, we will reveal the article.",
+    "The article included this graph and much more.",
+    "We look forward to reading your discoveries.",
+    "The next “What’s Going On in This Graph?” will be released tomorrow.",
+    "Tomorrow is Thursday, April 4.",
+    "The moderation will be on Wednesday, April 10.",
+    "The topic is summer pop songs.",
+    "To view the March 20 webinar about teaching with graphs from The New York Times, go to https://webinars.on24.com/nyt/Graphs?partnerref=OnDemand."
+  ],
+  "source_mappings": {
+    "This is Wednesday's moderation of “What’s Going On in This Graph?”.": [
+      "Welcome to Wednesday's moderation of  “What’s Going On in This Graph?”"
+    ],
+    "Today’s graph shows the 30-year average date across the country for the first sign of spring.": [
+      "Today’s graph shows the 30-year average date across the country for the first sign of spring"
+    ],
+    "Leaves are the first sign of spring.": [
+      "the first sign of spring – leaves"
+    ],
+    "From 9 am to 2 pm E.T. today, you can share responses online.": [
+      "From 9 am – 2 pm E.T. today, share with us your responses online"
+    ],
+    "There are three questions.": [
+      "these three questions"
+    ],
+    "The first question is \"What do you notice?\".": [
+      "\"What do you notice?\""
+    ],
+    "The second question is \"What do you wonder?\".": [
+      "\"What do you wonder?\""
+    ],
+    "The third question is \"What's going on in this graph?\".": [
+      "\"What's going on in this graph?\""
+    ],
+    "You can share a catchy headline.": [
+      "please share with us a catchy headline"
+    ],
+    "The catchy headline captures the ideas about the graph.": [
+      "a catchy headline that captures the ideas about the graph"
+    ],
+    "On Thursday afternoon, we will reveal the article.": [
+      "On Thursday afternoon, we’ll reveal the article"
+    ],
+    "The article included this graph and much more.": [
+      "the article that included this graph and much more"
+    ],
+    "We look forward to reading your discoveries.": [
+      "We look forward to reading your discoveries."
+    ],
+    "The next “What’s Going On in This Graph?” will be released tomorrow.": [
+      "The next “What’s Going On in This Graph?” will be released tomorrow"
+    ],
+    "Tomorrow is Thursday, April 4.": [
+      "tomorrow -- Thursday, April 4"
+    ],
+    "The moderation will be on Wednesday, April 10.": [
+      "moderation on Wednesday, April 10"
+    ],
+    "The topic is summer pop songs.": [
+      "The topic – summer pop songs."
+    ],
+    "To view the March 20 webinar about teaching with graphs from The New York Times, go to https://webinars.on24.com/nyt/Graphs?partnerref=OnDemand.": [
+      "to view the March 20 webinar about teaching with graphs from The New York Times, go tohttps://webinars.on24.com/nyt/Graphs?partnerref=OnDemand"
+    ]
+  }
+}

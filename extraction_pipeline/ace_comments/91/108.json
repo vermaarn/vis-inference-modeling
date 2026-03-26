@@ -1,0 +1,61 @@
+{
+  "article_id": "91",
+  "comment_index": 108,
+  "raw_comment": "What do you notice?\nPlayers of color overwhelm the coaches of color by an extreme amount. \n\nWhat do you wonder?\nWhy exactly is this difference such a considerable amount? How can we tell more people of color to be involved and equal out this statistic? \n\nWhat impact does this have on you and your community?\nThis really just makes a lot of people get many different views on people of color, such as them being lazy or unauthentic because of the lack of involvement. It could also represent that people of color don't have enough knowledge to be involved in sports. \n\nWhat’s going on in this graph? Write a catchy headline that captures the graph’s main idea.\n\"How has the involvement from people of color evolved through the year 2020?\"",
+  "ace_sentences": [
+    "Players of color overwhelm the coaches of color by an extreme amount.",
+    "This difference is a considerable amount.",
+    "I wonder why this difference is a considerable amount.",
+    "I wonder how we can tell more people of color to be involved.",
+    "I wonder how we can equal out this statistic.",
+    "This makes a lot of people get many different views on people of color.",
+    "Some people view people of color as lazy.",
+    "Some people view people of color as unauthentic.",
+    "These views are because of the lack of involvement.",
+    "It could represent that people of color do not have enough knowledge.",
+    "This knowledge is knowledge to be involved in sports.",
+    "The headline is:",
+    "How has the involvement from people of color evolved through the year 2020?"
+  ],
+  "source_mappings": {
+    "Players of color overwhelm the coaches of color by an extreme amount.": [
+      "Players of color overwhelm the coaches of color by an extreme amount."
+    ],
+    "This difference is a considerable amount.": [
+      "this difference such a considerable amount"
+    ],
+    "I wonder why this difference is a considerable amount.": [
+      "Why exactly is this difference such a considerable amount?"
+    ],
+    "I wonder how we can tell more people of color to be involved.": [
+      "How can we tell more people of color to be involved"
+    ],
+    "I wonder how we can equal out this statistic.": [
+      "equal out this statistic?"
+    ],
+    "This makes a lot of people get many different views on people of color.": [
+      "This really just makes a lot of people get many different views on people of color"
+    ],
+    "Some people view people of color as lazy.": [
+      "them being lazy"
+    ],
+    "Some people view people of color as unauthentic.": [
+      "unauthentic"
+    ],
+    "These views are because of the lack of involvement.": [
+      "because of the lack of involvement."
+    ],
+    "It could represent that people of color do not have enough knowledge.": [
+      "It could also represent that people of color don't have enough knowledge"
+    ],
+    "This knowledge is knowledge to be involved in sports.": [
+      "to be involved in sports."
+    ],
+    "The headline is:": [
+      "Write a catchy headline that captures the graph’s main idea."
+    ],
+    "How has the involvement from people of color evolved through the year 2020?": [
+      "\"How has the involvement from people of color evolved through the year 2020?\""
+    ]
+  }
+}

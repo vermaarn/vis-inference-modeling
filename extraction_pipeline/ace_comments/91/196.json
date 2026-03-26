@@ -1,0 +1,41 @@
+{
+  "article_id": "91",
+  "comment_index": 196,
+  "raw_comment": "In this graph I notice that there is more colored players then coaches of color. I wonder why there is more players of color then coaches. I don’t think this has any impact on me nor my community because the ethnicity of other people doesn’t matter nor does it affect me as it shouldn’t matter. In this graph it shows the percentage of colored people on the teams. There is more colored players than there are coaches.",
+  "ace_sentences": [
+    "I notice in this graph that there are more colored players than coaches of color.",
+    "I wonder why there are more players of color than coaches.",
+    "I do not think that this has any impact on me.",
+    "I do not think that this has any impact on my community.",
+    "The ethnicity of other people does not matter.",
+    "The ethnicity of other people does not affect me.",
+    "In this graph, it shows the percentage of colored people on the teams.",
+    "There are more colored players than there are coaches."
+  ],
+  "source_mappings": {
+    "I notice in this graph that there are more colored players than coaches of color.": [
+      "In this graph I notice that there is more colored players then coaches of color."
+    ],
+    "I wonder why there are more players of color than coaches.": [
+      "I wonder why there is more players of color then coaches."
+    ],
+    "I do not think that this has any impact on me.": [
+      "I don’t think this has any impact on me"
+    ],
+    "I do not think that this has any impact on my community.": [
+      "nor my community"
+    ],
+    "The ethnicity of other people does not matter.": [
+      "the ethnicity of other people doesn’t matter"
+    ],
+    "The ethnicity of other people does not affect me.": [
+      "nor does it affect me"
+    ],
+    "In this graph, it shows the percentage of colored people on the teams.": [
+      "In this graph it shows the percentage of colored people on the teams."
+    ],
+    "There are more colored players than there are coaches.": [
+      "There is more colored players than there are coaches."
+    ]
+  }
+}

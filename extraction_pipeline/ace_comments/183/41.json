@@ -1,0 +1,81 @@
+{
+  "article_id": "183",
+  "comment_index": 41,
+  "raw_comment": "It is interesting there is such a large gap between young men and women in how often they reach out. Generally, women reach out to their parents more. I also notice that the difference between the groups in large for texting and phone calls than it is in person. While in person meeting is definitely least popular, it is surprising that texting and calling is not more popular. I would have expected there to be a higher percentage of people using text because of its accessibility and popularity. I wonder why there is such a large difference between men and women. I also wonder why digital formats of communication are not more popular. Given the culture in the last few years, digital communication is the forefront of connection. It is interesting that the highest usage of texting is only about 70%. This relates to my community because I am a member of the polled demographic. I, along with my peers, use texting and messaging as the forefront methods of communication with out families. This is an indication of how my generation choses to communicate. A possible title is “*buzz buzz* Answer, its your parents!”",
+  "ace_sentences": [
+    "There is a large gap between young men and women in how often they reach out.",
+    "Women reach out to their parents more.",
+    "I notice that the difference between the groups is larger for texting and phone calls than it is in person.",
+    "In-person meeting is the least popular.",
+    "It is surprising that texting and calling is not more popular.",
+    "I would have expected a higher percentage of people to use text.",
+    "The accessibility of text is a reason.",
+    "The popularity of text is a reason.",
+    "I wonder why there is a large difference between men and women.",
+    "I wonder why digital formats of communication are not more popular.",
+    "In the culture in the last few years, digital communication is the forefront of connection.",
+    "The highest usage of texting is only about 70%.",
+    "This relates to my community.",
+    "I am a member of the polled demographic.",
+    "I use texting and messaging as the forefront methods of communication with our families.",
+    "My peers use texting and messaging as the forefront methods of communication with our families.",
+    "This is an indication of how my generation chooses to communicate.",
+    "A possible title is “*buzz buzz* Answer, its your parents!”."
+  ],
+  "source_mappings": {
+    "There is a large gap between young men and women in how often they reach out.": [
+      "there is such a large gap between young men and women in how often they reach out"
+    ],
+    "Women reach out to their parents more.": [
+      "women reach out to their parents more"
+    ],
+    "I notice that the difference between the groups is larger for texting and phone calls than it is in person.": [
+      "I also notice that the difference between the groups in large for texting and phone calls than it is in person"
+    ],
+    "In-person meeting is the least popular.": [
+      "in person meeting is definitely least popular"
+    ],
+    "It is surprising that texting and calling is not more popular.": [
+      "it is surprising that texting and calling is not more popular"
+    ],
+    "I would have expected a higher percentage of people to use text.": [
+      "I would have expected there to be a higher percentage of people using text"
+    ],
+    "The accessibility of text is a reason.": [
+      "because of its accessibility"
+    ],
+    "The popularity of text is a reason.": [
+      "and popularity"
+    ],
+    "I wonder why there is a large difference between men and women.": [
+      "I wonder why there is such a large difference between men and women"
+    ],
+    "I wonder why digital formats of communication are not more popular.": [
+      "I also wonder why digital formats of communication are not more popular"
+    ],
+    "In the culture in the last few years, digital communication is the forefront of connection.": [
+      "Given the culture in the last few years, digital communication is the forefront of connection"
+    ],
+    "The highest usage of texting is only about 70%.": [
+      "the highest usage of texting is only about 70%"
+    ],
+    "This relates to my community.": [
+      "This relates to my community"
+    ],
+    "I am a member of the polled demographic.": [
+      "I am a member of the polled demographic"
+    ],
+    "I use texting and messaging as the forefront methods of communication with our families.": [
+      "I, along with my peers, use texting and messaging as the forefront methods of communication with out families"
+    ],
+    "My peers use texting and messaging as the forefront methods of communication with our families.": [
+      "I, along with my peers, use texting and messaging as the forefront methods of communication with out families"
+    ],
+    "This is an indication of how my generation chooses to communicate.": [
+      "This is an indication of how my generation choses to communicate"
+    ],
+    "A possible title is “*buzz buzz* Answer, its your parents!”.": [
+      "A possible title is “*buzz buzz* Answer, its your parents!”"
+    ]
+  }
+}

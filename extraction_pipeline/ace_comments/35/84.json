@@ -1,0 +1,25 @@
+{
+  "article_id": "35",
+  "comment_index": 84,
+  "raw_comment": "I notice the western side has all different first leaf appearances and the eastern side has consistent first leaf appearances.",
+  "ace_sentences": [
+    "I notice the western side.",
+    "The western side has different first leaf appearances.",
+    "I notice the eastern side.",
+    "The eastern side has consistent first leaf appearances."
+  ],
+  "source_mappings": {
+    "I notice the western side.": [
+      "I notice the western side"
+    ],
+    "The western side has different first leaf appearances.": [
+      "the western side has all different first leaf appearances"
+    ],
+    "I notice the eastern side.": [
+      "and the eastern side"
+    ],
+    "The eastern side has consistent first leaf appearances.": [
+      "the eastern side has consistent first leaf appearances"
+    ]
+  }
+}

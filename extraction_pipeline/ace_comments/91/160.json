@@ -1,0 +1,29 @@
+{
+  "article_id": "91",
+  "comment_index": 160,
+  "raw_comment": "I've noticed that there aren't as many players of color in the MLB than any other league, most likely due to the years of context behind the sport. I also noticed the NFL has the smallest proportion of coaches of color.\n\nHeadline: \"Major sports leagues have made steps to diversify leadership, here are the results\"",
+  "ace_sentences": [
+    "I have noticed that there are not as many players of color in the MLB as in any other league.",
+    "This is most likely due to the years of context behind the sport.",
+    "I have noticed that the NFL has the smallest proportion of coaches of color.",
+    "The headline is:",
+    "Major sports leagues have made steps to diversify leadership, here are the results."
+  ],
+  "source_mappings": {
+    "I have noticed that there are not as many players of color in the MLB as in any other league.": [
+      "I've noticed that there aren't as many players of color in the MLB than any other league"
+    ],
+    "This is most likely due to the years of context behind the sport.": [
+      "most likely due to the years of context behind the sport"
+    ],
+    "I have noticed that the NFL has the smallest proportion of coaches of color.": [
+      "I also noticed the NFL has the smallest proportion of coaches of color."
+    ],
+    "The headline is:": [
+      "Headline:"
+    ],
+    "Major sports leagues have made steps to diversify leadership, here are the results.": [
+      "Major sports leagues have made steps to diversify leadership, here are the results"
+    ]
+  }
+}

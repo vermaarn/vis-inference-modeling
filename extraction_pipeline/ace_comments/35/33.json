@@ -1,0 +1,17 @@
+{
+  "article_id": "35",
+  "comment_index": 33,
+  "raw_comment": "I wonder why some parts of the U.S near Wyoming and Colorado never get leaves?\nMaybe its because its to cold there?",
+  "ace_sentences": [
+    "I wonder why some parts of the U.S near Wyoming and Colorado never get leaves.",
+    "Maybe it is because it is too cold there."
+  ],
+  "source_mappings": {
+    "I wonder why some parts of the U.S near Wyoming and Colorado never get leaves.": [
+      "I wonder why some parts of the U.S near Wyoming and Colorado never get leaves?"
+    ],
+    "Maybe it is because it is too cold there.": [
+      "Maybe its because its to cold there?"
+    ]
+  }
+}

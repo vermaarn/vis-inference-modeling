@@ -1,0 +1,47 @@
+{
+  "article_id": "35",
+  "comment_index": 6,
+  "raw_comment": "It comes as no surprise to me that the southern states, such as Texas, are among the first states with the \"first leaf.\" This is likely because Texas, as well as other southern states, are very close to the equator. However, it does surprise me that Colorado arrives later than New Jersey. This surprises me because NJ is slightly more north than CO. However, this may be because Colorado has a higher elevation.",
+  "ace_sentences": [
+    "It comes as no surprise to me that the southern states are among the first states with the \"first leaf\".",
+    "Texas is a southern state.",
+    "The southern states are very close to the equator.",
+    "This is likely because the southern states are very close to the equator.",
+    "It does surprise me that Colorado arrives later than New Jersey.",
+    "NJ is slightly more north than CO.",
+    "This surprises me because NJ is slightly more north than CO.",
+    "Colorado has a higher elevation.",
+    "This may be because Colorado has a higher elevation."
+  ],
+  "source_mappings": {
+    "It comes as no surprise to me that the southern states are among the first states with the \"first leaf\".": [
+      "It comes as no surprise to me that the southern states",
+      "are among the first states with the \"first leaf.\""
+    ],
+    "Texas is a southern state.": [
+      "the southern states, such as Texas,"
+    ],
+    "The southern states are very close to the equator.": [
+      "other southern states, are very close to the equator."
+    ],
+    "This is likely because the southern states are very close to the equator.": [
+      "This is likely because",
+      "other southern states, are very close to the equator."
+    ],
+    "It does surprise me that Colorado arrives later than New Jersey.": [
+      "it does surprise me that Colorado arrives later than New Jersey."
+    ],
+    "NJ is slightly more north than CO.": [
+      "NJ is slightly more north than CO."
+    ],
+    "This surprises me because NJ is slightly more north than CO.": [
+      "This surprises me because NJ is slightly more north than CO."
+    ],
+    "Colorado has a higher elevation.": [
+      "Colorado has a higher elevation."
+    ],
+    "This may be because Colorado has a higher elevation.": [
+      "this may be because Colorado has a higher elevation."
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "article_id": "91",
+  "comment_index": 150,
+  "raw_comment": "What Do we notice?\nThere is a huge difference between the amount of coaches who are POC compared to players. This amount doesn't surprise us as often times racial equality in positions of power such as a coach are a lot harder to achieve compared to others.\n\nWhat do we wonder?\nWhat is the specific reasoning for their being less Coaches of colour compared to the players?\n\nWhat impact does this have on the community?\n\nIt gives us statistics that we can use to push for more equality in sports.\n\nWhat is going on in the graph?\n\nAll sports have drastic differences between coaches of colour and players of colour the biggest difference being in the NFL where there is 61 percentage points more players of colours compared to the coaches.\n\nCatchy Title?\n\nWe have diversity on the field but is there on the sideline?",
+  "ace_sentences": [
+    "There is a huge difference between the amount of coaches who are POC and the amount of players.",
+    "This amount does not surprise us.",
+    "Racial equality in positions of power is harder to achieve.",
+    "A coach is a position of power.",
+    "Racial equality in positions of power is harder to achieve than racial equality in other positions.",
+    "We wonder about the specific reasoning.",
+    "There are less coaches of colour than players.",
+    "This gives us statistics.",
+    "We can use these statistics to push for more equality in sports.",
+    "All sports have drastic differences between coaches of colour and players of colour.",
+    "The biggest difference is in the NFL.",
+    "In the NFL, there is 61 percentage points more players of colours than coaches.",
+    "We have diversity on the field.",
+    "We ask whether there is diversity on the sideline."
+  ],
+  "source_mappings": {
+    "There is a huge difference between the amount of coaches who are POC and the amount of players.": [
+      "There is a huge difference between the amount of coaches who are POC compared to players."
+    ],
+    "This amount does not surprise us.": [
+      "This amount doesn't surprise us"
+    ],
+    "Racial equality in positions of power is harder to achieve.": [
+      "racial equality in positions of power",
+      "are a lot harder to achieve"
+    ],
+    "A coach is a position of power.": [
+      "positions of power such as a coach"
+    ],
+    "Racial equality in positions of power is harder to achieve than racial equality in other positions.": [
+      "a lot harder to achieve compared to others"
+    ],
+    "We wonder about the specific reasoning.": [
+      "What is the specific reasoning"
+    ],
+    "There are less coaches of colour than players.": [
+      "less Coaches of colour compared to the players"
+    ],
+    "This gives us statistics.": [
+      "It gives us statistics"
+    ],
+    "We can use these statistics to push for more equality in sports.": [
+      "we can use to push for more equality in sports"
+    ],
+    "All sports have drastic differences between coaches of colour and players of colour.": [
+      "All sports have drastic differences between coaches of colour and players of colour"
+    ],
+    "The biggest difference is in the NFL.": [
+      "the biggest difference being in the NFL"
+    ],
+    "In the NFL, there is 61 percentage points more players of colours than coaches.": [
+      "in the NFL where there is 61 percentage points more players of colours compared to the coaches"
+    ],
+    "We have diversity on the field.": [
+      "We have diversity on the field"
+    ],
+    "We ask whether there is diversity on the sideline.": [
+      "but is there on the sideline?"
+    ]
+  }
+}

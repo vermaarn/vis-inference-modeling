@@ -1,0 +1,25 @@
+{
+  "article_id": "183",
+  "comment_index": 26,
+  "raw_comment": "Catchy headline: Why woman are happier than men: contact your parents more!",
+  "ace_sentences": [
+    "The headline is catchy.",
+    "The headline is:",
+    "Why are women happier than men?",
+    "Contact your parents more."
+  ],
+  "source_mappings": {
+    "The headline is catchy.": [
+      "Catchy headline"
+    ],
+    "The headline is:": [
+      "Catchy headline:"
+    ],
+    "Why are women happier than men?": [
+      "Why woman are happier than men"
+    ],
+    "Contact your parents more.": [
+      "contact your parents more!"
+    ]
+  }
+}

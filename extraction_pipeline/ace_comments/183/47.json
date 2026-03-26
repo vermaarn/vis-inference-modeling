@@ -1,0 +1,61 @@
+{
+  "article_id": "183",
+  "comment_index": 47,
+  "raw_comment": "What do you notice?\nI notice that only 50 percent of men reach out to their parents through texts, while around 73 percent of women text their parents a few times a week. \nWhat do you wonder?\nI wonder why women reach out to their parents more, is it because they are more caring?\nHow does this relate to you and your community?\nThis relates to me and my community because a lot of my piers are going away for college, and parents are expecting their children to contact them frequently. \nCreate a catchy headline that captures the graph’s main idea.\nCall Me, Where you been?",
+  "ace_sentences": [
+    "I notice something.",
+    "Only 50 percent of men reach out to their parents through texts.",
+    "Around 73 percent of women text their parents a few times a week.",
+    "I wonder something.",
+    "Women reach out to their parents more.",
+    "I wonder why women reach out to their parents more.",
+    "Women are more caring.",
+    "I ask if women reach out to their parents more because women are more caring.",
+    "This relates to me and my community.",
+    "A lot of my piers are going away for college.",
+    "Parents are expecting their children to contact them frequently.",
+    "The headline is:",
+    "Call Me, Where you been?"
+  ],
+  "source_mappings": {
+    "I notice something.": [
+      "I notice"
+    ],
+    "Only 50 percent of men reach out to their parents through texts.": [
+      "only 50 percent of men reach out to their parents through texts"
+    ],
+    "Around 73 percent of women text their parents a few times a week.": [
+      "around 73 percent of women text their parents a few times a week."
+    ],
+    "I wonder something.": [
+      "I wonder"
+    ],
+    "Women reach out to their parents more.": [
+      "women reach out to their parents more"
+    ],
+    "I wonder why women reach out to their parents more.": [
+      "I wonder why women reach out to their parents more"
+    ],
+    "Women are more caring.": [
+      "they are more caring"
+    ],
+    "I ask if women reach out to their parents more because women are more caring.": [
+      "is it because they are more caring?"
+    ],
+    "This relates to me and my community.": [
+      "This relates to me and my community"
+    ],
+    "A lot of my piers are going away for college.": [
+      "a lot of my piers are going away for college"
+    ],
+    "Parents are expecting their children to contact them frequently.": [
+      "parents are expecting their children to contact them frequently."
+    ],
+    "The headline is:": [
+      "Create a catchy headline that captures the graph’s main idea."
+    ],
+    "Call Me, Where you been?": [
+      "Call Me, Where you been?"
+    ]
+  }
+}

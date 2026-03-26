@@ -1,0 +1,41 @@
+{
+  "article_id": "35",
+  "comment_index": 4,
+  "raw_comment": "Th graph shows that Texas and other southern state are close to the equators and close to the ocean’s . End it was very interesting looking at this graph and interesting to learn about it.",
+  "ace_sentences": [
+    "The graph shows something.",
+    "Texas is close to the equators.",
+    "Other southern state are close to the equators.",
+    "Texas is close to the ocean’s .",
+    "Other southern state are close to the ocean’s .",
+    "Looking at this graph was very interesting.",
+    "It was interesting to learn about it."
+  ],
+  "source_mappings": {
+    "The graph shows something.": [
+      "Th graph shows"
+    ],
+    "Texas is close to the equators.": [
+      "Texas",
+      "close to the equators"
+    ],
+    "Other southern state are close to the equators.": [
+      "other southern state",
+      "close to the equators"
+    ],
+    "Texas is close to the ocean’s .": [
+      "Texas",
+      "close to the ocean’s ."
+    ],
+    "Other southern state are close to the ocean’s .": [
+      "other southern state",
+      "close to the ocean’s ."
+    ],
+    "Looking at this graph was very interesting.": [
+      "End it was very interesting looking at this graph"
+    ],
+    "It was interesting to learn about it.": [
+      "interesting to learn about it"
+    ]
+  }
+}

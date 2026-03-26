@@ -1,0 +1,17 @@
+{
+  "article_id": "183",
+  "comment_index": 20,
+  "raw_comment": "Talking to your parents is a good thing. do it more often.",
+  "ace_sentences": [
+    "Talking to your parents is a good thing.",
+    "You should do it more often."
+  ],
+  "source_mappings": {
+    "Talking to your parents is a good thing.": [
+      "Talking to your parents is a good thing."
+    ],
+    "You should do it more often.": [
+      "do it more often."
+    ]
+  }
+}

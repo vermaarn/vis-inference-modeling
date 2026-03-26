@@ -1,0 +1,45 @@
+{
+  "article_id": "35",
+  "comment_index": 127,
+  "raw_comment": "This graph shows the progression of the flowering buds of spring up through the nation. The process begins in the far southern regions as soon as January. The growing buds soon spreads northward on the eastern side of the nation as the state of California blooms into spring. The last place in the continental US to have its \"first leaves\" is the mid-west, which represents that the mid-west stays colder for the longest amount of time in the Continental US. A good title for this graph would be \"Blooming into Spring\".",
+  "ace_sentences": [
+    "This graph shows the progression of the flowering buds of spring.",
+    "The flowering buds of spring progress up through the nation.",
+    "The process begins in the far southern regions.",
+    "The process begins as soon as January.",
+    "The growing buds spread northward on the eastern side of the nation.",
+    "The state of California blooms into spring.",
+    "The last place in the continental US to have its first leaves is the mid-west.",
+    "The mid-west stays colder for the longest amount of time in the Continental US.",
+    "A good title for this graph would be Blooming into Spring."
+  ],
+  "source_mappings": {
+    "This graph shows the progression of the flowering buds of spring.": [
+      "This graph shows the progression of the flowering buds of spring"
+    ],
+    "The flowering buds of spring progress up through the nation.": [
+      "the progression of the flowering buds of spring up through the nation"
+    ],
+    "The process begins in the far southern regions.": [
+      "The process begins in the far southern regions"
+    ],
+    "The process begins as soon as January.": [
+      "as soon as January"
+    ],
+    "The growing buds spread northward on the eastern side of the nation.": [
+      "The growing buds soon spreads northward on the eastern side of the nation"
+    ],
+    "The state of California blooms into spring.": [
+      "the state of California blooms into spring"
+    ],
+    "The last place in the continental US to have its first leaves is the mid-west.": [
+      "The last place in the continental US to have its \"first leaves\" is the mid-west"
+    ],
+    "The mid-west stays colder for the longest amount of time in the Continental US.": [
+      "the mid-west stays colder for the longest amount of time in the Continental US"
+    ],
+    "A good title for this graph would be Blooming into Spring.": [
+      "A good title for this graph would be \"Blooming into Spring\""
+    ]
+  }
+}

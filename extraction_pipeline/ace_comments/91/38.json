@@ -1,0 +1,95 @@
+{
+  "article_id": "91",
+  "comment_index": 38,
+  "raw_comment": "I noticed that the majority of players in all sports, except for major league baseball, are players of color. Basketball in particular is dominated by people of color with an approximate 4:1 ratio for both genders, while baseball is almost equal but leaning towards white people with a 3:2 ratio. \nIn every poll, it is clear that the percentage of head coaches of color are significantly lower than the percentage of players of color. In National League Football, most of the players are of color (74%), whilst head coaches of color are only 13%. I wonder why is there such a noticeable difference between players of color and coaches of color? In the sports Major League Baseball and Major League Soccer, the percentage of head coaches of color are 20% lower than players of color. This is a smaller difference compared to the 60% difference in National League Football. As for Women's and Men's National Basketball Association, the percentage difference between coaches of color and players of color is around 50%. \nAlthough some differences are more noticeable than others, we can clearly see that people of color are less likely to be head coach in a major sports league. This has an impact on the community around us because it shows people of color have different opportunities to be in power than white people.\nAn interesting headline would be, \"Player of Colors vs. Head Coaches of Color in different major sports leagues\".",
+  "ace_sentences": [
+    "I noticed that the majority of players in all sports are players of color.",
+    "Major league baseball is an exception.",
+    "Basketball is dominated by people of color.",
+    "In basketball, the ratio is approximate 4:1 for both genders.",
+    "Baseball is almost equal.",
+    "Baseball is leaning towards white people.",
+    "In baseball, the ratio is 3:2.",
+    "In every poll, the percentage of head coaches of color is significantly lower than the percentage of players of color.",
+    "In National League Football, most of the players are of color.",
+    "In National League Football, head coaches of color are only 13%.",
+    "I wonder why there is such a noticeable difference between players of color and coaches of color.",
+    "In Major League Baseball, the percentage of head coaches of color is 20% lower than players of color.",
+    "In Major League Soccer, the percentage of head coaches of color is 20% lower than players of color.",
+    "This is a smaller difference compared to the 60% difference in National League Football.",
+    "As for Women's National Basketball Association, the percentage difference between coaches of color and players of color is around 50%.",
+    "As for Men's National Basketball Association, the percentage difference between coaches of color and players of color is around 50%.",
+    "Some differences are more noticeable than others.",
+    "We can clearly see that people of color are less likely to be head coach in a major sports league.",
+    "This has an impact on the community around us.",
+    "This shows that people of color have different opportunities to be in power than white people.",
+    "The headline would be \"Player of Colors vs. Head Coaches of Color in different major sports leagues\"."
+  ],
+  "source_mappings": {
+    "I noticed that the majority of players in all sports are players of color.": [
+      "I noticed that the majority of players in all sports, except for major league baseball, are players of color."
+    ],
+    "Major league baseball is an exception.": [
+      "except for major league baseball"
+    ],
+    "Basketball is dominated by people of color.": [
+      "Basketball in particular is dominated by people of color"
+    ],
+    "In basketball, the ratio is approximate 4:1 for both genders.": [
+      "an approximate 4:1 ratio for both genders"
+    ],
+    "Baseball is almost equal.": [
+      "baseball is almost equal"
+    ],
+    "Baseball is leaning towards white people.": [
+      "leaning towards white people"
+    ],
+    "In baseball, the ratio is 3:2.": [
+      "with a 3:2 ratio"
+    ],
+    "In every poll, the percentage of head coaches of color is significantly lower than the percentage of players of color.": [
+      "In every poll, it is clear that the percentage of head coaches of color are significantly lower than the percentage of players of color."
+    ],
+    "In National League Football, most of the players are of color.": [
+      "In National League Football, most of the players are of color (74%)"
+    ],
+    "In National League Football, head coaches of color are only 13%.": [
+      "head coaches of color are only 13%"
+    ],
+    "I wonder why there is such a noticeable difference between players of color and coaches of color.": [
+      "I wonder why is there such a noticeable difference between players of color and coaches of color?"
+    ],
+    "In Major League Baseball, the percentage of head coaches of color is 20% lower than players of color.": [
+      "In the sports Major League Baseball",
+      "the percentage of head coaches of color are 20% lower than players of color."
+    ],
+    "In Major League Soccer, the percentage of head coaches of color is 20% lower than players of color.": [
+      "and Major League Soccer, the percentage of head coaches of color are 20% lower than players of color."
+    ],
+    "This is a smaller difference compared to the 60% difference in National League Football.": [
+      "This is a smaller difference compared to the 60% difference in National League Football."
+    ],
+    "As for Women's National Basketball Association, the percentage difference between coaches of color and players of color is around 50%.": [
+      "As for Women's",
+      "National Basketball Association, the percentage difference between coaches of color and players of color is around 50%."
+    ],
+    "As for Men's National Basketball Association, the percentage difference between coaches of color and players of color is around 50%.": [
+      "and Men's National Basketball Association, the percentage difference between coaches of color and players of color is around 50%."
+    ],
+    "Some differences are more noticeable than others.": [
+      "Although some differences are more noticeable than others"
+    ],
+    "We can clearly see that people of color are less likely to be head coach in a major sports league.": [
+      "we can clearly see that people of color are less likely to be head coach in a major sports league."
+    ],
+    "This has an impact on the community around us.": [
+      "This has an impact on the community around us"
+    ],
+    "This shows that people of color have different opportunities to be in power than white people.": [
+      "it shows people of color have different opportunities to be in power than white people."
+    ],
+    "The headline would be \"Player of Colors vs. Head Coaches of Color in different major sports leagues\".": [
+      "An interesting headline would be, \"Player of Colors vs. Head Coaches of Color in different major sports leagues\"."
+    ]
+  }
+}

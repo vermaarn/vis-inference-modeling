@@ -1,0 +1,63 @@
+{
+  "article_id": "91",
+  "comment_index": 178,
+  "raw_comment": "I notice that the majority of major sports leagues are made up of players of color, except for the major league baseball. I wonder why sports leagues have decided until recent years that they want to diversify team leadership? This impacts me and my community because as a person of color myself who lives in a city with most of the population as minorities you truly get to see how far we've gotten into allowing people of color into sports leagues. Though this doesn't mean we've accomplished increasing diversity it does allow young colored children the ability to hope and see themselves as a professional athlete. In this graph were able to see the percentages of players and dead coaches of color in some of the biggest major sports leagues. A headline for the graphs may be, \"How people of colored have diversified major sports leagues.\"",
+  "ace_sentences": [
+    "I notice that the majority of major sports leagues are made up of players of color.",
+    "Major league baseball is an exception.",
+    "I wonder why sports leagues have decided until recent years that they want to diversify team leadership.",
+    "This impacts me and my community.",
+    "I am a person of color.",
+    "I live in a city with most of the population as minorities.",
+    "In this city, you truly get to see how far we have gotten into allowing people of color into sports leagues.",
+    "This does not mean that we have accomplished increasing diversity.",
+    "This allows young colored children the ability to hope.",
+    "This allows young colored children to see themselves as a professional athlete.",
+    "In this graph, we are able to see the percentages of players of color in some of the biggest major sports leagues.",
+    "In this graph, we are able to see the percentages of dead coaches of color in some of the biggest major sports leagues.",
+    "A headline for the graphs may be \"How people of colored have diversified major sports leagues\"."
+  ],
+  "source_mappings": {
+    "I notice that the majority of major sports leagues are made up of players of color.": [
+      "I notice that the majority of major sports leagues are made up of players of color"
+    ],
+    "Major league baseball is an exception.": [
+      "except for the major league baseball"
+    ],
+    "I wonder why sports leagues have decided until recent years that they want to diversify team leadership.": [
+      "I wonder why sports leagues have decided until recent years that they want to diversify team leadership?"
+    ],
+    "This impacts me and my community.": [
+      "This impacts me and my community"
+    ],
+    "I am a person of color.": [
+      "as a person of color myself"
+    ],
+    "I live in a city with most of the population as minorities.": [
+      "who lives in a city with most of the population as minorities"
+    ],
+    "In this city, you truly get to see how far we have gotten into allowing people of color into sports leagues.": [
+      "you truly get to see how far we've gotten into allowing people of color into sports leagues"
+    ],
+    "This does not mean that we have accomplished increasing diversity.": [
+      "Though this doesn't mean we've accomplished increasing diversity"
+    ],
+    "This allows young colored children the ability to hope.": [
+      "it does allow young colored children the ability to hope"
+    ],
+    "This allows young colored children to see themselves as a professional athlete.": [
+      "and see themselves as a professional athlete"
+    ],
+    "In this graph, we are able to see the percentages of players of color in some of the biggest major sports leagues.": [
+      "In this graph were able to see the percentages of players",
+      "of color in some of the biggest major sports leagues"
+    ],
+    "In this graph, we are able to see the percentages of dead coaches of color in some of the biggest major sports leagues.": [
+      "and dead coaches",
+      "of color in some of the biggest major sports leagues"
+    ],
+    "A headline for the graphs may be \"How people of colored have diversified major sports leagues\".": [
+      "A headline for the graphs may be, \"How people of colored have diversified major sports leagues.\""
+    ]
+  }
+}

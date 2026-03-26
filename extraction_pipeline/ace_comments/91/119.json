@@ -1,0 +1,97 @@
+{
+  "article_id": "91",
+  "comment_index": 119,
+  "raw_comment": "Part 2\nI wonder what the term “colored” is referring to. Does this refer to everyone who is non-caucasian or does this refer to only African Americans? I am curious about this because I wonder if the numbers would change, especially in the MLS since it is more popular in Europe and South America than in the United States. This also leads to the fact that since soccer is not among the top three most popular sports in the U.S. and the understanding that many players are not from America, is the reason why the numbers are more equal among people of color and non-color in both players and coaches? I also wonder why the data for the WNBA is from 2019 and not 2020 like the rest of the data. Is this not as accurate because of the Coronavirus?\n \nI am not oblivious to the fact that people of color are likely more athletic than those who are white. However, I do not think racism has played a factor in allowing someone of color to play. It is obvious to see this in the charts given that over half of the players are of color; except for the MLB.  I do, however, believe it plays a part in the coaching and managing staff. The impact this has on my community is to spread awareness of the lack of diversity clearly stated in the graphs displayed. There have been major changes within the past decades of player equality, but many sports organizations have been lacking the effort needed of adding more diversity in many of these leadership roles.",
+  "ace_sentences": [
+    "I wonder what the term \"colored\" refers to.",
+    "The term \"colored\" may refer to everyone who is non-caucasian.",
+    "The term \"colored\" may refer to only African Americans.",
+    "I am curious about this.",
+    "I wonder if the numbers would change.",
+    "The numbers would change especially in the MLS.",
+    "The MLS is more popular in Europe and South America than in the United States.",
+    "Soccer is not among the top three most popular sports in the U.S..",
+    "Many players are not from America.",
+    "I wonder if this is the reason why the numbers are more equal among people of color and non-color in both players and coaches.",
+    "I wonder why the data for the WNBA is from 2019.",
+    "The data for the WNBA is not from 2020.",
+    "The rest of the data is from 2020.",
+    "I ask if this is not as accurate because of the Coronavirus.",
+    "I am not oblivious to the fact that people of color are likely more athletic than those who are white.",
+    "However, I do not think racism has played a factor in allowing someone of color to play.",
+    "It is obvious to see this in the charts given that over half of the players are of color.",
+    "The MLB is an exception.",
+    "I believe that racism plays a part in the coaching and managing staff.",
+    "The impact this has on my community is to spread awareness of the lack of diversity clearly stated in the graphs displayed.",
+    "There have been major changes within the past decades of player equality.",
+    "However, many sports organizations have been lacking the effort needed of adding more diversity in many of these leadership roles."
+  ],
+  "source_mappings": {
+    "I wonder what the term \"colored\" refers to.": [
+      "I wonder what the term “colored” is referring to."
+    ],
+    "The term \"colored\" may refer to everyone who is non-caucasian.": [
+      "Does this refer to everyone who is non-caucasian"
+    ],
+    "The term \"colored\" may refer to only African Americans.": [
+      "does this refer to only African Americans?"
+    ],
+    "I am curious about this.": [
+      "I am curious about this"
+    ],
+    "I wonder if the numbers would change.": [
+      "I wonder if the numbers would change"
+    ],
+    "The numbers would change especially in the MLS.": [
+      "especially in the MLS"
+    ],
+    "The MLS is more popular in Europe and South America than in the United States.": [
+      "the MLS since it is more popular in Europe and South America than in the United States"
+    ],
+    "Soccer is not among the top three most popular sports in the U.S..": [
+      "since soccer is not among the top three most popular sports in the U.S."
+    ],
+    "Many players are not from America.": [
+      "many players are not from America"
+    ],
+    "I wonder if this is the reason why the numbers are more equal among people of color and non-color in both players and coaches.": [
+      "is the reason why the numbers are more equal among people of color and non-color in both players and coaches?"
+    ],
+    "I wonder why the data for the WNBA is from 2019.": [
+      "I also wonder why the data for the WNBA is from 2019"
+    ],
+    "The data for the WNBA is not from 2020.": [
+      "and not 2020"
+    ],
+    "The rest of the data is from 2020.": [
+      "like the rest of the data"
+    ],
+    "I ask if this is not as accurate because of the Coronavirus.": [
+      "Is this not as accurate because of the Coronavirus?"
+    ],
+    "I am not oblivious to the fact that people of color are likely more athletic than those who are white.": [
+      "I am not oblivious to the fact that people of color are likely more athletic than those who are white."
+    ],
+    "However, I do not think racism has played a factor in allowing someone of color to play.": [
+      "However, I do not think racism has played a factor in allowing someone of color to play."
+    ],
+    "It is obvious to see this in the charts given that over half of the players are of color.": [
+      "It is obvious to see this in the charts given that over half of the players are of color;"
+    ],
+    "The MLB is an exception.": [
+      "except for the MLB."
+    ],
+    "I believe that racism plays a part in the coaching and managing staff.": [
+      "I do, however, believe it plays a part in the coaching and managing staff."
+    ],
+    "The impact this has on my community is to spread awareness of the lack of diversity clearly stated in the graphs displayed.": [
+      "The impact this has on my community is to spread awareness of the lack of diversity clearly stated in the graphs displayed."
+    ],
+    "There have been major changes within the past decades of player equality.": [
+      "There have been major changes within the past decades of player equality"
+    ],
+    "However, many sports organizations have been lacking the effort needed of adding more diversity in many of these leadership roles.": [
+      "but many sports organizations have been lacking the effort needed of adding more diversity in many of these leadership roles."
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "article_id": "183",
+  "comment_index": 76,
+  "raw_comment": "I notice that 50% of males say that they reach out to their parents through text at least once a week, while it’s around 70% for females. For phone calls, 30% of males do so at least once a week, and 55% of females do so. Even less percentages visit their parents once a week, with about 20% of males and 25% of females doing so.\n\nI wonder why the gap between the percentages decreases so significantly when it comes to in person visiting, but expands vastly when it comes to texting. \n\nThe graph shows me different ways people around my age engage with their family during weekly periods. It reminds me of the different ways I myself can contact my parents, and the observed low percentage of males who contact their parents encourages me to do so more.\n\nHeadline:\n\"Keeping Ties Strong: Gender Trends in Weekly Parental Contact Across Communication Channels\"",
+  "ace_sentences": [
+    "50% of males say that they reach out to their parents through text at least once a week.",
+    "It is around 70% for females.",
+    "For phone calls, 30% of males do so at least once a week.",
+    "55% of females do so at least once a week.",
+    "Less percentages visit their parents once a week.",
+    "About 20% of males visit their parents once a week.",
+    "25% of females visit their parents once a week.",
+    "I wonder why the gap between the percentages decreases significantly when it comes to in person visiting.",
+    "I wonder why the gap between the percentages expands vastly when it comes to texting.",
+    "The graph shows me different ways.",
+    "People around my age engage with their family during weekly periods.",
+    "The graph reminds me of the different ways I myself can contact my parents.",
+    "The observed low percentage of males who contact their parents encourages me to do so more.",
+    "The headline is:",
+    "Keeping Ties Strong: Gender Trends in Weekly Parental Contact Across Communication Channels."
+  ],
+  "source_mappings": {
+    "50% of males say that they reach out to their parents through text at least once a week.": [
+      "50% of males say that they reach out to their parents through text at least once a week"
+    ],
+    "It is around 70% for females.": [
+      "it’s around 70% for females"
+    ],
+    "For phone calls, 30% of males do so at least once a week.": [
+      "For phone calls, 30% of males do so at least once a week"
+    ],
+    "55% of females do so at least once a week.": [
+      "55% of females do so"
+    ],
+    "Less percentages visit their parents once a week.": [
+      "Even less percentages visit their parents once a week"
+    ],
+    "About 20% of males visit their parents once a week.": [
+      "about 20% of males"
+    ],
+    "25% of females visit their parents once a week.": [
+      "25% of females doing so"
+    ],
+    "I wonder why the gap between the percentages decreases significantly when it comes to in person visiting.": [
+      "I wonder why the gap between the percentages decreases so significantly when it comes to in person visiting"
+    ],
+    "I wonder why the gap between the percentages expands vastly when it comes to texting.": [
+      "but expands vastly when it comes to texting"
+    ],
+    "The graph shows me different ways.": [
+      "The graph shows me different ways"
+    ],
+    "People around my age engage with their family during weekly periods.": [
+      "people around my age engage with their family during weekly periods"
+    ],
+    "The graph reminds me of the different ways I myself can contact my parents.": [
+      "It reminds me of the different ways I myself can contact my parents"
+    ],
+    "The observed low percentage of males who contact their parents encourages me to do so more.": [
+      "the observed low percentage of males who contact their parents encourages me to do so more"
+    ],
+    "The headline is:": [
+      "Headline:"
+    ],
+    "Keeping Ties Strong: Gender Trends in Weekly Parental Contact Across Communication Channels.": [
+      "Keeping Ties Strong: Gender Trends in Weekly Parental Contact Across Communication Channels"
+    ]
+  }
+}

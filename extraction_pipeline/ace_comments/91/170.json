@@ -1,0 +1,49 @@
+{
+  "article_id": "91",
+  "comment_index": 170,
+  "raw_comment": "i notice that the players of color in each sports league contains more than 50 percent except for the major baseball league I also notice that the head coaches of color is very low compared to the number of players.\n\nI wonder why there is such a big difference in the baseball league compared to the other sports league in terms of players. I also wonder why there is such a lack of white people in the leagues because the majority of people in America are white.\n\nThis may infer that people of color are more talented when it comes to sports and that the athletes who surround me and are people of color may have a chance at becoming part of sports leagues.\n\ndiversity in sports.",
+  "ace_sentences": [
+    "I notice that the players of color in each sports league contain more than 50 percent.",
+    "The major baseball league is an exception.",
+    "I also notice that the number of head coaches of color is very low compared to the number of players.",
+    "I wonder why there is a big difference in the baseball league compared to the other sports league in terms of players.",
+    "I also wonder why there is a lack of white people in the leagues.",
+    "The majority of people in America are white.",
+    "This may infer that people of color are more talented when it comes to sports.",
+    "The athletes who surround me are people of color.",
+    "These athletes may have a chance at becoming part of sports leagues.",
+    "Diversity exists in sports."
+  ],
+  "source_mappings": {
+    "I notice that the players of color in each sports league contain more than 50 percent.": [
+      "i notice that the players of color in each sports league contains more than 50 percent"
+    ],
+    "The major baseball league is an exception.": [
+      "except for the major baseball league"
+    ],
+    "I also notice that the number of head coaches of color is very low compared to the number of players.": [
+      "I also notice that the head coaches of color is very low compared to the number of players."
+    ],
+    "I wonder why there is a big difference in the baseball league compared to the other sports league in terms of players.": [
+      "I wonder why there is such a big difference in the baseball league compared to the other sports league in terms of players."
+    ],
+    "I also wonder why there is a lack of white people in the leagues.": [
+      "I also wonder why there is such a lack of white people in the leagues"
+    ],
+    "The majority of people in America are white.": [
+      "the majority of people in America are white."
+    ],
+    "This may infer that people of color are more talented when it comes to sports.": [
+      "This may infer that people of color are more talented when it comes to sports"
+    ],
+    "The athletes who surround me are people of color.": [
+      "the athletes who surround me and are people of color"
+    ],
+    "These athletes may have a chance at becoming part of sports leagues.": [
+      "may have a chance at becoming part of sports leagues."
+    ],
+    "Diversity exists in sports.": [
+      "diversity in sports."
+    ]
+  }
+}

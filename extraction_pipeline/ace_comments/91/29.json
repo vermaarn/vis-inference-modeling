@@ -1,0 +1,75 @@
+{
+  "article_id": "91",
+  "comment_index": 29,
+  "raw_comment": "1. What I noticed about this graph was that basketball had the most players of color while baseball had the least.  I also noticed that soccer had the most coaches of color as well.  Both women's and men's basketball have the same number of players of color.  Finally, I noticed that football had the least coaches of color with the third highest players of color\n\n2. Some things I wonder is why basketball has the most players of color and why baseball has the least amount of players of color.  Another thing I wonder is why football has the least amount of coaches of color and why soccer has the most coaches of color.\n\n3. The impact this has on me isn't that great.  Although I play basketball and is a man of color, it still doesn't affect me in any way just because of my skin color.  \n\n4. What's going on in the graph is that it's showing the percentage of people of color who play professional sports.  A catchy title or headline for this graph would be, \"Percentages of colored people in professional sports\"",
+  "ace_sentences": [
+    "The graph shows that basketball had the most players of color.",
+    "The graph shows that baseball had the least players of color.",
+    "The graph shows that soccer had the most coaches of color.",
+    "Women's basketball and men's basketball have the same number of players of color.",
+    "The graph shows that football had the least coaches of color.",
+    "The graph shows that football had the third highest players of color.",
+    "I wonder why basketball has the most players of color.",
+    "I wonder why baseball has the least amount of players of color.",
+    "I wonder why football has the least amount of coaches of color.",
+    "I wonder why soccer has the most coaches of color.",
+    "The impact of this on me is not great.",
+    "I play basketball.",
+    "I am a man of color.",
+    "This does not affect me in any way because of my skin color.",
+    "The graph shows the percentage of people of color who play professional sports.",
+    "A catchy title or headline for this graph would be \"Percentages of colored people in professional sports\"."
+  ],
+  "source_mappings": {
+    "The graph shows that basketball had the most players of color.": [
+      "this graph",
+      "basketball had the most players of color"
+    ],
+    "The graph shows that baseball had the least players of color.": [
+      "this graph",
+      "baseball had the least"
+    ],
+    "The graph shows that soccer had the most coaches of color.": [
+      "soccer had the most coaches of color"
+    ],
+    "Women's basketball and men's basketball have the same number of players of color.": [
+      "Both women's and men's basketball have the same number of players of color."
+    ],
+    "The graph shows that football had the least coaches of color.": [
+      "football had the least coaches of color"
+    ],
+    "The graph shows that football had the third highest players of color.": [
+      "football had the least coaches of color with the third highest players of color"
+    ],
+    "I wonder why basketball has the most players of color.": [
+      "why basketball has the most players of color"
+    ],
+    "I wonder why baseball has the least amount of players of color.": [
+      "why baseball has the least amount of players of color"
+    ],
+    "I wonder why football has the least amount of coaches of color.": [
+      "why football has the least amount of coaches of color"
+    ],
+    "I wonder why soccer has the most coaches of color.": [
+      "why soccer has the most coaches of color"
+    ],
+    "The impact of this on me is not great.": [
+      "The impact this has on me isn't that great."
+    ],
+    "I play basketball.": [
+      "I play basketball"
+    ],
+    "I am a man of color.": [
+      "is a man of color"
+    ],
+    "This does not affect me in any way because of my skin color.": [
+      "it still doesn't affect me in any way just because of my skin color."
+    ],
+    "The graph shows the percentage of people of color who play professional sports.": [
+      "it's showing the percentage of people of color who play professional sports."
+    ],
+    "A catchy title or headline for this graph would be \"Percentages of colored people in professional sports\".": [
+      "A catchy title or headline for this graph would be, \"Percentages of colored people in professional sports\""
+    ]
+  }
+}

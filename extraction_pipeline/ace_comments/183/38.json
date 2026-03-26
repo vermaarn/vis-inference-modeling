@@ -1,0 +1,124 @@
+{
+  "article_id": "183",
+  "comment_index": 38,
+  "raw_comment": "What I notice is how the percentage of young people who reach out to their parents at least once a day or few days a week is particularly dominated by women. Whether its sending texts, phone or video-chat, or a visit in person, women always tend to do so more then men and some by a large margin. What I wonder is if the percentages have increased or decreased over time by both men and women of how often they reach out to their parents.  Also if visiting in person decreased when more kids started getting phones. What's going on in this graph is it is trying to show the different ways young people will reach out to their parents, characterizing it by gender, and showing the percentage difference between men and women and how men truly do not seem to reach out as much as women. This relates to my community because I have siblings and I think my sister, who is out of the house, and I reach out more then my brother does. We also would tend to see them in person more rather then call or text. \nCatchy headline: \"Incoming call, it's your parents! Accept or Decline?\"",
+  "ace_sentences": [
+    "I notice a percentage.",
+    "The percentage is a percentage of young people.",
+    "These young people reach out to their parents at least once a day.",
+    "These young people reach out to their parents a few days a week.",
+    "This percentage is particularly dominated by women.",
+    "Young people send texts to their parents.",
+    "Young people phone their parents.",
+    "Young people video-chat with their parents.",
+    "Young people visit their parents in person.",
+    "Women always tend to reach out to their parents more than men.",
+    "Some women tend to reach out to their parents more than men by a large margin.",
+    "I wonder if the percentages have increased over time.",
+    "I wonder if the percentages have decreased over time.",
+    "These percentages are percentages of how often men reach out to their parents.",
+    "These percentages are percentages of how often women reach out to their parents.",
+    "I wonder if visiting in person decreased when more kids started getting phones.",
+    "This graph tries to show the different ways.",
+    "These ways are ways that young people will reach out to their parents.",
+    "This graph characterizes these ways by gender.",
+    "This graph shows the percentage difference between men and women.",
+    "Men truly do not seem to reach out as much as women.",
+    "This relates to my community.",
+    "I have siblings.",
+    "I think that my sister reaches out more than my brother does.",
+    "My sister is out of the house.",
+    "I reach out more than my brother does.",
+    "We tend to see them in person more rather than call or text.",
+    "The headline is \"Incoming call, it's your parents! Accept or Decline?\"."
+  ],
+  "source_mappings": {
+    "I notice a percentage.": [
+      "What I notice is how the percentage"
+    ],
+    "The percentage is a percentage of young people.": [
+      "the percentage of young people"
+    ],
+    "These young people reach out to their parents at least once a day.": [
+      "reach out to their parents at least once a day"
+    ],
+    "These young people reach out to their parents a few days a week.": [
+      "few days a week"
+    ],
+    "This percentage is particularly dominated by women.": [
+      "is particularly dominated by women"
+    ],
+    "Young people send texts to their parents.": [
+      "sending texts"
+    ],
+    "Young people phone their parents.": [
+      "phone"
+    ],
+    "Young people video-chat with their parents.": [
+      "video-chat"
+    ],
+    "Young people visit their parents in person.": [
+      "a visit in person"
+    ],
+    "Women always tend to reach out to their parents more than men.": [
+      "women always tend to do so more then men"
+    ],
+    "Some women tend to reach out to their parents more than men by a large margin.": [
+      "some by a large margin"
+    ],
+    "I wonder if the percentages have increased over time.": [
+      "What I wonder is if the percentages have increased"
+    ],
+    "I wonder if the percentages have decreased over time.": [
+      "or decreased over time"
+    ],
+    "These percentages are percentages of how often men reach out to their parents.": [
+      "by both men",
+      "of how often they reach out to their parents"
+    ],
+    "These percentages are percentages of how often women reach out to their parents.": [
+      "and women",
+      "of how often they reach out to their parents"
+    ],
+    "I wonder if visiting in person decreased when more kids started getting phones.": [
+      "Also if visiting in person decreased when more kids started getting phones."
+    ],
+    "This graph tries to show the different ways.": [
+      "What's going on in this graph is it is trying to show the different ways"
+    ],
+    "These ways are ways that young people will reach out to their parents.": [
+      "young people will reach out to their parents"
+    ],
+    "This graph characterizes these ways by gender.": [
+      "characterizing it by gender"
+    ],
+    "This graph shows the percentage difference between men and women.": [
+      "showing the percentage difference between men and women"
+    ],
+    "Men truly do not seem to reach out as much as women.": [
+      "how men truly do not seem to reach out as much as women"
+    ],
+    "This relates to my community.": [
+      "This relates to my community"
+    ],
+    "I have siblings.": [
+      "because I have siblings"
+    ],
+    "I think that my sister reaches out more than my brother does.": [
+      "I think my sister",
+      "reach out more then my brother does"
+    ],
+    "My sister is out of the house.": [
+      "my sister, who is out of the house,"
+    ],
+    "I reach out more than my brother does.": [
+      "and I reach out more then my brother does"
+    ],
+    "We tend to see them in person more rather than call or text.": [
+      "We also would tend to see them in person more rather then call or text."
+    ],
+    "The headline is \"Incoming call, it's your parents! Accept or Decline?\".": [
+      "Catchy headline: \"Incoming call, it's your parents! Accept or Decline?\""
+    ]
+  }
+}

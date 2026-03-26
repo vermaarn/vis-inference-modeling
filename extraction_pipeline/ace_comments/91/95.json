@@ -1,0 +1,41 @@
+{
+  "article_id": "91",
+  "comment_index": 95,
+  "raw_comment": "From this graph I notice that there are more players of color than there are head coaches of color. I wonder how these graphs might be different if they did them in past years. I think there would be a huge difference. This affects my community because this reflects racism in today's world. This shows that even though we are all supposed to be equal we still aren't. My headline for this graph would be \"Racism on the Field\".",
+  "ace_sentences": [
+    "I notice from this graph that there are more players of color than head coaches of color.",
+    "I wonder how these graphs might be different if they did them in past years.",
+    "I think that there would be a huge difference.",
+    "This affects my community.",
+    "This reflects racism in today's world.",
+    "This shows that we are all supposed to be equal.",
+    "However, we still are not equal.",
+    "My headline for this graph is \"Racism on the Field\"."
+  ],
+  "source_mappings": {
+    "I notice from this graph that there are more players of color than head coaches of color.": [
+      "From this graph I notice that there are more players of color than there are head coaches of color."
+    ],
+    "I wonder how these graphs might be different if they did them in past years.": [
+      "I wonder how these graphs might be different if they did them in past years."
+    ],
+    "I think that there would be a huge difference.": [
+      "I think there would be a huge difference."
+    ],
+    "This affects my community.": [
+      "This affects my community"
+    ],
+    "This reflects racism in today's world.": [
+      "this reflects racism in today's world."
+    ],
+    "This shows that we are all supposed to be equal.": [
+      "This shows that even though we are all supposed to be equal"
+    ],
+    "However, we still are not equal.": [
+      "we still aren't."
+    ],
+    "My headline for this graph is \"Racism on the Field\".": [
+      "My headline for this graph would be \"Racism on the Field\""
+    ]
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "article_id": "91",
+  "comment_index": 7,
+  "raw_comment": "I noticed that in all the leagues except the MLB colored people were the majority of the players. I also noticed that in all the leagues, non colored people were the minority. \n\nI wonder why the percentage of colored head coaches for all the leagues are under 50%. I also wonder why baseball is the only league shown that doesn't have a colored people majority in players.\n\nThis graph impacts my community positively, because it tells us that majority of the players in most leagues are colored people. However, it also impacts me and my community negatively, because it is shown in all the leagues that colored people aren't the majority, or are a low percentage of the total head coaches. This shows that colored people are mainly the players, and not as many colored people are able to be head coaches.\n\nMy title for this graph is: \"Are most  colored people subjective to being players, and not head coaches in leagues?\"",
+  "ace_sentences": [
+    "In all the leagues except the MLB, colored people were the majority of the players.",
+    "In all the leagues, non colored people were the minority.",
+    "The percentage of colored head coaches for all the leagues is under 50%.",
+    "Baseball is the only league shown that does not have a colored people majority in players.",
+    "This graph impacts my community positively.",
+    "This graph tells us that the majority of the players in most leagues are colored people.",
+    "This graph impacts me negatively.",
+    "This graph impacts my community negatively.",
+    "In all the leagues, colored people are not the majority of the total head coaches.",
+    "In all the leagues, colored people are a low percentage of the total head coaches.",
+    "This shows that colored people are mainly the players.",
+    "This shows that not as many colored people are able to be head coaches.",
+    "The title for this graph is:",
+    "Are most colored people subjective to being players, and not head coaches in leagues?"
+  ],
+  "source_mappings": {
+    "In all the leagues except the MLB, colored people were the majority of the players.": [
+      "in all the leagues except the MLB colored people were the majority of the players"
+    ],
+    "In all the leagues, non colored people were the minority.": [
+      "in all the leagues, non colored people were the minority"
+    ],
+    "The percentage of colored head coaches for all the leagues is under 50%.": [
+      "the percentage of colored head coaches for all the leagues are under 50%"
+    ],
+    "Baseball is the only league shown that does not have a colored people majority in players.": [
+      "baseball is the only league shown that doesn't have a colored people majority in players"
+    ],
+    "This graph impacts my community positively.": [
+      "This graph impacts my community positively"
+    ],
+    "This graph tells us that the majority of the players in most leagues are colored people.": [
+      "it tells us that majority of the players in most leagues are colored people"
+    ],
+    "This graph impacts me negatively.": [
+      "it also impacts me"
+    ],
+    "This graph impacts my community negatively.": [
+      "my community negatively"
+    ],
+    "In all the leagues, colored people are not the majority of the total head coaches.": [
+      "it is shown in all the leagues that colored people aren't the majority"
+    ],
+    "In all the leagues, colored people are a low percentage of the total head coaches.": [
+      "are a low percentage of the total head coaches"
+    ],
+    "This shows that colored people are mainly the players.": [
+      "This shows that colored people are mainly the players"
+    ],
+    "This shows that not as many colored people are able to be head coaches.": [
+      "not as many colored people are able to be head coaches"
+    ],
+    "The title for this graph is:": [
+      "My title for this graph is:"
+    ],
+    "Are most colored people subjective to being players, and not head coaches in leagues?": [
+      "Are most  colored people subjective to being players, and not head coaches in leagues?"
+    ]
+  }
+}

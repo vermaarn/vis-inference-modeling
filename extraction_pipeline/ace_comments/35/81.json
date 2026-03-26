@@ -1,0 +1,17 @@
+{
+  "article_id": "35",
+  "comment_index": 81,
+  "raw_comment": "I wonder what month Hawaii would have the first leaves.",
+  "ace_sentences": [
+    "I wonder about the month.",
+    "Hawaii would have the first leaves in that month."
+  ],
+  "source_mappings": {
+    "I wonder about the month.": [
+      "I wonder what month"
+    ],
+    "Hawaii would have the first leaves in that month.": [
+      "Hawaii would have the first leaves"
+    ]
+  }
+}

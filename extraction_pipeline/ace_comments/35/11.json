@@ -1,0 +1,38 @@
+{
+  "article_id": "35",
+  "comment_index": 11,
+  "raw_comment": "The new article gives us a more clear idea of why the southern states receive more leaves and their spring faster than we do. After reading this we realized possibilities that the world offers for a faster spring in southern states, we also learned that places collect phenology data to prove why they contain a faster spring.",
+  "ace_sentences": [
+    "The new article gives us a clearer idea.",
+    "The new article gives us a clearer idea of why the southern states receive more leaves than we do.",
+    "The new article gives us a clearer idea of why the spring in the southern states is faster than the spring for us.",
+    "After reading this, we realized possibilities.",
+    "After reading this, we realized possibilities that the world offers for a faster spring in southern states.",
+    "We learned that places collect phenology data.",
+    "Places collect phenology data to prove why they contain a faster spring."
+  ],
+  "source_mappings": {
+    "The new article gives us a clearer idea.": [
+      "The new article gives us a more clear idea"
+    ],
+    "The new article gives us a clearer idea of why the southern states receive more leaves than we do.": [
+      "why the southern states receive more leaves",
+      "than we do"
+    ],
+    "The new article gives us a clearer idea of why the spring in the southern states is faster than the spring for us.": [
+      "their spring faster than we do"
+    ],
+    "After reading this, we realized possibilities.": [
+      "After reading this we realized possibilities"
+    ],
+    "After reading this, we realized possibilities that the world offers for a faster spring in southern states.": [
+      "possibilities that the world offers for a faster spring in southern states"
+    ],
+    "We learned that places collect phenology data.": [
+      "we also learned that places collect phenology data"
+    ],
+    "Places collect phenology data to prove why they contain a faster spring.": [
+      "places collect phenology data to prove why they contain a faster spring"
+    ]
+  }
+}

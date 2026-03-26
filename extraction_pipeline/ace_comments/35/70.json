@@ -1,0 +1,35 @@
+{
+  "article_id": "35",
+  "comment_index": 70,
+  "raw_comment": "Notice: In the southern parts of the U.S.A. the first leaves come first, because it is closest to the equator and leaves need warmth to grow.\nWonder: What months do Alaska and Hawaii bloom their first leaves in.\nMy catchy title would be Heaps of leaves",
+  "ace_sentences": [
+    "In the southern parts of the U.S.A., the first leaves come first.",
+    "The southern parts of the U.S.A. are closest to the equator.",
+    "Leaves need warmth to grow.",
+    "I wonder what months Alaska blooms its first leaves in.",
+    "I wonder what months Hawaii blooms its first leaves in.",
+    "My catchy title would be Heaps of leaves."
+  ],
+  "source_mappings": {
+    "In the southern parts of the U.S.A., the first leaves come first.": [
+      "In the southern parts of the U.S.A. the first leaves come first"
+    ],
+    "The southern parts of the U.S.A. are closest to the equator.": [
+      "it is closest to the equator"
+    ],
+    "Leaves need warmth to grow.": [
+      "leaves need warmth to grow"
+    ],
+    "I wonder what months Alaska blooms its first leaves in.": [
+      "What months do Alaska",
+      "bloom their first leaves in"
+    ],
+    "I wonder what months Hawaii blooms its first leaves in.": [
+      "and Hawaii",
+      "bloom their first leaves in"
+    ],
+    "My catchy title would be Heaps of leaves.": [
+      "My catchy title would be Heaps of leaves"
+    ]
+  }
+}

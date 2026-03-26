@@ -1,0 +1,41 @@
+{
+  "article_id": "35",
+  "comment_index": 105,
+  "raw_comment": "I noticed that:\n- The western coast was spread out and scattered, whereas the eastern and most central states were spread out more flatly or thoroughly.",
+  "ace_sentences": [
+    "I noticed something.",
+    "The western coast was spread out.",
+    "The western coast was scattered.",
+    "The eastern states were spread out more flatly.",
+    "The eastern states were spread out more thoroughly.",
+    "Most central states were spread out more flatly.",
+    "Most central states were spread out more thoroughly."
+  ],
+  "source_mappings": {
+    "I noticed something.": [
+      "I noticed that:"
+    ],
+    "The western coast was spread out.": [
+      "The western coast was spread out"
+    ],
+    "The western coast was scattered.": [
+      "scattered"
+    ],
+    "The eastern states were spread out more flatly.": [
+      "the eastern",
+      "states were spread out more flatly"
+    ],
+    "The eastern states were spread out more thoroughly.": [
+      "the eastern",
+      "states were spread out more",
+      "thoroughly"
+    ],
+    "Most central states were spread out more flatly.": [
+      "most central states were spread out more flatly"
+    ],
+    "Most central states were spread out more thoroughly.": [
+      "most central states were spread out more",
+      "thoroughly"
+    ]
+  }
+}

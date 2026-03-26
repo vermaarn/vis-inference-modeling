@@ -1,0 +1,26 @@
+{
+  "article_id": "35",
+  "comment_index": 42,
+  "raw_comment": "I noticed that the southern states received their leaves sooner than the northern states. I wonder why some states in the middle receive leaves later than others. A logical answer to this inquiry would be mountain ranges and precipitation.",
+  "ace_sentences": [
+    "I noticed that the southern states received their leaves sooner than the northern states.",
+    "I wonder why some states in the middle receive leaves later than other states.",
+    "Mountain ranges can be a logical answer to this inquiry.",
+    "Precipitation can be a logical answer to this inquiry."
+  ],
+  "source_mappings": {
+    "I noticed that the southern states received their leaves sooner than the northern states.": [
+      "I noticed that the southern states received their leaves sooner than the northern states."
+    ],
+    "I wonder why some states in the middle receive leaves later than other states.": [
+      "I wonder why some states in the middle receive leaves later than others."
+    ],
+    "Mountain ranges can be a logical answer to this inquiry.": [
+      "A logical answer to this inquiry would be mountain ranges"
+    ],
+    "Precipitation can be a logical answer to this inquiry.": [
+      "A logical answer to this inquiry would be",
+      "precipitation."
+    ]
+  }
+}

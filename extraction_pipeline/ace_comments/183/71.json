@@ -1,0 +1,91 @@
+{
+  "article_id": "183",
+  "comment_index": 71,
+  "raw_comment": "This graph provides fascinating insights into the communication habits of young adults aged 18-34 who live independently from their parents. The data highlights notable differences between genders in their preferred methods of maintaining regular contact.\nAmong young women, texting emerges as the dominant mode of communication, with 100% reaching out to a parent via text at least once a day or a few times per week. In comparison, only around 75% of young men exhibit the same texting frequency. Young men show a higher inclination towards phone or video chats, with approximately 75% using these methods regularly, as opposed to only about 50% of young women.\nInterestingly, despite the prevalence of digital communication, a significant proportion of both genders, roughly 25%, still prioritize in-person visits with parents at least once a day or a few times weekly. This underscores the persistent value placed on face-to-face interaction in fostering close family ties. \nThe data presents a nuanced picture of a generation navigating independence while striving to maintain strong parental connections. \n\nAn interesting title may be: The Talk: Do Young Men or Women Talk More with Their Parents",
+  "ace_sentences": [
+    "This graph provides insights into the communication habits of young adults.",
+    "These young adults are aged 18-34.",
+    "These young adults live independently from their parents.",
+    "The data highlights differences between genders.",
+    "The data highlights differences between genders in preferred methods of maintaining regular contact.",
+    "Among young women, texting is the dominant mode of communication.",
+    "Among young women, 100% reach out to a parent via text at least once a day.",
+    "Among young women, 100% reach out to a parent via text a few times per week.",
+    "Only around 75% of young men exhibit the same texting frequency.",
+    "Young men show a higher inclination towards phone or video chats.",
+    "Approximately 75% of young men use phone or video chats regularly.",
+    "Only about 50% of young women use phone or video chats regularly.",
+    "A significant proportion of both genders still prioritize in-person visits with parents at least once a day.",
+    "A significant proportion of both genders still prioritize in-person visits with parents a few times weekly.",
+    "This underscores the persistent value placed on face-to-face interaction.",
+    "Face-to-face interaction fosters close family ties.",
+    "The data presents a nuanced picture of a generation.",
+    "This generation navigates independence.",
+    "This generation strives to maintain strong parental connections.",
+    "The title may be: The Talk: Do Young Men or Women Talk More with Their Parents."
+  ],
+  "source_mappings": {
+    "This graph provides insights into the communication habits of young adults.": [
+      "This graph provides fascinating insights into the communication habits of young adults"
+    ],
+    "These young adults are aged 18-34.": [
+      "aged 18-34"
+    ],
+    "These young adults live independently from their parents.": [
+      "who live independently from their parents"
+    ],
+    "The data highlights differences between genders.": [
+      "The data highlights notable differences between genders"
+    ],
+    "The data highlights differences between genders in preferred methods of maintaining regular contact.": [
+      "in their preferred methods of maintaining regular contact"
+    ],
+    "Among young women, texting is the dominant mode of communication.": [
+      "Among young women, texting emerges as the dominant mode of communication"
+    ],
+    "Among young women, 100% reach out to a parent via text at least once a day.": [
+      "with 100% reaching out to a parent via text at least once a day"
+    ],
+    "Among young women, 100% reach out to a parent via text a few times per week.": [
+      "with 100% reaching out to a parent via text",
+      "a few times per week"
+    ],
+    "Only around 75% of young men exhibit the same texting frequency.": [
+      "only around 75% of young men exhibit the same texting frequency"
+    ],
+    "Young men show a higher inclination towards phone or video chats.": [
+      "Young men show a higher inclination towards phone or video chats"
+    ],
+    "Approximately 75% of young men use phone or video chats regularly.": [
+      "with approximately 75% using these methods regularly"
+    ],
+    "Only about 50% of young women use phone or video chats regularly.": [
+      "only about 50% of young women"
+    ],
+    "A significant proportion of both genders still prioritize in-person visits with parents at least once a day.": [
+      "a significant proportion of both genders, roughly 25%, still prioritize in-person visits with parents at least once a day"
+    ],
+    "A significant proportion of both genders still prioritize in-person visits with parents a few times weekly.": [
+      "a significant proportion of both genders, roughly 25%, still prioritize in-person visits with parents",
+      "a few times weekly"
+    ],
+    "This underscores the persistent value placed on face-to-face interaction.": [
+      "This underscores the persistent value placed on face-to-face interaction"
+    ],
+    "Face-to-face interaction fosters close family ties.": [
+      "in fostering close family ties"
+    ],
+    "The data presents a nuanced picture of a generation.": [
+      "The data presents a nuanced picture of a generation"
+    ],
+    "This generation navigates independence.": [
+      "a generation navigating independence"
+    ],
+    "This generation strives to maintain strong parental connections.": [
+      "while striving to maintain strong parental connections"
+    ],
+    "The title may be: The Talk: Do Young Men or Women Talk More with Their Parents.": [
+      "An interesting title may be: The Talk: Do Young Men or Women Talk More with Their Parents"
+    ]
+  }
+}

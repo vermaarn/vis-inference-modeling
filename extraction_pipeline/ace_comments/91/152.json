@@ -1,0 +1,38 @@
+{
+  "article_id": "91",
+  "comment_index": 152,
+  "raw_comment": "What do you notice?\nThere is a higher percentage of players than coaches, and a lower percentage in both players and coaches in the baseball league\nWhat do you wonder?\nWe wonder why are there less head coaches of colour than players?\nImpact on community?\n Less percentage of people of colour in the higher positions like coaches. Need more representation in those jobs of power.\nWhat is going on in this graph?\nThey are comparing the percentages of players of colour & head coaches of colour in different sports leagues.\nCatchy Title:\nThe Colour of Sports",
+  "ace_sentences": [
+    "There is a higher percentage of players than coaches.",
+    "There is a lower percentage in both players and coaches in the baseball league.",
+    "We wonder why there are less head coaches of colour than players.",
+    "There is a less percentage of people of colour in the higher positions like coaches.",
+    "People need more representation in those jobs of power.",
+    "They compare the percentages of players of colour and head coaches of colour in different sports leagues.",
+    "The title is The Colour of Sports."
+  ],
+  "source_mappings": {
+    "There is a higher percentage of players than coaches.": [
+      "There is a higher percentage of players than coaches"
+    ],
+    "There is a lower percentage in both players and coaches in the baseball league.": [
+      "a lower percentage in both players and coaches in the baseball league"
+    ],
+    "We wonder why there are less head coaches of colour than players.": [
+      "We wonder why are there less head coaches of colour than players?"
+    ],
+    "There is a less percentage of people of colour in the higher positions like coaches.": [
+      "Less percentage of people of colour in the higher positions like coaches."
+    ],
+    "People need more representation in those jobs of power.": [
+      "Need more representation in those jobs of power."
+    ],
+    "They compare the percentages of players of colour and head coaches of colour in different sports leagues.": [
+      "They are comparing the percentages of players of colour & head coaches of colour in different sports leagues."
+    ],
+    "The title is The Colour of Sports.": [
+      "Catchy Title:",
+      "The Colour of Sports"
+    ]
+  }
+}

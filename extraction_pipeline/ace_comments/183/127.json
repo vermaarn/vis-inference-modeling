@@ -1,0 +1,61 @@
+{
+  "article_id": "183",
+  "comment_index": 127,
+  "raw_comment": "I notice that young men are less likely to reach out to their parents than women do through sending texts, phone or video-chat, or visiting them in person. I wonder if it has to do something with pride with men, or just possible jobs that keep them more busy. This relates to me and my community because I try to reach out to my parents through one or more of the 3 reasons listed on the graph.\nA possible catchy headline would be, \"Being In Contact: How Often Do Young People Reach Out To Their Parents?\"",
+  "ace_sentences": [
+    "Young men are less likely to reach out to their parents than women are.",
+    "Young men can reach out to their parents through sending texts.",
+    "Young men can reach out to their parents through phone.",
+    "Young men can reach out to their parents through video-chat.",
+    "Young men can reach out to their parents through visiting them in person.",
+    "I wonder if pride with men relates to this.",
+    "I wonder if possible jobs relate to this.",
+    "Possible jobs can keep young men more busy.",
+    "This relates to me.",
+    "This relates to my community.",
+    "I try to reach out to my parents through one or more of the 3 reasons listed on the graph.",
+    "A possible catchy headline would be:",
+    "Being In Contact: How Often Do Young People Reach Out To Their Parents?"
+  ],
+  "source_mappings": {
+    "Young men are less likely to reach out to their parents than women are.": [
+      "young men are less likely to reach out to their parents than women do"
+    ],
+    "Young men can reach out to their parents through sending texts.": [
+      "through sending texts"
+    ],
+    "Young men can reach out to their parents through phone.": [
+      "phone"
+    ],
+    "Young men can reach out to their parents through video-chat.": [
+      "video-chat"
+    ],
+    "Young men can reach out to their parents through visiting them in person.": [
+      "visiting them in person"
+    ],
+    "I wonder if pride with men relates to this.": [
+      "I wonder if it has to do something with pride with men"
+    ],
+    "I wonder if possible jobs relate to this.": [
+      "or just possible jobs"
+    ],
+    "Possible jobs can keep young men more busy.": [
+      "possible jobs that keep them more busy"
+    ],
+    "This relates to me.": [
+      "This relates to me"
+    ],
+    "This relates to my community.": [
+      "and my community"
+    ],
+    "I try to reach out to my parents through one or more of the 3 reasons listed on the graph.": [
+      "I try to reach out to my parents through one or more of the 3 reasons listed on the graph."
+    ],
+    "A possible catchy headline would be:": [
+      "A possible catchy headline would be,"
+    ],
+    "Being In Contact: How Often Do Young People Reach Out To Their Parents?": [
+      "Being In Contact: How Often Do Young People Reach Out To Their Parents?"
+    ]
+  }
+}

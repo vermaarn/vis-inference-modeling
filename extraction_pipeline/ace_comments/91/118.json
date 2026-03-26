@@ -1,0 +1,30 @@
+{
+  "article_id": "91",
+  "comment_index": 118,
+  "raw_comment": "I noticed that there aren’t as many people of color in baseball compared to the other sports. I wonder if this is because of discrimination or because people of color just don’t want to do baseball compared to the other sports? I also noticed that coaches of color are only 40% or less, could this be because again of discrimination or there just aren’t enough coaches?",
+  "ace_sentences": [
+    "I noticed that there are not as many people of color in baseball as in other sports.",
+    "I wonder if this is because of discrimination.",
+    "I wonder if this is because people of color do not want to do baseball compared to other sports.",
+    "I also noticed that coaches of color are only 40% or less.",
+    "I wonder if this is because of discrimination.",
+    "I wonder if this is because there are not enough coaches."
+  ],
+  "source_mappings": {
+    "I noticed that there are not as many people of color in baseball as in other sports.": [
+      "I noticed that there aren’t as many people of color in baseball compared to the other sports."
+    ],
+    "I wonder if this is because of discrimination.": [
+      "could this be because again of discrimination"
+    ],
+    "I wonder if this is because people of color do not want to do baseball compared to other sports.": [
+      "because people of color just don’t want to do baseball compared to the other sports?"
+    ],
+    "I also noticed that coaches of color are only 40% or less.": [
+      "I also noticed that coaches of color are only 40% or less"
+    ],
+    "I wonder if this is because there are not enough coaches.": [
+      "there just aren’t enough coaches?"
+    ]
+  }
+}

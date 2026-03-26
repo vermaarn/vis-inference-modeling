@@ -1,0 +1,81 @@
+{
+  "article_id": "91",
+  "comment_index": 155,
+  "raw_comment": "“Diversity seen in sports” \n\nI noticed that there is a higher percentage of players of color than head coaches of color. That major league soccer has the most head coaches of color and that national football league has the least. I also noticed that the women's national basketball association has the most players of color while the major league baseball has the least.\n\nI wonder why the number of colored players almost always outnumbers the colored coaches by 3 times. I wonder why soccer players have so many more coaches of color compared to every single other sport. I wonder why the NFL a sports league with a very high percentage of colored players has the lowest percentage of colored coaches, especially compared to the MLB with such a low percentage of colored players but a high percentage of colored coaches. \n\nWhen I look at these statistics, It makes me wonder if people of color are getting the same opportunities in the community when it comes to different roles in sports. It looks like they get great opportunities to play the sports but not as many opportunities to be managers or coaches in the sports. We should be looking at giving people of color more opportunities to be in management positions at a younger age, so that when they grow up we will have more of them managing sports teams professionally.",
+  "ace_sentences": [
+    "The headline is \"Diversity seen in sports\".",
+    "I noticed that there is a higher percentage of players of color than head coaches of color.",
+    "Major league soccer has the most head coaches of color.",
+    "National football league has the least head coaches of color.",
+    "The women's national basketball association has the most players of color.",
+    "Major league baseball has the least players of color.",
+    "I wonder why the number of colored players almost always outnumbers the colored coaches by 3 times.",
+    "I wonder why soccer players have so many more coaches of color compared to every single other sport.",
+    "National football league is a sports league.",
+    "National football league has a very high percentage of colored players.",
+    "National football league has the lowest percentage of colored coaches.",
+    "Major league baseball has such a low percentage of colored players.",
+    "Major league baseball has a high percentage of colored coaches.",
+    "When I look at these statistics, it makes me wonder if people of color are getting the same opportunities in the community when it comes to different roles in sports.",
+    "It looks like people of color get great opportunities to play the sports.",
+    "It looks like people of color do not get as many opportunities to be managers or coaches in the sports.",
+    "We should be looking at giving people of color more opportunities to be in management positions at a younger age.",
+    "If people of color get more opportunities to be in management positions at a younger age then we will have more of them managing sports teams professionally when they grow up."
+  ],
+  "source_mappings": {
+    "The headline is \"Diversity seen in sports\".": [
+      "“Diversity seen in sports”"
+    ],
+    "I noticed that there is a higher percentage of players of color than head coaches of color.": [
+      "I noticed that there is a higher percentage of players of color than head coaches of color."
+    ],
+    "Major league soccer has the most head coaches of color.": [
+      "major league soccer has the most head coaches of color"
+    ],
+    "National football league has the least head coaches of color.": [
+      "national football league has the least"
+    ],
+    "The women's national basketball association has the most players of color.": [
+      "the women's national basketball association has the most players of color"
+    ],
+    "Major league baseball has the least players of color.": [
+      "the major league baseball has the least"
+    ],
+    "I wonder why the number of colored players almost always outnumbers the colored coaches by 3 times.": [
+      "I wonder why the number of colored players almost always outnumbers the colored coaches by 3 times."
+    ],
+    "I wonder why soccer players have so many more coaches of color compared to every single other sport.": [
+      "I wonder why soccer players have so many more coaches of color compared to every single other sport."
+    ],
+    "National football league is a sports league.": [
+      "the NFL a sports league"
+    ],
+    "National football league has a very high percentage of colored players.": [
+      "with a very high percentage of colored players"
+    ],
+    "National football league has the lowest percentage of colored coaches.": [
+      "has the lowest percentage of colored coaches"
+    ],
+    "Major league baseball has such a low percentage of colored players.": [
+      "the MLB with such a low percentage of colored players"
+    ],
+    "Major league baseball has a high percentage of colored coaches.": [
+      "but a high percentage of colored coaches"
+    ],
+    "When I look at these statistics, it makes me wonder if people of color are getting the same opportunities in the community when it comes to different roles in sports.": [
+      "When I look at these statistics, It makes me wonder if people of color are getting the same opportunities in the community when it comes to different roles in sports."
+    ],
+    "It looks like people of color get great opportunities to play the sports.": [
+      "It looks like they get great opportunities to play the sports"
+    ],
+    "It looks like people of color do not get as many opportunities to be managers or coaches in the sports.": [
+      "but not as many opportunities to be managers or coaches in the sports."
+    ],
+    "We should be looking at giving people of color more opportunities to be in management positions at a younger age.": [
+      "We should be looking at giving people of color more opportunities to be in management positions at a younger age"
+    ],
+    "If people of color get more opportunities to be in management positions at a younger age then we will have more of them managing sports teams professionally when they grow up.": [
+      "so that when they grow up we will have more of them managing sports teams professionally."
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "article_id": "183",
+  "comment_index": 9,
+  "raw_comment": "Where in the graph does the evidence reside to substantiate your claim?\nWhat factors contribute to the lower frequency of in-person visits, and what explains the trend of increased outreach by young women?\nThe consequences extend to all students at my high school, and when I communicate with my parents...\nTo what extent do teenagers seek assistance from their parents?",
+  "ace_sentences": [
+    "You claim something.",
+    "The evidence in the graph substantiates your claim.",
+    "Some factors contribute to the lower frequency of in-person visits.",
+    "Young women have an increased outreach.",
+    "Some trend explains the increased outreach by young women.",
+    "The consequences extend to all students at my high school.",
+    "I communicate with my parents.",
+    "Teenagers seek assistance from their parents.",
+    "Teenagers seek assistance from their parents to some extent."
+  ],
+  "source_mappings": {
+    "You claim something.": [
+      "your claim"
+    ],
+    "The evidence in the graph substantiates your claim.": [
+      "in the graph",
+      "the evidence reside to substantiate your claim"
+    ],
+    "Some factors contribute to the lower frequency of in-person visits.": [
+      "What factors contribute to the lower frequency of in-person visits"
+    ],
+    "Young women have an increased outreach.": [
+      "increased outreach by young women"
+    ],
+    "Some trend explains the increased outreach by young women.": [
+      "explains the trend of increased outreach by young women"
+    ],
+    "The consequences extend to all students at my high school.": [
+      "The consequences extend to all students at my high school"
+    ],
+    "I communicate with my parents.": [
+      "when I communicate with my parents"
+    ],
+    "Teenagers seek assistance from their parents.": [
+      "teenagers seek assistance from their parents"
+    ],
+    "Teenagers seek assistance from their parents to some extent.": [
+      "To what extent do teenagers seek assistance from their parents"
+    ]
+  }
+}

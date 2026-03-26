@@ -1,0 +1,89 @@
+{
+  "article_id": "91",
+  "comment_index": 91,
+  "raw_comment": "In all of the leagues, except for Major League Baseball, the majority of players are players of color. The four graphs have percentages over 50 percent. Even though players of color are not the majority of the players in Major League Baseball, 41 percent is a good amount. There is a small percentage of coaches of color within each league. There is not a percent that is over 50 percent. I noticed that the least diverse league is Major League Baseball. The league that has the biggest difference between coaches of color and players of color is the National Football League.\nI wonder why there is such an obvious difference in the number of players of color compared to the number of coaches of color. I also wonder why the National Football League has such low percentages of players of color and coaches of color.\nRacial bias is a major issue across our country and around the world. If this issue is occurring in a professional area like sports, then it is definitely occurring in other areas.Communities need to come together to fix this issue. It has been going on for too many years. Players of color could be lacking the confidence to become a coach. They could be analyzing the small percentages and seeing that the majority of coaches within sports leagues are white. This graph shows the major difference between the number of players of color and the number of coaches of color.A catchy headline that captures the graph’s main idea is, “Play Ball! However, let’s let everyone play ball!”",
+  "ace_sentences": [
+    "In all of the leagues except for Major League Baseball, the majority of players are players of color.",
+    "The four graphs have percentages over 50 percent.",
+    "In Major League Baseball, players of color are not the majority of the players.",
+    "In Major League Baseball, 41 percent is a good amount.",
+    "Within each league, there is a small percentage of coaches of color.",
+    "There is not a percent that is over 50 percent.",
+    "I noticed that Major League Baseball is the least diverse league.",
+    "The league that has the biggest difference between coaches of color and players of color is the National Football League.",
+    "I wonder why there is such an obvious difference in the number of players of color compared to the number of coaches of color.",
+    "I also wonder why the National Football League has such low percentages of players of color and coaches of color.",
+    "Racial bias is a major issue across our country and around the world.",
+    "This issue may occur in a professional area like sports.",
+    "If this issue is occurring in a professional area like sports, then this issue is definitely occurring in other areas.",
+    "Communities need to come together to fix this issue.",
+    "This issue has been going on for too many years.",
+    "Players of color could be lacking the confidence to become a coach.",
+    "Players of color could be analyzing the small percentages.",
+    "Players of color could be seeing that the majority of coaches within sports leagues are white.",
+    "This graph shows the major difference between the number of players of color and the number of coaches of color.",
+    "A catchy headline that captures the graph’s main idea is “Play Ball! However, let’s let everyone play ball!”."
+  ],
+  "source_mappings": {
+    "In all of the leagues except for Major League Baseball, the majority of players are players of color.": [
+      "In all of the leagues, except for Major League Baseball, the majority of players are players of color."
+    ],
+    "The four graphs have percentages over 50 percent.": [
+      "The four graphs have percentages over 50 percent."
+    ],
+    "In Major League Baseball, players of color are not the majority of the players.": [
+      "players of color are not the majority of the players in Major League Baseball"
+    ],
+    "In Major League Baseball, 41 percent is a good amount.": [
+      "41 percent is a good amount."
+    ],
+    "Within each league, there is a small percentage of coaches of color.": [
+      "There is a small percentage of coaches of color within each league."
+    ],
+    "There is not a percent that is over 50 percent.": [
+      "There is not a percent that is over 50 percent."
+    ],
+    "I noticed that Major League Baseball is the least diverse league.": [
+      "I noticed that the least diverse league is Major League Baseball."
+    ],
+    "The league that has the biggest difference between coaches of color and players of color is the National Football League.": [
+      "The league that has the biggest difference between coaches of color and players of color is the National Football League."
+    ],
+    "I wonder why there is such an obvious difference in the number of players of color compared to the number of coaches of color.": [
+      "I wonder why there is such an obvious difference in the number of players of color compared to the number of coaches of color."
+    ],
+    "I also wonder why the National Football League has such low percentages of players of color and coaches of color.": [
+      "I also wonder why the National Football League has such low percentages of players of color and coaches of color."
+    ],
+    "Racial bias is a major issue across our country and around the world.": [
+      "Racial bias is a major issue across our country and around the world."
+    ],
+    "This issue may occur in a professional area like sports.": [
+      "If this issue is occurring in a professional area like sports"
+    ],
+    "If this issue is occurring in a professional area like sports, then this issue is definitely occurring in other areas.": [
+      "If this issue is occurring in a professional area like sports, then it is definitely occurring in other areas."
+    ],
+    "Communities need to come together to fix this issue.": [
+      "Communities need to come together to fix this issue."
+    ],
+    "This issue has been going on for too many years.": [
+      "It has been going on for too many years."
+    ],
+    "Players of color could be lacking the confidence to become a coach.": [
+      "Players of color could be lacking the confidence to become a coach."
+    ],
+    "Players of color could be analyzing the small percentages.": [
+      "They could be analyzing the small percentages"
+    ],
+    "Players of color could be seeing that the majority of coaches within sports leagues are white.": [
+      "seeing that the majority of coaches within sports leagues are white."
+    ],
+    "This graph shows the major difference between the number of players of color and the number of coaches of color.": [
+      "This graph shows the major difference between the number of players of color and the number of coaches of color."
+    ],
+    "A catchy headline that captures the graph’s main idea is “Play Ball! However, let’s let everyone play ball!”.": [
+      "A catchy headline that captures the graph’s main idea is, “Play Ball! However, let’s let everyone play ball!”"
+    ]
+  }
+}

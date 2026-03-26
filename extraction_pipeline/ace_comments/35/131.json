@@ -1,0 +1,37 @@
+{
+  "article_id": "35",
+  "comment_index": 131,
+  "raw_comment": "I notice that the graph is color coordinated possibly to leaf color... or season\n\nI wonder why there is a small area in the north that has leaves before the rest of the states around it?\n\nI wonder why is that in the West Coast it's so variated of colors?\n\nTitle: Warmer Weather Sooner?",
+  "ace_sentences": [
+    "I notice that the graph is color coordinated.",
+    "The graph is possibly color coordinated to leaf color.",
+    "The graph is possibly color coordinated to season.",
+    "I wonder why there is a small area in the north.",
+    "This small area has leaves before the rest of the states around it.",
+    "I wonder why in the West Coast it is so variated of colors.",
+    "The title is Warmer Weather Sooner?"
+  ],
+  "source_mappings": {
+    "I notice that the graph is color coordinated.": [
+      "I notice that the graph is color coordinated"
+    ],
+    "The graph is possibly color coordinated to leaf color.": [
+      "possibly to leaf color"
+    ],
+    "The graph is possibly color coordinated to season.": [
+      "or season"
+    ],
+    "I wonder why there is a small area in the north.": [
+      "I wonder why there is a small area in the north"
+    ],
+    "This small area has leaves before the rest of the states around it.": [
+      "has leaves before the rest of the states around it"
+    ],
+    "I wonder why in the West Coast it is so variated of colors.": [
+      "I wonder why is that in the West Coast it's so variated of colors?"
+    ],
+    "The title is Warmer Weather Sooner?": [
+      "Title: Warmer Weather Sooner?"
+    ]
+  }
+}

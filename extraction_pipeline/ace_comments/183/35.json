@@ -1,0 +1,85 @@
+{
+  "article_id": "183",
+  "comment_index": 35,
+  "raw_comment": "I notice a graph that shows the percentages of how frequently young men and women reach out to their parents. In general, it is more likely for young men and women to reach out through texts with about 50% of young men and about 70% for women. Overall, women are more likely to contact their parents than men. \n\nI wonder how this may affect the future generations when reaching out to parents. If communications between children and their parents become less likely, is it more likely for crimes to increase? Most children depend on their parents for decision making, to educate them and lead them on the right path but if communications decrease significantly most children can begin to depend on themselves.\n\n Most children depend on their parents for decision making, to educate them and lead them on the right path but if communications decrease significantly most children can begin to depend on themselves and that can lead to complete chaos.\n\nYoung People Reaching Out: A Viewpoint on Generational Shifts in Parental Relationships",
+  "ace_sentences": [
+    "I notice a graph.",
+    "The graph shows the percentages.",
+    "The graph shows how frequently young men reach out to their parents.",
+    "The graph shows how frequently young women reach out to their parents.",
+    "In general, young men are more likely to reach out through texts.",
+    "In general, young women are more likely to reach out through texts.",
+    "About 50% of young men reach out through texts.",
+    "About 70% for women reach out through texts.",
+    "Overall, women are more likely to contact their parents than men.",
+    "I wonder how this may affect the future generations.",
+    "I wonder about reaching out to parents.",
+    "Communications between children and their parents may become less likely.",
+    "If communications between children and their parents become less likely, crimes are more likely to increase.",
+    "Most children depend on their parents for decision making.",
+    "Most children depend on their parents to educate them.",
+    "Most children depend on their parents to lead them on the right path.",
+    "If communications decrease significantly, most children can begin to depend on themselves.",
+    "If communications decrease significantly, that can lead to complete chaos.",
+    "The title is Young People Reaching Out: A Viewpoint on Generational Shifts in Parental Relationships."
+  ],
+  "source_mappings": {
+    "I notice a graph.": [
+      "I notice a graph"
+    ],
+    "The graph shows the percentages.": [
+      "a graph that shows the percentages"
+    ],
+    "The graph shows how frequently young men reach out to their parents.": [
+      "how frequently young men and women reach out to their parents"
+    ],
+    "The graph shows how frequently young women reach out to their parents.": [
+      "how frequently young men and women reach out to their parents"
+    ],
+    "In general, young men are more likely to reach out through texts.": [
+      "In general, it is more likely for young men and women to reach out through texts"
+    ],
+    "In general, young women are more likely to reach out through texts.": [
+      "In general, it is more likely for young men and women to reach out through texts"
+    ],
+    "About 50% of young men reach out through texts.": [
+      "with about 50% of young men"
+    ],
+    "About 70% for women reach out through texts.": [
+      "about 70% for women"
+    ],
+    "Overall, women are more likely to contact their parents than men.": [
+      "Overall, women are more likely to contact their parents than men."
+    ],
+    "I wonder how this may affect the future generations.": [
+      "I wonder how this may affect the future generations"
+    ],
+    "I wonder about reaching out to parents.": [
+      "when reaching out to parents"
+    ],
+    "Communications between children and their parents may become less likely.": [
+      "If communications between children and their parents become less likely"
+    ],
+    "If communications between children and their parents become less likely, crimes are more likely to increase.": [
+      "If communications between children and their parents become less likely, is it more likely for crimes to increase?"
+    ],
+    "Most children depend on their parents for decision making.": [
+      "Most children depend on their parents for decision making"
+    ],
+    "Most children depend on their parents to educate them.": [
+      "to educate them"
+    ],
+    "Most children depend on their parents to lead them on the right path.": [
+      "lead them on the right path"
+    ],
+    "If communications decrease significantly, most children can begin to depend on themselves.": [
+      "if communications decrease significantly most children can begin to depend on themselves"
+    ],
+    "If communications decrease significantly, that can lead to complete chaos.": [
+      "if communications decrease significantly most children can begin to depend on themselves and that can lead to complete chaos."
+    ],
+    "The title is Young People Reaching Out: A Viewpoint on Generational Shifts in Parental Relationships.": [
+      "Young People Reaching Out: A Viewpoint on Generational Shifts in Parental Relationships"
+    ]
+  }
+}

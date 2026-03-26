@@ -1,0 +1,57 @@
+{
+  "article_id": "183",
+  "comment_index": 133,
+  "raw_comment": "WOMAN LOVE THEIR PARENTS MORE\n\nI notice that on average, women seem to be more in touched with their parents and contact them more.\n\nI wonder why we see this trend, is it not cool for men to be in contact with their parents and check in on them?\n\nThis relates to my community because as more people leave for college in my home town their parents get worried about their safety. If men don't contact their parents then they will be more worried.",
+  "ace_sentences": [
+    "Women love their parents more.",
+    "I notice a trend.",
+    "On average, women seem to be more in touched with their parents.",
+    "On average, women contact their parents more.",
+    "I wonder why we see this trend.",
+    "It may not be cool for men to be in contact with their parents.",
+    "Men may check in on their parents.",
+    "This relates to my community.",
+    "More people leave for college in my home town.",
+    "Their parents get worried about their safety.",
+    "Men may not contact their parents.",
+    "If men do not contact their parents, then their parents will be more worried."
+  ],
+  "source_mappings": {
+    "Women love their parents more.": [
+      "WOMAN LOVE THEIR PARENTS MORE"
+    ],
+    "I notice a trend.": [
+      "I notice that on average, women seem to be more in touched with their parents and contact them more."
+    ],
+    "On average, women seem to be more in touched with their parents.": [
+      "on average, women seem to be more in touched with their parents"
+    ],
+    "On average, women contact their parents more.": [
+      "contact them more"
+    ],
+    "I wonder why we see this trend.": [
+      "I wonder why we see this trend"
+    ],
+    "It may not be cool for men to be in contact with their parents.": [
+      "is it not cool for men to be in contact with their parents"
+    ],
+    "Men may check in on their parents.": [
+      "check in on them"
+    ],
+    "This relates to my community.": [
+      "This relates to my community"
+    ],
+    "More people leave for college in my home town.": [
+      "as more people leave for college in my home town"
+    ],
+    "Their parents get worried about their safety.": [
+      "their parents get worried about their safety"
+    ],
+    "Men may not contact their parents.": [
+      "If men don't contact their parents"
+    ],
+    "If men do not contact their parents, then their parents will be more worried.": [
+      "If men don't contact their parents then they will be more worried."
+    ]
+  }
+}

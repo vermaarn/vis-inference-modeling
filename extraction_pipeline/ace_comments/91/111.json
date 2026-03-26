@@ -1,0 +1,135 @@
+{
+  "article_id": "91",
+  "comment_index": 111,
+  "raw_comment": "I notice that in the most recent year (only one given) for each of these major sports leagues, those with the largest disparity between the percentage of players of color and leadership of color are the NFL (61% gap), followed by the WNBA (58% gap) and then the NBA (50% gap). It’s interesting that the leagues with the smallest gaps (MLB & MLS) have fewer players of color also.\n\nI wonder how these percentages compare to those from previous years. What are these initiatives referenced? Have the leagues shown progress? How are the players within these leagues affected by these gaps and are their concerns being addressed?\n\nAs a high school teacher, I think of how data like this affects my students. While those within the POC community could be encouraged by the percentage of players of color within the leagues, what difficult thoughts/questions come when they see the lack of representation in the leadership percentages. When seeing this data, would my students be motivated to dig deeper, asking themselves “Are others concerned about this?” or “What is being done about it?” My hope is that, despite their initial reaction, they would find their voice to ask the questions troubling them and their power to research and advocate further!\n\nDespite progress or initiatives that have been implemented to address the discrepancies seen above, more work needs to be done. Catchy headline? “Commissioners: Mind the Gap!”",
+  "ace_sentences": [
+    "I notice something.",
+    "In the most recent year for each of these major sports leagues, the NFL has the largest disparity between the percentage of players of color and leadership of color.",
+    "The gap for the NFL is 61%.",
+    "In the most recent year for each of these major sports leagues, the WNBA has the second-largest disparity between the percentage of players of color and leadership of color.",
+    "The gap for the WNBA is 58%.",
+    "In the most recent year for each of these major sports leagues, the NBA has the third-largest disparity between the percentage of players of color and leadership of color.",
+    "The gap for the NBA is 50%.",
+    "The leagues with the smallest gaps are MLB and MLS.",
+    "The leagues with the smallest gaps have fewer players of color.",
+    "I wonder how these percentages compare to those from previous years.",
+    "I ask what these initiatives referenced are.",
+    "I ask if the leagues have shown progress.",
+    "I ask how the players within these leagues are affected by these gaps.",
+    "I ask if their concerns are being addressed.",
+    "I am a high school teacher.",
+    "I think about how data like this affects my students.",
+    "The percentage of players of color within the leagues could encourage those within the POC community.",
+    "My students see the lack of representation in the leadership percentages.",
+    "I ask what difficult thoughts come when they see the lack of representation in the leadership percentages.",
+    "I ask what difficult questions come when they see the lack of representation in the leadership percentages.",
+    "When seeing this data, my students would be motivated to dig deeper.",
+    "My students would ask themselves if others are concerned about this.",
+    "My students would ask themselves what is being done about it.",
+    "My hope is that they would find their voice to ask the questions troubling them.",
+    "My hope is that they would find their power to research further.",
+    "My hope is that they would find their power to advocate further.",
+    "Progress has happened.",
+    "Initiatives have been implemented to address the discrepancies seen above.",
+    "More work needs to be done.",
+    "The headline is Commissioners: Mind the Gap!"
+  ],
+  "source_mappings": {
+    "I notice something.": [
+      "I notice that"
+    ],
+    "In the most recent year for each of these major sports leagues, the NFL has the largest disparity between the percentage of players of color and leadership of color.": [
+      "in the most recent year (only one given) for each of these major sports leagues",
+      "those with the largest disparity between the percentage of players of color and leadership of color are the NFL"
+    ],
+    "The gap for the NFL is 61%.": [
+      "NFL (61% gap)"
+    ],
+    "In the most recent year for each of these major sports leagues, the WNBA has the second-largest disparity between the percentage of players of color and leadership of color.": [
+      "followed by the WNBA"
+    ],
+    "The gap for the WNBA is 58%.": [
+      "WNBA (58% gap)"
+    ],
+    "In the most recent year for each of these major sports leagues, the NBA has the third-largest disparity between the percentage of players of color and leadership of color.": [
+      "and then the NBA"
+    ],
+    "The gap for the NBA is 50%.": [
+      "NBA (50% gap)"
+    ],
+    "The leagues with the smallest gaps are MLB and MLS.": [
+      "the leagues with the smallest gaps (MLB & MLS)"
+    ],
+    "The leagues with the smallest gaps have fewer players of color.": [
+      "the leagues with the smallest gaps (MLB & MLS) have fewer players of color also"
+    ],
+    "I wonder how these percentages compare to those from previous years.": [
+      "I wonder how these percentages compare to those from previous years."
+    ],
+    "I ask what these initiatives referenced are.": [
+      "What are these initiatives referenced?"
+    ],
+    "I ask if the leagues have shown progress.": [
+      "Have the leagues shown progress?"
+    ],
+    "I ask how the players within these leagues are affected by these gaps.": [
+      "How are the players within these leagues affected by these gaps"
+    ],
+    "I ask if their concerns are being addressed.": [
+      "are their concerns being addressed?"
+    ],
+    "I am a high school teacher.": [
+      "As a high school teacher"
+    ],
+    "I think about how data like this affects my students.": [
+      "I think of how data like this affects my students."
+    ],
+    "The percentage of players of color within the leagues could encourage those within the POC community.": [
+      "those within the POC community could be encouraged by the percentage of players of color within the leagues"
+    ],
+    "My students see the lack of representation in the leadership percentages.": [
+      "they see the lack of representation in the leadership percentages"
+    ],
+    "I ask what difficult thoughts come when they see the lack of representation in the leadership percentages.": [
+      "what difficult thoughts",
+      "when they see the lack of representation in the leadership percentages"
+    ],
+    "I ask what difficult questions come when they see the lack of representation in the leadership percentages.": [
+      "questions",
+      "when they see the lack of representation in the leadership percentages"
+    ],
+    "When seeing this data, my students would be motivated to dig deeper.": [
+      "When seeing this data, would my students be motivated to dig deeper"
+    ],
+    "My students would ask themselves if others are concerned about this.": [
+      "asking themselves “Are others concerned about this?”"
+    ],
+    "My students would ask themselves what is being done about it.": [
+      "or “What is being done about it?”"
+    ],
+    "My hope is that they would find their voice to ask the questions troubling them.": [
+      "My hope is that",
+      "they would find their voice to ask the questions troubling them"
+    ],
+    "My hope is that they would find their power to research further.": [
+      "My hope is that",
+      "their power to research"
+    ],
+    "My hope is that they would find their power to advocate further.": [
+      "My hope is that",
+      "advocate further"
+    ],
+    "Progress has happened.": [
+      "Despite progress"
+    ],
+    "Initiatives have been implemented to address the discrepancies seen above.": [
+      "initiatives that have been implemented to address the discrepancies seen above"
+    ],
+    "More work needs to be done.": [
+      "more work needs to be done."
+    ],
+    "The headline is Commissioners: Mind the Gap!": [
+      "Catchy headline? “Commissioners: Mind the Gap!”"
+    ]
+  }
+}

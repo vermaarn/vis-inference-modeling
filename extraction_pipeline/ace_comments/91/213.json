@@ -1,0 +1,65 @@
+{
+  "article_id": "91",
+  "comment_index": 213,
+  "raw_comment": "1. I notice that in all of the major sport leagues shown, the percent of players of color is larger than the percent of head coaches of color.\n2. I wonder what the percentages would look like for the year when each sport league was started.\n3. This impacts me and my community because we can see the diversified team leadership being represented through sports.\n4. This graph is showing the percent of players of color and the percent of head coaches of color for various sports leagues from 2019 or 2020.",
+  "ace_sentences": [
+    "I notice a fact.",
+    "All of the major sport leagues are shown.",
+    "In all of the major sport leagues, the percent of players of color is larger than the percent of head coaches of color.",
+    "I wonder a question.",
+    "I wonder what the percentages would look like for the year when each sport league was started.",
+    "This impacts me.",
+    "This impacts my community.",
+    "We can see the diversified team leadership.",
+    "The diversified team leadership is represented through sports.",
+    "This graph shows the percent of players of color.",
+    "This graph shows the percent of head coaches of color.",
+    "This graph shows these percents for various sports leagues.",
+    "This graph shows these percents from 2019.",
+    "This graph shows these percents from 2020."
+  ],
+  "source_mappings": {
+    "I notice a fact.": [
+      "I notice that"
+    ],
+    "All of the major sport leagues are shown.": [
+      "all of the major sport leagues shown"
+    ],
+    "In all of the major sport leagues, the percent of players of color is larger than the percent of head coaches of color.": [
+      "in all of the major sport leagues shown, the percent of players of color is larger than the percent of head coaches of color"
+    ],
+    "I wonder a question.": [
+      "I wonder"
+    ],
+    "I wonder what the percentages would look like for the year when each sport league was started.": [
+      "I wonder what the percentages would look like for the year when each sport league was started"
+    ],
+    "This impacts me.": [
+      "This impacts me"
+    ],
+    "This impacts my community.": [
+      "my community"
+    ],
+    "We can see the diversified team leadership.": [
+      "we can see the diversified team leadership"
+    ],
+    "The diversified team leadership is represented through sports.": [
+      "being represented through sports"
+    ],
+    "This graph shows the percent of players of color.": [
+      "This graph is showing the percent of players of color"
+    ],
+    "This graph shows the percent of head coaches of color.": [
+      "the percent of head coaches of color"
+    ],
+    "This graph shows these percents for various sports leagues.": [
+      "for various sports leagues"
+    ],
+    "This graph shows these percents from 2019.": [
+      "from 2019"
+    ],
+    "This graph shows these percents from 2020.": [
+      "2020"
+    ]
+  }
+}

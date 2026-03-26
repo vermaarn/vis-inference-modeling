@@ -1,0 +1,29 @@
+{
+  "article_id": "35",
+  "comment_index": 17,
+  "raw_comment": "It is pretty interesting to see the update on this post. It says that it signals where to vacation when allergies come upon us. I wonder what else it could be used for.",
+  "ace_sentences": [
+    "It is interesting to see the update on this post.",
+    "This post says that it signals where to vacation.",
+    "Allergies can come upon us.",
+    "This post says that it signals where to vacation when allergies come upon us.",
+    "I wonder what else it could be used for."
+  ],
+  "source_mappings": {
+    "It is interesting to see the update on this post.": [
+      "It is pretty interesting to see the update on this post."
+    ],
+    "This post says that it signals where to vacation.": [
+      "It says that it signals where to vacation"
+    ],
+    "Allergies can come upon us.": [
+      "allergies come upon us"
+    ],
+    "This post says that it signals where to vacation when allergies come upon us.": [
+      "It says that it signals where to vacation when allergies come upon us."
+    ],
+    "I wonder what else it could be used for.": [
+      "I wonder what else it could be used for."
+    ]
+  }
+}

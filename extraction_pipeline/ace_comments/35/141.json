@@ -1,0 +1,121 @@
+{
+  "article_id": "35",
+  "comment_index": 141,
+  "raw_comment": "While Spring is only beginning to emerge here in N.J., I notice that many states across the nation are already well into its midst. The Southern portion of the country, in particular, -- including all of Florida, Texas, Oklahoma, Arkansas, Louisiana, Mississippi, Alabama, Georgia, North and South Carolina repset lively and parts of Arizona and California -- boasts witnessing the first signs of Spring as early as January and February, on average. A horizontal slice running through the middle of the U.S., spanning approximately from the top of texas to middle of Nebraska vertically and from Nevada to New Jersey horizontally, is said to possess an average date of the “first leaf” appearance in March. I notice that the remaining upper one-third of the U.S. typically encounters the first signs of Spring by early April, leading into about Mid-May. One element of this graph I like, is its use of different colors to display which parts of the country begin to experience Spring when. The first question that comes to mind when analyzing this graph, is why do the Southernmost states feel the effects of Spring first, and the Northernmost parts last? What is the science behind this pattern? Also, How does the official first day of Spring, or the vernal equinox, correlate with when different states witness the “first leaf”?",
+  "ace_sentences": [
+    "Spring is only beginning to emerge here in N.J..",
+    "I notice that many states across the nation are already well into its midst.",
+    "The Southern portion of the country includes all of Florida.",
+    "The Southern portion of the country includes Texas.",
+    "The Southern portion of the country includes Oklahoma.",
+    "The Southern portion of the country includes Arkansas.",
+    "The Southern portion of the country includes Louisiana.",
+    "The Southern portion of the country includes Mississippi.",
+    "The Southern portion of the country includes Alabama.",
+    "The Southern portion of the country includes Georgia.",
+    "The Southern portion of the country includes North Carolina.",
+    "The Southern portion of the country includes South Carolina.",
+    "The Southern portion of the country includes parts of Arizona.",
+    "The Southern portion of the country includes parts of California.",
+    "The Southern portion of the country boasts witnessing the first signs of Spring as early as January and February, on average.",
+    "A horizontal slice runs through the middle of the U.S..",
+    "The horizontal slice spans approximately from the top of texas to middle of Nebraska vertically.",
+    "The horizontal slice spans from Nevada to New Jersey horizontally.",
+    "The horizontal slice is said to possess an average date of the “first leaf” appearance in March.",
+    "I notice that the remaining upper one-third of the U.S. typically encounters the first signs of Spring by early April.",
+    "The remaining upper one-third of the U.S. leads into about Mid-May.",
+    "One element of this graph is its use of different colors.",
+    "The different colors display which parts of the country begin to experience Spring when.",
+    "The first question that comes to mind when analyzing this graph is why do the Southernmost states feel the effects of Spring first.",
+    "The first question that comes to mind when analyzing this graph is why do the Northernmost parts last.",
+    "I ask what is the science behind this pattern.",
+    "I ask how the official first day of Spring correlates with when different states witness the “first leaf”.",
+    "The vernal equinox is the official first day of Spring."
+  ],
+  "source_mappings": {
+    "Spring is only beginning to emerge here in N.J..": [
+      "Spring is only beginning to emerge here in N.J."
+    ],
+    "I notice that many states across the nation are already well into its midst.": [
+      "I notice that many states across the nation are already well into its midst."
+    ],
+    "The Southern portion of the country includes all of Florida.": [
+      "The Southern portion of the country, in particular, -- including all of Florida"
+    ],
+    "The Southern portion of the country includes Texas.": [
+      "Texas"
+    ],
+    "The Southern portion of the country includes Oklahoma.": [
+      "Oklahoma"
+    ],
+    "The Southern portion of the country includes Arkansas.": [
+      "Arkansas"
+    ],
+    "The Southern portion of the country includes Louisiana.": [
+      "Louisiana"
+    ],
+    "The Southern portion of the country includes Mississippi.": [
+      "Mississippi"
+    ],
+    "The Southern portion of the country includes Alabama.": [
+      "Alabama"
+    ],
+    "The Southern portion of the country includes Georgia.": [
+      "Georgia"
+    ],
+    "The Southern portion of the country includes North Carolina.": [
+      "North and South Carolina"
+    ],
+    "The Southern portion of the country includes South Carolina.": [
+      "North and South Carolina"
+    ],
+    "The Southern portion of the country includes parts of Arizona.": [
+      "parts of Arizona"
+    ],
+    "The Southern portion of the country includes parts of California.": [
+      "and California"
+    ],
+    "The Southern portion of the country boasts witnessing the first signs of Spring as early as January and February, on average.": [
+      "boasts witnessing the first signs of Spring as early as January and February, on average."
+    ],
+    "A horizontal slice runs through the middle of the U.S..": [
+      "A horizontal slice running through the middle of the U.S."
+    ],
+    "The horizontal slice spans approximately from the top of texas to middle of Nebraska vertically.": [
+      "spanning approximately from the top of texas to middle of Nebraska vertically"
+    ],
+    "The horizontal slice spans from Nevada to New Jersey horizontally.": [
+      "from Nevada to New Jersey horizontally"
+    ],
+    "The horizontal slice is said to possess an average date of the “first leaf” appearance in March.": [
+      "is said to possess an average date of the “first leaf” appearance in March."
+    ],
+    "I notice that the remaining upper one-third of the U.S. typically encounters the first signs of Spring by early April.": [
+      "I notice that the remaining upper one-third of the U.S. typically encounters the first signs of Spring by early April"
+    ],
+    "The remaining upper one-third of the U.S. leads into about Mid-May.": [
+      "leading into about Mid-May."
+    ],
+    "One element of this graph is its use of different colors.": [
+      "One element of this graph I like, is its use of different colors"
+    ],
+    "The different colors display which parts of the country begin to experience Spring when.": [
+      "to display which parts of the country begin to experience Spring when."
+    ],
+    "The first question that comes to mind when analyzing this graph is why do the Southernmost states feel the effects of Spring first.": [
+      "The first question that comes to mind when analyzing this graph, is why do the Southernmost states feel the effects of Spring first"
+    ],
+    "The first question that comes to mind when analyzing this graph is why do the Northernmost parts last.": [
+      "and the Northernmost parts last?"
+    ],
+    "I ask what is the science behind this pattern.": [
+      "What is the science behind this pattern?"
+    ],
+    "I ask how the official first day of Spring correlates with when different states witness the “first leaf”.": [
+      "How does the official first day of Spring, or the vernal equinox, correlate with when different states witness the “first leaf”?"
+    ],
+    "The vernal equinox is the official first day of Spring.": [
+      "the official first day of Spring, or the vernal equinox"
+    ]
+  }
+}

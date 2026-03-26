@@ -1,0 +1,41 @@
+{
+  "article_id": "35",
+  "comment_index": 54,
+  "raw_comment": "We noticed that the most southern states got leaves before the northern states which is analytically correct. Why did some states in the middle receive leaves later? One reason we can think of is that there is a mountain range in the purple area.  We are inferring that this is a timelapse of when leaves are returning in the spring.",
+  "ace_sentences": [
+    "We noticed that the most southern states got leaves before the northern states.",
+    "This is analytically correct.",
+    "Some states in the middle received leaves later.",
+    "We ask why some states in the middle received leaves later.",
+    "We can think of one reason.",
+    "There is a mountain range in the purple area.",
+    "We infer that this is a timelapse.",
+    "This timelapse is about when leaves are returning in the spring."
+  ],
+  "source_mappings": {
+    "We noticed that the most southern states got leaves before the northern states.": [
+      "We noticed that the most southern states got leaves before the northern states"
+    ],
+    "This is analytically correct.": [
+      "which is analytically correct"
+    ],
+    "Some states in the middle received leaves later.": [
+      "some states in the middle receive leaves later"
+    ],
+    "We ask why some states in the middle received leaves later.": [
+      "Why did some states in the middle receive leaves later?"
+    ],
+    "We can think of one reason.": [
+      "One reason we can think of is"
+    ],
+    "There is a mountain range in the purple area.": [
+      "there is a mountain range in the purple area"
+    ],
+    "We infer that this is a timelapse.": [
+      "We are inferring that this is a timelapse"
+    ],
+    "This timelapse is about when leaves are returning in the spring.": [
+      "of when leaves are returning in the spring"
+    ]
+  }
+}

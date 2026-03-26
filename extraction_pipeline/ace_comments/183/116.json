@@ -1,0 +1,87 @@
+{
+  "article_id": "183",
+  "comment_index": 116,
+  "raw_comment": "I've seen that young women tend to reach out to their parents more than young men. Young women are the ones who reach out the most in every part of this graph, whether it's text messaging, video conversations, or in-person visits. However, I've noticed that, while young women utilize text messaging and telephone at a larger rate than young men, in-person check-ins are equally popular among young men and women, with around 20-25% of them adopting this method of communication.\nThis trend makes me question why young guys reach out at a significantly lower rate than young women. I also wonder, is texting the most frequent because society has been accustomed to it? \nIt is significant to my community because texting is extensively utilized and an essential component of our everyday life. The graph is equally important for individuals my age, as it depicts a communication pattern. The graph emphasizes texting as the primary mode of communication in today's world, which has become an essential part of our daily lives.\nYoung women take the lead in reaching out to parents in every aspect compared to young men.",
+  "ace_sentences": [
+    "I have seen that young women tend to reach out to their parents more than young men.",
+    "Young women reach out the most in every part of this graph.",
+    "Text messaging is a part of this graph.",
+    "Video conversations are a part of this graph.",
+    "In-person visits are a part of this graph.",
+    "Young women utilize text messaging at a larger rate than young men.",
+    "Young women utilize telephone at a larger rate than young men.",
+    "In-person check-ins are equally popular among young men and women.",
+    "Around 20-25% of young men and women adopt this method of communication.",
+    "This trend makes me question why young guys reach out at a significantly lower rate than young women.",
+    "I wonder whether texting is the most frequent because society has been accustomed to it.",
+    "Texting is significant to my community.",
+    "Texting is extensively utilized in my community.",
+    "Texting is an essential component of our everyday life.",
+    "The graph is equally important for individuals my age.",
+    "The graph depicts a communication pattern.",
+    "The graph emphasizes texting as the primary mode of communication in today's world.",
+    "Texting has become an essential part of our daily lives.",
+    "Young women take the lead in reaching out to parents in every aspect compared to young men."
+  ],
+  "source_mappings": {
+    "I have seen that young women tend to reach out to their parents more than young men.": [
+      "I've seen that young women tend to reach out to their parents more than young men."
+    ],
+    "Young women reach out the most in every part of this graph.": [
+      "Young women are the ones who reach out the most in every part of this graph"
+    ],
+    "Text messaging is a part of this graph.": [
+      "text messaging"
+    ],
+    "Video conversations are a part of this graph.": [
+      "video conversations"
+    ],
+    "In-person visits are a part of this graph.": [
+      "in-person visits"
+    ],
+    "Young women utilize text messaging at a larger rate than young men.": [
+      "young women utilize text messaging",
+      "at a larger rate than young men"
+    ],
+    "Young women utilize telephone at a larger rate than young men.": [
+      "telephone",
+      "at a larger rate than young men"
+    ],
+    "In-person check-ins are equally popular among young men and women.": [
+      "in-person check-ins are equally popular among young men and women"
+    ],
+    "Around 20-25% of young men and women adopt this method of communication.": [
+      "around 20-25% of them adopting this method of communication"
+    ],
+    "This trend makes me question why young guys reach out at a significantly lower rate than young women.": [
+      "This trend makes me question why young guys reach out at a significantly lower rate than young women."
+    ],
+    "I wonder whether texting is the most frequent because society has been accustomed to it.": [
+      "I also wonder, is texting the most frequent because society has been accustomed to it?"
+    ],
+    "Texting is significant to my community.": [
+      "It is significant to my community because texting is extensively utilized"
+    ],
+    "Texting is extensively utilized in my community.": [
+      "texting is extensively utilized"
+    ],
+    "Texting is an essential component of our everyday life.": [
+      "an essential component of our everyday life"
+    ],
+    "The graph is equally important for individuals my age.": [
+      "The graph is equally important for individuals my age"
+    ],
+    "The graph depicts a communication pattern.": [
+      "as it depicts a communication pattern"
+    ],
+    "The graph emphasizes texting as the primary mode of communication in today's world.": [
+      "The graph emphasizes texting as the primary mode of communication in today's world"
+    ],
+    "Texting has become an essential part of our daily lives.": [
+      "has become an essential part of our daily lives"
+    ],
+    "Young women take the lead in reaching out to parents in every aspect compared to young men.": [
+      "Young women take the lead in reaching out to parents in every aspect compared to young men."
+    ]
+  }
+}

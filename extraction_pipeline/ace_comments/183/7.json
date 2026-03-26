@@ -1,0 +1,59 @@
+{
+  "article_id": "183",
+  "comment_index": 7,
+  "raw_comment": "I notice that most kids send text messages to their parents because it's easier and more convenient. Women are at higher percentages than men in this graph. \n\nI wonder Why aren't the men texting more? Why aren't they making more phone calls? What age range are the people that responded?\n\nThis has an impact on my community because we have phones that have access to reaching our parents but if we don't use them we can lose connection and relationships with people close to us. \n\n\nDo you not have wifi??",
+  "ace_sentences": [
+    "I notice that most kids send text messages to their parents.",
+    "Sending text messages is easier.",
+    "Sending text messages is more convenient.",
+    "Women are at higher percentages than men in this graph.",
+    "I wonder why the men are not texting more.",
+    "I wonder why the men are not making more phone calls.",
+    "I wonder what age range the people that responded have.",
+    "This has an impact on my community.",
+    "We have phones that have access to reaching our parents.",
+    "If we do not use the phones, we can lose connection with people close to us.",
+    "If we do not use the phones, we can lose relationships with people close to us.",
+    "You do not have wifi."
+  ],
+  "source_mappings": {
+    "I notice that most kids send text messages to their parents.": [
+      "I notice that most kids send text messages to their parents"
+    ],
+    "Sending text messages is easier.": [
+      "it's easier"
+    ],
+    "Sending text messages is more convenient.": [
+      "more convenient"
+    ],
+    "Women are at higher percentages than men in this graph.": [
+      "Women are at higher percentages than men in this graph."
+    ],
+    "I wonder why the men are not texting more.": [
+      "I wonder Why aren't the men texting more?"
+    ],
+    "I wonder why the men are not making more phone calls.": [
+      "Why aren't they making more phone calls?"
+    ],
+    "I wonder what age range the people that responded have.": [
+      "What age range are the people that responded?"
+    ],
+    "This has an impact on my community.": [
+      "This has an impact on my community"
+    ],
+    "We have phones that have access to reaching our parents.": [
+      "we have phones that have access to reaching our parents"
+    ],
+    "If we do not use the phones, we can lose connection with people close to us.": [
+      "but if we don't use them we can lose connection",
+      "with people close to us"
+    ],
+    "If we do not use the phones, we can lose relationships with people close to us.": [
+      "we can lose connection and relationships",
+      "with people close to us"
+    ],
+    "You do not have wifi.": [
+      "Do you not have wifi??"
+    ]
+  }
+}

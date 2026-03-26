@@ -1,0 +1,41 @@
+{
+  "article_id": "183",
+  "comment_index": 121,
+  "raw_comment": "This graph demonstrates that younger women are more likely to reach out to their parents than young men, I wonder why that is? Is it parenting styles, or how kids were brought up, or is it just the way humans adapt and grow away from their closest family? I wonder in our community how accurate this graph will actually be?",
+  "ace_sentences": [
+    "This graph demonstrates something.",
+    "Younger women are more likely to reach out to their parents than young men.",
+    "I wonder why that is.",
+    "Parenting styles may explain this.",
+    "How kids were brought up may explain this.",
+    "The way humans adapt may explain this.",
+    "The way humans grow away from their closest family may explain this.",
+    "I wonder how accurate this graph will actually be in our community."
+  ],
+  "source_mappings": {
+    "This graph demonstrates something.": [
+      "This graph demonstrates"
+    ],
+    "Younger women are more likely to reach out to their parents than young men.": [
+      "younger women are more likely to reach out to their parents than young men"
+    ],
+    "I wonder why that is.": [
+      "I wonder why that is?"
+    ],
+    "Parenting styles may explain this.": [
+      "Is it parenting styles"
+    ],
+    "How kids were brought up may explain this.": [
+      "how kids were brought up"
+    ],
+    "The way humans adapt may explain this.": [
+      "the way humans adapt"
+    ],
+    "The way humans grow away from their closest family may explain this.": [
+      "grow away from their closest family"
+    ],
+    "I wonder how accurate this graph will actually be in our community.": [
+      "I wonder in our community how accurate this graph will actually be?"
+    ]
+  }
+}

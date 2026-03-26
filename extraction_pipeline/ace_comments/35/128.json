@@ -1,0 +1,73 @@
+{
+  "article_id": "35",
+  "comment_index": 128,
+  "raw_comment": "Wow! This is the first interactive graph I have seen on this learning platform. It is quite fitting since spring has sprung! I really enjoy this visual because it led me to notice that the areas of the United States that are colored first are closest to the equator. I wonder why the purple colored areas have leaves appear after the the yellow colored areas, considering they are lower, closer to the green colored states. I also am curious about why the West Coast has such varied colors. I never realized it took approximately five months for all 50 states to experience spring, with its fullest leaves. May 31- in my New Jersey-mindset- is closer to summer. A catchy phrase for this time lapse could be \"The Coloring of America: A 5 Month Process\".",
+  "ace_sentences": [
+    "This is the first interactive graph that I have seen on this learning platform.",
+    "Spring has sprung.",
+    "This is quite fitting.",
+    "I really enjoy this visual.",
+    "This visual led me to notice something.",
+    "The areas of the United States are colored first.",
+    "These areas are closest to the equator.",
+    "The purple colored areas have leaves appear after the yellow colored areas.",
+    "The purple colored areas are lower.",
+    "The purple colored areas are closer to the green colored states.",
+    "I wonder why the purple colored areas have leaves appear after the yellow colored areas.",
+    "I am curious about why the West Coast has such varied colors.",
+    "It took approximately five months for all 50 states to experience spring.",
+    "All 50 states experience spring with its fullest leaves.",
+    "May 31 is closer to summer in my New Jersey-mindset-.",
+    "A catchy phrase for this time lapse could be \"The Coloring of America: A 5 Month Process\"."
+  ],
+  "source_mappings": {
+    "This is the first interactive graph that I have seen on this learning platform.": [
+      "This is the first interactive graph I have seen on this learning platform."
+    ],
+    "Spring has sprung.": [
+      "spring has sprung"
+    ],
+    "This is quite fitting.": [
+      "It is quite fitting"
+    ],
+    "I really enjoy this visual.": [
+      "I really enjoy this visual"
+    ],
+    "This visual led me to notice something.": [
+      "because it led me to notice"
+    ],
+    "The areas of the United States are colored first.": [
+      "the areas of the United States that are colored first"
+    ],
+    "These areas are closest to the equator.": [
+      "are closest to the equator"
+    ],
+    "The purple colored areas have leaves appear after the yellow colored areas.": [
+      "the purple colored areas have leaves appear after the the yellow colored areas"
+    ],
+    "The purple colored areas are lower.": [
+      "they are lower"
+    ],
+    "The purple colored areas are closer to the green colored states.": [
+      "closer to the green colored states"
+    ],
+    "I wonder why the purple colored areas have leaves appear after the yellow colored areas.": [
+      "I wonder why the purple colored areas have leaves appear after the the yellow colored areas"
+    ],
+    "I am curious about why the West Coast has such varied colors.": [
+      "I also am curious about why the West Coast has such varied colors."
+    ],
+    "It took approximately five months for all 50 states to experience spring.": [
+      "it took approximately five months for all 50 states to experience spring"
+    ],
+    "All 50 states experience spring with its fullest leaves.": [
+      "for all 50 states to experience spring, with its fullest leaves"
+    ],
+    "May 31 is closer to summer in my New Jersey-mindset-.": [
+      "May 31- in my New Jersey-mindset- is closer to summer."
+    ],
+    "A catchy phrase for this time lapse could be \"The Coloring of America: A 5 Month Process\".": [
+      "A catchy phrase for this time lapse could be \"The Coloring of America: A 5 Month Process\"."
+    ]
+  }
+}

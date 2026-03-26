@@ -1,0 +1,43 @@
+{
+  "article_id": "91",
+  "comment_index": 125,
+  "raw_comment": "I wonder why the differnece in players and coaches of color is so high in both categories, becuase I know there are more players but in most of these the difference is astounding. Most notably with coaches. \n\nI also notice that the time frame for these graphs are from 1 - 2 years ago, why tdo hey not figure out the percentages now.",
+  "ace_sentences": [
+    "I wonder why the difference in players of color is so high.",
+    "I wonder why the difference in coaches of color is so high.",
+    "The difference is so high in both categories.",
+    "I know that there are more players of color.",
+    "In most of these, the difference is astounding.",
+    "The difference is most notable with coaches.",
+    "I notice that the time frame for these graphs is from 1 - 2 years ago.",
+    "I wonder why they do not figure out the percentages now."
+  ],
+  "source_mappings": {
+    "I wonder why the difference in players of color is so high.": [
+      "I wonder why the differnece in players",
+      "of color is so high"
+    ],
+    "I wonder why the difference in coaches of color is so high.": [
+      "I wonder why the differnece in players and coaches",
+      "of color is so high"
+    ],
+    "The difference is so high in both categories.": [
+      "is so high in both categories"
+    ],
+    "I know that there are more players of color.": [
+      "becuase I know there are more players"
+    ],
+    "In most of these, the difference is astounding.": [
+      "but in most of these the difference is astounding"
+    ],
+    "The difference is most notable with coaches.": [
+      "Most notably with coaches."
+    ],
+    "I notice that the time frame for these graphs is from 1 - 2 years ago.": [
+      "I also notice that the time frame for these graphs are from 1 - 2 years ago"
+    ],
+    "I wonder why they do not figure out the percentages now.": [
+      "why tdo hey not figure out the percentages now"
+    ]
+  }
+}

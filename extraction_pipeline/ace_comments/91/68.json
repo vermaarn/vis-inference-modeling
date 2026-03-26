@@ -1,0 +1,101 @@
+{
+  "article_id": "91",
+  "comment_index": 68,
+  "raw_comment": "In all four of the graphs, I notice that the majority of all the players in every league are playing of color. Every league is above 60% players of color to be exact. However, I also noticed that in the managerial spots for each league, there was not a single league with more than 50% coaches/managers of color.\nI wonder why teams and leagues are not focusing on racial diversity at the coaching positions? (However, I feel that in the coach’s role one shouldn’t argue someone’s skin color rather how their team does with he/her as a coach.)\nI wonder why it varies so drastically per league with people of color in the managerial roles?\nI wonder if the diversity of people of color in the managerial role has anything to do with the sport? \nThis unfortunately has little impact on my community because very few of my family friends and friends in general focus on sports and more specifically the color of the coaches/players’ skin. I feel that there needs to be more awareness in smaller towns etc. However, it is hard because we all live in a predominately white state so there is never really forced racism or on the other hand diversity on sports teams. When I do watch sports I am not focusing on who is white vs who is a player of color I am simply focusing on if my team is winning or losing. \nNew Headline - “Racial inequality is at the top of many of our sports organizations.”",
+  "ace_sentences": [
+    "There are four graphs.",
+    "I notice something in all four of the graphs.",
+    "The majority of all the players in every league are players of color.",
+    "Every league is above 60% players of color.",
+    "I also noticed something about the managerial spots for each league.",
+    "There was not a single league with more than 50% coaches or managers of color.",
+    "I wonder why teams and leagues are not focusing on racial diversity at the coaching positions.",
+    "I feel that in the coach’s role one should not argue someone’s skin color.",
+    "I feel that in the coach’s role one should argue how their team does with he/her as a coach.",
+    "I wonder why it varies so drastically per league with people of color in the managerial roles.",
+    "I wonder if the diversity of people of color in the managerial role has anything to do with the sport.",
+    "This has little impact on my community.",
+    "Very few of my family friends and friends in general focus on sports.",
+    "Very few of my family friends and friends in general focus on the color of the coaches/players’ skin.",
+    "I feel that there needs to be more awareness in smaller towns etc.",
+    "It is hard.",
+    "We all live in a predominately white state.",
+    "Therefore, there is never really forced racism.",
+    "There is never really diversity on sports teams.",
+    "When I do watch sports, I am not focusing on who is white.",
+    "When I do watch sports, I am not focusing on who is a player of color.",
+    "When I do watch sports, I am simply focusing on if my team is winning or losing.",
+    "The new headline is “Racial inequality is at the top of many of our sports organizations.”"
+  ],
+  "source_mappings": {
+    "There are four graphs.": [
+      "all four of the graphs"
+    ],
+    "I notice something in all four of the graphs.": [
+      "In all four of the graphs, I notice"
+    ],
+    "The majority of all the players in every league are players of color.": [
+      "the majority of all the players in every league are playing of color"
+    ],
+    "Every league is above 60% players of color.": [
+      "Every league is above 60% players of color"
+    ],
+    "I also noticed something about the managerial spots for each league.": [
+      "I also noticed that in the managerial spots for each league"
+    ],
+    "There was not a single league with more than 50% coaches or managers of color.": [
+      "there was not a single league with more than 50% coaches/managers of color"
+    ],
+    "I wonder why teams and leagues are not focusing on racial diversity at the coaching positions.": [
+      "I wonder why teams and leagues are not focusing on racial diversity at the coaching positions?"
+    ],
+    "I feel that in the coach’s role one should not argue someone’s skin color.": [
+      "I feel that in the coach’s role one shouldn’t argue someone’s skin color"
+    ],
+    "I feel that in the coach’s role one should argue how their team does with he/her as a coach.": [
+      "how their team does with he/her as a coach."
+    ],
+    "I wonder why it varies so drastically per league with people of color in the managerial roles.": [
+      "I wonder why it varies so drastically per league with people of color in the managerial roles?"
+    ],
+    "I wonder if the diversity of people of color in the managerial role has anything to do with the sport.": [
+      "I wonder if the diversity of people of color in the managerial role has anything to do with the sport?"
+    ],
+    "This has little impact on my community.": [
+      "This unfortunately has little impact on my community"
+    ],
+    "Very few of my family friends and friends in general focus on sports.": [
+      "very few of my family friends and friends in general focus on sports"
+    ],
+    "Very few of my family friends and friends in general focus on the color of the coaches/players’ skin.": [
+      "the color of the coaches/players’ skin"
+    ],
+    "I feel that there needs to be more awareness in smaller towns etc.": [
+      "I feel that there needs to be more awareness in smaller towns etc."
+    ],
+    "It is hard.": [
+      "it is hard"
+    ],
+    "We all live in a predominately white state.": [
+      "we all live in a predominately white state"
+    ],
+    "Therefore, there is never really forced racism.": [
+      "so there is never really forced racism"
+    ],
+    "There is never really diversity on sports teams.": [
+      "or on the other hand diversity on sports teams"
+    ],
+    "When I do watch sports, I am not focusing on who is white.": [
+      "When I do watch sports I am not focusing on who is white"
+    ],
+    "When I do watch sports, I am not focusing on who is a player of color.": [
+      "vs who is a player of color"
+    ],
+    "When I do watch sports, I am simply focusing on if my team is winning or losing.": [
+      "I am simply focusing on if my team is winning or losing."
+    ],
+    "The new headline is “Racial inequality is at the top of many of our sports organizations.”": [
+      "New Headline - “Racial inequality is at the top of many of our sports organizations.”"
+    ]
+  }
+}

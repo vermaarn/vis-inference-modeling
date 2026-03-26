@@ -1,0 +1,45 @@
+{
+  "article_id": "35",
+  "comment_index": 69,
+  "raw_comment": "We notice that in our town the first leaf appears about April 22nd. Something we noticed was that the rocky mountains did not have the first leaf until later. We think this because of the difference in temperatures. Also, the \"First leaf appearance\" graph speeds up in spots and slows down in other locations. Overall, the southern states get the \"first leaf\" first because they are by the equator.",
+  "ace_sentences": [
+    "In our town, the first leaf appears about April 22nd.",
+    "We noticed something.",
+    "The Rocky Mountains did not have the first leaf until later.",
+    "We think that this is because of the difference in temperatures.",
+    "The \"First leaf appearance\" graph speeds up in some spots.",
+    "The \"First leaf appearance\" graph slows down in other locations.",
+    "Overall, the southern states get the \"first leaf\" first.",
+    "The southern states are by the equator.",
+    "The southern states get the \"first leaf\" first because the southern states are by the equator."
+  ],
+  "source_mappings": {
+    "In our town, the first leaf appears about April 22nd.": [
+      "in our town the first leaf appears about April 22nd"
+    ],
+    "We noticed something.": [
+      "Something we noticed was that"
+    ],
+    "The Rocky Mountains did not have the first leaf until later.": [
+      "the rocky mountains did not have the first leaf until later"
+    ],
+    "We think that this is because of the difference in temperatures.": [
+      "We think this because of the difference in temperatures."
+    ],
+    "The \"First leaf appearance\" graph speeds up in some spots.": [
+      "the \"First leaf appearance\" graph speeds up in spots"
+    ],
+    "The \"First leaf appearance\" graph slows down in other locations.": [
+      "slows down in other locations"
+    ],
+    "Overall, the southern states get the \"first leaf\" first.": [
+      "Overall, the southern states get the \"first leaf\" first"
+    ],
+    "The southern states are by the equator.": [
+      "because they are by the equator"
+    ],
+    "The southern states get the \"first leaf\" first because the southern states are by the equator.": [
+      "Overall, the southern states get the \"first leaf\" first because they are by the equator"
+    ]
+  }
+}

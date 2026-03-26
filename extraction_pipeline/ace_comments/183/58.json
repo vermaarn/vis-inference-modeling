@@ -1,0 +1,93 @@
+{
+  "article_id": "183",
+  "comment_index": 58,
+  "raw_comment": "I notice that the largest percentage of young people (50-75%) reach out to their parents at least one a day or a few times a week while the smallest percentage visit in person (15-25%). I also notice that there is a relatively large disparity between young men and women's communication habits: women are 20% more likely to send texts or do video-chats than men.\n\nI wonder if more young people reach out via text and video-chat because they are less time-intensive. I also wonder how the data is divided based on age--- are Gen Z young people more likely to use technology to reach out? I am curious if women are more likely to reach out to their parents due to societal expectations and because they are expected to be the caregivers.\n\nThis relates to me and my community because I will not always live near my parents. Instead of seeing them at home, I will have to reach out in order to maintain in contact. The data also indicates a shift in communication methods. Technology is an increasingly important means to connect.\n\n\"Send a Wire: More Female than Male?\"",
+  "ace_sentences": [
+    "The largest percentage of young people is 50-75%.",
+    "The largest percentage of young people reach out to their parents at least one a day.",
+    "The largest percentage of young people reach out to their parents a few times a week.",
+    "The smallest percentage of young people visit their parents in person.",
+    "The smallest percentage of young people is 15-25%.",
+    "There is a relatively large disparity between young men and women's communication habits.",
+    "Women are 20% more likely to send texts than men.",
+    "Women are 20% more likely to do video-chats than men.",
+    "More young people may reach out via text and video-chat because text and video-chat are less time-intensive.",
+    "The data may be divided based on age.",
+    "Gen Z young people may be more likely to use technology to reach out.",
+    "Women may be more likely to reach out to their parents due to societal expectations.",
+    "Women may be more likely to reach out to their parents because they are expected to be the caregivers.",
+    "This relates to me and my community.",
+    "I will not always live near my parents.",
+    "I will have to reach out in order to maintain in contact.",
+    "I will not always see my parents at home.",
+    "The data indicates a shift in communication methods.",
+    "Technology is an increasingly important means to connect.",
+    "The headline is \"Send a Wire: More Female than Male?\"."
+  ],
+  "source_mappings": {
+    "The largest percentage of young people is 50-75%.": [
+      "the largest percentage of young people (50-75%)"
+    ],
+    "The largest percentage of young people reach out to their parents at least one a day.": [
+      "the largest percentage of young people (50-75%) reach out to their parents at least one a day"
+    ],
+    "The largest percentage of young people reach out to their parents a few times a week.": [
+      "the largest percentage of young people (50-75%) reach out to their parents",
+      "a few times a week"
+    ],
+    "The smallest percentage of young people visit their parents in person.": [
+      "the smallest percentage visit in person"
+    ],
+    "The smallest percentage of young people is 15-25%.": [
+      "(15-25%)"
+    ],
+    "There is a relatively large disparity between young men and women's communication habits.": [
+      "there is a relatively large disparity between young men and women's communication habits"
+    ],
+    "Women are 20% more likely to send texts than men.": [
+      "women are 20% more likely to send texts",
+      "than men"
+    ],
+    "Women are 20% more likely to do video-chats than men.": [
+      "women are 20% more likely to",
+      "do video-chats",
+      "than men"
+    ],
+    "More young people may reach out via text and video-chat because text and video-chat are less time-intensive.": [
+      "more young people reach out via text and video-chat because they are less time-intensive"
+    ],
+    "The data may be divided based on age.": [
+      "the data is divided based on age"
+    ],
+    "Gen Z young people may be more likely to use technology to reach out.": [
+      "are Gen Z young people more likely to use technology to reach out?"
+    ],
+    "Women may be more likely to reach out to their parents due to societal expectations.": [
+      "women are more likely to reach out to their parents due to societal expectations"
+    ],
+    "Women may be more likely to reach out to their parents because they are expected to be the caregivers.": [
+      "because they are expected to be the caregivers"
+    ],
+    "This relates to me and my community.": [
+      "This relates to me and my community"
+    ],
+    "I will not always live near my parents.": [
+      "I will not always live near my parents"
+    ],
+    "I will have to reach out in order to maintain in contact.": [
+      "I will have to reach out in order to maintain in contact"
+    ],
+    "I will not always see my parents at home.": [
+      "Instead of seeing them at home"
+    ],
+    "The data indicates a shift in communication methods.": [
+      "The data also indicates a shift in communication methods"
+    ],
+    "Technology is an increasingly important means to connect.": [
+      "Technology is an increasingly important means to connect"
+    ],
+    "The headline is \"Send a Wire: More Female than Male?\".": [
+      "\"Send a Wire: More Female than Male?\""
+    ]
+  }
+}

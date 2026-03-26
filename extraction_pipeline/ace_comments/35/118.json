@@ -1,0 +1,42 @@
+{
+  "article_id": "35",
+  "comment_index": 118,
+  "raw_comment": "I noticed that it's moving up and it moves the most in April and the least in January or May.\nI wonder if May it will expand more or faster in May.\nI think it's expanded more in April then may because it may be warmer in the north than the west",
+  "ace_sentences": [
+    "I noticed that it is moving up.",
+    "It moves the most in April.",
+    "It moves the least in January.",
+    "It moves the least in May.",
+    "I wonder if it will expand more in May.",
+    "I wonder if it will expand faster in May.",
+    "I think that it expanded more in April than in May.",
+    "It may be warmer in the north than in the west."
+  ],
+  "source_mappings": {
+    "I noticed that it is moving up.": [
+      "I noticed that it's moving up"
+    ],
+    "It moves the most in April.": [
+      "it moves the most in April"
+    ],
+    "It moves the least in January.": [
+      "the least in January"
+    ],
+    "It moves the least in May.": [
+      "May"
+    ],
+    "I wonder if it will expand more in May.": [
+      "I wonder if May it will expand more",
+      "in May"
+    ],
+    "I wonder if it will expand faster in May.": [
+      "or faster in May"
+    ],
+    "I think that it expanded more in April than in May.": [
+      "I think it's expanded more in April then may"
+    ],
+    "It may be warmer in the north than in the west.": [
+      "it may be warmer in the north than the west"
+    ]
+  }
+}

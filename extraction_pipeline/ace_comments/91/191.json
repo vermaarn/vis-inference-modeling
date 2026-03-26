@@ -1,0 +1,33 @@
+{
+  "article_id": "91",
+  "comment_index": 191,
+  "raw_comment": "What I notice that there is more colored players in basketball.\nWhat I wonder is why is there less colored players in MLB.\nWhat impact does it have on your community none because there is no major league sports in are state. \nWhat is going on in this graph is show the difference in color.\nHeadline: major league sports with colored players.",
+  "ace_sentences": [
+    "I notice that there are more colored players in basketball.",
+    "I wonder why there are less colored players in MLB.",
+    "There is no impact on my community.",
+    "There is no major league sports in our state.",
+    "This graph shows the difference in color.",
+    "The headline is major league sports with colored players."
+  ],
+  "source_mappings": {
+    "I notice that there are more colored players in basketball.": [
+      "What I notice that there is more colored players in basketball."
+    ],
+    "I wonder why there are less colored players in MLB.": [
+      "What I wonder is why is there less colored players in MLB."
+    ],
+    "There is no impact on my community.": [
+      "What impact does it have on your community none"
+    ],
+    "There is no major league sports in our state.": [
+      "because there is no major league sports in are state."
+    ],
+    "This graph shows the difference in color.": [
+      "What is going on in this graph is show the difference in color."
+    ],
+    "The headline is major league sports with colored players.": [
+      "Headline: major league sports with colored players."
+    ]
+  }
+}

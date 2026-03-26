@@ -1,0 +1,89 @@
+{
+  "article_id": "91",
+  "comment_index": 126,
+  "raw_comment": "What do I notice? I notice that there are many more white coaches than black coaches. There is a problem with these graphs though. I can see they're trying to say that racism is still around, but this is actually pretty proportional to America. About 70% of America is made of people not of color. There's obviously going to be more non-people of color. It's silly to not think so.\n\nI wonder why the NHL was excluded from this. The NHL has very few black players at the moment, around 43, since 2020. A typical NHL roster consists of 20 players, which is about 620 players. And only 43 of them are black. There are currently NO black head coaches in the NHL. You can argue racism on this, which is partially true,\n\nRecently there have been more and more NHL coaches being fired from their position due to racist accusations, and them turning out to be true. I'd like to see the NHL in here, so people could question, why does the NHL have so few POC players?",
+  "ace_sentences": [
+    "I notice that there are many more white coaches than black coaches.",
+    "There is a problem with these graphs.",
+    "I can see that they are trying to say that racism is still around.",
+    "This is proportional to America.",
+    "About 70% of America is made of people not of color.",
+    "There is going to be more non-people of color.",
+    "I wonder why the NHL was excluded from this.",
+    "The NHL has very few black players at the moment.",
+    "The number of black players in the NHL is around 43.",
+    "This number is since 2020.",
+    "A typical NHL roster consists of 20 players.",
+    "This is about 620 players.",
+    "Only 43 of them are black.",
+    "There are currently no black head coaches in the NHL.",
+    "A person can argue racism on this.",
+    "This is partially true.",
+    "Recently more and more NHL coaches have been fired from their position due to racist accusations.",
+    "These racist accusations turned out to be true.",
+    "I would like to see the NHL in here.",
+    "Then people could question why the NHL has so few POC players."
+  ],
+  "source_mappings": {
+    "I notice that there are many more white coaches than black coaches.": [
+      "I notice that there are many more white coaches than black coaches."
+    ],
+    "There is a problem with these graphs.": [
+      "There is a problem with these graphs though."
+    ],
+    "I can see that they are trying to say that racism is still around.": [
+      "I can see they're trying to say that racism is still around"
+    ],
+    "This is proportional to America.": [
+      "but this is actually pretty proportional to America."
+    ],
+    "About 70% of America is made of people not of color.": [
+      "About 70% of America is made of people not of color."
+    ],
+    "There is going to be more non-people of color.": [
+      "There's obviously going to be more non-people of color."
+    ],
+    "I wonder why the NHL was excluded from this.": [
+      "I wonder why the NHL was excluded from this."
+    ],
+    "The NHL has very few black players at the moment.": [
+      "The NHL has very few black players at the moment"
+    ],
+    "The number of black players in the NHL is around 43.": [
+      "around 43"
+    ],
+    "This number is since 2020.": [
+      "since 2020"
+    ],
+    "A typical NHL roster consists of 20 players.": [
+      "A typical NHL roster consists of 20 players"
+    ],
+    "This is about 620 players.": [
+      "which is about 620 players."
+    ],
+    "Only 43 of them are black.": [
+      "And only 43 of them are black."
+    ],
+    "There are currently no black head coaches in the NHL.": [
+      "There are currently NO black head coaches in the NHL."
+    ],
+    "A person can argue racism on this.": [
+      "You can argue racism on this"
+    ],
+    "This is partially true.": [
+      "which is partially true,"
+    ],
+    "Recently more and more NHL coaches have been fired from their position due to racist accusations.": [
+      "Recently there have been more and more NHL coaches being fired from their position due to racist accusations"
+    ],
+    "These racist accusations turned out to be true.": [
+      "and them turning out to be true."
+    ],
+    "I would like to see the NHL in here.": [
+      "I'd like to see the NHL in here"
+    ],
+    "Then people could question why the NHL has so few POC players.": [
+      "so people could question, why does the NHL have so few POC players?"
+    ]
+  }
+}

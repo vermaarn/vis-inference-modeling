@@ -1,0 +1,53 @@
+{
+  "article_id": "91",
+  "comment_index": 187,
+  "raw_comment": "I notice that the Major Baseball League has the least players of color and that both basketball associations have the greatest amount of players of color. I wonder if there are other sports that also have colored players and coaches. This impacts my community because there has been situations where people of color are treated differently than others. These graphs show that more than half of the leagues people are people of color and this shows that no matter what skin color you have. How diverse are these sports?",
+  "ace_sentences": [
+    "I notice that the Major Baseball League has the least players of color.",
+    "I notice that both basketball associations have the greatest amount of players of color.",
+    "I wonder if there are other sports.",
+    "I wonder if other sports also have colored players.",
+    "I wonder if other sports also have colored coaches.",
+    "This impacts my community.",
+    "There have been situations.",
+    "In these situations, people of color are treated differently than others.",
+    "These graphs show that more than half of the leagues people are people of color.",
+    "This shows that no matter what skin color you have.",
+    "How diverse are these sports?"
+  ],
+  "source_mappings": {
+    "I notice that the Major Baseball League has the least players of color.": [
+      "I notice that the Major Baseball League has the least players of color"
+    ],
+    "I notice that both basketball associations have the greatest amount of players of color.": [
+      "that both basketball associations have the greatest amount of players of color"
+    ],
+    "I wonder if there are other sports.": [
+      "I wonder if there are other sports"
+    ],
+    "I wonder if other sports also have colored players.": [
+      "other sports that also have colored players"
+    ],
+    "I wonder if other sports also have colored coaches.": [
+      "and coaches"
+    ],
+    "This impacts my community.": [
+      "This impacts my community"
+    ],
+    "There have been situations.": [
+      "there has been situations"
+    ],
+    "In these situations, people of color are treated differently than others.": [
+      "where people of color are treated differently than others"
+    ],
+    "These graphs show that more than half of the leagues people are people of color.": [
+      "These graphs show that more than half of the leagues people are people of color"
+    ],
+    "This shows that no matter what skin color you have.": [
+      "and this shows that no matter what skin color you have"
+    ],
+    "How diverse are these sports?": [
+      "How diverse are these sports?"
+    ]
+  }
+}

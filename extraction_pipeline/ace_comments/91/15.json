@@ -1,0 +1,64 @@
+{
+  "article_id": "91",
+  "comment_index": 15,
+  "raw_comment": "I notice in every sport listed there is more people of color than the white coaches. There is approximately 50 percent or more people of color in every sport category except  for major league soccer. I wonder why major league soccer is almost 50/50 for people of color and the white coaches but the rest of the sports are 50 percent or more different. This doesn't impact my community in a bad way me being a person of color there are more Hispanics, African, Asians, than more white people in our world.  In sports more people of color, than the other!",
+  "ace_sentences": [
+    "I notice something.",
+    "In every sport listed, there are more people of color than the white coaches.",
+    "In every sport category, there are approximately 50 percent or more people of color.",
+    "Major league soccer is an exception.",
+    "I wonder something.",
+    "Major league soccer is almost 50/50 for people of color and the white coaches.",
+    "The rest of the sports are 50 percent or more different.",
+    "This does not impact my community in a bad way.",
+    "I am a person of color.",
+    "In our world, there are more Hispanics than more white people.",
+    "In our world, there are more African than more white people.",
+    "In our world, there are more Asians than more white people.",
+    "In sports, there are more people of color than the other."
+  ],
+  "source_mappings": {
+    "I notice something.": [
+      "I notice"
+    ],
+    "In every sport listed, there are more people of color than the white coaches.": [
+      "in every sport listed there is more people of color than the white coaches"
+    ],
+    "In every sport category, there are approximately 50 percent or more people of color.": [
+      "There is approximately 50 percent or more people of color in every sport category"
+    ],
+    "Major league soccer is an exception.": [
+      "except  for major league soccer"
+    ],
+    "I wonder something.": [
+      "I wonder"
+    ],
+    "Major league soccer is almost 50/50 for people of color and the white coaches.": [
+      "major league soccer is almost 50/50 for people of color and the white coaches"
+    ],
+    "The rest of the sports are 50 percent or more different.": [
+      "the rest of the sports are 50 percent or more different"
+    ],
+    "This does not impact my community in a bad way.": [
+      "This doesn't impact my community in a bad way"
+    ],
+    "I am a person of color.": [
+      "me being a person of color"
+    ],
+    "In our world, there are more Hispanics than more white people.": [
+      "there are more Hispanics",
+      "than more white people in our world"
+    ],
+    "In our world, there are more African than more white people.": [
+      "African",
+      "than more white people in our world"
+    ],
+    "In our world, there are more Asians than more white people.": [
+      "Asians",
+      "than more white people in our world"
+    ],
+    "In sports, there are more people of color than the other.": [
+      "In sports more people of color, than the other"
+    ]
+  }
+}

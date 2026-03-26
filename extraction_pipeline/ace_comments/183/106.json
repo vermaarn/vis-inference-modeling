@@ -1,0 +1,97 @@
+{
+  "article_id": "183",
+  "comment_index": 106,
+  "raw_comment": "After I looked at the graph, I noticed that more young women reach out to a parent at least once a day or a few times a week than young men. Based on these observations, I wonder if there is a scientific reason or generational influence behind why less young men contact a parent compared to young women when they live away from their parent(s). The results portrayed in the graph relate to many of my family, friends, and I who are either close to or currently entering college and adulthood which likely involves moving away from our parents and childhood homes. When we reach this stage in our lives, this graph can help predict how often we will connect with our parents through texting, calling, or visiting in person because the samples of people used in the graph are not too distant from our ages, and the experiment is recent.",
+  "ace_sentences": [
+    "I looked at the graph.",
+    "I noticed that more young women reach out to a parent at least once a day or a few times a week than young men.",
+    "I have these observations.",
+    "I wonder if there is a scientific reason.",
+    "I wonder if there is a generational influence.",
+    "Less young men contact a parent compared to young women.",
+    "Young men live away from their parent(s).",
+    "Young women live away from their parent(s).",
+    "The results portrayed in the graph relate to many of my family.",
+    "The results portrayed in the graph relate to many of my friends.",
+    "The results portrayed in the graph relate to me.",
+    "Many of my family are either close to or currently entering college and adulthood.",
+    "Many of my friends are either close to or currently entering college and adulthood.",
+    "I am either close to or currently entering college and adulthood.",
+    "Entering college and adulthood likely involves moving away from our parents and childhood homes.",
+    "We reach this stage in our lives.",
+    "This graph can help predict how often we will connect with our parents.",
+    "We will connect with our parents through texting.",
+    "We will connect with our parents through calling.",
+    "We will connect with our parents through visiting in person.",
+    "The samples of people used in the graph are not too distant from our ages.",
+    "The experiment is recent."
+  ],
+  "source_mappings": {
+    "I looked at the graph.": [
+      "After I looked at the graph"
+    ],
+    "I noticed that more young women reach out to a parent at least once a day or a few times a week than young men.": [
+      "I noticed that more young women reach out to a parent at least once a day or a few times a week than young men."
+    ],
+    "I have these observations.": [
+      "Based on these observations"
+    ],
+    "I wonder if there is a scientific reason.": [
+      "I wonder if there is a scientific reason"
+    ],
+    "I wonder if there is a generational influence.": [
+      "I wonder if there is a scientific reason or generational influence"
+    ],
+    "Less young men contact a parent compared to young women.": [
+      "why less young men contact a parent compared to young women"
+    ],
+    "Young men live away from their parent(s).": [
+      "when they live away from their parent(s)"
+    ],
+    "Young women live away from their parent(s).": [
+      "compared to young women when they live away from their parent(s)"
+    ],
+    "The results portrayed in the graph relate to many of my family.": [
+      "The results portrayed in the graph relate to many of my family"
+    ],
+    "The results portrayed in the graph relate to many of my friends.": [
+      "The results portrayed in the graph relate to many of my family, friends"
+    ],
+    "The results portrayed in the graph relate to me.": [
+      "The results portrayed in the graph relate to many of my family, friends, and I"
+    ],
+    "Many of my family are either close to or currently entering college and adulthood.": [
+      "many of my family"
+    ],
+    "Many of my friends are either close to or currently entering college and adulthood.": [
+      "friends"
+    ],
+    "I am either close to or currently entering college and adulthood.": [
+      "I who are either close to or currently entering college and adulthood"
+    ],
+    "Entering college and adulthood likely involves moving away from our parents and childhood homes.": [
+      "which likely involves moving away from our parents and childhood homes."
+    ],
+    "We reach this stage in our lives.": [
+      "When we reach this stage in our lives"
+    ],
+    "This graph can help predict how often we will connect with our parents.": [
+      "this graph can help predict how often we will connect with our parents"
+    ],
+    "We will connect with our parents through texting.": [
+      "through texting"
+    ],
+    "We will connect with our parents through calling.": [
+      "calling"
+    ],
+    "We will connect with our parents through visiting in person.": [
+      "visiting in person"
+    ],
+    "The samples of people used in the graph are not too distant from our ages.": [
+      "the samples of people used in the graph are not too distant from our ages"
+    ],
+    "The experiment is recent.": [
+      "the experiment is recent"
+    ]
+  }
+}

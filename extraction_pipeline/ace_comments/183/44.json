@@ -1,0 +1,61 @@
+{
+  "article_id": "183",
+  "comment_index": 44,
+  "raw_comment": "Title: staying in the loop\nThis graph describes how much young men and women reach out to their parents. I notice how the title is \"how involved are parents in their young adult's lives,\" and the data does not relate to it. I wonder why not many more people send texts because they're so easy to send. I wonder why young women generally communicate with their families more. It relates to my community or life because I am going on to college next year and staying in contact with my family is very important to me.",
+  "ace_sentences": [
+    "The title is staying in the loop.",
+    "This graph describes how much young men reach out to their parents.",
+    "This graph describes how much young women reach out to their parents.",
+    "I notice the title is how involved are parents in their young adult's lives.",
+    "The data does not relate to the title.",
+    "Not many more people send texts.",
+    "Texts are easy to send.",
+    "I wonder why not many more people send texts.",
+    "Young women generally communicate with their families more.",
+    "I wonder why young women generally communicate with their families more.",
+    "It relates to my community or life.",
+    "I am going on to college next year.",
+    "Staying in contact with my family is very important to me."
+  ],
+  "source_mappings": {
+    "The title is staying in the loop.": [
+      "Title: staying in the loop"
+    ],
+    "This graph describes how much young men reach out to their parents.": [
+      "This graph describes how much young men and women reach out to their parents."
+    ],
+    "This graph describes how much young women reach out to their parents.": [
+      "This graph describes how much young men and women reach out to their parents."
+    ],
+    "I notice the title is how involved are parents in their young adult's lives.": [
+      "I notice how the title is \"how involved are parents in their young adult's lives,\""
+    ],
+    "The data does not relate to the title.": [
+      "the data does not relate to it"
+    ],
+    "Not many more people send texts.": [
+      "not many more people send texts"
+    ],
+    "Texts are easy to send.": [
+      "they're so easy to send"
+    ],
+    "I wonder why not many more people send texts.": [
+      "I wonder why not many more people send texts"
+    ],
+    "Young women generally communicate with their families more.": [
+      "young women generally communicate with their families more"
+    ],
+    "I wonder why young women generally communicate with their families more.": [
+      "I wonder why young women generally communicate with their families more."
+    ],
+    "It relates to my community or life.": [
+      "It relates to my community or life"
+    ],
+    "I am going on to college next year.": [
+      "I am going on to college next year"
+    ],
+    "Staying in contact with my family is very important to me.": [
+      "staying in contact with my family is very important to me."
+    ]
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "article_id": "35",
+  "comment_index": 12,
+  "raw_comment": "We feel like, in order to draw a healthy conclusion on spring, at least 10 sightings of green vegetation would be necessary. Overall spring comes earlier to the south, however, in recent years spring has come later to the south, and early to the west coast and some eastern areas. Comparing the two graphs brings up the fact that spring comes earlier and later to the same regions in the U.S.",
+  "ace_sentences": [
+    "We feel that at least 10 sightings of green vegetation would be necessary.",
+    "These sightings would be necessary in order to draw a healthy conclusion on spring.",
+    "Overall, spring comes earlier to the south.",
+    "However, in recent years spring has come later to the south.",
+    "In recent years spring has come early to the west coast.",
+    "In recent years spring has come early to some eastern areas.",
+    "Comparing the two graphs brings up a fact.",
+    "Spring comes earlier and later to the same regions in the U.S."
+  ],
+  "source_mappings": {
+    "We feel that at least 10 sightings of green vegetation would be necessary.": [
+      "We feel like",
+      "at least 10 sightings of green vegetation would be necessary"
+    ],
+    "These sightings would be necessary in order to draw a healthy conclusion on spring.": [
+      "in order to draw a healthy conclusion on spring",
+      "at least 10 sightings of green vegetation would be necessary"
+    ],
+    "Overall, spring comes earlier to the south.": [
+      "Overall spring comes earlier to the south"
+    ],
+    "However, in recent years spring has come later to the south.": [
+      "however, in recent years spring has come later to the south"
+    ],
+    "In recent years spring has come early to the west coast.": [
+      "in recent years spring has come later to the south, and early to the west coast"
+    ],
+    "In recent years spring has come early to some eastern areas.": [
+      "some eastern areas"
+    ],
+    "Comparing the two graphs brings up a fact.": [
+      "Comparing the two graphs brings up the fact"
+    ],
+    "Spring comes earlier and later to the same regions in the U.S.": [
+      "spring comes earlier and later to the same regions in the U.S."
+    ]
+  }
+}

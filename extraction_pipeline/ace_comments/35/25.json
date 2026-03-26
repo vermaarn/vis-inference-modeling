@@ -1,0 +1,49 @@
+{
+  "article_id": "35",
+  "comment_index": 25,
+  "raw_comment": "We noticed that in the mountainous areas the leaves arrived last (May) because of the higher elevation causing colder temperatures. We wonder how accurate this graph really is. And we believe that the graph shows that spring evolves from the south moving upwards toward the north. A title for this graph may be \" A timelapse of spring\".",
+  "ace_sentences": [
+    "We noticed something.",
+    "The leaves arrived last in the mountainous areas.",
+    "The leaves arrived last in May.",
+    "The mountainous areas have a higher elevation.",
+    "The higher elevation causes colder temperatures.",
+    "We wonder how accurate this graph really is.",
+    "We believe something.",
+    "The graph shows that spring evolves from the south.",
+    "The graph shows that spring moves upwards toward the north.",
+    "A title for this graph may be \" A timelapse of spring\"."
+  ],
+  "source_mappings": {
+    "We noticed something.": [
+      "We noticed"
+    ],
+    "The leaves arrived last in the mountainous areas.": [
+      "in the mountainous areas the leaves arrived last"
+    ],
+    "The leaves arrived last in May.": [
+      "last (May)"
+    ],
+    "The mountainous areas have a higher elevation.": [
+      "the higher elevation"
+    ],
+    "The higher elevation causes colder temperatures.": [
+      "higher elevation causing colder temperatures"
+    ],
+    "We wonder how accurate this graph really is.": [
+      "We wonder how accurate this graph really is."
+    ],
+    "We believe something.": [
+      "we believe"
+    ],
+    "The graph shows that spring evolves from the south.": [
+      "the graph shows that spring evolves from the south"
+    ],
+    "The graph shows that spring moves upwards toward the north.": [
+      "moving upwards toward the north"
+    ],
+    "A title for this graph may be \" A timelapse of spring\".": [
+      "A title for this graph may be \" A timelapse of spring\""
+    ]
+  }
+}

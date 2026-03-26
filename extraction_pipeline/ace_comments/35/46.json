@@ -1,0 +1,63 @@
+{
+  "article_id": "35",
+  "comment_index": 46,
+  "raw_comment": "I wonder how California, Texas and Florida get first sight of leaves if their states are always warm?\n\nName ideas:\nAre you leafing me?\nFirst sights of leaves",
+  "ace_sentences": [
+    "I wonder about a question.",
+    "California is a state.",
+    "Texas is a state.",
+    "Florida is a state.",
+    "California is always warm.",
+    "Texas is always warm.",
+    "Florida is always warm.",
+    "I wonder how California gets first sight of leaves.",
+    "I wonder how Texas gets first sight of leaves.",
+    "I wonder how Florida gets first sight of leaves.",
+    "A name idea is: Are you leafing me?",
+    "A name idea is: First sights of leaves."
+  ],
+  "source_mappings": {
+    "I wonder about a question.": [
+      "I wonder"
+    ],
+    "California is a state.": [
+      "California"
+    ],
+    "Texas is a state.": [
+      "Texas"
+    ],
+    "Florida is a state.": [
+      "Florida"
+    ],
+    "California is always warm.": [
+      "their states are always warm"
+    ],
+    "Texas is always warm.": [
+      "their states are always warm"
+    ],
+    "Florida is always warm.": [
+      "their states are always warm"
+    ],
+    "I wonder how California gets first sight of leaves.": [
+      "I wonder how",
+      "California",
+      "get first sight of leaves"
+    ],
+    "I wonder how Texas gets first sight of leaves.": [
+      "I wonder how",
+      "Texas",
+      "get first sight of leaves"
+    ],
+    "I wonder how Florida gets first sight of leaves.": [
+      "I wonder how",
+      "Florida",
+      "get first sight of leaves"
+    ],
+    "A name idea is: Are you leafing me?": [
+      "Are you leafing me?"
+    ],
+    "A name idea is: First sights of leaves.": [
+      "First sights of leaves"
+    ]
+  }
+}

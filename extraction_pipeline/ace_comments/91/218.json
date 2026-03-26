@@ -1,0 +1,33 @@
+{
+  "article_id": "91",
+  "comment_index": 218,
+  "raw_comment": "Its intriguing yet also questioning of why most major sport team players and coaches are of color",
+  "ace_sentences": [
+    "This is intriguing.",
+    "This is also questioning.",
+    "Most major sport team players are of color.",
+    "Most major sport team coaches are of color.",
+    "I question why most major sport team players are of color.",
+    "I question why most major sport team coaches are of color."
+  ],
+  "source_mappings": {
+    "This is intriguing.": [
+      "Its intriguing"
+    ],
+    "This is also questioning.": [
+      "yet also questioning"
+    ],
+    "Most major sport team players are of color.": [
+      "why most major sport team players and coaches are of color"
+    ],
+    "Most major sport team coaches are of color.": [
+      "why most major sport team players and coaches are of color"
+    ],
+    "I question why most major sport team players are of color.": [
+      "questioning of why most major sport team players"
+    ],
+    "I question why most major sport team coaches are of color.": [
+      "questioning of why most major sport team"
+    ]
+  }
+}

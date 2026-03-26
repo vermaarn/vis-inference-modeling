@@ -1,0 +1,66 @@
+{
+  "article_id": "35",
+  "comment_index": 14,
+  "raw_comment": "We noticed that the southern states hit spring first, while the northern states hit it last.  This is most likely because the southern states are warmer, and are closer to the equator.  And the northern states hit spring later because of the snow, and climate we have, and the area we are in.  For example, the western region has the Rocky Mts, which would change the climate, air pressure and more, therefore making their region hit spring in May.",
+  "ace_sentences": [
+    "The southern states hit spring first.",
+    "The northern states hit spring last.",
+    "The southern states are warmer.",
+    "The southern states are closer to the equator.",
+    "This is most likely because the southern states are warmer.",
+    "This is most likely because the southern states are closer to the equator.",
+    "The northern states hit spring later.",
+    "The northern states hit spring later because of the snow.",
+    "The northern states hit spring later because of the climate we have.",
+    "The northern states hit spring later because of the area we are in.",
+    "The western region has the Rocky Mts.",
+    "The Rocky Mts would change the climate.",
+    "The Rocky Mts would change the air pressure.",
+    "Their region would hit spring in May."
+  ],
+  "source_mappings": {
+    "The southern states hit spring first.": [
+      "the southern states hit spring first"
+    ],
+    "The northern states hit spring last.": [
+      "the northern states hit it last"
+    ],
+    "The southern states are warmer.": [
+      "the southern states are warmer"
+    ],
+    "The southern states are closer to the equator.": [
+      "are closer to the equator"
+    ],
+    "This is most likely because the southern states are warmer.": [
+      "This is most likely because the southern states are warmer"
+    ],
+    "This is most likely because the southern states are closer to the equator.": [
+      "This is most likely because",
+      "are closer to the equator"
+    ],
+    "The northern states hit spring later.": [
+      "the northern states hit spring later"
+    ],
+    "The northern states hit spring later because of the snow.": [
+      "the northern states hit spring later because of the snow"
+    ],
+    "The northern states hit spring later because of the climate we have.": [
+      "climate we have"
+    ],
+    "The northern states hit spring later because of the area we are in.": [
+      "the area we are in"
+    ],
+    "The western region has the Rocky Mts.": [
+      "the western region has the Rocky Mts"
+    ],
+    "The Rocky Mts would change the climate.": [
+      "the Rocky Mts, which would change the climate"
+    ],
+    "The Rocky Mts would change the air pressure.": [
+      "air pressure"
+    ],
+    "Their region would hit spring in May.": [
+      "their region hit spring in May"
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "article_id": "91",
+  "comment_index": 84,
+  "raw_comment": "I notice that soccer has the highest number of colored coaches, yet the player diversity ratio is the second-lowest: standing at 60%.  To compare, the NBA and WNBA have the highest listed colored players. Also, there is a larger amount of diversity for players and not coaches.\n\nI wonder why the diversity percentage is so much bigger for players rather than the coaches? Is there a specific reason, like how many teams are in the sport, or is it because there are more players than coaches. I am also curious as to how each sport differs based on color.",
+  "ace_sentences": [
+    "I notice that soccer has the highest number of colored coaches.",
+    "The player diversity ratio in soccer is the second-lowest.",
+    "The player diversity ratio in soccer stands at 60%.",
+    "The NBA has the highest listed colored players.",
+    "The WNBA has the highest listed colored players.",
+    "There is a larger amount of diversity for players.",
+    "There is not a larger amount of diversity for coaches.",
+    "I wonder why the diversity percentage is so much bigger for players rather than the coaches.",
+    "I ask if there is a specific reason.",
+    "I ask if the number of teams in the sport is a reason.",
+    "I ask if it is because there are more players than coaches.",
+    "I am curious as to how each sport differs based on color."
+  ],
+  "source_mappings": {
+    "I notice that soccer has the highest number of colored coaches.": [
+      "I notice that soccer has the highest number of colored coaches"
+    ],
+    "The player diversity ratio in soccer is the second-lowest.": [
+      "the player diversity ratio is the second-lowest"
+    ],
+    "The player diversity ratio in soccer stands at 60%.": [
+      "standing at 60%"
+    ],
+    "The NBA has the highest listed colored players.": [
+      "the NBA and WNBA have the highest listed colored players",
+      "the NBA"
+    ],
+    "The WNBA has the highest listed colored players.": [
+      "the NBA and WNBA have the highest listed colored players",
+      "WNBA"
+    ],
+    "There is a larger amount of diversity for players.": [
+      "there is a larger amount of diversity for players"
+    ],
+    "There is not a larger amount of diversity for coaches.": [
+      "and not coaches"
+    ],
+    "I wonder why the diversity percentage is so much bigger for players rather than the coaches.": [
+      "I wonder why the diversity percentage is so much bigger for players rather than the coaches?"
+    ],
+    "I ask if there is a specific reason.": [
+      "Is there a specific reason"
+    ],
+    "I ask if the number of teams in the sport is a reason.": [
+      "like how many teams are in the sport"
+    ],
+    "I ask if it is because there are more players than coaches.": [
+      "or is it because there are more players than coaches"
+    ],
+    "I am curious as to how each sport differs based on color.": [
+      "I am also curious as to how each sport differs based on color."
+    ]
+  }
+}

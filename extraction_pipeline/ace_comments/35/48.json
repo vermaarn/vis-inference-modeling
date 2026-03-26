@@ -1,0 +1,37 @@
+{
+  "article_id": "35",
+  "comment_index": 48,
+  "raw_comment": "My notice: I notice that near the Rocky Mountains range  their 1st leaves were spotted in May\n\nMy wonder: I wonder if the temperature is the only thing that matters?\n\nTitle idea: Spring has sprung! So have the leaves!",
+  "ace_sentences": [
+    "I notice something.",
+    "The Rocky Mountains have a range.",
+    "Near the Rocky Mountains range, their 1st leaves were spotted in May.",
+    "I wonder about something.",
+    "I wonder if the temperature is the only thing that matters.",
+    "The title idea is: Spring has sprung!",
+    "The title idea is: So have the leaves!"
+  ],
+  "source_mappings": {
+    "I notice something.": [
+      "My notice: I notice"
+    ],
+    "The Rocky Mountains have a range.": [
+      "the Rocky Mountains range"
+    ],
+    "Near the Rocky Mountains range, their 1st leaves were spotted in May.": [
+      "near the Rocky Mountains range  their 1st leaves were spotted in May"
+    ],
+    "I wonder about something.": [
+      "My wonder: I wonder"
+    ],
+    "I wonder if the temperature is the only thing that matters.": [
+      "I wonder if the temperature is the only thing that matters?"
+    ],
+    "The title idea is: Spring has sprung!": [
+      "Title idea: Spring has sprung!"
+    ],
+    "The title idea is: So have the leaves!": [
+      "So have the leaves!"
+    ]
+  }
+}

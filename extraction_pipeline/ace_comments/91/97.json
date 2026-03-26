@@ -1,0 +1,85 @@
+{
+  "article_id": "91",
+  "comment_index": 97,
+  "raw_comment": "From this graph, I noticed that quite a high percentage of players across several sports are players of color, whereas not many coaches are. This may mean that talent leads to POC landing player roles, but because of systemic racism and other things in society it is harder for POC to climb up in managerial roles and earn higher wages. Also, there is quite a gap in the percentages between players of color and coaches of color. The largest gap is in the NFL with a 61% gap, and the second-largest gap is in the WNBA with a 58% gap. From this graph, I wonder how the data in this graph from the years 2019 and 2020 compares to past years. It would also be interesting to see how this data compares with sports teams across the globe. One last thing I wonder is what our society can do to break down whatever challenges or barriers are preventing more POC from becoming head coaches. I feel that this data impacts my community in the fact that it is reflective of it. Much of our society is built on systemic racism and for this reason, POC face challenges every day because of their skin color. The fact that such a glaring difference in racial distribution is apparent in big sports leagues makes me wonder how much worse it is on a smaller, more local scale. The alternate title I have created for this graph is \"Lack of Diversity in Sports: How Equal Really is the Field?\"",
+  "ace_sentences": [
+    "From this graph, I noticed that quite a high percentage of players across several sports are players of color.",
+    "From this graph, I noticed that not many coaches are players of color.",
+    "This may mean that talent leads to POC landing player roles.",
+    "Because of systemic racism and other things in society, it is harder for POC to climb up in managerial roles.",
+    "Because of systemic racism and other things in society, it is harder for POC to earn higher wages.",
+    "There is quite a gap in the percentages between players of color and coaches of color.",
+    "The largest gap is in the NFL.",
+    "The largest gap is a 61% gap.",
+    "The second-largest gap is in the WNBA.",
+    "The second-largest gap is a 58% gap.",
+    "From this graph, I wonder how the data in this graph from the years 2019 and 2020 compares to past years.",
+    "It would be interesting to see how this data compares with sports teams across the globe.",
+    "I wonder what our society can do to break down whatever challenges or barriers are preventing more POC from becoming head coaches.",
+    "I feel that this data impacts my community.",
+    "I feel that this data is reflective of my community.",
+    "Much of our society is built on systemic racism.",
+    "For this reason, POC face challenges every day because of their skin color.",
+    "The fact that such a glaring difference in racial distribution is apparent in big sports leagues makes me wonder how much worse it is on a smaller, more local scale.",
+    "The alternate title I have created for this graph is \"Lack of Diversity in Sports: How Equal Really is the Field?\""
+  ],
+  "source_mappings": {
+    "From this graph, I noticed that quite a high percentage of players across several sports are players of color.": [
+      "From this graph, I noticed that quite a high percentage of players across several sports are players of color"
+    ],
+    "From this graph, I noticed that not many coaches are players of color.": [
+      "From this graph, I noticed that quite a high percentage of players across several sports are players of color, whereas not many coaches are."
+    ],
+    "This may mean that talent leads to POC landing player roles.": [
+      "This may mean that talent leads to POC landing player roles"
+    ],
+    "Because of systemic racism and other things in society, it is harder for POC to climb up in managerial roles.": [
+      "because of systemic racism and other things in society it is harder for POC to climb up in managerial roles"
+    ],
+    "Because of systemic racism and other things in society, it is harder for POC to earn higher wages.": [
+      "and earn higher wages"
+    ],
+    "There is quite a gap in the percentages between players of color and coaches of color.": [
+      "there is quite a gap in the percentages between players of color and coaches of color"
+    ],
+    "The largest gap is in the NFL.": [
+      "The largest gap is in the NFL"
+    ],
+    "The largest gap is a 61% gap.": [
+      "with a 61% gap"
+    ],
+    "The second-largest gap is in the WNBA.": [
+      "the second-largest gap is in the WNBA"
+    ],
+    "The second-largest gap is a 58% gap.": [
+      "with a 58% gap"
+    ],
+    "From this graph, I wonder how the data in this graph from the years 2019 and 2020 compares to past years.": [
+      "From this graph, I wonder how the data in this graph from the years 2019 and 2020 compares to past years."
+    ],
+    "It would be interesting to see how this data compares with sports teams across the globe.": [
+      "It would also be interesting to see how this data compares with sports teams across the globe."
+    ],
+    "I wonder what our society can do to break down whatever challenges or barriers are preventing more POC from becoming head coaches.": [
+      "One last thing I wonder is what our society can do to break down whatever challenges or barriers are preventing more POC from becoming head coaches."
+    ],
+    "I feel that this data impacts my community.": [
+      "I feel that this data impacts my community"
+    ],
+    "I feel that this data is reflective of my community.": [
+      "it is reflective of it"
+    ],
+    "Much of our society is built on systemic racism.": [
+      "Much of our society is built on systemic racism"
+    ],
+    "For this reason, POC face challenges every day because of their skin color.": [
+      "for this reason, POC face challenges every day because of their skin color."
+    ],
+    "The fact that such a glaring difference in racial distribution is apparent in big sports leagues makes me wonder how much worse it is on a smaller, more local scale.": [
+      "The fact that such a glaring difference in racial distribution is apparent in big sports leagues makes me wonder how much worse it is on a smaller, more local scale."
+    ],
+    "The alternate title I have created for this graph is \"Lack of Diversity in Sports: How Equal Really is the Field?\"": [
+      "The alternate title I have created for this graph is \"Lack of Diversity in Sports: How Equal Really is the Field?\""
+    ]
+  }
+}

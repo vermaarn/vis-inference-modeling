@@ -1,0 +1,29 @@
+{
+  "article_id": "35",
+  "comment_index": 50,
+  "raw_comment": "I noticed that the \"First leaf\" arches to the west coast of america except for the \"First leaf\" in May. The \"First leaf\" in May was a big clump in the middle of the west and little parts scattered on other places of the U.S.",
+  "ace_sentences": [
+    "I noticed a fact.",
+    "The \"First leaf\" arches to the west coast of america.",
+    "The \"First leaf\" in May is an exception.",
+    "The \"First leaf\" in May was a big clump in the middle of the west.",
+    "The \"First leaf\" in May was little parts scattered on other places of the U.S."
+  ],
+  "source_mappings": {
+    "I noticed a fact.": [
+      "I noticed"
+    ],
+    "The \"First leaf\" arches to the west coast of america.": [
+      "the \"First leaf\" arches to the west coast of america"
+    ],
+    "The \"First leaf\" in May is an exception.": [
+      "except for the \"First leaf\" in May"
+    ],
+    "The \"First leaf\" in May was a big clump in the middle of the west.": [
+      "The \"First leaf\" in May was a big clump in the middle of the west"
+    ],
+    "The \"First leaf\" in May was little parts scattered on other places of the U.S.": [
+      "little parts scattered on other places of the U.S."
+    ]
+  }
+}

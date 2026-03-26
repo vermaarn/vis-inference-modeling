@@ -1,0 +1,105 @@
+{
+  "article_id": "91",
+  "comment_index": 157,
+  "raw_comment": "Based on the data provided in the graph, we found that despite a majority of sports having large percentages of players of color, there are far less coaches of color to represent them. As an example, the National Football League consists of 74% players of color, however, has only 13% coaches of color serving in the league. We also noticed that Major League Baseball tends to have the fewest players of color in comparison to other sports featured in the graph. These findings led us to question, why do the percentages of players of color seemingly have little correlation to the amount of coaches of color? Furthermore, the information presented in the graph affects both ourselves and our community in several ways. Underrepresentation in sports can have a major effect on young people of color who hope to pursue a career in professional sports and potentially hurt their aspirations. Our group also believed it was important for players and coaches to be able to have people around them who are different and have experienced different things in order for them to grow and be able to create relationships. Our headline for this article would be : “Major league sports in relation to coaches and players of color.\"",
+  "ace_sentences": [
+    "The data is provided in the graph.",
+    "We found that a majority of sports have large percentages of players of color.",
+    "We found that there are far less coaches of color.",
+    "The coaches of color represent the players of color.",
+    "The National Football League consists of 74% players of color.",
+    "The National Football League has only 13% coaches of color.",
+    "The coaches of color serve in the National Football League.",
+    "We noticed that Major League Baseball tends to have the fewest players of color in comparison to other sports featured in the graph.",
+    "These findings led us to question why the percentages of players of color seemingly have little correlation to the amount of coaches of color.",
+    "The information is presented in the graph.",
+    "The information affects ourselves in several ways.",
+    "The information affects our community in several ways.",
+    "Underrepresentation in sports can have a major effect on young people of color.",
+    "Some young people of color hope to pursue a career in professional sports.",
+    "Underrepresentation in sports can potentially hurt their aspirations.",
+    "Our group believed that it was important for players to be able to have people around them who are different.",
+    "Our group believed that it was important for coaches to be able to have people around them who are different.",
+    "Our group believed that it was important for players to be able to have people around them who have experienced different things.",
+    "Our group believed that it was important for coaches to be able to have people around them who have experienced different things.",
+    "This is important in order for them to grow.",
+    "This is important in order for them to be able to create relationships.",
+    "Our headline for this article would be:",
+    "Major league sports in relation to coaches and players of color."
+  ],
+  "source_mappings": {
+    "The data is provided in the graph.": [
+      "Based on the data provided in the graph"
+    ],
+    "We found that a majority of sports have large percentages of players of color.": [
+      "we found that despite a majority of sports having large percentages of players of color"
+    ],
+    "We found that there are far less coaches of color.": [
+      "there are far less coaches of color"
+    ],
+    "The coaches of color represent the players of color.": [
+      "coaches of color to represent them"
+    ],
+    "The National Football League consists of 74% players of color.": [
+      "the National Football League consists of 74% players of color"
+    ],
+    "The National Football League has only 13% coaches of color.": [
+      "has only 13% coaches of color"
+    ],
+    "The coaches of color serve in the National Football League.": [
+      "coaches of color serving in the league"
+    ],
+    "We noticed that Major League Baseball tends to have the fewest players of color in comparison to other sports featured in the graph.": [
+      "We also noticed that Major League Baseball tends to have the fewest players of color in comparison to other sports featured in the graph."
+    ],
+    "These findings led us to question why the percentages of players of color seemingly have little correlation to the amount of coaches of color.": [
+      "These findings led us to question, why do the percentages of players of color seemingly have little correlation to the amount of coaches of color?"
+    ],
+    "The information is presented in the graph.": [
+      "the information presented in the graph"
+    ],
+    "The information affects ourselves in several ways.": [
+      "affects both ourselves"
+    ],
+    "The information affects our community in several ways.": [
+      "and our community in several ways"
+    ],
+    "Underrepresentation in sports can have a major effect on young people of color.": [
+      "Underrepresentation in sports can have a major effect on young people of color"
+    ],
+    "Some young people of color hope to pursue a career in professional sports.": [
+      "young people of color who hope to pursue a career in professional sports"
+    ],
+    "Underrepresentation in sports can potentially hurt their aspirations.": [
+      "potentially hurt their aspirations"
+    ],
+    "Our group believed that it was important for players to be able to have people around them who are different.": [
+      "Our group also believed it was important for players",
+      "to be able to have people around them who are different"
+    ],
+    "Our group believed that it was important for coaches to be able to have people around them who are different.": [
+      "Our group also believed it was important for",
+      "coaches to be able to have people around them who are different"
+    ],
+    "Our group believed that it was important for players to be able to have people around them who have experienced different things.": [
+      "Our group also believed it was important for players",
+      "have experienced different things"
+    ],
+    "Our group believed that it was important for coaches to be able to have people around them who have experienced different things.": [
+      "Our group also believed it was important for",
+      "coaches to be able to have people around them who are different and have experienced different things"
+    ],
+    "This is important in order for them to grow.": [
+      "in order for them to grow"
+    ],
+    "This is important in order for them to be able to create relationships.": [
+      "and be able to create relationships"
+    ],
+    "Our headline for this article would be:": [
+      "Our headline for this article would be :"
+    ],
+    "Major league sports in relation to coaches and players of color.": [
+      "Major league sports in relation to coaches and players of color."
+    ]
+  }
+}

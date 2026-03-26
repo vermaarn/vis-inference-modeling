@@ -1,0 +1,57 @@
+{
+  "article_id": "91",
+  "comment_index": 26,
+  "raw_comment": "What do you notice?\nI noticed that in every major sport except for baseball, more than half of the players are people of color. Unlike the coaches, with the majority being mostly white. \nWhat do you Wonder?\nI wonder if the year that the data was taken affected the results because of the world diversifying. \nWhat is the impact on my community?\nSports slowly becoming more diverse helps my community because of the idolization of different races to inspire some young people of color to strive for being a professional athlete or coach.\n\nDiversity is quickly escalating in the recent years of professional sports.",
+  "ace_sentences": [
+    "I noticed something.",
+    "In every major sport except for baseball, more than half of the players are people of color.",
+    "The coaches are mostly white.",
+    "I wonder something.",
+    "The year that the data was taken may have affected the results.",
+    "The world is diversifying.",
+    "Sports are slowly becoming more diverse.",
+    "This helps my community.",
+    "Some people idolize different races.",
+    "This idolization inspires some young people of color.",
+    "These young people of color strive for being a professional athlete or coach.",
+    "Diversity is quickly escalating in the recent years of professional sports."
+  ],
+  "source_mappings": {
+    "I noticed something.": [
+      "I noticed"
+    ],
+    "In every major sport except for baseball, more than half of the players are people of color.": [
+      "in every major sport except for baseball, more than half of the players are people of color."
+    ],
+    "The coaches are mostly white.": [
+      "Unlike the coaches, with the majority being mostly white."
+    ],
+    "I wonder something.": [
+      "I wonder"
+    ],
+    "The year that the data was taken may have affected the results.": [
+      "the year that the data was taken affected the results"
+    ],
+    "The world is diversifying.": [
+      "the world diversifying."
+    ],
+    "Sports are slowly becoming more diverse.": [
+      "Sports slowly becoming more diverse"
+    ],
+    "This helps my community.": [
+      "helps my community"
+    ],
+    "Some people idolize different races.": [
+      "the idolization of different races"
+    ],
+    "This idolization inspires some young people of color.": [
+      "to inspire some young people of color"
+    ],
+    "These young people of color strive for being a professional athlete or coach.": [
+      "to strive for being a professional athlete or coach."
+    ],
+    "Diversity is quickly escalating in the recent years of professional sports.": [
+      "Diversity is quickly escalating in the recent years of professional sports."
+    ]
+  }
+}

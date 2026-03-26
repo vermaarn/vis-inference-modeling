@@ -1,0 +1,81 @@
+{
+  "article_id": "91",
+  "comment_index": 172,
+  "raw_comment": "What do you notice?\nI notice that the percentage of head coaches of color is less than 50% in all the listed sports. There is a big gap between the  representation of players of color to the head coaches of color.\nWhat do you wonder?\nI wonder why the percentages of head coaches of color are so low.\nWhat Impact does this have on you and your community?\nThese graphs impact me by making me realize that head coaches of color don't really have a huge representation in various sports like the players themselves. These graphs impact my community by not allowing many players of color aspire or feel connected to their coaches. This is because the coaches are not exactly people like them.\nWhat's going on in this graph? Write a catchy headline that captures the graph's main idea.\nIn this graph players of color are shown to have larger representation than head coaches of colors in listed sports.\nHeadline: Are teams as a whole really as diverse as they could be?",
+  "ace_sentences": [
+    "I notice a percentage.",
+    "The percentage is the percentage of head coaches of color.",
+    "The percentage is less than 50% in all the listed sports.",
+    "There is a big gap.",
+    "The big gap is between the representation of players of color and the head coaches of color.",
+    "I wonder about a reason.",
+    "The reason is why the percentages of head coaches of color are so low.",
+    "These graphs impact me.",
+    "These graphs make me realize something.",
+    "Head coaches of color do not have a huge representation in various sports.",
+    "Players have a huge representation in various sports.",
+    "These graphs impact my community.",
+    "These graphs do not allow many players of color to aspire.",
+    "These graphs do not allow many players of color to feel connected to their coaches.",
+    "This is because the coaches are not exactly people like them.",
+    "In this graph, players of color are shown to have larger representation than head coaches of colors in listed sports.",
+    "The headline is:",
+    "Are teams as a whole really as diverse as they could be?"
+  ],
+  "source_mappings": {
+    "I notice a percentage.": [
+      "I notice that the percentage"
+    ],
+    "The percentage is the percentage of head coaches of color.": [
+      "the percentage of head coaches of color"
+    ],
+    "The percentage is less than 50% in all the listed sports.": [
+      "is less than 50% in all the listed sports"
+    ],
+    "There is a big gap.": [
+      "There is a big gap"
+    ],
+    "The big gap is between the representation of players of color and the head coaches of color.": [
+      "between the  representation of players of color to the head coaches of color"
+    ],
+    "I wonder about a reason.": [
+      "I wonder why"
+    ],
+    "The reason is why the percentages of head coaches of color are so low.": [
+      "why the percentages of head coaches of color are so low"
+    ],
+    "These graphs impact me.": [
+      "These graphs impact me"
+    ],
+    "These graphs make me realize something.": [
+      "making me realize"
+    ],
+    "Head coaches of color do not have a huge representation in various sports.": [
+      "head coaches of color don't really have a huge representation in various sports"
+    ],
+    "Players have a huge representation in various sports.": [
+      "like the players themselves"
+    ],
+    "These graphs impact my community.": [
+      "These graphs impact my community"
+    ],
+    "These graphs do not allow many players of color to aspire.": [
+      "not allowing many players of color aspire"
+    ],
+    "These graphs do not allow many players of color to feel connected to their coaches.": [
+      "or feel connected to their coaches"
+    ],
+    "This is because the coaches are not exactly people like them.": [
+      "This is because the coaches are not exactly people like them"
+    ],
+    "In this graph, players of color are shown to have larger representation than head coaches of colors in listed sports.": [
+      "In this graph players of color are shown to have larger representation than head coaches of colors in listed sports"
+    ],
+    "The headline is:": [
+      "Headline:"
+    ],
+    "Are teams as a whole really as diverse as they could be?": [
+      "Are teams as a whole really as diverse as they could be?"
+    ]
+  }
+}

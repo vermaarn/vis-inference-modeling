@@ -1,0 +1,97 @@
+{
+  "article_id": "91",
+  "comment_index": 24,
+  "raw_comment": "What do you notice? I notice that all of the head coaches in the sports listed are below 50%. Another thing to point out is that players have a much more diverse number. Most players of the sports listed are above 50%. Excluding MLB which is 40%.\n\nWhat do you wonder? I wonder why the percentage of players of color is so high but the percentage of coaches are significantly lower. Why does this disparity occur? Another interesting occurrence is that in all sports but MLS, the percentage of colored players is twice the amount of the percentage of colored coaches. Why does MLS stick out in that respect?\n\nWhat impact does this have on you and your community?  This affects those of color who aspire to be coaches of these major sports leagues. A possible explanation is racial prejudice. As coaches are in a state of greater power and responsibility over a team, which represents their community. This, unfortunately, gives those of color an extremely hard journey to become a coach compared to other races.  This should not be the case and this graph clearly points this fact out. This is a probable reason for the disparity of race.\n\nWhat’s going on in this graph? Write a catchy headline that captures the graph’s main idea. The graph shows the disparity for players of color compared to head coaches of color. \nHeadline: Racial disparity in sports, diversity for players, the opposite for coaches, why is this the case?",
+  "ace_sentences": [
+    "I notice something.",
+    "All head coaches in the listed sports are below 50%.",
+    "Players have a much more diverse number.",
+    "Most players in the listed sports are above 50%.",
+    "MLB is 40%.",
+    "I wonder about something.",
+    "The percentage of players of color is high.",
+    "The percentage of coaches is significantly lower.",
+    "This disparity occurs.",
+    "In all sports but MLS, the percentage of colored players is twice the percentage of colored coaches.",
+    "MLS sticks out in that respect.",
+    "This affects people of color.",
+    "Some people of color aspire to be coaches of these major sports leagues.",
+    "A possible explanation is racial prejudice.",
+    "Coaches are in a state of greater power and responsibility over a team.",
+    "A team represents its community.",
+    "This gives people of color an extremely hard journey to become a coach compared to other races.",
+    "This should not be the case.",
+    "This graph clearly points this fact out.",
+    "This is a probable reason for the disparity of race.",
+    "This graph shows a disparity for players of color compared to head coaches of color.",
+    "The headline is: Racial disparity in sports, diversity for players, the opposite for coaches, why is this the case?"
+  ],
+  "source_mappings": {
+    "I notice something.": [
+      "What do you notice? I notice"
+    ],
+    "All head coaches in the listed sports are below 50%.": [
+      "all of the head coaches in the sports listed are below 50%"
+    ],
+    "Players have a much more diverse number.": [
+      "players have a much more diverse number"
+    ],
+    "Most players in the listed sports are above 50%.": [
+      "Most players of the sports listed are above 50%"
+    ],
+    "MLB is 40%.": [
+      "Excluding MLB which is 40%"
+    ],
+    "I wonder about something.": [
+      "What do you wonder? I wonder"
+    ],
+    "The percentage of players of color is high.": [
+      "the percentage of players of color is so high"
+    ],
+    "The percentage of coaches is significantly lower.": [
+      "the percentage of coaches are significantly lower"
+    ],
+    "This disparity occurs.": [
+      "Why does this disparity occur?"
+    ],
+    "In all sports but MLS, the percentage of colored players is twice the percentage of colored coaches.": [
+      "in all sports but MLS, the percentage of colored players is twice the amount of the percentage of colored coaches"
+    ],
+    "MLS sticks out in that respect.": [
+      "Why does MLS stick out in that respect?"
+    ],
+    "This affects people of color.": [
+      "This affects those of color"
+    ],
+    "Some people of color aspire to be coaches of these major sports leagues.": [
+      "those of color who aspire to be coaches of these major sports leagues"
+    ],
+    "A possible explanation is racial prejudice.": [
+      "A possible explanation is racial prejudice"
+    ],
+    "Coaches are in a state of greater power and responsibility over a team.": [
+      "coaches are in a state of greater power and responsibility over a team"
+    ],
+    "A team represents its community.": [
+      "which represents their community"
+    ],
+    "This gives people of color an extremely hard journey to become a coach compared to other races.": [
+      "This, unfortunately, gives those of color an extremely hard journey to become a coach compared to other races"
+    ],
+    "This should not be the case.": [
+      "This should not be the case"
+    ],
+    "This graph clearly points this fact out.": [
+      "this graph clearly points this fact out"
+    ],
+    "This is a probable reason for the disparity of race.": [
+      "This is a probable reason for the disparity of race"
+    ],
+    "This graph shows a disparity for players of color compared to head coaches of color.": [
+      "The graph shows the disparity for players of color compared to head coaches of color"
+    ],
+    "The headline is: Racial disparity in sports, diversity for players, the opposite for coaches, why is this the case?": [
+      "Headline: Racial disparity in sports, diversity for players, the opposite for coaches, why is this the case?"
+    ]
+  }
+}

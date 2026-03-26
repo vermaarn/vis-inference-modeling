@@ -1,0 +1,98 @@
+{
+  "article_id": "183",
+  "comment_index": 79,
+  "raw_comment": "Something that I noticed that’s pretty interesting to me (yet not very surprising!) is that young women tend to reach out to their parents more often than the young men in all three categories. Additionally, I’m surprised to see how often young men and women who do not live with at least one parent visit their parent(s) in person. I was actually expecting to see lower percentages for this category. I wonder how this data would change if the age range wasn’t so wide. For example, young men and women could be categorized as 18-22 instead of 18-34 (i.e. college aged people). I feel like this result in higher percentages for sending texts/phone calls and less visits in person as most young people in college are far away from home. This graph is really intriguing to me! I’m currently a third-year in college and tend to call my parents a lot. Luckily, I’m close enough to home that I can visit pretty frequently though. I think other college students in my community would find this graph interesting as well. I wonder how much other students’ opinions of this graph deviate from mine. Catchy headline: “Texts, Calls, Visits: How Today's Youth Communicate with Their Parents”.",
+  "ace_sentences": [
+    "Something is pretty interesting to me.",
+    "Something is not very surprising to me.",
+    "Young women tend to reach out to their parents more often than the young men in all three categories.",
+    "I am surprised to see something.",
+    "Young men and women who do not live with at least one parent visit their parent(s) in person often.",
+    "I was expecting to see lower percentages for this category.",
+    "I wonder how this data would change.",
+    "The age range was wide.",
+    "I wonder how this data would change if the age range was not so wide.",
+    "Young men and women could be categorized as 18-22 instead of 18-34.",
+    "Young men and women are college aged people.",
+    "I feel like this results in higher percentages for sending texts/phone calls.",
+    "I feel like this results in less visits in person.",
+    "Most young people in college are far away from home.",
+    "This graph is really intriguing to me.",
+    "I am currently a third-year in college.",
+    "I tend to call my parents a lot.",
+    "Luckily, I am close enough to home.",
+    "I can visit pretty frequently.",
+    "I think other college students in my community would find this graph interesting.",
+    "I wonder how much other students' opinions of this graph deviate from mine.",
+    "The headline is “Texts, Calls, Visits: How Today's Youth Communicate with Their Parents”."
+  ],
+  "source_mappings": {
+    "Something is pretty interesting to me.": [
+      "pretty interesting to me"
+    ],
+    "Something is not very surprising to me.": [
+      "not very surprising!"
+    ],
+    "Young women tend to reach out to their parents more often than the young men in all three categories.": [
+      "young women tend to reach out to their parents more often than the young men in all three categories"
+    ],
+    "I am surprised to see something.": [
+      "I’m surprised to see"
+    ],
+    "Young men and women who do not live with at least one parent visit their parent(s) in person often.": [
+      "young men and women who do not live with at least one parent visit their parent(s) in person",
+      "how often"
+    ],
+    "I was expecting to see lower percentages for this category.": [
+      "I was actually expecting to see lower percentages for this category"
+    ],
+    "I wonder how this data would change.": [
+      "I wonder how this data would change"
+    ],
+    "The age range was wide.": [
+      "the age range wasn’t so wide"
+    ],
+    "I wonder how this data would change if the age range was not so wide.": [
+      "I wonder how this data would change if the age range wasn’t so wide"
+    ],
+    "Young men and women could be categorized as 18-22 instead of 18-34.": [
+      "young men and women could be categorized as 18-22 instead of 18-34"
+    ],
+    "Young men and women are college aged people.": [
+      "college aged people"
+    ],
+    "I feel like this results in higher percentages for sending texts/phone calls.": [
+      "I feel like this result in higher percentages for sending texts/phone calls"
+    ],
+    "I feel like this results in less visits in person.": [
+      "and less visits in person"
+    ],
+    "Most young people in college are far away from home.": [
+      "most young people in college are far away from home"
+    ],
+    "This graph is really intriguing to me.": [
+      "This graph is really intriguing to me!"
+    ],
+    "I am currently a third-year in college.": [
+      "I’m currently a third-year in college"
+    ],
+    "I tend to call my parents a lot.": [
+      "tend to call my parents a lot"
+    ],
+    "Luckily, I am close enough to home.": [
+      "Luckily, I’m close enough to home"
+    ],
+    "I can visit pretty frequently.": [
+      "I can visit pretty frequently"
+    ],
+    "I think other college students in my community would find this graph interesting.": [
+      "I think other college students in my community would find this graph interesting as well"
+    ],
+    "I wonder how much other students' opinions of this graph deviate from mine.": [
+      "I wonder how much other students’ opinions of this graph deviate from mine"
+    ],
+    "The headline is “Texts, Calls, Visits: How Today's Youth Communicate with Their Parents”.": [
+      "Catchy headline: “Texts, Calls, Visits: How Today's Youth Communicate with Their Parents”."
+    ]
+  }
+}

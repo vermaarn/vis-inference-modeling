@@ -1,0 +1,30 @@
+{
+  "article_id": "35",
+  "comment_index": 76,
+  "raw_comment": "I noticed that the southern states will be getting the 'first leaf' appearance rather than the northern states. I wonder what causes the strange placement of purple areas on the map. Is it the altitude? This graph shows that spring moves from the south of the United States to the Northern part. A good title for this graph may be, \"An Evolution of Spring.\"",
+  "ace_sentences": [
+    "I noticed that the southern states will be getting the 'first leaf' appearance rather than the northern states.",
+    "I wonder what causes the strange placement of purple areas on the map.",
+    "The altitude may cause the strange placement of purple areas on the map.",
+    "This graph shows that spring moves from the south of the United States to the Northern part.",
+    "A good title for this graph may be \"An Evolution of Spring\"."
+  ],
+  "source_mappings": {
+    "I noticed that the southern states will be getting the 'first leaf' appearance rather than the northern states.": [
+      "I noticed that the southern states will be getting the 'first leaf' appearance rather than the northern states."
+    ],
+    "I wonder what causes the strange placement of purple areas on the map.": [
+      "I wonder what causes the strange placement of purple areas on the map."
+    ],
+    "The altitude may cause the strange placement of purple areas on the map.": [
+      "Is it the altitude?",
+      "the strange placement of purple areas on the map"
+    ],
+    "This graph shows that spring moves from the south of the United States to the Northern part.": [
+      "This graph shows that spring moves from the south of the United States to the Northern part."
+    ],
+    "A good title for this graph may be \"An Evolution of Spring\".": [
+      "A good title for this graph may be, \"An Evolution of Spring.\""
+    ]
+  }
+}

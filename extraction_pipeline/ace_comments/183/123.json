@@ -1,0 +1,77 @@
+{
+  "article_id": "183",
+  "comment_index": 123,
+  "raw_comment": "What do you notice?\n\nWhether it be through texts, calls, or, visits, young women tend to reach out to their parents more often than young men. The most common form of communication is texting, followed by phone or video calls, and finally, in-person visits.\n\nWhat do you wonder?\n\nWhat group of people was the sample taken from? Are they college students? Fresh college graduates? What is the age range?\n\nHow does this relate to you and your community?\n\nA good amount of college students, including me, live away from our parents so our main form of communication is through texting and calling. Finding time to go back home is not the easiest, especially if home is three hours away or in a different state.\n\nCatchy Headline\n\nDialing Home: When Do Young Adults Contact Their Parents?",
+  "ace_sentences": [
+    "Young women tend to reach out to their parents more often than young men.",
+    "The most common form of communication is texting.",
+    "Phone calls or video calls are the second most common form of communication.",
+    "In-person visits are the least common form of communication.",
+    "I wonder what group of people the sample was taken from.",
+    "I wonder whether they are college students.",
+    "I wonder whether they are fresh college graduates.",
+    "I wonder what the age range is.",
+    "A good amount of college students live away from their parents.",
+    "I am a college student.",
+    "I live away from my parents.",
+    "The main form of communication is through texting and calling.",
+    "Finding time to go back home is not the easiest.",
+    "Home can be three hours away.",
+    "Home can be in a different state.",
+    "The headline is:",
+    "Dialing Home: When Do Young Adults Contact Their Parents?"
+  ],
+  "source_mappings": {
+    "Young women tend to reach out to their parents more often than young men.": [
+      "young women tend to reach out to their parents more often than young men"
+    ],
+    "The most common form of communication is texting.": [
+      "The most common form of communication is texting"
+    ],
+    "Phone calls or video calls are the second most common form of communication.": [
+      "followed by phone or video calls"
+    ],
+    "In-person visits are the least common form of communication.": [
+      "and finally, in-person visits"
+    ],
+    "I wonder what group of people the sample was taken from.": [
+      "What group of people was the sample taken from?"
+    ],
+    "I wonder whether they are college students.": [
+      "Are they college students?"
+    ],
+    "I wonder whether they are fresh college graduates.": [
+      "Fresh college graduates?"
+    ],
+    "I wonder what the age range is.": [
+      "What is the age range?"
+    ],
+    "A good amount of college students live away from their parents.": [
+      "A good amount of college students, including me, live away from our parents"
+    ],
+    "I am a college student.": [
+      "college students, including me"
+    ],
+    "I live away from my parents.": [
+      "including me, live away from our parents"
+    ],
+    "The main form of communication is through texting and calling.": [
+      "our main form of communication is through texting and calling"
+    ],
+    "Finding time to go back home is not the easiest.": [
+      "Finding time to go back home is not the easiest"
+    ],
+    "Home can be three hours away.": [
+      "home is three hours away"
+    ],
+    "Home can be in a different state.": [
+      "in a different state"
+    ],
+    "The headline is:": [
+      "Catchy Headline"
+    ],
+    "Dialing Home: When Do Young Adults Contact Their Parents?": [
+      "Dialing Home: When Do Young Adults Contact Their Parents?"
+    ]
+  }
+}

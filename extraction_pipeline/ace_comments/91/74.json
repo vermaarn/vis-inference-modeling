@@ -1,0 +1,73 @@
+{
+  "article_id": "91",
+  "comment_index": 74,
+  "raw_comment": "I notice that overall, there seems to be more players of color than white players, but more white coaches than coaches of color. I also notice that for both mens and womens basketball, the percentage of players of color is the highest of all five sports leagues, while baseball has the least number of players of color by about 43%. I wonder why there are so many more players of color compared to non colored players, but the opposite for coaches. I feel like the ratios should be closer to each other, because then it would keep the same percentage of colored people in these five sports leagues.\n\tThe effect this has on my community is that these graphs show how much of an outlier we are. From my experience playing sports my whole life, I have noticed that there are a lot more white players than players of color, and the same for coaches. This fact must arise because of how many white people, and people of color live in our community. If there were more people of color living in our community, we would see more players of color. But since our community is heavily white, the number of white players outnumbers that of the colored players.\n\tI would title the name of these graphs, “Racial Diversity in Professional Sports”",
+  "ace_sentences": [
+    "I notice that overall there seem to be more players of color than white players.",
+    "I notice that overall there are more white coaches than coaches of color.",
+    "I notice that for both mens and womens basketball the percentage of players of color is the highest of all five sports leagues.",
+    "I notice that baseball has the least number of players of color by about 43%.",
+    "I wonder why there are so many more players of color compared to non colored players.",
+    "I wonder why the opposite is true for coaches.",
+    "I feel that the ratios should be closer to each other.",
+    "I feel that then it would keep the same percentage of colored people in these five sports leagues.",
+    "The effect this has on my community is that these graphs show how much of an outlier we are.",
+    "From my experience playing sports my whole life, I have noticed that there are a lot more white players than players of color.",
+    "From my experience playing sports my whole life, I have noticed that the same is true for coaches.",
+    "This fact must arise because of how many white people live in our community.",
+    "This fact must arise because of how many people of color live in our community.",
+    "If there were more people of color living in our community, we would see more players of color.",
+    "Since our community is heavily white, the number of white players outnumbers that of the colored players.",
+    "I would title the name of these graphs as Racial Diversity in Professional Sports."
+  ],
+  "source_mappings": {
+    "I notice that overall there seem to be more players of color than white players.": [
+      "I notice that overall, there seems to be more players of color than white players"
+    ],
+    "I notice that overall there are more white coaches than coaches of color.": [
+      "but more white coaches than coaches of color"
+    ],
+    "I notice that for both mens and womens basketball the percentage of players of color is the highest of all five sports leagues.": [
+      "I also notice that for both mens and womens basketball, the percentage of players of color is the highest of all five sports leagues"
+    ],
+    "I notice that baseball has the least number of players of color by about 43%.": [
+      "while baseball has the least number of players of color by about 43%"
+    ],
+    "I wonder why there are so many more players of color compared to non colored players.": [
+      "I wonder why there are so many more players of color compared to non colored players"
+    ],
+    "I wonder why the opposite is true for coaches.": [
+      "but the opposite for coaches"
+    ],
+    "I feel that the ratios should be closer to each other.": [
+      "I feel like the ratios should be closer to each other"
+    ],
+    "I feel that then it would keep the same percentage of colored people in these five sports leagues.": [
+      "because then it would keep the same percentage of colored people in these five sports leagues"
+    ],
+    "The effect this has on my community is that these graphs show how much of an outlier we are.": [
+      "The effect this has on my community is that these graphs show how much of an outlier we are."
+    ],
+    "From my experience playing sports my whole life, I have noticed that there are a lot more white players than players of color.": [
+      "From my experience playing sports my whole life, I have noticed that there are a lot more white players than players of color"
+    ],
+    "From my experience playing sports my whole life, I have noticed that the same is true for coaches.": [
+      "and the same for coaches"
+    ],
+    "This fact must arise because of how many white people live in our community.": [
+      "This fact must arise because of how many white people, and people of color live in our community."
+    ],
+    "This fact must arise because of how many people of color live in our community.": [
+      "This fact must arise because of how many white people, and people of color live in our community."
+    ],
+    "If there were more people of color living in our community, we would see more players of color.": [
+      "If there were more people of color living in our community, we would see more players of color."
+    ],
+    "Since our community is heavily white, the number of white players outnumbers that of the colored players.": [
+      "But since our community is heavily white, the number of white players outnumbers that of the colored players."
+    ],
+    "I would title the name of these graphs as Racial Diversity in Professional Sports.": [
+      "I would title the name of these graphs, “Racial Diversity in Professional Sports”"
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "article_id": "91",
+  "comment_index": 51,
+  "raw_comment": "This graph displays the racial disparity in different major sports leagues. It shows the percent players of color and the percent coaches of color. Both the womens and mens NBA have the highest percentage of players of color at 83% and the MLB has the smallest at 40% of players.\nI wonder why they chose to only incorporate one women's sport association. I also wonder what these graphs have looked like in previous years, how much have they changed throughout the years?\nOur community is predominantly white and seeing this data impacts us by giving us a better understanding of the diversity of sports across the US. It also implies that people of color are not represented enough in the coaching community and may not be given as many opportunities.",
+  "ace_sentences": [
+    "This graph displays the racial disparity in different major sports leagues.",
+    "This graph shows the percent players of color.",
+    "This graph shows the percent coaches of color.",
+    "Both the womens NBA and the mens NBA have the highest percentage of players of color.",
+    "In both the womens NBA and the mens NBA, the percentage of players of color is 83%.",
+    "The MLB has the smallest percentage of players of color.",
+    "In the MLB, the percentage of players of color is 40%.",
+    "I wonder why they chose to only incorporate one women's sport association.",
+    "I wonder what these graphs have looked like in previous years.",
+    "I wonder how much these graphs have changed throughout the years.",
+    "Our community is predominantly white.",
+    "Seeing this data impacts us.",
+    "Seeing this data gives us a better understanding of the diversity of sports across the US.",
+    "This data implies that people of color are not represented enough in the coaching community.",
+    "This data implies that people of color may not be given as many opportunities."
+  ],
+  "source_mappings": {
+    "This graph displays the racial disparity in different major sports leagues.": [
+      "This graph displays the racial disparity in different major sports leagues."
+    ],
+    "This graph shows the percent players of color.": [
+      "It shows the percent players of color"
+    ],
+    "This graph shows the percent coaches of color.": [
+      "and the percent coaches of color."
+    ],
+    "Both the womens NBA and the mens NBA have the highest percentage of players of color.": [
+      "Both the womens and mens NBA have the highest percentage of players of color"
+    ],
+    "In both the womens NBA and the mens NBA, the percentage of players of color is 83%.": [
+      "at 83%"
+    ],
+    "The MLB has the smallest percentage of players of color.": [
+      "the MLB has the smallest"
+    ],
+    "In the MLB, the percentage of players of color is 40%.": [
+      "at 40% of players."
+    ],
+    "I wonder why they chose to only incorporate one women's sport association.": [
+      "I wonder why they chose to only incorporate one women's sport association."
+    ],
+    "I wonder what these graphs have looked like in previous years.": [
+      "I also wonder what these graphs have looked like in previous years"
+    ],
+    "I wonder how much these graphs have changed throughout the years.": [
+      "how much have they changed throughout the years?"
+    ],
+    "Our community is predominantly white.": [
+      "Our community is predominantly white"
+    ],
+    "Seeing this data impacts us.": [
+      "seeing this data impacts us"
+    ],
+    "Seeing this data gives us a better understanding of the diversity of sports across the US.": [
+      "giving us a better understanding of the diversity of sports across the US."
+    ],
+    "This data implies that people of color are not represented enough in the coaching community.": [
+      "It also implies that people of color are not represented enough in the coaching community"
+    ],
+    "This data implies that people of color may not be given as many opportunities.": [
+      "and may not be given as many opportunities."
+    ]
+  }
+}

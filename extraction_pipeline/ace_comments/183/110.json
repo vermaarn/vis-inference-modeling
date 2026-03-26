@@ -1,0 +1,29 @@
+{
+  "article_id": "183",
+  "comment_index": 110,
+  "raw_comment": "I notice that women tend to reach out to their parents more then men. I wonder why women reach out more. This relates to our community because everyone of us has reached out to our parents and I have noticed personally that girls reach out more.",
+  "ace_sentences": [
+    "Women tend to reach out to their parents more than men.",
+    "I wonder why women reach out more.",
+    "This relates to our community.",
+    "Everyone of us has reached out to our parents.",
+    "I have noticed personally that girls reach out more."
+  ],
+  "source_mappings": {
+    "Women tend to reach out to their parents more than men.": [
+      "women tend to reach out to their parents more then men"
+    ],
+    "I wonder why women reach out more.": [
+      "I wonder why women reach out more."
+    ],
+    "This relates to our community.": [
+      "This relates to our community"
+    ],
+    "Everyone of us has reached out to our parents.": [
+      "everyone of us has reached out to our parents"
+    ],
+    "I have noticed personally that girls reach out more.": [
+      "I have noticed personally that girls reach out more."
+    ]
+  }
+}

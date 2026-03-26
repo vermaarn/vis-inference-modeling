@@ -1,0 +1,97 @@
+{
+  "article_id": "91",
+  "comment_index": 92,
+  "raw_comment": "I noticed that the percentages for players of color are much higher in all five sports compared to the head coaches of color. The highest percentage of coaches of color is 41% which is low compared to the highest for players of color which is 83% There are many more players of color than coaches of color in these professional sports. \nI wonder why there are so few coaches of color in these professional sports. I also wonder what discrimination might exist in these professional sports that may be causing the percentage of head coaches of color to be so low. \nThis impacts me and my community very strongly and it is very important. Our community is a predominantly white community, so people may not be aware of the extent to which the systemic racism in our country affects people of color. It is important that our community works to break down this racism and ensures that race has no effect on the opportunities that people are given. These graphs go to show that there are inequities in professional sports and that people need to be more aware of this, so that it can be put to an end. \nThis graph is displaying the percentages of players and coaches of color in professional sports. They display the fact that there are many less coaches of color in comparison to players of color, and that the percentages of coaches of color in all five sports are very low. \n“Lack of Diversity In The Game”",
+  "ace_sentences": [
+    "The percentages for players of color are much higher in all five sports than the percentages for head coaches of color.",
+    "The highest percentage of coaches of color is 41%.",
+    "The highest percentage for players of color is 83%.",
+    "There are many more players of color than coaches of color in these professional sports.",
+    "There are few coaches of color in these professional sports.",
+    "Discrimination may exist in these professional sports.",
+    "This discrimination may cause the percentage of head coaches of color to be low.",
+    "This impacts me very strongly.",
+    "This impacts my community very strongly.",
+    "This is very important.",
+    "Our community is a predominantly white community.",
+    "People may not be aware of the extent to which the systemic racism in our country affects people of color.",
+    "It is important that our community works to break down this racism.",
+    "It is important that our community ensures that race has no effect on the opportunities that people are given.",
+    "These graphs show that there are inequities in professional sports.",
+    "People need to be more aware of this.",
+    "If people are more aware of this, then it can be put to an end.",
+    "This graph displays the percentages of players of color in professional sports.",
+    "This graph displays the percentages of coaches of color in professional sports.",
+    "They display that there are many less coaches of color in comparison to players of color.",
+    "They display that the percentages of coaches of color in all five sports are very low.",
+    "The headline is \"Lack of Diversity In The Game\"."
+  ],
+  "source_mappings": {
+    "The percentages for players of color are much higher in all five sports than the percentages for head coaches of color.": [
+      "the percentages for players of color are much higher in all five sports compared to the head coaches of color"
+    ],
+    "The highest percentage of coaches of color is 41%.": [
+      "The highest percentage of coaches of color is 41%"
+    ],
+    "The highest percentage for players of color is 83%.": [
+      "the highest for players of color which is 83%"
+    ],
+    "There are many more players of color than coaches of color in these professional sports.": [
+      "There are many more players of color than coaches of color in these professional sports."
+    ],
+    "There are few coaches of color in these professional sports.": [
+      "there are so few coaches of color in these professional sports"
+    ],
+    "Discrimination may exist in these professional sports.": [
+      "what discrimination might exist in these professional sports"
+    ],
+    "This discrimination may cause the percentage of head coaches of color to be low.": [
+      "may be causing the percentage of head coaches of color to be so low"
+    ],
+    "This impacts me very strongly.": [
+      "This impacts me"
+    ],
+    "This impacts my community very strongly.": [
+      "my community very strongly"
+    ],
+    "This is very important.": [
+      "it is very important"
+    ],
+    "Our community is a predominantly white community.": [
+      "Our community is a predominantly white community"
+    ],
+    "People may not be aware of the extent to which the systemic racism in our country affects people of color.": [
+      "people may not be aware of the extent to which the systemic racism in our country affects people of color"
+    ],
+    "It is important that our community works to break down this racism.": [
+      "It is important that our community works to break down this racism"
+    ],
+    "It is important that our community ensures that race has no effect on the opportunities that people are given.": [
+      "ensures that race has no effect on the opportunities that people are given"
+    ],
+    "These graphs show that there are inequities in professional sports.": [
+      "These graphs go to show that there are inequities in professional sports"
+    ],
+    "People need to be more aware of this.": [
+      "people need to be more aware of this"
+    ],
+    "If people are more aware of this, then it can be put to an end.": [
+      "so that it can be put to an end"
+    ],
+    "This graph displays the percentages of players of color in professional sports.": [
+      "This graph is displaying the percentages of players"
+    ],
+    "This graph displays the percentages of coaches of color in professional sports.": [
+      "and coaches of color in professional sports"
+    ],
+    "They display that there are many less coaches of color in comparison to players of color.": [
+      "They display the fact that there are many less coaches of color in comparison to players of color"
+    ],
+    "They display that the percentages of coaches of color in all five sports are very low.": [
+      "the percentages of coaches of color in all five sports are very low"
+    ],
+    "The headline is \"Lack of Diversity In The Game\".": [
+      "“Lack of Diversity In The Game”"
+    ]
+  }
+}

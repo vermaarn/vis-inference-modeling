@@ -1,0 +1,71 @@
+{
+  "article_id": "183",
+  "comment_index": 102,
+  "raw_comment": "I notice that for every category there is a lower percentage of young men than women who reach out to there parents often. Actually there is a higher percentage of young women who Call or video chat their parents often than the percentage of men who just text their parents often. I wonder what gender has to do with the percentages of young adults talking to their parents. Why are males less often talk to their parents than females. Is this because males tend to have less of a relationship with parents than women, or is this hormonal? This relates to my community because I am currently attending high school, and around this time many teens are turning into young adults. This causes children to grow away from there parents which makes this graph almost directly representative of me and my peers.\nAre You Contacting Your Parents Enough?",
+  "ace_sentences": [
+    "For every category, there is a lower percentage of young men than women.",
+    "Young men reach out to their parents often.",
+    "Young women reach out to their parents often.",
+    "There is a higher percentage of young women who call or video chat their parents often than the percentage of men who just text their parents often.",
+    "I wonder what gender has to do with the percentages of young adults talking to their parents.",
+    "Males talk to their parents less often than females.",
+    "Males tend to have less of a relationship with parents than women.",
+    "This may be hormonal.",
+    "This relates to my community.",
+    "I am currently attending high school.",
+    "Around this time, many teens are turning into young adults.",
+    "This causes children to grow away from their parents.",
+    "This graph is almost directly representative of me and my peers.",
+    "The headline is:",
+    "Are You Contacting Your Parents Enough?"
+  ],
+  "source_mappings": {
+    "For every category, there is a lower percentage of young men than women.": [
+      "for every category there is a lower percentage of young men than women"
+    ],
+    "Young men reach out to their parents often.": [
+      "young men",
+      "reach out to there parents often"
+    ],
+    "Young women reach out to their parents often.": [
+      "young women",
+      "reach out to there parents often"
+    ],
+    "There is a higher percentage of young women who call or video chat their parents often than the percentage of men who just text their parents often.": [
+      "there is a higher percentage of young women who Call or video chat their parents often than the percentage of men who just text their parents often"
+    ],
+    "I wonder what gender has to do with the percentages of young adults talking to their parents.": [
+      "I wonder what gender has to do with the percentages of young adults talking to their parents."
+    ],
+    "Males talk to their parents less often than females.": [
+      "Why are males less often talk to their parents than females."
+    ],
+    "Males tend to have less of a relationship with parents than women.": [
+      "males tend to have less of a relationship with parents than women"
+    ],
+    "This may be hormonal.": [
+      "or is this hormonal?"
+    ],
+    "This relates to my community.": [
+      "This relates to my community"
+    ],
+    "I am currently attending high school.": [
+      "I am currently attending high school"
+    ],
+    "Around this time, many teens are turning into young adults.": [
+      "around this time many teens are turning into young adults"
+    ],
+    "This causes children to grow away from their parents.": [
+      "This causes children to grow away from there parents"
+    ],
+    "This graph is almost directly representative of me and my peers.": [
+      "this graph almost directly representative of me and my peers"
+    ],
+    "The headline is:": [
+      "Are You Contacting Your Parents Enough?"
+    ],
+    "Are You Contacting Your Parents Enough?": [
+      "Are You Contacting Your Parents Enough?"
+    ]
+  }
+}

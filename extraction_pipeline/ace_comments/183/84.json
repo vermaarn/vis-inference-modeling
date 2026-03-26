@@ -1,0 +1,98 @@
+{
+  "article_id": "183",
+  "comment_index": 84,
+  "raw_comment": "I notice that, out of the young people who reach out to their parents at least once a week, that young women reach out a lot more than young men. In terms of how they reach out, young women send texts to a parent almost 25% more than young men who send texts. However, when it comes to visiting a parent in person, the gap between men and women is a lot smaller. According to the visual, young women are more likely to reach out to a parent, no matter how they do so, compared to young men.\n\nI wonder how this visual would change depending the country in which the people were surveyed. In some countries, it is more common to stay closely connected with family and would be interesting to see how this differs around the world. I also wonder what this graphic would look for an older age group such as 35-40. I think it would also be interesting to see how frequently mothers and fathers reach out to their kids and wonder if some of the gaps that we see in this visual would be the same.\n\nThis relates to me because, as a college student, I do find it really important to reach out to my parents frequently. However, it can be easily understandable that people in this age range can be busy and make it hard to frequently reach out to a parent, especially seeing them in person.\n\nA catchy headline could be \"Staying in touch: Why do young women seem to do it more frequently?\"",
+  "ace_sentences": [
+    "Some young people reach out to their parents at least once a week.",
+    "Young women reach out more than young men.",
+    "Young women send texts to a parent almost 25% more than young men.",
+    "Young men send texts.",
+    "Some people visit a parent in person.",
+    "The gap between men and women is smaller for visiting a parent in person.",
+    "According to the visual, young women are more likely to reach out to a parent than young men.",
+    "According to the visual, young women are more likely to reach out to a parent no matter how they do so.",
+    "I wonder how this visual would change depending the country in which the people were surveyed.",
+    "In some countries, it is more common to stay closely connected with family.",
+    "It would be interesting to see how this differs around the world.",
+    "I wonder what this graphic would look for an older age group such as 35-40.",
+    "I think it would be interesting to see how frequently mothers reach out to their kids.",
+    "I think it would be interesting to see how frequently fathers reach out to their kids.",
+    "I wonder if some of the gaps that we see in this visual would be the same.",
+    "This relates to me.",
+    "I am a college student.",
+    "I find it really important to reach out to my parents frequently.",
+    "People in this age range can be busy.",
+    "Being busy can make it hard to frequently reach out to a parent.",
+    "Seeing a parent in person can be hard.",
+    "A catchy headline could be \"Staying in touch: Why do young women seem to do it more frequently?\""
+  ],
+  "source_mappings": {
+    "Some young people reach out to their parents at least once a week.": [
+      "the young people who reach out to their parents at least once a week"
+    ],
+    "Young women reach out more than young men.": [
+      "young women reach out a lot more than young men"
+    ],
+    "Young women send texts to a parent almost 25% more than young men.": [
+      "young women send texts to a parent almost 25% more than young men"
+    ],
+    "Young men send texts.": [
+      "young men who send texts"
+    ],
+    "Some people visit a parent in person.": [
+      "visiting a parent in person"
+    ],
+    "The gap between men and women is smaller for visiting a parent in person.": [
+      "when it comes to visiting a parent in person, the gap between men and women is a lot smaller"
+    ],
+    "According to the visual, young women are more likely to reach out to a parent than young men.": [
+      "According to the visual, young women are more likely to reach out to a parent",
+      "compared to young men"
+    ],
+    "According to the visual, young women are more likely to reach out to a parent no matter how they do so.": [
+      "no matter how they do so"
+    ],
+    "I wonder how this visual would change depending the country in which the people were surveyed.": [
+      "I wonder how this visual would change depending the country in which the people were surveyed."
+    ],
+    "In some countries, it is more common to stay closely connected with family.": [
+      "In some countries, it is more common to stay closely connected with family"
+    ],
+    "It would be interesting to see how this differs around the world.": [
+      "would be interesting to see how this differs around the world"
+    ],
+    "I wonder what this graphic would look for an older age group such as 35-40.": [
+      "I also wonder what this graphic would look for an older age group such as 35-40."
+    ],
+    "I think it would be interesting to see how frequently mothers reach out to their kids.": [
+      "I think it would also be interesting to see how frequently mothers and fathers reach out to their kids"
+    ],
+    "I think it would be interesting to see how frequently fathers reach out to their kids.": [
+      "I think it would also be interesting to see how frequently mothers and fathers reach out to their kids"
+    ],
+    "I wonder if some of the gaps that we see in this visual would be the same.": [
+      "wonder if some of the gaps that we see in this visual would be the same"
+    ],
+    "This relates to me.": [
+      "This relates to me"
+    ],
+    "I am a college student.": [
+      "as a college student"
+    ],
+    "I find it really important to reach out to my parents frequently.": [
+      "I do find it really important to reach out to my parents frequently"
+    ],
+    "People in this age range can be busy.": [
+      "people in this age range can be busy"
+    ],
+    "Being busy can make it hard to frequently reach out to a parent.": [
+      "be busy and make it hard to frequently reach out to a parent"
+    ],
+    "Seeing a parent in person can be hard.": [
+      "make it hard to frequently reach out to a parent, especially seeing them in person"
+    ],
+    "A catchy headline could be \"Staying in touch: Why do young women seem to do it more frequently?\"": [
+      "A catchy headline could be \"Staying in touch: Why do young women seem to do it more frequently?\""
+    ]
+  }
+}

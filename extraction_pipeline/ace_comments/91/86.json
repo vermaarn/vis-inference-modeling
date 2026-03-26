@@ -1,0 +1,73 @@
+{
+  "article_id": "91",
+  "comment_index": 86,
+  "raw_comment": "Notice: I definitely notice a strong absence of head coaches that are POC. Unsurprising really that there is almost always going to be at least double the number of POC players than head coaches.\n\nWonder: I wonder how big their sample size is and what the numbers really are. I also wonder what each association plans on doing to change this because it really should be more correlated. \n\nThis may not have a great impact on my immediate community, but I am from Iowa so a couple of our college teams are kinda good I guess. It mainly has an impact on the players of color who I feel for because they are more than likely to not see a coach who is also POC during their career (throughout college athletics and throughout their career if they choose that path). \n\nPossible Headline: Broken Promises: National Athletics Associations Refuse To Level With Their Commitments to Racial Equity.",
+  "ace_sentences": [
+    "I notice a strong absence of head coaches that are POC.",
+    "There is almost always going to be at least double the number of POC players than head coaches.",
+    "I wonder how big their sample size is.",
+    "I wonder what the numbers really are.",
+    "I wonder what each association plans on doing to change this.",
+    "This should be more correlated.",
+    "This may not have a great impact on my immediate community.",
+    "I am from Iowa.",
+    "A couple of our college teams are kinda good.",
+    "It mainly has an impact on the players of color.",
+    "I feel for the players of color.",
+    "The players of color are more than likely to not see a coach who is also POC during their career.",
+    "This is throughout college athletics.",
+    "This is throughout their career if they choose that path.",
+    "The possible headline is:",
+    "Broken Promises: National Athletics Associations Refuse To Level With Their Commitments to Racial Equity."
+  ],
+  "source_mappings": {
+    "I notice a strong absence of head coaches that are POC.": [
+      "I definitely notice a strong absence of head coaches that are POC."
+    ],
+    "There is almost always going to be at least double the number of POC players than head coaches.": [
+      "there is almost always going to be at least double the number of POC players than head coaches."
+    ],
+    "I wonder how big their sample size is.": [
+      "I wonder how big their sample size is"
+    ],
+    "I wonder what the numbers really are.": [
+      "what the numbers really are"
+    ],
+    "I wonder what each association plans on doing to change this.": [
+      "I also wonder what each association plans on doing to change this"
+    ],
+    "This should be more correlated.": [
+      "it really should be more correlated."
+    ],
+    "This may not have a great impact on my immediate community.": [
+      "This may not have a great impact on my immediate community"
+    ],
+    "I am from Iowa.": [
+      "I am from Iowa"
+    ],
+    "A couple of our college teams are kinda good.": [
+      "a couple of our college teams are kinda good"
+    ],
+    "It mainly has an impact on the players of color.": [
+      "It mainly has an impact on the players of color"
+    ],
+    "I feel for the players of color.": [
+      "who I feel for"
+    ],
+    "The players of color are more than likely to not see a coach who is also POC during their career.": [
+      "they are more than likely to not see a coach who is also POC during their career"
+    ],
+    "This is throughout college athletics.": [
+      "throughout college athletics"
+    ],
+    "This is throughout their career if they choose that path.": [
+      "throughout their career if they choose that path"
+    ],
+    "The possible headline is:": [
+      "Possible Headline:"
+    ],
+    "Broken Promises: National Athletics Associations Refuse To Level With Their Commitments to Racial Equity.": [
+      "Broken Promises: National Athletics Associations Refuse To Level With Their Commitments to Racial Equity."
+    ]
+  }
+}

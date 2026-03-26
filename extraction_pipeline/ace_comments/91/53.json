@@ -1,0 +1,37 @@
+{
+  "article_id": "91",
+  "comment_index": 53,
+  "raw_comment": "I noticed that the NBA and the WNBA has the highest percent of black people. I wonder why Baseball has the lowest amount. I thought that it would be higher because of the famous black people who where in the sport. Why are all of the graphs in 2020 except the Women's National Basketball Association that one is in 2019.",
+  "ace_sentences": [
+    "I noticed that the NBA has the highest percent of black people.",
+    "I noticed that the WNBA has the highest percent of black people.",
+    "I wonder why Baseball has the lowest amount.",
+    "I thought that the amount would be higher.",
+    "Some famous black people were in the sport.",
+    "All of the graphs are in 2020.",
+    "The graph of the Women's National Basketball Association is in 2019."
+  ],
+  "source_mappings": {
+    "I noticed that the NBA has the highest percent of black people.": [
+      "I noticed that the NBA and the WNBA has the highest percent of black people"
+    ],
+    "I noticed that the WNBA has the highest percent of black people.": [
+      "I noticed that the NBA and the WNBA has the highest percent of black people"
+    ],
+    "I wonder why Baseball has the lowest amount.": [
+      "I wonder why Baseball has the lowest amount."
+    ],
+    "I thought that the amount would be higher.": [
+      "I thought that it would be higher"
+    ],
+    "Some famous black people were in the sport.": [
+      "the famous black people who where in the sport"
+    ],
+    "All of the graphs are in 2020.": [
+      "all of the graphs in 2020"
+    ],
+    "The graph of the Women's National Basketball Association is in 2019.": [
+      "the Women's National Basketball Association that one is in 2019"
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "article_id": "35",
+  "comment_index": 45,
+  "raw_comment": "1. Looking at the map, I noticed that the first leaf was seen in the south and slowly moved up north. I wonder if the first leaf was seen in the south first because of the equator.\n2. In the places with cities that barely have any plant life like New York city, how can you tell if the first leaf has come? Can you tell by the temputure?",
+  "ace_sentences": [
+    "I looked at the map.",
+    "I noticed that the first leaf was seen in the south.",
+    "I noticed that the first leaf slowly moved up north.",
+    "I wonder if the first leaf was seen in the south first.",
+    "I wonder if the first leaf was seen in the south first because of the equator.",
+    "Some places have cities.",
+    "New York city barely has any plant life.",
+    "In places like New York city, I ask how a person can tell if the first leaf has come.",
+    "I ask if a person can tell by the temputure."
+  ],
+  "source_mappings": {
+    "I looked at the map.": [
+      "Looking at the map"
+    ],
+    "I noticed that the first leaf was seen in the south.": [
+      "I noticed that the first leaf was seen in the south"
+    ],
+    "I noticed that the first leaf slowly moved up north.": [
+      "and slowly moved up north"
+    ],
+    "I wonder if the first leaf was seen in the south first.": [
+      "I wonder if the first leaf was seen in the south first"
+    ],
+    "I wonder if the first leaf was seen in the south first because of the equator.": [
+      "because of the equator"
+    ],
+    "Some places have cities.": [
+      "In the places with cities"
+    ],
+    "New York city barely has any plant life.": [
+      "like New York city",
+      "barely have any plant life"
+    ],
+    "In places like New York city, I ask how a person can tell if the first leaf has come.": [
+      "In the places with cities that barely have any plant life like New York city, how can you tell if the first leaf has come?"
+    ],
+    "I ask if a person can tell by the temputure.": [
+      "Can you tell by the temputure?"
+    ]
+  }
+}

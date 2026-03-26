@@ -1,0 +1,25 @@
+{
+  "article_id": "35",
+  "comment_index": 110,
+  "raw_comment": "We notice that the graph is a first leaf appearance. we notice that January is the month with the least leaves. April has the most percentage of leaf fall. we also notice that the graph has no number percentage.",
+  "ace_sentences": [
+    "We notice that the graph is a first leaf appearance.",
+    "We notice that January is the month with the least leaves.",
+    "April has the most percentage of leaf fall.",
+    "We notice that the graph has no number percentage."
+  ],
+  "source_mappings": {
+    "We notice that the graph is a first leaf appearance.": [
+      "We notice that the graph is a first leaf appearance."
+    ],
+    "We notice that January is the month with the least leaves.": [
+      "we notice that January is the month with the least leaves."
+    ],
+    "April has the most percentage of leaf fall.": [
+      "April has the most percentage of leaf fall."
+    ],
+    "We notice that the graph has no number percentage.": [
+      "we also notice that the graph has no number percentage."
+    ]
+  }
+}

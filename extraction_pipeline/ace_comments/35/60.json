@@ -1,0 +1,29 @@
+{
+  "article_id": "35",
+  "comment_index": 60,
+  "raw_comment": "We noticed that leaves fell earlier in the year in the southern parts of the United States. We would like to know if the temperatures affect this.",
+  "ace_sentences": [
+    "We noticed that leaves fell earlier in the year.",
+    "The southern parts of the United States are parts of the United States.",
+    "We noticed that leaves fell earlier in the year in the southern parts of the United States.",
+    "We would like to know if temperatures affect this.",
+    "Temperatures may affect this."
+  ],
+  "source_mappings": {
+    "We noticed that leaves fell earlier in the year.": [
+      "We noticed that leaves fell earlier in the year"
+    ],
+    "The southern parts of the United States are parts of the United States.": [
+      "the southern parts of the United States"
+    ],
+    "We noticed that leaves fell earlier in the year in the southern parts of the United States.": [
+      "We noticed that leaves fell earlier in the year in the southern parts of the United States"
+    ],
+    "We would like to know if temperatures affect this.": [
+      "We would like to know if the temperatures affect this."
+    ],
+    "Temperatures may affect this.": [
+      "the temperatures affect this"
+    ]
+  }
+}

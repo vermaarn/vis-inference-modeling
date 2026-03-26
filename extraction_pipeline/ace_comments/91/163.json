@@ -1,0 +1,74 @@
+{
+  "article_id": "91",
+  "comment_index": 163,
+  "raw_comment": "I notice that compared to players of color, there are far less head coaches of color. Especially in football where 74% of the NFL is made up of player of color and only 13% of the NFL head coaches are people of color.\n\nI wonder what percent of the staff on these major sports leagues such as assistant managers, coaches, nutritionist, etc. are people of color?\n\nThis impacts my community because for awhile now we've seen people of color excel at sports. However, it is just as important people of color have the opportunity to be coaching staff and be involved in more ways than just being players. If teams utilize people of color to play for their teams and win games, they should have just as much respect for people of color when it comes to hiring coaching staff.\n\nDiversity in major sports leagues off the field.",
+  "ace_sentences": [
+    "I notice that there are far less head coaches of color than players of color.",
+    "This is especially true in football.",
+    "74% of the NFL is made up of player of color.",
+    "Only 13% of the NFL head coaches are people of color.",
+    "I wonder what percent of the staff in these major sports leagues are people of color.",
+    "Assistant managers are staff in major sports leagues.",
+    "Coaches are staff in major sports leagues.",
+    "Nutritionist are staff in major sports leagues.",
+    "This impacts my community.",
+    "For awhile now, we have seen people of color excel at sports.",
+    "It is important that people of color have the opportunity to be coaching staff.",
+    "It is important that people of color be involved in more ways than just being players.",
+    "Teams utilize people of color to play for their teams.",
+    "Teams win games.",
+    "If teams utilize people of color to play for their teams and win games then teams should have just as much respect for people of color when it comes to hiring coaching staff.",
+    "Diversity in major sports leagues is off the field."
+  ],
+  "source_mappings": {
+    "I notice that there are far less head coaches of color than players of color.": [
+      "I notice that compared to players of color, there are far less head coaches of color."
+    ],
+    "This is especially true in football.": [
+      "Especially in football"
+    ],
+    "74% of the NFL is made up of player of color.": [
+      "74% of the NFL is made up of player of color"
+    ],
+    "Only 13% of the NFL head coaches are people of color.": [
+      "only 13% of the NFL head coaches are people of color."
+    ],
+    "I wonder what percent of the staff in these major sports leagues are people of color.": [
+      "I wonder what percent of the staff on these major sports leagues",
+      "are people of color?"
+    ],
+    "Assistant managers are staff in major sports leagues.": [
+      "assistant managers"
+    ],
+    "Coaches are staff in major sports leagues.": [
+      "coaches"
+    ],
+    "Nutritionist are staff in major sports leagues.": [
+      "nutritionist"
+    ],
+    "This impacts my community.": [
+      "This impacts my community"
+    ],
+    "For awhile now, we have seen people of color excel at sports.": [
+      "for awhile now we've seen people of color excel at sports."
+    ],
+    "It is important that people of color have the opportunity to be coaching staff.": [
+      "it is just as important people of color have the opportunity to be coaching staff"
+    ],
+    "It is important that people of color be involved in more ways than just being players.": [
+      "be involved in more ways than just being players."
+    ],
+    "Teams utilize people of color to play for their teams.": [
+      "If teams utilize people of color to play for their teams"
+    ],
+    "Teams win games.": [
+      "win games"
+    ],
+    "If teams utilize people of color to play for their teams and win games then teams should have just as much respect for people of color when it comes to hiring coaching staff.": [
+      "If teams utilize people of color to play for their teams and win games, they should have just as much respect for people of color when it comes to hiring coaching staff."
+    ],
+    "Diversity in major sports leagues is off the field.": [
+      "Diversity in major sports leagues off the field."
+    ]
+  }
+}

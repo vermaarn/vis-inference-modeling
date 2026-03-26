@@ -1,0 +1,49 @@
+{
+  "article_id": "91",
+  "comment_index": 27,
+  "raw_comment": "I notice that in all of the leagues listed but baseball, over 60% of all players are players of color. However, no league has a majority of coaches that are people of color.\n\nI wonder if the reason that there are so few coaches of color is because of racism. Racism has a long and ugly history in this country, and it would not surprise me if coaches of color were not being hired due to this.\n\nThis has a negative impact on the greater community. because while people of color will see other people of color succeeding in sports, they will not see similar idols they can look up to in the head coaching department. If people cannot relate to idols that they can look up to, they will be less likely to want to be head coaches.\n\nMy title: \"Coaches of Color Are Hired at Far Lower Rates than White Coaches\"",
+  "ace_sentences": [
+    "In all of the leagues listed but baseball, over 60% of all players are players of color.",
+    "No league has a majority of coaches that are people of color.",
+    "I wonder if the reason that there are so few coaches of color is because of racism.",
+    "Racism has a long and ugly history in this country.",
+    "It would not surprise me if coaches of color were not being hired due to racism.",
+    "This has a negative impact on the greater community.",
+    "People of color will see other people of color succeeding in sports.",
+    "People of color will not see similar idols that they can look up to in the head coaching department.",
+    "If people cannot relate to idols that they can look up to, then they will be less likely to want to be head coaches.",
+    "The title is \"Coaches of Color Are Hired at Far Lower Rates than White Coaches\"."
+  ],
+  "source_mappings": {
+    "In all of the leagues listed but baseball, over 60% of all players are players of color.": [
+      "in all of the leagues listed but baseball, over 60% of all players are players of color"
+    ],
+    "No league has a majority of coaches that are people of color.": [
+      "no league has a majority of coaches that are people of color"
+    ],
+    "I wonder if the reason that there are so few coaches of color is because of racism.": [
+      "I wonder if the reason that there are so few coaches of color is because of racism."
+    ],
+    "Racism has a long and ugly history in this country.": [
+      "Racism has a long and ugly history in this country"
+    ],
+    "It would not surprise me if coaches of color were not being hired due to racism.": [
+      "it would not surprise me if coaches of color were not being hired due to this"
+    ],
+    "This has a negative impact on the greater community.": [
+      "This has a negative impact on the greater community."
+    ],
+    "People of color will see other people of color succeeding in sports.": [
+      "people of color will see other people of color succeeding in sports"
+    ],
+    "People of color will not see similar idols that they can look up to in the head coaching department.": [
+      "they will not see similar idols they can look up to in the head coaching department"
+    ],
+    "If people cannot relate to idols that they can look up to, then they will be less likely to want to be head coaches.": [
+      "If people cannot relate to idols that they can look up to, they will be less likely to want to be head coaches."
+    ],
+    "The title is \"Coaches of Color Are Hired at Far Lower Rates than White Coaches\".": [
+      "My title: \"Coaches of Color Are Hired at Far Lower Rates than White Coaches\""
+    ]
+  }
+}

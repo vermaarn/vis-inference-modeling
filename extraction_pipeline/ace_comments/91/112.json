@@ -1,0 +1,73 @@
+{
+  "article_id": "91",
+  "comment_index": 112,
+  "raw_comment": "1. What do you notice?\n \nI notice that the proportion of players of color is much higher than the proportion of head coaches of color in every major league sport depicted in the graph. I also notice that players of color make up the majority of all players in every major league sport except for baseball. Conversely, head coaches of color make up less than half of all head coaches in every major league sport. \n \n2. What do you wonder?\n \nI wonder why this pattern emerges. Why do people of color make up large proportions of major league sports teams, but not large proportions of coaching staff? Are there any specific roadblocks in place that prevent people of color from assuming coaching positions in major league sports?\n \n3. What impact does this have on you and your community?\n \n\tThis affects my community because if racial biases are ingrained in major league sports industries, it may be difficult for people of color in my community to become professional coaches if that is something they aspire to do. \n \n4. What’s going on in this graph? Write a catchy headline that captures the graph’s main idea.\n \nThis graph shows the discrepancy between the proportion of players of color and the proportion of head coaches of color in major league sports. \nHeadline: “The end of the rainbow: Are people of color being prevented from becoming head coaches in major league sports?”",
+  "ace_sentences": [
+    "I notice something.",
+    "The proportion of players of color is much higher than the proportion of head coaches of color in every major league sport depicted in the graph.",
+    "Players of color make up the majority of all players in every major league sport except for baseball.",
+    "Head coaches of color make up less than half of all head coaches in every major league sport.",
+    "I wonder why this pattern emerges.",
+    "People of color make up large proportions of major league sports teams.",
+    "People of color do not make up large proportions of coaching staff.",
+    "I ask whether specific roadblocks exist.",
+    "Some roadblocks prevent people of color from assuming coaching positions in major league sports.",
+    "This affects my community.",
+    "Racial biases may be ingrained in major league sports industries.",
+    "If racial biases are ingrained in major league sports industries, then it may be difficult for people of color in my community to become professional coaches.",
+    "Some people of color in my community aspire to become professional coaches.",
+    "This graph shows a discrepancy.",
+    "The discrepancy is between the proportion of players of color and the proportion of head coaches of color in major league sports.",
+    "The headline is “The end of the rainbow: Are people of color being prevented from becoming head coaches in major league sports?”."
+  ],
+  "source_mappings": {
+    "I notice something.": [
+      "I notice"
+    ],
+    "The proportion of players of color is much higher than the proportion of head coaches of color in every major league sport depicted in the graph.": [
+      "the proportion of players of color is much higher than the proportion of head coaches of color in every major league sport depicted in the graph"
+    ],
+    "Players of color make up the majority of all players in every major league sport except for baseball.": [
+      "players of color make up the majority of all players in every major league sport except for baseball"
+    ],
+    "Head coaches of color make up less than half of all head coaches in every major league sport.": [
+      "head coaches of color make up less than half of all head coaches in every major league sport"
+    ],
+    "I wonder why this pattern emerges.": [
+      "I wonder why this pattern emerges"
+    ],
+    "People of color make up large proportions of major league sports teams.": [
+      "people of color make up large proportions of major league sports teams"
+    ],
+    "People of color do not make up large proportions of coaching staff.": [
+      "but not large proportions of coaching staff"
+    ],
+    "I ask whether specific roadblocks exist.": [
+      "Are there any specific roadblocks in place"
+    ],
+    "Some roadblocks prevent people of color from assuming coaching positions in major league sports.": [
+      "prevent people of color from assuming coaching positions in major league sports"
+    ],
+    "This affects my community.": [
+      "This affects my community"
+    ],
+    "Racial biases may be ingrained in major league sports industries.": [
+      "if racial biases are ingrained in major league sports industries"
+    ],
+    "If racial biases are ingrained in major league sports industries, then it may be difficult for people of color in my community to become professional coaches.": [
+      "if racial biases are ingrained in major league sports industries, it may be difficult for people of color in my community to become professional coaches"
+    ],
+    "Some people of color in my community aspire to become professional coaches.": [
+      "if that is something they aspire to do"
+    ],
+    "This graph shows a discrepancy.": [
+      "This graph shows the discrepancy"
+    ],
+    "The discrepancy is between the proportion of players of color and the proportion of head coaches of color in major league sports.": [
+      "between the proportion of players of color and the proportion of head coaches of color in major league sports"
+    ],
+    "The headline is “The end of the rainbow: Are people of color being prevented from becoming head coaches in major league sports?”.": [
+      "Headline: “The end of the rainbow: Are people of color being prevented from becoming head coaches in major league sports?”"
+    ]
+  }
+}

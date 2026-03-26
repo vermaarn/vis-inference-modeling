@@ -1,0 +1,54 @@
+{
+  "article_id": "35",
+  "comment_index": 101,
+  "raw_comment": "I noticed:\nthe western side for example California, grows greens fast then the northern side. The south also grows greens faster.\nI wonder:\nWhy do some parts of the U.S.A greens grow faster then the others. Is it weather or sunlight\nAnother wonder is what would the map look like in the past. For example in the 1970s?",
+  "ace_sentences": [
+    "I noticed something.",
+    "California is on the western side.",
+    "The western side grows greens faster than the northern side.",
+    "The south grows greens faster.",
+    "I wonder about something.",
+    "Some parts of the U.S.A. grow greens faster than other parts of the U.S.A..",
+    "I ask whether weather causes this.",
+    "I ask whether sunlight causes this.",
+    "Another wonder is about the map in the past.",
+    "I ask what the map would look like in the past.",
+    "I ask what the map would look like in the 1970s."
+  ],
+  "source_mappings": {
+    "I noticed something.": [
+      "I noticed:"
+    ],
+    "California is on the western side.": [
+      "the western side for example California"
+    ],
+    "The western side grows greens faster than the northern side.": [
+      "the western side",
+      "grows greens fast then the northern side"
+    ],
+    "The south grows greens faster.": [
+      "The south also grows greens faster."
+    ],
+    "I wonder about something.": [
+      "I wonder:"
+    ],
+    "Some parts of the U.S.A. grow greens faster than other parts of the U.S.A..": [
+      "Why do some parts of the U.S.A greens grow faster then the others."
+    ],
+    "I ask whether weather causes this.": [
+      "Is it weather"
+    ],
+    "I ask whether sunlight causes this.": [
+      "or sunlight"
+    ],
+    "Another wonder is about the map in the past.": [
+      "Another wonder is what would the map look like in the past."
+    ],
+    "I ask what the map would look like in the past.": [
+      "what would the map look like in the past."
+    ],
+    "I ask what the map would look like in the 1970s.": [
+      "in the 1970s?"
+    ]
+  }
+}

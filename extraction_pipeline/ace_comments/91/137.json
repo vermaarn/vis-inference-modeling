@@ -1,0 +1,41 @@
+{
+  "article_id": "91",
+  "comment_index": 137,
+  "raw_comment": "1. What do I notice. The women’s Basketball team has more players than the national football team.\n2. What do I wonder? I wonder why does the woman’s BasketBall team have more players than the National Football team.\n3. It really doesn’t have an impact on me but it might affect some people in my city.\n4. Comparing sports. Sports are gooooood.",
+  "ace_sentences": [
+    "I notice something.",
+    "The women’s Basketball team has more players than the national football team.",
+    "I wonder about something.",
+    "I wonder why the woman’s BasketBall team has more players than the National Football team.",
+    "This does not have an impact on me.",
+    "This might affect some people in my city.",
+    "I compare sports.",
+    "Sports are gooooood."
+  ],
+  "source_mappings": {
+    "I notice something.": [
+      "What do I notice."
+    ],
+    "The women’s Basketball team has more players than the national football team.": [
+      "The women’s Basketball team has more players than the national football team."
+    ],
+    "I wonder about something.": [
+      "What do I wonder?"
+    ],
+    "I wonder why the woman’s BasketBall team has more players than the National Football team.": [
+      "I wonder why does the woman’s BasketBall team have more players than the National Football team."
+    ],
+    "This does not have an impact on me.": [
+      "It really doesn’t have an impact on me"
+    ],
+    "This might affect some people in my city.": [
+      "it might affect some people in my city."
+    ],
+    "I compare sports.": [
+      "Comparing sports."
+    ],
+    "Sports are gooooood.": [
+      "Sports are gooooood."
+    ]
+  }
+}

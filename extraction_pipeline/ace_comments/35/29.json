@@ -1,0 +1,21 @@
+{
+  "article_id": "35",
+  "comment_index": 29,
+  "raw_comment": "maybe based on the temp in some states the leaves in those states appear sooner than later. for instance the states in the south easthave leaves appering earlier the the ones in the north west.",
+  "ace_sentences": [
+    "The temperature in some states may be a basis.",
+    "In some states, the leaves appear sooner than later.",
+    "The states in the south east have leaves appearing earlier than the ones in the north west."
+  ],
+  "source_mappings": {
+    "The temperature in some states may be a basis.": [
+      "maybe based on the temp in some states"
+    ],
+    "In some states, the leaves appear sooner than later.": [
+      "the leaves in those states appear sooner than later"
+    ],
+    "The states in the south east have leaves appearing earlier than the ones in the north west.": [
+      "the states in the south easthave leaves appering earlier the the ones in the north west."
+    ]
+  }
+}

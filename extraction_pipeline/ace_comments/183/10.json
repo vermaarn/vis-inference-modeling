@@ -1,0 +1,77 @@
+{
+  "article_id": "183",
+  "comment_index": 10,
+  "raw_comment": "I noticed a few trends in the graph. It seems that the smallest percentage of people visit their parents in person (15-25%), while the largest percentage of young individuals (50-75%) reach out to their parents either daily or a few times a week. Additionally, the gender difference in communication habits, with women being 20% more likely to use text or video-chat compared to men.\nI wonder if the prevalence of text and video-chat communication among young people is due to its convenience compared to writing long texts. Furthermore, I'm curious if there's a difference in communication between the young adults who were surveyed who are closer to 18 and those closer to 34. This could potentially bring to light whether certain life stages influence the amount of communication people have with parents. This is relevant to me and my community as I am going for college next year where my main form of communication with my parents will be texting and video-chatting to stay in touch  since I won't be seeing them daily.\n\nTitle:“Buzz buzz”",
+  "ace_sentences": [
+    "I noticed a few trends in the graph.",
+    "The smallest percentage of people visit their parents in person.",
+    "The smallest percentage is 15-25%.",
+    "The largest percentage of young individuals reach out to their parents either daily or a few times a week.",
+    "The largest percentage is 50-75%.",
+    "There is a gender difference in communication habits.",
+    "Women are 20% more likely to use text or video-chat compared to men.",
+    "I wonder if the prevalence of text and video-chat communication among young people is due to its convenience.",
+    "I wonder if its convenience is compared to writing long texts.",
+    "I am curious if there is a difference in communication between the young adults who were surveyed who are closer to 18 and those closer to 34.",
+    "This could potentially bring to light whether certain life stages influence the amount of communication people have with parents.",
+    "This is relevant to me and my community.",
+    "I am going for college next year.",
+    "Next year, my main form of communication with my parents will be texting and video-chatting.",
+    "I will use texting and video-chatting to stay in touch.",
+    "I will not be seeing them daily.",
+    "The title is Buzz buzz."
+  ],
+  "source_mappings": {
+    "I noticed a few trends in the graph.": [
+      "I noticed a few trends in the graph."
+    ],
+    "The smallest percentage of people visit their parents in person.": [
+      "the smallest percentage of people visit their parents in person"
+    ],
+    "The smallest percentage is 15-25%.": [
+      "(15-25%)"
+    ],
+    "The largest percentage of young individuals reach out to their parents either daily or a few times a week.": [
+      "the largest percentage of young individuals (50-75%) reach out to their parents either daily or a few times a week"
+    ],
+    "The largest percentage is 50-75%.": [
+      "(50-75%)"
+    ],
+    "There is a gender difference in communication habits.": [
+      "the gender difference in communication habits"
+    ],
+    "Women are 20% more likely to use text or video-chat compared to men.": [
+      "women being 20% more likely to use text or video-chat compared to men"
+    ],
+    "I wonder if the prevalence of text and video-chat communication among young people is due to its convenience.": [
+      "I wonder if the prevalence of text and video-chat communication among young people is due to its convenience"
+    ],
+    "I wonder if its convenience is compared to writing long texts.": [
+      "compared to writing long texts"
+    ],
+    "I am curious if there is a difference in communication between the young adults who were surveyed who are closer to 18 and those closer to 34.": [
+      "I'm curious if there's a difference in communication between the young adults who were surveyed who are closer to 18 and those closer to 34"
+    ],
+    "This could potentially bring to light whether certain life stages influence the amount of communication people have with parents.": [
+      "This could potentially bring to light whether certain life stages influence the amount of communication people have with parents."
+    ],
+    "This is relevant to me and my community.": [
+      "This is relevant to me and my community"
+    ],
+    "I am going for college next year.": [
+      "I am going for college next year"
+    ],
+    "Next year, my main form of communication with my parents will be texting and video-chatting.": [
+      "my main form of communication with my parents will be texting and video-chatting"
+    ],
+    "I will use texting and video-chatting to stay in touch.": [
+      "texting and video-chatting to stay in touch"
+    ],
+    "I will not be seeing them daily.": [
+      "since I won't be seeing them daily."
+    ],
+    "The title is Buzz buzz.": [
+      "Title:“Buzz buzz”"
+    ]
+  }
+}

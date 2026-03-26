@@ -1,0 +1,111 @@
+{
+  "article_id": "91",
+  "comment_index": 40,
+  "raw_comment": "I noticed that both of the Basketball Associations have high percentages which means that people of color would have a better chance playing or coaching basketball. The NFL has also done a pretty good job at keeping their players diverse, however not as much for their coaches. The MLS has done a pretty decent job at keeping their players diverse at 60% as well as having the highest percentage for head coaches of color at 40%. On the other hand, the MLB has less than 50% of their players of color so they haven't done as well of a job at keeping their players diverse. I wonder why the MLS has a lower percentage than the NFL, WNBA, and the NBA for their players, yet have a higher percentage for the coaches. It's odd that their players/coaches ratio of color is somewhat proportionate but then the MLS has a different ratio than the rest. This doesn't really have an impact on me unless I wanted to play professionally in the WNBA, however I'm more interested in soccer (NWSL) which is the women's version of MLS who's data isn't in this data set. On the other hand, this probably impacts the community in a way that they would be more concerned for the MLB seeing that their percentages are lower than 50%. In the graph, the data shows the diversity of players and coaches within different sports leagues. As for the title/main idea of the data, I would name it \"Modern Professional Sports Leagues Diversities\".",
+  "ace_sentences": [
+    "I noticed that both of the Basketball Associations have high percentages.",
+    "These high percentages mean that people of color would have a better chance playing basketball.",
+    "These high percentages mean that people of color would have a better chance coaching basketball.",
+    "The NFL has done a pretty good job at keeping their players diverse.",
+    "However, the NFL has not done as much for their coaches.",
+    "The MLS has done a pretty decent job at keeping their players diverse at 60%.",
+    "The MLS has the highest percentage for head coaches of color at 40%.",
+    "The MLB has less than 50% of their players of color.",
+    "The MLB has not done as well of a job at keeping their players diverse.",
+    "I wonder why the MLS has a lower percentage than the NFL for their players.",
+    "I wonder why the MLS has a lower percentage than the WNBA for their players.",
+    "I wonder why the MLS has a lower percentage than the NBA for their players.",
+    "The MLS has a higher percentage for the coaches.",
+    "It is odd that their players/coaches ratio of color is somewhat proportionate.",
+    "The MLS has a different ratio than the rest.",
+    "This does not really have an impact on me unless I wanted to play professionally in the WNBA.",
+    "I am more interested in soccer (NWSL).",
+    "The NWSL is the women's version of MLS.",
+    "The data of NWSL is not in this data set.",
+    "This probably impacts the community in a way.",
+    "They would be more concerned for the MLB.",
+    "The percentages of the MLB are lower than 50%.",
+    "In the graph, the data shows the diversity of players and coaches within different sports leagues.",
+    "I would name it \"Modern Professional Sports Leagues Diversities\"."
+  ],
+  "source_mappings": {
+    "I noticed that both of the Basketball Associations have high percentages.": [
+      "I noticed that both of the Basketball Associations have high percentages"
+    ],
+    "These high percentages mean that people of color would have a better chance playing basketball.": [
+      "high percentages which means that people of color would have a better chance playing"
+    ],
+    "These high percentages mean that people of color would have a better chance coaching basketball.": [
+      "high percentages which means that people of color would have a better chance",
+      "coaching basketball"
+    ],
+    "The NFL has done a pretty good job at keeping their players diverse.": [
+      "The NFL has also done a pretty good job at keeping their players diverse"
+    ],
+    "However, the NFL has not done as much for their coaches.": [
+      "however not as much for their coaches"
+    ],
+    "The MLS has done a pretty decent job at keeping their players diverse at 60%.": [
+      "The MLS has done a pretty decent job at keeping their players diverse at 60%"
+    ],
+    "The MLS has the highest percentage for head coaches of color at 40%.": [
+      "having the highest percentage for head coaches of color at 40%"
+    ],
+    "The MLB has less than 50% of their players of color.": [
+      "the MLB has less than 50% of their players of color"
+    ],
+    "The MLB has not done as well of a job at keeping their players diverse.": [
+      "so they haven't done as well of a job at keeping their players diverse"
+    ],
+    "I wonder why the MLS has a lower percentage than the NFL for their players.": [
+      "I wonder why the MLS has a lower percentage than the NFL",
+      "for their players"
+    ],
+    "I wonder why the MLS has a lower percentage than the WNBA for their players.": [
+      "I wonder why the MLS has a lower percentage than the",
+      "WNBA",
+      "for their players"
+    ],
+    "I wonder why the MLS has a lower percentage than the NBA for their players.": [
+      "I wonder why the MLS has a lower percentage than the",
+      "the NBA",
+      "for their players"
+    ],
+    "The MLS has a higher percentage for the coaches.": [
+      "yet have a higher percentage for the coaches"
+    ],
+    "It is odd that their players/coaches ratio of color is somewhat proportionate.": [
+      "It's odd that their players/coaches ratio of color is somewhat proportionate"
+    ],
+    "The MLS has a different ratio than the rest.": [
+      "but then the MLS has a different ratio than the rest"
+    ],
+    "This does not really have an impact on me unless I wanted to play professionally in the WNBA.": [
+      "This doesn't really have an impact on me unless I wanted to play professionally in the WNBA"
+    ],
+    "I am more interested in soccer (NWSL).": [
+      "however I'm more interested in soccer (NWSL)"
+    ],
+    "The NWSL is the women's version of MLS.": [
+      "which is the women's version of MLS"
+    ],
+    "The data of NWSL is not in this data set.": [
+      "who's data isn't in this data set"
+    ],
+    "This probably impacts the community in a way.": [
+      "this probably impacts the community in a way"
+    ],
+    "They would be more concerned for the MLB.": [
+      "they would be more concerned for the MLB"
+    ],
+    "The percentages of the MLB are lower than 50%.": [
+      "their percentages are lower than 50%"
+    ],
+    "In the graph, the data shows the diversity of players and coaches within different sports leagues.": [
+      "In the graph, the data shows the diversity of players and coaches within different sports leagues"
+    ],
+    "I would name it \"Modern Professional Sports Leagues Diversities\".": [
+      "I would name it \"Modern Professional Sports Leagues Diversities\""
+    ]
+  }
+}

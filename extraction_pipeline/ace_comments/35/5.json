@@ -1,0 +1,52 @@
+{
+  "article_id": "35",
+  "comment_index": 5,
+  "raw_comment": "It seems like the graph shows the days from January till May and how leafs are coming out. So i have noticed that most states that are in the south and west south leafs are growing more faster than in north and center america. The latest ones were in April and May and that's mostly the north states.\n\nWhat makes leafs to come out?\n\nTitle: I am a leaf.",
+  "ace_sentences": [
+    "The graph shows the days from January till May.",
+    "The graph shows how leafs are coming out.",
+    "I have noticed something.",
+    "Most states in the south have leafs that are growing faster than in north America.",
+    "Most states in the west south have leafs that are growing faster than in center america.",
+    "The latest ones were in April.",
+    "The latest ones were in May.",
+    "The latest ones were mostly the north states.",
+    "Leafs come out.",
+    "The title is \"I am a leaf\"."
+  ],
+  "source_mappings": {
+    "The graph shows the days from January till May.": [
+      "the graph shows the days from January till May"
+    ],
+    "The graph shows how leafs are coming out.": [
+      "and how leafs are coming out"
+    ],
+    "I have noticed something.": [
+      "So i have noticed"
+    ],
+    "Most states in the south have leafs that are growing faster than in north America.": [
+      "most states that are in the south",
+      "leafs are growing more faster than in north"
+    ],
+    "Most states in the west south have leafs that are growing faster than in center america.": [
+      "and west south",
+      "leafs are growing more faster than in",
+      "center america"
+    ],
+    "The latest ones were in April.": [
+      "The latest ones were in April"
+    ],
+    "The latest ones were in May.": [
+      "and May"
+    ],
+    "The latest ones were mostly the north states.": [
+      "and that's mostly the north states"
+    ],
+    "Leafs come out.": [
+      "leafs to come out"
+    ],
+    "The title is \"I am a leaf\".": [
+      "Title: I am a leaf."
+    ]
+  }
+}

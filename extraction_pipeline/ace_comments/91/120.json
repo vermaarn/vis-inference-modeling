@@ -1,0 +1,57 @@
+{
+  "article_id": "91",
+  "comment_index": 120,
+  "raw_comment": "Looking at these graphs, I have noticed that the Women's National Basketball Association and the National Basketball Association have the same amount of colored players. Although they did put the head coaches of color, why didn't they add the assistant coaches. I feel adding the assistant coaches would've added a more exponential difference. I wonder why the managers were shown in Major League Baseball instead of the head coaches. I have read other responses to this same question and have figured that the head coach on a Major League Baseball team is ultimately called managers. I also wonder why there aren't very many colored coaches in the National Football League. To conclude, I think major sports leagues are becoming more diverse which can impact our lives majorly.",
+  "ace_sentences": [
+    "I look at these graphs.",
+    "I have noticed that the Women's National Basketball Association and the National Basketball Association have the same amount of colored players.",
+    "They did put the head coaches of color.",
+    "They did not add the assistant coaches.",
+    "I feel that adding the assistant coaches would have added a more exponential difference.",
+    "I wonder why the managers were shown in Major League Baseball instead of the head coaches.",
+    "I have read other responses to this same question.",
+    "I have figured that the head coach on a Major League Baseball team is ultimately called managers.",
+    "I wonder why there are not very many colored coaches in the National Football League.",
+    "I think that major sports leagues are becoming more diverse.",
+    "This can impact our lives majorly.",
+    "I conclude."
+  ],
+  "source_mappings": {
+    "I look at these graphs.": [
+      "Looking at these graphs"
+    ],
+    "I have noticed that the Women's National Basketball Association and the National Basketball Association have the same amount of colored players.": [
+      "I have noticed that the Women's National Basketball Association and the National Basketball Association have the same amount of colored players."
+    ],
+    "They did put the head coaches of color.": [
+      "they did put the head coaches of color"
+    ],
+    "They did not add the assistant coaches.": [
+      "why didn't they add the assistant coaches."
+    ],
+    "I feel that adding the assistant coaches would have added a more exponential difference.": [
+      "I feel adding the assistant coaches would've added a more exponential difference."
+    ],
+    "I wonder why the managers were shown in Major League Baseball instead of the head coaches.": [
+      "I wonder why the managers were shown in Major League Baseball instead of the head coaches."
+    ],
+    "I have read other responses to this same question.": [
+      "I have read other responses to this same question"
+    ],
+    "I have figured that the head coach on a Major League Baseball team is ultimately called managers.": [
+      "have figured that the head coach on a Major League Baseball team is ultimately called managers."
+    ],
+    "I wonder why there are not very many colored coaches in the National Football League.": [
+      "I also wonder why there aren't very many colored coaches in the National Football League."
+    ],
+    "I think that major sports leagues are becoming more diverse.": [
+      "I think major sports leagues are becoming more diverse"
+    ],
+    "This can impact our lives majorly.": [
+      "which can impact our lives majorly."
+    ],
+    "I conclude.": [
+      "To conclude"
+    ]
+  }
+}

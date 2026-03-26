@@ -1,0 +1,21 @@
+{
+  "article_id": "35",
+  "comment_index": 32,
+  "raw_comment": "I notice that in Maryland the leafs usually arrive in March.",
+  "ace_sentences": [
+    "I notice something.",
+    "Maryland is a place.",
+    "Leafs usually arrive in Maryland in March."
+  ],
+  "source_mappings": {
+    "I notice something.": [
+      "I notice"
+    ],
+    "Maryland is a place.": [
+      "Maryland"
+    ],
+    "Leafs usually arrive in Maryland in March.": [
+      "in Maryland the leafs usually arrive in March"
+    ]
+  }
+}

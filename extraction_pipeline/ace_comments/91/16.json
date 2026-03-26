@@ -1,0 +1,89 @@
+{
+  "article_id": "91",
+  "comment_index": 16,
+  "raw_comment": "What do you notice?\nI notice that many of the players are people of color, almost always over 50%, all the way up to 83%, except in Major League Baseball. But, not many coaches are people of color, always under 50% and as low as 13% in football.\n\nWhat do you wonder?\nI wonder how a white coach is going to be able to relate to the players when they encounter things like racism, especially in current times. I also wonder why there is such a disparity between representation of people of color in coaching positions and players. Is it because of racism and discrimination?\n\nWhat impact does this have on you and your community?\nThis gives kids watching sports on tv the idea that people of color can’t be coaches and can only be players. This also means that there are fewer role models of people of color in coaching positions for little kids who want to do that when they grow up. This causes the kids to be discouraged and even fewer coaches will be people of color.\n\nWhat’s going on in this graph? Write a catchy headline that captures the graph’s main idea.\nAre Sports Teams Really That Diverse?",
+  "ace_sentences": [
+    "I notice that many of the players are people of color.",
+    "Almost always, more than 50% of the players are people of color.",
+    "In some cases, 83% of the players are people of color.",
+    "This is not the case in Major League Baseball.",
+    "Not many coaches are people of color.",
+    "Always, less than 50% of the coaches are people of color.",
+    "In football, 13% of the coaches are people of color.",
+    "I wonder how a white coach is going to be able to relate to the players.",
+    "The players encounter things like racism.",
+    "This is especially true in current times.",
+    "I wonder why there is such a disparity between representation of people of color in coaching positions and players.",
+    "I wonder if this disparity is because of racism and discrimination.",
+    "This gives kids watching sports on tv the idea that people of color can not be coaches.",
+    "This gives kids watching sports on tv the idea that people of color can only be players.",
+    "This also means that there are fewer role models of people of color in coaching positions for little kids.",
+    "Some little kids want to do that when they grow up.",
+    "This causes the kids to be discouraged.",
+    "Even fewer coaches will be people of color.",
+    "The headline is:",
+    "Are Sports Teams Really That Diverse?"
+  ],
+  "source_mappings": {
+    "I notice that many of the players are people of color.": [
+      "I notice that many of the players are people of color"
+    ],
+    "Almost always, more than 50% of the players are people of color.": [
+      "almost always over 50%"
+    ],
+    "In some cases, 83% of the players are people of color.": [
+      "up to 83%"
+    ],
+    "This is not the case in Major League Baseball.": [
+      "except in Major League Baseball"
+    ],
+    "Not many coaches are people of color.": [
+      "not many coaches are people of color"
+    ],
+    "Always, less than 50% of the coaches are people of color.": [
+      "always under 50%"
+    ],
+    "In football, 13% of the coaches are people of color.": [
+      "as low as 13% in football"
+    ],
+    "I wonder how a white coach is going to be able to relate to the players.": [
+      "I wonder how a white coach is going to be able to relate to the players"
+    ],
+    "The players encounter things like racism.": [
+      "when they encounter things like racism"
+    ],
+    "This is especially true in current times.": [
+      "especially in current times"
+    ],
+    "I wonder why there is such a disparity between representation of people of color in coaching positions and players.": [
+      "I also wonder why there is such a disparity between representation of people of color in coaching positions and players"
+    ],
+    "I wonder if this disparity is because of racism and discrimination.": [
+      "Is it because of racism and discrimination?"
+    ],
+    "This gives kids watching sports on tv the idea that people of color can not be coaches.": [
+      "This gives kids watching sports on tv the idea that people of color can’t be coaches"
+    ],
+    "This gives kids watching sports on tv the idea that people of color can only be players.": [
+      "and can only be players"
+    ],
+    "This also means that there are fewer role models of people of color in coaching positions for little kids.": [
+      "there are fewer role models of people of color in coaching positions for little kids"
+    ],
+    "Some little kids want to do that when they grow up.": [
+      "little kids who want to do that when they grow up"
+    ],
+    "This causes the kids to be discouraged.": [
+      "This causes the kids to be discouraged"
+    ],
+    "Even fewer coaches will be people of color.": [
+      "even fewer coaches will be people of color"
+    ],
+    "The headline is:": [
+      "Write a catchy headline that captures the graph’s main idea."
+    ],
+    "Are Sports Teams Really That Diverse?": [
+      "Are Sports Teams Really That Diverse?"
+    ]
+  }
+}

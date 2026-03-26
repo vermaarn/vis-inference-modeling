@@ -1,0 +1,50 @@
+{
+  "article_id": "35",
+  "comment_index": 2,
+  "raw_comment": "I am Ronan and I'm a high school junior in NYC. \n\nI notice that the climate and leaves happening on the map increase and starts decreasing after April. \n\nI wonder if an elevation can possibly get leaves early in January, even though April gets more appearances of leaves in most states. I'm also wondering if a whole area gets leaves and as much as it needs before the other states.   \n\nMy guess on what's happening here is the climate and elevations get higher and higher in the spring time in order to collect leaves and sunlight for its state and terrain.",
+  "ace_sentences": [
+    "I am Ronan.",
+    "I am a high school junior in NYC.",
+    "I notice that the climate and leaves happening on the map increase.",
+    "I notice that the climate and leaves happening on the map start decreasing after April.",
+    "I wonder if an elevation can possibly get leaves early in January.",
+    "April gets more appearances of leaves in most states.",
+    "I am also wondering if a whole area gets leaves.",
+    "I am also wondering if a whole area gets as much as it needs before the other states.",
+    "My guess is that the climate and elevations get higher and higher in the spring time.",
+    "My guess is that the climate and elevations get higher and higher in the spring time in order to collect leaves and sunlight for its state and terrain."
+  ],
+  "source_mappings": {
+    "I am Ronan.": [
+      "I am Ronan"
+    ],
+    "I am a high school junior in NYC.": [
+      "I'm a high school junior in NYC"
+    ],
+    "I notice that the climate and leaves happening on the map increase.": [
+      "I notice that the climate and leaves happening on the map increase"
+    ],
+    "I notice that the climate and leaves happening on the map start decreasing after April.": [
+      "I notice that the climate and leaves happening on the map",
+      "starts decreasing after April"
+    ],
+    "I wonder if an elevation can possibly get leaves early in January.": [
+      "I wonder if an elevation can possibly get leaves early in January"
+    ],
+    "April gets more appearances of leaves in most states.": [
+      "April gets more appearances of leaves in most states"
+    ],
+    "I am also wondering if a whole area gets leaves.": [
+      "I'm also wondering if a whole area gets leaves"
+    ],
+    "I am also wondering if a whole area gets as much as it needs before the other states.": [
+      "I'm also wondering if a whole area gets leaves and as much as it needs before the other states"
+    ],
+    "My guess is that the climate and elevations get higher and higher in the spring time.": [
+      "My guess on what's happening here is the climate and elevations get higher and higher in the spring time"
+    ],
+    "My guess is that the climate and elevations get higher and higher in the spring time in order to collect leaves and sunlight for its state and terrain.": [
+      "the climate and elevations get higher and higher in the spring time in order to collect leaves and sunlight for its state and terrain"
+    ]
+  }
+}

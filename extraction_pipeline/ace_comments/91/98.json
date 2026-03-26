@@ -1,0 +1,77 @@
+{
+  "article_id": "91",
+  "comment_index": 98,
+  "raw_comment": "1. What do you notice?\nI noticed that more than 50% of the players in each major sports league, except for Major League Baseball, are people of color. I also noticed that the percentage of coaches of color for each major sports league was much lower than 50%.\n \n2. What do you wonder?\nI wonder why there are so few coaches of color in each major sports league. Is there something preventing more coaches of color from earning these positions? I also wonder why less than 50% of Major League Baseball is composed of players of color. I wonder how all of these percentages would compare to data from 20 years ago.\n \n3. What impact does this have on you and your community?\nThis impacts me and my community because people of color in my community who aspire to coach these leagues may not have the opportunity to, due to their race. To me, this is appalling because someone should never have a lesser opportunity because of their race. This has obviously been an ongoing issue in our world that needs to come to an end. \n \n4. What’s going on in this graph? Write a catchy headline that captures the graph’s main idea.\nThis graph clearly shows that there are many less coaches than players of color in these major sports leagues. The graph depicts the lack of coaches of color in these leagues.\nHeadline: “Racism In The Game.”",
+  "ace_sentences": [
+    "I noticed that more than 50% of the players in each major sports league are people of color.",
+    "Major League Baseball is an exception.",
+    "I noticed that the percentage of coaches of color for each major sports league was much lower than 50%.",
+    "I wonder why there are so few coaches of color in each major sports league.",
+    "I wonder if something prevents more coaches of color from earning these positions.",
+    "I noticed that less than 50% of Major League Baseball is composed of players of color.",
+    "I wonder how all of these percentages would compare to data from 20 years ago.",
+    "This impacts me and my community.",
+    "People of color in my community aspire to coach these leagues.",
+    "People of color in my community may not have the opportunity to coach these leagues.",
+    "People of color in my community may not have the opportunity to coach these leagues due to their race.",
+    "Someone should never have a lesser opportunity because of their race.",
+    "This has been an ongoing issue in our world.",
+    "This issue needs to come to an end.",
+    "This graph clearly shows that there are many less coaches than players of color in these major sports leagues.",
+    "The graph depicts the lack of coaches of color in these leagues.",
+    "The headline is \"Racism In The Game.\""
+  ],
+  "source_mappings": {
+    "I noticed that more than 50% of the players in each major sports league are people of color.": [
+      "I noticed that more than 50% of the players in each major sports league, except for Major League Baseball, are people of color."
+    ],
+    "Major League Baseball is an exception.": [
+      "except for Major League Baseball"
+    ],
+    "I noticed that the percentage of coaches of color for each major sports league was much lower than 50%.": [
+      "I also noticed that the percentage of coaches of color for each major sports league was much lower than 50%."
+    ],
+    "I wonder why there are so few coaches of color in each major sports league.": [
+      "I wonder why there are so few coaches of color in each major sports league."
+    ],
+    "I wonder if something prevents more coaches of color from earning these positions.": [
+      "Is there something preventing more coaches of color from earning these positions?"
+    ],
+    "I noticed that less than 50% of Major League Baseball is composed of players of color.": [
+      "I also wonder why less than 50% of Major League Baseball is composed of players of color."
+    ],
+    "I wonder how all of these percentages would compare to data from 20 years ago.": [
+      "I wonder how all of these percentages would compare to data from 20 years ago."
+    ],
+    "This impacts me and my community.": [
+      "This impacts me and my community"
+    ],
+    "People of color in my community aspire to coach these leagues.": [
+      "people of color in my community who aspire to coach these leagues"
+    ],
+    "People of color in my community may not have the opportunity to coach these leagues.": [
+      "may not have the opportunity to"
+    ],
+    "People of color in my community may not have the opportunity to coach these leagues due to their race.": [
+      "may not have the opportunity to, due to their race"
+    ],
+    "Someone should never have a lesser opportunity because of their race.": [
+      "someone should never have a lesser opportunity because of their race"
+    ],
+    "This has been an ongoing issue in our world.": [
+      "This has obviously been an ongoing issue in our world"
+    ],
+    "This issue needs to come to an end.": [
+      "needs to come to an end"
+    ],
+    "This graph clearly shows that there are many less coaches than players of color in these major sports leagues.": [
+      "This graph clearly shows that there are many less coaches than players of color in these major sports leagues."
+    ],
+    "The graph depicts the lack of coaches of color in these leagues.": [
+      "The graph depicts the lack of coaches of color in these leagues."
+    ],
+    "The headline is \"Racism In The Game.\"": [
+      "Headline: “Racism In The Game.”"
+    ]
+  }
+}

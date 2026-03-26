@@ -1,0 +1,50 @@
+{
+  "article_id": "91",
+  "comment_index": 162,
+  "raw_comment": "What do you notice?\nI notice that there are a lot more players of color, but fewer head coaches of color. Soccer has the closest percent of coaches and players of color, however, they have fewer players of color compared to Basketball or Football.  \n\nWhat do you wonder?\nI wonder how this lack of people of color in leadership positions affect the player of color? \n\nWhat impact does this have on you and your community?\nI live in New England, where the New England Patriots have a head coach who is white, but the Red Sox have a coach who is a person of color. \n\nWhat’s going on in this graph? Write a catchy headline that captures the graph’s main idea.\n\"Leadership lacks Diversity\"",
+  "ace_sentences": [
+    "I notice that there are a lot more players of color.",
+    "I notice that there are fewer head coaches of color.",
+    "Soccer has the closest percent of coaches of color and players of color.",
+    "Soccer has fewer players of color than Basketball has.",
+    "Soccer has fewer players of color than Football has.",
+    "I wonder how this lack of people of color in leadership positions affects the player of color.",
+    "I live in New England.",
+    "The New England Patriots have a head coach who is white.",
+    "The Red Sox have a coach who is a person of color.",
+    "The headline is \"Leadership lacks Diversity\"."
+  ],
+  "source_mappings": {
+    "I notice that there are a lot more players of color.": [
+      "I notice that there are a lot more players of color"
+    ],
+    "I notice that there are fewer head coaches of color.": [
+      "but fewer head coaches of color"
+    ],
+    "Soccer has the closest percent of coaches of color and players of color.": [
+      "Soccer has the closest percent of coaches and players of color"
+    ],
+    "Soccer has fewer players of color than Basketball has.": [
+      "they have fewer players of color compared to Basketball"
+    ],
+    "Soccer has fewer players of color than Football has.": [
+      "they have fewer players of color compared to",
+      "Football"
+    ],
+    "I wonder how this lack of people of color in leadership positions affects the player of color.": [
+      "I wonder how this lack of people of color in leadership positions affect the player of color?"
+    ],
+    "I live in New England.": [
+      "I live in New England"
+    ],
+    "The New England Patriots have a head coach who is white.": [
+      "the New England Patriots have a head coach who is white"
+    ],
+    "The Red Sox have a coach who is a person of color.": [
+      "the Red Sox have a coach who is a person of color"
+    ],
+    "The headline is \"Leadership lacks Diversity\".": [
+      "\"Leadership lacks Diversity\""
+    ]
+  }
+}

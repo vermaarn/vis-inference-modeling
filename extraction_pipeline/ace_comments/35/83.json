@@ -1,0 +1,37 @@
+{
+  "article_id": "35",
+  "comment_index": 83,
+  "raw_comment": "What do you notice: We noticed that on the graph the more Northern areas of it took much longer for leaves to sprout than the more southern areas.\nWhat do you wonder: We wonder what this graph would look like if it were to show how long snow has been in each area.\nWhat Might be going on in this graph: Spring is Coming Slower Than Ever in Northern U.S.! This is supported by how the graph shows the northern areas getting leaves much later than say the southern areas of the U.S.",
+  "ace_sentences": [
+    "We noticed something on the graph.",
+    "The more Northern areas took much longer for leaves to sprout than the more southern areas.",
+    "We wonder something.",
+    "The graph could show how long snow has been in each area.",
+    "Spring is coming slower than ever in Northern U.S..",
+    "The graph shows the northern areas getting leaves much later than the southern areas of the U.S..",
+    "This supports that spring is coming slower than ever in Northern U.S.."
+  ],
+  "source_mappings": {
+    "We noticed something on the graph.": [
+      "We noticed that on the graph"
+    ],
+    "The more Northern areas took much longer for leaves to sprout than the more southern areas.": [
+      "the more Northern areas of it took much longer for leaves to sprout than the more southern areas."
+    ],
+    "We wonder something.": [
+      "We wonder"
+    ],
+    "The graph could show how long snow has been in each area.": [
+      "this graph would look like if it were to show how long snow has been in each area."
+    ],
+    "Spring is coming slower than ever in Northern U.S..": [
+      "Spring is Coming Slower Than Ever in Northern U.S.!"
+    ],
+    "The graph shows the northern areas getting leaves much later than the southern areas of the U.S..": [
+      "the graph shows the northern areas getting leaves much later than say the southern areas of the U.S."
+    ],
+    "This supports that spring is coming slower than ever in Northern U.S..": [
+      "This is supported by how"
+    ]
+  }
+}

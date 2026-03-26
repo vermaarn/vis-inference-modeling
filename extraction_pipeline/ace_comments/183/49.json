@@ -1,0 +1,54 @@
+{
+  "article_id": "183",
+  "comment_index": 49,
+  "raw_comment": "In this graph, we can see the communication between young men and women and their parents. It is interesting to see that less than 25% of both of them visit their parents in person often. It is also interesting to see that less than 75% send texts, as that is a very easy action to do even just once a day. I wonder why girls communicate with their parents more than boys. This relates to me and my community because as a young woman I communicate with my parents and I wonder if the amount that I do that will change as I get older. I would name this graph: \n\"The Curve of Kid Conversations\"",
+  "ace_sentences": [
+    "This graph shows the communication between young men and women and their parents.",
+    "Less than 25% of young men visit their parents in person often.",
+    "Less than 25% of young women visit their parents in person often.",
+    "Less than 75% of young men send texts.",
+    "Less than 75% of young women send texts.",
+    "Girls communicate with their parents more than boys.",
+    "This relates to me and my community.",
+    "I am a young woman.",
+    "I communicate with my parents.",
+    "I wonder if the amount that I communicate with my parents will change as I get older.",
+    "I would name this graph \"The Curve of Kid Conversations\"."
+  ],
+  "source_mappings": {
+    "This graph shows the communication between young men and women and their parents.": [
+      "In this graph, we can see the communication between young men and women and their parents."
+    ],
+    "Less than 25% of young men visit their parents in person often.": [
+      "less than 25% of both of them visit their parents in person often."
+    ],
+    "Less than 25% of young women visit their parents in person often.": [
+      "less than 25% of both of them visit their parents in person often."
+    ],
+    "Less than 75% of young men send texts.": [
+      "less than 75% send texts"
+    ],
+    "Less than 75% of young women send texts.": [
+      "less than 75% send texts"
+    ],
+    "Girls communicate with their parents more than boys.": [
+      "girls communicate with their parents more than boys."
+    ],
+    "This relates to me and my community.": [
+      "This relates to me and my community"
+    ],
+    "I am a young woman.": [
+      "as a young woman"
+    ],
+    "I communicate with my parents.": [
+      "I communicate with my parents"
+    ],
+    "I wonder if the amount that I communicate with my parents will change as I get older.": [
+      "I wonder if the amount that I do that will change as I get older."
+    ],
+    "I would name this graph \"The Curve of Kid Conversations\".": [
+      "I would name this graph:",
+      "\"The Curve of Kid Conversations\""
+    ]
+  }
+}

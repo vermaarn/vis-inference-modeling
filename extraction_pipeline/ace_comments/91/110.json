@@ -1,0 +1,47 @@
+{
+  "article_id": "91",
+  "comment_index": 110,
+  "raw_comment": "I noticed that there are more people of color represented than not. I also noticed that the NBA and WNBA have the most amount of people of color in the sport. I wonder what other sports could you have represented in this graph, and why did they choose just these sports? This affects my community by encouraging more kids  to to look up to all of these individuals in these sports and encourage themselves to be like these people. If I were the maker of this graph I would title it, Diversity in Major Sports Leagues.",
+  "ace_sentences": [
+    "I noticed that there are more people of color represented than not.",
+    "I also noticed that the NBA has the most amount of people of color in the sport.",
+    "I also noticed that the WNBA has the most amount of people of color in the sport.",
+    "I wonder what other sports could be represented in this graph.",
+    "I wonder why they chose just these sports.",
+    "This affects my community.",
+    "This encourages more kids to look up to all of these individuals in these sports.",
+    "This encourages more kids to encourage themselves to be like these people.",
+    "If I were the maker of this graph then I would title it Diversity in Major Sports Leagues."
+  ],
+  "source_mappings": {
+    "I noticed that there are more people of color represented than not.": [
+      "I noticed that there are more people of color represented than not."
+    ],
+    "I also noticed that the NBA has the most amount of people of color in the sport.": [
+      "I also noticed that the NBA and WNBA have the most amount of people of color in the sport.",
+      "the NBA"
+    ],
+    "I also noticed that the WNBA has the most amount of people of color in the sport.": [
+      "I also noticed that the NBA and WNBA have the most amount of people of color in the sport.",
+      "WNBA"
+    ],
+    "I wonder what other sports could be represented in this graph.": [
+      "I wonder what other sports could you have represented in this graph"
+    ],
+    "I wonder why they chose just these sports.": [
+      "why did they choose just these sports?"
+    ],
+    "This affects my community.": [
+      "This affects my community"
+    ],
+    "This encourages more kids to look up to all of these individuals in these sports.": [
+      "encouraging more kids  to to look up to all of these individuals in these sports"
+    ],
+    "This encourages more kids to encourage themselves to be like these people.": [
+      "encourage themselves to be like these people."
+    ],
+    "If I were the maker of this graph then I would title it Diversity in Major Sports Leagues.": [
+      "If I were the maker of this graph I would title it, Diversity in Major Sports Leagues."
+    ]
+  }
+}

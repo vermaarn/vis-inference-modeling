@@ -1,0 +1,65 @@
+{
+  "article_id": "91",
+  "comment_index": 158,
+  "raw_comment": "Diversity in Pro Sports\nThis graph shows the number of players that are people of color on various sports teams based on the percentage of players on the team, while also showing the number of people of color that are in charge of coaching these teams. As a group, we noticed that people of color make up a very high percentage of these sports teams, despite making up a very small amount of the coaches and managers. Our group is curious about a few things in this graph. For one; which group makes up the gray portion of each bar? We also want to know why there is a noticeable lack of players of color within the MLB. The data collection process also makes us wonder, what specific teams were involved, who gathered the data? Though arguably most importantly, we wonder about the paycheck difference between coaches and players. We want to know what are some consequences of having so few people of color acting as coaches.",
+  "ace_sentences": [
+    "The headline is \"Diversity in Pro Sports\".",
+    "This graph shows the number of players that are people of color on various sports teams.",
+    "This graph is based on the percentage of players on the team.",
+    "This graph also shows the number of people of color that are in charge of coaching these teams.",
+    "As a group, we noticed something.",
+    "People of color make up a very high percentage of these sports teams.",
+    "People of color make up a very small amount of the coaches and managers.",
+    "Our group is curious about a few things in this graph.",
+    "Our group asks which group makes up the gray portion of each bar.",
+    "We want to know why there is a noticeable lack of players of color within the MLB.",
+    "The data collection process makes us wonder what specific teams were involved.",
+    "The data collection process makes us wonder who gathered the data.",
+    "We wonder about the paycheck difference between coaches and players.",
+    "We want to know what are some consequences of having so few people of color acting as coaches."
+  ],
+  "source_mappings": {
+    "The headline is \"Diversity in Pro Sports\".": [
+      "Diversity in Pro Sports"
+    ],
+    "This graph shows the number of players that are people of color on various sports teams.": [
+      "This graph shows the number of players that are people of color on various sports teams"
+    ],
+    "This graph is based on the percentage of players on the team.": [
+      "based on the percentage of players on the team"
+    ],
+    "This graph also shows the number of people of color that are in charge of coaching these teams.": [
+      "while also showing the number of people of color that are in charge of coaching these teams"
+    ],
+    "As a group, we noticed something.": [
+      "As a group, we noticed"
+    ],
+    "People of color make up a very high percentage of these sports teams.": [
+      "people of color make up a very high percentage of these sports teams"
+    ],
+    "People of color make up a very small amount of the coaches and managers.": [
+      "making up a very small amount of the coaches and managers"
+    ],
+    "Our group is curious about a few things in this graph.": [
+      "Our group is curious about a few things in this graph"
+    ],
+    "Our group asks which group makes up the gray portion of each bar.": [
+      "which group makes up the gray portion of each bar?"
+    ],
+    "We want to know why there is a noticeable lack of players of color within the MLB.": [
+      "We also want to know why there is a noticeable lack of players of color within the MLB."
+    ],
+    "The data collection process makes us wonder what specific teams were involved.": [
+      "The data collection process also makes us wonder, what specific teams were involved"
+    ],
+    "The data collection process makes us wonder who gathered the data.": [
+      "who gathered the data?"
+    ],
+    "We wonder about the paycheck difference between coaches and players.": [
+      "we wonder about the paycheck difference between coaches and players"
+    ],
+    "We want to know what are some consequences of having so few people of color acting as coaches.": [
+      "We want to know what are some consequences of having so few people of color acting as coaches."
+    ]
+  }
+}

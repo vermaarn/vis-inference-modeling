@@ -1,0 +1,49 @@
+{
+  "article_id": "91",
+  "comment_index": 73,
+  "raw_comment": "1. What do you notice?\nI notice that there seems to be many more players of color than coaches of color in every sport.\n2. What do you wonder?\nI wonder why Soccer has the most coaches of color, but almost the least players of color.\n3. What impact does this have on you and your community?\nThis doesn’t directly impact my community, although I guess it’s saying if I was going to go pro in any sport, coaching would be my most likely way of reaching that goal.\n4. What’s going on in this graph? Write a catchy headline that captures the graph’s main idea.\nRacial Differences Among Professional Sports",
+  "ace_sentences": [
+    "I notice a question.",
+    "I notice that there seem to be many more players of color than coaches of color in every sport.",
+    "I wonder a question.",
+    "Soccer has the most coaches of color.",
+    "Soccer has almost the least players of color.",
+    "I wonder why Soccer has the most coaches of color but almost the least players of color.",
+    "This does not directly impact my community.",
+    "If I was going to go pro in any sport then coaching would be my most likely way of reaching that goal.",
+    "The headline is:",
+    "Racial Differences Among Professional Sports."
+  ],
+  "source_mappings": {
+    "I notice a question.": [
+      "What do you notice?"
+    ],
+    "I notice that there seem to be many more players of color than coaches of color in every sport.": [
+      "I notice that there seems to be many more players of color than coaches of color in every sport."
+    ],
+    "I wonder a question.": [
+      "What do you wonder?"
+    ],
+    "Soccer has the most coaches of color.": [
+      "Soccer has the most coaches of color"
+    ],
+    "Soccer has almost the least players of color.": [
+      "almost the least players of color"
+    ],
+    "I wonder why Soccer has the most coaches of color but almost the least players of color.": [
+      "I wonder why Soccer has the most coaches of color, but almost the least players of color."
+    ],
+    "This does not directly impact my community.": [
+      "This doesn’t directly impact my community"
+    ],
+    "If I was going to go pro in any sport then coaching would be my most likely way of reaching that goal.": [
+      "if I was going to go pro in any sport, coaching would be my most likely way of reaching that goal."
+    ],
+    "The headline is:": [
+      "Write a catchy headline that captures the graph’s main idea."
+    ],
+    "Racial Differences Among Professional Sports.": [
+      "Racial Differences Among Professional Sports"
+    ]
+  }
+}

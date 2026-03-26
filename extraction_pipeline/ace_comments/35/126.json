@@ -1,0 +1,61 @@
+{
+  "article_id": "35",
+  "comment_index": 126,
+  "raw_comment": "The first thing I noticed about this graph is the fact that the appearance of the first leaf for the most part went from South to North at a relatively steady rate.  This certainly makes sense, since the Southern parts of the country are closer to the equator, and therefore, they are warmer.  However, I wonder why the areas in the Midwest saw their first leaf in May, a month or two later than many states that are located further North.  The animation of the graph really brings this to the attention of the person studying it, because the areas of the Midwest are the last parts of the white map to be colored in.  A good headline for this graph could be \"Springing to Life\" because it displays the gradual process of leaves and trees that are blooming to their fullest potential in the country.",
+  "ace_sentences": [
+    "I noticed this graph.",
+    "The appearance of the first leaf for the most part went from South to North at a relatively steady rate.",
+    "This makes sense.",
+    "The Southern parts of the country are closer to the equator.",
+    "Therefore, the Southern parts of the country are warmer.",
+    "I wonder why the areas in the Midwest saw their first leaf in May.",
+    "The areas in the Midwest saw their first leaf a month or two later than many states.",
+    "Many states are located further North.",
+    "The animation of the graph brings this to the attention of the person studying it.",
+    "The areas of the Midwest are the last parts of the white map to be colored in.",
+    "A good headline for this graph could be \"Springing to Life\".",
+    "It displays the gradual process of leaves and trees.",
+    "Leaves and trees are blooming to their fullest potential in the country."
+  ],
+  "source_mappings": {
+    "I noticed this graph.": [
+      "The first thing I noticed about this graph"
+    ],
+    "The appearance of the first leaf for the most part went from South to North at a relatively steady rate.": [
+      "the appearance of the first leaf for the most part went from South to North at a relatively steady rate"
+    ],
+    "This makes sense.": [
+      "This certainly makes sense"
+    ],
+    "The Southern parts of the country are closer to the equator.": [
+      "the Southern parts of the country are closer to the equator"
+    ],
+    "Therefore, the Southern parts of the country are warmer.": [
+      "therefore, they are warmer"
+    ],
+    "I wonder why the areas in the Midwest saw their first leaf in May.": [
+      "I wonder why the areas in the Midwest saw their first leaf in May"
+    ],
+    "The areas in the Midwest saw their first leaf a month or two later than many states.": [
+      "a month or two later than many states"
+    ],
+    "Many states are located further North.": [
+      "many states that are located further North"
+    ],
+    "The animation of the graph brings this to the attention of the person studying it.": [
+      "The animation of the graph really brings this to the attention of the person studying it"
+    ],
+    "The areas of the Midwest are the last parts of the white map to be colored in.": [
+      "the areas of the Midwest are the last parts of the white map to be colored in"
+    ],
+    "A good headline for this graph could be \"Springing to Life\".": [
+      "A good headline for this graph could be \"Springing to Life\""
+    ],
+    "It displays the gradual process of leaves and trees.": [
+      "it displays the gradual process of leaves and trees"
+    ],
+    "Leaves and trees are blooming to their fullest potential in the country.": [
+      "that are blooming to their fullest potential in the country"
+    ]
+  }
+}

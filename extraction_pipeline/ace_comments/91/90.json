@@ -1,0 +1,61 @@
+{
+  "article_id": "91",
+  "comment_index": 90,
+  "raw_comment": "1) Notice: I notice that people of color mainly dominate the field.\n\n2) Wonder: I wonder how the athletes feel when they don't have coaches that have had the same experiences as them or can relate to?\n\n3) I feel that it could make us feel less of a person. We see that non-people of color work in the higher-up positions. Living in an area that is mainly just poc, this graph could make us feel as if we only belong in one certain positions.\n\n4) Headline: Difference in positions for people of color on the sports field.",
+  "ace_sentences": [
+    "I notice that people of color mainly dominate the field.",
+    "I wonder how the athletes feel.",
+    "Some athletes do not have coaches.",
+    "Some coaches have had the same experiences as the athletes.",
+    "Some coaches can relate to the athletes.",
+    "If athletes do not have coaches that have had the same experiences as them, then the athletes can feel bad.",
+    "If athletes do not have coaches that can relate to them, then the athletes can feel bad.",
+    "It could make us feel less of a person.",
+    "We see that non-people of color work in the higher-up positions.",
+    "I live in an area that is mainly just poc.",
+    "This graph could make us feel as if we only belong in one certain positions.",
+    "The headline is:",
+    "Difference in positions for people of color on the sports field."
+  ],
+  "source_mappings": {
+    "I notice that people of color mainly dominate the field.": [
+      "I notice that people of color mainly dominate the field."
+    ],
+    "I wonder how the athletes feel.": [
+      "I wonder how the athletes feel"
+    ],
+    "Some athletes do not have coaches.": [
+      "they don't have coaches"
+    ],
+    "Some coaches have had the same experiences as the athletes.": [
+      "coaches that have had the same experiences as them"
+    ],
+    "Some coaches can relate to the athletes.": [
+      "can relate to?"
+    ],
+    "If athletes do not have coaches that have had the same experiences as them, then the athletes can feel bad.": [
+      "when they don't have coaches that have had the same experiences as them"
+    ],
+    "If athletes do not have coaches that can relate to them, then the athletes can feel bad.": [
+      "or can relate to?"
+    ],
+    "It could make us feel less of a person.": [
+      "I feel that it could make us feel less of a person."
+    ],
+    "We see that non-people of color work in the higher-up positions.": [
+      "We see that non-people of color work in the higher-up positions."
+    ],
+    "I live in an area that is mainly just poc.": [
+      "Living in an area that is mainly just poc"
+    ],
+    "This graph could make us feel as if we only belong in one certain positions.": [
+      "this graph could make us feel as if we only belong in one certain positions."
+    ],
+    "The headline is:": [
+      "Headline:"
+    ],
+    "Difference in positions for people of color on the sports field.": [
+      "Difference in positions for people of color on the sports field."
+    ]
+  }
+}

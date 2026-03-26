@@ -1,0 +1,85 @@
+{
+  "article_id": "183",
+  "comment_index": 104,
+  "raw_comment": "I noticed that males are less likely to reach out to their parents in every category; Sending text, Phone or video chat, and visits, males are less likely than females to communicate with their parents. For sent text Males are at 50% while females are near 70%, Phone and video chat males are near 30% while on the other hand, females are near 55%, and finally for personal visits males are near 20% while females are near 26%. \n\nI wonder if young males think of communication as less of a priority than females do. Does their relationship with their parents affect the response time between the two?   Do they do this to feel more independent? \n\nThis relates to me and my community because everyone around is heavily family-orientated and brought together. There are plenty of family events going on and gatherings weekly. \n\n1,495 Young Adults Are They Really On Their Own?",
+  "ace_sentences": [
+    "Males are less likely to reach out to their parents in every category.",
+    "Sending text is a category.",
+    "Phone or video chat is a category.",
+    "Visits are a category.",
+    "Males are less likely than females to communicate with their parents.",
+    "For sent text, males are at 50%.",
+    "For sent text, females are near 70%.",
+    "For phone and video chat, males are near 30%.",
+    "For phone and video chat, females are near 55%.",
+    "For personal visits, males are near 20%.",
+    "For personal visits, females are near 26%.",
+    "Young males may think of communication as less of a priority than females do.",
+    "The relationship of young males with their parents may affect the response time between the two.",
+    "Young males may do this to feel more independent.",
+    "This relates to me and my community.",
+    "Everyone around is heavily family-orientated and brought together.",
+    "There are plenty of family events going on.",
+    "There are gatherings weekly.",
+    "1,495 Young Adults Are They Really On Their Own?"
+  ],
+  "source_mappings": {
+    "Males are less likely to reach out to their parents in every category.": [
+      "males are less likely to reach out to their parents in every category"
+    ],
+    "Sending text is a category.": [
+      "Sending text"
+    ],
+    "Phone or video chat is a category.": [
+      "Phone or video chat"
+    ],
+    "Visits are a category.": [
+      "visits"
+    ],
+    "Males are less likely than females to communicate with their parents.": [
+      "males are less likely than females to communicate with their parents"
+    ],
+    "For sent text, males are at 50%.": [
+      "For sent text Males are at 50%"
+    ],
+    "For sent text, females are near 70%.": [
+      "females are near 70%"
+    ],
+    "For phone and video chat, males are near 30%.": [
+      "Phone and video chat males are near 30%"
+    ],
+    "For phone and video chat, females are near 55%.": [
+      "females are near 55%"
+    ],
+    "For personal visits, males are near 20%.": [
+      "for personal visits males are near 20%"
+    ],
+    "For personal visits, females are near 26%.": [
+      "females are near 26%"
+    ],
+    "Young males may think of communication as less of a priority than females do.": [
+      "I wonder if young males think of communication as less of a priority than females do."
+    ],
+    "The relationship of young males with their parents may affect the response time between the two.": [
+      "Does their relationship with their parents affect the response time between the two?"
+    ],
+    "Young males may do this to feel more independent.": [
+      "Do they do this to feel more independent?"
+    ],
+    "This relates to me and my community.": [
+      "This relates to me and my community"
+    ],
+    "Everyone around is heavily family-orientated and brought together.": [
+      "everyone around is heavily family-orientated and brought together"
+    ],
+    "There are plenty of family events going on.": [
+      "There are plenty of family events going on"
+    ],
+    "There are gatherings weekly.": [
+      "gatherings weekly"
+    ],
+    "1,495 Young Adults Are They Really On Their Own?": [
+      "1,495 Young Adults Are They Really On Their Own?"
+    ]
+  }
+}

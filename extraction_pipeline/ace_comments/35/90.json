@@ -1,0 +1,17 @@
+{
+  "article_id": "35",
+  "comment_index": 90,
+  "raw_comment": "I wonder If global warming could have to do leaf growth happening later in the year for the northern side. Maybe The temperature could make  it harder for plants to grow  via leaves.",
+  "ace_sentences": [
+    "I wonder if global warming could have to do with leaf growth happening later in the year for the northern side.",
+    "The temperature could make it harder for plants to grow via leaves."
+  ],
+  "source_mappings": {
+    "I wonder if global warming could have to do with leaf growth happening later in the year for the northern side.": [
+      "I wonder If global warming could have to do leaf growth happening later in the year for the northern side."
+    ],
+    "The temperature could make it harder for plants to grow via leaves.": [
+      "The temperature could make  it harder for plants to grow  via leaves."
+    ]
+  }
+}

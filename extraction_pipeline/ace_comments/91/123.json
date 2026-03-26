@@ -1,0 +1,49 @@
+{
+  "article_id": "91",
+  "comment_index": 123,
+  "raw_comment": "In looking at this graph, I notice how players of color make up way over 50% besides baseball in major sports leagues. Because of this, I wonder why the number of head coaches of color are substantially lower than number of players. Is this lower number because of race or is it just that way because? This impacts my community because if coaches are mostly white because of race, that will seriously damage our country. Every person in America deserves a chance to pursue whatever career or dream they wish without race playing a role. \nNew Headline: \"Does Race Play a Role In Sports Teams?\"",
+  "ace_sentences": [
+    "I look at this graph.",
+    "I notice that players of color make up over 50% in major sports leagues besides baseball.",
+    "Because of this, I wonder why the number of head coaches of color is substantially lower than the number of players.",
+    "I ask whether this lower number is because of race.",
+    "I ask whether this lower number is just that way.",
+    "This impacts my community.",
+    "If coaches are mostly white because of race, then that will seriously damage our country.",
+    "Every person in America deserves a chance to pursue whatever career or dream they wish.",
+    "Every person in America deserves this chance without race playing a role.",
+    "The new headline is \"Does Race Play a Role In Sports Teams?\"."
+  ],
+  "source_mappings": {
+    "I look at this graph.": [
+      "In looking at this graph"
+    ],
+    "I notice that players of color make up over 50% in major sports leagues besides baseball.": [
+      "I notice how players of color make up way over 50% besides baseball in major sports leagues."
+    ],
+    "Because of this, I wonder why the number of head coaches of color is substantially lower than the number of players.": [
+      "Because of this, I wonder why the number of head coaches of color are substantially lower than number of players."
+    ],
+    "I ask whether this lower number is because of race.": [
+      "Is this lower number because of race"
+    ],
+    "I ask whether this lower number is just that way.": [
+      "or is it just that way"
+    ],
+    "This impacts my community.": [
+      "This impacts my community"
+    ],
+    "If coaches are mostly white because of race, then that will seriously damage our country.": [
+      "if coaches are mostly white because of race, that will seriously damage our country."
+    ],
+    "Every person in America deserves a chance to pursue whatever career or dream they wish.": [
+      "Every person in America deserves a chance to pursue whatever career or dream they wish"
+    ],
+    "Every person in America deserves this chance without race playing a role.": [
+      "without race playing a role."
+    ],
+    "The new headline is \"Does Race Play a Role In Sports Teams?\".": [
+      "New Headline: \"Does Race Play a Role In Sports Teams?\""
+    ]
+  }
+}

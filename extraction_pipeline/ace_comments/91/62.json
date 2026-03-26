@@ -1,0 +1,81 @@
+{
+  "article_id": "91",
+  "comment_index": 62,
+  "raw_comment": "These graphs show the diversity within today's US sports leagues. I notice that the data displays that in all the sports shown except baseball, the players of color make up more than half of each sports population. I also notice that among the coaches, there are no leagues which coaches of color makeup at least half of the coaching population. The smallest percentage being that of the NFL at 13%, and the greatest being the MLS at 41%.\n\nThe two basketball leagues (women's & men's ) have very similar diversity numbers, yet all of the other leagues seem to have no other correlation between them. I wonder what changes the data between leagues? History or roots of the sport? \n\nI live in a predominantly white state and having played many sports, I know that there aren't many players of color within my state. These graphs impact me because they help me better understand the diversity within sports across the US. Rather than just in New Hampshire.\n\nWhat's going on in this graph? Sporting Leagues and their diversity.",
+  "ace_sentences": [
+    "These graphs show the diversity within today's US sports leagues.",
+    "I notice that the data displays that in all the sports shown except baseball, the players of color make up more than half of each sports population.",
+    "I notice that among the coaches, there are no leagues in which coaches of color make up at least half of the coaching population.",
+    "The smallest percentage is that of the NFL at 13%.",
+    "The greatest percentage is the MLS at 41%.",
+    "The two basketball leagues are women's and men's.",
+    "The two basketball leagues have very similar diversity numbers.",
+    "All of the other leagues seem to have no other correlation between them.",
+    "I wonder what changes the data between leagues.",
+    "History can change the data between leagues.",
+    "Roots of the sport can change the data between leagues.",
+    "I live in a predominantly white state.",
+    "I have played many sports.",
+    "I know that there aren't many players of color within my state.",
+    "These graphs impact me.",
+    "These graphs help me better understand the diversity within sports across the US.",
+    "These graphs help me better understand the diversity within sports across the US rather than just in New Hampshire.",
+    "The headline is: Sporting Leagues and their diversity."
+  ],
+  "source_mappings": {
+    "These graphs show the diversity within today's US sports leagues.": [
+      "These graphs show the diversity within today's US sports leagues."
+    ],
+    "I notice that the data displays that in all the sports shown except baseball, the players of color make up more than half of each sports population.": [
+      "I notice that the data displays that in all the sports shown except baseball, the players of color make up more than half of each sports population."
+    ],
+    "I notice that among the coaches, there are no leagues in which coaches of color make up at least half of the coaching population.": [
+      "I also notice that among the coaches, there are no leagues which coaches of color makeup at least half of the coaching population."
+    ],
+    "The smallest percentage is that of the NFL at 13%.": [
+      "The smallest percentage being that of the NFL at 13%"
+    ],
+    "The greatest percentage is the MLS at 41%.": [
+      "the greatest being the MLS at 41%"
+    ],
+    "The two basketball leagues are women's and men's.": [
+      "The two basketball leagues (women's & men's )"
+    ],
+    "The two basketball leagues have very similar diversity numbers.": [
+      "have very similar diversity numbers"
+    ],
+    "All of the other leagues seem to have no other correlation between them.": [
+      "all of the other leagues seem to have no other correlation between them"
+    ],
+    "I wonder what changes the data between leagues.": [
+      "I wonder what changes the data between leagues?"
+    ],
+    "History can change the data between leagues.": [
+      "History"
+    ],
+    "Roots of the sport can change the data between leagues.": [
+      "roots of the sport"
+    ],
+    "I live in a predominantly white state.": [
+      "I live in a predominantly white state"
+    ],
+    "I have played many sports.": [
+      "having played many sports"
+    ],
+    "I know that there aren't many players of color within my state.": [
+      "I know that there aren't many players of color within my state."
+    ],
+    "These graphs impact me.": [
+      "These graphs impact me"
+    ],
+    "These graphs help me better understand the diversity within sports across the US.": [
+      "they help me better understand the diversity within sports across the US."
+    ],
+    "These graphs help me better understand the diversity within sports across the US rather than just in New Hampshire.": [
+      "help me better understand the diversity within sports across the US. Rather than just in New Hampshire."
+    ],
+    "The headline is: Sporting Leagues and their diversity.": [
+      "Sporting Leagues and their diversity."
+    ]
+  }
+}

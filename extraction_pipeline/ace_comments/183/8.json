@@ -1,0 +1,63 @@
+{
+  "article_id": "183",
+  "comment_index": 8,
+  "raw_comment": "Notice\n- Females reach out to parents more in general\n- Huge gap betweeen females and males who reach out by text and by phone or video chat. \n\nWonder \n- Does the relationship between parents and young adults affect them reaching out?\n\nHeadline - \nReaching Out: Are Young Women More Attached to Their Parents than Males?",
+  "ace_sentences": [
+    "Females reach out to parents more in general.",
+    "There is a huge gap between females and males.",
+    "Females reach out by text.",
+    "Females reach out by phone.",
+    "Females reach out by video chat.",
+    "Males reach out by text.",
+    "Males reach out by phone.",
+    "Males reach out by video chat.",
+    "The relationship between parents and young adults may affect young adults.",
+    "The relationship between parents and young adults may affect young adults reaching out.",
+    "The headline is:",
+    "Reaching Out: Are Young Women More Attached to Their Parents than Males?"
+  ],
+  "source_mappings": {
+    "Females reach out to parents more in general.": [
+      "Females reach out to parents more in general"
+    ],
+    "There is a huge gap between females and males.": [
+      "Huge gap betweeen females and males"
+    ],
+    "Females reach out by text.": [
+      "females",
+      "reach out by text"
+    ],
+    "Females reach out by phone.": [
+      "females",
+      "by phone"
+    ],
+    "Females reach out by video chat.": [
+      "females",
+      "video chat"
+    ],
+    "Males reach out by text.": [
+      "males",
+      "reach out by text"
+    ],
+    "Males reach out by phone.": [
+      "males",
+      "by phone"
+    ],
+    "Males reach out by video chat.": [
+      "males",
+      "video chat"
+    ],
+    "The relationship between parents and young adults may affect young adults.": [
+      "Does the relationship between parents and young adults affect them"
+    ],
+    "The relationship between parents and young adults may affect young adults reaching out.": [
+      "Does the relationship between parents and young adults affect them reaching out"
+    ],
+    "The headline is:": [
+      "Headline -"
+    ],
+    "Reaching Out: Are Young Women More Attached to Their Parents than Males?": [
+      "Reaching Out: Are Young Women More Attached to Their Parents than Males?"
+    ]
+  }
+}

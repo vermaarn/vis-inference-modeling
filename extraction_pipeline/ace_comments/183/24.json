@@ -1,0 +1,17 @@
+{
+  "article_id": "183",
+  "comment_index": 24,
+  "raw_comment": "Less people like don't talk to there parents.- Catchy Headline",
+  "ace_sentences": [
+    "Less people do not talk to their parents.",
+    "The headline is catchy."
+  ],
+  "source_mappings": {
+    "Less people do not talk to their parents.": [
+      "Less people like don't talk to there parents."
+    ],
+    "The headline is catchy.": [
+      "Catchy Headline"
+    ]
+  }
+}

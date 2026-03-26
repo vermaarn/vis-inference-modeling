@@ -1,0 +1,69 @@
+{
+  "article_id": "183",
+  "comment_index": 63,
+  "raw_comment": "This graph shows how young men and women socialize with their parents through texts, phone calls, and in-person communication. I notice that women communicate with their parents more than men do in all forms. I wonder if this is because of built-in societal norms for women regarding their role in family and socialization. I also wonder how this chart would compare to a similar chart 30 years in the past. This relates to me and my community because I am almost entering the age range that these statistics are concerning, so it makes me sad that one day I won't see my parents every day. I think we take our families for granted a lot and I hope that I communicate with them on a normal basis when I get older. \n\"Staying Connected in 2024\"",
+  "ace_sentences": [
+    "This graph shows how young men and women socialize with their parents.",
+    "Young men and women socialize with their parents through texts.",
+    "Young men and women socialize with their parents through phone calls.",
+    "Young men and women socialize with their parents through in-person communication.",
+    "Women communicate with their parents more than men do in all forms.",
+    "This may be because of built-in societal norms for women.",
+    "These societal norms concern the role of women in family and socialization.",
+    "I wonder how this chart would compare to a similar chart 30 years in the past.",
+    "This relates to me and my community.",
+    "I am almost entering the age range that these statistics are concerning.",
+    "It makes me sad.",
+    "One day, I will not see my parents every day.",
+    "We take our families for granted a lot.",
+    "I hope that I communicate with my family on a normal basis when I get older.",
+    "The title is \"Staying Connected in 2024\"."
+  ],
+  "source_mappings": {
+    "This graph shows how young men and women socialize with their parents.": [
+      "This graph shows how young men and women socialize with their parents"
+    ],
+    "Young men and women socialize with their parents through texts.": [
+      "young men and women socialize with their parents through texts"
+    ],
+    "Young men and women socialize with their parents through phone calls.": [
+      "phone calls"
+    ],
+    "Young men and women socialize with their parents through in-person communication.": [
+      "in-person communication"
+    ],
+    "Women communicate with their parents more than men do in all forms.": [
+      "women communicate with their parents more than men do in all forms"
+    ],
+    "This may be because of built-in societal norms for women.": [
+      "because of built-in societal norms for women"
+    ],
+    "These societal norms concern the role of women in family and socialization.": [
+      "regarding their role in family and socialization"
+    ],
+    "I wonder how this chart would compare to a similar chart 30 years in the past.": [
+      "I also wonder how this chart would compare to a similar chart 30 years in the past."
+    ],
+    "This relates to me and my community.": [
+      "This relates to me and my community"
+    ],
+    "I am almost entering the age range that these statistics are concerning.": [
+      "I am almost entering the age range that these statistics are concerning"
+    ],
+    "It makes me sad.": [
+      "it makes me sad"
+    ],
+    "One day, I will not see my parents every day.": [
+      "one day I won't see my parents every day"
+    ],
+    "We take our families for granted a lot.": [
+      "we take our families for granted a lot"
+    ],
+    "I hope that I communicate with my family on a normal basis when I get older.": [
+      "I hope that I communicate with them on a normal basis when I get older."
+    ],
+    "The title is \"Staying Connected in 2024\".": [
+      "\"Staying Connected in 2024\""
+    ]
+  }
+}

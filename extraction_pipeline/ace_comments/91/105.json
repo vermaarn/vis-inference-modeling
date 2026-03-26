@@ -1,0 +1,81 @@
+{
+  "article_id": "91",
+  "comment_index": 105,
+  "raw_comment": "I notice that there are more players of color in basketball and football than players of color in baseball and soccer. I also notice that there are more head coaches of color in the Major League of Soccer despite having the lowest percentage of players of color. I wonder as to why it is that we see these trends among race with specific sports. I wonder if it is a cultural aspect that makes it so that more people of color are inclined to play basketball and football over soccer because there are way less people of color who actually play soccer. I wonder if they feel unwelcomed or whether it is a predominantly white sport. The impact that this has on my community is that it helps me understand a lot more as to why I see this trend. Coming from a predominantly person of color community, I do understand that a lot more people are interested in football and basketball because it is a sport that many of us were exposed to growing up from a young age. Possible headline: \"Is Sport Leadership Aligned with the Players' Race?\"",
+  "ace_sentences": [
+    "I notice that there are more players of color in basketball than players of color in baseball.",
+    "I notice that there are more players of color in basketball than players of color in soccer.",
+    "I notice that there are more players of color in football than players of color in baseball.",
+    "I notice that there are more players of color in football than players of color in soccer.",
+    "I notice that there are more head coaches of color in the Major League of Soccer.",
+    "The Major League of Soccer has the lowest percentage of players of color.",
+    "I wonder why we see these trends among race with specific sports.",
+    "I wonder if it is a cultural aspect.",
+    "I wonder if a cultural aspect makes it so that more people of color are inclined to play basketball and football over soccer.",
+    "There are way less people of color who actually play soccer.",
+    "I wonder if people of color feel unwelcomed.",
+    "I wonder if soccer is a predominantly white sport.",
+    "This impact on my community helps me understand a lot more why I see this trend.",
+    "My community is a predominantly person of color community.",
+    "I understand that a lot more people are interested in football and basketball.",
+    "I understand that many of us were exposed to football and basketball growing up from a young age.",
+    "The possible headline is:",
+    "Is Sport Leadership Aligned with the Players' Race?"
+  ],
+  "source_mappings": {
+    "I notice that there are more players of color in basketball than players of color in baseball.": [
+      "I notice that there are more players of color in basketball and football than players of color in baseball and soccer"
+    ],
+    "I notice that there are more players of color in basketball than players of color in soccer.": [
+      "I notice that there are more players of color in basketball and football than players of color in baseball and soccer"
+    ],
+    "I notice that there are more players of color in football than players of color in baseball.": [
+      "I notice that there are more players of color in basketball and football than players of color in baseball and soccer"
+    ],
+    "I notice that there are more players of color in football than players of color in soccer.": [
+      "I notice that there are more players of color in basketball and football than players of color in baseball and soccer"
+    ],
+    "I notice that there are more head coaches of color in the Major League of Soccer.": [
+      "I also notice that there are more head coaches of color in the Major League of Soccer"
+    ],
+    "The Major League of Soccer has the lowest percentage of players of color.": [
+      "having the lowest percentage of players of color"
+    ],
+    "I wonder why we see these trends among race with specific sports.": [
+      "I wonder as to why it is that we see these trends among race with specific sports."
+    ],
+    "I wonder if it is a cultural aspect.": [
+      "I wonder if it is a cultural aspect"
+    ],
+    "I wonder if a cultural aspect makes it so that more people of color are inclined to play basketball and football over soccer.": [
+      "that makes it so that more people of color are inclined to play basketball and football over soccer"
+    ],
+    "There are way less people of color who actually play soccer.": [
+      "there are way less people of color who actually play soccer"
+    ],
+    "I wonder if people of color feel unwelcomed.": [
+      "I wonder if they feel unwelcomed"
+    ],
+    "I wonder if soccer is a predominantly white sport.": [
+      "whether it is a predominantly white sport"
+    ],
+    "This impact on my community helps me understand a lot more why I see this trend.": [
+      "The impact that this has on my community is that it helps me understand a lot more as to why I see this trend."
+    ],
+    "My community is a predominantly person of color community.": [
+      "Coming from a predominantly person of color community"
+    ],
+    "I understand that a lot more people are interested in football and basketball.": [
+      "I do understand that a lot more people are interested in football and basketball"
+    ],
+    "I understand that many of us were exposed to football and basketball growing up from a young age.": [
+      "many of us were exposed to growing up from a young age"
+    ],
+    "The possible headline is:": [
+      "Possible headline:"
+    ],
+    "Is Sport Leadership Aligned with the Players' Race?": [
+      "\"Is Sport Leadership Aligned with the Players' Race?\""
+    ]
+  }
+}

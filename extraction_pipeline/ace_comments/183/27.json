@@ -1,0 +1,17 @@
+{
+  "article_id": "183",
+  "comment_index": 27,
+  "raw_comment": "Head line whos  moms favorite now LOL",
+  "ace_sentences": [
+    "The headline is:",
+    "Whos moms favorite is now."
+  ],
+  "source_mappings": {
+    "The headline is:": [
+      "Head line"
+    ],
+    "Whos moms favorite is now.": [
+      "whos  moms favorite now"
+    ]
+  }
+}

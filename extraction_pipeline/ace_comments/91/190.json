@@ -1,0 +1,43 @@
+{
+  "article_id": "91",
+  "comment_index": 190,
+  "raw_comment": "I notice that the National Football league has the smallest percentage of head coaches of color compared to all the other graphs. I wonder why there aren’t many head coaches of color in sports. This impacts the poc community because people who want to coach a sports team will be discouraged by the graph and think that they won’t be able to coach any sport team. This graph shows the amount of players and head coaches who are of color. A headline for this graph would be ¨Are sports really diverse?¨.",
+  "ace_sentences": [
+    "The National Football league has the smallest percentage of head coaches of color compared to all the other graphs.",
+    "I wonder why there are not many head coaches of color in sports.",
+    "This impacts the poc community.",
+    "People who want to coach a sports team will be discouraged by the graph.",
+    "People who want to coach a sports team will think that they will not be able to coach any sport team.",
+    "This graph shows the amount of players who are of color.",
+    "This graph shows the amount of head coaches who are of color.",
+    "A headline for this graph would be \"Are sports really diverse?\"."
+  ],
+  "source_mappings": {
+    "The National Football league has the smallest percentage of head coaches of color compared to all the other graphs.": [
+      "the National Football league has the smallest percentage of head coaches of color compared to all the other graphs"
+    ],
+    "I wonder why there are not many head coaches of color in sports.": [
+      "I wonder why there aren’t many head coaches of color in sports."
+    ],
+    "This impacts the poc community.": [
+      "This impacts the poc community"
+    ],
+    "People who want to coach a sports team will be discouraged by the graph.": [
+      "people who want to coach a sports team will be discouraged by the graph"
+    ],
+    "People who want to coach a sports team will think that they will not be able to coach any sport team.": [
+      "think that they won’t be able to coach any sport team"
+    ],
+    "This graph shows the amount of players who are of color.": [
+      "This graph shows the amount of players",
+      "who are of color"
+    ],
+    "This graph shows the amount of head coaches who are of color.": [
+      "This graph shows the amount of players and head coaches",
+      "who are of color"
+    ],
+    "A headline for this graph would be \"Are sports really diverse?\".": [
+      "A headline for this graph would be ¨Are sports really diverse?¨."
+    ]
+  }
+}

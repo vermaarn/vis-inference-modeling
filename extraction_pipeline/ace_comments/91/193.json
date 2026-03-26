@@ -1,0 +1,53 @@
+{
+  "article_id": "91",
+  "comment_index": 193,
+  "raw_comment": "1. What I notice is that the percentages of the Women's National Basketball Association and National Basketball Association of players of color are the same. \n2. What I wonder about these graphs is why does each of the sports have a different percentage increase to their players of color. \n3. The impact this has on me and my community is that there are more people like me and my community joining sports and being able to play in these professional leagues. I feel like no matter what color or race you are you can be successful to do what you want to do, and these graphs shows that more people of color are playing more. \n4. The interesting percentages of professional leagues of color.",
+  "ace_sentences": [
+    "I notice something.",
+    "The percentages of players of color in the Women's National Basketball Association and in the National Basketball Association are the same.",
+    "I wonder about these graphs.",
+    "I wonder why each of the sports has a different percentage increase of players of color.",
+    "This impact has an effect on me and my community.",
+    "More people like me and my community join sports.",
+    "More people like me and my community are able to play in these professional leagues.",
+    "I feel something.",
+    "No matter what color or race a person has, the person can be successful to do what the person wants to do.",
+    "These graphs show that more people of color are playing more.",
+    "The percentages of professional leagues of color are interesting."
+  ],
+  "source_mappings": {
+    "I notice something.": [
+      "What I notice is that"
+    ],
+    "The percentages of players of color in the Women's National Basketball Association and in the National Basketball Association are the same.": [
+      "the percentages of the Women's National Basketball Association and National Basketball Association of players of color are the same"
+    ],
+    "I wonder about these graphs.": [
+      "What I wonder about these graphs is"
+    ],
+    "I wonder why each of the sports has a different percentage increase of players of color.": [
+      "why does each of the sports have a different percentage increase to their players of color"
+    ],
+    "This impact has an effect on me and my community.": [
+      "The impact this has on me and my community is that"
+    ],
+    "More people like me and my community join sports.": [
+      "there are more people like me and my community joining sports"
+    ],
+    "More people like me and my community are able to play in these professional leagues.": [
+      "being able to play in these professional leagues"
+    ],
+    "I feel something.": [
+      "I feel like"
+    ],
+    "No matter what color or race a person has, the person can be successful to do what the person wants to do.": [
+      "no matter what color or race you are you can be successful to do what you want to do"
+    ],
+    "These graphs show that more people of color are playing more.": [
+      "these graphs shows that more people of color are playing more"
+    ],
+    "The percentages of professional leagues of color are interesting.": [
+      "The interesting percentages of professional leagues of color."
+    ]
+  }
+}

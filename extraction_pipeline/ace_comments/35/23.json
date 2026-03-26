@@ -1,0 +1,17 @@
+{
+  "article_id": "35",
+  "comment_index": 23,
+  "raw_comment": "This is an okay title; Lets Leaf Winter and Spring Forward",
+  "ace_sentences": [
+    "This is an okay title.",
+    "The title is \"Lets Leaf Winter and Spring Forward\"."
+  ],
+  "source_mappings": {
+    "This is an okay title.": [
+      "This is an okay title;"
+    ],
+    "The title is \"Lets Leaf Winter and Spring Forward\".": [
+      "Lets Leaf Winter and Spring Forward"
+    ]
+  }
+}

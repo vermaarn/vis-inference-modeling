@@ -1,0 +1,55 @@
+{
+  "article_id": "91",
+  "comment_index": 177,
+  "raw_comment": "1. What do you notice?\nI notice that the percentage of colored players is always greater than the percentage of head coaches of color. Also, that the WNBA and the NBA have the highest percentage of colored players out of all the sports (83%).\n\n2. What do you wonder?\nI wonder why there seems to be a lack of colored coaches in these sports in comparison to the number of colored players. \n\n3. What impact does this have on you and your community?\nWith the lack of diverse coaches in these sporting leagues, there is also a lack of coaches that minorities can look up to and relate to.\n\n4. What’s going on in this graph? Write a catchy headline that captures the graph’s main idea.\nThis graph shows us the percentage of colored players and coaches in multiple sporting leagues. A catchy headline that would capture the graph's main idea is \"The Gap Between Players of Color and Coaches of Color\"",
+  "ace_sentences": [
+    "I notice that the percentage of colored players is always greater than the percentage of head coaches of color.",
+    "I notice that the WNBA and the NBA have the highest percentage of colored players out of all the sports.",
+    "The highest percentage is 83%.",
+    "I wonder why there seems to be a lack of colored coaches in these sports.",
+    "I compare the lack of colored coaches to the number of colored players.",
+    "There is a lack of diverse coaches in these sporting leagues.",
+    "There is a lack of coaches that minorities can look up to.",
+    "There is a lack of coaches that minorities can relate to.",
+    "This graph shows us the percentage of colored players in multiple sporting leagues.",
+    "This graph shows us the percentage of colored coaches in multiple sporting leagues.",
+    "The catchy headline is \"The Gap Between Players of Color and Coaches of Color\"."
+  ],
+  "source_mappings": {
+    "I notice that the percentage of colored players is always greater than the percentage of head coaches of color.": [
+      "I notice that the percentage of colored players is always greater than the percentage of head coaches of color."
+    ],
+    "I notice that the WNBA and the NBA have the highest percentage of colored players out of all the sports.": [
+      "the WNBA and the NBA have the highest percentage of colored players out of all the sports"
+    ],
+    "The highest percentage is 83%.": [
+      "(83%)"
+    ],
+    "I wonder why there seems to be a lack of colored coaches in these sports.": [
+      "I wonder why there seems to be a lack of colored coaches in these sports"
+    ],
+    "I compare the lack of colored coaches to the number of colored players.": [
+      "in comparison to the number of colored players"
+    ],
+    "There is a lack of diverse coaches in these sporting leagues.": [
+      "the lack of diverse coaches in these sporting leagues"
+    ],
+    "There is a lack of coaches that minorities can look up to.": [
+      "a lack of coaches that minorities can look up to"
+    ],
+    "There is a lack of coaches that minorities can relate to.": [
+      "relate to"
+    ],
+    "This graph shows us the percentage of colored players in multiple sporting leagues.": [
+      "This graph shows us the percentage of colored players",
+      "in multiple sporting leagues"
+    ],
+    "This graph shows us the percentage of colored coaches in multiple sporting leagues.": [
+      "the percentage of colored players and coaches",
+      "in multiple sporting leagues"
+    ],
+    "The catchy headline is \"The Gap Between Players of Color and Coaches of Color\".": [
+      "\"The Gap Between Players of Color and Coaches of Color\""
+    ]
+  }
+}

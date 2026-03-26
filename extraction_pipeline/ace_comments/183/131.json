@@ -1,0 +1,95 @@
+{
+  "article_id": "183",
+  "comment_index": 131,
+  "raw_comment": "I noticed that young women tend to reach out to a parent once a day or a few times each week compared to young men as well as, the preferred method is texting rather than something more personal like calling or seeing each other in person.\nI wonder if or how this changes in the future. Do they stop reaching out? Will they start reaching out or communicating with each other more intimately like visiting in person or calling? How does their relationship with their parents affect their response?\nThis relates to me and my community because everyone is constantly growing up and has some kind of parental figure, and is developing into their own person and this can change the ways you interact with each other and your parents.\n\"Contacting the Other- Communicating With Your Parent\"",
+  "ace_sentences": [
+    "Young women tend to reach out to a parent once a day.",
+    "Young women tend to reach out to a parent a few times each week.",
+    "Young men tend to reach out to a parent less often than young women.",
+    "The preferred method is texting.",
+    "Texting is preferred rather than calling.",
+    "Texting is preferred rather than seeing each other in person.",
+    "I wonder if this changes in the future.",
+    "I wonder how this changes in the future.",
+    "They may stop reaching out.",
+    "They may start reaching out more.",
+    "They may start communicating with each other more intimately.",
+    "They may start visiting in person.",
+    "They may start calling.",
+    "Their relationship with their parents affects their response.",
+    "This relates to me and my community.",
+    "Everyone is constantly growing up.",
+    "Everyone has some kind of parental figure.",
+    "Everyone is developing into their own person.",
+    "This can change the ways you interact with each other.",
+    "This can change the ways you interact with your parents.",
+    "The title is \"Contacting the Other- Communicating With Your Parent\"."
+  ],
+  "source_mappings": {
+    "Young women tend to reach out to a parent once a day.": [
+      "young women tend to reach out to a parent once a day"
+    ],
+    "Young women tend to reach out to a parent a few times each week.": [
+      "young women tend to reach out to a parent",
+      "a few times each week"
+    ],
+    "Young men tend to reach out to a parent less often than young women.": [
+      "compared to young men"
+    ],
+    "The preferred method is texting.": [
+      "the preferred method is texting"
+    ],
+    "Texting is preferred rather than calling.": [
+      "texting rather than something more personal like calling"
+    ],
+    "Texting is preferred rather than seeing each other in person.": [
+      "texting rather than something more personal like",
+      "seeing each other in person"
+    ],
+    "I wonder if this changes in the future.": [
+      "I wonder if or how this changes in the future."
+    ],
+    "I wonder how this changes in the future.": [
+      "I wonder if or how this changes in the future."
+    ],
+    "They may stop reaching out.": [
+      "Do they stop reaching out?"
+    ],
+    "They may start reaching out more.": [
+      "Will they start reaching out"
+    ],
+    "They may start communicating with each other more intimately.": [
+      "communicating with each other more intimately"
+    ],
+    "They may start visiting in person.": [
+      "visiting in person"
+    ],
+    "They may start calling.": [
+      "calling?"
+    ],
+    "Their relationship with their parents affects their response.": [
+      "How does their relationship with their parents affect their response?"
+    ],
+    "This relates to me and my community.": [
+      "This relates to me and my community"
+    ],
+    "Everyone is constantly growing up.": [
+      "everyone is constantly growing up"
+    ],
+    "Everyone has some kind of parental figure.": [
+      "has some kind of parental figure"
+    ],
+    "Everyone is developing into their own person.": [
+      "is developing into their own person"
+    ],
+    "This can change the ways you interact with each other.": [
+      "this can change the ways you interact with each other"
+    ],
+    "This can change the ways you interact with your parents.": [
+      "change the ways you interact with each other and your parents"
+    ],
+    "The title is \"Contacting the Other- Communicating With Your Parent\".": [
+      "\"Contacting the Other- Communicating With Your Parent\""
+    ]
+  }
+}

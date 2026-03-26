@@ -1,0 +1,53 @@
+{
+  "article_id": "91",
+  "comment_index": 184,
+  "raw_comment": "I notice that the MLB has the least amount of players that are people of color but, the men's NBA has the most amount of players and coaches that are persons of color. I wonder if any of the coaches with different sports have higher amounts of athletes with people of color. This impacts my community because many people of color are not able to look up to people of color in their sports of choice. After all, the percentage of people that coach and play are very low.  This graph shows the percentage of coaches and players of color who participate in the major sports leagues. \nAre people of color equally represented in professional sports?",
+  "ace_sentences": [
+    "The MLB has the least amount of players that are people of color.",
+    "The men's NBA has the most amount of players that are persons of color.",
+    "The men's NBA has the most amount of coaches that are persons of color.",
+    "I wonder if some coaches in different sports have higher amounts of athletes that are people of color.",
+    "This impacts my community.",
+    "Many people of color are not able to look up to people of color in their sports of choice.",
+    "The percentage of people that coach is very low.",
+    "The percentage of people that play is very low.",
+    "This graph shows the percentage of coaches of color who participate in the major sports leagues.",
+    "This graph shows the percentage of players of color who participate in the major sports leagues.",
+    "People of color are equally represented in professional sports."
+  ],
+  "source_mappings": {
+    "The MLB has the least amount of players that are people of color.": [
+      "the MLB has the least amount of players that are people of color"
+    ],
+    "The men's NBA has the most amount of players that are persons of color.": [
+      "the men's NBA has the most amount of players"
+    ],
+    "The men's NBA has the most amount of coaches that are persons of color.": [
+      "coaches that are persons of color"
+    ],
+    "I wonder if some coaches in different sports have higher amounts of athletes that are people of color.": [
+      "I wonder if any of the coaches with different sports have higher amounts of athletes with people of color."
+    ],
+    "This impacts my community.": [
+      "This impacts my community"
+    ],
+    "Many people of color are not able to look up to people of color in their sports of choice.": [
+      "many people of color are not able to look up to people of color in their sports of choice"
+    ],
+    "The percentage of people that coach is very low.": [
+      "the percentage of people that coach"
+    ],
+    "The percentage of people that play is very low.": [
+      "play are very low"
+    ],
+    "This graph shows the percentage of coaches of color who participate in the major sports leagues.": [
+      "This graph shows the percentage of coaches and players of color who participate in the major sports leagues."
+    ],
+    "This graph shows the percentage of players of color who participate in the major sports leagues.": [
+      "This graph shows the percentage of coaches and players of color who participate in the major sports leagues."
+    ],
+    "People of color are equally represented in professional sports.": [
+      "Are people of color equally represented in professional sports?"
+    ]
+  }
+}

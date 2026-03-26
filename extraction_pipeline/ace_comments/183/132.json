@@ -1,0 +1,73 @@
+{
+  "article_id": "183",
+  "comment_index": 132,
+  "raw_comment": "The graph shows how likely young adults either female or male interact with their parents each time a week. It says that they either text, call, or actually talk to their parent in person. The graph shows that they are most likely to send a text to their parents with it being roughly 50% males will text their parents while 75% females will text their parents. The least likely to be done is actually visiting the parent in person with only 26% females and roughly 18%. There is definitely a difference here with males always being in the lower margin and females being in the larger margin. This most likely has to do with the gender differences between males and females.",
+  "ace_sentences": [
+    "The graph shows how likely young adults interact with their parents each time a week.",
+    "Young adults are female or male.",
+    "The graph says that young adults text their parent.",
+    "The graph says that young adults call their parent.",
+    "The graph says that young adults talk to their parent in person.",
+    "The graph shows that males are most likely to send a text to their parents.",
+    "Roughly 50% males will text their parents.",
+    "The graph shows that females are most likely to send a text to their parents.",
+    "75% females will text their parents.",
+    "The least likely action is visiting the parent in person.",
+    "Only 26% females visit the parent in person.",
+    "Roughly 18% visit the parent in person.",
+    "There is definitely a difference here.",
+    "Males are always in the lower margin.",
+    "Females are in the larger margin.",
+    "This most likely has to do with the gender differences between males and females."
+  ],
+  "source_mappings": {
+    "The graph shows how likely young adults interact with their parents each time a week.": [
+      "The graph shows how likely young adults either female or male interact with their parents each time a week."
+    ],
+    "Young adults are female or male.": [
+      "young adults either female or male"
+    ],
+    "The graph says that young adults text their parent.": [
+      "It says that they either text"
+    ],
+    "The graph says that young adults call their parent.": [
+      "call"
+    ],
+    "The graph says that young adults talk to their parent in person.": [
+      "or actually talk to their parent in person."
+    ],
+    "The graph shows that males are most likely to send a text to their parents.": [
+      "The graph shows that they are most likely to send a text to their parents"
+    ],
+    "Roughly 50% males will text their parents.": [
+      "roughly 50% males will text their parents"
+    ],
+    "The graph shows that females are most likely to send a text to their parents.": [
+      "The graph shows that they are most likely to send a text to their parents"
+    ],
+    "75% females will text their parents.": [
+      "75% females will text their parents."
+    ],
+    "The least likely action is visiting the parent in person.": [
+      "The least likely to be done is actually visiting the parent in person"
+    ],
+    "Only 26% females visit the parent in person.": [
+      "only 26% females"
+    ],
+    "Roughly 18% visit the parent in person.": [
+      "roughly 18%"
+    ],
+    "There is definitely a difference here.": [
+      "There is definitely a difference here"
+    ],
+    "Males are always in the lower margin.": [
+      "males always being in the lower margin"
+    ],
+    "Females are in the larger margin.": [
+      "females being in the larger margin"
+    ],
+    "This most likely has to do with the gender differences between males and females.": [
+      "This most likely has to do with the gender differences between males and females."
+    ]
+  }
+}

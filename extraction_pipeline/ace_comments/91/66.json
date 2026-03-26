@@ -1,0 +1,89 @@
+{
+  "article_id": "91",
+  "comment_index": 66,
+  "raw_comment": "I notice that these graphs separately display the percentages of players of color and coaches of color across different sports leagues of the nation. Along with this, the athletes of color seem to be well represented, in some circumstances even being the majority, however, in all of the leagues there seems to be an inequality for white coaches compared to coaches of color.\n\nI wonder how these graphs have shifted over time since the beginning of integration in sports. Obviously, at one point there was a time that people of color weren’t even allowed in the American leagues. I wonder if once the ban was lifted, the levels of diversity in athletes slowly increased or if there was a certain point where they skyrocketed.\n \nThis does not affect me directly, however it affects the people around me and in my community as it shows the representation of people of color in sports across America. It shows that athletes are extremely diverse, and in some cases, the majority of athletes are people of color, however, regarding coaches, there is not as much of a representation. This shows some employment opportunities could still have segregation involved, and there’s room to improve going forward.\n\nThis graph depicts the level of diversity in both athletes and coaches across 5 sports leagues of America.\n \nCatchy Headline: The Diversity and Disparity of American Sports",
+  "ace_sentences": [
+    "These graphs separately display the percentages of players of color across different sports leagues of the nation.",
+    "These graphs separately display the percentages of coaches of color across different sports leagues of the nation.",
+    "The athletes of color seem to be well represented.",
+    "In some circumstances, the athletes of color are even the majority.",
+    "In all of the leagues, there seems to be an inequality for white coaches compared to coaches of color.",
+    "I wonder how these graphs have shifted over time since the beginning of integration in sports.",
+    "At one point, people of color were not allowed in the American leagues.",
+    "I wonder if once the ban was lifted, the levels of diversity in athletes slowly increased.",
+    "I wonder if there was a certain point where the levels of diversity in athletes skyrocketed.",
+    "This does not affect me directly.",
+    "This affects the people around me.",
+    "This affects the people in my community.",
+    "This shows the representation of people of color in sports across America.",
+    "Athletes are extremely diverse.",
+    "In some cases, the majority of athletes are people of color.",
+    "Regarding coaches, there is not as much of a representation.",
+    "This shows that some employment opportunities could still have segregation involved.",
+    "There is room to improve going forward.",
+    "This graph depicts the level of diversity in both athletes and coaches across 5 sports leagues of America.",
+    "The headline is The Diversity and Disparity of American Sports."
+  ],
+  "source_mappings": {
+    "These graphs separately display the percentages of players of color across different sports leagues of the nation.": [
+      "these graphs separately display the percentages of players of color and coaches of color across different sports leagues of the nation"
+    ],
+    "These graphs separately display the percentages of coaches of color across different sports leagues of the nation.": [
+      "these graphs separately display the percentages of players of color and coaches of color across different sports leagues of the nation"
+    ],
+    "The athletes of color seem to be well represented.": [
+      "the athletes of color seem to be well represented"
+    ],
+    "In some circumstances, the athletes of color are even the majority.": [
+      "in some circumstances even being the majority"
+    ],
+    "In all of the leagues, there seems to be an inequality for white coaches compared to coaches of color.": [
+      "in all of the leagues there seems to be an inequality for white coaches compared to coaches of color"
+    ],
+    "I wonder how these graphs have shifted over time since the beginning of integration in sports.": [
+      "I wonder how these graphs have shifted over time since the beginning of integration in sports."
+    ],
+    "At one point, people of color were not allowed in the American leagues.": [
+      "at one point there was a time that people of color weren’t even allowed in the American leagues."
+    ],
+    "I wonder if once the ban was lifted, the levels of diversity in athletes slowly increased.": [
+      "I wonder if once the ban was lifted, the levels of diversity in athletes slowly increased"
+    ],
+    "I wonder if there was a certain point where the levels of diversity in athletes skyrocketed.": [
+      "if there was a certain point where they skyrocketed"
+    ],
+    "This does not affect me directly.": [
+      "This does not affect me directly"
+    ],
+    "This affects the people around me.": [
+      "it affects the people around me"
+    ],
+    "This affects the people in my community.": [
+      "in my community"
+    ],
+    "This shows the representation of people of color in sports across America.": [
+      "it shows the representation of people of color in sports across America"
+    ],
+    "Athletes are extremely diverse.": [
+      "athletes are extremely diverse"
+    ],
+    "In some cases, the majority of athletes are people of color.": [
+      "in some cases, the majority of athletes are people of color"
+    ],
+    "Regarding coaches, there is not as much of a representation.": [
+      "regarding coaches, there is not as much of a representation"
+    ],
+    "This shows that some employment opportunities could still have segregation involved.": [
+      "This shows some employment opportunities could still have segregation involved"
+    ],
+    "There is room to improve going forward.": [
+      "there’s room to improve going forward"
+    ],
+    "This graph depicts the level of diversity in both athletes and coaches across 5 sports leagues of America.": [
+      "This graph depicts the level of diversity in both athletes and coaches across 5 sports leagues of America."
+    ],
+    "The headline is The Diversity and Disparity of American Sports.": [
+      "Catchy Headline: The Diversity and Disparity of American Sports"
+    ]
+  }
+}

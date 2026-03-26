@@ -1,0 +1,17 @@
+{
+  "article_id": "35",
+  "comment_index": 80,
+  "raw_comment": "I noticed in the west the states had different times of blooming.",
+  "ace_sentences": [
+    "I noticed something.",
+    "The states in the west had different times of blooming."
+  ],
+  "source_mappings": {
+    "I noticed something.": [
+      "I noticed"
+    ],
+    "The states in the west had different times of blooming.": [
+      "in the west the states had different times of blooming"
+    ]
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "article_id": "91",
+  "comment_index": 159,
+  "raw_comment": "We notice that the national basketball associations have the highest percentages of players of color of all the sports. After the basketball associations, the national football league has the second highest percentage of players of color. I also notice that the head coaches of color don't even come close to the percentage of players of color. Soccer has the highest percentage of coaches of color which makes sense since it is a more worldly sport. The more “American” sports tend to have lower diversity in coaching staff. These sports would be football and baseball. We wonder why there are less coaches of color overall compared to players of color. Is it because there are simply more players of color or is it due to discrimination amongst coaches in those specific sports/leagues. Also, what could be the criteria/standards for being a coach? Maybe there’s a specific reason why there are more players of color rather than pursuing a head coach career. This graph impacts our community by highlighting the lack of coaches and even people of color in leadership positions throughout school sports. This puts emphasis on the issue of racial inequality in the sports system. We think that if there were more coaches of color there would be more kids of color that would feel comfortable participating in these activities and that kids of color would also get more opportunities in the sport they chose to participate in. \nCatchy Headline: The lack of diversity in sports leadership",
+  "ace_sentences": [
+    "The national basketball associations have the highest percentages of players of color of all the sports.",
+    "After the basketball associations, the national football league has the second highest percentage of players of color.",
+    "The head coaches of color do not come close to the percentage of players of color.",
+    "Soccer has the highest percentage of coaches of color.",
+    "Soccer is a more worldly sport.",
+    "The more American sports tend to have lower diversity in coaching staff.",
+    "Football is a sport.",
+    "Baseball is a sport.",
+    "Football and baseball are American sports.",
+    "There are less coaches of color overall compared to players of color.",
+    "There are more players of color.",
+    "Discrimination exists amongst coaches in those specific sports or leagues.",
+    "Criteria exist for being a coach.",
+    "Standards exist for being a coach.",
+    "There is a specific reason why there are more players of color rather than pursuing a head coach career.",
+    "This graph impacts our community.",
+    "This graph highlights the lack of coaches of color.",
+    "This graph highlights the lack of people of color in leadership positions throughout school sports.",
+    "This puts emphasis on the issue of racial inequality in the sports system.",
+    "If there were more coaches of color then more kids of color would feel comfortable participating in these activities.",
+    "If there were more coaches of color then kids of color would get more opportunities in the sport they chose to participate in.",
+    "The headline is:",
+    "The lack of diversity in sports leadership."
+  ],
+  "source_mappings": {
+    "The national basketball associations have the highest percentages of players of color of all the sports.": [
+      "the national basketball associations have the highest percentages of players of color of all the sports"
+    ],
+    "After the basketball associations, the national football league has the second highest percentage of players of color.": [
+      "After the basketball associations, the national football league has the second highest percentage of players of color"
+    ],
+    "The head coaches of color do not come close to the percentage of players of color.": [
+      "the head coaches of color don't even come close to the percentage of players of color"
+    ],
+    "Soccer has the highest percentage of coaches of color.": [
+      "Soccer has the highest percentage of coaches of color"
+    ],
+    "Soccer is a more worldly sport.": [
+      "it is a more worldly sport"
+    ],
+    "The more American sports tend to have lower diversity in coaching staff.": [
+      "The more “American” sports tend to have lower diversity in coaching staff"
+    ],
+    "Football is a sport.": [
+      "football"
+    ],
+    "Baseball is a sport.": [
+      "baseball"
+    ],
+    "Football and baseball are American sports.": [
+      "The more “American” sports",
+      "football and baseball"
+    ],
+    "There are less coaches of color overall compared to players of color.": [
+      "there are less coaches of color overall compared to players of color"
+    ],
+    "There are more players of color.": [
+      "there are simply more players of color"
+    ],
+    "Discrimination exists amongst coaches in those specific sports or leagues.": [
+      "discrimination amongst coaches in those specific sports/leagues"
+    ],
+    "Criteria exist for being a coach.": [
+      "the criteria/standards for being a coach"
+    ],
+    "Standards exist for being a coach.": [
+      "the criteria/standards for being a coach"
+    ],
+    "There is a specific reason why there are more players of color rather than pursuing a head coach career.": [
+      "there’s a specific reason why there are more players of color rather than pursuing a head coach career"
+    ],
+    "This graph impacts our community.": [
+      "This graph impacts our community"
+    ],
+    "This graph highlights the lack of coaches of color.": [
+      "highlighting the lack of coaches"
+    ],
+    "This graph highlights the lack of people of color in leadership positions throughout school sports.": [
+      "people of color in leadership positions throughout school sports"
+    ],
+    "This puts emphasis on the issue of racial inequality in the sports system.": [
+      "This puts emphasis on the issue of racial inequality in the sports system"
+    ],
+    "If there were more coaches of color then more kids of color would feel comfortable participating in these activities.": [
+      "if there were more coaches of color there would be more kids of color that would feel comfortable participating in these activities"
+    ],
+    "If there were more coaches of color then kids of color would get more opportunities in the sport they chose to participate in.": [
+      "kids of color would also get more opportunities in the sport they chose to participate in"
+    ],
+    "The headline is:": [
+      "Catchy Headline:"
+    ],
+    "The lack of diversity in sports leadership.": [
+      "The lack of diversity in sports leadership"
+    ]
+  }
+}

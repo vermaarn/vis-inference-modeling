@@ -1,0 +1,75 @@
+{
+  "article_id": "35",
+  "comment_index": 63,
+  "raw_comment": "We notice that the more north on the graph you get the later the first leaf appears which indicates that spring is coming.  We also notice that towards the left side of the graph by the Rocky Mountains it has the latest times for the first leaf.  We wonder if this is because of the higher elevation located in that region which could lead to worse conditions for such growth.  What's going on in this graph is the estimated and recorded times of the first leafs seen, those leafs indicate that spring is coming",
+  "ace_sentences": [
+    "We notice something.",
+    "The graph is a graph.",
+    "A place can be more north on the graph.",
+    "If a place is more north on the graph, then the first leaf appears later in this place.",
+    "If the first leaf appears, then spring is coming.",
+    "We also notice something.",
+    "The graph has a left side.",
+    "The Rocky Mountains are towards the left side of the graph.",
+    "The region by the Rocky Mountains has the latest times for the first leaf.",
+    "We wonder something.",
+    "The region has a higher elevation.",
+    "The higher elevation is located in that region.",
+    "The higher elevation could lead to worse conditions for such growth.",
+    "What is going on in this graph is the estimated times of the first leafs seen.",
+    "What is going on in this graph is the recorded times of the first leafs seen.",
+    "Those leafs indicate that spring is coming."
+  ],
+  "source_mappings": {
+    "We notice something.": [
+      "We notice that"
+    ],
+    "The graph is a graph.": [
+      "the graph"
+    ],
+    "A place can be more north on the graph.": [
+      "the more north on the graph"
+    ],
+    "If a place is more north on the graph, then the first leaf appears later in this place.": [
+      "the more north on the graph you get the later the first leaf appears"
+    ],
+    "If the first leaf appears, then spring is coming.": [
+      "the first leaf appears which indicates that spring is coming"
+    ],
+    "We also notice something.": [
+      "We also notice that"
+    ],
+    "The graph has a left side.": [
+      "the left side of the graph"
+    ],
+    "The Rocky Mountains are towards the left side of the graph.": [
+      "towards the left side of the graph by the Rocky Mountains"
+    ],
+    "The region by the Rocky Mountains has the latest times for the first leaf.": [
+      "by the Rocky Mountains it has the latest times for the first leaf"
+    ],
+    "We wonder something.": [
+      "We wonder if"
+    ],
+    "The region has a higher elevation.": [
+      "the higher elevation"
+    ],
+    "The higher elevation is located in that region.": [
+      "located in that region"
+    ],
+    "The higher elevation could lead to worse conditions for such growth.": [
+      "which could lead to worse conditions for such growth"
+    ],
+    "What is going on in this graph is the estimated times of the first leafs seen.": [
+      "What's going on in this graph is the estimated",
+      "times of the first leafs seen"
+    ],
+    "What is going on in this graph is the recorded times of the first leafs seen.": [
+      "What's going on in this graph is the",
+      "recorded times of the first leafs seen"
+    ],
+    "Those leafs indicate that spring is coming.": [
+      "those leafs indicate that spring is coming"
+    ]
+  }
+}

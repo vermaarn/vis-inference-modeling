@@ -1,0 +1,57 @@
+{
+  "article_id": "35",
+  "comment_index": 72,
+  "raw_comment": "I noticed that the state of Washington Had 3 different colors representing, March, February, and April! That was so cool to see! I never knew that was possible! Additionally, Texas also had three colors representing, January, February, and also March! This really made me wonder.",
+  "ace_sentences": [
+    "I noticed something.",
+    "The state of Washington had 3 different colors.",
+    "The 3 different colors represented March.",
+    "The 3 different colors represented February.",
+    "The 3 different colors represented April.",
+    "It was cool to see this.",
+    "I never knew that this was possible.",
+    "Texas also had three colors.",
+    "The three colors represented January.",
+    "The three colors represented February.",
+    "The three colors represented March.",
+    "This made me wonder."
+  ],
+  "source_mappings": {
+    "I noticed something.": [
+      "I noticed"
+    ],
+    "The state of Washington had 3 different colors.": [
+      "the state of Washington Had 3 different colors"
+    ],
+    "The 3 different colors represented March.": [
+      "3 different colors representing, March"
+    ],
+    "The 3 different colors represented February.": [
+      "3 different colors representing, March, February"
+    ],
+    "The 3 different colors represented April.": [
+      "and April"
+    ],
+    "It was cool to see this.": [
+      "That was so cool to see!"
+    ],
+    "I never knew that this was possible.": [
+      "I never knew that was possible!"
+    ],
+    "Texas also had three colors.": [
+      "Texas also had three colors"
+    ],
+    "The three colors represented January.": [
+      "three colors representing, January"
+    ],
+    "The three colors represented February.": [
+      "three colors representing, January, February"
+    ],
+    "The three colors represented March.": [
+      "and also March"
+    ],
+    "This made me wonder.": [
+      "This really made me wonder."
+    ]
+  }
+}

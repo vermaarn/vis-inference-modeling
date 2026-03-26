@@ -1,0 +1,48 @@
+{
+  "article_id": "35",
+  "comment_index": 139,
+  "raw_comment": "I notice that the leaves in the southern states or states in the southeast and southwest have their leaves bloom early compared to the northern regions. I wonder why this is the case?\n\nMaybe its because the southern states are closer to the equator which allows more sun exposure. This speeds up the growth and allows leaves to bloom earlier and faster.",
+  "ace_sentences": [
+    "I notice that the leaves in the southern states bloom early compared to the northern regions.",
+    "I notice that the leaves in states in the southeast bloom early compared to the northern regions.",
+    "I notice that the leaves in states in the southwest bloom early compared to the northern regions.",
+    "I wonder why this is the case.",
+    "Maybe it is because the southern states are closer to the equator.",
+    "If the southern states are closer to the equator then this allows more sun exposure.",
+    "More sun exposure speeds up the growth.",
+    "More sun exposure allows leaves to bloom earlier.",
+    "More sun exposure allows leaves to bloom faster."
+  ],
+  "source_mappings": {
+    "I notice that the leaves in the southern states bloom early compared to the northern regions.": [
+      "I notice that the leaves in the southern states",
+      "have their leaves bloom early compared to the northern regions."
+    ],
+    "I notice that the leaves in states in the southeast bloom early compared to the northern regions.": [
+      "states in the southeast",
+      "have their leaves bloom early compared to the northern regions."
+    ],
+    "I notice that the leaves in states in the southwest bloom early compared to the northern regions.": [
+      "southwest",
+      "have their leaves bloom early compared to the northern regions."
+    ],
+    "I wonder why this is the case.": [
+      "I wonder why this is the case?"
+    ],
+    "Maybe it is because the southern states are closer to the equator.": [
+      "Maybe its because the southern states are closer to the equator"
+    ],
+    "If the southern states are closer to the equator then this allows more sun exposure.": [
+      "the southern states are closer to the equator which allows more sun exposure."
+    ],
+    "More sun exposure speeds up the growth.": [
+      "more sun exposure. This speeds up the growth"
+    ],
+    "More sun exposure allows leaves to bloom earlier.": [
+      "allows leaves to bloom earlier"
+    ],
+    "More sun exposure allows leaves to bloom faster.": [
+      "bloom earlier and faster."
+    ]
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "article_id": "91",
+  "comment_index": 77,
+  "raw_comment": "I noticed that for all five of the sports, there is a much higher percentage of players of color, than coaches of color. Male and female basketball has the highest percentage of players of color at 83%, but the percentage of coaches of color is still fairly low. The sport with the highest percent of colored coaches is Major League Soccer at 41%, which means that 59% of the rest of the coaches are white.\n \nI wonder if these percentages would be significantly different five or ten years ago, or in five or ten years ahead. I also wonder why the National Football League has such a high number of players of color, but the numbers for the coaches of color are so low. \n \nThis impacts my community and I for many reasons. Since Portsmouth lacks diversity, we don’t necessarily see as much racism as much as it exists around the country. As displayed in the graphs, there is clear evidence that there aren’t many professional sport coaches of color, as there are players. This tells us that there is some aspect of racism, and there needs to be changes regarding this. \n\n“The Lack of Diversity in Professional Sports”",
+  "ace_sentences": [
+    "There are five sports.",
+    "For all five of the sports, there is a much higher percentage of players of color than coaches of color.",
+    "Male basketball has the highest percentage of players of color at 83%.",
+    "Female basketball has the highest percentage of players of color at 83%.",
+    "The percentage of coaches of color is still fairly low.",
+    "Major League Soccer has the highest percent of colored coaches at 41%.",
+    "59% of the rest of the coaches are white.",
+    "These percentages might be significantly different five years ago.",
+    "These percentages might be significantly different ten years ago.",
+    "These percentages might be significantly different in five years ahead.",
+    "These percentages might be significantly different in ten years ahead.",
+    "The National Football League has a high number of players of color.",
+    "The numbers for the coaches of color in the National Football League are low.",
+    "This impacts my community and me for many reasons.",
+    "Portsmouth lacks diversity.",
+    "We do not necessarily see as much racism as it exists around the country.",
+    "The graphs display clear evidence.",
+    "There are not many professional sport coaches of color.",
+    "There are players of color.",
+    "This tells us that there is some aspect of racism.",
+    "There needs to be changes regarding this.",
+    "The title is \"The Lack of Diversity in Professional Sports\"."
+  ],
+  "source_mappings": {
+    "There are five sports.": [
+      "all five of the sports"
+    ],
+    "For all five of the sports, there is a much higher percentage of players of color than coaches of color.": [
+      "for all five of the sports, there is a much higher percentage of players of color, than coaches of color"
+    ],
+    "Male basketball has the highest percentage of players of color at 83%.": [
+      "Male and female basketball has the highest percentage of players of color at 83%"
+    ],
+    "Female basketball has the highest percentage of players of color at 83%.": [
+      "Male and female basketball has the highest percentage of players of color at 83%"
+    ],
+    "The percentage of coaches of color is still fairly low.": [
+      "the percentage of coaches of color is still fairly low"
+    ],
+    "Major League Soccer has the highest percent of colored coaches at 41%.": [
+      "The sport with the highest percent of colored coaches is Major League Soccer at 41%"
+    ],
+    "59% of the rest of the coaches are white.": [
+      "59% of the rest of the coaches are white"
+    ],
+    "These percentages might be significantly different five years ago.": [
+      "these percentages would be significantly different",
+      "five",
+      "years ago"
+    ],
+    "These percentages might be significantly different ten years ago.": [
+      "these percentages would be significantly different",
+      "ten",
+      "years ago"
+    ],
+    "These percentages might be significantly different in five years ahead.": [
+      "these percentages would be significantly different",
+      "in five",
+      "years ahead"
+    ],
+    "These percentages might be significantly different in ten years ahead.": [
+      "these percentages would be significantly different",
+      "in five or ten",
+      "years ahead"
+    ],
+    "The National Football League has a high number of players of color.": [
+      "the National Football League has such a high number of players of color"
+    ],
+    "The numbers for the coaches of color in the National Football League are low.": [
+      "the numbers for the coaches of color are so low"
+    ],
+    "This impacts my community and me for many reasons.": [
+      "This impacts my community and I for many reasons"
+    ],
+    "Portsmouth lacks diversity.": [
+      "Since Portsmouth lacks diversity"
+    ],
+    "We do not necessarily see as much racism as it exists around the country.": [
+      "we don’t necessarily see as much racism as much as it exists around the country"
+    ],
+    "The graphs display clear evidence.": [
+      "As displayed in the graphs, there is clear evidence"
+    ],
+    "There are not many professional sport coaches of color.": [
+      "there aren’t many professional sport coaches of color"
+    ],
+    "There are players of color.": [
+      "there are players"
+    ],
+    "This tells us that there is some aspect of racism.": [
+      "This tells us that there is some aspect of racism"
+    ],
+    "There needs to be changes regarding this.": [
+      "there needs to be changes regarding this"
+    ],
+    "The title is \"The Lack of Diversity in Professional Sports\".": [
+      "“The Lack of Diversity in Professional Sports”"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "article_id": "183",
+  "comment_index": 130,
+  "raw_comment": "I notice that more women visit their parents and video call them than men, but it is still at pretty low percentages for both genders. \nI wonder why women are more likely to contact their parents than men are?\nThis relates to my community because in todays modern day time the main form of communication is texting, in which we do a lot and is now apart of out daily lives\nCommunication With My Parents Through A Screen should be the title.",
+  "ace_sentences": [
+    "More women visit their parents than men.",
+    "More women video call their parents than men.",
+    "The percentages are still pretty low for both genders.",
+    "Women are more likely to contact their parents than men are.",
+    "This relates to my community.",
+    "In todays modern day time, the main form of communication is texting.",
+    "We do a lot of texting.",
+    "Texting is now apart of out daily lives.",
+    "The title should be \"Communication With My Parents Through A Screen\"."
+  ],
+  "source_mappings": {
+    "More women visit their parents than men.": [
+      "more women visit their parents",
+      "than men"
+    ],
+    "More women video call their parents than men.": [
+      "video call them",
+      "than men"
+    ],
+    "The percentages are still pretty low for both genders.": [
+      "it is still at pretty low percentages for both genders"
+    ],
+    "Women are more likely to contact their parents than men are.": [
+      "women are more likely to contact their parents than men are?"
+    ],
+    "This relates to my community.": [
+      "This relates to my community"
+    ],
+    "In todays modern day time, the main form of communication is texting.": [
+      "in todays modern day time the main form of communication is texting"
+    ],
+    "We do a lot of texting.": [
+      "we do a lot"
+    ],
+    "Texting is now apart of out daily lives.": [
+      "is now apart of out daily lives"
+    ],
+    "The title should be \"Communication With My Parents Through A Screen\".": [
+      "Communication With My Parents Through A Screen should be the title."
+    ]
+  }
+}

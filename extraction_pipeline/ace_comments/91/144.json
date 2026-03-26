@@ -1,0 +1,37 @@
+{
+  "article_id": "91",
+  "comment_index": 144,
+  "raw_comment": "I notice that most of the players are people of color, but most coaches aren't people of color\n\nI wonder if the people of color playing sports is a majority during the other years\n\nThis doesnt really impact me, its just people playing sports\n\nA catchy headline could be, \"Here are the graphs of people of color playing sports, huge improvement!\"",
+  "ace_sentences": [
+    "I notice that most of the players are people of color.",
+    "However, most coaches are not people of color.",
+    "I wonder if people of color are a majority among people who play sports during other years.",
+    "This does not really impact me.",
+    "It is just people playing sports.",
+    "A catchy headline could be:",
+    "Here are the graphs of people of color playing sports, huge improvement!"
+  ],
+  "source_mappings": {
+    "I notice that most of the players are people of color.": [
+      "I notice that most of the players are people of color"
+    ],
+    "However, most coaches are not people of color.": [
+      "but most coaches aren't people of color"
+    ],
+    "I wonder if people of color are a majority among people who play sports during other years.": [
+      "I wonder if the people of color playing sports is a majority during the other years"
+    ],
+    "This does not really impact me.": [
+      "This doesnt really impact me"
+    ],
+    "It is just people playing sports.": [
+      "its just people playing sports"
+    ],
+    "A catchy headline could be:": [
+      "A catchy headline could be,"
+    ],
+    "Here are the graphs of people of color playing sports, huge improvement!": [
+      "\"Here are the graphs of people of color playing sports, huge improvement!\""
+    ]
+  }
+}

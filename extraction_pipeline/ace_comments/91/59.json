@@ -1,0 +1,69 @@
+{
+  "article_id": "91",
+  "comment_index": 59,
+  "raw_comment": "1. What do you notice?\nBased on the graphs displayed,I notice that there are far more players of color than head coaches of color in all the sports represented by graphs here. I also notice that both mens and women's basketball have an 83% rate of racial disparity which are the top sports with players of color. I also notice that major league soccer has a 41% head coach of color which is the highest of the represented sports. The National Football League has a 13% head coach of color rate. \n \n2. What do you wonder?\nI wonder what these graphs would have looked like in previous years to be able to compare then and now. I wonder how they choose which sports to graph. \n \n3. What impact does this have on you and your community?\nWe live in a predominantly white community with a majority of New Hampshire being white. Because of this we don’t see racism first hand but we are very much aware of it. \n\n4. What’s going on in this graph? Write a catchy headline that captures the graph’s main idea.\n\"Racism on the Fields\"",
+  "ace_sentences": [
+    "I notice the graphs displayed.",
+    "There are far more players of color than head coaches of color in all the sports represented by graphs here.",
+    "I notice that both mens basketball and women's basketball have an 83% rate of racial disparity.",
+    "Mens basketball and women's basketball are the top sports with players of color.",
+    "I notice that major league soccer has a 41% head coach of color.",
+    "This rate is the highest of the represented sports.",
+    "The National Football League has a 13% head coach of color rate.",
+    "I wonder what these graphs would have looked like in previous years.",
+    "I want to be able to compare then and now.",
+    "I wonder how they choose which sports to graph.",
+    "We live in a predominantly white community.",
+    "A majority of New Hampshire is white.",
+    "Because of this, we don’t see racism first hand.",
+    "However, we are very much aware of it.",
+    "The headline is \"Racism on the Fields\"."
+  ],
+  "source_mappings": {
+    "I notice the graphs displayed.": [
+      "Based on the graphs displayed,I notice"
+    ],
+    "There are far more players of color than head coaches of color in all the sports represented by graphs here.": [
+      "there are far more players of color than head coaches of color in all the sports represented by graphs here"
+    ],
+    "I notice that both mens basketball and women's basketball have an 83% rate of racial disparity.": [
+      "I also notice that both mens and women's basketball have an 83% rate of racial disparity"
+    ],
+    "Mens basketball and women's basketball are the top sports with players of color.": [
+      "the top sports with players of color"
+    ],
+    "I notice that major league soccer has a 41% head coach of color.": [
+      "I also notice that major league soccer has a 41% head coach of color"
+    ],
+    "This rate is the highest of the represented sports.": [
+      "which is the highest of the represented sports"
+    ],
+    "The National Football League has a 13% head coach of color rate.": [
+      "The National Football League has a 13% head coach of color rate."
+    ],
+    "I wonder what these graphs would have looked like in previous years.": [
+      "I wonder what these graphs would have looked like in previous years"
+    ],
+    "I want to be able to compare then and now.": [
+      "to be able to compare then and now"
+    ],
+    "I wonder how they choose which sports to graph.": [
+      "I wonder how they choose which sports to graph."
+    ],
+    "We live in a predominantly white community.": [
+      "We live in a predominantly white community"
+    ],
+    "A majority of New Hampshire is white.": [
+      "a majority of New Hampshire being white"
+    ],
+    "Because of this, we don’t see racism first hand.": [
+      "Because of this we don’t see racism first hand"
+    ],
+    "However, we are very much aware of it.": [
+      "but we are very much aware of it."
+    ],
+    "The headline is \"Racism on the Fields\".": [
+      "\"Racism on the Fields\""
+    ]
+  }
+}

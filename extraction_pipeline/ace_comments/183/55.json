@@ -1,0 +1,113 @@
+{
+  "article_id": "183",
+  "comment_index": 55,
+  "raw_comment": "The graph depicts a poll that was administered among individuals, aged 18-34, who do not live with at least one parent. It displays the percentage of young people that reach out to a parent at least once a day or a few times per week, whether over text, the phone, or in-person visits. The graph shows that women tend to reach out to their parents more often than men among all of the communication methods. I also noticed that both men and women are less likely to visit in-person, as opposed to communicating over technology. I think it would be interesting to see a secondary graph that displays the average distance between where those polled live versus where their parents live. If many individuals that were polled live far from their parents, this would be one explanation for why less people visit their parents in person. As someone going away to college next year, this graph relates to me. It will be interesting to see how often I call my parents versus how often my brother does. I would title this graph: “Parental Communication: Women vs. Men.”",
+  "ace_sentences": [
+    "The graph depicts a poll.",
+    "The poll was administered among individuals.",
+    "The individuals are aged 18-34.",
+    "The individuals do not live with at least one parent.",
+    "The graph displays the percentage of young people.",
+    "The young people reach out to a parent at least once a day.",
+    "The young people reach out to a parent a few times per week.",
+    "The young people reach out over text.",
+    "The young people reach out over the phone.",
+    "The young people reach out in in-person visits.",
+    "The graph shows that women tend to reach out to their parents more often than men.",
+    "This is true among all of the communication methods.",
+    "Both men and women are less likely to visit in-person.",
+    "Both men and women are more likely to communicate over technology than to visit in-person.",
+    "I think that it would be interesting to see a secondary graph.",
+    "The secondary graph displays the average distance.",
+    "The average distance is between where those polled live and where their parents live.",
+    "Many individuals that were polled may live far from their parents.",
+    "If many individuals that were polled live far from their parents then this would be one explanation.",
+    "This explanation is for why less people visit their parents in person.",
+    "I am someone going away to college next year.",
+    "This graph relates to me.",
+    "It will be interesting to see how often I call my parents.",
+    "It will be interesting to see how often my brother does.",
+    "I would title this graph.",
+    "The title is Parental Communication: Women vs. Men."
+  ],
+  "source_mappings": {
+    "The graph depicts a poll.": [
+      "The graph depicts a poll"
+    ],
+    "The poll was administered among individuals.": [
+      "a poll that was administered among individuals"
+    ],
+    "The individuals are aged 18-34.": [
+      "aged 18-34"
+    ],
+    "The individuals do not live with at least one parent.": [
+      "who do not live with at least one parent"
+    ],
+    "The graph displays the percentage of young people.": [
+      "It displays the percentage of young people"
+    ],
+    "The young people reach out to a parent at least once a day.": [
+      "reach out to a parent at least once a day"
+    ],
+    "The young people reach out to a parent a few times per week.": [
+      "a few times per week"
+    ],
+    "The young people reach out over text.": [
+      "over text"
+    ],
+    "The young people reach out over the phone.": [
+      "the phone"
+    ],
+    "The young people reach out in in-person visits.": [
+      "in-person visits"
+    ],
+    "The graph shows that women tend to reach out to their parents more often than men.": [
+      "The graph shows that women tend to reach out to their parents more often than men"
+    ],
+    "This is true among all of the communication methods.": [
+      "among all of the communication methods"
+    ],
+    "Both men and women are less likely to visit in-person.": [
+      "both men and women are less likely to visit in-person"
+    ],
+    "Both men and women are more likely to communicate over technology than to visit in-person.": [
+      "as opposed to communicating over technology"
+    ],
+    "I think that it would be interesting to see a secondary graph.": [
+      "I think it would be interesting to see a secondary graph"
+    ],
+    "The secondary graph displays the average distance.": [
+      "a secondary graph that displays the average distance"
+    ],
+    "The average distance is between where those polled live and where their parents live.": [
+      "between where those polled live versus where their parents live"
+    ],
+    "Many individuals that were polled may live far from their parents.": [
+      "many individuals that were polled live far from their parents"
+    ],
+    "If many individuals that were polled live far from their parents then this would be one explanation.": [
+      "If many individuals that were polled live far from their parents, this would be one explanation"
+    ],
+    "This explanation is for why less people visit their parents in person.": [
+      "for why less people visit their parents in person"
+    ],
+    "I am someone going away to college next year.": [
+      "As someone going away to college next year"
+    ],
+    "This graph relates to me.": [
+      "this graph relates to me"
+    ],
+    "It will be interesting to see how often I call my parents.": [
+      "It will be interesting to see how often I call my parents"
+    ],
+    "It will be interesting to see how often my brother does.": [
+      "how often my brother does"
+    ],
+    "I would title this graph.": [
+      "I would title this graph"
+    ],
+    "The title is Parental Communication: Women vs. Men.": [
+      "“Parental Communication: Women vs. Men.”"
+    ]
+  }
+}

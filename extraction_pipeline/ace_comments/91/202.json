@@ -1,0 +1,41 @@
+{
+  "article_id": "91",
+  "comment_index": 202,
+  "raw_comment": "What do you notice?\n I notice that the NBA and WNBA are the two highest in the players color.    \n\n\nWhat do you wonder?\n I wonder why the Soccer league is closely equal in its percentage.\n\nWhat impact does this have on you and your community?\nthis impacts the community because it shows a lack of equality between the Players and the coaches.\n\n\nWhat’s going on in this graph? Write a catchy headline that captures the graph’s main idea.\nThe graph shows the lack of Diversity for every varsity sport. The Importance of Diversity in Varsity!!?",
+  "ace_sentences": [
+    "I notice that the NBA is one of the two highest in the players color.",
+    "I notice that the WNBA is one of the two highest in the players color.",
+    "I wonder why the Soccer league is closely equal in its percentage.",
+    "This impacts the community.",
+    "This shows a lack of equality between the Players and the coaches.",
+    "The graph shows the lack of Diversity for every varsity sport.",
+    "The headline is:",
+    "The Importance of Diversity in Varsity!!?"
+  ],
+  "source_mappings": {
+    "I notice that the NBA is one of the two highest in the players color.": [
+      "I notice that the NBA and WNBA are the two highest in the players color."
+    ],
+    "I notice that the WNBA is one of the two highest in the players color.": [
+      "I notice that the NBA and WNBA are the two highest in the players color."
+    ],
+    "I wonder why the Soccer league is closely equal in its percentage.": [
+      "I wonder why the Soccer league is closely equal in its percentage."
+    ],
+    "This impacts the community.": [
+      "this impacts the community"
+    ],
+    "This shows a lack of equality between the Players and the coaches.": [
+      "it shows a lack of equality between the Players and the coaches."
+    ],
+    "The graph shows the lack of Diversity for every varsity sport.": [
+      "The graph shows the lack of Diversity for every varsity sport."
+    ],
+    "The headline is:": [
+      "Write a catchy headline"
+    ],
+    "The Importance of Diversity in Varsity!!?": [
+      "The Importance of Diversity in Varsity!!?"
+    ]
+  }
+}

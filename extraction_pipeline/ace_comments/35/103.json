@@ -1,0 +1,21 @@
+{
+  "article_id": "35",
+  "comment_index": 103,
+  "raw_comment": "I notice that the southern states receive their first leaf appearances before any of the western states. I think this is because of the weather and temperature.",
+  "ace_sentences": [
+    "I notice that the southern states receive their first leaf appearances before any of the western states.",
+    "I think that this is because of the weather.",
+    "I think that this is because of the temperature."
+  ],
+  "source_mappings": {
+    "I notice that the southern states receive their first leaf appearances before any of the western states.": [
+      "I notice that the southern states receive their first leaf appearances before any of the western states."
+    ],
+    "I think that this is because of the weather.": [
+      "I think this is because of the weather"
+    ],
+    "I think that this is because of the temperature.": [
+      "temperature."
+    ]
+  }
+}

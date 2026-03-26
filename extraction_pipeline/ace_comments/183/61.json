@@ -1,0 +1,57 @@
+{
+  "article_id": "183",
+  "comment_index": 61,
+  "raw_comment": "I notice that young women are far more likely to keep in contact with their families on a regular basis. I also notice that not many young people visit in person and most only text a couple of times a week. I wonder why men do not talk to their parents as much as women. This can relate to my community because I have a 20-year-old sister in college and an 18-year-old brother about to go to college. I wonder if my brother will not call my family as much as my sister does. A catchy headline would be: \"Thanks for raising me... bye\"",
+  "ace_sentences": [
+    "Young women are far more likely to keep in contact with their families on a regular basis.",
+    "Not many young people visit in person.",
+    "Most young people only text a couple of times a week.",
+    "Men do not talk to their parents as much as women.",
+    "This can relate to my community.",
+    "I have a 20-year-old sister.",
+    "My 20-year-old sister is in college.",
+    "I have an 18-year-old brother.",
+    "My 18-year-old brother is about to go to college.",
+    "My brother may not call my family as much as my sister does.",
+    "A catchy headline would be:",
+    "Thanks for raising me... bye."
+  ],
+  "source_mappings": {
+    "Young women are far more likely to keep in contact with their families on a regular basis.": [
+      "young women are far more likely to keep in contact with their families on a regular basis"
+    ],
+    "Not many young people visit in person.": [
+      "not many young people visit in person"
+    ],
+    "Most young people only text a couple of times a week.": [
+      "most only text a couple of times a week"
+    ],
+    "Men do not talk to their parents as much as women.": [
+      "men do not talk to their parents as much as women"
+    ],
+    "This can relate to my community.": [
+      "This can relate to my community"
+    ],
+    "I have a 20-year-old sister.": [
+      "I have a 20-year-old sister"
+    ],
+    "My 20-year-old sister is in college.": [
+      "sister in college"
+    ],
+    "I have an 18-year-old brother.": [
+      "an 18-year-old brother"
+    ],
+    "My 18-year-old brother is about to go to college.": [
+      "brother about to go to college"
+    ],
+    "My brother may not call my family as much as my sister does.": [
+      "I wonder if my brother will not call my family as much as my sister does"
+    ],
+    "A catchy headline would be:": [
+      "A catchy headline would be:"
+    ],
+    "Thanks for raising me... bye.": [
+      "Thanks for raising me... bye"
+    ]
+  }
+}

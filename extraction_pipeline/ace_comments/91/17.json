@@ -1,0 +1,58 @@
+{
+  "article_id": "91",
+  "comment_index": 17,
+  "raw_comment": "Notice: I notice that in all of these major sports, there are more players of color than coaches of color. In baseball, most of the players don't identify as colored. \n\nWonder: I wonder why there aren't many people of color in higher levels of the sports industry. Maybe the non-colored coaches are more qualified? It could also be that they still don't hire people of color to hold high positions. \n\nImpact: This graph shows our generation that people of color are able to play sports with others that look like them, without being uncomfortable. But, the issue here is that we also don't see coaches of color- this is sending the message that people of color are not fit to be in higher positions. \n\nHeadline: Is it truly diverse? Analyzing sports norms in teams and coaches.",
+  "ace_sentences": [
+    "I notice that in all of these major sports, there are more players of color than coaches of color.",
+    "In baseball, most of the players do not identify as colored.",
+    "I wonder why there are not many people of color in higher levels of the sports industry.",
+    "Maybe the non-colored coaches are more qualified.",
+    "They still do not hire people of color to hold high positions.",
+    "This graph shows our generation that people of color are able to play sports with others that look like them.",
+    "People of color are able to play sports without being uncomfortable.",
+    "We also do not see coaches of color.",
+    "This is sending the message that people of color are not fit to be in higher positions.",
+    "The headline is:",
+    "Is it truly diverse?",
+    "Analyzing sports norms in teams and coaches."
+  ],
+  "source_mappings": {
+    "I notice that in all of these major sports, there are more players of color than coaches of color.": [
+      "I notice that in all of these major sports, there are more players of color than coaches of color."
+    ],
+    "In baseball, most of the players do not identify as colored.": [
+      "In baseball, most of the players don't identify as colored."
+    ],
+    "I wonder why there are not many people of color in higher levels of the sports industry.": [
+      "I wonder why there aren't many people of color in higher levels of the sports industry."
+    ],
+    "Maybe the non-colored coaches are more qualified.": [
+      "Maybe the non-colored coaches are more qualified?"
+    ],
+    "They still do not hire people of color to hold high positions.": [
+      "they still don't hire people of color to hold high positions."
+    ],
+    "This graph shows our generation that people of color are able to play sports with others that look like them.": [
+      "This graph shows our generation that people of color are able to play sports with others that look like them"
+    ],
+    "People of color are able to play sports without being uncomfortable.": [
+      "people of color are able to play sports",
+      "without being uncomfortable."
+    ],
+    "We also do not see coaches of color.": [
+      "we also don't see coaches of color-"
+    ],
+    "This is sending the message that people of color are not fit to be in higher positions.": [
+      "this is sending the message that people of color are not fit to be in higher positions."
+    ],
+    "The headline is:": [
+      "Headline:"
+    ],
+    "Is it truly diverse?": [
+      "Is it truly diverse?"
+    ],
+    "Analyzing sports norms in teams and coaches.": [
+      "Analyzing sports norms in teams and coaches."
+    ]
+  }
+}

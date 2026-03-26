@@ -1,0 +1,35 @@
+{
+  "article_id": "35",
+  "comment_index": 13,
+  "raw_comment": "The new article gives us a better insight into why the southern states hit spring first and why we northern states hit last.  Temperates and many other factors affect which states hit spring first, we learned that from the new map.",
+  "ace_sentences": [
+    "The new article gives us a better insight.",
+    "The new article gives us a better insight into why the southern states hit spring first.",
+    "The new article gives us a better insight into why we northern states hit last.",
+    "Temperates affect which states hit spring first.",
+    "Many other factors affect which states hit spring first.",
+    "We learned that from the new map."
+  ],
+  "source_mappings": {
+    "The new article gives us a better insight.": [
+      "The new article gives us a better insight"
+    ],
+    "The new article gives us a better insight into why the southern states hit spring first.": [
+      "The new article gives us a better insight into why the southern states hit spring first"
+    ],
+    "The new article gives us a better insight into why we northern states hit last.": [
+      "The new article gives us a better insight into why we northern states hit last"
+    ],
+    "Temperates affect which states hit spring first.": [
+      "Temperates",
+      "affect which states hit spring first"
+    ],
+    "Many other factors affect which states hit spring first.": [
+      "many other factors",
+      "affect which states hit spring first"
+    ],
+    "We learned that from the new map.": [
+      "we learned that from the new map"
+    ]
+  }
+}

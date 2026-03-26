@@ -1,0 +1,47 @@
+{
+  "article_id": "35",
+  "comment_index": 124,
+  "raw_comment": "This graph is excellent in explaining what parts of the country see their first leaves. This is a nice visual in explaining how being closer to the equator causes leaves to spring sooner. I do wonder, however, about the impacts that cause coastal and landlocked areas to have leaves sooner or later. For example, I see coastal areas sprouting leaves early even if they are not necessarily the most southern regions.",
+  "ace_sentences": [
+    "This graph is excellent.",
+    "This graph explains what parts of the country see their first leaves.",
+    "This is a nice visual.",
+    "This visual explains that being closer to the equator causes leaves to spring sooner.",
+    "I wonder about the impacts.",
+    "These impacts cause coastal areas to have leaves sooner or later.",
+    "These impacts cause landlocked areas to have leaves sooner or later.",
+    "I see coastal areas sprouting leaves early.",
+    "Some coastal areas are not necessarily the most southern regions."
+  ],
+  "source_mappings": {
+    "This graph is excellent.": [
+      "This graph is excellent"
+    ],
+    "This graph explains what parts of the country see their first leaves.": [
+      "explaining what parts of the country see their first leaves"
+    ],
+    "This is a nice visual.": [
+      "This is a nice visual"
+    ],
+    "This visual explains that being closer to the equator causes leaves to spring sooner.": [
+      "explaining how being closer to the equator causes leaves to spring sooner"
+    ],
+    "I wonder about the impacts.": [
+      "I do wonder, however, about the impacts"
+    ],
+    "These impacts cause coastal areas to have leaves sooner or later.": [
+      "the impacts that cause coastal and landlocked areas to have leaves sooner or later",
+      "coastal"
+    ],
+    "These impacts cause landlocked areas to have leaves sooner or later.": [
+      "the impacts that cause coastal and landlocked areas to have leaves sooner or later",
+      "landlocked"
+    ],
+    "I see coastal areas sprouting leaves early.": [
+      "I see coastal areas sprouting leaves early"
+    ],
+    "Some coastal areas are not necessarily the most southern regions.": [
+      "they are not necessarily the most southern regions"
+    ]
+  }
+}

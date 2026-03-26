@@ -1,0 +1,45 @@
+{
+  "article_id": "91",
+  "comment_index": 210,
+  "raw_comment": "I notice that the most popular sport is basketball and the majority of the sports has 50% and higher basketball players. I wondered compared to other sports is basketball still a popularly played sports game. The impacts that this graph has on the community is the number of players who are playing basketball and the number of people who play basketball as a real paying job.  The graph is showing several different types of basketball players who are involved in major sports leagues. A catchy headline can be players who play major sports league in basketball.",
+  "ace_sentences": [
+    "Basketball is the most popular sport.",
+    "The majority of the sports has 50% and higher basketball players.",
+    "I wondered if basketball is still a popularly played sports game compared to other sports.",
+    "This graph has impacts on the community.",
+    "One impact is the number of players who are playing basketball.",
+    "Another impact is the number of people who play basketball as a real paying job.",
+    "The graph shows several different types of basketball players.",
+    "These basketball players are involved in major sports leagues.",
+    "A catchy headline can be players who play major sports league in basketball."
+  ],
+  "source_mappings": {
+    "Basketball is the most popular sport.": [
+      "the most popular sport is basketball"
+    ],
+    "The majority of the sports has 50% and higher basketball players.": [
+      "the majority of the sports has 50% and higher basketball players"
+    ],
+    "I wondered if basketball is still a popularly played sports game compared to other sports.": [
+      "I wondered compared to other sports is basketball still a popularly played sports game."
+    ],
+    "This graph has impacts on the community.": [
+      "The impacts that this graph has on the community"
+    ],
+    "One impact is the number of players who are playing basketball.": [
+      "the number of players who are playing basketball"
+    ],
+    "Another impact is the number of people who play basketball as a real paying job.": [
+      "the number of people who play basketball as a real paying job"
+    ],
+    "The graph shows several different types of basketball players.": [
+      "The graph is showing several different types of basketball players"
+    ],
+    "These basketball players are involved in major sports leagues.": [
+      "who are involved in major sports leagues"
+    ],
+    "A catchy headline can be players who play major sports league in basketball.": [
+      "A catchy headline can be players who play major sports league in basketball."
+    ]
+  }
+}

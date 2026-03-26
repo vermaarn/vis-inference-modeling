@@ -1,0 +1,55 @@
+{
+  "article_id": "91",
+  "comment_index": 140,
+  "raw_comment": "What do you notice?\n\nI notice that the NBA and the WNBA has the highest player of color.\n\nWhat do you wonder?\n\nI wonder why the only American made sport has the lowest diversity percentage rate.\n\nWhat impact does this have on you and your community?\n\nThis impacts the community because is show the American still are racist in some way or fashion. I feel like where racist happens less is in music.\n\nWhat’s going on in this graph? Write a catchy headline that captures the graph’s main idea.\n\nSports and how they are racist",
+  "ace_sentences": [
+    "I notice a thing.",
+    "The NBA has the highest player of color.",
+    "The WNBA has the highest player of color.",
+    "I wonder about a thing.",
+    "The only American made sport has the lowest diversity percentage rate.",
+    "I wonder why the only American made sport has the lowest diversity percentage rate.",
+    "This impacts the community.",
+    "This shows that the American still are racist in some way or fashion.",
+    "I feel that racist happens less in music.",
+    "The headline is:",
+    "Sports and how they are racist."
+  ],
+  "source_mappings": {
+    "I notice a thing.": [
+      "I notice"
+    ],
+    "The NBA has the highest player of color.": [
+      "the NBA",
+      "has the highest player of color"
+    ],
+    "The WNBA has the highest player of color.": [
+      "the WNBA",
+      "has the highest player of color"
+    ],
+    "I wonder about a thing.": [
+      "I wonder"
+    ],
+    "The only American made sport has the lowest diversity percentage rate.": [
+      "the only American made sport has the lowest diversity percentage rate"
+    ],
+    "I wonder why the only American made sport has the lowest diversity percentage rate.": [
+      "I wonder why the only American made sport has the lowest diversity percentage rate"
+    ],
+    "This impacts the community.": [
+      "This impacts the community"
+    ],
+    "This shows that the American still are racist in some way or fashion.": [
+      "is show the American still are racist in some way or fashion"
+    ],
+    "I feel that racist happens less in music.": [
+      "I feel like where racist happens less is in music"
+    ],
+    "The headline is:": [
+      "Write a catchy headline"
+    ],
+    "Sports and how they are racist.": [
+      "Sports and how they are racist"
+    ]
+  }
+}

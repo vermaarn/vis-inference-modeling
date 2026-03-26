@@ -1,0 +1,83 @@
+{
+  "article_id": "91",
+  "comment_index": 65,
+  "raw_comment": "In all of the graphs, less than 50% of the head coaches are People of Color. I also notice that the only leagues that have a proportion of Players of Color that is greater than 75%, Women’s National Basketball Association and the National Basketball Association, are both Basketball leagues. Only the Major League Baseball league has a proportion of Players of Color that is less than 50%. \nI wonder why Baseball is the only league with less than 50% of Players of Color. I also wonder why the Basketball leagues are the only leagues where the proportion of Players of Color is larger than 75%. As well as why there is such a low proportion of Head Coaches of Color.\nIt is important to my community of People of Color because the lack of representation of People of Color would make Children of Color hesitant to be a professional athlete or feel that they could not be an athlete and instead choose a different profession and instead work towards a different profession.\nThe graph is describing the proportion of Players of Color and Head Coaches of Color in various major sports leagues. A catchy headline for this set of graphs is “Lack of Diversity in Major Sports Leagues”.",
+  "ace_sentences": [
+    "In all of the graphs, less than 50% of the head coaches are People of Color.",
+    "The Women’s National Basketball Association has a proportion of Players of Color that is greater than 75%.",
+    "The National Basketball Association has a proportion of Players of Color that is greater than 75%.",
+    "The Women’s National Basketball Association is a Basketball league.",
+    "The National Basketball Association is a Basketball league.",
+    "The Major League Baseball league has a proportion of Players of Color that is less than 50%.",
+    "I wonder why Baseball is the only league with less than 50% of Players of Color.",
+    "I wonder why the Basketball leagues are the only leagues where the proportion of Players of Color is larger than 75%.",
+    "I wonder why there is such a low proportion of Head Coaches of Color.",
+    "This is important to my community of People of Color.",
+    "The lack of representation of People of Color would make Children of Color hesitant to be a professional athlete.",
+    "The lack of representation of People of Color would make Children of Color feel that they could not be an athlete.",
+    "Children of Color would choose a different profession.",
+    "Children of Color would work towards a different profession.",
+    "The graph describes the proportion of Players of Color in various major sports leagues.",
+    "The graph describes the proportion of Head Coaches of Color in various major sports leagues.",
+    "A catchy headline for this set of graphs is “Lack of Diversity in Major Sports Leagues”."
+  ],
+  "source_mappings": {
+    "In all of the graphs, less than 50% of the head coaches are People of Color.": [
+      "In all of the graphs, less than 50% of the head coaches are People of Color."
+    ],
+    "The Women’s National Basketball Association has a proportion of Players of Color that is greater than 75%.": [
+      "Women’s National Basketball Association",
+      "have a proportion of Players of Color that is greater than 75%"
+    ],
+    "The National Basketball Association has a proportion of Players of Color that is greater than 75%.": [
+      "the National Basketball Association",
+      "have a proportion of Players of Color that is greater than 75%"
+    ],
+    "The Women’s National Basketball Association is a Basketball league.": [
+      "Women’s National Basketball Association",
+      "are both Basketball leagues"
+    ],
+    "The National Basketball Association is a Basketball league.": [
+      "the National Basketball Association",
+      "are both Basketball leagues"
+    ],
+    "The Major League Baseball league has a proportion of Players of Color that is less than 50%.": [
+      "Only the Major League Baseball league has a proportion of Players of Color that is less than 50%."
+    ],
+    "I wonder why Baseball is the only league with less than 50% of Players of Color.": [
+      "I wonder why Baseball is the only league with less than 50% of Players of Color."
+    ],
+    "I wonder why the Basketball leagues are the only leagues where the proportion of Players of Color is larger than 75%.": [
+      "I also wonder why the Basketball leagues are the only leagues where the proportion of Players of Color is larger than 75%."
+    ],
+    "I wonder why there is such a low proportion of Head Coaches of Color.": [
+      "why there is such a low proportion of Head Coaches of Color."
+    ],
+    "This is important to my community of People of Color.": [
+      "It is important to my community of People of Color"
+    ],
+    "The lack of representation of People of Color would make Children of Color hesitant to be a professional athlete.": [
+      "the lack of representation of People of Color would make Children of Color hesitant to be a professional athlete"
+    ],
+    "The lack of representation of People of Color would make Children of Color feel that they could not be an athlete.": [
+      "feel that they could not be an athlete"
+    ],
+    "Children of Color would choose a different profession.": [
+      "instead choose a different profession"
+    ],
+    "Children of Color would work towards a different profession.": [
+      "instead work towards a different profession"
+    ],
+    "The graph describes the proportion of Players of Color in various major sports leagues.": [
+      "The graph is describing the proportion of Players of Color",
+      "in various major sports leagues."
+    ],
+    "The graph describes the proportion of Head Coaches of Color in various major sports leagues.": [
+      "and Head Coaches of Color",
+      "in various major sports leagues."
+    ],
+    "A catchy headline for this set of graphs is “Lack of Diversity in Major Sports Leagues”.": [
+      "A catchy headline for this set of graphs is “Lack of Diversity in Major Sports Leagues”."
+    ]
+  }
+}

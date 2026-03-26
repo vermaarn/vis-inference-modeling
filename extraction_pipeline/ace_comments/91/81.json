@@ -1,0 +1,65 @@
+{
+  "article_id": "91",
+  "comment_index": 81,
+  "raw_comment": "I noticed that the MLS has the highest percentage of colored head coaches, while the NFL has the least. I also noticed that the MLB is both low in percentage of colored players and head coaches.\n\nI noticed that the MLS has the highest percentage of colored head coaches, while the NFL has the least. I also noticed that the MLB is both low in percentage of colored players and head coaches.\n\nThis impacts my community and I because it really shows how people of colored still feel they don’t have equal opportunities. This can relate to the BLM movement because of the lack of colored head coaches. This may also affect kids and students of color with dreams to become a professional head coach.\n\nThis graph shows the difference between the percentage of colored players to head coaches in major league sports.\n“When Will Professional Sports Finally Become Equal?”",
+  "ace_sentences": [
+    "I noticed that the MLS has the highest percentage of colored head coaches.",
+    "I noticed that the NFL has the least percentage of colored head coaches.",
+    "I noticed that the MLB is low in percentage of colored players.",
+    "I noticed that the MLB is low in percentage of colored head coaches.",
+    "This impacts my community.",
+    "This impacts me.",
+    "This really shows that people of colored still feel that they do not have equal opportunities.",
+    "This can relate to the BLM movement.",
+    "The lack of colored head coaches can relate to the BLM movement.",
+    "This may affect kids and students of color.",
+    "Kids and students of color have dreams to become a professional head coach.",
+    "This graph shows the difference between the percentage of colored players and the percentage of head coaches in major league sports.",
+    "The headline is:",
+    "When Will Professional Sports Finally Become Equal?"
+  ],
+  "source_mappings": {
+    "I noticed that the MLS has the highest percentage of colored head coaches.": [
+      "I noticed that the MLS has the highest percentage of colored head coaches"
+    ],
+    "I noticed that the NFL has the least percentage of colored head coaches.": [
+      "the NFL has the least"
+    ],
+    "I noticed that the MLB is low in percentage of colored players.": [
+      "the MLB is both low in percentage of colored players"
+    ],
+    "I noticed that the MLB is low in percentage of colored head coaches.": [
+      "the MLB is both low in percentage of colored players and head coaches"
+    ],
+    "This impacts my community.": [
+      "This impacts my community"
+    ],
+    "This impacts me.": [
+      "This impacts my community and I"
+    ],
+    "This really shows that people of colored still feel that they do not have equal opportunities.": [
+      "it really shows how people of colored still feel they don’t have equal opportunities"
+    ],
+    "This can relate to the BLM movement.": [
+      "This can relate to the BLM movement"
+    ],
+    "The lack of colored head coaches can relate to the BLM movement.": [
+      "because of the lack of colored head coaches"
+    ],
+    "This may affect kids and students of color.": [
+      "This may also affect kids and students of color"
+    ],
+    "Kids and students of color have dreams to become a professional head coach.": [
+      "kids and students of color with dreams to become a professional head coach"
+    ],
+    "This graph shows the difference between the percentage of colored players and the percentage of head coaches in major league sports.": [
+      "This graph shows the difference between the percentage of colored players to head coaches in major league sports"
+    ],
+    "The headline is:": [
+      "“When Will Professional Sports Finally Become Equal?”"
+    ],
+    "When Will Professional Sports Finally Become Equal?": [
+      "“When Will Professional Sports Finally Become Equal?”"
+    ]
+  }
+}

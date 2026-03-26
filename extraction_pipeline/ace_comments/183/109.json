@@ -1,0 +1,75 @@
+{
+  "article_id": "183",
+  "comment_index": 109,
+  "raw_comment": "I notice that young women tend to reach out to or visit their parents more than young men but texting seems to be more frequent than actual speaking. I wonder why women tend to reach out to their parents or family more and why men maybe don't value these relationships as much? This relates to me and my community because as high school or college students progressively get older, they tend to lose contact with family and become wrapped up in their own separate lives. A catchy headline could be \"Do women tend to care more about family connections and communication?\"",
+  "ace_sentences": [
+    "Young women tend to reach out to their parents more than young men.",
+    "Young women tend to visit their parents more than young men.",
+    "Texting seems to be more frequent than actual speaking.",
+    "Women tend to reach out to their parents more than men.",
+    "Women tend to reach out to their family more than men.",
+    "Men maybe do not value these relationships as much as women.",
+    "This relates to me.",
+    "This relates to my community.",
+    "High school students progressively get older.",
+    "College students progressively get older.",
+    "As high school students progressively get older, they tend to lose contact with family.",
+    "As college students progressively get older, they tend to lose contact with family.",
+    "As high school students progressively get older, they become wrapped up in their own separate lives.",
+    "As college students progressively get older, they become wrapped up in their own separate lives.",
+    "A catchy headline could be \"Do women tend to care more about family connections and communication?\""
+  ],
+  "source_mappings": {
+    "Young women tend to reach out to their parents more than young men.": [
+      "young women tend to reach out to",
+      "their parents more than young men"
+    ],
+    "Young women tend to visit their parents more than young men.": [
+      "young women tend to",
+      "visit their parents more than young men"
+    ],
+    "Texting seems to be more frequent than actual speaking.": [
+      "texting seems to be more frequent than actual speaking"
+    ],
+    "Women tend to reach out to their parents more than men.": [
+      "women tend to reach out to their parents",
+      "more"
+    ],
+    "Women tend to reach out to their family more than men.": [
+      "women tend to reach out to their parents or family more",
+      "men"
+    ],
+    "Men maybe do not value these relationships as much as women.": [
+      "men maybe don't value these relationships as much"
+    ],
+    "This relates to me.": [
+      "This relates to me"
+    ],
+    "This relates to my community.": [
+      "my community"
+    ],
+    "High school students progressively get older.": [
+      "high school"
+    ],
+    "College students progressively get older.": [
+      "college students progressively get older"
+    ],
+    "As high school students progressively get older, they tend to lose contact with family.": [
+      "as high school",
+      "students progressively get older, they tend to lose contact with family"
+    ],
+    "As college students progressively get older, they tend to lose contact with family.": [
+      "as high school or college students progressively get older, they tend to lose contact with family"
+    ],
+    "As high school students progressively get older, they become wrapped up in their own separate lives.": [
+      "as high school",
+      "students progressively get older, they tend to lose contact with family and become wrapped up in their own separate lives"
+    ],
+    "As college students progressively get older, they become wrapped up in their own separate lives.": [
+      "as high school or college students progressively get older, they tend to lose contact with family and become wrapped up in their own separate lives"
+    ],
+    "A catchy headline could be \"Do women tend to care more about family connections and communication?\"": [
+      "A catchy headline could be \"Do women tend to care more about family connections and communication?\""
+    ]
+  }
+}

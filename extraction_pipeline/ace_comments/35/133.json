@@ -1,0 +1,57 @@
+{
+  "article_id": "35",
+  "comment_index": 133,
+  "raw_comment": "The graph displays the average time when leaves begin to appear throughout the U.S. Leaves are a sign of the beginning of spring and the changing of seasons. The leaves seem to start appearing at the bottom of the graph (the south) and move up (north). The leaves begin to appear in the south first due to the warmer climate in the south. I notice that leaves begin to appear in parts of Washington and Oregon before other parts of the north so I wonder if certain parts of those states have a warmer climate earlier in the year?  A title for this graph could be “ Springing into Spring\"",
+  "ace_sentences": [
+    "The graph displays the average time when leaves begin to appear throughout the U.S..",
+    "Leaves are a sign of the beginning of spring.",
+    "Leaves are a sign of the changing of seasons.",
+    "The leaves seem to start appearing at the bottom of the graph.",
+    "The bottom of the graph is the south.",
+    "The leaves seem to move up.",
+    "Up is north.",
+    "The leaves begin to appear in the south first.",
+    "The warmer climate in the south causes this.",
+    "I notice that leaves begin to appear in parts of Washington and Oregon before other parts of the north.",
+    "I wonder if certain parts of those states have a warmer climate earlier in the year.",
+    "A title for this graph could be “ Springing into Spring\"."
+  ],
+  "source_mappings": {
+    "The graph displays the average time when leaves begin to appear throughout the U.S..": [
+      "The graph displays the average time when leaves begin to appear throughout the U.S."
+    ],
+    "Leaves are a sign of the beginning of spring.": [
+      "Leaves are a sign of the beginning of spring"
+    ],
+    "Leaves are a sign of the changing of seasons.": [
+      "the changing of seasons"
+    ],
+    "The leaves seem to start appearing at the bottom of the graph.": [
+      "The leaves seem to start appearing at the bottom of the graph"
+    ],
+    "The bottom of the graph is the south.": [
+      "the bottom of the graph (the south)"
+    ],
+    "The leaves seem to move up.": [
+      "move up"
+    ],
+    "Up is north.": [
+      "up (north)"
+    ],
+    "The leaves begin to appear in the south first.": [
+      "The leaves begin to appear in the south first"
+    ],
+    "The warmer climate in the south causes this.": [
+      "due to the warmer climate in the south"
+    ],
+    "I notice that leaves begin to appear in parts of Washington and Oregon before other parts of the north.": [
+      "I notice that leaves begin to appear in parts of Washington and Oregon before other parts of the north"
+    ],
+    "I wonder if certain parts of those states have a warmer climate earlier in the year.": [
+      "so I wonder if certain parts of those states have a warmer climate earlier in the year?"
+    ],
+    "A title for this graph could be “ Springing into Spring\".": [
+      "A title for this graph could be “ Springing into Spring\""
+    ]
+  }
+}

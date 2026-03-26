@@ -1,0 +1,47 @@
+{
+  "article_id": "35",
+  "comment_index": 34,
+  "raw_comment": "I noticed that Alaska and Hawaii are not on the map! My honest inference would be that Hawaii might come first and Alaska might come last. In other words, I think this because Alaska is the coldest state in the country and Hawaii is one of the warmest and nicest states in the country. \n\nPlease reply if you have any other inferences, on why they might not be on the map! \n\nMy title is: Flowers Blooming Across 48 States!",
+  "ace_sentences": [
+    "I noticed that Alaska is not on the map.",
+    "I noticed that Hawaii is not on the map.",
+    "My honest inference is that Hawaii might come first.",
+    "My honest inference is that Alaska might come last.",
+    "I think this because Alaska is the coldest state in the country.",
+    "I think this because Hawaii is one of the warmest and nicest states in the country.",
+    "I ask that you reply if you have any other inferences.",
+    "I ask why Alaska and Hawaii might not be on the map.",
+    "My title is Flowers Blooming Across 48 States!"
+  ],
+  "source_mappings": {
+    "I noticed that Alaska is not on the map.": [
+      "I noticed that Alaska and Hawaii are not on the map!",
+      "Alaska"
+    ],
+    "I noticed that Hawaii is not on the map.": [
+      "I noticed that Alaska and Hawaii are not on the map!",
+      "Hawaii"
+    ],
+    "My honest inference is that Hawaii might come first.": [
+      "My honest inference would be that Hawaii might come first"
+    ],
+    "My honest inference is that Alaska might come last.": [
+      "Alaska might come last"
+    ],
+    "I think this because Alaska is the coldest state in the country.": [
+      "I think this because Alaska is the coldest state in the country"
+    ],
+    "I think this because Hawaii is one of the warmest and nicest states in the country.": [
+      "Hawaii is one of the warmest and nicest states in the country"
+    ],
+    "I ask that you reply if you have any other inferences.": [
+      "Please reply if you have any other inferences"
+    ],
+    "I ask why Alaska and Hawaii might not be on the map.": [
+      "on why they might not be on the map!"
+    ],
+    "My title is Flowers Blooming Across 48 States!": [
+      "My title is: Flowers Blooming Across 48 States!"
+    ]
+  }
+}

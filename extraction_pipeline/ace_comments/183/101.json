@@ -1,0 +1,53 @@
+{
+  "article_id": "183",
+  "comment_index": 101,
+  "raw_comment": "1) I notice that the young women in the study are more likely to contact their parents than the young men. Both men and women tend to choose online communication rather than in-person. The most popular way of communication seems to be through sending texts.\n2) Why are women more likely to contact their parents than men are? Does gender play a role? Societal standards? \n3) This relates to me and my community because as everyone leaves for college, staying in contact with parents becomes a question.\n4) How Often Are You Contacting Your Parents?",
+  "ace_sentences": [
+    "The young women in the study are more likely to contact their parents than the young men.",
+    "Both men and women tend to choose online communication rather than in-person communication.",
+    "The most popular way of communication seems to be through sending texts.",
+    "Women are more likely to contact their parents than men are.",
+    "Gender may play a role.",
+    "Societal standards may play a role.",
+    "This relates to me and my community.",
+    "Everyone leaves for college.",
+    "Staying in contact with parents becomes a question.",
+    "The headline is:",
+    "How Often Are You Contacting Your Parents?"
+  ],
+  "source_mappings": {
+    "The young women in the study are more likely to contact their parents than the young men.": [
+      "the young women in the study are more likely to contact their parents than the young men"
+    ],
+    "Both men and women tend to choose online communication rather than in-person communication.": [
+      "Both men and women tend to choose online communication rather than in-person."
+    ],
+    "The most popular way of communication seems to be through sending texts.": [
+      "The most popular way of communication seems to be through sending texts."
+    ],
+    "Women are more likely to contact their parents than men are.": [
+      "women more likely to contact their parents than men are"
+    ],
+    "Gender may play a role.": [
+      "Does gender play a role?"
+    ],
+    "Societal standards may play a role.": [
+      "Societal standards?"
+    ],
+    "This relates to me and my community.": [
+      "This relates to me and my community"
+    ],
+    "Everyone leaves for college.": [
+      "as everyone leaves for college"
+    ],
+    "Staying in contact with parents becomes a question.": [
+      "staying in contact with parents becomes a question"
+    ],
+    "The headline is:": [
+      "How Often Are You Contacting Your Parents?"
+    ],
+    "How Often Are You Contacting Your Parents?": [
+      "How Often Are You Contacting Your Parents?"
+    ]
+  }
+}

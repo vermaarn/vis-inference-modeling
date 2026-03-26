@@ -1,0 +1,62 @@
+{
+  "article_id": "91",
+  "comment_index": 209,
+  "raw_comment": "I noticed that there more players of color in sports than managers/ head coaches. I think that there should be more leaders of color than there are right now. I wonder why that is. This impacts me and community by showing that anyone no matter their race or gender can play sports. And with time, I think that we can get more people of color as managers and head coaches. This graph is displaying the ratio to players of color to head coaches with different leagues so I think this graph should be called The absents of divers leaders in sports",
+  "ace_sentences": [
+    "I noticed that there are more players of color in sports than managers and head coaches.",
+    "I think that there should be more leaders of color than there are right now.",
+    "I wonder why that is.",
+    "This impacts me.",
+    "This impacts community.",
+    "This shows that anyone can play sports.",
+    "Anyone can play sports no matter their race.",
+    "Anyone can play sports no matter their gender.",
+    "With time, I think that we can get more people of color as managers.",
+    "With time, I think that we can get more people of color as head coaches.",
+    "This graph displays the ratio of players of color to head coaches.",
+    "This graph includes different leagues.",
+    "I think that this graph should be called The absents of divers leaders in sports."
+  ],
+  "source_mappings": {
+    "I noticed that there are more players of color in sports than managers and head coaches.": [
+      "I noticed that there more players of color in sports than managers/ head coaches."
+    ],
+    "I think that there should be more leaders of color than there are right now.": [
+      "I think that there should be more leaders of color than there are right now."
+    ],
+    "I wonder why that is.": [
+      "I wonder why that is."
+    ],
+    "This impacts me.": [
+      "This impacts me"
+    ],
+    "This impacts community.": [
+      "community"
+    ],
+    "This shows that anyone can play sports.": [
+      "by showing that anyone no matter their race or gender can play sports."
+    ],
+    "Anyone can play sports no matter their race.": [
+      "anyone no matter their race"
+    ],
+    "Anyone can play sports no matter their gender.": [
+      "or gender can play sports"
+    ],
+    "With time, I think that we can get more people of color as managers.": [
+      "And with time, I think that we can get more people of color as managers"
+    ],
+    "With time, I think that we can get more people of color as head coaches.": [
+      "And with time, I think that we can get more people of color as managers and head coaches.",
+      "head coaches"
+    ],
+    "This graph displays the ratio of players of color to head coaches.": [
+      "This graph is displaying the ratio to players of color to head coaches"
+    ],
+    "This graph includes different leagues.": [
+      "with different leagues"
+    ],
+    "I think that this graph should be called The absents of divers leaders in sports.": [
+      "so I think this graph should be called The absents of divers leaders in sports"
+    ]
+  }
+}

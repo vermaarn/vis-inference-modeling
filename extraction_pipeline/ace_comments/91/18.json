@@ -1,0 +1,53 @@
+{
+  "article_id": "91",
+  "comment_index": 18,
+  "raw_comment": "I noticed that there is a higher percentage of colored players than colored coaches on any one of these major sports. However, baseball has the lowest percentage of colored individuals on the team. \n\nI wonder why people of color are not hired to higher positions in the sports industry. This could be because they are coincidentally not qualified enough or just because of racism. \n\nThis graph tells me that people of color from my generation can play sports without feeling left out or underrepresented. The issue here is that the coaches' data is not showing as much diversity as the player data. This could be discouraging to individuals of color- showing that it's not possible for them to accomplish more than just playing the sport. \n\nMy headline for this graph would be \"Is Diversity Balanced Between Coaches and Players?\"",
+  "ace_sentences": [
+    "There is a higher percentage of colored players than colored coaches in any one of these major sports.",
+    "However, baseball has the lowest percentage of colored individuals on the team.",
+    "I wonder why people of color are not hired to higher positions in the sports industry.",
+    "This could be because people of color are coincidentally not qualified enough.",
+    "This could be because of racism.",
+    "This graph tells me that people of color from my generation can play sports without feeling left out.",
+    "This graph tells me that people of color from my generation can play sports without feeling underrepresented.",
+    "The issue here is that the coaches' data is not showing as much diversity as the player data.",
+    "This could be discouraging to individuals of color.",
+    "This could show that it is not possible for individuals of color to accomplish more than just playing the sport.",
+    "My headline for this graph would be \"Is Diversity Balanced Between Coaches and Players?\"."
+  ],
+  "source_mappings": {
+    "There is a higher percentage of colored players than colored coaches in any one of these major sports.": [
+      "there is a higher percentage of colored players than colored coaches on any one of these major sports"
+    ],
+    "However, baseball has the lowest percentage of colored individuals on the team.": [
+      "However, baseball has the lowest percentage of colored individuals on the team."
+    ],
+    "I wonder why people of color are not hired to higher positions in the sports industry.": [
+      "I wonder why people of color are not hired to higher positions in the sports industry."
+    ],
+    "This could be because people of color are coincidentally not qualified enough.": [
+      "This could be because they are coincidentally not qualified enough"
+    ],
+    "This could be because of racism.": [
+      "just because of racism."
+    ],
+    "This graph tells me that people of color from my generation can play sports without feeling left out.": [
+      "This graph tells me that people of color from my generation can play sports without feeling left out"
+    ],
+    "This graph tells me that people of color from my generation can play sports without feeling underrepresented.": [
+      "or underrepresented."
+    ],
+    "The issue here is that the coaches' data is not showing as much diversity as the player data.": [
+      "The issue here is that the coaches' data is not showing as much diversity as the player data."
+    ],
+    "This could be discouraging to individuals of color.": [
+      "This could be discouraging to individuals of color-"
+    ],
+    "This could show that it is not possible for individuals of color to accomplish more than just playing the sport.": [
+      "showing that it's not possible for them to accomplish more than just playing the sport."
+    ],
+    "My headline for this graph would be \"Is Diversity Balanced Between Coaches and Players?\".": [
+      "My headline for this graph would be \"Is Diversity Balanced Between Coaches and Players?\""
+    ]
+  }
+}

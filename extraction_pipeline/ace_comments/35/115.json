@@ -1,0 +1,75 @@
+{
+  "article_id": "35",
+  "comment_index": 115,
+  "raw_comment": "We noticed that the southern tip of Florida was the first to have the first sign of spring. Another thing we noticed is Wyoming and Colorado was the last states to have the last spring sign, the two states were mostly covered, but they had a little bit left that was white after all the other states were covered. \nWe wonder what states will be fully covered first next year. Another thing we wonder is why some of the states are half covered by one color for one month, and the other half is covered from another month, like example, California. \nWhat we think might be going on in the graph is that it is showing us the first sign of spring, and how long it can take other states to have a first sign of spring based on where it is located.",
+  "ace_sentences": [
+    "We noticed something.",
+    "The southern tip of Florida was the first to have the first sign of spring.",
+    "We noticed another thing.",
+    "Wyoming was a last state to have the last spring sign.",
+    "Colorado was a last state to have the last spring sign.",
+    "The two states were mostly covered.",
+    "The two states had a little bit left that was white.",
+    "This happened after all the other states were covered.",
+    "We wonder what states will be fully covered first next year.",
+    "We wonder why some of the states are half covered by one color for one month.",
+    "We wonder why the other half is covered from another month.",
+    "California is an example.",
+    "We think something.",
+    "The graph is showing us the first sign of spring.",
+    "The graph is showing us how long it can take other states to have a first sign of spring.",
+    "This depends on where it is located."
+  ],
+  "source_mappings": {
+    "We noticed something.": [
+      "We noticed"
+    ],
+    "The southern tip of Florida was the first to have the first sign of spring.": [
+      "the southern tip of Florida was the first to have the first sign of spring"
+    ],
+    "We noticed another thing.": [
+      "Another thing we noticed"
+    ],
+    "Wyoming was a last state to have the last spring sign.": [
+      "Wyoming",
+      "was the last states to have the last spring sign"
+    ],
+    "Colorado was a last state to have the last spring sign.": [
+      "Colorado",
+      "was the last states to have the last spring sign"
+    ],
+    "The two states were mostly covered.": [
+      "the two states were mostly covered"
+    ],
+    "The two states had a little bit left that was white.": [
+      "they had a little bit left that was white"
+    ],
+    "This happened after all the other states were covered.": [
+      "after all the other states were covered"
+    ],
+    "We wonder what states will be fully covered first next year.": [
+      "We wonder what states will be fully covered first next year."
+    ],
+    "We wonder why some of the states are half covered by one color for one month.": [
+      "why some of the states are half covered by one color for one month"
+    ],
+    "We wonder why the other half is covered from another month.": [
+      "the other half is covered from another month"
+    ],
+    "California is an example.": [
+      "like example, California"
+    ],
+    "We think something.": [
+      "What we think"
+    ],
+    "The graph is showing us the first sign of spring.": [
+      "it is showing us the first sign of spring"
+    ],
+    "The graph is showing us how long it can take other states to have a first sign of spring.": [
+      "how long it can take other states to have a first sign of spring"
+    ],
+    "This depends on where it is located.": [
+      "based on where it is located"
+    ]
+  }
+}

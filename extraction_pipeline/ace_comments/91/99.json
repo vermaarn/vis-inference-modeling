@@ -1,0 +1,119 @@
+{
+  "article_id": "91",
+  "comment_index": 99,
+  "raw_comment": "1) There is a much higher overall percentage of players of color then there are of head coaches of color. And these variables don’t seem to be directly correlated with one another. Major League Soccer has the second lowest percentage of players of color (60%) but also has the highest percentage of lead coaches of color (41%). So “most diverse league” is a hard title to give. But “least diverse league” is pretty easy. With the lowest percentage of players of color (40%) and the second lowest percentage of lead coaches of color (20%), the MLB is, in my opinion, the least diverse league. That being said, even in the MLB, there is a clear gap between the percentage of players of color and the percentage of lead coaches of color.\n2) I wonder why Major League Soccer is one of the least diverse for players but the most diverse for head coaches.\n3) I come from one of the least diverse states in the country. When there is racial bias, it is easy for many in my community to ignore it because it doesn’t affect them personally. I have seen this happen as a person of color, and it's frustrating. I think it is important for people, especially in less diverse communities, to be aware of racial injustice.\n4) The main idea of this display is to show that there is a large gap between the percentage of players of color and the percentage of lead coaches of color. One potential headline is “When it comes to team leadership, are we telling people of color to sit on the sidelines?”",
+  "ace_sentences": [
+    "There is a much higher overall percentage of players of color than there is of head coaches of color.",
+    "These variables do not seem to be directly correlated with one another.",
+    "Major League Soccer has the second lowest percentage of players of color.",
+    "The second lowest percentage of players of color in Major League Soccer is 60%.",
+    "Major League Soccer has the highest percentage of lead coaches of color.",
+    "The highest percentage of lead coaches of color in Major League Soccer is 41%.",
+    "The title \"most diverse league\" is hard to give.",
+    "The title \"least diverse league\" is pretty easy.",
+    "The MLB has the lowest percentage of players of color.",
+    "The lowest percentage of players of color in the MLB is 40%.",
+    "The MLB has the second lowest percentage of lead coaches of color.",
+    "The second lowest percentage of lead coaches of color in the MLB is 20%.",
+    "In my opinion, the MLB is the least diverse league.",
+    "Even in the MLB, there is a clear gap between the percentage of players of color and the percentage of lead coaches of color.",
+    "I wonder why Major League Soccer is one of the least diverse for players.",
+    "I wonder why Major League Soccer is the most diverse for head coaches.",
+    "I come from one of the least diverse states in the country.",
+    "When there is racial bias, it is easy for many in my community to ignore it.",
+    "Many in my community can ignore racial bias because it does not affect them personally.",
+    "I have seen this happen as a person of color.",
+    "This is frustrating.",
+    "I think that it is important for people to be aware of racial injustice.",
+    "I think that it is important for people in less diverse communities to be aware of racial injustice.",
+    "The main idea of this display is to show that there is a large gap between the percentage of players of color and the percentage of lead coaches of color.",
+    "One potential headline is:",
+    "When it comes to team leadership, are we telling people of color to sit on the sidelines?"
+  ],
+  "source_mappings": {
+    "There is a much higher overall percentage of players of color than there is of head coaches of color.": [
+      "There is a much higher overall percentage of players of color then there are of head coaches of color."
+    ],
+    "These variables do not seem to be directly correlated with one another.": [
+      "these variables don’t seem to be directly correlated with one another."
+    ],
+    "Major League Soccer has the second lowest percentage of players of color.": [
+      "Major League Soccer has the second lowest percentage of players of color"
+    ],
+    "The second lowest percentage of players of color in Major League Soccer is 60%.": [
+      "the second lowest percentage of players of color (60%)"
+    ],
+    "Major League Soccer has the highest percentage of lead coaches of color.": [
+      "but also has the highest percentage of lead coaches of color"
+    ],
+    "The highest percentage of lead coaches of color in Major League Soccer is 41%.": [
+      "the highest percentage of lead coaches of color (41%)"
+    ],
+    "The title \"most diverse league\" is hard to give.": [
+      "“most diverse league” is a hard title to give."
+    ],
+    "The title \"least diverse league\" is pretty easy.": [
+      "“least diverse league” is pretty easy."
+    ],
+    "The MLB has the lowest percentage of players of color.": [
+      "With the lowest percentage of players of color",
+      "the MLB"
+    ],
+    "The lowest percentage of players of color in the MLB is 40%.": [
+      "the lowest percentage of players of color (40%)",
+      "the MLB"
+    ],
+    "The MLB has the second lowest percentage of lead coaches of color.": [
+      "the second lowest percentage of lead coaches of color (20%)",
+      "the MLB"
+    ],
+    "The second lowest percentage of lead coaches of color in the MLB is 20%.": [
+      "the second lowest percentage of lead coaches of color (20%)",
+      "the MLB"
+    ],
+    "In my opinion, the MLB is the least diverse league.": [
+      "the MLB is, in my opinion, the least diverse league."
+    ],
+    "Even in the MLB, there is a clear gap between the percentage of players of color and the percentage of lead coaches of color.": [
+      "even in the MLB, there is a clear gap between the percentage of players of color and the percentage of lead coaches of color."
+    ],
+    "I wonder why Major League Soccer is one of the least diverse for players.": [
+      "I wonder why Major League Soccer is one of the least diverse for players"
+    ],
+    "I wonder why Major League Soccer is the most diverse for head coaches.": [
+      "but the most diverse for head coaches."
+    ],
+    "I come from one of the least diverse states in the country.": [
+      "I come from one of the least diverse states in the country."
+    ],
+    "When there is racial bias, it is easy for many in my community to ignore it.": [
+      "When there is racial bias, it is easy for many in my community to ignore it"
+    ],
+    "Many in my community can ignore racial bias because it does not affect them personally.": [
+      "because it doesn’t affect them personally."
+    ],
+    "I have seen this happen as a person of color.": [
+      "I have seen this happen as a person of color"
+    ],
+    "This is frustrating.": [
+      "it's frustrating."
+    ],
+    "I think that it is important for people to be aware of racial injustice.": [
+      "I think it is important for people",
+      "to be aware of racial injustice."
+    ],
+    "I think that it is important for people in less diverse communities to be aware of racial injustice.": [
+      "especially in less diverse communities",
+      "to be aware of racial injustice."
+    ],
+    "The main idea of this display is to show that there is a large gap between the percentage of players of color and the percentage of lead coaches of color.": [
+      "The main idea of this display is to show that there is a large gap between the percentage of players of color and the percentage of lead coaches of color."
+    ],
+    "One potential headline is:": [
+      "One potential headline is"
+    ],
+    "When it comes to team leadership, are we telling people of color to sit on the sidelines?": [
+      "“When it comes to team leadership, are we telling people of color to sit on the sidelines?”"
+    ]
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "article_id": "91",
+  "comment_index": 67,
+  "raw_comment": "What do you notice? The percentage of players of color in major sports leagues is very high. 83% of the Women's National Basketball Association's and National Basketball Association's players are people of color while 74% of players in the National Football League are people of color. This is significantly high compare to other career fields. The Head coaches percentage, however, is totally different. The majority of percentage of head coaches of color range from 13% to 30%, very low considering how people of color are everyone who is not white. The percentage of Major League Soccer is both surprising and reasonable for me. The percentage is definitely more balance when it comes to players and head coaches. This probably can be explained by the large number of countries playing soccer in the world\n\nWhat do you wonder? Why the percentage of head coaches of color is significantly less than players of color.\n\nWhat impact does this have on you and your community? Looking at the percentage of head coaches who are people of color, I can see how much work needed to be done. There should be more opportunities being provided to the people of color to coach and to lead in major sports leagues\n\nHeadline: Percentage of people of color in major sports leagues - A huge milestone or still no improvement?",
+  "ace_sentences": [
+    "The percentage of players of color in major sports leagues is very high.",
+    "83% of the Women's National Basketball Association's and National Basketball Association's players are people of color.",
+    "74% of players in the National Football League are people of color.",
+    "This percentage is significantly high compared to other career fields.",
+    "The head coaches percentage is totally different.",
+    "The percentage of head coaches of color ranges from 13% to 30%.",
+    "This percentage is very low.",
+    "People of color are everyone who is not white.",
+    "The percentage of Major League Soccer is surprising for me.",
+    "The percentage of Major League Soccer is reasonable for me.",
+    "The percentage is more balanced for players and head coaches.",
+    "This can be explained by the large number of countries playing soccer in the world.",
+    "I wonder why the percentage of head coaches of color is significantly less than players of color.",
+    "I look at the percentage of head coaches who are people of color.",
+    "I can see how much work is needed to be done.",
+    "There should be more opportunities for the people of color.",
+    "These opportunities should be provided to the people of color to coach in major sports leagues.",
+    "These opportunities should be provided to the people of color to lead in major sports leagues.",
+    "The headline is: Percentage of people of color in major sports leagues - A huge milestone or still no improvement?"
+  ],
+  "source_mappings": {
+    "The percentage of players of color in major sports leagues is very high.": [
+      "The percentage of players of color in major sports leagues is very high."
+    ],
+    "83% of the Women's National Basketball Association's and National Basketball Association's players are people of color.": [
+      "83% of the Women's National Basketball Association's and National Basketball Association's players are people of color"
+    ],
+    "74% of players in the National Football League are people of color.": [
+      "74% of players in the National Football League are people of color"
+    ],
+    "This percentage is significantly high compared to other career fields.": [
+      "This is significantly high compare to other career fields."
+    ],
+    "The head coaches percentage is totally different.": [
+      "The Head coaches percentage, however, is totally different."
+    ],
+    "The percentage of head coaches of color ranges from 13% to 30%.": [
+      "The majority of percentage of head coaches of color range from 13% to 30%"
+    ],
+    "This percentage is very low.": [
+      "very low considering"
+    ],
+    "People of color are everyone who is not white.": [
+      "people of color are everyone who is not white."
+    ],
+    "The percentage of Major League Soccer is surprising for me.": [
+      "The percentage of Major League Soccer is both surprising and reasonable for me."
+    ],
+    "The percentage of Major League Soccer is reasonable for me.": [
+      "The percentage of Major League Soccer is both surprising and reasonable for me."
+    ],
+    "The percentage is more balanced for players and head coaches.": [
+      "The percentage is definitely more balance when it comes to players and head coaches."
+    ],
+    "This can be explained by the large number of countries playing soccer in the world.": [
+      "This probably can be explained by the large number of countries playing soccer in the world"
+    ],
+    "I wonder why the percentage of head coaches of color is significantly less than players of color.": [
+      "Why the percentage of head coaches of color is significantly less than players of color."
+    ],
+    "I look at the percentage of head coaches who are people of color.": [
+      "Looking at the percentage of head coaches who are people of color"
+    ],
+    "I can see how much work is needed to be done.": [
+      "I can see how much work needed to be done."
+    ],
+    "There should be more opportunities for the people of color.": [
+      "There should be more opportunities being provided to the people of color"
+    ],
+    "These opportunities should be provided to the people of color to coach in major sports leagues.": [
+      "to coach",
+      "in major sports leagues"
+    ],
+    "These opportunities should be provided to the people of color to lead in major sports leagues.": [
+      "to lead",
+      "in major sports leagues"
+    ],
+    "The headline is: Percentage of people of color in major sports leagues - A huge milestone or still no improvement?": [
+      "Headline: Percentage of people of color in major sports leagues - A huge milestone or still no improvement?"
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "article_id": "35",
+  "comment_index": 56,
+  "raw_comment": "Looking at the graph, we noticed that the southern states developed leaves before the northern states. In addition, in the eastern half of the United States, it evolves faster as well. Continuing further, we wonder why the southern states grow faster and the western part of the United States develop leaves slowly. Although, we do believe that this might be due to the weather and/or temperatures and the elevation.",
+  "ace_sentences": [
+    "We looked at the graph.",
+    "We noticed that the southern states developed leaves before the northern states.",
+    "In the eastern half of the United States, it evolves faster.",
+    "We wonder why the southern states grow faster.",
+    "We wonder why the western part of the United States develops leaves slowly.",
+    "We believe that this might be due to the weather.",
+    "We believe that this might be due to temperatures.",
+    "We believe that this might be due to the elevation."
+  ],
+  "source_mappings": {
+    "We looked at the graph.": [
+      "Looking at the graph"
+    ],
+    "We noticed that the southern states developed leaves before the northern states.": [
+      "we noticed that the southern states developed leaves before the northern states"
+    ],
+    "In the eastern half of the United States, it evolves faster.": [
+      "in the eastern half of the United States, it evolves faster as well"
+    ],
+    "We wonder why the southern states grow faster.": [
+      "we wonder why the southern states grow faster"
+    ],
+    "We wonder why the western part of the United States develops leaves slowly.": [
+      "the western part of the United States develop leaves slowly"
+    ],
+    "We believe that this might be due to the weather.": [
+      "we do believe that this might be due to the weather"
+    ],
+    "We believe that this might be due to temperatures.": [
+      "temperatures"
+    ],
+    "We believe that this might be due to the elevation.": [
+      "the elevation"
+    ]
+  }
+}

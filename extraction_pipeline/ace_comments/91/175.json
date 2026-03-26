@@ -1,0 +1,73 @@
+{
+  "article_id": "91",
+  "comment_index": 175,
+  "raw_comment": "1.  What do you notice?\nI noticed the percentage of players of colors and the percentage of head coaches of color. In WNBA and NBA they have the same percentage of players of colors. \n\n2. What do you wonder?\nI wonder why baseball had the lowest percentage.  \n\n3. What impact does this have on you and your community?\nThis impacts me because it's showing how the head of coaches are not diverse ans has the lowest percentage Many people are aspiring to be successful in life and saying if they wanted to play baseball they percentage isn't really high. Many people wouldn't be able to get in since diversity is really low for being a coach or playing baseball league.\n\n4. What’s going on in this graph? Write a catchy headline that captures the graph’s main idea.\nThe graphs shown above shows that half of the leagues, for the people of color it shows that no matter what skin color you have you might not be accepted for that certain role. \nHEADLINE: Are sports really diverse within society?",
+  "ace_sentences": [
+    "I noticed the percentage of players of colors.",
+    "I noticed the percentage of head coaches of color.",
+    "In WNBA and NBA, they have the same percentage of players of colors.",
+    "I wonder why baseball had the lowest percentage.",
+    "This impacts me.",
+    "This is showing how the head of coaches are not diverse.",
+    "This is showing how the head of coaches has the lowest percentage.",
+    "Many people are aspiring to be successful in life.",
+    "Many people are saying that if they wanted to play baseball then the percentage is not really high.",
+    "Many people would not be able to get in.",
+    "Diversity is really low for being a coach.",
+    "Diversity is really low for playing baseball league.",
+    "The graphs shown above shows that half of the leagues.",
+    "For the people of color, it shows that no matter what skin color you have you might not be accepted for that certain role.",
+    "The headline is:",
+    "Are sports really diverse within society?"
+  ],
+  "source_mappings": {
+    "I noticed the percentage of players of colors.": [
+      "I noticed the percentage of players of colors"
+    ],
+    "I noticed the percentage of head coaches of color.": [
+      "the percentage of head coaches of color"
+    ],
+    "In WNBA and NBA, they have the same percentage of players of colors.": [
+      "In WNBA and NBA they have the same percentage of players of colors."
+    ],
+    "I wonder why baseball had the lowest percentage.": [
+      "I wonder why baseball had the lowest percentage."
+    ],
+    "This impacts me.": [
+      "This impacts me"
+    ],
+    "This is showing how the head of coaches are not diverse.": [
+      "it's showing how the head of coaches are not diverse"
+    ],
+    "This is showing how the head of coaches has the lowest percentage.": [
+      "has the lowest percentage"
+    ],
+    "Many people are aspiring to be successful in life.": [
+      "Many people are aspiring to be successful in life"
+    ],
+    "Many people are saying that if they wanted to play baseball then the percentage is not really high.": [
+      "Many people are aspiring to be successful in life and saying if they wanted to play baseball they percentage isn't really high."
+    ],
+    "Many people would not be able to get in.": [
+      "Many people wouldn't be able to get in"
+    ],
+    "Diversity is really low for being a coach.": [
+      "diversity is really low for being a coach"
+    ],
+    "Diversity is really low for playing baseball league.": [
+      "playing baseball league"
+    ],
+    "The graphs shown above shows that half of the leagues.": [
+      "The graphs shown above shows that half of the leagues"
+    ],
+    "For the people of color, it shows that no matter what skin color you have you might not be accepted for that certain role.": [
+      "for the people of color it shows that no matter what skin color you have you might not be accepted for that certain role."
+    ],
+    "The headline is:": [
+      "HEADLINE:"
+    ],
+    "Are sports really diverse within society?": [
+      "Are sports really diverse within society?"
+    ]
+  }
+}

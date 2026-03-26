@@ -1,0 +1,53 @@
+{
+  "article_id": "183",
+  "comment_index": 39,
+  "raw_comment": "1 I notice that out of the Young women reach out to their parents more than young men. This is proven through the percents on the graph\n2 i wonder why young women reach out more than young men. Is there a sense of independence in men or a feeling of maturity?\n3 This relates to my community because many people are leaving to college soon so people are progressing into their young adult life. It is interesting to see what will happen.\n4 why do boys not reach out as much? \n5 young adults and their attachment level",
+  "ace_sentences": [
+    "I notice that young women reach out to their parents more than young men.",
+    "This is proven through the percents on the graph.",
+    "I wonder why young women reach out more than young men.",
+    "There is a sense of independence in men.",
+    "There is a feeling of maturity.",
+    "This relates to my community.",
+    "Many people are leaving to college soon.",
+    "People are progressing into their young adult life.",
+    "It is interesting to see what will happen.",
+    "Boys do not reach out as much.",
+    "Young adults have an attachment level."
+  ],
+  "source_mappings": {
+    "I notice that young women reach out to their parents more than young men.": [
+      "I notice that out of the Young women reach out to their parents more than young men."
+    ],
+    "This is proven through the percents on the graph.": [
+      "This is proven through the percents on the graph"
+    ],
+    "I wonder why young women reach out more than young men.": [
+      "i wonder why young women reach out more than young men."
+    ],
+    "There is a sense of independence in men.": [
+      "Is there a sense of independence in men"
+    ],
+    "There is a feeling of maturity.": [
+      "a feeling of maturity?"
+    ],
+    "This relates to my community.": [
+      "This relates to my community"
+    ],
+    "Many people are leaving to college soon.": [
+      "many people are leaving to college soon"
+    ],
+    "People are progressing into their young adult life.": [
+      "people are progressing into their young adult life."
+    ],
+    "It is interesting to see what will happen.": [
+      "It is interesting to see what will happen."
+    ],
+    "Boys do not reach out as much.": [
+      "why do boys not reach out as much?"
+    ],
+    "Young adults have an attachment level.": [
+      "young adults and their attachment level"
+    ]
+  }
+}

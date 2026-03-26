@@ -1,0 +1,53 @@
+{
+  "article_id": "91",
+  "comment_index": 121,
+  "raw_comment": "I notice that the both basketball associations have the most players of colour. I notice that Major League Baseball is lacking in both player of colour and head coaches of colour. I notice that the Major League Soccer is the most in head coaches of colour.\n\n\nI wonder why all of them say 2020 except for the Women’s National Basketball Association. I wonder why coaches’ are less likely to be people of colour.",
+  "ace_sentences": [
+    "The both basketball associations have the most players of colour.",
+    "I notice that the both basketball associations have the most players of colour.",
+    "Major League Baseball is lacking in both player of colour and head coaches of colour.",
+    "I notice that Major League Baseball is lacking in both player of colour and head coaches of colour.",
+    "The Major League Soccer is the most in head coaches of colour.",
+    "I notice that the Major League Soccer is the most in head coaches of colour.",
+    "All of them say 2020.",
+    "The Women’s National Basketball Association is an exception.",
+    "I wonder why all of them say 2020 except for the Women’s National Basketball Association.",
+    "Coaches are less likely to be people of colour.",
+    "I wonder why coaches’ are less likely to be people of colour."
+  ],
+  "source_mappings": {
+    "The both basketball associations have the most players of colour.": [
+      "the both basketball associations have the most players of colour"
+    ],
+    "I notice that the both basketball associations have the most players of colour.": [
+      "I notice that the both basketball associations have the most players of colour."
+    ],
+    "Major League Baseball is lacking in both player of colour and head coaches of colour.": [
+      "Major League Baseball is lacking in both player of colour and head coaches of colour"
+    ],
+    "I notice that Major League Baseball is lacking in both player of colour and head coaches of colour.": [
+      "I notice that Major League Baseball is lacking in both player of colour and head coaches of colour."
+    ],
+    "The Major League Soccer is the most in head coaches of colour.": [
+      "the Major League Soccer is the most in head coaches of colour"
+    ],
+    "I notice that the Major League Soccer is the most in head coaches of colour.": [
+      "I notice that the Major League Soccer is the most in head coaches of colour."
+    ],
+    "All of them say 2020.": [
+      "all of them say 2020"
+    ],
+    "The Women’s National Basketball Association is an exception.": [
+      "except for the Women’s National Basketball Association"
+    ],
+    "I wonder why all of them say 2020 except for the Women’s National Basketball Association.": [
+      "I wonder why all of them say 2020 except for the Women’s National Basketball Association."
+    ],
+    "Coaches are less likely to be people of colour.": [
+      "coaches’ are less likely to be people of colour"
+    ],
+    "I wonder why coaches’ are less likely to be people of colour.": [
+      "I wonder why coaches’ are less likely to be people of colour."
+    ]
+  }
+}

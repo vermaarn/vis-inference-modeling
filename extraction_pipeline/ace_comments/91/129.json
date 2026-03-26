@@ -1,0 +1,41 @@
+{
+  "article_id": "91",
+  "comment_index": 129,
+  "raw_comment": "I notice that the Women’s basketball league says it is from 2019. \nI wonder why managers are shown in baseball instead of the colored head coaches. I noticed that the head coaches of color had the highest percentage in soccer. I wonder what the numbers would look like this year because of Covid. I notice that the percentages for colored coaching is the lowest in the football category. I wonder why there is not a bar graph for the Women’s Basketball League for the year of 2020. I notice that there is a higher number of players of color over the coaches in all categories. I wonder why there are more colored players rather than coaches.",
+  "ace_sentences": [
+    "The Women’s basketball league says that it is from 2019.",
+    "I wonder why managers are shown in baseball instead of the colored head coaches.",
+    "The head coaches of color had the highest percentage in soccer.",
+    "I wonder what the numbers would look like this year because of Covid.",
+    "The percentages for colored coaching is the lowest in the football category.",
+    "I wonder why there is not a bar graph for the Women’s Basketball League for the year of 2020.",
+    "There is a higher number of players of color over the coaches in all categories.",
+    "I wonder why there are more colored players rather than coaches."
+  ],
+  "source_mappings": {
+    "The Women’s basketball league says that it is from 2019.": [
+      "the Women’s basketball league says it is from 2019"
+    ],
+    "I wonder why managers are shown in baseball instead of the colored head coaches.": [
+      "I wonder why managers are shown in baseball instead of the colored head coaches."
+    ],
+    "The head coaches of color had the highest percentage in soccer.": [
+      "the head coaches of color had the highest percentage in soccer."
+    ],
+    "I wonder what the numbers would look like this year because of Covid.": [
+      "I wonder what the numbers would look like this year because of Covid."
+    ],
+    "The percentages for colored coaching is the lowest in the football category.": [
+      "the percentages for colored coaching is the lowest in the football category."
+    ],
+    "I wonder why there is not a bar graph for the Women’s Basketball League for the year of 2020.": [
+      "I wonder why there is not a bar graph for the Women’s Basketball League for the year of 2020."
+    ],
+    "There is a higher number of players of color over the coaches in all categories.": [
+      "there is a higher number of players of color over the coaches in all categories."
+    ],
+    "I wonder why there are more colored players rather than coaches.": [
+      "I wonder why there are more colored players rather than coaches."
+    ]
+  }
+}

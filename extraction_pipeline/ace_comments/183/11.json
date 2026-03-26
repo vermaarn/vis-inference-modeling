@@ -1,0 +1,108 @@
+{
+  "article_id": "183",
+  "comment_index": 11,
+  "raw_comment": "I notice that the majority of respondents say that they send texts to their parents at least once a day or a few times a week. I notice that more young women(75%) than young men(50%) say that they reach out over text at least once a day or a few times a week. Overall in this graph across the three different categories, young women reach out to their parents more than young men.  I also noticed that the mode of communication least frequently used across the graph is in-person visits. This makes sense as respondents are between 18 and 34 and most likely do not live in close proximity to their parents and may hold very demanding jobs or may be involved in rigorous higher education programs. Online communication has also become more convenient and prominent in the 21st century. I wonder why young women reach out to their parents across all of the categories. I wonder if they have closer relationships with their parents than the young men or if they simply just feel the need to maintain more frequent communication. This relates to myself and my community as I will soon be going to college and turning 18 and I wonder where I would fall on this graph. I know I will maintain contact with my parents and I assume it will fall into a more digital category especially when I am away in college.\n\nWhy parents want daughters: they keep in touch!",
+  "ace_sentences": [
+    "I notice that the majority of respondents say that they send texts to their parents at least once a day.",
+    "I notice that the majority of respondents say that they send texts to their parents a few times a week.",
+    "I notice that more young women say that they reach out over text at least once a day.",
+    "I notice that more young women say that they reach out over text a few times a week.",
+    "Young women reach out to their parents more than young men across the three different categories.",
+    "I also noticed that the mode of communication least frequently used across the graph is in-person visits.",
+    "Respondents are between 18 and 34.",
+    "Most respondents likely do not live in close proximity to their parents.",
+    "Some respondents may hold very demanding jobs.",
+    "Some respondents may be involved in rigorous higher education programs.",
+    "Online communication has become more convenient in the 21st century.",
+    "Online communication has become more prominent in the 21st century.",
+    "I wonder why young women reach out to their parents across all of the categories.",
+    "I wonder if young women have closer relationships with their parents than the young men.",
+    "I wonder if young women feel the need to maintain more frequent communication.",
+    "This relates to myself and my community.",
+    "I will soon be going to college.",
+    "I will soon be turning 18.",
+    "I wonder where I would fall on this graph.",
+    "I know that I will maintain contact with my parents.",
+    "I assume that my contact will fall into a more digital category.",
+    "I assume that my contact will fall into a more digital category when I am away in college.",
+    "Parents want daughters.",
+    "Daughters keep in touch."
+  ],
+  "source_mappings": {
+    "I notice that the majority of respondents say that they send texts to their parents at least once a day.": [
+      "I notice that the majority of respondents say that they send texts to their parents at least once a day"
+    ],
+    "I notice that the majority of respondents say that they send texts to their parents a few times a week.": [
+      "I notice that the majority of respondents say that they send texts to their parents",
+      "a few times a week"
+    ],
+    "I notice that more young women say that they reach out over text at least once a day.": [
+      "I notice that more young women(75%) than young men(50%) say that they reach out over text at least once a day"
+    ],
+    "I notice that more young women say that they reach out over text a few times a week.": [
+      "I notice that more young women(75%) than young men(50%) say that they reach out over text",
+      "a few times a week"
+    ],
+    "Young women reach out to their parents more than young men across the three different categories.": [
+      "Overall in this graph across the three different categories, young women reach out to their parents more than young men."
+    ],
+    "I also noticed that the mode of communication least frequently used across the graph is in-person visits.": [
+      "I also noticed that the mode of communication least frequently used across the graph is in-person visits."
+    ],
+    "Respondents are between 18 and 34.": [
+      "respondents are between 18 and 34"
+    ],
+    "Most respondents likely do not live in close proximity to their parents.": [
+      "most likely do not live in close proximity to their parents"
+    ],
+    "Some respondents may hold very demanding jobs.": [
+      "may hold very demanding jobs"
+    ],
+    "Some respondents may be involved in rigorous higher education programs.": [
+      "may be involved in rigorous higher education programs"
+    ],
+    "Online communication has become more convenient in the 21st century.": [
+      "Online communication has also become more convenient",
+      "in the 21st century"
+    ],
+    "Online communication has become more prominent in the 21st century.": [
+      "Online communication has also become more convenient and prominent in the 21st century."
+    ],
+    "I wonder why young women reach out to their parents across all of the categories.": [
+      "I wonder why young women reach out to their parents across all of the categories."
+    ],
+    "I wonder if young women have closer relationships with their parents than the young men.": [
+      "I wonder if they have closer relationships with their parents than the young men"
+    ],
+    "I wonder if young women feel the need to maintain more frequent communication.": [
+      "or if they simply just feel the need to maintain more frequent communication."
+    ],
+    "This relates to myself and my community.": [
+      "This relates to myself and my community"
+    ],
+    "I will soon be going to college.": [
+      "I will soon be going to college"
+    ],
+    "I will soon be turning 18.": [
+      "turning 18"
+    ],
+    "I wonder where I would fall on this graph.": [
+      "I wonder where I would fall on this graph."
+    ],
+    "I know that I will maintain contact with my parents.": [
+      "I know I will maintain contact with my parents"
+    ],
+    "I assume that my contact will fall into a more digital category.": [
+      "I assume it will fall into a more digital category"
+    ],
+    "I assume that my contact will fall into a more digital category when I am away in college.": [
+      "I assume it will fall into a more digital category especially when I am away in college."
+    ],
+    "Parents want daughters.": [
+      "Why parents want daughters"
+    ],
+    "Daughters keep in touch.": [
+      "they keep in touch!"
+    ]
+  }
+}

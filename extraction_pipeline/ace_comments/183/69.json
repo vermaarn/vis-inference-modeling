@@ -1,0 +1,89 @@
+{
+  "article_id": "183",
+  "comment_index": 69,
+  "raw_comment": "From the graph, I noticed that the graph compares the frequency of communication between young men and young women with their parents. It looks at three modes of communication: sending texts, phone or video-chat, and visiting in person. Particularly, young women consistently communicate more frequently with their parents across all methods compared to young men. Texting is the most common method for both genders, with the largest gap in communication frequency observed here. The difference in frequency of in-person visits is the smallest, though it still shows that young women visit their parents more often than young men. I wonder why there is a noticeable difference in communication frequencies between genders. Are gender norms or upbringings influencing these patterns? Also, how might these patterns shift as people age beyond their 30s? What would the data look like if only considering those in their early twenties or college students? As a college student, my community is filled with mainly busy individuals and for many young adults, moving out from their parents' home marks a transition to more independence. However, the frequency of contact with parents can vary widely depending on individual circumstances like proximity, work schedules, and the nature of the parent-child relationship. A catchy headline that captures what’s going on in this graph is \"Staying Connected: Young Women Lead in Family Communication\".",
+  "ace_sentences": [
+    "I noticed that the graph compares the frequency of communication between young men and young women with their parents.",
+    "The graph looks at three modes of communication.",
+    "The three modes of communication are sending texts and phone or video-chat and visiting in person.",
+    "Young women consistently communicate more frequently with their parents across all methods compared to young men.",
+    "Texting is the most common method for both genders.",
+    "The largest gap in communication frequency is observed in texting.",
+    "The difference in frequency of in-person visits is the smallest.",
+    "Young women visit their parents more often than young men.",
+    "I wonder why there is a noticeable difference in communication frequencies between genders.",
+    "Gender norms or upbringings may influence these patterns.",
+    "These patterns may shift as people age beyond their 30s.",
+    "The data may look different if only considering those in their early twenties.",
+    "The data may look different if only considering college students.",
+    "I am a college student.",
+    "My community is filled with mainly busy individuals.",
+    "For many young adults, moving out from their parents' home marks a transition to more independence.",
+    "The frequency of contact with parents can vary widely depending on proximity.",
+    "The frequency of contact with parents can vary widely depending on work schedules.",
+    "The frequency of contact with parents can vary widely depending on the nature of the parent-child relationship.",
+    "A catchy headline that captures what’s going on in this graph is \"Staying Connected: Young Women Lead in Family Communication\"."
+  ],
+  "source_mappings": {
+    "I noticed that the graph compares the frequency of communication between young men and young women with their parents.": [
+      "From the graph, I noticed that the graph compares the frequency of communication between young men and young women with their parents."
+    ],
+    "The graph looks at three modes of communication.": [
+      "It looks at three modes of communication"
+    ],
+    "The three modes of communication are sending texts and phone or video-chat and visiting in person.": [
+      "sending texts, phone or video-chat, and visiting in person"
+    ],
+    "Young women consistently communicate more frequently with their parents across all methods compared to young men.": [
+      "young women consistently communicate more frequently with their parents across all methods compared to young men"
+    ],
+    "Texting is the most common method for both genders.": [
+      "Texting is the most common method for both genders"
+    ],
+    "The largest gap in communication frequency is observed in texting.": [
+      "with the largest gap in communication frequency observed here"
+    ],
+    "The difference in frequency of in-person visits is the smallest.": [
+      "The difference in frequency of in-person visits is the smallest"
+    ],
+    "Young women visit their parents more often than young men.": [
+      "young women visit their parents more often than young men"
+    ],
+    "I wonder why there is a noticeable difference in communication frequencies between genders.": [
+      "I wonder why there is a noticeable difference in communication frequencies between genders."
+    ],
+    "Gender norms or upbringings may influence these patterns.": [
+      "Are gender norms or upbringings influencing these patterns?"
+    ],
+    "These patterns may shift as people age beyond their 30s.": [
+      "how might these patterns shift as people age beyond their 30s?"
+    ],
+    "The data may look different if only considering those in their early twenties.": [
+      "What would the data look like if only considering those in their early twenties"
+    ],
+    "The data may look different if only considering college students.": [
+      "or college students?"
+    ],
+    "I am a college student.": [
+      "As a college student"
+    ],
+    "My community is filled with mainly busy individuals.": [
+      "my community is filled with mainly busy individuals"
+    ],
+    "For many young adults, moving out from their parents' home marks a transition to more independence.": [
+      "for many young adults, moving out from their parents' home marks a transition to more independence"
+    ],
+    "The frequency of contact with parents can vary widely depending on proximity.": [
+      "the frequency of contact with parents can vary widely depending on individual circumstances like proximity"
+    ],
+    "The frequency of contact with parents can vary widely depending on work schedules.": [
+      "work schedules"
+    ],
+    "The frequency of contact with parents can vary widely depending on the nature of the parent-child relationship.": [
+      "the nature of the parent-child relationship"
+    ],
+    "A catchy headline that captures what’s going on in this graph is \"Staying Connected: Young Women Lead in Family Communication\".": [
+      "A catchy headline that captures what’s going on in this graph is \"Staying Connected: Young Women Lead in Family Communication\""
+    ]
+  }
+}

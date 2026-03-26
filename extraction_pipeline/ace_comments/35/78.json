@@ -1,0 +1,17 @@
+{
+  "article_id": "35",
+  "comment_index": 78,
+  "raw_comment": "I wonder why Minnesota Had a bit of spring blooming in may also Maine has that too?",
+  "ace_sentences": [
+    "I wonder why Minnesota had a bit of spring blooming in may.",
+    "Maine has that too."
+  ],
+  "source_mappings": {
+    "I wonder why Minnesota had a bit of spring blooming in may.": [
+      "I wonder why Minnesota Had a bit of spring blooming in may"
+    ],
+    "Maine has that too.": [
+      "also Maine has that too?"
+    ]
+  }
+}

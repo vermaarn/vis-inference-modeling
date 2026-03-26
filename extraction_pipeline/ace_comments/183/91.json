@@ -1,0 +1,61 @@
+{
+  "article_id": "183",
+  "comment_index": 91,
+  "raw_comment": "-  I notice that young men reach out to their parents less overall compared to women with the category with the lowest percentages being in person visits. This indicates that parents seem to be less involved in their kids lives (with the study already excluding those that don't keep contact with their parents).\n- I wonder how much culture plays into the number of parents involved in their children lives. The reason being that for many it is tradition to have a few generations living in one home at a time so the amount of families where this comes into play would be interesting to know. Furthermore, I wonder why females text their parents so much more than males, with it being the biggest gap between the two genders in the graph. \n- This relates to me and my community as many around me keep frequent contact with their parents entering adulthood so the results of the study are shocking compared to the culture here in the city.\n- Stay In Touch: Young Adults Keep Digital Contact",
+  "ace_sentences": [
+    "I notice that young men reach out to their parents less overall compared to women.",
+    "The category with the lowest percentages is in person visits.",
+    "This indicates that parents seem to be less involved in their kids lives.",
+    "The study already excludes those that don't keep contact with their parents.",
+    "I wonder how much culture plays into the number of parents involved in their children lives.",
+    "For many, it is tradition to have a few generations living in one home at a time.",
+    "I want to know the amount of families where this comes into play.",
+    "I wonder why females text their parents so much more than males.",
+    "This is the biggest gap between the two genders in the graph.",
+    "This relates to me and my community.",
+    "Many around me keep frequent contact with their parents entering adulthood.",
+    "The results of the study are shocking compared to the culture here in the city.",
+    "The headline is Stay In Touch: Young Adults Keep Digital Contact."
+  ],
+  "source_mappings": {
+    "I notice that young men reach out to their parents less overall compared to women.": [
+      "I notice that young men reach out to their parents less overall compared to women"
+    ],
+    "The category with the lowest percentages is in person visits.": [
+      "the category with the lowest percentages being in person visits"
+    ],
+    "This indicates that parents seem to be less involved in their kids lives.": [
+      "This indicates that parents seem to be less involved in their kids lives"
+    ],
+    "The study already excludes those that don't keep contact with their parents.": [
+      "the study already excluding those that don't keep contact with their parents"
+    ],
+    "I wonder how much culture plays into the number of parents involved in their children lives.": [
+      "I wonder how much culture plays into the number of parents involved in their children lives"
+    ],
+    "For many, it is tradition to have a few generations living in one home at a time.": [
+      "for many it is tradition to have a few generations living in one home at a time"
+    ],
+    "I want to know the amount of families where this comes into play.": [
+      "so the amount of families where this comes into play would be interesting to know"
+    ],
+    "I wonder why females text their parents so much more than males.": [
+      "I wonder why females text their parents so much more than males"
+    ],
+    "This is the biggest gap between the two genders in the graph.": [
+      "it being the biggest gap between the two genders in the graph"
+    ],
+    "This relates to me and my community.": [
+      "This relates to me and my community"
+    ],
+    "Many around me keep frequent contact with their parents entering adulthood.": [
+      "many around me keep frequent contact with their parents entering adulthood"
+    ],
+    "The results of the study are shocking compared to the culture here in the city.": [
+      "the results of the study are shocking compared to the culture here in the city"
+    ],
+    "The headline is Stay In Touch: Young Adults Keep Digital Contact.": [
+      "Stay In Touch: Young Adults Keep Digital Contact"
+    ]
+  }
+}

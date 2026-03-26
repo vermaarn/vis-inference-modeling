@@ -1,0 +1,70 @@
+{
+  "article_id": "91",
+  "comment_index": 64,
+  "raw_comment": "There are a lot more players of color who are in these leagues but the head coaches percentages are significantly different and lower than the percentage of the players.\n\nI wonder if the difference comes from the time span of the players and the coaches since they are very different. Since players in these categories have lower years played in the field than coaches because playing takes a giant toll on your body compared to coaching.\n\nThis impacts my community because New Hampshire is not a very diverse place. This impacts the judgment of us and how we view sports. There are some teams with a few people of color but it is mostly white.\n\n“Diversity, seen on the field but not the sidelines.”",
+  "ace_sentences": [
+    "Many players of color are in these leagues.",
+    "The percentages of head coaches are significantly different from the percentage of the players.",
+    "The percentages of head coaches are lower than the percentage of the players.",
+    "I wonder if the difference comes from the time span of the players and the coaches.",
+    "The players and the coaches are very different.",
+    "Players in these categories have lower years played in the field than coaches.",
+    "Playing takes a giant toll on your body.",
+    "Playing takes a giant toll on your body compared to coaching.",
+    "This impacts my community.",
+    "New Hampshire is not a very diverse place.",
+    "This impacts the judgment of us.",
+    "This impacts how we view sports.",
+    "Some teams have a few people of color.",
+    "It is mostly white.",
+    "The headline is \"Diversity, seen on the field but not the sidelines.\""
+  ],
+  "source_mappings": {
+    "Many players of color are in these leagues.": [
+      "There are a lot more players of color who are in these leagues"
+    ],
+    "The percentages of head coaches are significantly different from the percentage of the players.": [
+      "the head coaches percentages are significantly different",
+      "the percentage of the players"
+    ],
+    "The percentages of head coaches are lower than the percentage of the players.": [
+      "lower than the percentage of the players"
+    ],
+    "I wonder if the difference comes from the time span of the players and the coaches.": [
+      "I wonder if the difference comes from the time span of the players and the coaches"
+    ],
+    "The players and the coaches are very different.": [
+      "they are very different"
+    ],
+    "Players in these categories have lower years played in the field than coaches.": [
+      "players in these categories have lower years played in the field than coaches"
+    ],
+    "Playing takes a giant toll on your body.": [
+      "playing takes a giant toll on your body"
+    ],
+    "Playing takes a giant toll on your body compared to coaching.": [
+      "playing takes a giant toll on your body compared to coaching"
+    ],
+    "This impacts my community.": [
+      "This impacts my community"
+    ],
+    "New Hampshire is not a very diverse place.": [
+      "New Hampshire is not a very diverse place"
+    ],
+    "This impacts the judgment of us.": [
+      "This impacts the judgment of us"
+    ],
+    "This impacts how we view sports.": [
+      "how we view sports"
+    ],
+    "Some teams have a few people of color.": [
+      "There are some teams with a few people of color"
+    ],
+    "It is mostly white.": [
+      "it is mostly white"
+    ],
+    "The headline is \"Diversity, seen on the field but not the sidelines.\"": [
+      "“Diversity, seen on the field but not the sidelines.”"
+    ]
+  }
+}

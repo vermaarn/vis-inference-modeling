@@ -1,0 +1,92 @@
+{
+  "article_id": "183",
+  "comment_index": 115,
+  "raw_comment": "1. I've observed that younger women tend to contact a parent once daily or a few times weekly, in comparison to men who do so less frequently. Additionally, texting appears to be the preferred mode of communication over more personal methods like calling or meeting in person.\n2. Will they start reaching out or communicating with each other more intimately like visiting in person or calling? \n3. This is relevant to both me and my community because as we all mature, we each have some form of parental guidance, and as we develop into our unique individuals, our interactions with each other and our parents can evolve accordingly. I personally make sure to make it a habit to stay in consistent communication with my family, especially my parents. \n4.\"Connecting Generations: Navigating Communication with Parents\"",
+  "ace_sentences": [
+    "I have observed that younger women tend to contact a parent once daily.",
+    "I have observed that younger women tend to contact a parent a few times weekly.",
+    "I have observed that men contact a parent less frequently.",
+    "Texting appears to be the preferred mode of communication.",
+    "Texting appears to be preferred over calling.",
+    "Texting appears to be preferred over meeting in person.",
+    "They may start reaching out more intimately.",
+    "They may start communicating with each other more intimately.",
+    "Visiting in person is a more intimate way of communicating.",
+    "Calling is a more intimate way of communicating.",
+    "This is relevant to me.",
+    "This is relevant to my community.",
+    "We all mature.",
+    "We each have some form of parental guidance.",
+    "We develop into our unique individuals.",
+    "Our interactions with each other can evolve accordingly.",
+    "Our interactions with our parents can evolve accordingly.",
+    "I make sure to make it a habit to stay in consistent communication with my family.",
+    "I make sure to make it a habit to stay in consistent communication with my parents.",
+    "The title is \"Connecting Generations: Navigating Communication with Parents\"."
+  ],
+  "source_mappings": {
+    "I have observed that younger women tend to contact a parent once daily.": [
+      "I've observed that younger women tend to contact a parent once daily"
+    ],
+    "I have observed that younger women tend to contact a parent a few times weekly.": [
+      "I've observed that younger women tend to contact a parent",
+      "a few times weekly"
+    ],
+    "I have observed that men contact a parent less frequently.": [
+      "in comparison to men who do so less frequently"
+    ],
+    "Texting appears to be the preferred mode of communication.": [
+      "texting appears to be the preferred mode of communication"
+    ],
+    "Texting appears to be preferred over calling.": [
+      "texting appears to be the preferred mode of communication over more personal methods like calling"
+    ],
+    "Texting appears to be preferred over meeting in person.": [
+      "texting appears to be the preferred mode of communication over more personal methods like",
+      "meeting in person"
+    ],
+    "They may start reaching out more intimately.": [
+      "Will they start reaching out"
+    ],
+    "They may start communicating with each other more intimately.": [
+      "communicating with each other more intimately"
+    ],
+    "Visiting in person is a more intimate way of communicating.": [
+      "like visiting in person"
+    ],
+    "Calling is a more intimate way of communicating.": [
+      "or calling"
+    ],
+    "This is relevant to me.": [
+      "This is relevant to both me"
+    ],
+    "This is relevant to my community.": [
+      "and my community"
+    ],
+    "We all mature.": [
+      "as we all mature"
+    ],
+    "We each have some form of parental guidance.": [
+      "we each have some form of parental guidance"
+    ],
+    "We develop into our unique individuals.": [
+      "as we develop into our unique individuals"
+    ],
+    "Our interactions with each other can evolve accordingly.": [
+      "our interactions with each other",
+      "can evolve accordingly"
+    ],
+    "Our interactions with our parents can evolve accordingly.": [
+      "and our parents can evolve accordingly"
+    ],
+    "I make sure to make it a habit to stay in consistent communication with my family.": [
+      "I personally make sure to make it a habit to stay in consistent communication with my family"
+    ],
+    "I make sure to make it a habit to stay in consistent communication with my parents.": [
+      "especially my parents"
+    ],
+    "The title is \"Connecting Generations: Navigating Communication with Parents\".": [
+      "\"Connecting Generations: Navigating Communication with Parents\""
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "article_id": "91",
+  "comment_index": 143,
+  "raw_comment": "Is sports the biggest thing for colored people?\n\nI notice that basketball has the highest percentage of players of color and coaches of color but baseball has the lowest percentage of players of color and football has the the lowest percentage of coaches of color. I wonder why football has the Lowest percentage of coaches but so many players. This impacts me and my community because it shows how sports is really popular for the culture of colored people.",
+  "ace_sentences": [
+    "The question is whether sports is the biggest thing for colored people.",
+    "I notice that basketball has the highest percentage of players of color.",
+    "I notice that basketball has the highest percentage of coaches of color.",
+    "I notice that baseball has the lowest percentage of players of color.",
+    "I notice that football has the lowest percentage of coaches of color.",
+    "I wonder why football has the lowest percentage of coaches.",
+    "I wonder why football has so many players.",
+    "This impacts me.",
+    "This impacts my community.",
+    "This shows that sports is really popular for the culture of colored people."
+  ],
+  "source_mappings": {
+    "The question is whether sports is the biggest thing for colored people.": [
+      "Is sports the biggest thing for colored people?"
+    ],
+    "I notice that basketball has the highest percentage of players of color.": [
+      "I notice that basketball has the highest percentage of players of color"
+    ],
+    "I notice that basketball has the highest percentage of coaches of color.": [
+      "and coaches of color"
+    ],
+    "I notice that baseball has the lowest percentage of players of color.": [
+      "but baseball has the lowest percentage of players of color"
+    ],
+    "I notice that football has the lowest percentage of coaches of color.": [
+      "and football has the the lowest percentage of coaches of color."
+    ],
+    "I wonder why football has the lowest percentage of coaches.": [
+      "I wonder why football has the Lowest percentage of coaches"
+    ],
+    "I wonder why football has so many players.": [
+      "but so many players."
+    ],
+    "This impacts me.": [
+      "This impacts me"
+    ],
+    "This impacts my community.": [
+      "and my community"
+    ],
+    "This shows that sports is really popular for the culture of colored people.": [
+      "because it shows how sports is really popular for the culture of colored people."
+    ]
+  }
+}

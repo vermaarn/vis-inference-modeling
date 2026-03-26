@@ -1,0 +1,70 @@
+{
+  "article_id": "91",
+  "comment_index": 30,
+  "raw_comment": "Notice: Most of the players in every sport, except for major league baseball (MLB), are players of color. In every poll, it is obvious that most of the head coaches in each league are non-colored. I notice that basketball (men's and women's) has the highest percentage of colored players. \n\nWonder: I wonder why there are so many non-colored coaches in the leagues. Are non-colored coaches better at coaching overall? Is it just because of the history of coaches? Why does major league soccer have the highest percentage of colored coaches? I also wonder why basketball has the highest percentage of colored players.\n\nImpact: This impacts the community of sports. These statistics show that there is a less percentage of people of color in higher positions such as coaches. We need more representation in these jobs of higher power and control.\n\nWhat is going on in this graph?\nThey are comparing the percentages of people of color for players and head coaches in different sports leagues. \n\nCatchy Title: We have diversity on the field, but what about behind the scenes on the sideline?",
+  "ace_sentences": [
+    "Most of the players in every sport are players of color.",
+    "Major league baseball (MLB) is an exception.",
+    "In every poll, most of the head coaches in each league are non-colored.",
+    "I notice that basketball (men's and women's) has the highest percentage of colored players.",
+    "I wonder why there are so many non-colored coaches in the leagues.",
+    "I ask whether non-colored coaches are better at coaching overall.",
+    "I ask whether this is because of the history of coaches.",
+    "I wonder why major league soccer has the highest percentage of colored coaches.",
+    "I also wonder why basketball has the highest percentage of colored players.",
+    "This impacts the community of sports.",
+    "These statistics show that there is a less percentage of people of color in higher positions such as coaches.",
+    "We need more representation in these jobs of higher power and control.",
+    "They are comparing the percentages of people of color for players and head coaches in different sports leagues.",
+    "The title is:",
+    "We have diversity on the field, but what about behind the scenes on the sideline?"
+  ],
+  "source_mappings": {
+    "Most of the players in every sport are players of color.": [
+      "Most of the players in every sport",
+      "are players of color"
+    ],
+    "Major league baseball (MLB) is an exception.": [
+      "except for major league baseball (MLB)"
+    ],
+    "In every poll, most of the head coaches in each league are non-colored.": [
+      "In every poll, it is obvious that most of the head coaches in each league are non-colored."
+    ],
+    "I notice that basketball (men's and women's) has the highest percentage of colored players.": [
+      "I notice that basketball (men's and women's) has the highest percentage of colored players."
+    ],
+    "I wonder why there are so many non-colored coaches in the leagues.": [
+      "I wonder why there are so many non-colored coaches in the leagues."
+    ],
+    "I ask whether non-colored coaches are better at coaching overall.": [
+      "Are non-colored coaches better at coaching overall?"
+    ],
+    "I ask whether this is because of the history of coaches.": [
+      "Is it just because of the history of coaches?"
+    ],
+    "I wonder why major league soccer has the highest percentage of colored coaches.": [
+      "Why does major league soccer have the highest percentage of colored coaches?"
+    ],
+    "I also wonder why basketball has the highest percentage of colored players.": [
+      "I also wonder why basketball has the highest percentage of colored players."
+    ],
+    "This impacts the community of sports.": [
+      "This impacts the community of sports."
+    ],
+    "These statistics show that there is a less percentage of people of color in higher positions such as coaches.": [
+      "These statistics show that there is a less percentage of people of color in higher positions such as coaches."
+    ],
+    "We need more representation in these jobs of higher power and control.": [
+      "We need more representation in these jobs of higher power and control."
+    ],
+    "They are comparing the percentages of people of color for players and head coaches in different sports leagues.": [
+      "They are comparing the percentages of people of color for players and head coaches in different sports leagues."
+    ],
+    "The title is:": [
+      "Catchy Title:"
+    ],
+    "We have diversity on the field, but what about behind the scenes on the sideline?": [
+      "We have diversity on the field, but what about behind the scenes on the sideline?"
+    ]
+  }
+}

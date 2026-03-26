@@ -1,0 +1,53 @@
+{
+  "article_id": "35",
+  "comment_index": 100,
+  "raw_comment": "I notice that the average ‘First Leaf’ appearance starts in Texas in January. It ends in May at the top of the states.\nI wonder why the May 'First Leaf' ends up halfway across the United States. I also wonder why they don't have Alaska and Hawaii. I wonder why the 'First Leaf' shows up faster in some places than others.\nThe story of this graph is telling what time spring is coming in areas in some spots.\n A catchy headline for this graph could be \"May Flowers: An Evolution of Spring.\"",
+  "ace_sentences": [
+    "The average 'First Leaf' appearance starts in Texas in January.",
+    "The average 'First Leaf' appearance ends in May at the top of the states.",
+    "The May 'First Leaf' ends up halfway across the United States.",
+    "I wonder why the May 'First Leaf' ends up halfway across the United States.",
+    "They do not have Alaska.",
+    "They do not have Hawaii.",
+    "I wonder why they do not have Alaska and Hawaii.",
+    "The 'First Leaf' shows up faster in some places than in other places.",
+    "I wonder why the 'First Leaf' shows up faster in some places than others.",
+    "This graph tells what time spring is coming in areas in some spots.",
+    "A catchy headline for this graph could be \"May Flowers: An Evolution of Spring.\""
+  ],
+  "source_mappings": {
+    "The average 'First Leaf' appearance starts in Texas in January.": [
+      "the average ‘First Leaf’ appearance starts in Texas in January"
+    ],
+    "The average 'First Leaf' appearance ends in May at the top of the states.": [
+      "It ends in May at the top of the states."
+    ],
+    "The May 'First Leaf' ends up halfway across the United States.": [
+      "the May 'First Leaf' ends up halfway across the United States."
+    ],
+    "I wonder why the May 'First Leaf' ends up halfway across the United States.": [
+      "I wonder why the May 'First Leaf' ends up halfway across the United States."
+    ],
+    "They do not have Alaska.": [
+      "don't have Alaska"
+    ],
+    "They do not have Hawaii.": [
+      "and Hawaii"
+    ],
+    "I wonder why they do not have Alaska and Hawaii.": [
+      "I also wonder why they don't have Alaska and Hawaii."
+    ],
+    "The 'First Leaf' shows up faster in some places than in other places.": [
+      "the 'First Leaf' shows up faster in some places than others."
+    ],
+    "I wonder why the 'First Leaf' shows up faster in some places than in other places.": [
+      "I wonder why the 'First Leaf' shows up faster in some places than others."
+    ],
+    "This graph tells what time spring is coming in areas in some spots.": [
+      "The story of this graph is telling what time spring is coming in areas in some spots."
+    ],
+    "A catchy headline for this graph could be \"May Flowers: An Evolution of Spring.\"": [
+      "A catchy headline for this graph could be \"May Flowers: An Evolution of Spring.\""
+    ]
+  }
+}

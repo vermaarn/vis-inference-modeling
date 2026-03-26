@@ -1,0 +1,22 @@
+{
+  "article_id": "35",
+  "comment_index": 26,
+  "raw_comment": "I wonder how this graph would be different if it was the 80's. D:",
+  "ace_sentences": [
+    "I wonder about this graph.",
+    "I wonder how this graph would be different.",
+    "This graph would be different if it was the 80's."
+  ],
+  "source_mappings": {
+    "I wonder about this graph.": [
+      "I wonder",
+      "this graph"
+    ],
+    "I wonder how this graph would be different.": [
+      "I wonder how this graph would be different"
+    ],
+    "This graph would be different if it was the 80's.": [
+      "this graph would be different if it was the 80's"
+    ]
+  }
+}

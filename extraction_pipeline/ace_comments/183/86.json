@@ -1,0 +1,121 @@
+{
+  "article_id": "183",
+  "comment_index": 86,
+  "raw_comment": "The graph shows the percentage of young adults aged 18 to 34 who reach out to a parent at least once a day or a few times a week. It breaks down the communication methods into sending texts, phone or video-chat, and visiting in person. I noticed that while young women appear to reach out to their families at a higher rate than young men do, regardless of modality, that texting is the most common/ popular means of keeping in touch, as it has the highest percentages in either gender. \nVisiting in person shows the lowest gap between genders,  but is still less popular than other modalities.\nI wonder how the way that female and male children are socialized impacts the way and the frequency with which they stay in parents-- are girls more prone to keeping in touch because they spent more time with parents, or because they feel it is expected? Of the participants that has high rates of contact, how many of them were eldest or only children? \nThis resonates with me as my mom and I text nearly every day. Video and phone calls are harder to line up with different schedules, and in-person visits are the hardest-- we see each other a handful of times each year. Based on this, I'm inclined to think that schedule/ convenience has a decent weight behind the rates observed in this graph.\nI think a good headline could be, \"Texts and Calls: The New Bridge Between Today's Young Adults and Their Parents\"",
+  "ace_sentences": [
+    "The graph shows a percentage.",
+    "The graph shows the percentage of young adults.",
+    "The young adults are aged 18 to 34.",
+    "The young adults reach out to a parent at least once a day or a few times a week.",
+    "The graph breaks down the communication methods.",
+    "The communication methods include sending texts.",
+    "The communication methods include phone or video-chat.",
+    "The communication methods include visiting in person.",
+    "Young women appear to reach out to their families at a higher rate than young men do.",
+    "This difference holds regardless of modality.",
+    "Texting is the most common means of keeping in touch.",
+    "Texting has the highest percentages in either gender.",
+    "Visiting in person shows the lowest gap between genders.",
+    "However, visiting in person is less popular than other modalities.",
+    "The way that female and male children are socialized impacts the way with which they stay in parents.",
+    "The way that female and male children are socialized impacts the frequency with which they stay in parents.",
+    "Girls are more prone to keeping in touch because they spent more time with parents.",
+    "Girls are more prone to keeping in touch because they feel it is expected.",
+    "Some participants have high rates of contact.",
+    "Some participants were eldest children.",
+    "Some participants were only children.",
+    "This resonates with me.",
+    "My mom and I text nearly every day.",
+    "Video and phone calls are harder to line up with different schedules.",
+    "In-person visits are the hardest.",
+    "We see each other a handful of times each year.",
+    "I am inclined to think that schedule and convenience has a decent weight behind the rates observed in this graph.",
+    "A good headline could be \"Texts and Calls: The New Bridge Between Today's Young Adults and Their Parents\"."
+  ],
+  "source_mappings": {
+    "The graph shows a percentage.": [
+      "The graph shows the percentage"
+    ],
+    "The graph shows the percentage of young adults.": [
+      "The graph shows the percentage of young adults"
+    ],
+    "The young adults are aged 18 to 34.": [
+      "aged 18 to 34"
+    ],
+    "The young adults reach out to a parent at least once a day or a few times a week.": [
+      "who reach out to a parent at least once a day or a few times a week"
+    ],
+    "The graph breaks down the communication methods.": [
+      "It breaks down the communication methods"
+    ],
+    "The communication methods include sending texts.": [
+      "sending texts"
+    ],
+    "The communication methods include phone or video-chat.": [
+      "phone or video-chat"
+    ],
+    "The communication methods include visiting in person.": [
+      "visiting in person"
+    ],
+    "Young women appear to reach out to their families at a higher rate than young men do.": [
+      "young women appear to reach out to their families at a higher rate than young men do"
+    ],
+    "This difference holds regardless of modality.": [
+      "regardless of modality"
+    ],
+    "Texting is the most common means of keeping in touch.": [
+      "texting is the most common/ popular means of keeping in touch"
+    ],
+    "Texting has the highest percentages in either gender.": [
+      "it has the highest percentages in either gender"
+    ],
+    "Visiting in person shows the lowest gap between genders.": [
+      "Visiting in person shows the lowest gap between genders"
+    ],
+    "However, visiting in person is less popular than other modalities.": [
+      "but is still less popular than other modalities"
+    ],
+    "The way that female and male children are socialized impacts the way with which they stay in parents.": [
+      "the way that female and male children are socialized impacts the way"
+    ],
+    "The way that female and male children are socialized impacts the frequency with which they stay in parents.": [
+      "the frequency with which they stay in parents--"
+    ],
+    "Girls are more prone to keeping in touch because they spent more time with parents.": [
+      "are girls more prone to keeping in touch because they spent more time with parents"
+    ],
+    "Girls are more prone to keeping in touch because they feel it is expected.": [
+      "or because they feel it is expected?"
+    ],
+    "Some participants have high rates of contact.": [
+      "Of the participants that has high rates of contact"
+    ],
+    "Some participants were eldest children.": [
+      "were eldest"
+    ],
+    "Some participants were only children.": [
+      "or only children"
+    ],
+    "This resonates with me.": [
+      "This resonates with me"
+    ],
+    "My mom and I text nearly every day.": [
+      "my mom and I text nearly every day"
+    ],
+    "Video and phone calls are harder to line up with different schedules.": [
+      "Video and phone calls are harder to line up with different schedules"
+    ],
+    "In-person visits are the hardest.": [
+      "in-person visits are the hardest--"
+    ],
+    "We see each other a handful of times each year.": [
+      "we see each other a handful of times each year"
+    ],
+    "I am inclined to think that schedule and convenience has a decent weight behind the rates observed in this graph.": [
+      "I'm inclined to think that schedule/ convenience has a decent weight behind the rates observed in this graph"
+    ],
+    "A good headline could be \"Texts and Calls: The New Bridge Between Today's Young Adults and Their Parents\".": [
+      "I think a good headline could be, \"Texts and Calls: The New Bridge Between Today's Young Adults and Their Parents\""
+    ]
+  }
+}

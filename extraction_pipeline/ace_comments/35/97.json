@@ -1,0 +1,25 @@
+{
+  "article_id": "35",
+  "comment_index": 97,
+  "raw_comment": "Why is it that the east coast is so different from the west coast? The west coast is so rugged, and the east is in nice lines.",
+  "ace_sentences": [
+    "The east coast is different from the west coast.",
+    "The west coast is rugged.",
+    "The east coast is in nice lines.",
+    "The speaker asks why the east coast is different from the west coast."
+  ],
+  "source_mappings": {
+    "The east coast is different from the west coast.": [
+      "the east coast is so different from the west coast"
+    ],
+    "The west coast is rugged.": [
+      "The west coast is so rugged"
+    ],
+    "The east coast is in nice lines.": [
+      "the east is in nice lines"
+    ],
+    "The speaker asks why the east coast is different from the west coast.": [
+      "Why is it that the east coast is so different from the west coast?"
+    ]
+  }
+}

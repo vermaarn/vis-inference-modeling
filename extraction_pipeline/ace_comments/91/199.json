@@ -1,0 +1,49 @@
+{
+  "article_id": "91",
+  "comment_index": 199,
+  "raw_comment": "What do you notice?\nI notice that in baseball their isn't much diversity between the players. \nWhat do you wonder?\nWhy their isn't many coaches of color? Mainly in a national football league the head coaches color are the lowest with 13%. \n \nWhat impact does this have on you and your community?\nThis impacts my community because we don't really see diverse leadership. \nWhat’s going on in this graph? Write a catchy headline that captures the graph’s main idea.\nIn the graph it shows sports that don't have much diversity either with skin color or ethnicity. There's really not much diverse leadership going on. Headline: Sports With Not Much Diversity In 2021.",
+  "ace_sentences": [
+    "I notice that in baseball there is not much diversity between the players.",
+    "I wonder why there are not many coaches of color.",
+    "In a national football league, the head coaches of color are the lowest.",
+    "In a national football league, the head coaches of color are 13%.",
+    "This impacts my community.",
+    "We do not really see diverse leadership in my community.",
+    "In the graph it shows sports that do not have much diversity with skin color.",
+    "In the graph it shows sports that do not have much diversity with ethnicity.",
+    "There is not much diverse leadership going on.",
+    "The headline is: Sports With Not Much Diversity In 2021."
+  ],
+  "source_mappings": {
+    "I notice that in baseball there is not much diversity between the players.": [
+      "I notice that in baseball their isn't much diversity between the players."
+    ],
+    "I wonder why there are not many coaches of color.": [
+      "Why their isn't many coaches of color?"
+    ],
+    "In a national football league, the head coaches of color are the lowest.": [
+      "Mainly in a national football league the head coaches color are the lowest"
+    ],
+    "In a national football league, the head coaches of color are 13%.": [
+      "Mainly in a national football league the head coaches color are the lowest with 13%."
+    ],
+    "This impacts my community.": [
+      "This impacts my community"
+    ],
+    "We do not really see diverse leadership in my community.": [
+      "we don't really see diverse leadership."
+    ],
+    "In the graph it shows sports that do not have much diversity with skin color.": [
+      "In the graph it shows sports that don't have much diversity either with skin color"
+    ],
+    "In the graph it shows sports that do not have much diversity with ethnicity.": [
+      "or ethnicity."
+    ],
+    "There is not much diverse leadership going on.": [
+      "There's really not much diverse leadership going on."
+    ],
+    "The headline is: Sports With Not Much Diversity In 2021.": [
+      "Headline: Sports With Not Much Diversity In 2021."
+    ]
+  }
+}

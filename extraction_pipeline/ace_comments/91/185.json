@@ -1,0 +1,61 @@
+{
+  "article_id": "91",
+  "comment_index": 185,
+  "raw_comment": "First thing I noticed is that both women and men’s basketball are the same percentage at 83%. I wonder what the percentage is out of like how much players they took into Account.what impact does this have on me or others, it might inspire people of different races to see that anything is possible doesn’t matter where you come form.the graph shows the percentage of players and coaches and managers, who are people of color for five professional sports leagues.",
+  "ace_sentences": [
+    "I noticed a first thing.",
+    "Women’s basketball and men’s basketball have the same percentage.",
+    "The percentage is 83%.",
+    "I wonder what the percentage is out of.",
+    "I wonder how many players they took into account.",
+    "This might have an impact on me.",
+    "This might have an impact on others.",
+    "This might inspire people of different races.",
+    "These people might see that anything is possible.",
+    "It does not matter where you come form.",
+    "The graph shows the percentage of players and coaches and managers.",
+    "These players and coaches and managers are people of color.",
+    "The graph shows this percentage for five professional sports leagues."
+  ],
+  "source_mappings": {
+    "I noticed a first thing.": [
+      "First thing I noticed is that"
+    ],
+    "Women’s basketball and men’s basketball have the same percentage.": [
+      "both women and men’s basketball are the same percentage"
+    ],
+    "The percentage is 83%.": [
+      "at 83%"
+    ],
+    "I wonder what the percentage is out of.": [
+      "I wonder what the percentage is out of"
+    ],
+    "I wonder how many players they took into account.": [
+      "like how much players they took into Account"
+    ],
+    "This might have an impact on me.": [
+      "what impact does this have on me"
+    ],
+    "This might have an impact on others.": [
+      "or others"
+    ],
+    "This might inspire people of different races.": [
+      "it might inspire people of different races"
+    ],
+    "These people might see that anything is possible.": [
+      "to see that anything is possible"
+    ],
+    "It does not matter where you come form.": [
+      "doesn’t matter where you come form"
+    ],
+    "The graph shows the percentage of players and coaches and managers.": [
+      "the graph shows the percentage of players and coaches and managers"
+    ],
+    "These players and coaches and managers are people of color.": [
+      "who are people of color"
+    ],
+    "The graph shows this percentage for five professional sports leagues.": [
+      "for five professional sports leagues"
+    ]
+  }
+}

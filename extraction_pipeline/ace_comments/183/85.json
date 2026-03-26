@@ -1,0 +1,89 @@
+{
+  "article_id": "183",
+  "comment_index": 85,
+  "raw_comment": "1) I noticed that women contact their parents more often than men. In addition, I also noticed that the most common way of communication is through text. \n\n2) I wonder why there is a disparity between the percentage of men that contact their parents compared to women? To what extent do gender roles play a role? Do men have more strained/distant relationships with their parents or is it just a gender difference as a result of socialization?\n\n3) This relates to me and my community because I soon will be a young adult and so will my peers. During this time, we'll start to become more independent from our parents: some will move out, or will just not be as home as often because of college, work, etc. Our lives will become busier so contact might be less. It's important that we try to maintain contact though, even if we're busy because our time with them is limited.\n\n4) Keeping Parental Contact in Adulthood",
+  "ace_sentences": [
+    "Women contact their parents more often than men.",
+    "The most common way of communication is through text.",
+    "There is a disparity between the percentage of men that contact their parents and the percentage of women that contact their parents.",
+    "Gender roles may play a role in this disparity.",
+    "Men may have more strained relationships with their parents.",
+    "Men may have more distant relationships with their parents.",
+    "This disparity may be a gender difference as a result of socialization.",
+    "This relates to me and my community.",
+    "I soon will be a young adult.",
+    "My peers soon will be young adults.",
+    "During this time, we will start to become more independent from our parents.",
+    "Some people will move out.",
+    "Some people will not be as home as often because of college.",
+    "Some people will not be as home as often because of work.",
+    "Our lives will become busier.",
+    "If our lives become busier, contact might be less.",
+    "It is important that we try to maintain contact.",
+    "Even if we are busy, it is important that we try to maintain contact.",
+    "Our time with them is limited.",
+    "The title is \"Keeping Parental Contact in Adulthood\"."
+  ],
+  "source_mappings": {
+    "Women contact their parents more often than men.": [
+      "women contact their parents more often than men"
+    ],
+    "The most common way of communication is through text.": [
+      "the most common way of communication is through text"
+    ],
+    "There is a disparity between the percentage of men that contact their parents and the percentage of women that contact their parents.": [
+      "there is a disparity between the percentage of men that contact their parents compared to women"
+    ],
+    "Gender roles may play a role in this disparity.": [
+      "To what extent do gender roles play a role?"
+    ],
+    "Men may have more strained relationships with their parents.": [
+      "Do men have more strained/distant relationships with their parents"
+    ],
+    "Men may have more distant relationships with their parents.": [
+      "Do men have more strained/distant relationships with their parents"
+    ],
+    "This disparity may be a gender difference as a result of socialization.": [
+      "or is it just a gender difference as a result of socialization?"
+    ],
+    "This relates to me and my community.": [
+      "This relates to me and my community"
+    ],
+    "I soon will be a young adult.": [
+      "I soon will be a young adult"
+    ],
+    "My peers soon will be young adults.": [
+      "so will my peers"
+    ],
+    "During this time, we will start to become more independent from our parents.": [
+      "During this time, we'll start to become more independent from our parents"
+    ],
+    "Some people will move out.": [
+      "some will move out"
+    ],
+    "Some people will not be as home as often because of college.": [
+      "will just not be as home as often because of college"
+    ],
+    "Some people will not be as home as often because of work.": [
+      "will just not be as home as often because of college, work, etc."
+    ],
+    "Our lives will become busier.": [
+      "Our lives will become busier"
+    ],
+    "If our lives become busier, contact might be less.": [
+      "Our lives will become busier so contact might be less"
+    ],
+    "It is important that we try to maintain contact.": [
+      "It's important that we try to maintain contact though"
+    ],
+    "Even if we are busy, it is important that we try to maintain contact.": [
+      "even if we're busy because our time with them is limited"
+    ],
+    "Our time with them is limited.": [
+      "our time with them is limited"
+    ],
+    "The title is \"Keeping Parental Contact in Adulthood\".": [
+      "Keeping Parental Contact in Adulthood"
+    ]
+  }
+}

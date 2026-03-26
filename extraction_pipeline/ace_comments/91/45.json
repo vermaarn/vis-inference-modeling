@@ -1,0 +1,29 @@
+{
+  "article_id": "91",
+  "comment_index": 45,
+  "raw_comment": "I notice that people of color have a tendency to be more prevalent in professional sports. I wonder why there aren't more coaches of color. I understand that somewhat, but I feel as though there should be more diversity there. I don't really see an affect that this plays on my community.",
+  "ace_sentences": [
+    "I notice that people of color have a tendency to be more prevalent in professional sports.",
+    "I wonder why there are not more coaches of color.",
+    "I understand that somewhat.",
+    "I feel as though there should be more diversity there.",
+    "I do not really see an affect that this plays on my community."
+  ],
+  "source_mappings": {
+    "I notice that people of color have a tendency to be more prevalent in professional sports.": [
+      "I notice that people of color have a tendency to be more prevalent in professional sports."
+    ],
+    "I wonder why there are not more coaches of color.": [
+      "I wonder why there aren't more coaches of color."
+    ],
+    "I understand that somewhat.": [
+      "I understand that somewhat"
+    ],
+    "I feel as though there should be more diversity there.": [
+      "I feel as though there should be more diversity there."
+    ],
+    "I do not really see an affect that this plays on my community.": [
+      "I don't really see an affect that this plays on my community."
+    ]
+  }
+}

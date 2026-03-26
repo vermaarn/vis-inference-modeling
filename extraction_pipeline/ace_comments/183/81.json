@@ -1,0 +1,126 @@
+{
+  "article_id": "183",
+  "comment_index": 81,
+  "raw_comment": "Right away I noticed that the percentage of young women who reach out to a parent a few times a week is higher than the percentage of men for all types of interactions. Specifically, this gap is largest for sending texts and calling on the phone. Meanwhile, the difference for in-person visits is much smaller (about 5 percentage points). Both genders are more likely to communicate via text compared to any other method.\nI wonder why more women as opposed to men are willing to reach out to their parents. Is it because girls tend to form stronger bonds with their parents? Personally, I text or call my parents close to every day just to briefly check in with them, so this is the case for me. Other college students who also no longer see their parents daily, might not communicate as frequently because they are busy with their classes or work. Furthermore, everyone has a different relationship with their parents, so constant communication might be a low priority for some. I would name this graph “Leaving the Nest Does not Need to Mean Losing Touch”.\n\nOne last note is I wonder if the age range was reduced from 18-34 to instead be only individuals in college or even only individuals in their twenties would these percentages change? It might be interesting to see how when we look into smaller age ranges that encompass specific stages of people's lives, how people's interactions with their parents change.",
+  "ace_sentences": [
+    "I noticed a fact right away.",
+    "The percentage of young women who reach out to a parent a few times a week is higher than the percentage of men for all types of interactions.",
+    "This gap is largest for sending texts.",
+    "This gap is largest for calling on the phone.",
+    "The difference for in-person visits is much smaller.",
+    "The difference for in-person visits is about 5 percentage points.",
+    "Both genders are more likely to communicate via text than via any other method.",
+    "I wonder about a reason.",
+    "More women than men are willing to reach out to their parents.",
+    "Girls tend to form stronger bonds with their parents.",
+    "I text my parents close to every day.",
+    "I call my parents close to every day.",
+    "I text or call my parents just to briefly check in with them.",
+    "This is the case for me.",
+    "Some other college students no longer see their parents daily.",
+    "Some other college students might not communicate as frequently.",
+    "Some other college students are busy with their classes.",
+    "Some other college students are busy with their work.",
+    "Everyone has a different relationship with their parents.",
+    "Constant communication might be a low priority for some people.",
+    "I would name this graph \"Leaving the Nest Does not Need to Mean Losing Touch\".",
+    "I wonder about a note.",
+    "The age range was reduced from 18-34 to only individuals in college.",
+    "The age range was reduced from 18-34 to only individuals in their twenties.",
+    "If these percentages change, it might be interesting.",
+    "We look into smaller age ranges.",
+    "Smaller age ranges encompass specific stages of people's lives.",
+    "People's interactions with their parents change."
+  ],
+  "source_mappings": {
+    "I noticed a fact right away.": [
+      "Right away I noticed"
+    ],
+    "The percentage of young women who reach out to a parent a few times a week is higher than the percentage of men for all types of interactions.": [
+      "the percentage of young women who reach out to a parent a few times a week is higher than the percentage of men for all types of interactions"
+    ],
+    "This gap is largest for sending texts.": [
+      "this gap is largest for sending texts"
+    ],
+    "This gap is largest for calling on the phone.": [
+      "this gap is largest for",
+      "calling on the phone"
+    ],
+    "The difference for in-person visits is much smaller.": [
+      "the difference for in-person visits is much smaller"
+    ],
+    "The difference for in-person visits is about 5 percentage points.": [
+      "about 5 percentage points"
+    ],
+    "Both genders are more likely to communicate via text than via any other method.": [
+      "Both genders are more likely to communicate via text compared to any other method"
+    ],
+    "I wonder about a reason.": [
+      "I wonder why"
+    ],
+    "More women than men are willing to reach out to their parents.": [
+      "more women as opposed to men are willing to reach out to their parents"
+    ],
+    "Girls tend to form stronger bonds with their parents.": [
+      "girls tend to form stronger bonds with their parents"
+    ],
+    "I text my parents close to every day.": [
+      "I text",
+      "my parents close to every day"
+    ],
+    "I call my parents close to every day.": [
+      "I",
+      "call my parents close to every day"
+    ],
+    "I text or call my parents just to briefly check in with them.": [
+      "I text or call my parents close to every day just to briefly check in with them"
+    ],
+    "This is the case for me.": [
+      "this is the case for me"
+    ],
+    "Some other college students no longer see their parents daily.": [
+      "Other college students who also no longer see their parents daily"
+    ],
+    "Some other college students might not communicate as frequently.": [
+      "might not communicate as frequently"
+    ],
+    "Some other college students are busy with their classes.": [
+      "they are busy with their classes"
+    ],
+    "Some other college students are busy with their work.": [
+      "or work"
+    ],
+    "Everyone has a different relationship with their parents.": [
+      "everyone has a different relationship with their parents"
+    ],
+    "Constant communication might be a low priority for some people.": [
+      "constant communication might be a low priority for some"
+    ],
+    "I would name this graph \"Leaving the Nest Does not Need to Mean Losing Touch\".": [
+      "I would name this graph “Leaving the Nest Does not Need to Mean Losing Touch”."
+    ],
+    "I wonder about a note.": [
+      "One last note is I wonder"
+    ],
+    "The age range was reduced from 18-34 to only individuals in college.": [
+      "the age range was reduced from 18-34 to instead be only individuals in college"
+    ],
+    "The age range was reduced from 18-34 to only individuals in their twenties.": [
+      "the age range was reduced from 18-34",
+      "only individuals in their twenties"
+    ],
+    "If these percentages change, it might be interesting.": [
+      "these percentages change",
+      "It might be interesting"
+    ],
+    "We look into smaller age ranges.": [
+      "when we look into smaller age ranges"
+    ],
+    "Smaller age ranges encompass specific stages of people's lives.": [
+      "smaller age ranges that encompass specific stages of people's lives"
+    ],
+    "People's interactions with their parents change.": [
+      "how people's interactions with their parents change"
+    ]
+  }
+}

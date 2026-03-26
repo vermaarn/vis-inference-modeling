@@ -1,0 +1,95 @@
+{
+  "article_id": "183",
+  "comment_index": 12,
+  "raw_comment": "1. What I notice is that the percentage of young people who claim they talk to their parents at least once a day or a few times a week is shown in this graph. The gap between the number of young women and men questioned and the methods by which participants reach out are also displayed in the graph. I've seen that women communicate with their parents more than men do in every communication category. I also see that texting is more frequently used when it comes to reaching out to parents, while visiting in person is the least common. \n2. I wonder why women contact their parents more than men? I also wonder why people visit in person less? \n3. This is relevant to me and the community because, as I'm sure many others will agree, having personal communication with one's parents is important. Since many people my age, like myself, are already planning on going to college texting and calling parents will be the most convenient ways to stay in touch especially for those who are going out f state. \n4. Maintaining Contact: How Do Teens Get in Touch with Their Parents?",
+  "ace_sentences": [
+    "The graph shows the percentage of young people.",
+    "The young people claim that they talk to their parents at least once a day.",
+    "The young people claim that they talk to their parents a few times a week.",
+    "The graph displays the gap between the number of young women questioned and the number of young men questioned.",
+    "The graph displays the methods by which participants reach out.",
+    "Women communicate with their parents more than men do in every communication category.",
+    "Texting is more frequently used for reaching out to parents.",
+    "Visiting in person is the least common method for reaching out to parents.",
+    "I wonder why women contact their parents more than men.",
+    "I wonder why people visit in person less.",
+    "This is relevant to me.",
+    "This is relevant to the community.",
+    "Having personal communication with one's parents is important.",
+    "Many people will agree with this.",
+    "Many people my age are already planning on going to college.",
+    "Texting parents will be the most convenient way to stay in touch.",
+    "Calling parents will be the most convenient way to stay in touch.",
+    "This is especially true for those who are going out f state.",
+    "The headline is:",
+    "Maintaining Contact: How Do Teens Get in Touch with Their Parents?"
+  ],
+  "source_mappings": {
+    "The graph shows the percentage of young people.": [
+      "the percentage of young people",
+      "is shown in this graph"
+    ],
+    "The young people claim that they talk to their parents at least once a day.": [
+      "young people who claim they talk to their parents at least once a day"
+    ],
+    "The young people claim that they talk to their parents a few times a week.": [
+      "young people who claim they talk to their parents",
+      "a few times a week"
+    ],
+    "The graph displays the gap between the number of young women questioned and the number of young men questioned.": [
+      "The gap between the number of young women and men questioned",
+      "are also displayed in the graph"
+    ],
+    "The graph displays the methods by which participants reach out.": [
+      "the methods by which participants reach out",
+      "are also displayed in the graph"
+    ],
+    "Women communicate with their parents more than men do in every communication category.": [
+      "women communicate with their parents more than men do in every communication category"
+    ],
+    "Texting is more frequently used for reaching out to parents.": [
+      "texting is more frequently used when it comes to reaching out to parents"
+    ],
+    "Visiting in person is the least common method for reaching out to parents.": [
+      "visiting in person is the least common"
+    ],
+    "I wonder why women contact their parents more than men.": [
+      "I wonder why women contact their parents more than men?"
+    ],
+    "I wonder why people visit in person less.": [
+      "I also wonder why people visit in person less?"
+    ],
+    "This is relevant to me.": [
+      "This is relevant to me"
+    ],
+    "This is relevant to the community.": [
+      "and the community"
+    ],
+    "Having personal communication with one's parents is important.": [
+      "having personal communication with one's parents is important"
+    ],
+    "Many people will agree with this.": [
+      "as I'm sure many others will agree"
+    ],
+    "Many people my age are already planning on going to college.": [
+      "Since many people my age, like myself, are already planning on going to college"
+    ],
+    "Texting parents will be the most convenient way to stay in touch.": [
+      "texting",
+      "will be the most convenient ways to stay in touch"
+    ],
+    "Calling parents will be the most convenient way to stay in touch.": [
+      "calling parents",
+      "will be the most convenient ways to stay in touch"
+    ],
+    "This is especially true for those who are going out f state.": [
+      "especially for those who are going out f state."
+    ],
+    "The headline is:": [
+      "Maintaining Contact:"
+    ],
+    "Maintaining Contact: How Do Teens Get in Touch with Their Parents?": [
+      "Maintaining Contact: How Do Teens Get in Touch with Their Parents?"
+    ]
+  }
+}

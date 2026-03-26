@@ -1,0 +1,21 @@
+{
+  "article_id": "35",
+  "comment_index": 44,
+  "raw_comment": "I wonder why the mountain ranges got the first leaf last and not first or second.",
+  "ace_sentences": [
+    "I wonder why the mountain ranges got the first leaf last.",
+    "The mountain ranges did not get the first leaf first.",
+    "The mountain ranges did not get the first leaf second."
+  ],
+  "source_mappings": {
+    "I wonder why the mountain ranges got the first leaf last.": [
+      "I wonder why the mountain ranges got the first leaf last"
+    ],
+    "The mountain ranges did not get the first leaf first.": [
+      "not first"
+    ],
+    "The mountain ranges did not get the first leaf second.": [
+      "or second"
+    ]
+  }
+}

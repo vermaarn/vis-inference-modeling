@@ -1,0 +1,17 @@
+{
+  "article_id": "35",
+  "comment_index": 40,
+  "raw_comment": "I notice that Florida get leaves before any other state",
+  "ace_sentences": [
+    "I notice something.",
+    "Florida gets leaves before any other state."
+  ],
+  "source_mappings": {
+    "I notice something.": [
+      "I notice"
+    ],
+    "Florida gets leaves before any other state.": [
+      "Florida get leaves before any other state"
+    ]
+  }
+}

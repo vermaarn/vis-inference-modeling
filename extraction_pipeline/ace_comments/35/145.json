@@ -1,0 +1,51 @@
+{
+  "article_id": "35",
+  "comment_index": 145,
+  "raw_comment": "Notice and wonder is teh key to the data collected for the phenology shown in this graph. It's what I do all day long with my Art of Paying Attention pieces that I create as a wildlife illustrator, storyteller, and certified Environmental  Educator.  I invite everyone to do the same. Students and teachers are welcome to  look and listen to my  NPR  pieces athttps://www.bethsurdut.com/critters.html",
+  "ace_sentences": [
+    "Notice and wonder is the key to the data collected for the phenology shown in this graph.",
+    "I do this all day long.",
+    "I create Art of Paying Attention pieces.",
+    "I am a wildlife illustrator.",
+    "I am a storyteller.",
+    "I am a certified Environmental Educator.",
+    "I invite everyone to do the same.",
+    "Students are welcome to look and listen to my NPR pieces.",
+    "Teachers are welcome to look and listen to my NPR pieces.",
+    "My NPR pieces are at https://www.bethsurdut.com/critters.html."
+  ],
+  "source_mappings": {
+    "Notice and wonder is the key to the data collected for the phenology shown in this graph.": [
+      "Notice and wonder is teh key to the data collected for the phenology shown in this graph."
+    ],
+    "I do this all day long.": [
+      "It's what I do all day long"
+    ],
+    "I create Art of Paying Attention pieces.": [
+      "my Art of Paying Attention pieces that I create"
+    ],
+    "I am a wildlife illustrator.": [
+      "as a wildlife illustrator"
+    ],
+    "I am a storyteller.": [
+      "storyteller"
+    ],
+    "I am a certified Environmental Educator.": [
+      "certified Environmental  Educator"
+    ],
+    "I invite everyone to do the same.": [
+      "I invite everyone to do the same."
+    ],
+    "Students are welcome to look and listen to my NPR pieces.": [
+      "Students",
+      "are welcome to  look and listen to my  NPR  pieces"
+    ],
+    "Teachers are welcome to look and listen to my NPR pieces.": [
+      "teachers",
+      "are welcome to  look and listen to my  NPR  pieces"
+    ],
+    "My NPR pieces are at https://www.bethsurdut.com/critters.html.": [
+      "my  NPR  pieces athttps://www.bethsurdut.com/critters.html"
+    ]
+  }
+}

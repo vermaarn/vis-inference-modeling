@@ -1,0 +1,79 @@
+{
+  "article_id": "183",
+  "comment_index": 65,
+  "raw_comment": "The graph highlights a clear divide in communication frequency between young men and women with their parents. Across visits, texts, and calls/video chats, young women consistently reach out more frequently, with digital communication showing the largest gender gap, nearly 25% higher for women. This prompts questions about societal expectations and cultural influences shaping these patterns. Furthermore, the data suggests that in-person visits, while still less frequent overall, show a more modest discrepancy between genders. This raises questions about the significance placed on face-to-face interaction versus digital communication in parent-child relationships. Why do these gender differences manifest more prominently in virtual interactions? Reflecting on my own experience and community, I see the representation of young women, like myself, maintaining regular contact with parents, primarily through digital means due to distance. This underscores the importance of nurturing relationships beyond physical proximity, while also highlighting the need to address gender-based communication barriers within our community. A catchy headline is \"Dialing Differences: Exploring Gender Disparities in Parental Connection\".",
+  "ace_sentences": [
+    "The graph highlights a clear divide in communication frequency between young men and women with their parents.",
+    "Across visits, texts, and calls/video chats, young women consistently reach out more frequently.",
+    "Digital communication shows the largest gender gap.",
+    "The gender gap is nearly 25% higher for women.",
+    "This prompts questions about societal expectations.",
+    "This prompts questions about cultural influences shaping these patterns.",
+    "The data suggests that in-person visits show a more modest discrepancy between genders.",
+    "In-person visits are still less frequent overall.",
+    "This raises questions about the significance placed on face-to-face interaction versus digital communication in parent-child relationships.",
+    "These gender differences manifest more prominently in virtual interactions.",
+    "I reflect on my own experience and community.",
+    "I see the representation of young women maintaining regular contact with parents.",
+    "I am like these young women.",
+    "This regular contact is primarily through digital means due to distance.",
+    "This underscores the importance of nurturing relationships beyond physical proximity.",
+    "This highlights the need to address gender-based communication barriers within our community.",
+    "A catchy headline is \"Dialing Differences: Exploring Gender Disparities in Parental Connection\"."
+  ],
+  "source_mappings": {
+    "The graph highlights a clear divide in communication frequency between young men and women with their parents.": [
+      "The graph highlights a clear divide in communication frequency between young men and women with their parents."
+    ],
+    "Across visits, texts, and calls/video chats, young women consistently reach out more frequently.": [
+      "Across visits, texts, and calls/video chats, young women consistently reach out more frequently"
+    ],
+    "Digital communication shows the largest gender gap.": [
+      "digital communication showing the largest gender gap"
+    ],
+    "The gender gap is nearly 25% higher for women.": [
+      "nearly 25% higher for women"
+    ],
+    "This prompts questions about societal expectations.": [
+      "This prompts questions about societal expectations"
+    ],
+    "This prompts questions about cultural influences shaping these patterns.": [
+      "cultural influences shaping these patterns"
+    ],
+    "The data suggests that in-person visits show a more modest discrepancy between genders.": [
+      "the data suggests that in-person visits",
+      "show a more modest discrepancy between genders"
+    ],
+    "In-person visits are still less frequent overall.": [
+      "in-person visits, while still less frequent overall"
+    ],
+    "This raises questions about the significance placed on face-to-face interaction versus digital communication in parent-child relationships.": [
+      "This raises questions about the significance placed on face-to-face interaction versus digital communication in parent-child relationships."
+    ],
+    "These gender differences manifest more prominently in virtual interactions.": [
+      "these gender differences manifest more prominently in virtual interactions"
+    ],
+    "I reflect on my own experience and community.": [
+      "Reflecting on my own experience and community"
+    ],
+    "I see the representation of young women maintaining regular contact with parents.": [
+      "I see the representation of young women",
+      "maintaining regular contact with parents"
+    ],
+    "I am like these young women.": [
+      "like myself"
+    ],
+    "This regular contact is primarily through digital means due to distance.": [
+      "primarily through digital means due to distance"
+    ],
+    "This underscores the importance of nurturing relationships beyond physical proximity.": [
+      "This underscores the importance of nurturing relationships beyond physical proximity"
+    ],
+    "This highlights the need to address gender-based communication barriers within our community.": [
+      "highlighting the need to address gender-based communication barriers within our community"
+    ],
+    "A catchy headline is \"Dialing Differences: Exploring Gender Disparities in Parental Connection\".": [
+      "A catchy headline is \"Dialing Differences: Exploring Gender Disparities in Parental Connection\""
+    ]
+  }
+}

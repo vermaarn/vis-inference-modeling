@@ -1,0 +1,21 @@
+{
+  "article_id": "35",
+  "comment_index": 39,
+  "raw_comment": "why do some of the first leaf appearance happen so late, some of them only grow in may.",
+  "ace_sentences": [
+    "Some first leaf appearances happen late.",
+    "Some of them only grow in May.",
+    "I ask why some first leaf appearances happen late."
+  ],
+  "source_mappings": {
+    "Some first leaf appearances happen late.": [
+      "some of the first leaf appearance happen so late"
+    ],
+    "Some of them only grow in May.": [
+      "some of them only grow in may"
+    ],
+    "I ask why some first leaf appearances happen late.": [
+      "why do some of the first leaf appearance happen so late"
+    ]
+  }
+}

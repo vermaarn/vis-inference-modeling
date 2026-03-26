@@ -1,0 +1,25 @@
+{
+  "article_id": "35",
+  "comment_index": 3,
+  "raw_comment": "The graph shows when the first leaves bloom where. Climate and elevation shape when it happens on average.",
+  "ace_sentences": [
+    "The graph shows when the first leaves bloom.",
+    "The graph shows where the first leaves bloom.",
+    "Climate shapes when it happens on average.",
+    "Elevation shapes when it happens on average."
+  ],
+  "source_mappings": {
+    "The graph shows when the first leaves bloom.": [
+      "The graph shows when the first leaves bloom"
+    ],
+    "The graph shows where the first leaves bloom.": [
+      "The graph shows when the first leaves bloom where"
+    ],
+    "Climate shapes when it happens on average.": [
+      "Climate and elevation shape when it happens on average."
+    ],
+    "Elevation shapes when it happens on average.": [
+      "Climate and elevation shape when it happens on average."
+    ]
+  }
+}

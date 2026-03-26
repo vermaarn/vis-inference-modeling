@@ -1,0 +1,103 @@
+{
+  "article_id": "183",
+  "comment_index": 74,
+  "raw_comment": "1) According to the graph I notice that out of the young adults who say they reach out to their parents every day or a few times a week, Young women tend to reach out to their parents more than young men. In the graph, young women tend to reach out 75% through text, more than 50% through phone/video chat, and a little more than 25% through in-person. In contrast, young men reach out less than 50% through text, less than 40% through phone/video chat, and less than 25% visit.\n2) I wonder why it is that young women tend to reach out more than young men. Could it be due to the phase of independence? Could a factor be the relationships with parents and young adults? How does the female and male persona tend to affect this result?\n3) This relates to my community and me because many are already in the young adult stage and in addition those are getting to the young adult stage who seem to be eager to explore their waiting and start to find their careers, earn money, and in general figure out the path ahead of them. \n4) Young Adults and Their Astonishing Levels of Involvement With Parents!",
+  "ace_sentences": [
+    "The comment refers to the graph.",
+    "The graph is about young adults.",
+    "Some young adults say that they reach out to their parents every day.",
+    "Some young adults say that they reach out to their parents a few times a week.",
+    "Young women tend to reach out to their parents more than young men.",
+    "In the graph, young women tend to reach out 75% through text.",
+    "In the graph, young women tend to reach out more than 50% through phone/video chat.",
+    "In the graph, young women tend to reach out a little more than 25% through in-person.",
+    "In contrast, young men reach out less than 50% through text.",
+    "In contrast, young men reach out less than 40% through phone/video chat.",
+    "In contrast, young men reach out less than 25% visit.",
+    "The author wonders why young women tend to reach out more than young men.",
+    "The author asks whether this is due to the phase of independence.",
+    "The author asks whether a factor is the relationships with parents and young adults.",
+    "The author asks how the female and male persona tends to affect this result.",
+    "This relates to the author's community and the author.",
+    "Many people are already in the young adult stage.",
+    "Some people are getting to the young adult stage.",
+    "Some people seem to be eager to explore their waiting.",
+    "Some people start to find their careers.",
+    "Some people earn money.",
+    "Some people figure out the path ahead of them.",
+    "The headline is: Young Adults and Their Astonishing Levels of Involvement With Parents!"
+  ],
+  "source_mappings": {
+    "The comment refers to the graph.": [
+      "According to the graph",
+      "In the graph,"
+    ],
+    "The graph is about young adults.": [
+      "young adults"
+    ],
+    "Some young adults say that they reach out to their parents every day.": [
+      "the young adults who say they reach out to their parents every day"
+    ],
+    "Some young adults say that they reach out to their parents a few times a week.": [
+      "the young adults who say they reach out to their parents",
+      "a few times a week"
+    ],
+    "Young women tend to reach out to their parents more than young men.": [
+      "Young women tend to reach out to their parents more than young men."
+    ],
+    "In the graph, young women tend to reach out 75% through text.": [
+      "In the graph, young women tend to reach out 75% through text,"
+    ],
+    "In the graph, young women tend to reach out more than 50% through phone/video chat.": [
+      "more than 50% through phone/video chat,"
+    ],
+    "In the graph, young women tend to reach out a little more than 25% through in-person.": [
+      "a little more than 25% through in-person."
+    ],
+    "In contrast, young men reach out less than 50% through text.": [
+      "In contrast, young men reach out less than 50% through text,"
+    ],
+    "In contrast, young men reach out less than 40% through phone/video chat.": [
+      "less than 40% through phone/video chat,"
+    ],
+    "In contrast, young men reach out less than 25% visit.": [
+      "less than 25% visit."
+    ],
+    "The author wonders why young women tend to reach out more than young men.": [
+      "I wonder why it is that young women tend to reach out more than young men."
+    ],
+    "The author asks whether this is due to the phase of independence.": [
+      "Could it be due to the phase of independence?"
+    ],
+    "The author asks whether a factor is the relationships with parents and young adults.": [
+      "Could a factor be the relationships with parents and young adults?"
+    ],
+    "The author asks how the female and male persona tends to affect this result.": [
+      "How does the female and male persona tend to affect this result?"
+    ],
+    "This relates to the author's community and the author.": [
+      "This relates to my community and me"
+    ],
+    "Many people are already in the young adult stage.": [
+      "many are already in the young adult stage"
+    ],
+    "Some people are getting to the young adult stage.": [
+      "those are getting to the young adult stage"
+    ],
+    "Some people seem to be eager to explore their waiting.": [
+      "who seem to be eager to explore their waiting"
+    ],
+    "Some people start to find their careers.": [
+      "start to find their careers"
+    ],
+    "Some people earn money.": [
+      "earn money,"
+    ],
+    "Some people figure out the path ahead of them.": [
+      "figure out the path ahead of them."
+    ],
+    "The headline is: Young Adults and Their Astonishing Levels of Involvement With Parents!": [
+      "Young Adults and Their Astonishing Levels of Involvement With Parents!"
+    ]
+  }
+}

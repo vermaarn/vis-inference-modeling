@@ -1,0 +1,118 @@
+{
+  "article_id": "91",
+  "comment_index": 147,
+  "raw_comment": "1. What do you notice?\nWe notice that the majority of players throughout the NFL, NBA, WNBA, MLS, and MLB are people of colour, whereas the majority of head coaches throughout these leagues are not people of colour. The NFL has the lowest percentage of head coaches of colour, and the MLS has the highest percentage of head coaches of colour.\n\n2. What do you wonder?\nWe wonder why the percentage of head coaches of colour is very low, especially in the MLB. Is it more difficult for a person of colour to be a head coach?\n\n3. What impact does this have on you and your community?\nThis demonstrates how racism is evident in the world of major league sports, and people of colour who want to be head coaches may not have the opportunities to in the future; \n\n4. What's going on in this graph? Write a catchy headline that captures the graph's main idea\nThis graph uses bar graphs to depict the percentage of players of colour, versus the percentage of coaches of colour across multiple leagues, including the NFL, MBA, WNBA, MLB, and MLS, demonstrating how while many players are of colour, the percentage of coaches of colour is low.\n\n\"diversity in Major League Sports: the percentage of POC players and head coaches\"",
+  "ace_sentences": [
+    "We notice that the majority of players throughout the NFL are people of colour.",
+    "We notice that the majority of players throughout the NBA are people of colour.",
+    "We notice that the majority of players throughout the WNBA are people of colour.",
+    "We notice that the majority of players throughout the MLS are people of colour.",
+    "We notice that the majority of players throughout the MLB are people of colour.",
+    "We notice that the majority of head coaches throughout these leagues are not people of colour.",
+    "The NFL has the lowest percentage of head coaches of colour.",
+    "The MLS has the highest percentage of head coaches of colour.",
+    "We wonder why the percentage of head coaches of colour is very low.",
+    "We wonder why the percentage of head coaches of colour is very low in the MLB.",
+    "It may be more difficult for a person of colour to be a head coach.",
+    "This demonstrates that racism is evident in the world of major league sports.",
+    "People of colour want to be head coaches.",
+    "People of colour may not have the opportunities to be head coaches in the future.",
+    "This graph uses bar graphs.",
+    "This graph depicts the percentage of players of colour.",
+    "This graph depicts the percentage of coaches of colour across multiple leagues.",
+    "Multiple leagues include the NFL.",
+    "Multiple leagues include the MBA.",
+    "Multiple leagues include the WNBA.",
+    "Multiple leagues include the MLB.",
+    "Multiple leagues include the MLS.",
+    "Many players are of colour.",
+    "The percentage of coaches of colour is low.",
+    "The headline is diversity in Major League Sports: the percentage of POC players and head coaches."
+  ],
+  "source_mappings": {
+    "We notice that the majority of players throughout the NFL are people of colour.": [
+      "We notice that the majority of players throughout the NFL",
+      "are people of colour"
+    ],
+    "We notice that the majority of players throughout the NBA are people of colour.": [
+      "We notice that the majority of players throughout the",
+      "NBA",
+      "are people of colour"
+    ],
+    "We notice that the majority of players throughout the WNBA are people of colour.": [
+      "We notice that the majority of players throughout the",
+      "WNBA",
+      "are people of colour"
+    ],
+    "We notice that the majority of players throughout the MLS are people of colour.": [
+      "We notice that the majority of players throughout the",
+      "MLS",
+      "are people of colour"
+    ],
+    "We notice that the majority of players throughout the MLB are people of colour.": [
+      "We notice that the majority of players throughout the",
+      "MLB",
+      "are people of colour"
+    ],
+    "We notice that the majority of head coaches throughout these leagues are not people of colour.": [
+      "the majority of head coaches throughout these leagues are not people of colour"
+    ],
+    "The NFL has the lowest percentage of head coaches of colour.": [
+      "The NFL has the lowest percentage of head coaches of colour"
+    ],
+    "The MLS has the highest percentage of head coaches of colour.": [
+      "the MLS has the highest percentage of head coaches of colour"
+    ],
+    "We wonder why the percentage of head coaches of colour is very low.": [
+      "We wonder why the percentage of head coaches of colour is very low"
+    ],
+    "We wonder why the percentage of head coaches of colour is very low in the MLB.": [
+      "the percentage of head coaches of colour is very low, especially in the MLB"
+    ],
+    "It may be more difficult for a person of colour to be a head coach.": [
+      "Is it more difficult for a person of colour to be a head coach?"
+    ],
+    "This demonstrates that racism is evident in the world of major league sports.": [
+      "This demonstrates how racism is evident in the world of major league sports"
+    ],
+    "People of colour want to be head coaches.": [
+      "people of colour who want to be head coaches"
+    ],
+    "People of colour may not have the opportunities to be head coaches in the future.": [
+      "people of colour who want to be head coaches may not have the opportunities to in the future"
+    ],
+    "This graph uses bar graphs.": [
+      "This graph uses bar graphs"
+    ],
+    "This graph depicts the percentage of players of colour.": [
+      "depict the percentage of players of colour"
+    ],
+    "This graph depicts the percentage of coaches of colour across multiple leagues.": [
+      "the percentage of coaches of colour across multiple leagues"
+    ],
+    "Multiple leagues include the NFL.": [
+      "including the NFL"
+    ],
+    "Multiple leagues include the MBA.": [
+      "MBA"
+    ],
+    "Multiple leagues include the WNBA.": [
+      "WNBA"
+    ],
+    "Multiple leagues include the MLB.": [
+      "MLB"
+    ],
+    "Multiple leagues include the MLS.": [
+      "MLS"
+    ],
+    "Many players are of colour.": [
+      "while many players are of colour"
+    ],
+    "The percentage of coaches of colour is low.": [
+      "the percentage of coaches of colour is low"
+    ],
+    "The headline is diversity in Major League Sports: the percentage of POC players and head coaches.": [
+      "\"diversity in Major League Sports: the percentage of POC players and head coaches\""
+    ]
+  }
+}

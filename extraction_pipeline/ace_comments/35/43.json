@@ -1,0 +1,25 @@
+{
+  "article_id": "35",
+  "comment_index": 43,
+  "raw_comment": "I wonder why in some states, there are different months that first leafs where seen. For example, in California, there are first leaf sightings in different months. However in Kansas, there are only first leaf sightings in March.",
+  "ace_sentences": [
+    "I wonder why some states have different months.",
+    "In some states, first leafs were seen in different months.",
+    "California has first leaf sightings in different months.",
+    "Kansas has only first leaf sightings in March."
+  ],
+  "source_mappings": {
+    "I wonder why some states have different months.": [
+      "I wonder why in some states, there are different months"
+    ],
+    "In some states, first leafs were seen in different months.": [
+      "in some states, there are different months that first leafs where seen"
+    ],
+    "California has first leaf sightings in different months.": [
+      "in California, there are first leaf sightings in different months"
+    ],
+    "Kansas has only first leaf sightings in March.": [
+      "in Kansas, there are only first leaf sightings in March"
+    ]
+  }
+}

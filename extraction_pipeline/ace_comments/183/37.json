@@ -1,0 +1,53 @@
+{
+  "article_id": "183",
+  "comment_index": 37,
+  "raw_comment": "1. What do you notice? If your notice makes a claim, where in the graph is the evidence to support it?\nI notice that young women are more likely to reach out to their parents compared to young men, and that texting is the most common form of communication. \n2. What do you wonder?\nI wonder why visits in person are the least likely form of communication given that most young people live with their parents. \n3. What impact does this have on you and your community?\nThis has an impact on my generation since we are all going to college very soon and shows which type of communication is most used for those who don't live at home and for how I, a young woman, am most likely to interact with my parents when I don't live at home anymore. \n4. What's going on in this graph? \nAre young men ghosting their parents?",
+  "ace_sentences": [
+    "Young women are more likely to reach out to their parents than young men.",
+    "Texting is the most common form of communication.",
+    "Visits in person are the least likely form of communication.",
+    "Most young people live with their parents.",
+    "I wonder why visits in person are the least likely form of communication.",
+    "This has an impact on my generation.",
+    "My generation is going to college very soon.",
+    "This shows which type of communication is most used for those who do not live at home.",
+    "I am a young woman.",
+    "I am most likely to interact with my parents when I do not live at home anymore.",
+    "Young men may be ghosting their parents."
+  ],
+  "source_mappings": {
+    "Young women are more likely to reach out to their parents than young men.": [
+      "young women are more likely to reach out to their parents compared to young men"
+    ],
+    "Texting is the most common form of communication.": [
+      "texting is the most common form of communication"
+    ],
+    "Visits in person are the least likely form of communication.": [
+      "visits in person are the least likely form of communication"
+    ],
+    "Most young people live with their parents.": [
+      "most young people live with their parents"
+    ],
+    "I wonder why visits in person are the least likely form of communication.": [
+      "I wonder why visits in person are the least likely form of communication"
+    ],
+    "This has an impact on my generation.": [
+      "This has an impact on my generation"
+    ],
+    "My generation is going to college very soon.": [
+      "we are all going to college very soon"
+    ],
+    "This shows which type of communication is most used for those who do not live at home.": [
+      "shows which type of communication is most used for those who don't live at home"
+    ],
+    "I am a young woman.": [
+      "I, a young woman,"
+    ],
+    "I am most likely to interact with my parents when I do not live at home anymore.": [
+      "am most likely to interact with my parents when I don't live at home anymore"
+    ],
+    "Young men may be ghosting their parents.": [
+      "Are young men ghosting their parents?"
+    ]
+  }
+}

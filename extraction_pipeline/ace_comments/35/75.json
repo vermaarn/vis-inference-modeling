@@ -1,0 +1,26 @@
+{
+  "article_id": "35",
+  "comment_index": 75,
+  "raw_comment": "Is why Washington state and Oregon have early blooming months, because of the rain in those regions and because even during the rain there is sun",
+  "ace_sentences": [
+    "Washington state has early blooming months.",
+    "Oregon has early blooming months.",
+    "The rain in those regions causes early blooming months in Washington state and Oregon.",
+    "Even during the rain, there is sun."
+  ],
+  "source_mappings": {
+    "Washington state has early blooming months.": [
+      "Washington state and Oregon have early blooming months"
+    ],
+    "Oregon has early blooming months.": [
+      "Washington state and Oregon have early blooming months"
+    ],
+    "The rain in those regions causes early blooming months in Washington state and Oregon.": [
+      "because of the rain in those regions",
+      "Washington state and Oregon have early blooming months"
+    ],
+    "Even during the rain, there is sun.": [
+      "even during the rain there is sun"
+    ]
+  }
+}

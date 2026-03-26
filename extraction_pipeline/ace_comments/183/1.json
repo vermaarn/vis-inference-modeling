@@ -1,0 +1,17 @@
+{
+  "article_id": "183",
+  "comment_index": 1,
+  "raw_comment": "What about Gender Neutral  also the  young women reach out the family",
+  "ace_sentences": [
+    "The comment asks about gender neutrality.",
+    "The comment says that young women reach out to the family."
+  ],
+  "source_mappings": {
+    "The comment asks about gender neutrality.": [
+      "What about Gender Neutral"
+    ],
+    "The comment says that young women reach out to the family.": [
+      "the  young women reach out the family"
+    ]
+  }
+}

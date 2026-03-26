@@ -1,0 +1,49 @@
+{
+  "article_id": "183",
+  "comment_index": 5,
+  "raw_comment": "1. What do you notice? \n\nI  notice that across the board, young men are less likely to reach out to a parent as compared to young women.\n\n2. What do you wonder?\n\nI wonder why men are less likely to reach out than women, and what the age range of respondents is.\n\n3. What impact does this have on you and your community?\n\nThis has a great impact on me and my community as we all have relationships with our parents\n\n4. What's going on in this graph? \n\nGot mail? Communicating with parents",
+  "ace_sentences": [
+    "I notice something.",
+    "Across the board, young men are less likely to reach out to a parent than young women.",
+    "I wonder about something.",
+    "I wonder why men are less likely to reach out than women.",
+    "I wonder what the age range of respondents is.",
+    "This has a great impact on me.",
+    "This has a great impact on my community.",
+    "We all have relationships with our parents.",
+    "The graph is about communicating with parents.",
+    "The title is \"Got mail?\"."
+  ],
+  "source_mappings": {
+    "I notice something.": [
+      "I  notice"
+    ],
+    "Across the board, young men are less likely to reach out to a parent than young women.": [
+      "across the board, young men are less likely to reach out to a parent as compared to young women"
+    ],
+    "I wonder about something.": [
+      "I wonder"
+    ],
+    "I wonder why men are less likely to reach out than women.": [
+      "I wonder why men are less likely to reach out than women"
+    ],
+    "I wonder what the age range of respondents is.": [
+      "what the age range of respondents is"
+    ],
+    "This has a great impact on me.": [
+      "This has a great impact on me"
+    ],
+    "This has a great impact on my community.": [
+      "my community"
+    ],
+    "We all have relationships with our parents.": [
+      "we all have relationships with our parents"
+    ],
+    "The graph is about communicating with parents.": [
+      "Communicating with parents"
+    ],
+    "The title is \"Got mail?\".": [
+      "Got mail?"
+    ]
+  }
+}

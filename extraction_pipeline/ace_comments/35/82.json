@@ -1,0 +1,21 @@
+{
+  "article_id": "35",
+  "comment_index": 82,
+  "raw_comment": "We wonder if the graph is portraying a sudden \"Wave of Warmness\" and due to the altitude of the mountain area, if that would affect the climate and when spring would arrive.",
+  "ace_sentences": [
+    "We wonder if the graph portrays a sudden wave of warmness.",
+    "We wonder if the altitude of the mountain area affects the climate.",
+    "We wonder when spring arrives."
+  ],
+  "source_mappings": {
+    "We wonder if the graph portrays a sudden wave of warmness.": [
+      "We wonder if the graph is portraying a sudden \"Wave of Warmness\""
+    ],
+    "We wonder if the altitude of the mountain area affects the climate.": [
+      "due to the altitude of the mountain area, if that would affect the climate"
+    ],
+    "We wonder when spring arrives.": [
+      "when spring would arrive"
+    ]
+  }
+}

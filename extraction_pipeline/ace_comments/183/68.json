@@ -1,0 +1,85 @@
+{
+  "article_id": "183",
+  "comment_index": 68,
+  "raw_comment": "The first thing I notice is how the highest percentage of people reaching out to a parent is still less than 75% at best. It's young women over text who get the closest to 75%. I imagine that this is still a bit less than many people would hope. Another thing I notice is how the smallest gap appears with visiting in person. I suppose that visiting in person has less to do with gender and more to do with location. I wonder how they find the time to visit in person at least a few times a week, since even if you live relatively close, it can be hard to find the time to do so. And if someone did live that close, I wonder why they wouldn't just live with their parents to begin with. \nThis relates to me and my community as I'm a young college student living a few hours drive away from home. I'm more likely to text than to call, but I still often times call about once a week. \nI would name this graph \"Young Women More Likely to Call Mom than Men\", or \"Most Kids Prefer Texting their Parents, Not Calling\".",
+  "ace_sentences": [
+    "I notice the highest percentage of people reaching out to a parent.",
+    "The highest percentage is less than 75%.",
+    "Young women over text get the closest to 75%.",
+    "I imagine that this is less than many people would hope.",
+    "I notice the smallest gap.",
+    "The smallest gap appears with visiting in person.",
+    "I suppose that visiting in person has less to do with gender.",
+    "I suppose that visiting in person has more to do with location.",
+    "I wonder how they find the time to visit in person at least a few times a week.",
+    "Even if you live relatively close, it can be hard to find the time to do so.",
+    "I wonder why someone would not live with their parents.",
+    "Someone could live that close.",
+    "This relates to me and my community.",
+    "I am a young college student.",
+    "I live a few hours drive away from home.",
+    "I am more likely to text than to call.",
+    "I still often times call about once a week.",
+    "I would name this graph \"Young Women More Likely to Call Mom than Men\".",
+    "I would name this graph \"Most Kids Prefer Texting their Parents, Not Calling\"."
+  ],
+  "source_mappings": {
+    "I notice the highest percentage of people reaching out to a parent.": [
+      "The first thing I notice is how the highest percentage of people reaching out to a parent"
+    ],
+    "The highest percentage is less than 75%.": [
+      "is still less than 75% at best"
+    ],
+    "Young women over text get the closest to 75%.": [
+      "It's young women over text who get the closest to 75%"
+    ],
+    "I imagine that this is less than many people would hope.": [
+      "I imagine that this is still a bit less than many people would hope"
+    ],
+    "I notice the smallest gap.": [
+      "Another thing I notice is how the smallest gap appears"
+    ],
+    "The smallest gap appears with visiting in person.": [
+      "the smallest gap appears with visiting in person"
+    ],
+    "I suppose that visiting in person has less to do with gender.": [
+      "I suppose that visiting in person has less to do with gender"
+    ],
+    "I suppose that visiting in person has more to do with location.": [
+      "and more to do with location"
+    ],
+    "I wonder how they find the time to visit in person at least a few times a week.": [
+      "I wonder how they find the time to visit in person at least a few times a week"
+    ],
+    "Even if you live relatively close, it can be hard to find the time to do so.": [
+      "since even if you live relatively close, it can be hard to find the time to do so"
+    ],
+    "I wonder why someone would not live with their parents.": [
+      "I wonder why they wouldn't just live with their parents"
+    ],
+    "Someone could live that close.": [
+      "if someone did live that close"
+    ],
+    "This relates to me and my community.": [
+      "This relates to me and my community"
+    ],
+    "I am a young college student.": [
+      "I'm a young college student"
+    ],
+    "I live a few hours drive away from home.": [
+      "living a few hours drive away from home"
+    ],
+    "I am more likely to text than to call.": [
+      "I'm more likely to text than to call"
+    ],
+    "I still often times call about once a week.": [
+      "I still often times call about once a week"
+    ],
+    "I would name this graph \"Young Women More Likely to Call Mom than Men\".": [
+      "I would name this graph \"Young Women More Likely to Call Mom than Men\""
+    ],
+    "I would name this graph \"Most Kids Prefer Texting their Parents, Not Calling\".": [
+      "or \"Most Kids Prefer Texting their Parents, Not Calling\""
+    ]
+  }
+}

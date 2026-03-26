@@ -1,0 +1,21 @@
+{
+  "article_id": "183",
+  "comment_index": 136,
+  "raw_comment": "Young people reach out to their parents most over text compared to call. In person has the lowest amount of young people reaching out to their parents. I wonder why young people have little interaction with their parents",
+  "ace_sentences": [
+    "Young people reach out to their parents most over text compared to call.",
+    "In person has the lowest amount of young people reaching out to their parents.",
+    "I wonder why young people have little interaction with their parents."
+  ],
+  "source_mappings": {
+    "Young people reach out to their parents most over text compared to call.": [
+      "Young people reach out to their parents most over text compared to call."
+    ],
+    "In person has the lowest amount of young people reaching out to their parents.": [
+      "In person has the lowest amount of young people reaching out to their parents."
+    ],
+    "I wonder why young people have little interaction with their parents.": [
+      "I wonder why young people have little interaction with their parents"
+    ]
+  }
+}

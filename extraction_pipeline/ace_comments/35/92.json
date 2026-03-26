@@ -1,0 +1,17 @@
+{
+  "article_id": "35",
+  "comment_index": 92,
+  "raw_comment": "I noticed that the leaves grow first in Florida during Jan.",
+  "ace_sentences": [
+    "I noticed something.",
+    "Leaves grow first in Florida during January."
+  ],
+  "source_mappings": {
+    "I noticed something.": [
+      "I noticed"
+    ],
+    "Leaves grow first in Florida during January.": [
+      "the leaves grow first in Florida during Jan."
+    ]
+  }
+}

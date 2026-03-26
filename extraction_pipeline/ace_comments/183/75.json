@@ -1,0 +1,119 @@
+{
+  "article_id": "183",
+  "comment_index": 75,
+  "raw_comment": "First looking at the graphic, I noticed that for each form of communication, young women seemed to take the lead over young men in how often they reach out to their parents, whether through text, phone or in person. For instance, young women seem to send texts or talk on the phone with their parents 25% more frequently than young men. It appears that young women and young men are most similar in how often they visit their parents in person, with only about a 5% difference in frequency. Also, texting seems to be the most frequent form of communication for both young women and men. \nSomething I wonder about this graphic is why women tend to reach out more to their parents.  On top of that, I also wonder which parent they tend to reach out to more overall. For instance, I call my mom practically every day to keep her updated on my college life and then she'll just fill in my dad. However, this probably varies from person to person, and it would be interesting to see.\nThis relates to me as a person because out of my brother and I, I tend to reach out more to my parents. This could be because I'm the second child and therefore rely on my parents more for some things, but I also believe it does have something to do with me being a young woman versus my brother being a young man. Between the two of us, we accurately represent these statistics and that tends to go for a lot of boy/girl sibling relationships.\n\"Communication Trends: How Youth Stay Connected with Parents Across Genders\"",
+  "ace_sentences": [
+    "I looked at the graphic.",
+    "I noticed that young women seemed to take the lead over young men.",
+    "This lead concerns how often young women reach out to their parents.",
+    "This lead applies to each form of communication.",
+    "The forms of communication are text and phone and in person.",
+    "Young women seem to send texts with their parents 25% more frequently than young men.",
+    "Young women seem to talk on the phone with their parents 25% more frequently than young men.",
+    "Young women and young men are most similar in how often they visit their parents in person.",
+    "The difference in frequency is only about a 5%.",
+    "Texting seems to be the most frequent form of communication for young women.",
+    "Texting seems to be the most frequent form of communication for men.",
+    "I wonder why women tend to reach out more to their parents.",
+    "I also wonder which parent they tend to reach out to more overall.",
+    "I call my mom practically every day.",
+    "I call my mom to keep her updated on my college life.",
+    "Then she will just fill in my dad.",
+    "This probably varies from person to person.",
+    "It would be interesting to see.",
+    "This relates to me as a person.",
+    "Out of my brother and I, I tend to reach out more to my parents.",
+    "This could be because I am the second child.",
+    "Therefore I rely on my parents more for some things.",
+    "I also believe that it does have something to do with me being a young woman.",
+    "My brother is a young man.",
+    "Between the two of us, we accurately represent these statistics.",
+    "That tends to go for a lot of boy/girl sibling relationships.",
+    "The title is \"Communication Trends: How Youth Stay Connected with Parents Across Genders\"."
+  ],
+  "source_mappings": {
+    "I looked at the graphic.": [
+      "First looking at the graphic"
+    ],
+    "I noticed that young women seemed to take the lead over young men.": [
+      "I noticed that for each form of communication, young women seemed to take the lead over young men"
+    ],
+    "This lead concerns how often young women reach out to their parents.": [
+      "in how often they reach out to their parents"
+    ],
+    "This lead applies to each form of communication.": [
+      "for each form of communication"
+    ],
+    "The forms of communication are text and phone and in person.": [
+      "whether through text, phone or in person"
+    ],
+    "Young women seem to send texts with their parents 25% more frequently than young men.": [
+      "young women seem to send texts",
+      "with their parents 25% more frequently than young men"
+    ],
+    "Young women seem to talk on the phone with their parents 25% more frequently than young men.": [
+      "talk on the phone with their parents 25% more frequently than young men"
+    ],
+    "Young women and young men are most similar in how often they visit their parents in person.": [
+      "young women and young men are most similar in how often they visit their parents in person"
+    ],
+    "The difference in frequency is only about a 5%.": [
+      "with only about a 5% difference in frequency"
+    ],
+    "Texting seems to be the most frequent form of communication for young women.": [
+      "texting seems to be the most frequent form of communication for both young women"
+    ],
+    "Texting seems to be the most frequent form of communication for men.": [
+      "texting seems to be the most frequent form of communication for",
+      "men"
+    ],
+    "I wonder why women tend to reach out more to their parents.": [
+      "Something I wonder about this graphic is why women tend to reach out more to their parents."
+    ],
+    "I also wonder which parent they tend to reach out to more overall.": [
+      "I also wonder which parent they tend to reach out to more overall."
+    ],
+    "I call my mom practically every day.": [
+      "I call my mom practically every day"
+    ],
+    "I call my mom to keep her updated on my college life.": [
+      "to keep her updated on my college life"
+    ],
+    "Then she will just fill in my dad.": [
+      "and then she'll just fill in my dad."
+    ],
+    "This probably varies from person to person.": [
+      "However, this probably varies from person to person"
+    ],
+    "It would be interesting to see.": [
+      "it would be interesting to see."
+    ],
+    "This relates to me as a person.": [
+      "This relates to me as a person"
+    ],
+    "Out of my brother and I, I tend to reach out more to my parents.": [
+      "out of my brother and I, I tend to reach out more to my parents."
+    ],
+    "This could be because I am the second child.": [
+      "This could be because I'm the second child"
+    ],
+    "Therefore I rely on my parents more for some things.": [
+      "and therefore rely on my parents more for some things"
+    ],
+    "I also believe that it does have something to do with me being a young woman.": [
+      "but I also believe it does have something to do with me being a young woman"
+    ],
+    "My brother is a young man.": [
+      "my brother being a young man"
+    ],
+    "Between the two of us, we accurately represent these statistics.": [
+      "Between the two of us, we accurately represent these statistics"
+    ],
+    "That tends to go for a lot of boy/girl sibling relationships.": [
+      "and that tends to go for a lot of boy/girl sibling relationships."
+    ],
+    "The title is \"Communication Trends: How Youth Stay Connected with Parents Across Genders\".": [
+      "\"Communication Trends: How Youth Stay Connected with Parents Across Genders\""
+    ]
+  }
+}

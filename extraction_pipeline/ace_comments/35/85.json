@@ -1,0 +1,29 @@
+{
+  "article_id": "35",
+  "comment_index": 85,
+  "raw_comment": "Here are some ideas:\nFirst 5 months of leaves\nLeaves, leaves, and more leaves\nBeleaf it or not!",
+  "ace_sentences": [
+    "Some ideas exist.",
+    "Leaves exist.",
+    "More leaves exist.",
+    "The first 5 months are months of leaves.",
+    "Beleaf it or not is a headline."
+  ],
+  "source_mappings": {
+    "Some ideas exist.": [
+      "Here are some ideas:"
+    ],
+    "Leaves exist.": [
+      "Leaves, leaves"
+    ],
+    "More leaves exist.": [
+      "and more leaves"
+    ],
+    "The first 5 months are months of leaves.": [
+      "First 5 months of leaves"
+    ],
+    "Beleaf it or not is a headline.": [
+      "Beleaf it or not!"
+    ]
+  }
+}

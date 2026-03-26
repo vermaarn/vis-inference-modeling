@@ -1,0 +1,65 @@
+{
+  "article_id": "183",
+  "comment_index": 103,
+  "raw_comment": "1.I notice that talking with parents in person has gone down and became somewhat irrelevant as being to lowest way to talk with parents. Between 50% and 70% of men and women, text their parents while 30% to 55% contact through Video Calls. In person however, it ranges between 17% and 25%. \n\n2.I wonder if phones affect how many times they contact their parent compared to in person. I also wonder the rates throughout the years to where in person contact will come to an end. \n\n3.This relates to me and my community because my generation grew up with smartphones and everyone is on it. They use phones as avoidance from parents when there is conflict and seem lazy to talk with them maturely in person. \n\n4.Has in-person contact become irrelevant?",
+  "ace_sentences": [
+    "Talking with parents in person has gone down.",
+    "Talking with parents in person has become somewhat irrelevant.",
+    "Talking with parents in person is the lowest way to talk with parents.",
+    "Between 50% and 70% of men and women text their parents.",
+    "Between 30% and 55% of men and women contact their parents through video calls.",
+    "In person, it ranges between 17% and 25%.",
+    "Phones may affect how many times people contact their parent compared to in person.",
+    "I wonder if in-person contact will come to an end.",
+    "This relates to me and my community.",
+    "My generation grew up with smartphones.",
+    "Everyone is on it.",
+    "They use phones as avoidance from parents when there is conflict.",
+    "They seem lazy to talk with parents maturely in person.",
+    "In-person contact may have become irrelevant."
+  ],
+  "source_mappings": {
+    "Talking with parents in person has gone down.": [
+      "talking with parents in person has gone down"
+    ],
+    "Talking with parents in person has become somewhat irrelevant.": [
+      "became somewhat irrelevant"
+    ],
+    "Talking with parents in person is the lowest way to talk with parents.": [
+      "being to lowest way to talk with parents"
+    ],
+    "Between 50% and 70% of men and women text their parents.": [
+      "Between 50% and 70% of men and women, text their parents"
+    ],
+    "Between 30% and 55% of men and women contact their parents through video calls.": [
+      "30% to 55% contact through Video Calls"
+    ],
+    "In person, it ranges between 17% and 25%.": [
+      "In person however, it ranges between 17% and 25%."
+    ],
+    "Phones may affect how many times people contact their parent compared to in person.": [
+      "I wonder if phones affect how many times they contact their parent compared to in person."
+    ],
+    "I wonder if in-person contact will come to an end.": [
+      "in person contact will come to an end"
+    ],
+    "This relates to me and my community.": [
+      "This relates to me and my community"
+    ],
+    "My generation grew up with smartphones.": [
+      "my generation grew up with smartphones"
+    ],
+    "Everyone is on it.": [
+      "everyone is on it"
+    ],
+    "They use phones as avoidance from parents when there is conflict.": [
+      "They use phones as avoidance from parents when there is conflict"
+    ],
+    "They seem lazy to talk with parents maturely in person.": [
+      "seem lazy to talk with them maturely in person"
+    ],
+    "In-person contact may have become irrelevant.": [
+      "Has in-person contact become irrelevant?"
+    ]
+  }
+}

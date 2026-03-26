@@ -1,0 +1,111 @@
+{
+  "article_id": "91",
+  "comment_index": 76,
+  "raw_comment": "When glancing at the graphs, I notice that the NFL has the 3rd highest percentage of athletes of color, however, it has the lowest percentage of coaches of color. This contrasts with the MLS, in which 60% of players are of color, but 41% of coaches are of color, which is easily the highest percentage out of all American major league sports.\n\nI wonder what history has to do with this.  Do certain sports have a lower or higher player/coach percentage of color because of its history, or is there no relationship.  In addition to this, why does MLS have the best ratio of player to coach?\n\nSports is one of the if not the most popular pastime in America. Millions attend and watch games from either the stands, or more likely during our current situation, over television.  The graphs given show America's history, and the inequality that has existed between those of color and those not.  \n\n“America’s history is hidden within our favorite sports.”",
+  "ace_sentences": [
+    "I glance at the graphs.",
+    "I notice that the NFL has the 3rd highest percentage of athletes of color.",
+    "I notice that the NFL has the lowest percentage of coaches of color.",
+    "This contrasts with the MLS.",
+    "In the MLS, 60% of players are of color.",
+    "In the MLS, 41% of coaches are of color.",
+    "41% is the highest percentage out of all American major league sports.",
+    "I wonder what history has to do with this.",
+    "Certain sports may have a lower player percentage of color because of its history.",
+    "Certain sports may have a higher player percentage of color because of its history.",
+    "Certain sports may have a lower coach percentage of color because of its history.",
+    "Certain sports may have a higher coach percentage of color because of its history.",
+    "There may be no relationship.",
+    "I ask why MLS has the best ratio of player to coach.",
+    "Sports is the most popular pastime in America.",
+    "Millions attend games.",
+    "Millions watch games from the stands.",
+    "Millions watch games over television.",
+    "This is more likely during our current situation.",
+    "The graphs given show America's history.",
+    "The graphs given show the inequality.",
+    "The inequality has existed between those of color and those not.",
+    "America’s history is hidden within our favorite sports."
+  ],
+  "source_mappings": {
+    "I glance at the graphs.": [
+      "When glancing at the graphs"
+    ],
+    "I notice that the NFL has the 3rd highest percentage of athletes of color.": [
+      "I notice that the NFL has the 3rd highest percentage of athletes of color"
+    ],
+    "I notice that the NFL has the lowest percentage of coaches of color.": [
+      "it has the lowest percentage of coaches of color"
+    ],
+    "This contrasts with the MLS.": [
+      "This contrasts with the MLS"
+    ],
+    "In the MLS, 60% of players are of color.": [
+      "in which 60% of players are of color"
+    ],
+    "In the MLS, 41% of coaches are of color.": [
+      "but 41% of coaches are of color"
+    ],
+    "41% is the highest percentage out of all American major league sports.": [
+      "which is easily the highest percentage out of all American major league sports"
+    ],
+    "I wonder what history has to do with this.": [
+      "I wonder what history has to do with this."
+    ],
+    "Certain sports may have a lower player percentage of color because of its history.": [
+      "Do certain sports have a lower",
+      "player",
+      "percentage of color because of its history"
+    ],
+    "Certain sports may have a higher player percentage of color because of its history.": [
+      "Do certain sports have a",
+      "higher",
+      "player",
+      "percentage of color because of its history"
+    ],
+    "Certain sports may have a lower coach percentage of color because of its history.": [
+      "Do certain sports have a lower",
+      "coach",
+      "percentage of color because of its history"
+    ],
+    "Certain sports may have a higher coach percentage of color because of its history.": [
+      "Do certain sports have a",
+      "higher",
+      "coach",
+      "percentage of color because of its history"
+    ],
+    "There may be no relationship.": [
+      "or is there no relationship."
+    ],
+    "I ask why MLS has the best ratio of player to coach.": [
+      "why does MLS have the best ratio of player to coach?"
+    ],
+    "Sports is the most popular pastime in America.": [
+      "Sports is one of the if not the most popular pastime in America."
+    ],
+    "Millions attend games.": [
+      "Millions attend"
+    ],
+    "Millions watch games from the stands.": [
+      "watch games from either the stands"
+    ],
+    "Millions watch games over television.": [
+      "over television"
+    ],
+    "This is more likely during our current situation.": [
+      "or more likely during our current situation"
+    ],
+    "The graphs given show America's history.": [
+      "The graphs given show America's history"
+    ],
+    "The graphs given show the inequality.": [
+      "the inequality that has existed"
+    ],
+    "The inequality has existed between those of color and those not.": [
+      "the inequality that has existed between those of color and those not."
+    ],
+    "America’s history is hidden within our favorite sports.": [
+      "“America’s history is hidden within our favorite sports.”"
+    ]
+  }
+}

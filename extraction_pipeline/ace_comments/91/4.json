@@ -1,0 +1,49 @@
+{
+  "article_id": "91",
+  "comment_index": 4,
+  "raw_comment": "What do you notice?\nI noticed that in all 4 data sets, there are more players of color than Head coaches of color. Also that the peak of amount of Head coaches of color is in 2020 for the Major League Soccer.\nWhat do you wonder?\nWhat is the data regarding this in 2021 so far? \nWhat impact does this have on you and your community?\nIt shows the diversity in our national sports teams. And should make us wonder why is there less Head coaches of color than players?\nWhat’s going on in this graph? Write a catchy headline that captures the graph’s main idea.\nDoes the Sport determine the diversity of a team and coach?",
+  "ace_sentences": [
+    "I notice something.",
+    "I noticed that in all 4 data sets there are more players of color than head coaches of color.",
+    "I noticed that the peak of the amount of head coaches of color is in 2020 for the Major League Soccer.",
+    "I wonder something.",
+    "I wonder what the data is regarding this in 2021 so far.",
+    "This has an impact on me and my community.",
+    "It shows the diversity in our national sports teams.",
+    "This should make us wonder why there are less head coaches of color than players of color.",
+    "The headline is:",
+    "Does the sport determine the diversity of a team and coach?"
+  ],
+  "source_mappings": {
+    "I notice something.": [
+      "What do you notice?"
+    ],
+    "I noticed that in all 4 data sets there are more players of color than head coaches of color.": [
+      "I noticed that in all 4 data sets, there are more players of color than Head coaches of color."
+    ],
+    "I noticed that the peak of the amount of head coaches of color is in 2020 for the Major League Soccer.": [
+      "the peak of amount of Head coaches of color is in 2020 for the Major League Soccer."
+    ],
+    "I wonder something.": [
+      "What do you wonder?"
+    ],
+    "I wonder what the data is regarding this in 2021 so far.": [
+      "What is the data regarding this in 2021 so far?"
+    ],
+    "This has an impact on me and my community.": [
+      "What impact does this have on you and your community?"
+    ],
+    "It shows the diversity in our national sports teams.": [
+      "It shows the diversity in our national sports teams."
+    ],
+    "This should make us wonder why there are less head coaches of color than players of color.": [
+      "And should make us wonder why is there less Head coaches of color than players?"
+    ],
+    "The headline is:": [
+      "Write a catchy headline that captures the graph’s main idea."
+    ],
+    "Does the sport determine the diversity of a team and coach?": [
+      "Does the Sport determine the diversity of a team and coach?"
+    ]
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "article_id": "183",
+  "comment_index": 64,
+  "raw_comment": "What do you notice?\nYoung women tend to reach out to a parent more, in texting, calling, and visiting in person\nThe difference between young women and young men reaching out is similar for texting and calling, but the difference is much smaller for visiting (which requires a larger time and resource commitment). \n\nWhat do you wonder?\n- Girls are socialized to be more family-oriented and social. Is that a cause of the “gap” between young men and young women reaching out?\n- What do these gaps look like in various types of parents? (e.g. single mom, single dad, two moms, two dads) \n- What are the percentages of young people who reach out to immigrant parents vs. native-born parents? \n(Young people with immigrant parents may reach out not only for social purposes but for practical purposes such as helping with taxes and bills written in English.\nNon-Western cultures tend to be more family and community-oriented than the more individualistic Western cultures)\n\nHow does this relate to you and your community?\nMy dad helps my grandparents with their healthcare, taxes, and bills because they don’t know English well. He has been doing this since he was a kid when their family immigrated to America. \nI have a very healthy relationship with my parents; I text them almost every day and call them weekly. Some people I know who have weirder dynamics with their parents reach out much less. \n\nHeadline:\nGender Disparities In Young Adult Child Communication With Parents",
+  "ace_sentences": [
+    "Young women tend to reach out to a parent more.",
+    "Young women tend to reach out in texting.",
+    "Young women tend to reach out in calling.",
+    "Young women tend to reach out in visiting in person.",
+    "The difference between young women and young men reaching out is similar for texting.",
+    "The difference between young women and young men reaching out is similar for calling.",
+    "The difference between young women and young men reaching out is much smaller for visiting.",
+    "Visiting requires a larger time and resource commitment.",
+    "Girls are socialized to be more family-oriented.",
+    "Girls are socialized to be more social.",
+    "This may be a cause of the gap between young men and young women reaching out.",
+    "I wonder what these gaps look like in various types of parents.",
+    "A single mom is a type of parent.",
+    "A single dad is a type of parent.",
+    "Two moms are a type of parent.",
+    "Two dads are a type of parent.",
+    "I wonder what the percentages are of young people who reach out to immigrant parents.",
+    "I wonder what the percentages are of young people who reach out to native-born parents.",
+    "Young people with immigrant parents may reach out for social purposes.",
+    "Young people with immigrant parents may reach out for practical purposes.",
+    "Helping with taxes is a practical purpose.",
+    "Helping with bills written in English is a practical purpose.",
+    "Non-Western cultures tend to be more family-oriented than the more individualistic Western cultures.",
+    "Non-Western cultures tend to be more community-oriented than the more individualistic Western cultures.",
+    "My dad helps my grandparents with their healthcare.",
+    "My dad helps my grandparents with taxes.",
+    "My dad helps my grandparents with bills.",
+    "My grandparents do not know English well.",
+    "My dad has been doing this since he was a kid.",
+    "Their family immigrated to America.",
+    "I have a very healthy relationship with my parents.",
+    "I text my parents almost every day.",
+    "I call my parents weekly.",
+    "Some people I know have weirder dynamics with their parents.",
+    "Some people I know reach out much less.",
+    "The headline is Gender Disparities In Young Adult Child Communication With Parents."
+  ],
+  "source_mappings": {
+    "Young women tend to reach out to a parent more.": [
+      "Young women tend to reach out to a parent more"
+    ],
+    "Young women tend to reach out in texting.": [
+      "in texting"
+    ],
+    "Young women tend to reach out in calling.": [
+      "calling"
+    ],
+    "Young women tend to reach out in visiting in person.": [
+      "visiting in person"
+    ],
+    "The difference between young women and young men reaching out is similar for texting.": [
+      "The difference between young women and young men reaching out is similar for texting"
+    ],
+    "The difference between young women and young men reaching out is similar for calling.": [
+      "and calling"
+    ],
+    "The difference between young women and young men reaching out is much smaller for visiting.": [
+      "the difference is much smaller for visiting"
+    ],
+    "Visiting requires a larger time and resource commitment.": [
+      "visiting (which requires a larger time and resource commitment)"
+    ],
+    "Girls are socialized to be more family-oriented.": [
+      "Girls are socialized to be more family-oriented"
+    ],
+    "Girls are socialized to be more social.": [
+      "and social"
+    ],
+    "This may be a cause of the gap between young men and young women reaching out.": [
+      "Is that a cause of the “gap” between young men and young women reaching out?"
+    ],
+    "I wonder what these gaps look like in various types of parents.": [
+      "What do these gaps look like in various types of parents?"
+    ],
+    "A single mom is a type of parent.": [
+      "single mom"
+    ],
+    "A single dad is a type of parent.": [
+      "single dad"
+    ],
+    "Two moms are a type of parent.": [
+      "two moms"
+    ],
+    "Two dads are a type of parent.": [
+      "two dads"
+    ],
+    "I wonder what the percentages are of young people who reach out to immigrant parents.": [
+      "What are the percentages of young people who reach out to immigrant parents"
+    ],
+    "I wonder what the percentages are of young people who reach out to native-born parents.": [
+      "vs. native-born parents?"
+    ],
+    "Young people with immigrant parents may reach out for social purposes.": [
+      "Young people with immigrant parents may reach out not only for social purposes"
+    ],
+    "Young people with immigrant parents may reach out for practical purposes.": [
+      "but for practical purposes"
+    ],
+    "Helping with taxes is a practical purpose.": [
+      "helping with taxes"
+    ],
+    "Helping with bills written in English is a practical purpose.": [
+      "bills written in English"
+    ],
+    "Non-Western cultures tend to be more family-oriented than the more individualistic Western cultures.": [
+      "Non-Western cultures tend to be more family and community-oriented than the more individualistic Western cultures"
+    ],
+    "Non-Western cultures tend to be more community-oriented than the more individualistic Western cultures.": [
+      "Non-Western cultures tend to be more family and community-oriented than the more individualistic Western cultures"
+    ],
+    "My dad helps my grandparents with their healthcare.": [
+      "My dad helps my grandparents with their healthcare"
+    ],
+    "My dad helps my grandparents with taxes.": [
+      "taxes"
+    ],
+    "My dad helps my grandparents with bills.": [
+      "bills"
+    ],
+    "My grandparents do not know English well.": [
+      "they don’t know English well"
+    ],
+    "My dad has been doing this since he was a kid.": [
+      "He has been doing this since he was a kid"
+    ],
+    "Their family immigrated to America.": [
+      "their family immigrated to America"
+    ],
+    "I have a very healthy relationship with my parents.": [
+      "I have a very healthy relationship with my parents"
+    ],
+    "I text my parents almost every day.": [
+      "I text them almost every day"
+    ],
+    "I call my parents weekly.": [
+      "call them weekly"
+    ],
+    "Some people I know have weirder dynamics with their parents.": [
+      "Some people I know who have weirder dynamics with their parents"
+    ],
+    "Some people I know reach out much less.": [
+      "reach out much less"
+    ],
+    "The headline is Gender Disparities In Young Adult Child Communication With Parents.": [
+      "Gender Disparities In Young Adult Child Communication With Parents"
+    ]
+  }
+}

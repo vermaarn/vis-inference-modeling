@@ -1,0 +1,40 @@
+{
+  "article_id": "35",
+  "comment_index": 119,
+  "raw_comment": "We noticed :\nThis graph talks about leafs falling\nApril has the has more leafs falling compared to others\nThe states are divided by the months of the year\nJaniuary is the shortest percentage\nWe wondered:\nWhat are the percentages\nWhat the colors represent",
+  "ace_sentences": [
+    "We noticed this graph.",
+    "This graph talks about leafs falling.",
+    "April has more leafs falling than other months.",
+    "The states are divided by the months of the year.",
+    "Janiuary has the shortest percentage.",
+    "We wondered about the percentages.",
+    "We wondered what the colors represent."
+  ],
+  "source_mappings": {
+    "We noticed this graph.": [
+      "We noticed :",
+      "This graph"
+    ],
+    "This graph talks about leafs falling.": [
+      "This graph talks about leafs falling"
+    ],
+    "April has more leafs falling than other months.": [
+      "April has the has more leafs falling compared to others"
+    ],
+    "The states are divided by the months of the year.": [
+      "The states are divided by the months of the year"
+    ],
+    "Janiuary has the shortest percentage.": [
+      "Janiuary is the shortest percentage"
+    ],
+    "We wondered about the percentages.": [
+      "We wondered:",
+      "What are the percentages"
+    ],
+    "We wondered what the colors represent.": [
+      "We wondered:",
+      "What the colors represent"
+    ]
+  }
+}

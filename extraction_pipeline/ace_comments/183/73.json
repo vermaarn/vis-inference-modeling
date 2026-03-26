@@ -1,0 +1,87 @@
+{
+  "article_id": "183",
+  "comment_index": 73,
+  "raw_comment": "I've noticed that, generally speaking, women are more prone than males to communicate with their parents many times a week. It's also apparent to me that the majority of youth would rather text or contact their parents than see them.\nI'm curious to know how these answers might vary with age. Given that it takes around 13 years to complete high school and enter kindergarten, the survey's age range of 18 to 34 represents a 16-year disparity. Would the likelihood of communication between the older and younger children with their parents be higher or lower?\nThere are a lot of individuals my age in my neighborhood who intend to attend college. It's intriguing to realize that, depending on the course we choose in life, we can eventually fall into one of these groups as someone who is leaving home rather far away. \nHow Do You Get in Touch With Your Parents?",
+  "ace_sentences": [
+    "Women are more prone than males to communicate with their parents many times a week.",
+    "The majority of youth would rather text their parents than see them.",
+    "The majority of youth would rather contact their parents than see them.",
+    "I am curious to know how these answers might vary with age.",
+    "It takes around 13 years to complete high school and enter kindergarten.",
+    "The survey has an age range of 18 to 34.",
+    "The age range of 18 to 34 represents a 16-year disparity.",
+    "The likelihood of communication between the older children and their parents might be higher.",
+    "The likelihood of communication between the older children and their parents might be lower.",
+    "The likelihood of communication between the younger children and their parents might be higher.",
+    "The likelihood of communication between the younger children and their parents might be lower.",
+    "There are a lot of individuals my age in my neighborhood.",
+    "A lot of individuals my age in my neighborhood intend to attend college.",
+    "Depending on the course we choose in life, we can eventually fall into one of these groups.",
+    "Someone can be leaving home rather far away.",
+    "The headline is:",
+    "How Do You Get in Touch With Your Parents?"
+  ],
+  "source_mappings": {
+    "Women are more prone than males to communicate with their parents many times a week.": [
+      "women are more prone than males to communicate with their parents many times a week"
+    ],
+    "The majority of youth would rather text their parents than see them.": [
+      "the majority of youth would rather text",
+      "their parents",
+      "than see them"
+    ],
+    "The majority of youth would rather contact their parents than see them.": [
+      "the majority of youth would rather",
+      "contact their parents",
+      "than see them"
+    ],
+    "I am curious to know how these answers might vary with age.": [
+      "I'm curious to know how these answers might vary with age."
+    ],
+    "It takes around 13 years to complete high school and enter kindergarten.": [
+      "it takes around 13 years to complete high school and enter kindergarten"
+    ],
+    "The survey has an age range of 18 to 34.": [
+      "the survey's age range of 18 to 34"
+    ],
+    "The age range of 18 to 34 represents a 16-year disparity.": [
+      "age range of 18 to 34 represents a 16-year disparity"
+    ],
+    "The likelihood of communication between the older children and their parents might be higher.": [
+      "the likelihood of communication between the older",
+      "and",
+      "their parents be higher"
+    ],
+    "The likelihood of communication between the older children and their parents might be lower.": [
+      "the likelihood of communication between the older",
+      "and",
+      "their parents be higher or lower?"
+    ],
+    "The likelihood of communication between the younger children and their parents might be higher.": [
+      "and younger children",
+      "with their parents be higher"
+    ],
+    "The likelihood of communication between the younger children and their parents might be lower.": [
+      "and younger children",
+      "with their parents be higher or lower?"
+    ],
+    "There are a lot of individuals my age in my neighborhood.": [
+      "There are a lot of individuals my age in my neighborhood"
+    ],
+    "A lot of individuals my age in my neighborhood intend to attend college.": [
+      "There are a lot of individuals my age in my neighborhood who intend to attend college."
+    ],
+    "Depending on the course we choose in life, we can eventually fall into one of these groups.": [
+      "depending on the course we choose in life, we can eventually fall into one of these groups"
+    ],
+    "Someone can be leaving home rather far away.": [
+      "someone who is leaving home rather far away"
+    ],
+    "The headline is:": [
+      "How Do You Get in Touch With Your Parents?"
+    ],
+    "How Do You Get in Touch With Your Parents?": [
+      "How Do You Get in Touch With Your Parents?"
+    ]
+  }
+}

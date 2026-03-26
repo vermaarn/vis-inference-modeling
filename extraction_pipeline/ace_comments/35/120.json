@@ -1,0 +1,71 @@
+{
+  "article_id": "35",
+  "comment_index": 120,
+  "raw_comment": "Hi, We are a third grade class from Juneau, AK, and we are learning how to read infographics. \n\nWe noticed: \n- This map did not show AK or HI. :( \n- The title told us this graphic was about leafs falling.\n- The first leave appearances moved from south to north (mostly). \n- May leaf appearances were very spread out and small. \n- February has 28 days. \n\nWe wondered: \n- Why there were so many colors? \n- When the first leaf appearance is for AK and HI? \n- Why does May look the way it does? \n\nA catchy title we thought of was \"As the Leafs grow.\" \n\nThank you for reading our thoughts!!",
+  "ace_sentences": [
+    "We are a third grade class from Juneau, AK.",
+    "We are learning how to read infographics.",
+    "This map did not show AK.",
+    "This map did not show HI.",
+    "The title told us that this graphic was about leafs falling.",
+    "The first leave appearances moved from south to north mostly.",
+    "May leaf appearances were very spread out.",
+    "May leaf appearances were small.",
+    "February has 28 days.",
+    "We wondered why there were so many colors.",
+    "We wondered when the first leaf appearance is for AK.",
+    "We wondered when the first leaf appearance is for HI.",
+    "We wondered why May looks the way it does.",
+    "A catchy title that we thought of was \"As the Leafs grow.\"",
+    "We thank you for reading our thoughts."
+  ],
+  "source_mappings": {
+    "We are a third grade class from Juneau, AK.": [
+      "We are a third grade class from Juneau, AK"
+    ],
+    "We are learning how to read infographics.": [
+      "we are learning how to read infographics"
+    ],
+    "This map did not show AK.": [
+      "This map did not show AK"
+    ],
+    "This map did not show HI.": [
+      "This map did not show AK or HI",
+      "HI"
+    ],
+    "The title told us that this graphic was about leafs falling.": [
+      "The title told us this graphic was about leafs falling."
+    ],
+    "The first leave appearances moved from south to north mostly.": [
+      "The first leave appearances moved from south to north (mostly)."
+    ],
+    "May leaf appearances were very spread out.": [
+      "May leaf appearances were very spread out"
+    ],
+    "May leaf appearances were small.": [
+      "May leaf appearances were very spread out and small."
+    ],
+    "February has 28 days.": [
+      "February has 28 days."
+    ],
+    "We wondered why there were so many colors.": [
+      "Why there were so many colors?"
+    ],
+    "We wondered when the first leaf appearance is for AK.": [
+      "When the first leaf appearance is for AK"
+    ],
+    "We wondered when the first leaf appearance is for HI.": [
+      "When the first leaf appearance is for AK and HI?",
+      "HI"
+    ],
+    "We wondered why May looks the way it does.": [
+      "Why does May look the way it does?"
+    ],
+    "A catchy title that we thought of was \"As the Leafs grow.\"": [
+      "A catchy title we thought of was \"As the Leafs grow.\""
+    ],
+    "We thank you for reading our thoughts.": [
+      "Thank you for reading our thoughts!!"
+    ]
+  }
+}

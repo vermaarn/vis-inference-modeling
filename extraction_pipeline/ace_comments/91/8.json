@@ -1,0 +1,73 @@
+{
+  "article_id": "91",
+  "comment_index": 8,
+  "raw_comment": "What I noticed: I noticed that baseball has the lowest percentage of colored players.  The players have higher rates of colored players than that of the coaches, and only baseball has less than 50% of their payers identify as colored.  The Women's National Basketball Association and the National Basketball Association both have the same percentage of colored players, and similar percentages of colored coaches.\n\nWhat I wonder:  Why are the coaches so much less diverse than the players?  What may have caused this? Does the time at which the data was recorded affect the amount of diversity?\n\nImpact: This graph has the potential to impact our community both positively and negatively.  Although it does promote racial equality in sports by encouraging the fact that people of color are able to be treated equally, it also shows that there is a lack of diversity among the coaches, which could potentially spread the message that people of color are less worthy of leading than those not of color.\n\nHeading: Are Sports Teams Really as Diverse as We Think?",
+  "ace_sentences": [
+    "I noticed that baseball has the lowest percentage of colored players.",
+    "The players have higher rates of colored players than that of the coaches.",
+    "Only baseball has less than 50% of their payers identify as colored.",
+    "The Women's National Basketball Association has the same percentage of colored players as the National Basketball Association.",
+    "The Women's National Basketball Association has similar percentages of colored coaches as the National Basketball Association.",
+    "I wonder why the coaches are so much less diverse than the players.",
+    "I wonder what may have caused this.",
+    "I wonder whether the time at which the data was recorded affects the amount of diversity.",
+    "This graph has the potential to impact our community positively.",
+    "This graph has the potential to impact our community negatively.",
+    "This graph promotes racial equality in sports.",
+    "This graph encourages the fact that people of color are able to be treated equally.",
+    "This graph shows that there is a lack of diversity among the coaches.",
+    "This lack of diversity among the coaches could potentially spread the message that people of color are less worthy of leading than those not of color.",
+    "The heading is:",
+    "Are Sports Teams Really as Diverse as We Think?"
+  ],
+  "source_mappings": {
+    "I noticed that baseball has the lowest percentage of colored players.": [
+      "I noticed that baseball has the lowest percentage of colored players."
+    ],
+    "The players have higher rates of colored players than that of the coaches.": [
+      "The players have higher rates of colored players than that of the coaches"
+    ],
+    "Only baseball has less than 50% of their payers identify as colored.": [
+      "only baseball has less than 50% of their payers identify as colored."
+    ],
+    "The Women's National Basketball Association has the same percentage of colored players as the National Basketball Association.": [
+      "The Women's National Basketball Association and the National Basketball Association both have the same percentage of colored players"
+    ],
+    "The Women's National Basketball Association has similar percentages of colored coaches as the National Basketball Association.": [
+      "and similar percentages of colored coaches."
+    ],
+    "I wonder why the coaches are so much less diverse than the players.": [
+      "Why are the coaches so much less diverse than the players?"
+    ],
+    "I wonder what may have caused this.": [
+      "What may have caused this?"
+    ],
+    "I wonder whether the time at which the data was recorded affects the amount of diversity.": [
+      "Does the time at which the data was recorded affect the amount of diversity?"
+    ],
+    "This graph has the potential to impact our community positively.": [
+      "This graph has the potential to impact our community both positively and negatively."
+    ],
+    "This graph has the potential to impact our community negatively.": [
+      "This graph has the potential to impact our community both positively and negatively."
+    ],
+    "This graph promotes racial equality in sports.": [
+      "Although it does promote racial equality in sports"
+    ],
+    "This graph encourages the fact that people of color are able to be treated equally.": [
+      "by encouraging the fact that people of color are able to be treated equally"
+    ],
+    "This graph shows that there is a lack of diversity among the coaches.": [
+      "it also shows that there is a lack of diversity among the coaches"
+    ],
+    "This lack of diversity among the coaches could potentially spread the message that people of color are less worthy of leading than those not of color.": [
+      "which could potentially spread the message that people of color are less worthy of leading than those not of color."
+    ],
+    "The heading is:": [
+      "Heading:"
+    ],
+    "Are Sports Teams Really as Diverse as We Think?": [
+      "Are Sports Teams Really as Diverse as We Think?"
+    ]
+  }
+}

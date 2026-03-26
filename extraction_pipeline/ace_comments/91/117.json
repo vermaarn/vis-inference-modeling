@@ -1,0 +1,62 @@
+{
+  "article_id": "91",
+  "comment_index": 117,
+  "raw_comment": "Part 2\n \n What do you wonder? I wonder what the term “colored” is referring to. Does this refer to everyone who is non-caucasian or does this refer to only African Americans? I am curious about this because I wonder if the numbers would change, especially in the MLS since it is more popular in Europe and South America than in the United States. Does this also lead to the fact that since soccer is not among the top three most popular sports in the U.S. and the understanding that many players are not from America, is the reason why the numbers are more equal among people of color and non-color in both players and coaches?  \n \nI also wonder why the data for the WNBA is from 2019 and not 2020 like the rest of the data. Is this not as accurate because of the Coronavirus?",
+  "ace_sentences": [
+    "I wonder what the term \"colored\" is referring to.",
+    "I ask if this refers to everyone who is non-caucasian.",
+    "I ask if this refers to only African Americans.",
+    "I am curious about this.",
+    "I wonder if the numbers would change.",
+    "I wonder if the numbers would change in the MLS.",
+    "The MLS is more popular in Europe and South America than in the United States.",
+    "Soccer is not among the top three most popular sports in the U.S.",
+    "Many players are not from America.",
+    "I ask if this is the reason why the numbers are more equal among people of color and non-color in both players and coaches.",
+    "I also wonder why the data for the WNBA is from 2019.",
+    "I also wonder why the data for the WNBA is not 2020 like the rest of the data.",
+    "I ask if this is not as accurate because of the Coronavirus."
+  ],
+  "source_mappings": {
+    "I wonder what the term \"colored\" is referring to.": [
+      "I wonder what the term “colored” is referring to."
+    ],
+    "I ask if this refers to everyone who is non-caucasian.": [
+      "Does this refer to everyone who is non-caucasian"
+    ],
+    "I ask if this refers to only African Americans.": [
+      "does this refer to only African Americans?"
+    ],
+    "I am curious about this.": [
+      "I am curious about this"
+    ],
+    "I wonder if the numbers would change.": [
+      "I wonder if the numbers would change"
+    ],
+    "I wonder if the numbers would change in the MLS.": [
+      "I wonder if the numbers would change",
+      "in the MLS"
+    ],
+    "The MLS is more popular in Europe and South America than in the United States.": [
+      "the MLS since it is more popular in Europe and South America than in the United States."
+    ],
+    "Soccer is not among the top three most popular sports in the U.S.": [
+      "since soccer is not among the top three most popular sports in the U.S."
+    ],
+    "Many players are not from America.": [
+      "the understanding that many players are not from America"
+    ],
+    "I ask if this is the reason why the numbers are more equal among people of color and non-color in both players and coaches.": [
+      "is the reason why the numbers are more equal among people of color and non-color in both players and coaches?"
+    ],
+    "I also wonder why the data for the WNBA is from 2019.": [
+      "I also wonder why the data for the WNBA is from 2019"
+    ],
+    "I also wonder why the data for the WNBA is not 2020 like the rest of the data.": [
+      "and not 2020 like the rest of the data."
+    ],
+    "I ask if this is not as accurate because of the Coronavirus.": [
+      "Is this not as accurate because of the Coronavirus?"
+    ]
+  }
+}

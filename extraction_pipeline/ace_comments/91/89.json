@@ -1,0 +1,99 @@
+{
+  "article_id": "91",
+  "comment_index": 89,
+  "raw_comment": "I notice the proportion of head coaches of color is significantly lower than the proportion of players of color in the specified major sports leagues. Less than 50% of every league’s coaching staff are people of color. However, more than 50% of every league’s players are people color, besides baseball. MLS has the highest percentage of coaches of color, but is not necessarily the most diverse because it has the second-lowest percentage of players of color. This led me to believe there's not a direct correlation between the diversity in players and diversity in leadership. White Americans are the racial majority of the U.S., therefore, statistically, there are fewer people of color. However, I wonder why there's such a significant disparity between the percentage of players of color and coaches of color in every major sports league? I also wonder, as more awareness is brought to movements like BLM, will leadership diversity increase in years following? I think it's especially important to bring light on these racial injustices to communities like my own. Being a state that's 94% white, the system's racial inequities don't negatively impact the majority of my community. This data validates what people of color in my community and in the entire country, deal with daily. This graph compares the percentage of players of color to head coaches of color in major U.S. sports leagues, showing the discrepancy. So, “Is the Playing Field Really Level for Those Seeking Sports Leadership?”",
+  "ace_sentences": [
+    "I notice that the proportion of head coaches of color is significantly lower than the proportion of players of color in the specified major sports leagues.",
+    "Less than 50% of every league’s coaching staff are people of color.",
+    "More than 50% of every league’s players are people color.",
+    "Baseball is an exception.",
+    "MLS has the highest percentage of coaches of color.",
+    "MLS has the second-lowest percentage of players of color.",
+    "MLS is not necessarily the most diverse.",
+    "I believe that there is not a direct correlation between the diversity in players and diversity in leadership.",
+    "White Americans are the racial majority of the U.S..",
+    "Statistically, there are fewer people of color.",
+    "There is a significant disparity between the percentage of players of color and coaches of color in every major sports league.",
+    "I wonder why there is such a significant disparity between the percentage of players of color and coaches of color in every major sports league.",
+    "More awareness is brought to movements like BLM.",
+    "I wonder whether leadership diversity will increase in years following.",
+    "I think that it is especially important to bring light on these racial injustices to communities like my own.",
+    "My state is 94% white.",
+    "The system's racial inequities do not negatively impact the majority of my community.",
+    "This data validates what people of color in my community deal with daily.",
+    "This data validates what people of color in the entire country deal with daily.",
+    "This graph compares the percentage of players of color to head coaches of color in major U.S. sports leagues.",
+    "This graph shows the discrepancy.",
+    "The question is: Is the Playing Field Really Level for Those Seeking Sports Leadership?"
+  ],
+  "source_mappings": {
+    "I notice that the proportion of head coaches of color is significantly lower than the proportion of players of color in the specified major sports leagues.": [
+      "I notice the proportion of head coaches of color is significantly lower than the proportion of players of color in the specified major sports leagues."
+    ],
+    "Less than 50% of every league’s coaching staff are people of color.": [
+      "Less than 50% of every league’s coaching staff are people of color."
+    ],
+    "More than 50% of every league’s players are people color.": [
+      "more than 50% of every league’s players are people color"
+    ],
+    "Baseball is an exception.": [
+      "besides baseball"
+    ],
+    "MLS has the highest percentage of coaches of color.": [
+      "MLS has the highest percentage of coaches of color"
+    ],
+    "MLS has the second-lowest percentage of players of color.": [
+      "it has the second-lowest percentage of players of color"
+    ],
+    "MLS is not necessarily the most diverse.": [
+      "but is not necessarily the most diverse"
+    ],
+    "I believe that there is not a direct correlation between the diversity in players and diversity in leadership.": [
+      "This led me to believe there's not a direct correlation between the diversity in players and diversity in leadership."
+    ],
+    "White Americans are the racial majority of the U.S..": [
+      "White Americans are the racial majority of the U.S."
+    ],
+    "Statistically, there are fewer people of color.": [
+      "statistically, there are fewer people of color"
+    ],
+    "There is a significant disparity between the percentage of players of color and coaches of color in every major sports league.": [
+      "there's such a significant disparity between the percentage of players of color and coaches of color in every major sports league"
+    ],
+    "I wonder why there is such a significant disparity between the percentage of players of color and coaches of color in every major sports league.": [
+      "I wonder why there's such a significant disparity between the percentage of players of color and coaches of color in every major sports league?"
+    ],
+    "More awareness is brought to movements like BLM.": [
+      "as more awareness is brought to movements like BLM"
+    ],
+    "I wonder whether leadership diversity will increase in years following.": [
+      "will leadership diversity increase in years following?"
+    ],
+    "I think that it is especially important to bring light on these racial injustices to communities like my own.": [
+      "I think it's especially important to bring light on these racial injustices to communities like my own."
+    ],
+    "My state is 94% white.": [
+      "Being a state that's 94% white"
+    ],
+    "The system's racial inequities do not negatively impact the majority of my community.": [
+      "the system's racial inequities don't negatively impact the majority of my community."
+    ],
+    "This data validates what people of color in my community deal with daily.": [
+      "This data validates what people of color in my community",
+      "deal with daily."
+    ],
+    "This data validates what people of color in the entire country deal with daily.": [
+      "and in the entire country,",
+      "deal with daily."
+    ],
+    "This graph compares the percentage of players of color to head coaches of color in major U.S. sports leagues.": [
+      "This graph compares the percentage of players of color to head coaches of color in major U.S. sports leagues"
+    ],
+    "This graph shows the discrepancy.": [
+      "showing the discrepancy."
+    ],
+    "The question is: Is the Playing Field Really Level for Those Seeking Sports Leadership?": [
+      "“Is the Playing Field Really Level for Those Seeking Sports Leadership?”"
+    ]
+  }
+}

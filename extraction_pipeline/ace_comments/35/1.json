@@ -1,0 +1,37 @@
+{
+  "article_id": "35",
+  "comment_index": 1,
+  "raw_comment": "Up Up and Away!!1\nthe first i notice is the accending from the lower states upward. \nI do notice that there seems to be a belt in the western states seems out of place. The changing of the graph seems to be starting with the warming of the weather starting in the lower warmer states.",
+  "ace_sentences": [
+    "The headline is \"Up Up and Away!!1\".",
+    "I notice the ascending from the lower states upward.",
+    "I notice that there seems to be a belt in the western states.",
+    "This belt seems out of place.",
+    "The graph changes.",
+    "The changing of the graph seems to be starting with the warming of the weather.",
+    "The warming of the weather seems to be starting in the lower warmer states."
+  ],
+  "source_mappings": {
+    "The headline is \"Up Up and Away!!1\".": [
+      "Up Up and Away!!1"
+    ],
+    "I notice the ascending from the lower states upward.": [
+      "the first i notice is the accending from the lower states upward."
+    ],
+    "I notice that there seems to be a belt in the western states.": [
+      "I do notice that there seems to be a belt in the western states"
+    ],
+    "This belt seems out of place.": [
+      "seems out of place."
+    ],
+    "The graph changes.": [
+      "The changing of the graph"
+    ],
+    "The changing of the graph seems to be starting with the warming of the weather.": [
+      "The changing of the graph seems to be starting with the warming of the weather"
+    ],
+    "The warming of the weather seems to be starting in the lower warmer states.": [
+      "the warming of the weather starting in the lower warmer states."
+    ]
+  }
+}

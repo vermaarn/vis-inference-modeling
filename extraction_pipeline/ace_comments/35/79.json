@@ -1,0 +1,49 @@
+{
+  "article_id": "35",
+  "comment_index": 79,
+  "raw_comment": "This graph shows how early and late spring comes in different areas. As the map starts, it gets closer and closer to the equator. This shows the change in the seasons of different areas. We notice a change in the map as it stops right at Montana and Wyoming. These indicate the states that have a colder temperature and longer winter than other states. We believe that this map is  great way of showing the seasons through out the states.",
+  "ace_sentences": [
+    "This graph shows how early spring comes in different areas.",
+    "This graph shows how late spring comes in different areas.",
+    "As the map starts, it gets closer and closer to the equator.",
+    "This graph shows the change in the seasons of different areas.",
+    "We notice a change in the map.",
+    "The map stops right at Montana.",
+    "The map stops right at Wyoming.",
+    "These indicate the states that have a colder temperature than other states.",
+    "These indicate the states that have a longer winter than other states.",
+    "We believe that this map is a great way of showing the seasons through out the states."
+  ],
+  "source_mappings": {
+    "This graph shows how early spring comes in different areas.": [
+      "This graph shows how early and late spring comes in different areas."
+    ],
+    "This graph shows how late spring comes in different areas.": [
+      "This graph shows how early and late spring comes in different areas."
+    ],
+    "As the map starts, it gets closer and closer to the equator.": [
+      "As the map starts, it gets closer and closer to the equator."
+    ],
+    "This graph shows the change in the seasons of different areas.": [
+      "This shows the change in the seasons of different areas."
+    ],
+    "We notice a change in the map.": [
+      "We notice a change in the map"
+    ],
+    "The map stops right at Montana.": [
+      "as it stops right at Montana"
+    ],
+    "The map stops right at Wyoming.": [
+      "and Wyoming."
+    ],
+    "These indicate the states that have a colder temperature than other states.": [
+      "These indicate the states that have a colder temperature and longer winter than other states."
+    ],
+    "These indicate the states that have a longer winter than other states.": [
+      "These indicate the states that have a colder temperature and longer winter than other states."
+    ],
+    "We believe that this map is a great way of showing the seasons through out the states.": [
+      "We believe that this map is  great way of showing the seasons through out the states."
+    ]
+  }
+}

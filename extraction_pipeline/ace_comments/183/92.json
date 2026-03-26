@@ -1,0 +1,76 @@
+{
+  "article_id": "183",
+  "comment_index": 92,
+  "raw_comment": "1)In all three categories, young women reach out to their parents significantly more in comparison to young males. The least popular method of reaching out to parents was visiting in person while the most popular method was sending texts. The smallest difference between young men and women was in the visiting in person category. \n\n2)I wonder how far the survey participants lived from their parents? Do jobs and college affect the methods of participants reaching out? \n\n3)In my community I know a lot of people around my age that plan on going to college. Depending on future plans some people plan on going to college nearby or going out of state. So, it is interesting to see that one day we may fit into one of these categories depending on what path in life we take. \n\n4)Staying Connected : How Today's Youth Keep Their Parents Involved",
+  "ace_sentences": [
+    "There are three categories.",
+    "In all three categories, young women reach out to their parents significantly more in comparison to young males.",
+    "The least popular method of reaching out to parents was visiting in person.",
+    "The most popular method was sending texts.",
+    "The smallest difference between young men and women was in the visiting in person category.",
+    "I wonder how far the survey participants lived from their parents.",
+    "I wonder if jobs affect the methods of participants reaching out.",
+    "I wonder if college affects the methods of participants reaching out.",
+    "In my community, I know a lot of people around my age.",
+    "In my community, I know a lot of people around my age that plan on going to college.",
+    "Depending on future plans, some people plan on going to college nearby.",
+    "Depending on future plans, some people plan on going out of state.",
+    "It is interesting to see that one day we may fit into one of these categories.",
+    "This may depend on what path in life we take.",
+    "The headline is:",
+    "Staying Connected : How Today's Youth Keep Their Parents Involved."
+  ],
+  "source_mappings": {
+    "There are three categories.": [
+      "In all three categories"
+    ],
+    "In all three categories, young women reach out to their parents significantly more in comparison to young males.": [
+      "In all three categories, young women reach out to their parents significantly more in comparison to young males."
+    ],
+    "The least popular method of reaching out to parents was visiting in person.": [
+      "The least popular method of reaching out to parents was visiting in person"
+    ],
+    "The most popular method was sending texts.": [
+      "the most popular method was sending texts."
+    ],
+    "The smallest difference between young men and women was in the visiting in person category.": [
+      "The smallest difference between young men and women was in the visiting in person category."
+    ],
+    "I wonder how far the survey participants lived from their parents.": [
+      "I wonder how far the survey participants lived from their parents?"
+    ],
+    "I wonder if jobs affect the methods of participants reaching out.": [
+      "Do jobs",
+      "affect the methods of participants reaching out?"
+    ],
+    "I wonder if college affects the methods of participants reaching out.": [
+      "and college",
+      "affect the methods of participants reaching out?"
+    ],
+    "In my community, I know a lot of people around my age.": [
+      "In my community I know a lot of people around my age"
+    ],
+    "In my community, I know a lot of people around my age that plan on going to college.": [
+      "In my community I know a lot of people around my age that plan on going to college."
+    ],
+    "Depending on future plans, some people plan on going to college nearby.": [
+      "Depending on future plans some people plan on going to college nearby"
+    ],
+    "Depending on future plans, some people plan on going out of state.": [
+      "Depending on future plans some people plan on",
+      "going out of state."
+    ],
+    "It is interesting to see that one day we may fit into one of these categories.": [
+      "it is interesting to see that one day we may fit into one of these categories"
+    ],
+    "This may depend on what path in life we take.": [
+      "depending on what path in life we take."
+    ],
+    "The headline is:": [
+      "Staying Connected :"
+    ],
+    "Staying Connected : How Today's Youth Keep Their Parents Involved.": [
+      "Staying Connected : How Today's Youth Keep Their Parents Involved"
+    ]
+  }
+}

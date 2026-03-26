@@ -1,0 +1,21 @@
+{
+  "article_id": "35",
+  "comment_index": 112,
+  "raw_comment": "Notice:\nThe eastern part of the USA is northern to southern. However, the western part of the USA is more scattered.\nWonder:\nWhat would this graph look like in the 50's",
+  "ace_sentences": [
+    "The eastern part of the USA is northern to southern.",
+    "However, the western part of the USA is more scattered.",
+    "I wonder what this graph would look like in the 50's."
+  ],
+  "source_mappings": {
+    "The eastern part of the USA is northern to southern.": [
+      "The eastern part of the USA is northern to southern."
+    ],
+    "However, the western part of the USA is more scattered.": [
+      "However, the western part of the USA is more scattered."
+    ],
+    "I wonder what this graph would look like in the 50's.": [
+      "What would this graph look like in the 50's"
+    ]
+  }
+}

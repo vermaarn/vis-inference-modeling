@@ -1,0 +1,53 @@
+{
+  "article_id": "91",
+  "comment_index": 101,
+  "raw_comment": "What do you notice?\n I notice that there are more athletes of color than head coaches of color. Could this mean that retired athletes do not pursue a career in coaching?\n \nWhat do you wonder?\n \nI wonder what the trend has been in the past 10 years.\nHow does this data compare internationally?  \nI wonder why the percentage of head coaches of color is low.\nI wonder what reasons/challenges retired players encounter to not coach. \n\nWhat impact does this have on you and your community?\nThis data shows which sports are most diverse in both the athletic and coaching positions. Makes me wonder if coaches of color do not have enough merit to make it to the big leagues.\n \nWhat’s going on in this graph? Write a catchy headline that captures the graph’s main idea.\t\t\n \nDiversity of sports is not as equal as we think.",
+  "ace_sentences": [
+    "I notice that there are more athletes of color than head coaches of color.",
+    "It is possible that retired athletes do not pursue a career in coaching.",
+    "I wonder what the trend has been in the past 10 years.",
+    "I wonder how this data compares internationally.",
+    "I wonder why the percentage of head coaches of color is low.",
+    "I wonder what reasons retired players encounter to not coach.",
+    "I wonder what challenges retired players encounter to not coach.",
+    "This data shows which sports are most diverse in both the athletic and coaching positions.",
+    "This data makes me wonder if coaches of color do not have enough merit to make it to the big leagues.",
+    "The headline is:",
+    "Diversity of sports is not as equal as we think."
+  ],
+  "source_mappings": {
+    "I notice that there are more athletes of color than head coaches of color.": [
+      "I notice that there are more athletes of color than head coaches of color."
+    ],
+    "It is possible that retired athletes do not pursue a career in coaching.": [
+      "Could this mean that retired athletes do not pursue a career in coaching?"
+    ],
+    "I wonder what the trend has been in the past 10 years.": [
+      "I wonder what the trend has been in the past 10 years."
+    ],
+    "I wonder how this data compares internationally.": [
+      "How does this data compare internationally?"
+    ],
+    "I wonder why the percentage of head coaches of color is low.": [
+      "I wonder why the percentage of head coaches of color is low."
+    ],
+    "I wonder what reasons retired players encounter to not coach.": [
+      "I wonder what reasons/challenges retired players encounter to not coach."
+    ],
+    "I wonder what challenges retired players encounter to not coach.": [
+      "I wonder what reasons/challenges retired players encounter to not coach."
+    ],
+    "This data shows which sports are most diverse in both the athletic and coaching positions.": [
+      "This data shows which sports are most diverse in both the athletic and coaching positions."
+    ],
+    "This data makes me wonder if coaches of color do not have enough merit to make it to the big leagues.": [
+      "Makes me wonder if coaches of color do not have enough merit to make it to the big leagues."
+    ],
+    "The headline is:": [
+      "Write a catchy headline that captures the graph’s main idea."
+    ],
+    "Diversity of sports is not as equal as we think.": [
+      "Diversity of sports is not as equal as we think."
+    ]
+  }
+}

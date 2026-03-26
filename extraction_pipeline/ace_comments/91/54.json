@@ -1,0 +1,63 @@
+{
+  "article_id": "91",
+  "comment_index": 54,
+  "raw_comment": "I notice that there is a higher percent of players of color than coaches of color. I notice that the highest percents are in the WNBA and the NBA. The lowest percents are in the MLB.\n\nI wonder why the highest percents of diversity are with the players rather than the coaches. I also wonder why there is a higher diversity in the NBA. \n\nThis can impact me and my community in many ways. It can direct the young players who are trying to become professional athletes to know what kind of chance they have at becoming an athlete. \n\nThis graph is showing multiple percentages about the diversity in professional sports. My headline would be “Diversity of players and coaches in Professional Sports Leagues”",
+  "ace_sentences": [
+    "There is a higher percent of players of color than coaches of color.",
+    "The highest percents are in the WNBA.",
+    "The highest percents are in the NBA.",
+    "The lowest percents are in the MLB.",
+    "I wonder why the highest percents of diversity are with the players rather than the coaches.",
+    "I wonder why there is a higher diversity in the NBA.",
+    "This can impact me in many ways.",
+    "This can impact my community in many ways.",
+    "It can direct the young players.",
+    "The young players are trying to become professional athletes.",
+    "It can direct the young players to know what kind of chance they have at becoming an athlete.",
+    "This graph is showing multiple percentages about the diversity in professional sports.",
+    "My headline would be “Diversity of players and coaches in Professional Sports Leagues”."
+  ],
+  "source_mappings": {
+    "There is a higher percent of players of color than coaches of color.": [
+      "there is a higher percent of players of color than coaches of color"
+    ],
+    "The highest percents are in the WNBA.": [
+      "the highest percents are in the WNBA"
+    ],
+    "The highest percents are in the NBA.": [
+      "the highest percents are in the WNBA and the NBA",
+      "the NBA"
+    ],
+    "The lowest percents are in the MLB.": [
+      "The lowest percents are in the MLB."
+    ],
+    "I wonder why the highest percents of diversity are with the players rather than the coaches.": [
+      "I wonder why the highest percents of diversity are with the players rather than the coaches."
+    ],
+    "I wonder why there is a higher diversity in the NBA.": [
+      "I also wonder why there is a higher diversity in the NBA."
+    ],
+    "This can impact me in many ways.": [
+      "This can impact me"
+    ],
+    "This can impact my community in many ways.": [
+      "my community",
+      "This can impact me and my community in many ways."
+    ],
+    "It can direct the young players.": [
+      "It can direct the young players"
+    ],
+    "The young players are trying to become professional athletes.": [
+      "young players who are trying to become professional athletes"
+    ],
+    "It can direct the young players to know what kind of chance they have at becoming an athlete.": [
+      "to know what kind of chance they have at becoming an athlete"
+    ],
+    "This graph is showing multiple percentages about the diversity in professional sports.": [
+      "This graph is showing multiple percentages about the diversity in professional sports."
+    ],
+    "My headline would be “Diversity of players and coaches in Professional Sports Leagues”.": [
+      "My headline would be “Diversity of players and coaches in Professional Sports Leagues”"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "article_id": "35",
+  "comment_index": 57,
+  "raw_comment": "We've noticed the farther north you go, the later leaves begin to appear.\n\nI wonder if they get sun down south sooner than the north.\n\nWhat this graph shows the time of year each section of America starts to see it first leaves.",
+  "ace_sentences": [
+    "We have noticed a pattern.",
+    "If a person goes farther north, then leaves begin to appear later.",
+    "I wonder if leaves get sun down south sooner than in the north.",
+    "This graph shows something.",
+    "This graph shows the time of year.",
+    "Each section of America starts to see its first leaves at a time of year."
+  ],
+  "source_mappings": {
+    "We have noticed a pattern.": [
+      "We've noticed"
+    ],
+    "If a person goes farther north, then leaves begin to appear later.": [
+      "the farther north you go, the later leaves begin to appear."
+    ],
+    "I wonder if leaves get sun down south sooner than in the north.": [
+      "I wonder if they get sun down south sooner than the north."
+    ],
+    "This graph shows something.": [
+      "What this graph shows"
+    ],
+    "This graph shows the time of year.": [
+      "the time of year"
+    ],
+    "Each section of America starts to see its first leaves at a time of year.": [
+      "each section of America starts to see it first leaves."
+    ]
+  }
+}

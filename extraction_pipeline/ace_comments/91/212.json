@@ -1,0 +1,45 @@
+{
+  "article_id": "91",
+  "comment_index": 212,
+  "raw_comment": "I notice that a majority of the sports have more than 50% of players of color except for Major League Baseball. I also notice that all of the professional sports teams have less than 50% head coaches of color.\nI wonder why there is such a significant difference between players of color and head coaches of color. \nThis impacts the types of players in my community that want to play professionally later in life. \nThese bar graphs show the diversity of each sport in comparison to the players and the head coaches. A name could be \"Diversity On the Court and Field.\"",
+  "ace_sentences": [
+    "I notice that a majority of the sports have more than 50% of players of color.",
+    "Major League Baseball is an exception.",
+    "I notice that all of the professional sports teams have less than 50% head coaches of color.",
+    "I wonder why there is a significant difference between players of color and head coaches of color.",
+    "This impacts the types of players in my community.",
+    "These players want to play professionally later in life.",
+    "These bar graphs show the diversity of each sport.",
+    "These bar graphs show the diversity in comparison to the players and the head coaches.",
+    "A name could be \"Diversity On the Court and Field\"."
+  ],
+  "source_mappings": {
+    "I notice that a majority of the sports have more than 50% of players of color.": [
+      "I notice that a majority of the sports have more than 50% of players of color"
+    ],
+    "Major League Baseball is an exception.": [
+      "except for Major League Baseball"
+    ],
+    "I notice that all of the professional sports teams have less than 50% head coaches of color.": [
+      "I also notice that all of the professional sports teams have less than 50% head coaches of color."
+    ],
+    "I wonder why there is a significant difference between players of color and head coaches of color.": [
+      "I wonder why there is such a significant difference between players of color and head coaches of color."
+    ],
+    "This impacts the types of players in my community.": [
+      "This impacts the types of players in my community"
+    ],
+    "These players want to play professionally later in life.": [
+      "that want to play professionally later in life."
+    ],
+    "These bar graphs show the diversity of each sport.": [
+      "These bar graphs show the diversity of each sport"
+    ],
+    "These bar graphs show the diversity in comparison to the players and the head coaches.": [
+      "in comparison to the players and the head coaches."
+    ],
+    "A name could be \"Diversity On the Court and Field\".": [
+      "A name could be \"Diversity On the Court and Field.\""
+    ]
+  }
+}

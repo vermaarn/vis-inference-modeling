@@ -1,0 +1,87 @@
+{
+  "article_id": "183",
+  "comment_index": 51,
+  "raw_comment": "This graph shows the percentage of young women vs young men who reach out to their parents throughout the week. I noticed in this graph the significantly more amount of women who sent texts, called, or visited in person. I also noticed that the most popular form of communication among both genders is texting. I wonder how far these people live from their parents, especially since the percentage of going home and visiting is so low. This relates to me and my community because my brother and his wife live in South Carolina, and my sister lives in Rhode Island,  while the rest of my family lives in New Jersey. We Facetime them at least 3 times a week to stay in touch. \nHeadline:\nDon't be a stranger!",
+  "ace_sentences": [
+    "This graph shows the percentage of young women and young men.",
+    "These young women reach out to their parents throughout the week.",
+    "These young men reach out to their parents throughout the week.",
+    "In this graph, the amount of women is significantly more than the amount of men.",
+    "Some women sent texts.",
+    "Some women called.",
+    "Some women visited in person.",
+    "The most popular form of communication among both genders is texting.",
+    "I wonder how far these people live from their parents.",
+    "The percentage of going home and visiting is low.",
+    "This relates to me and my community.",
+    "My brother lives in South Carolina.",
+    "His wife lives in South Carolina.",
+    "My sister lives in Rhode Island.",
+    "The rest of my family lives in New Jersey.",
+    "We Facetime them at least 3 times a week.",
+    "We Facetime them to stay in touch.",
+    "The headline is:",
+    "Don't be a stranger!"
+  ],
+  "source_mappings": {
+    "This graph shows the percentage of young women and young men.": [
+      "This graph shows the percentage of young women vs young men"
+    ],
+    "These young women reach out to their parents throughout the week.": [
+      "young women",
+      "reach out to their parents throughout the week"
+    ],
+    "These young men reach out to their parents throughout the week.": [
+      "young men",
+      "reach out to their parents throughout the week"
+    ],
+    "In this graph, the amount of women is significantly more than the amount of men.": [
+      "I noticed in this graph the significantly more amount of women"
+    ],
+    "Some women sent texts.": [
+      "women who sent texts"
+    ],
+    "Some women called.": [
+      "women who sent texts, called"
+    ],
+    "Some women visited in person.": [
+      "visited in person"
+    ],
+    "The most popular form of communication among both genders is texting.": [
+      "the most popular form of communication among both genders is texting"
+    ],
+    "I wonder how far these people live from their parents.": [
+      "I wonder how far these people live from their parents"
+    ],
+    "The percentage of going home and visiting is low.": [
+      "the percentage of going home and visiting is so low"
+    ],
+    "This relates to me and my community.": [
+      "This relates to me and my community"
+    ],
+    "My brother lives in South Carolina.": [
+      "my brother and his wife live in South Carolina"
+    ],
+    "His wife lives in South Carolina.": [
+      "his wife live in South Carolina"
+    ],
+    "My sister lives in Rhode Island.": [
+      "my sister lives in Rhode Island"
+    ],
+    "The rest of my family lives in New Jersey.": [
+      "the rest of my family lives in New Jersey"
+    ],
+    "We Facetime them at least 3 times a week.": [
+      "We Facetime them at least 3 times a week"
+    ],
+    "We Facetime them to stay in touch.": [
+      "to stay in touch"
+    ],
+    "The headline is:": [
+      "Headline:"
+    ],
+    "Don't be a stranger!": [
+      "Don't be a stranger!"
+    ]
+  }
+}

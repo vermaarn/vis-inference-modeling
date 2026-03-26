@@ -1,0 +1,61 @@
+{
+  "article_id": "91",
+  "comment_index": 2,
+  "raw_comment": "1. What do you notice?\nI noticed that this graph is horizontal instead of it being vertical and that it has percentages on it.\n2. What do you wonder?\nWhy are they showing Players of color and head coaches of color\n3. How does this relate to you and your community? \nBecause its talking about sports and some people from our community play sports. \n4. What’s going on in this graph? Create a catchy headline that captures the graph’s main idea. Its showing the percentages of players of color and the head coaches of color",
+  "ace_sentences": [
+    "I notice a graph.",
+    "This graph is horizontal.",
+    "This graph is not vertical.",
+    "This graph has percentages on it.",
+    "I wonder about something.",
+    "They show players of color.",
+    "They show head coaches of color.",
+    "This relates to me and my community.",
+    "This is about sports.",
+    "Some people from our community play sports.",
+    "This graph shows the percentages of players of color.",
+    "This graph shows the percentages of head coaches of color.",
+    "The headline captures the main idea of the graph."
+  ],
+  "source_mappings": {
+    "I notice a graph.": [
+      "I noticed that this graph"
+    ],
+    "This graph is horizontal.": [
+      "this graph is horizontal"
+    ],
+    "This graph is not vertical.": [
+      "instead of it being vertical"
+    ],
+    "This graph has percentages on it.": [
+      "it has percentages on it."
+    ],
+    "I wonder about something.": [
+      "What do you wonder?"
+    ],
+    "They show players of color.": [
+      "they showing Players of color"
+    ],
+    "They show head coaches of color.": [
+      "head coaches of color"
+    ],
+    "This relates to me and my community.": [
+      "How does this relate to you and your community?"
+    ],
+    "This is about sports.": [
+      "its talking about sports"
+    ],
+    "Some people from our community play sports.": [
+      "some people from our community play sports."
+    ],
+    "This graph shows the percentages of players of color.": [
+      "Its showing the percentages of players of color"
+    ],
+    "This graph shows the percentages of head coaches of color.": [
+      "the head coaches of color"
+    ],
+    "The headline captures the main idea of the graph.": [
+      "Create a catchy headline that captures the graph’s main idea."
+    ]
+  }
+}

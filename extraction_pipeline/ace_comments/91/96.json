@@ -1,0 +1,41 @@
+{
+  "article_id": "91",
+  "comment_index": 96,
+  "raw_comment": "1. What do you notice?\nI notice a high percentage in players of color in each of the sports shown.\n\n2. What do you wonder?\nI wonder why the percentage of Head coaches of color is so low.\n\n3.What impact does this have on you and your community?\nThis impacts me and my community by lowering the chances of someone of color potentially becoming a head coach\n\n4. What’s going on in this graph? Write a catchy headline that captures the graph’s main idea.\n\nThe graph shows the clear difference between the percentage of players of color and the percentage of Head coaches of color in each major sport shown.\n\nDiversity in major sports League",
+  "ace_sentences": [
+    "I notice a high percentage in players of color in each of the sports shown.",
+    "I wonder why the percentage of Head coaches of color is so low.",
+    "This impacts me.",
+    "This impacts my community.",
+    "This lowers the chances of someone of color potentially becoming a head coach.",
+    "The graph shows the clear difference between the percentage of players of color and the percentage of Head coaches of color in each major sport shown.",
+    "The headline is:",
+    "Diversity in major sports League."
+  ],
+  "source_mappings": {
+    "I notice a high percentage in players of color in each of the sports shown.": [
+      "I notice a high percentage in players of color in each of the sports shown."
+    ],
+    "I wonder why the percentage of Head coaches of color is so low.": [
+      "I wonder why the percentage of Head coaches of color is so low."
+    ],
+    "This impacts me.": [
+      "This impacts me"
+    ],
+    "This impacts my community.": [
+      "my community"
+    ],
+    "This lowers the chances of someone of color potentially becoming a head coach.": [
+      "lowering the chances of someone of color potentially becoming a head coach"
+    ],
+    "The graph shows the clear difference between the percentage of players of color and the percentage of Head coaches of color in each major sport shown.": [
+      "The graph shows the clear difference between the percentage of players of color and the percentage of Head coaches of color in each major sport shown."
+    ],
+    "The headline is:": [
+      "Write a catchy headline that captures the graph’s main idea."
+    ],
+    "Diversity in major sports League.": [
+      "Diversity in major sports League"
+    ]
+  }
+}

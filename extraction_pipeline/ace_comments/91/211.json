@@ -1,0 +1,45 @@
+{
+  "article_id": "91",
+  "comment_index": 211,
+  "raw_comment": "I notice that in most sports there are way more players of colors than head coaches of color. I wonder why there are fewer head coaches of color.. does it have to do with their major.. or their backgrounds. This impacts my community because sports are working to try and include more people of color which is more important. The diversity of players and coaches within sports/team leaderships.",
+  "ace_sentences": [
+    "In most sports, there are more players of color than head coaches of color.",
+    "I wonder why there are fewer head coaches of color.",
+    "It may have to do with their major.",
+    "It may have to do with their backgrounds.",
+    "This impacts my community.",
+    "Sports work to include more people of color.",
+    "This is more important.",
+    "There is diversity of players within sports team leaderships.",
+    "There is diversity of coaches within sports team leaderships."
+  ],
+  "source_mappings": {
+    "In most sports, there are more players of color than head coaches of color.": [
+      "in most sports there are way more players of colors than head coaches of color"
+    ],
+    "I wonder why there are fewer head coaches of color.": [
+      "I wonder why there are fewer head coaches of color.."
+    ],
+    "It may have to do with their major.": [
+      "does it have to do with their major.."
+    ],
+    "It may have to do with their backgrounds.": [
+      "or their backgrounds."
+    ],
+    "This impacts my community.": [
+      "This impacts my community"
+    ],
+    "Sports work to include more people of color.": [
+      "sports are working to try and include more people of color"
+    ],
+    "This is more important.": [
+      "which is more important."
+    ],
+    "There is diversity of players within sports team leaderships.": [
+      "The diversity of players"
+    ],
+    "There is diversity of coaches within sports team leaderships.": [
+      "and coaches within sports/team leaderships."
+    ]
+  }
+}

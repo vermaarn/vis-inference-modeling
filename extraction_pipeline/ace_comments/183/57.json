@@ -1,0 +1,85 @@
+{
+  "article_id": "183",
+  "comment_index": 57,
+  "raw_comment": "I notice that there is a large gap between the percentage of young women reaching out to their parents versus young men reaching out to their parents. I also notice that the smallest gap between men and women, is also the smallest percentage for contacting parents, which was visiting in person.\n\nI wonder what the age range is for the graph given, is it more college aged young adults, or young adults in their twenties. I also wonder why women are more inclined to reach out to their parents, is it because they are on their phones more? Do those who visit their parents live closer to home and are out of college?\n\nThis relates to me and my community because it shows that our generation should be reaching out to our parents more often and it is important to stay in contact with your parents and other family members. I have 2 brothers, one in college, and one who lives in New York City and my parents always get excited when they get to talk to them, showing how important it is to them.\n\n\"Stay connected!\"",
+  "ace_sentences": [
+    "There is a large gap between the percentage of young women reaching out to their parents and the percentage of young men reaching out to their parents.",
+    "The smallest gap between men and women is the smallest percentage for contacting parents.",
+    "Visiting in person is the smallest percentage for contacting parents.",
+    "I wonder what the age range is for the graph given.",
+    "I wonder if the age range is more college aged young adults.",
+    "I wonder if the age range is young adults in their twenties.",
+    "I wonder why women are more inclined to reach out to their parents.",
+    "I wonder if women are more inclined to reach out to their parents because they are on their phones more.",
+    "I wonder if those who visit their parents live closer to home.",
+    "I wonder if those who visit their parents are out of college.",
+    "This relates to me and my community.",
+    "This shows that our generation should be reaching out to our parents more often.",
+    "It is important to stay in contact with your parents and other family members.",
+    "I have 2 brothers.",
+    "One brother is in college.",
+    "One brother lives in New York City.",
+    "My parents always get excited when they get to talk to them.",
+    "This shows how important it is to them.",
+    "The slogan is \"Stay connected!\"."
+  ],
+  "source_mappings": {
+    "There is a large gap between the percentage of young women reaching out to their parents and the percentage of young men reaching out to their parents.": [
+      "there is a large gap between the percentage of young women reaching out to their parents versus young men reaching out to their parents"
+    ],
+    "The smallest gap between men and women is the smallest percentage for contacting parents.": [
+      "the smallest gap between men and women, is also the smallest percentage for contacting parents"
+    ],
+    "Visiting in person is the smallest percentage for contacting parents.": [
+      "the smallest percentage for contacting parents, which was visiting in person"
+    ],
+    "I wonder what the age range is for the graph given.": [
+      "I wonder what the age range is for the graph given"
+    ],
+    "I wonder if the age range is more college aged young adults.": [
+      "is it more college aged young adults"
+    ],
+    "I wonder if the age range is young adults in their twenties.": [
+      "or young adults in their twenties"
+    ],
+    "I wonder why women are more inclined to reach out to their parents.": [
+      "I also wonder why women are more inclined to reach out to their parents"
+    ],
+    "I wonder if women are more inclined to reach out to their parents because they are on their phones more.": [
+      "is it because they are on their phones more?"
+    ],
+    "I wonder if those who visit their parents live closer to home.": [
+      "Do those who visit their parents live closer to home"
+    ],
+    "I wonder if those who visit their parents are out of college.": [
+      "and are out of college?"
+    ],
+    "This relates to me and my community.": [
+      "This relates to me and my community"
+    ],
+    "This shows that our generation should be reaching out to our parents more often.": [
+      "it shows that our generation should be reaching out to our parents more often"
+    ],
+    "It is important to stay in contact with your parents and other family members.": [
+      "it is important to stay in contact with your parents and other family members"
+    ],
+    "I have 2 brothers.": [
+      "I have 2 brothers"
+    ],
+    "One brother is in college.": [
+      "one in college"
+    ],
+    "One brother lives in New York City.": [
+      "one who lives in New York City"
+    ],
+    "My parents always get excited when they get to talk to them.": [
+      "my parents always get excited when they get to talk to them"
+    ],
+    "This shows how important it is to them.": [
+      "showing how important it is to them"
+    ],
+    "The slogan is \"Stay connected!\".": [
+      "\"Stay connected!\""
+    ]
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "article_id": "183",
+  "comment_index": 32,
+  "raw_comment": "This graph depicts the percentage of young people who say they reach out to a parent at least once a day or a few times a week. The graph also shows the means by which participants reach out and the disparity between young women and young men surveyed. I notice that in every category of communication, women reach out to their parent(s) more than men. I wonder why this is. Is it just a matter of inherent psychological differences between men and women?  Additionally, I noticed that visiting a parent in person is the least popular method of reaching out to a parent and texting is the most popular method. I speculate that this is because of convenience. Texting is so easy and can be done in a matter of seconds while driving all the way to visit your parents could take hours depending on how far they live. I am surprised texting and calling are not more popular because they are so accessible and easy to use. I wonder how this demographic would change if they surveyed people older than 34. This relates to me because I am going to college next year and will be forced to reach out to my parents because I will no longer be living with them. I will try to contact them at least a few times per week most frequently using text and calls rather than visits. \n\"Message Mothers More!\"",
+  "ace_sentences": [
+    "This graph depicts the percentage of young people.",
+    "Young people say that they reach out to a parent at least once a day or a few times a week.",
+    "The graph shows the means by which participants reach out.",
+    "The graph shows the disparity between young women and young men surveyed.",
+    "In every category of communication, women reach out to their parent or parents more than men.",
+    "I wonder why women reach out to their parent or parents more than men.",
+    "It is possible that inherent psychological differences exist between men and women.",
+    "Visiting a parent in person is the least popular method of reaching out to a parent.",
+    "Texting is the most popular method.",
+    "I speculate that texting is the most popular method because of convenience.",
+    "Texting is easy.",
+    "Texting can be done in a matter of seconds.",
+    "Driving all the way to visit your parents could take hours.",
+    "How far they live can affect how long driving all the way to visit your parents takes.",
+    "I am surprised that texting and calling are not more popular.",
+    "Texting and calling are accessible.",
+    "Texting and calling are easy to use.",
+    "I wonder how this demographic would change if they surveyed people older than 34.",
+    "This relates to me.",
+    "I am going to college next year.",
+    "Next year, I will no longer be living with my parents.",
+    "Next year, I will be forced to reach out to my parents.",
+    "I will try to contact my parents at least a few times per week.",
+    "I will most frequently use text and calls rather than visits.",
+    "The message is \"Message Mothers More!\"."
+  ],
+  "source_mappings": {
+    "This graph depicts the percentage of young people.": [
+      "This graph depicts the percentage of young people"
+    ],
+    "Young people say that they reach out to a parent at least once a day or a few times a week.": [
+      "young people who say they reach out to a parent at least once a day or a few times a week"
+    ],
+    "The graph shows the means by which participants reach out.": [
+      "The graph also shows the means by which participants reach out"
+    ],
+    "The graph shows the disparity between young women and young men surveyed.": [
+      "the disparity between young women and young men surveyed"
+    ],
+    "In every category of communication, women reach out to their parent or parents more than men.": [
+      "in every category of communication, women reach out to their parent(s) more than men"
+    ],
+    "I wonder why women reach out to their parent or parents more than men.": [
+      "I wonder why this is."
+    ],
+    "It is possible that inherent psychological differences exist between men and women.": [
+      "Is it just a matter of inherent psychological differences between men and women?"
+    ],
+    "Visiting a parent in person is the least popular method of reaching out to a parent.": [
+      "visiting a parent in person is the least popular method of reaching out to a parent"
+    ],
+    "Texting is the most popular method.": [
+      "texting is the most popular method"
+    ],
+    "I speculate that texting is the most popular method because of convenience.": [
+      "I speculate that this is because of convenience."
+    ],
+    "Texting is easy.": [
+      "Texting is so easy"
+    ],
+    "Texting can be done in a matter of seconds.": [
+      "can be done in a matter of seconds"
+    ],
+    "Driving all the way to visit your parents could take hours.": [
+      "driving all the way to visit your parents could take hours"
+    ],
+    "How far they live can affect how long driving all the way to visit your parents takes.": [
+      "depending on how far they live"
+    ],
+    "I am surprised that texting and calling are not more popular.": [
+      "I am surprised texting and calling are not more popular"
+    ],
+    "Texting and calling are accessible.": [
+      "they are so accessible"
+    ],
+    "Texting and calling are easy to use.": [
+      "easy to use"
+    ],
+    "I wonder how this demographic would change if they surveyed people older than 34.": [
+      "I wonder how this demographic would change if they surveyed people older than 34."
+    ],
+    "This relates to me.": [
+      "This relates to me"
+    ],
+    "I am going to college next year.": [
+      "I am going to college next year"
+    ],
+    "Next year, I will no longer be living with my parents.": [
+      "I will no longer be living with them"
+    ],
+    "Next year, I will be forced to reach out to my parents.": [
+      "will be forced to reach out to my parents"
+    ],
+    "I will try to contact my parents at least a few times per week.": [
+      "I will try to contact them at least a few times per week"
+    ],
+    "I will most frequently use text and calls rather than visits.": [
+      "most frequently using text and calls rather than visits"
+    ],
+    "The message is \"Message Mothers More!\".": [
+      "\"Message Mothers More!\""
+    ]
+  }
+}

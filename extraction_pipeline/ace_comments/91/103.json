@@ -1,0 +1,129 @@
+{
+  "article_id": "91",
+  "comment_index": 103,
+  "raw_comment": "I noticed that the NFL has the largest percent difference between head coaches of color and players of color (61%). The MLS has the smallest percent difference (19%). The NFL only has 13% of coaches of color. On the other hand, the WBNA and NBA have 83% of coaches as people of color. Although the MLB only has a 20% gap between coaches of color and players of color, they only have 20% of coaches as minorities and 40% of players as minorities. The percent of colored players is the least out of all the leagues. I also noticed that the data for the WBNA was taken from 2019 whereas the rest of was taken in 2020. \n\nI wonder how these percentages compare to say a decade ago. Did the percent difference between coaches of color and players of color grow or shrink? I also wonder how they would compare a decade into the future. Would the numbers drastically change or stay relatively the same? I'm also curious how diversity graphs would look internationally (i.e. European and Asian sports). Is this graph indicative of how people of color are treated in professional sports? \n\nThis impacts my community because while diversity has grown very much in sports, discrimination still takes place. While I think discrimination has lessened for players, I think it still poses challenges and obstacles for staff and personnel of color. Even though the US has made progress, there's still a long way to go. \n\nA headline could be, \"Diversity in Professional Sports: Staff vs. Players\".",
+  "ace_sentences": [
+    "I noticed that the NFL has the largest percent difference between head coaches of color and players of color.",
+    "The largest percent difference is 61%.",
+    "The MLS has the smallest percent difference.",
+    "The smallest percent difference is 19%.",
+    "The NFL only has 13% of coaches of color.",
+    "On the other hand, the WBNA and NBA have 83% of coaches as people of color.",
+    "The MLB only has a 20% gap between coaches of color and players of color.",
+    "The MLB only has 20% of coaches as minorities.",
+    "The MLB has 40% of players as minorities.",
+    "The percent of colored players is the least out of all the leagues.",
+    "I noticed that the data for the WBNA was taken from 2019.",
+    "I noticed that the rest of was taken in 2020.",
+    "I wonder how these percentages compare to say a decade ago.",
+    "I wonder if the percent difference between coaches of color and players of color grew.",
+    "I wonder if the percent difference between coaches of color and players of color shrank.",
+    "I wonder how they would compare a decade into the future.",
+    "I wonder if the numbers would drastically change.",
+    "I wonder if the numbers would stay relatively the same.",
+    "I am curious how diversity graphs would look internationally.",
+    "European sports are international sports.",
+    "Asian sports are international sports.",
+    "I wonder if this graph is indicative of how people of color are treated in professional sports.",
+    "This impacts my community.",
+    "Diversity has grown very much in sports.",
+    "Discrimination still takes place.",
+    "I think that discrimination has lessened for players.",
+    "I think that discrimination still poses challenges and obstacles for staff and personnel of color.",
+    "The US has made progress.",
+    "There is still a long way to go.",
+    "A headline could be \"Diversity in Professional Sports: Staff vs. Players\"."
+  ],
+  "source_mappings": {
+    "I noticed that the NFL has the largest percent difference between head coaches of color and players of color.": [
+      "I noticed that the NFL has the largest percent difference between head coaches of color and players of color"
+    ],
+    "The largest percent difference is 61%.": [
+      "(61%)"
+    ],
+    "The MLS has the smallest percent difference.": [
+      "The MLS has the smallest percent difference"
+    ],
+    "The smallest percent difference is 19%.": [
+      "(19%)"
+    ],
+    "The NFL only has 13% of coaches of color.": [
+      "The NFL only has 13% of coaches of color."
+    ],
+    "On the other hand, the WBNA and NBA have 83% of coaches as people of color.": [
+      "On the other hand, the WBNA and NBA have 83% of coaches as people of color."
+    ],
+    "The MLB only has a 20% gap between coaches of color and players of color.": [
+      "Although the MLB only has a 20% gap between coaches of color and players of color"
+    ],
+    "The MLB only has 20% of coaches as minorities.": [
+      "they only have 20% of coaches as minorities"
+    ],
+    "The MLB has 40% of players as minorities.": [
+      "40% of players as minorities."
+    ],
+    "The percent of colored players is the least out of all the leagues.": [
+      "The percent of colored players is the least out of all the leagues."
+    ],
+    "I noticed that the data for the WBNA was taken from 2019.": [
+      "I also noticed that the data for the WBNA was taken from 2019"
+    ],
+    "I noticed that the rest of was taken in 2020.": [
+      "whereas the rest of was taken in 2020."
+    ],
+    "I wonder how these percentages compare to say a decade ago.": [
+      "I wonder how these percentages compare to say a decade ago."
+    ],
+    "I wonder if the percent difference between coaches of color and players of color grew.": [
+      "Did the percent difference between coaches of color and players of color grow"
+    ],
+    "I wonder if the percent difference between coaches of color and players of color shrank.": [
+      "or shrink?"
+    ],
+    "I wonder how they would compare a decade into the future.": [
+      "I also wonder how they would compare a decade into the future."
+    ],
+    "I wonder if the numbers would drastically change.": [
+      "Would the numbers drastically change"
+    ],
+    "I wonder if the numbers would stay relatively the same.": [
+      "or stay relatively the same?"
+    ],
+    "I am curious how diversity graphs would look internationally.": [
+      "I'm also curious how diversity graphs would look internationally"
+    ],
+    "European sports are international sports.": [
+      "European"
+    ],
+    "Asian sports are international sports.": [
+      "Asian"
+    ],
+    "I wonder if this graph is indicative of how people of color are treated in professional sports.": [
+      "Is this graph indicative of how people of color are treated in professional sports?"
+    ],
+    "This impacts my community.": [
+      "This impacts my community"
+    ],
+    "Diversity has grown very much in sports.": [
+      "diversity has grown very much in sports"
+    ],
+    "Discrimination still takes place.": [
+      "discrimination still takes place."
+    ],
+    "I think that discrimination has lessened for players.": [
+      "I think discrimination has lessened for players"
+    ],
+    "I think that discrimination still poses challenges and obstacles for staff and personnel of color.": [
+      "I think it still poses challenges and obstacles for staff and personnel of color."
+    ],
+    "The US has made progress.": [
+      "the US has made progress"
+    ],
+    "There is still a long way to go.": [
+      "there's still a long way to go."
+    ],
+    "A headline could be \"Diversity in Professional Sports: Staff vs. Players\".": [
+      "A headline could be, \"Diversity in Professional Sports: Staff vs. Players\"."
+    ]
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "article_id": "183",
+  "comment_index": 4,
+  "raw_comment": "Young women reach out to parents more overall as compared to young men. While only less than or about 25% of men and young women visit their parents in person at least once a day or a few times a week, more accesible ways of connection like Texts and calls show an even greater divide between the interaction of young men and women with their parents. \n\nI wonder if tradititional gender stereotypes affects how often a young person will reach out to their parents. Young men are typicall societally encouraged to be more independent and not ask for help as often, while women are expected to lead more domestic, family-centric lives. Does this phenomena have even deeper roots, such as biological instincts unique to each gender?\n\nI have a very close relationship to my parents as I am the only child and only daughter. A lot of my family friends are adults who only have boys, and I am their “honorary daughter”. It’s frequently mentioned how much more I reach out to them, and that “parenting a girl is very different.” \n\nDaughter’s are the favorites for a reason!",
+  "ace_sentences": [
+    "Young women reach out to parents more overall as compared to young men.",
+    "Less than or about 25% of men visit their parents in person at least once a day or a few times a week.",
+    "Less than or about 25% of young women visit their parents in person at least once a day or a few times a week.",
+    "Texts and calls are more accesible ways of connection.",
+    "Texts and calls show an even greater divide between the interaction of young men and women with their parents.",
+    "I wonder if tradititional gender stereotypes affect how often a young person will reach out to their parents.",
+    "Young men are typicall societally encouraged to be more independent.",
+    "Young men are typicall societally encouraged to not ask for help as often.",
+    "Women are expected to lead more domestic lives.",
+    "Women are expected to lead family-centric lives.",
+    "This phenomena may have even deeper roots.",
+    "These roots may be biological instincts unique to each gender.",
+    "I have a very close relationship to my parents.",
+    "I am the only child.",
+    "I am the only daughter.",
+    "A lot of my family friends are adults.",
+    "A lot of my family friends only have boys.",
+    "I am their “honorary daughter”.",
+    "It is frequently mentioned that I reach out to them much more.",
+    "It is frequently mentioned that “parenting a girl is very different.”",
+    "Daughter’s are the favorites for a reason."
+  ],
+  "source_mappings": {
+    "Young women reach out to parents more overall as compared to young men.": [
+      "Young women reach out to parents more overall as compared to young men."
+    ],
+    "Less than or about 25% of men visit their parents in person at least once a day or a few times a week.": [
+      "less than or about 25% of men",
+      "visit their parents in person at least once a day or a few times a week"
+    ],
+    "Less than or about 25% of young women visit their parents in person at least once a day or a few times a week.": [
+      "less than or about 25% of men and young women",
+      "visit their parents in person at least once a day or a few times a week"
+    ],
+    "Texts and calls are more accesible ways of connection.": [
+      "more accesible ways of connection like Texts and calls"
+    ],
+    "Texts and calls show an even greater divide between the interaction of young men and women with their parents.": [
+      "Texts and calls show an even greater divide between the interaction of young men and women with their parents."
+    ],
+    "I wonder if tradititional gender stereotypes affect how often a young person will reach out to their parents.": [
+      "I wonder if tradititional gender stereotypes affects how often a young person will reach out to their parents."
+    ],
+    "Young men are typicall societally encouraged to be more independent.": [
+      "Young men are typicall societally encouraged to be more independent"
+    ],
+    "Young men are typicall societally encouraged to not ask for help as often.": [
+      "Young men are typicall societally encouraged to be more independent and not ask for help as often"
+    ],
+    "Women are expected to lead more domestic lives.": [
+      "women are expected to lead more domestic"
+    ],
+    "Women are expected to lead family-centric lives.": [
+      "family-centric lives"
+    ],
+    "This phenomena may have even deeper roots.": [
+      "Does this phenomena have even deeper roots"
+    ],
+    "These roots may be biological instincts unique to each gender.": [
+      "biological instincts unique to each gender"
+    ],
+    "I have a very close relationship to my parents.": [
+      "I have a very close relationship to my parents"
+    ],
+    "I am the only child.": [
+      "I am the only child"
+    ],
+    "I am the only daughter.": [
+      "only daughter"
+    ],
+    "A lot of my family friends are adults.": [
+      "A lot of my family friends are adults"
+    ],
+    "A lot of my family friends only have boys.": [
+      "only have boys"
+    ],
+    "I am their “honorary daughter”.": [
+      "I am their “honorary daughter”."
+    ],
+    "It is frequently mentioned that I reach out to them much more.": [
+      "It’s frequently mentioned how much more I reach out to them"
+    ],
+    "It is frequently mentioned that “parenting a girl is very different.”": [
+      "“parenting a girl is very different.”"
+    ],
+    "Daughter’s are the favorites for a reason.": [
+      "Daughter’s are the favorites for a reason!"
+    ]
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "article_id": "91",
+  "comment_index": 153,
+  "raw_comment": "1. What do you notice?\nThe graph shows that their are more percentages of players of color and less than 40% or less head coaches of color. There is a drastic difference between the 2 percentages and this needs to change. The Women's national Basketball Association and the National Basketball Association has the 83% of players of color which is the highest out of all shows teams. The lowest percentage of POC as coaches is 13% in the NFL.\n2. What do you wonder?\nI wonder why there is such a low percentage of Head coaches of color?\n3. What impact does this have on you and your community?\nThis impacts me and my community because racism is clearly still a part of the major sports leagues. POC won't get the same opportunities as white people in regards to being head coach of teams  in the major sports leagues.\n4. What's going on in this graph? Write a catchy headline that captures the graph's main idea.\nThe graphs is showing data regarding percentages of Player of color in Major sports leagues and Head coaches of color. A catchy headline would be \"Lack of Diversity in Sports\"",
+  "ace_sentences": [
+    "The graph shows that there are more percentages of players of color.",
+    "The graph shows that there are less than 40% head coaches of color.",
+    "There is a drastic difference between the 2 percentages.",
+    "This needs to change.",
+    "The Women's national Basketball Association has 83% of players of color.",
+    "The National Basketball Association has 83% of players of color.",
+    "83% is the highest out of all shows teams.",
+    "The lowest percentage of POC as coaches is 13% in the NFL.",
+    "I wonder why there is such a low percentage of head coaches of color.",
+    "This impacts me and my community.",
+    "Racism is still a part of the major sports leagues.",
+    "POC will not get the same opportunities as white people.",
+    "These opportunities are opportunities to be head coach of teams in the major sports leagues.",
+    "The graphs is showing data regarding percentages of player of color in major sports leagues.",
+    "The graphs is showing data regarding head coaches of color.",
+    "A catchy headline is \"Lack of Diversity in Sports\"."
+  ],
+  "source_mappings": {
+    "The graph shows that there are more percentages of players of color.": [
+      "The graph shows that their are more percentages of players of color"
+    ],
+    "The graph shows that there are less than 40% head coaches of color.": [
+      "less than 40% or less head coaches of color"
+    ],
+    "There is a drastic difference between the 2 percentages.": [
+      "There is a drastic difference between the 2 percentages"
+    ],
+    "This needs to change.": [
+      "this needs to change"
+    ],
+    "The Women's national Basketball Association has 83% of players of color.": [
+      "The Women's national Basketball Association",
+      "has the 83% of players of color"
+    ],
+    "The National Basketball Association has 83% of players of color.": [
+      "the National Basketball Association",
+      "has the 83% of players of color"
+    ],
+    "83% is the highest out of all shows teams.": [
+      "the highest out of all shows teams"
+    ],
+    "The lowest percentage of POC as coaches is 13% in the NFL.": [
+      "The lowest percentage of POC as coaches is 13% in the NFL."
+    ],
+    "I wonder why there is such a low percentage of head coaches of color.": [
+      "I wonder why there is such a low percentage of Head coaches of color?"
+    ],
+    "This impacts me and my community.": [
+      "This impacts me and my community"
+    ],
+    "Racism is still a part of the major sports leagues.": [
+      "racism is clearly still a part of the major sports leagues"
+    ],
+    "POC will not get the same opportunities as white people.": [
+      "POC won't get the same opportunities as white people"
+    ],
+    "These opportunities are opportunities to be head coach of teams in the major sports leagues.": [
+      "in regards to being head coach of teams  in the major sports leagues."
+    ],
+    "The graphs is showing data regarding percentages of player of color in major sports leagues.": [
+      "The graphs is showing data regarding percentages of Player of color in Major sports leagues"
+    ],
+    "The graphs is showing data regarding head coaches of color.": [
+      "and Head coaches of color."
+    ],
+    "A catchy headline is \"Lack of Diversity in Sports\".": [
+      "A catchy headline would be \"Lack of Diversity in Sports\""
+    ]
+  }
+}

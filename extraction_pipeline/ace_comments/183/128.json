@@ -1,0 +1,67 @@
+{
+  "article_id": "183",
+  "comment_index": 128,
+  "raw_comment": "In this graph i have noticed that more men and women text there parents instead of visiting in person or calling. i wonder why people do not call there parents more than they text. this relates to my community because almost every one that can communicates with there parents every day. \"ears eyes or mouth everyone communicates some how\"",
+  "ace_sentences": [
+    "In this graph, I have noticed a trend.",
+    "More men text their parents instead of visiting in person.",
+    "More women text their parents instead of visiting in person.",
+    "More men text their parents instead of calling.",
+    "More women text their parents instead of calling.",
+    "I wonder about a reason.",
+    "People do not call their parents more than they text their parents.",
+    "This relates to my community.",
+    "Almost everyone in my community can communicate with their parents every day.",
+    "Everyone communicates somehow.",
+    "Ears are a way to communicate.",
+    "Eyes are a way to communicate.",
+    "A mouth is a way to communicate."
+  ],
+  "source_mappings": {
+    "In this graph, I have noticed a trend.": [
+      "In this graph i have noticed"
+    ],
+    "More men text their parents instead of visiting in person.": [
+      "more men",
+      "text there parents",
+      "instead of visiting in person"
+    ],
+    "More women text their parents instead of visiting in person.": [
+      "women text there parents",
+      "instead of visiting in person"
+    ],
+    "More men text their parents instead of calling.": [
+      "more men",
+      "text there parents",
+      "or calling"
+    ],
+    "More women text their parents instead of calling.": [
+      "women text there parents",
+      "or calling"
+    ],
+    "I wonder about a reason.": [
+      "i wonder why"
+    ],
+    "People do not call their parents more than they text their parents.": [
+      "people do not call there parents more than they text"
+    ],
+    "This relates to my community.": [
+      "this relates to my community"
+    ],
+    "Almost everyone in my community can communicate with their parents every day.": [
+      "almost every one that can communicates with there parents every day"
+    ],
+    "Everyone communicates somehow.": [
+      "everyone communicates some how"
+    ],
+    "Ears are a way to communicate.": [
+      "ears"
+    ],
+    "Eyes are a way to communicate.": [
+      "eyes"
+    ],
+    "A mouth is a way to communicate.": [
+      "mouth"
+    ]
+  }
+}

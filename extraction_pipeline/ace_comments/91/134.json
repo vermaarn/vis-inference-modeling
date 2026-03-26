@@ -1,0 +1,65 @@
+{
+  "article_id": "91",
+  "comment_index": 134,
+  "raw_comment": "I notice that  there is more diversity with people of color who are players, but there seems to be less diversity when it comes to coaches. There also seems to be less players of color in Baseball, dropping from between 60-83% to 40% of players. I wonder if the lack of coaches of color has to do with not wanting people of color to be in positions of leadership, or if there’s just more people of color who want to be players. I also wonder why there are less people of color in baseball. If there’s more diversity in sports, especially in positions of leadership, it can do a lot to show young children of color that they can do that too. I know that seeing people that look like you can be empowering and can show you that you can also accomplish your dreams. This graph is showing the amount of people of color that are in sports. \n\n“Diversity in Sports - Is It Enough?",
+  "ace_sentences": [
+    "I notice that there is more diversity with people of color who are players.",
+    "There seems to be less diversity when it comes to coaches.",
+    "There seems to be less players of color in Baseball.",
+    "The percentage dropped from between 60-83% to 40% of players.",
+    "I wonder if the lack of coaches of color has to do with not wanting people of color to be in positions of leadership.",
+    "I wonder if there is more people of color who want to be players.",
+    "I wonder why there are less people of color in baseball.",
+    "If there is more diversity in sports, especially in positions of leadership, it can do a lot.",
+    "If there is more diversity in sports, it can show young children of color that they can do that too.",
+    "I know that seeing people that look like you can be empowering.",
+    "I know that seeing people that look like you can show you that you can also accomplish your dreams.",
+    "This graph is showing the amount of people of color that are in sports.",
+    "The headline is:",
+    "Diversity in Sports - Is It Enough?"
+  ],
+  "source_mappings": {
+    "I notice that there is more diversity with people of color who are players.": [
+      "I notice that  there is more diversity with people of color who are players"
+    ],
+    "There seems to be less diversity when it comes to coaches.": [
+      "there seems to be less diversity when it comes to coaches"
+    ],
+    "There seems to be less players of color in Baseball.": [
+      "There also seems to be less players of color in Baseball"
+    ],
+    "The percentage dropped from between 60-83% to 40% of players.": [
+      "dropping from between 60-83% to 40% of players"
+    ],
+    "I wonder if the lack of coaches of color has to do with not wanting people of color to be in positions of leadership.": [
+      "I wonder if the lack of coaches of color has to do with not wanting people of color to be in positions of leadership"
+    ],
+    "I wonder if there is more people of color who want to be players.": [
+      "or if there’s just more people of color who want to be players"
+    ],
+    "I wonder why there are less people of color in baseball.": [
+      "I also wonder why there are less people of color in baseball."
+    ],
+    "If there is more diversity in sports, especially in positions of leadership, it can do a lot.": [
+      "If there’s more diversity in sports, especially in positions of leadership, it can do a lot"
+    ],
+    "If there is more diversity in sports, it can show young children of color that they can do that too.": [
+      "to show young children of color that they can do that too"
+    ],
+    "I know that seeing people that look like you can be empowering.": [
+      "I know that seeing people that look like you can be empowering"
+    ],
+    "I know that seeing people that look like you can show you that you can also accomplish your dreams.": [
+      "can show you that you can also accomplish your dreams"
+    ],
+    "This graph is showing the amount of people of color that are in sports.": [
+      "This graph is showing the amount of people of color that are in sports."
+    ],
+    "The headline is:": [
+      "“Diversity in Sports - Is It Enough?"
+    ],
+    "Diversity in Sports - Is It Enough?": [
+      "Diversity in Sports - Is It Enough?"
+    ]
+  }
+}

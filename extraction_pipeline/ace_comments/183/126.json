@@ -1,0 +1,91 @@
+{
+  "article_id": "183",
+  "comment_index": 126,
+  "raw_comment": "I notice that, in general, more young women tend to reach out to a parent than young men do. In every aspect included in this graph, whether it’s sending text messages, video chats, or visiting in person, young women are always the ones to reach out more. However, I also observe that while text messaging and calling have a disproportionately higher rate of use by young women than young men (around a 40 percentage point difference), in-person check-ins are equal amongst young men and women, with around 20-25% of them using this form of reaching out.\n\tThis observation of mine makes me wonder two things. 1) Why do young men reach out at much lower rates than young women? And 2) Why is reaching out in person used very little compared to other forms by young adults? \n\tThis graph relates to my community and me in that most of the people in my inner circle are around the ages depicted in this graph, especially young men. Because of the observation that young men are almost twice as likely to not reach out to their parents, it’s a slight concern for me as to why my young male peers and friends are reluctant or hesitant in doing so.\n\tCatchy headline: “What’s Your Form of Communicating With Your Parents? Do You Do it at All?”",
+  "ace_sentences": [
+    "In general, more young women tend to reach out to a parent than young men do.",
+    "In every aspect included in this graph, young women reach out more than young men.",
+    "These aspects include sending text messages.",
+    "These aspects include video chats.",
+    "These aspects include visiting in person.",
+    "Text messaging has a disproportionately higher rate of use by young women than young men.",
+    "Calling has a disproportionately higher rate of use by young women than young men.",
+    "The difference is around a 40 percentage point difference.",
+    "In-person check-ins are equal amongst young men and women.",
+    "Around 20-25% of young men and women use in-person check-ins.",
+    "This observation of mine makes me wonder two things.",
+    "I wonder why young men reach out at much lower rates than young women.",
+    "I wonder why reaching out in person is used very little compared to other forms by young adults.",
+    "This graph relates to my community and me.",
+    "Most of the people in my inner circle are around the ages depicted in this graph.",
+    "Young men are in my inner circle.",
+    "Young men are almost twice as likely to not reach out to their parents.",
+    "This is a slight concern for me.",
+    "My young male peers and friends are reluctant or hesitant in reaching out to their parents.",
+    "The headline is: “What’s Your Form of Communicating With Your Parents? Do You Do it at All?”"
+  ],
+  "source_mappings": {
+    "In general, more young women tend to reach out to a parent than young men do.": [
+      "in general, more young women tend to reach out to a parent than young men do"
+    ],
+    "In every aspect included in this graph, young women reach out more than young men.": [
+      "In every aspect included in this graph",
+      "young women are always the ones to reach out more"
+    ],
+    "These aspects include sending text messages.": [
+      "sending text messages"
+    ],
+    "These aspects include video chats.": [
+      "video chats"
+    ],
+    "These aspects include visiting in person.": [
+      "visiting in person"
+    ],
+    "Text messaging has a disproportionately higher rate of use by young women than young men.": [
+      "text messaging",
+      "have a disproportionately higher rate of use by young women than young men"
+    ],
+    "Calling has a disproportionately higher rate of use by young women than young men.": [
+      "calling have a disproportionately higher rate of use by young women than young men"
+    ],
+    "The difference is around a 40 percentage point difference.": [
+      "around a 40 percentage point difference"
+    ],
+    "In-person check-ins are equal amongst young men and women.": [
+      "in-person check-ins are equal amongst young men and women"
+    ],
+    "Around 20-25% of young men and women use in-person check-ins.": [
+      "around 20-25% of them using this form of reaching out"
+    ],
+    "This observation of mine makes me wonder two things.": [
+      "This observation of mine makes me wonder two things."
+    ],
+    "I wonder why young men reach out at much lower rates than young women.": [
+      "Why do young men reach out at much lower rates than young women?"
+    ],
+    "I wonder why reaching out in person is used very little compared to other forms by young adults.": [
+      "Why is reaching out in person used very little compared to other forms by young adults?"
+    ],
+    "This graph relates to my community and me.": [
+      "This graph relates to my community and me"
+    ],
+    "Most of the people in my inner circle are around the ages depicted in this graph.": [
+      "most of the people in my inner circle are around the ages depicted in this graph"
+    ],
+    "Young men are in my inner circle.": [
+      "especially young men"
+    ],
+    "Young men are almost twice as likely to not reach out to their parents.": [
+      "young men are almost twice as likely to not reach out to their parents"
+    ],
+    "This is a slight concern for me.": [
+      "it’s a slight concern for me"
+    ],
+    "My young male peers and friends are reluctant or hesitant in reaching out to their parents.": [
+      "my young male peers and friends are reluctant or hesitant in doing so"
+    ],
+    "The headline is: “What’s Your Form of Communicating With Your Parents? Do You Do it at All?”": [
+      "Catchy headline: “What’s Your Form of Communicating With Your Parents? Do You Do it at All?”"
+    ]
+  }
+}

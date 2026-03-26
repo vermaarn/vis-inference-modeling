@@ -1,0 +1,57 @@
+{
+  "article_id": "91",
+  "comment_index": 63,
+  "raw_comment": "I notice that there is a significantly lower percentage of coaches of color than players across all the major sports leagues. I also noticed that the basketball leagues have the most players of color while major league soccer had the most coaches of.\n\nI wonder how much the percentages of coaches of color will change in the next 10 years as there have been many new coaches of color signed recently in some of these leagues. The coaching position might look a lot more diverse if the next ten years went at the rate coaches of color were hired this past year.\n\nThis does not have much of an impact on me and my community as there aren’t any professional sports leagues in my community, but one thing for sure is that my community is not very diverse and these graphs do a great job of showing me how diverse some of these leagues are.\n\nMy title is : Professional Athletes are diverse, their coaches don’t share the same fate.",
+  "ace_sentences": [
+    "There is a significantly lower percentage of coaches of color than players across all the major sports leagues.",
+    "The basketball leagues have the most players of color.",
+    "Major league soccer had the most coaches of.",
+    "I wonder how much the percentages of coaches of color will change in the next 10 years.",
+    "There have been many new coaches of color signed recently in some of these leagues.",
+    "The coaching position might look a lot more diverse.",
+    "The next ten years might go at the rate coaches of color were hired this past year.",
+    "This does not have much of an impact on me and my community.",
+    "There aren’t any professional sports leagues in my community.",
+    "My community is not very diverse.",
+    "These graphs do a great job of showing me how diverse some of these leagues are.",
+    "My title is : Professional Athletes are diverse, their coaches don’t share the same fate."
+  ],
+  "source_mappings": {
+    "There is a significantly lower percentage of coaches of color than players across all the major sports leagues.": [
+      "there is a significantly lower percentage of coaches of color than players across all the major sports leagues"
+    ],
+    "The basketball leagues have the most players of color.": [
+      "the basketball leagues have the most players of color"
+    ],
+    "Major league soccer had the most coaches of.": [
+      "major league soccer had the most coaches of."
+    ],
+    "I wonder how much the percentages of coaches of color will change in the next 10 years.": [
+      "I wonder how much the percentages of coaches of color will change in the next 10 years"
+    ],
+    "There have been many new coaches of color signed recently in some of these leagues.": [
+      "there have been many new coaches of color signed recently in some of these leagues"
+    ],
+    "The coaching position might look a lot more diverse.": [
+      "The coaching position might look a lot more diverse"
+    ],
+    "The next ten years might go at the rate coaches of color were hired this past year.": [
+      "the next ten years went at the rate coaches of color were hired this past year"
+    ],
+    "This does not have much of an impact on me and my community.": [
+      "This does not have much of an impact on me and my community"
+    ],
+    "There aren’t any professional sports leagues in my community.": [
+      "there aren’t any professional sports leagues in my community"
+    ],
+    "My community is not very diverse.": [
+      "my community is not very diverse"
+    ],
+    "These graphs do a great job of showing me how diverse some of these leagues are.": [
+      "these graphs do a great job of showing me how diverse some of these leagues are"
+    ],
+    "My title is : Professional Athletes are diverse, their coaches don’t share the same fate.": [
+      "My title is : Professional Athletes are diverse, their coaches don’t share the same fate."
+    ]
+  }
+}

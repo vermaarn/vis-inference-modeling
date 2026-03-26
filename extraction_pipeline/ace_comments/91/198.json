@@ -1,0 +1,60 @@
+{
+  "article_id": "91",
+  "comment_index": 198,
+  "raw_comment": "I notice that football the sport with the least amount of coaches that are POC has more than 50 percent of the players being POC. I wonder if that makes it harder for for the players knowing that their coaches can´t relate to one of their biggest life challenges outside of the sport they play. This makes me question of the impact it might have on future coaches that are POC they must find this discourging knowing that although the athletes they will be coaching are like them their peers are not, leading them to have to face the challenges of being a pioneer in their profession. The diversty of the athletes in the sports should be the same or close to the same amount as those leading the athletes.",
+  "ace_sentences": [
+    "Football is a sport.",
+    "Football has the least amount of coaches that are POC.",
+    "More than 50 percent of the players in football are POC.",
+    "The coaches of the players may not relate to one of the biggest life challenges of the players outside of the sport.",
+    "This situation may make it harder for the players.",
+    "This situation may discourage future coaches that are POC.",
+    "The athletes that future coaches that are POC will be coaching are like them.",
+    "The peers of future coaches that are POC are not like them.",
+    "This situation may lead future coaches that are POC to face challenges.",
+    "A future coach that is POC may be a pioneer in his profession.",
+    "The diversity of the athletes in the sports should be the same as the diversity of those leading the athletes.",
+    "The diversity of the athletes in the sports should be close to the same amount as the diversity of those leading the athletes."
+  ],
+  "source_mappings": {
+    "Football is a sport.": [
+      "football the sport"
+    ],
+    "Football has the least amount of coaches that are POC.": [
+      "football the sport with the least amount of coaches that are POC"
+    ],
+    "More than 50 percent of the players in football are POC.": [
+      "more than 50 percent of the players being POC"
+    ],
+    "The coaches of the players may not relate to one of the biggest life challenges of the players outside of the sport.": [
+      "their coaches can´t relate to one of their biggest life challenges outside of the sport they play"
+    ],
+    "This situation may make it harder for the players.": [
+      "I wonder if that makes it harder for for the players"
+    ],
+    "This situation may discourage future coaches that are POC.": [
+      "the impact it might have on future coaches that are POC",
+      "they must find this discourging"
+    ],
+    "The athletes that future coaches that are POC will be coaching are like them.": [
+      "the athletes they will be coaching are like them"
+    ],
+    "The peers of future coaches that are POC are not like them.": [
+      "their peers are not"
+    ],
+    "This situation may lead future coaches that are POC to face challenges.": [
+      "leading them to have to face the challenges"
+    ],
+    "A future coach that is POC may be a pioneer in his profession.": [
+      "being a pioneer in their profession"
+    ],
+    "The diversity of the athletes in the sports should be the same as the diversity of those leading the athletes.": [
+      "The diversty of the athletes in the sports should be the same",
+      "as those leading the athletes"
+    ],
+    "The diversity of the athletes in the sports should be close to the same amount as the diversity of those leading the athletes.": [
+      "or close to the same amount",
+      "as those leading the athletes"
+    ]
+  }
+}

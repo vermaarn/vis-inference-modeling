@@ -1,0 +1,29 @@
+{
+  "article_id": "183",
+  "comment_index": 6,
+  "raw_comment": "I wonder why there is a grey bar between the two dots.\nThe bar implies that there is something meaningful between the two dots and I think there is not.\nAnd that frustrates me that smart people would make such a weird mistake.",
+  "ace_sentences": [
+    "I wonder why there is a grey bar between the two dots.",
+    "The bar implies that there is something meaningful between the two dots.",
+    "I think that there is not something meaningful between the two dots.",
+    "This frustrates me.",
+    "I think that smart people would make such a weird mistake."
+  ],
+  "source_mappings": {
+    "I wonder why there is a grey bar between the two dots.": [
+      "I wonder why there is a grey bar between the two dots."
+    ],
+    "The bar implies that there is something meaningful between the two dots.": [
+      "The bar implies that there is something meaningful between the two dots"
+    ],
+    "I think that there is not something meaningful between the two dots.": [
+      "I think there is not."
+    ],
+    "This frustrates me.": [
+      "And that frustrates me"
+    ],
+    "I think that smart people would make such a weird mistake.": [
+      "that smart people would make such a weird mistake."
+    ]
+  }
+}

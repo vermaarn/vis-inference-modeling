@@ -1,0 +1,85 @@
+{
+  "article_id": "91",
+  "comment_index": 169,
+  "raw_comment": "1. I notice there's 13 percentage of head coaches of color in the national football league. This is the smallest percentage of Head Coach of Color to MLB, NBA, MLS, and WNBA.  Furthermore, I can observe that the only women sport listed is the WNBA. The MLS is the closest in percentage between Players of color and Head Coach of Color and the WNBA and the NBA have an equal percent of players of color; there is 5% more Head Coach of Color in the NBA than the WNBA.\n\n2. I wonder why are only managers shown for the MLB? How players are recruited into the WNBA and NBA? What is the criteria for being a head coach? Why are there less Head coaches of color than players? Finally, I wonder why MLB and MLS contain fewer players of color?\n\n3.  Some possible impacts in my community is that the job market for head coaches of color is limited. Furthermore, in my community, Students are interested in being football players which means that there are more students of color with the ability to make their dreams come true. \n \n4. Sports: Diversity or Lies or  Head Coaches of Color? The Color spectrum in Sports",
+  "ace_sentences": [
+    "I notice that there is 13 percentage of head coaches of color in the national football league.",
+    "This is the smallest percentage of Head Coach of Color compared to MLB and NBA and MLS and WNBA.",
+    "Furthermore, I can observe that the only women sport listed is the WNBA.",
+    "The MLS is the closest in percentage between Players of color and Head Coach of Color.",
+    "The WNBA has an equal percent of players of color.",
+    "The NBA has an equal percent of players of color.",
+    "There is 5% more Head Coach of Color in the NBA than the WNBA.",
+    "I wonder why only managers are shown for the MLB.",
+    "I wonder how players are recruited into the WNBA.",
+    "I wonder how players are recruited into the NBA.",
+    "I wonder what the criteria is for being a head coach.",
+    "I wonder why there are less Head coaches of color than players.",
+    "Finally, I wonder why MLB contains fewer players of color.",
+    "Finally, I wonder why MLS contain fewer players of color.",
+    "Some possible impacts in my community are that the job market for head coaches of color is limited.",
+    "Furthermore, in my community, Students are interested in being football players.",
+    "This means that there are more students of color with the ability to make their dreams come true.",
+    "The headline is: Sports: Diversity or Lies or Head Coaches of Color?",
+    "The headline is: The Color spectrum in Sports."
+  ],
+  "source_mappings": {
+    "I notice that there is 13 percentage of head coaches of color in the national football league.": [
+      "I notice there's 13 percentage of head coaches of color in the national football league."
+    ],
+    "This is the smallest percentage of Head Coach of Color compared to MLB and NBA and MLS and WNBA.": [
+      "This is the smallest percentage of Head Coach of Color to MLB, NBA, MLS, and WNBA."
+    ],
+    "Furthermore, I can observe that the only women sport listed is the WNBA.": [
+      "Furthermore, I can observe that the only women sport listed is the WNBA."
+    ],
+    "The MLS is the closest in percentage between Players of color and Head Coach of Color.": [
+      "The MLS is the closest in percentage between Players of color and Head Coach of Color"
+    ],
+    "The WNBA has an equal percent of players of color.": [
+      "the WNBA and the NBA have an equal percent of players of color"
+    ],
+    "The NBA has an equal percent of players of color.": [
+      "the WNBA and the NBA have an equal percent of players of color"
+    ],
+    "There is 5% more Head Coach of Color in the NBA than the WNBA.": [
+      "there is 5% more Head Coach of Color in the NBA than the WNBA."
+    ],
+    "I wonder why only managers are shown for the MLB.": [
+      "I wonder why are only managers shown for the MLB?"
+    ],
+    "I wonder how players are recruited into the WNBA.": [
+      "How players are recruited into the WNBA"
+    ],
+    "I wonder how players are recruited into the NBA.": [
+      "How players are recruited into the WNBA and NBA?"
+    ],
+    "I wonder what the criteria is for being a head coach.": [
+      "What is the criteria for being a head coach?"
+    ],
+    "I wonder why there are less Head coaches of color than players.": [
+      "Why are there less Head coaches of color than players?"
+    ],
+    "Finally, I wonder why MLB contains fewer players of color.": [
+      "Finally, I wonder why MLB and MLS contain fewer players of color?"
+    ],
+    "Finally, I wonder why MLS contain fewer players of color.": [
+      "Finally, I wonder why MLB and MLS contain fewer players of color?"
+    ],
+    "Some possible impacts in my community are that the job market for head coaches of color is limited.": [
+      "Some possible impacts in my community is that the job market for head coaches of color is limited."
+    ],
+    "Furthermore, in my community, Students are interested in being football players.": [
+      "Furthermore, in my community, Students are interested in being football players"
+    ],
+    "This means that there are more students of color with the ability to make their dreams come true.": [
+      "which means that there are more students of color with the ability to make their dreams come true."
+    ],
+    "The headline is: Sports: Diversity or Lies or Head Coaches of Color?": [
+      "Sports: Diversity or Lies or  Head Coaches of Color?"
+    ],
+    "The headline is: The Color spectrum in Sports.": [
+      "The Color spectrum in Sports"
+    ]
+  }
+}

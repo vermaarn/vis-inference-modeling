@@ -1,0 +1,104 @@
+{
+  "article_id": "183",
+  "comment_index": 97,
+  "raw_comment": "The first thing that I notice is that young people need to talk to their parents more often! They’re not going to be here forever. I also noticed, and thought it was interesting, that girls tend to keep more in touch with parents than boys. I found that a little relatable. I still try to keep in touch with my parents, but I feel like younger boys might have more trouble doing that. I also saw that the percentage of young people who see their parents in person was the lowest out of all. Life does tend to get busier the more you grow older, and you might not live in the same place.\n\nI wonder and hope if we could get to a time where we really try to put an effort into seeing our parents and family. There’s only a certain amount of time we get with our loved ones, and it’s important we spend that time and cherish it while we can.\n\nThis relates to my community since I’m currently at college, just like all the other students here, and we may not see our family all the time since we’re away for school. It might be hard to make frequent calls, but I’m able to get a couple a week in.\n\nA catchy headline would be “Connected But Disconnected”.",
+  "ace_sentences": [
+    "I notice that young people need to talk to their parents more often.",
+    "Parents are not going to be here forever.",
+    "I notice that girls tend to keep more in touch with parents than boys.",
+    "I find this a little relatable.",
+    "I still try to keep in touch with my parents.",
+    "I feel that younger boys might have more trouble doing that.",
+    "I see that the percentage of young people who see their parents in person was the lowest out of all.",
+    "Life tends to get busier when you grow older.",
+    "A person might not live in the same place as the parents.",
+    "I wonder if we could get to a time where we really try to put an effort into seeing our parents and family.",
+    "I hope that we could get to a time where we really try to put an effort into seeing our parents and family.",
+    "There is only a certain amount of time that we get with our loved ones.",
+    "It is important that we spend that time.",
+    "It is important that we cherish that time while we can.",
+    "This relates to my community.",
+    "I am currently at college.",
+    "All the other students here are currently at college.",
+    "We may not see our family all the time.",
+    "We are away for school.",
+    "If we are away for school, then we may not see our family all the time.",
+    "It might be hard to make frequent calls.",
+    "I am able to get a couple a week in.",
+    "A catchy headline would be “Connected But Disconnected”."
+  ],
+  "source_mappings": {
+    "I notice that young people need to talk to their parents more often.": [
+      "The first thing that I notice is that young people need to talk to their parents more often!"
+    ],
+    "Parents are not going to be here forever.": [
+      "They’re not going to be here forever."
+    ],
+    "I notice that girls tend to keep more in touch with parents than boys.": [
+      "I also noticed, and thought it was interesting, that girls tend to keep more in touch with parents than boys."
+    ],
+    "I find this a little relatable.": [
+      "I found that a little relatable."
+    ],
+    "I still try to keep in touch with my parents.": [
+      "I still try to keep in touch with my parents"
+    ],
+    "I feel that younger boys might have more trouble doing that.": [
+      "I feel like younger boys might have more trouble doing that."
+    ],
+    "I see that the percentage of young people who see their parents in person was the lowest out of all.": [
+      "I also saw that the percentage of young people who see their parents in person was the lowest out of all."
+    ],
+    "Life tends to get busier when you grow older.": [
+      "Life does tend to get busier the more you grow older"
+    ],
+    "A person might not live in the same place as the parents.": [
+      "you might not live in the same place."
+    ],
+    "I wonder if we could get to a time where we really try to put an effort into seeing our parents and family.": [
+      "I wonder",
+      "if we could get to a time where we really try to put an effort into seeing our parents and family."
+    ],
+    "I hope that we could get to a time where we really try to put an effort into seeing our parents and family.": [
+      "hope",
+      "if we could get to a time where we really try to put an effort into seeing our parents and family."
+    ],
+    "There is only a certain amount of time that we get with our loved ones.": [
+      "There’s only a certain amount of time we get with our loved ones"
+    ],
+    "It is important that we spend that time.": [
+      "it’s important we spend that time"
+    ],
+    "It is important that we cherish that time while we can.": [
+      "cherish it while we can."
+    ],
+    "This relates to my community.": [
+      "This relates to my community"
+    ],
+    "I am currently at college.": [
+      "I’m currently at college"
+    ],
+    "All the other students here are currently at college.": [
+      "all the other students here"
+    ],
+    "We may not see our family all the time.": [
+      "we may not see our family all the time"
+    ],
+    "We are away for school.": [
+      "we’re away for school."
+    ],
+    "If we are away for school, then we may not see our family all the time.": [
+      "we may not see our family all the time",
+      "we’re away for school."
+    ],
+    "It might be hard to make frequent calls.": [
+      "It might be hard to make frequent calls"
+    ],
+    "I am able to get a couple a week in.": [
+      "but I’m able to get a couple a week in."
+    ],
+    "A catchy headline would be “Connected But Disconnected”.": [
+      "A catchy headline would be “Connected But Disconnected”."
+    ]
+  }
+}

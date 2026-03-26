@@ -1,0 +1,63 @@
+{
+  "article_id": "91",
+  "comment_index": 182,
+  "raw_comment": "Playing with games, or being played by [the] games....\n\nI notice that in these sport facets - colored people make up a significant portion of teams. Why is it that Caucasians are mostly coaching - why isn’t there diversity in the spectrum of sports? Is money and maybe racial bias to be honest the reason this is so? (Are African Americans gifted with sports, or are they Bid upon or played like puppets behind the scenes by the people that run everything which just so happen to be whites in power, in the sport industry.)\n\nThe impact goes heavily upon African Americans. Yes, if you aspire to iconic in sports or whatever then execute the process of achieving that dream! I just want you to know the real game, again behind the scenes, and if these racial statistics help prove my stance in that. This does not so much affect anyone else really - unless they are obsessed with sports, or believes that everything needs to generally be diverse.",
+  "ace_sentences": [
+    "I notice that in these sport facets colored people make up a significant portion of teams.",
+    "Caucasians are mostly coaching.",
+    "I ask why there is not diversity in the spectrum of sports.",
+    "Money may be the reason for this.",
+    "Racial bias may be the reason for this.",
+    "The impact goes heavily upon African Americans.",
+    "If you aspire to iconic in sports or whatever then execute the process of achieving that dream.",
+    "I want you to know the real game.",
+    "The real game is behind the scenes.",
+    "These racial statistics help prove my stance in that.",
+    "This does not so much affect anyone else really.",
+    "This affects people if they are obsessed with sports.",
+    "This affects people if they believe that everything needs to generally be diverse."
+  ],
+  "source_mappings": {
+    "I notice that in these sport facets colored people make up a significant portion of teams.": [
+      "I notice that in these sport facets - colored people make up a significant portion of teams."
+    ],
+    "Caucasians are mostly coaching.": [
+      "Caucasians are mostly coaching"
+    ],
+    "I ask why there is not diversity in the spectrum of sports.": [
+      "why isn’t there diversity in the spectrum of sports?"
+    ],
+    "Money may be the reason for this.": [
+      "Is money",
+      "the reason this is so?"
+    ],
+    "Racial bias may be the reason for this.": [
+      "maybe racial bias to be honest",
+      "the reason this is so?"
+    ],
+    "The impact goes heavily upon African Americans.": [
+      "The impact goes heavily upon African Americans."
+    ],
+    "If you aspire to iconic in sports or whatever then execute the process of achieving that dream.": [
+      "if you aspire to iconic in sports or whatever then execute the process of achieving that dream!"
+    ],
+    "I want you to know the real game.": [
+      "I just want you to know the real game"
+    ],
+    "The real game is behind the scenes.": [
+      "behind the scenes"
+    ],
+    "These racial statistics help prove my stance in that.": [
+      "if these racial statistics help prove my stance in that."
+    ],
+    "This does not so much affect anyone else really.": [
+      "This does not so much affect anyone else really"
+    ],
+    "This affects people if they are obsessed with sports.": [
+      "unless they are obsessed with sports"
+    ],
+    "This affects people if they believe that everything needs to generally be diverse.": [
+      "or believes that everything needs to generally be diverse."
+    ]
+  }
+}

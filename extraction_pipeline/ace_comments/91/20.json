@@ -1,0 +1,53 @@
+{
+  "article_id": "91",
+  "comment_index": 20,
+  "raw_comment": "1. I notice that there are a lot more people of color as players than people of color as head coaches.\n\n2. I wonder why Major League Baseball has significantly less players of color than any of the other leagues listed here.\n\n3. My community and I are affected by this because it shows that while people of color can become sports players, it is unlikely for people of color to have a management/coaching position in these sports. This thus results in less people of color wanting to be in a coaching position and will keep this data relatively static.\n\n4. This graph is showing the amount of people of color as players/athletes and the amount of head coaches of color. A catchy name for this might be \"Are major sports leagues actually diverse?\"\n\n4.",
+  "ace_sentences": [
+    "I notice that there are a lot more people of color as players than people of color as head coaches.",
+    "I wonder why Major League Baseball has significantly less players of color than any of the other leagues listed here.",
+    "My community is affected by this.",
+    "I am affected by this.",
+    "This shows that people of color can become sports players.",
+    "This shows that it is unlikely for people of color to have a management/coaching position in these sports.",
+    "This results in less people of color wanting to be in a coaching position.",
+    "This will keep this data relatively static.",
+    "This graph is showing the amount of people of color as players/athletes.",
+    "This graph is showing the amount of head coaches of color.",
+    "A catchy name for this might be \"Are major sports leagues actually diverse?\"."
+  ],
+  "source_mappings": {
+    "I notice that there are a lot more people of color as players than people of color as head coaches.": [
+      "I notice that there are a lot more people of color as players than people of color as head coaches."
+    ],
+    "I wonder why Major League Baseball has significantly less players of color than any of the other leagues listed here.": [
+      "I wonder why Major League Baseball has significantly less players of color than any of the other leagues listed here."
+    ],
+    "My community is affected by this.": [
+      "My community and I are affected by this"
+    ],
+    "I am affected by this.": [
+      "My community and I are affected by this"
+    ],
+    "This shows that people of color can become sports players.": [
+      "it shows that while people of color can become sports players"
+    ],
+    "This shows that it is unlikely for people of color to have a management/coaching position in these sports.": [
+      "it is unlikely for people of color to have a management/coaching position in these sports."
+    ],
+    "This results in less people of color wanting to be in a coaching position.": [
+      "This thus results in less people of color wanting to be in a coaching position"
+    ],
+    "This will keep this data relatively static.": [
+      "will keep this data relatively static."
+    ],
+    "This graph is showing the amount of people of color as players/athletes.": [
+      "This graph is showing the amount of people of color as players/athletes"
+    ],
+    "This graph is showing the amount of head coaches of color.": [
+      "the amount of head coaches of color."
+    ],
+    "A catchy name for this might be \"Are major sports leagues actually diverse?\".": [
+      "A catchy name for this might be \"Are major sports leagues actually diverse?\""
+    ]
+  }
+}

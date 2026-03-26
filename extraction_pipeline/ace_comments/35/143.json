@@ -1,0 +1,75 @@
+{
+  "article_id": "35",
+  "comment_index": 143,
+  "raw_comment": "Our 6th grade math class noticed:\n\"There is one area in the Midwest that starts way later than other areas at the same latitude.\"\n\"The first week in Florida is still in winter\"\n\"The latitude of the areas In March when the first leaf falls lines up with where Japan is.\" \n\nWe are wondering: \n\"What is your definition of 'first leaf'?\" \n\"How did you collect this data?\"\n\"What time period did you get this average from?\"\n\"What's going on with that area in the Midwest? Is there a difference in elevation causing the late first leaf?\"\n\"Is this roughly the same in other countries with the same elevation?\"\n\nWe think:\n\"Precipitation/climate probably effects the first leaf.\"",
+  "ace_sentences": [
+    "Our 6th grade math class noticed one area in the Midwest.",
+    "This area starts way later than other areas at the same latitude.",
+    "Our 6th grade math class noticed that the first week in Florida is still in winter.",
+    "Our 6th grade math class noticed that the latitude of the areas in March when the first leaf falls lines up with where Japan is.",
+    "We are wondering about your definition of first leaf.",
+    "We are wondering how you collect this data.",
+    "We are wondering what time period you get this average from.",
+    "We are wondering what is going on with that area in the Midwest.",
+    "We are wondering if there is a difference in elevation.",
+    "We are wondering if a difference in elevation causes the late first leaf.",
+    "We are wondering if this is roughly the same in other countries with the same elevation.",
+    "We think that precipitation probably affects the first leaf.",
+    "We think that climate probably affects the first leaf.",
+    "Precipitation or climate probably affects the first leaf."
+  ],
+  "source_mappings": {
+    "Our 6th grade math class noticed one area in the Midwest.": [
+      "Our 6th grade math class noticed:",
+      "There is one area in the Midwest"
+    ],
+    "This area starts way later than other areas at the same latitude.": [
+      "starts way later than other areas at the same latitude."
+    ],
+    "Our 6th grade math class noticed that the first week in Florida is still in winter.": [
+      "Our 6th grade math class noticed:",
+      "The first week in Florida is still in winter"
+    ],
+    "Our 6th grade math class noticed that the latitude of the areas in March when the first leaf falls lines up with where Japan is.": [
+      "Our 6th grade math class noticed:",
+      "The latitude of the areas In March when the first leaf falls lines up with where Japan is."
+    ],
+    "We are wondering about your definition of first leaf.": [
+      "We are wondering:",
+      "What is your definition of 'first leaf'?"
+    ],
+    "We are wondering how you collect this data.": [
+      "We are wondering:",
+      "How did you collect this data?"
+    ],
+    "We are wondering what time period you get this average from.": [
+      "We are wondering:",
+      "What time period did you get this average from?"
+    ],
+    "We are wondering what is going on with that area in the Midwest.": [
+      "We are wondering:",
+      "What's going on with that area in the Midwest?"
+    ],
+    "We are wondering if there is a difference in elevation.": [
+      "Is there a difference in elevation"
+    ],
+    "We are wondering if a difference in elevation causes the late first leaf.": [
+      "causing the late first leaf?"
+    ],
+    "We are wondering if this is roughly the same in other countries with the same elevation.": [
+      "We are wondering:",
+      "Is this roughly the same in other countries with the same elevation?"
+    ],
+    "We think that precipitation probably affects the first leaf.": [
+      "We think:",
+      "Precipitation/climate probably effects the first leaf."
+    ],
+    "We think that climate probably affects the first leaf.": [
+      "We think:",
+      "Precipitation/climate probably effects the first leaf."
+    ],
+    "Precipitation or climate probably affects the first leaf.": [
+      "Precipitation/climate probably effects the first leaf."
+    ]
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "article_id": "91",
+  "comment_index": 145,
+  "raw_comment": "1. What do you notice?\n\nWe notice that the number of players that are people of colour is far greater than the number of head coaches that are people of colour. The gap is quite large in all leagues except for The Major Soccer League which is the only exception having a smaller gap. \nThe National Basketball Association seems to have the most people of colour in the league while having less than half of the coaches as people of colour.\n\n2. What do you wonder?\n\nWe wonder how they are increasing diversity in these leagues. Are they reserving more spots in the leagues for people of colour or simply supporting them more, allowing them to increase their skills and make it onto the teams?\n\n3.  What impact does this have on you and your community?\n\nPeople of colour are not promoted to coaches as much as non-people of colour.  Racism is still prevalent in society today. \n\n4. What is going on in this graph?\n\nThis graph compares the percentage of players of colour compared to the percentage of head coaches of colour.\n\nCatchy Title: \n- Diversity in the lens of the public eye, not so much on the bench\n- Increased diversity in professional athletes, not so much in coaching faculties",
+  "ace_sentences": [
+    "We notice something.",
+    "The number of players that are people of colour is far greater than the number of head coaches that are people of colour.",
+    "The gap is quite large in all leagues.",
+    "The Major Soccer League is an exception.",
+    "The Major Soccer League has a smaller gap.",
+    "The National Basketball Association seems to have the most people of colour in the league.",
+    "The National Basketball Association has less than half of the coaches as people of colour.",
+    "We wonder about something.",
+    "We wonder how they are increasing diversity in these leagues.",
+    "They may reserve more spots in the leagues for people of colour.",
+    "They may support people of colour more.",
+    "If they support people of colour more, then people of colour can increase their skills.",
+    "If people of colour increase their skills, then people of colour can make it onto the teams.",
+    "People of colour are not promoted to coaches as much as non-people of colour.",
+    "Racism is still prevalent in society today.",
+    "This graph compares the percentage of players of colour to the percentage of head coaches of colour.",
+    "The title is Diversity in the lens of the public eye, not so much on the bench.",
+    "The title is Increased diversity in professional athletes, not so much in coaching faculties."
+  ],
+  "source_mappings": {
+    "We notice something.": [
+      "We notice"
+    ],
+    "The number of players that are people of colour is far greater than the number of head coaches that are people of colour.": [
+      "the number of players that are people of colour is far greater than the number of head coaches that are people of colour"
+    ],
+    "The gap is quite large in all leagues.": [
+      "The gap is quite large in all leagues"
+    ],
+    "The Major Soccer League is an exception.": [
+      "except for The Major Soccer League which is the only exception"
+    ],
+    "The Major Soccer League has a smaller gap.": [
+      "having a smaller gap"
+    ],
+    "The National Basketball Association seems to have the most people of colour in the league.": [
+      "The National Basketball Association seems to have the most people of colour in the league"
+    ],
+    "The National Basketball Association has less than half of the coaches as people of colour.": [
+      "having less than half of the coaches as people of colour"
+    ],
+    "We wonder about something.": [
+      "We wonder"
+    ],
+    "We wonder how they are increasing diversity in these leagues.": [
+      "We wonder how they are increasing diversity in these leagues."
+    ],
+    "They may reserve more spots in the leagues for people of colour.": [
+      "Are they reserving more spots in the leagues for people of colour"
+    ],
+    "They may support people of colour more.": [
+      "or simply supporting them more"
+    ],
+    "If they support people of colour more, then people of colour can increase their skills.": [
+      "supporting them more, allowing them to increase their skills"
+    ],
+    "If people of colour increase their skills, then people of colour can make it onto the teams.": [
+      "increase their skills and make it onto the teams"
+    ],
+    "People of colour are not promoted to coaches as much as non-people of colour.": [
+      "People of colour are not promoted to coaches as much as non-people of colour."
+    ],
+    "Racism is still prevalent in society today.": [
+      "Racism is still prevalent in society today."
+    ],
+    "This graph compares the percentage of players of colour to the percentage of head coaches of colour.": [
+      "This graph compares the percentage of players of colour compared to the percentage of head coaches of colour."
+    ],
+    "The title is Diversity in the lens of the public eye, not so much on the bench.": [
+      "Diversity in the lens of the public eye, not so much on the bench"
+    ],
+    "The title is Increased diversity in professional athletes, not so much in coaching faculties.": [
+      "Increased diversity in professional athletes, not so much in coaching faculties"
+    ]
+  }
+}

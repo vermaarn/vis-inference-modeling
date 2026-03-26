@@ -1,0 +1,69 @@
+{
+  "article_id": "183",
+  "comment_index": 137,
+  "raw_comment": "have you wondered why young men/women are never outside as much , most of us young women/men that i see use text and they facetime instead of walking around and talking. I wonder why this is, is it because of the use of phones or of social in anxieity. This effects my community because when i am downtown or anywhere i never see kids my age or if i do they are on their phones we need yo put our phones down and go outside.",
+  "ace_sentences": [
+    "Young men and young women are never outside as much.",
+    "Most young women and young men use text.",
+    "Most young women and young men use Facetime.",
+    "Most young women and young men use text instead of walking around and talking.",
+    "Most young women and young men use Facetime instead of walking around and talking.",
+    "This may be because of the use of phones.",
+    "This may be because of social in anxieity.",
+    "This affects my community.",
+    "When I am downtown, I never see kids my age.",
+    "When I am downtown, if I see kids my age then they are on their phones.",
+    "When I am anywhere, I never see kids my age.",
+    "When I am anywhere, if I see kids my age then they are on their phones.",
+    "We need to put our phones down.",
+    "We need to go outside."
+  ],
+  "source_mappings": {
+    "Young men and young women are never outside as much.": [
+      "young men/women are never outside as much"
+    ],
+    "Most young women and young men use text.": [
+      "most of us young women/men that i see use text"
+    ],
+    "Most young women and young men use Facetime.": [
+      "they facetime"
+    ],
+    "Most young women and young men use text instead of walking around and talking.": [
+      "use text and they facetime instead of walking around and talking"
+    ],
+    "Most young women and young men use Facetime instead of walking around and talking.": [
+      "they facetime instead of walking around and talking"
+    ],
+    "This may be because of the use of phones.": [
+      "is it because of the use of phones"
+    ],
+    "This may be because of social in anxieity.": [
+      "or of social in anxieity"
+    ],
+    "This affects my community.": [
+      "This effects my community"
+    ],
+    "When I am downtown, I never see kids my age.": [
+      "when i am downtown",
+      "i never see kids my age"
+    ],
+    "When I am downtown, if I see kids my age then they are on their phones.": [
+      "when i am downtown",
+      "or if i do they are on their phones"
+    ],
+    "When I am anywhere, I never see kids my age.": [
+      "or anywhere",
+      "i never see kids my age"
+    ],
+    "When I am anywhere, if I see kids my age then they are on their phones.": [
+      "or anywhere",
+      "or if i do they are on their phones"
+    ],
+    "We need to put our phones down.": [
+      "we need yo put our phones down"
+    ],
+    "We need to go outside.": [
+      "and go outside"
+    ]
+  }
+}

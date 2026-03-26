@@ -1,0 +1,37 @@
+{
+  "article_id": "91",
+  "comment_index": 148,
+  "raw_comment": "I noticed that there are a good amount of players of color and that each league has different percentages. I wonder why there are more colored payers then colored coaches on these league teams. This impacts my community by showing other people that they can make it into a league team. they might not have the highest chance in getting one but if they try and are good they have a pretty good chance.",
+  "ace_sentences": [
+    "I noticed that there are a good amount of players of color.",
+    "I noticed that each league has different percentages.",
+    "I wonder why there are more colored payers than colored coaches on these league teams.",
+    "This impacts my community.",
+    "This shows other people that they can make it into a league team.",
+    "They might not have the highest chance in getting one.",
+    "If they try and are good then they have a pretty good chance."
+  ],
+  "source_mappings": {
+    "I noticed that there are a good amount of players of color.": [
+      "I noticed that there are a good amount of players of color"
+    ],
+    "I noticed that each league has different percentages.": [
+      "and that each league has different percentages"
+    ],
+    "I wonder why there are more colored payers than colored coaches on these league teams.": [
+      "I wonder why there are more colored payers then colored coaches on these league teams."
+    ],
+    "This impacts my community.": [
+      "This impacts my community"
+    ],
+    "This shows other people that they can make it into a league team.": [
+      "by showing other people that they can make it into a league team."
+    ],
+    "They might not have the highest chance in getting one.": [
+      "they might not have the highest chance in getting one"
+    ],
+    "If they try and are good then they have a pretty good chance.": [
+      "but if they try and are good they have a pretty good chance."
+    ]
+  }
+}

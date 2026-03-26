@@ -1,0 +1,83 @@
+{
+  "article_id": "91",
+  "comment_index": 181,
+  "raw_comment": "1. What do you notice?\nI notice that the percentage of players of color in the NBA and WNBA is the same (83%). The League(s) with the highest percentage of players of color are the NBA and the WNBA, while the league with the lowest percentage of players of color is the MLB. In all five of the leagues shown, there is a higher proportion of players of color than there are head coaches of color.\n \n2. What do you wonder?\nI wonder if we would get results like these with data from other leagues around the world such as the English Premier League, or the CBA. \n  \n3. What impact does this have on you and your community?\nThis shows me that coaching staffs are often not as diverse as the teams themselves. With less diverse coaching staffs, there are not as many people of color in coaching positions to look up to.\n \n4. Headline: “Are Sports Really as Diverse as we think?”",
+  "ace_sentences": [
+    "I notice something.",
+    "The percentage of players of color in the NBA is 83%.",
+    "The percentage of players of color in the WNBA is 83%.",
+    "The NBA has the highest percentage of players of color.",
+    "The WNBA has the highest percentage of players of color.",
+    "The MLB has the lowest percentage of players of color.",
+    "Five leagues are shown.",
+    "In all five of the leagues shown, there is a higher proportion of players of color than there are head coaches of color.",
+    "I wonder something.",
+    "We could get results like these with data from other leagues around the world.",
+    "The English Premier League is an other league around the world.",
+    "The CBA is an other league around the world.",
+    "This shows me something.",
+    "Coaching staffs are often not as diverse as the teams themselves.",
+    "If coaching staffs are less diverse then there are not as many people of color in coaching positions.",
+    "With less diverse coaching staffs, there are not as many people of color in coaching positions to look up to.",
+    "The headline is:",
+    "Are Sports Really as Diverse as we think?"
+  ],
+  "source_mappings": {
+    "I notice something.": [
+      "What do you notice?"
+    ],
+    "The percentage of players of color in the NBA is 83%.": [
+      "the percentage of players of color in the NBA",
+      "83%"
+    ],
+    "The percentage of players of color in the WNBA is 83%.": [
+      "WNBA",
+      "83%"
+    ],
+    "The NBA has the highest percentage of players of color.": [
+      "the highest percentage of players of color are the NBA"
+    ],
+    "The WNBA has the highest percentage of players of color.": [
+      "the highest percentage of players of color are the NBA and the WNBA"
+    ],
+    "The MLB has the lowest percentage of players of color.": [
+      "the league with the lowest percentage of players of color is the MLB"
+    ],
+    "Five leagues are shown.": [
+      "In all five of the leagues shown"
+    ],
+    "In all five of the leagues shown, there is a higher proportion of players of color than there are head coaches of color.": [
+      "In all five of the leagues shown, there is a higher proportion of players of color than there are head coaches of color."
+    ],
+    "I wonder something.": [
+      "What do you wonder?"
+    ],
+    "We could get results like these with data from other leagues around the world.": [
+      "I wonder if we would get results like these with data from other leagues around the world"
+    ],
+    "The English Premier League is an other league around the world.": [
+      "the English Premier League"
+    ],
+    "The CBA is an other league around the world.": [
+      "the CBA"
+    ],
+    "This shows me something.": [
+      "This shows me"
+    ],
+    "Coaching staffs are often not as diverse as the teams themselves.": [
+      "coaching staffs are often not as diverse as the teams themselves."
+    ],
+    "If coaching staffs are less diverse then there are not as many people of color in coaching positions.": [
+      "With less diverse coaching staffs, there are not as many people of color in coaching positions"
+    ],
+    "With less diverse coaching staffs, there are not as many people of color in coaching positions to look up to.": [
+      "With less diverse coaching staffs, there are not as many people of color in coaching positions to look up to."
+    ],
+    "The headline is:": [
+      "Headline:"
+    ],
+    "Are Sports Really as Diverse as we think?": [
+      "Are Sports Really as Diverse as we think?"
+    ]
+  }
+}

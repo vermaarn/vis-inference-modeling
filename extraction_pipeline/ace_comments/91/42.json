@@ -1,0 +1,110 @@
+{
+  "article_id": "91",
+  "comment_index": 42,
+  "raw_comment": "I notice that MLB has the least amount of players of color (40%), and the second least amount of managers/head coaches who are people of color (20%). MLS has the highest amount of head coaches of color (41%), while the NBA and WNBA have the highest amount (tied at 83%) of players who are people of color. Over 70% of NFL players are people of color, but only 13% of the coaches are.\n\nI wonder why MLB has so few coaches of color -- 2 in 5 players are people of color, but only 1 in 5 coaches are people of color. I wonder why 13% of NFL coaches are people of color, but 74% -- almost 3 in 4! -- of players are people of color.\n\nIf people don't see themselves in their idols -- like if a person of color wants to grow up and become a NFL coach, but they never see a person of color be an NFL coach -- it's harder for them to believe they could become ____[whatever they want to be]____. If someone wants to be a MLB player, but they only see certain players, who don't look like them, they'll probably feel discouraged and might not go after their dream.\n\nPercentage of People of Color in Professional Sports.",
+  "ace_sentences": [
+    "MLB has the least amount of players of color.",
+    "40% is the amount of players of color in MLB.",
+    "MLB has the second least amount of managers/head coaches who are people of color.",
+    "20% is the amount of managers/head coaches who are people of color in MLB.",
+    "MLS has the highest amount of head coaches of color.",
+    "41% is the amount of head coaches of color in MLS.",
+    "The NBA has the highest amount of players who are people of color.",
+    "The WNBA has the highest amount of players who are people of color.",
+    "83% is the amount of players who are people of color in the NBA and WNBA.",
+    "Over 70% of NFL players are people of color.",
+    "Only 13% of the coaches are people of color in the NFL.",
+    "MLB has few coaches of color.",
+    "2 in 5 players are people of color in MLB.",
+    "1 in 5 coaches are people of color in MLB.",
+    "13% of NFL coaches are people of color.",
+    "74% of players are people of color in the NFL.",
+    "If people do not see themselves in their idols then it is harder for them to believe that they could become whatever they want to be.",
+    "A person of color can want to grow up and become a NFL coach.",
+    "A person of color can never see a person of color be an NFL coach.",
+    "Someone can want to be a MLB player.",
+    "Someone can only see certain players.",
+    "These players do not look like this someone.",
+    "This someone will probably feel discouraged.",
+    "This someone might not go after their dream.",
+    "The headline is \"Percentage of People of Color in Professional Sports\"."
+  ],
+  "source_mappings": {
+    "MLB has the least amount of players of color.": [
+      "MLB has the least amount of players of color"
+    ],
+    "40% is the amount of players of color in MLB.": [
+      "players of color (40%)"
+    ],
+    "MLB has the second least amount of managers/head coaches who are people of color.": [
+      "the second least amount of managers/head coaches who are people of color"
+    ],
+    "20% is the amount of managers/head coaches who are people of color in MLB.": [
+      "people of color (20%)"
+    ],
+    "MLS has the highest amount of head coaches of color.": [
+      "MLS has the highest amount of head coaches of color"
+    ],
+    "41% is the amount of head coaches of color in MLS.": [
+      "head coaches of color (41%)"
+    ],
+    "The NBA has the highest amount of players who are people of color.": [
+      "the NBA and WNBA have the highest amount"
+    ],
+    "The WNBA has the highest amount of players who are people of color.": [
+      "the NBA and WNBA have the highest amount"
+    ],
+    "83% is the amount of players who are people of color in the NBA and WNBA.": [
+      "tied at 83%) of players who are people of color"
+    ],
+    "Over 70% of NFL players are people of color.": [
+      "Over 70% of NFL players are people of color"
+    ],
+    "Only 13% of the coaches are people of color in the NFL.": [
+      "only 13% of the coaches are"
+    ],
+    "MLB has few coaches of color.": [
+      "MLB has so few coaches of color"
+    ],
+    "2 in 5 players are people of color in MLB.": [
+      "2 in 5 players are people of color"
+    ],
+    "1 in 5 coaches are people of color in MLB.": [
+      "only 1 in 5 coaches are people of color"
+    ],
+    "13% of NFL coaches are people of color.": [
+      "13% of NFL coaches are people of color"
+    ],
+    "74% of players are people of color in the NFL.": [
+      "74% -- almost 3 in 4! -- of players are people of color"
+    ],
+    "If people do not see themselves in their idols then it is harder for them to believe that they could become whatever they want to be.": [
+      "If people don't see themselves in their idols",
+      "it's harder for them to believe they could become ____[whatever they want to be]____"
+    ],
+    "A person of color can want to grow up and become a NFL coach.": [
+      "if a person of color wants to grow up and become a NFL coach"
+    ],
+    "A person of color can never see a person of color be an NFL coach.": [
+      "but they never see a person of color be an NFL coach"
+    ],
+    "Someone can want to be a MLB player.": [
+      "If someone wants to be a MLB player"
+    ],
+    "Someone can only see certain players.": [
+      "but they only see certain players"
+    ],
+    "These players do not look like this someone.": [
+      "who don't look like them"
+    ],
+    "This someone will probably feel discouraged.": [
+      "they'll probably feel discouraged"
+    ],
+    "This someone might not go after their dream.": [
+      "might not go after their dream"
+    ],
+    "The headline is \"Percentage of People of Color in Professional Sports\".": [
+      "Percentage of People of Color in Professional Sports."
+    ]
+  }
+}

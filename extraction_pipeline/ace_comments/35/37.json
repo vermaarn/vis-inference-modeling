@@ -1,0 +1,26 @@
+{
+  "article_id": "35",
+  "comment_index": 37,
+  "raw_comment": "i noticed that some parts so of texas grow leaves very early, probobly because texas is very hot",
+  "ace_sentences": [
+    "I noticed that some parts of Texas grow leaves very early.",
+    "Texas is very hot.",
+    "Texas is probably very hot.",
+    "If Texas is very hot then some parts of Texas probably grow leaves very early."
+  ],
+  "source_mappings": {
+    "I noticed that some parts of Texas grow leaves very early.": [
+      "i noticed that some parts so of texas grow leaves very early"
+    ],
+    "Texas is very hot.": [
+      "texas is very hot"
+    ],
+    "Texas is probably very hot.": [
+      "probobly because texas is very hot"
+    ],
+    "If Texas is very hot then some parts of Texas probably grow leaves very early.": [
+      "probobly because texas is very hot",
+      "some parts so of texas grow leaves very early"
+    ]
+  }
+}

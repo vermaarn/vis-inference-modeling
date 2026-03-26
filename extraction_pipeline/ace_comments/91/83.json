@@ -1,0 +1,57 @@
+{
+  "article_id": "91",
+  "comment_index": 83,
+  "raw_comment": "I notice that for all of the professional sports there are more players than coaches that are people of color. Also the sport with the highest number of colored coaches is soccer but they have the second lowest percentage of players of color out of the five sports.\n\nI wonder why Major League Baseball is so much lower in their percentage of players of color than the rest of the sports?\n\nThis has an impact on my community because it may influence younger players, that are joining sports, decisions to play or not based off of pressure and expectations \n\n“Have Professional Sports Ever Been Equal to All and Will They Ever Be?”",
+  "ace_sentences": [
+    "For all professional sports, there are more players than coaches.",
+    "For all professional sports, more players than coaches are people of color.",
+    "Soccer has the highest number of colored coaches.",
+    "Soccer has the second lowest percentage of players of color out of the five sports.",
+    "Major League Baseball has a lower percentage of players of color than the rest of the sports.",
+    "I wonder why Major League Baseball is so much lower in the percentage of players of color than the rest of the sports.",
+    "This has an impact on my community.",
+    "This may influence younger players.",
+    "These younger players are joining sports.",
+    "This may influence decisions to play or not.",
+    "These decisions may be based off of pressure and expectations.",
+    "The title is \"Have Professional Sports Ever Been Equal to All and Will They Ever Be?\"."
+  ],
+  "source_mappings": {
+    "For all professional sports, there are more players than coaches.": [
+      "for all of the professional sports there are more players than coaches"
+    ],
+    "For all professional sports, more players than coaches are people of color.": [
+      "there are more players than coaches that are people of color"
+    ],
+    "Soccer has the highest number of colored coaches.": [
+      "the sport with the highest number of colored coaches is soccer"
+    ],
+    "Soccer has the second lowest percentage of players of color out of the five sports.": [
+      "they have the second lowest percentage of players of color out of the five sports"
+    ],
+    "Major League Baseball has a lower percentage of players of color than the rest of the sports.": [
+      "Major League Baseball is so much lower in their percentage of players of color than the rest of the sports"
+    ],
+    "I wonder why Major League Baseball is so much lower in the percentage of players of color than the rest of the sports.": [
+      "I wonder why Major League Baseball is so much lower in their percentage of players of color than the rest of the sports?"
+    ],
+    "This has an impact on my community.": [
+      "This has an impact on my community"
+    ],
+    "This may influence younger players.": [
+      "it may influence younger players"
+    ],
+    "These younger players are joining sports.": [
+      "younger players, that are joining sports,"
+    ],
+    "This may influence decisions to play or not.": [
+      "decisions to play or not"
+    ],
+    "These decisions may be based off of pressure and expectations.": [
+      "based off of pressure and expectations"
+    ],
+    "The title is \"Have Professional Sports Ever Been Equal to All and Will They Ever Be?\".": [
+      "“Have Professional Sports Ever Been Equal to All and Will They Ever Be?”"
+    ]
+  }
+}

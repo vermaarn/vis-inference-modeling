@@ -1,0 +1,74 @@
+{
+  "article_id": "91",
+  "comment_index": 85,
+  "raw_comment": "I notice that for about every three players of color, there’s only one person of color who is a head coach or manager. I wonder whether each team has a similar proportion of players of color or if some have close to all and some have close to none. (Although a large majority of players are people of color either way). This impacts me and my community because of the biases and expectations that come with these kinds of patterns. In the example of sports teams and coaches/managers, there are many more white people in power even though people of color are the reason they are successful. This may keep people of color from those leadership positions in the future if change isn’t actively sought. \n\nA possible headline: People of Color are the Driving Force of Major League Sports Teams… But Who’s in Charge?: Racial Disparity in Sports",
+  "ace_sentences": [
+    "For about every three players of color, there is only one person of color who is a head coach or manager.",
+    "I wonder whether each team has a similar proportion of players of color.",
+    "I wonder whether some teams have close to all players of color.",
+    "I wonder whether some teams have close to none players of color.",
+    "A large majority of players are people of color.",
+    "This impacts me.",
+    "This impacts my community.",
+    "Biases come with these kinds of patterns.",
+    "Expectations come with these kinds of patterns.",
+    "In the example of sports teams and coaches or managers, there are many more white people in power.",
+    "People of color are the reason that white people in power are successful.",
+    "This may keep people of color from those leadership positions in the future.",
+    "Change may not be actively sought.",
+    "If change is not actively sought, this may keep people of color from those leadership positions in the future.",
+    "A possible headline is:",
+    "People of Color are the Driving Force of Major League Sports Teams… But Who’s in Charge?: Racial Disparity in Sports."
+  ],
+  "source_mappings": {
+    "For about every three players of color, there is only one person of color who is a head coach or manager.": [
+      "for about every three players of color, there’s only one person of color who is a head coach or manager"
+    ],
+    "I wonder whether each team has a similar proportion of players of color.": [
+      "I wonder whether each team has a similar proportion of players of color"
+    ],
+    "I wonder whether some teams have close to all players of color.": [
+      "if some have close to all"
+    ],
+    "I wonder whether some teams have close to none players of color.": [
+      "and some have close to none"
+    ],
+    "A large majority of players are people of color.": [
+      "a large majority of players are people of color"
+    ],
+    "This impacts me.": [
+      "This impacts me"
+    ],
+    "This impacts my community.": [
+      "my community"
+    ],
+    "Biases come with these kinds of patterns.": [
+      "the biases and expectations that come with these kinds of patterns"
+    ],
+    "Expectations come with these kinds of patterns.": [
+      "the biases and expectations that come with these kinds of patterns"
+    ],
+    "In the example of sports teams and coaches or managers, there are many more white people in power.": [
+      "In the example of sports teams and coaches/managers, there are many more white people in power"
+    ],
+    "People of color are the reason that white people in power are successful.": [
+      "even though people of color are the reason they are successful"
+    ],
+    "This may keep people of color from those leadership positions in the future.": [
+      "This may keep people of color from those leadership positions in the future"
+    ],
+    "Change may not be actively sought.": [
+      "if change isn’t actively sought"
+    ],
+    "If change is not actively sought, this may keep people of color from those leadership positions in the future.": [
+      "if change isn’t actively sought",
+      "This may keep people of color from those leadership positions in the future"
+    ],
+    "A possible headline is:": [
+      "A possible headline:"
+    ],
+    "People of Color are the Driving Force of Major League Sports Teams… But Who’s in Charge?: Racial Disparity in Sports.": [
+      "People of Color are the Driving Force of Major League Sports Teams… But Who’s in Charge?: Racial Disparity in Sports"
+    ]
+  }
+}

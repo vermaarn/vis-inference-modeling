@@ -1,0 +1,21 @@
+{
+  "article_id": "35",
+  "comment_index": 138,
+  "raw_comment": "I notice that leaves appear earlier the farther you go down south.\nI wonder why there is a small area in the north that has leaves before the rest of the states around it",
+  "ace_sentences": [
+    "I notice that leaves appear earlier farther south.",
+    "I wonder why there is a small area in the north.",
+    "This small area has leaves before the rest of the states around it."
+  ],
+  "source_mappings": {
+    "I notice that leaves appear earlier farther south.": [
+      "I notice that leaves appear earlier the farther you go down south."
+    ],
+    "I wonder why there is a small area in the north.": [
+      "I wonder why there is a small area in the north"
+    ],
+    "This small area has leaves before the rest of the states around it.": [
+      "has leaves before the rest of the states around it"
+    ]
+  }
+}

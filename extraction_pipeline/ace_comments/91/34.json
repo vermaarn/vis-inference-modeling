@@ -1,0 +1,61 @@
+{
+  "article_id": "91",
+  "comment_index": 34,
+  "raw_comment": "I notice that across each of the five sports leagues represented in the graph, there is disproportionately fewer coaches of color compared to players of color. In particular, in the National Football League, only 13% of head coaches are people of color whilst 74% of players are people of color. This means that there are nearly six players of color per one coach of color in the National Football League. In addition, there are approximately 3 players of color for every coach of color for both the Women's National Basketball Association and the National Basketball Association. \n\nI wonder what causes there to be a disproportionately few amount of coaches of color compared to players of color. In addition, I wonder what each of these sports leagues is currently doing to try to combat these disparities. \n\nThis has an impact on my community because it reflects how people of color have disproportionately few opportunities to be in leadership positions or positions of power.\n\nA catchy headline I would use to describe this graph would be: Disproportionately Few Head Coaching Opportunities for People of Color in Major Sports Leagues",
+  "ace_sentences": [
+    "The graph represents five sports leagues.",
+    "Across each of the five sports leagues, there are disproportionately fewer coaches of color than players of color.",
+    "In the National Football League, 13% of head coaches are people of color.",
+    "In the National Football League, 74% of players are people of color.",
+    "In the National Football League, there are nearly six players of color per one coach of color.",
+    "For the Women's National Basketball Association, there are approximately 3 players of color for every coach of color.",
+    "For the National Basketball Association, there are approximately 3 players of color for every coach of color.",
+    "I wonder what causes there to be a disproportionately few amount of coaches of color compared to players of color.",
+    "I wonder what each of these sports leagues is currently doing to try to combat these disparities.",
+    "This has an impact on my community.",
+    "This reflects how people of color have disproportionately few opportunities to be in leadership positions or positions of power.",
+    "A catchy headline describes this graph.",
+    "The catchy headline is Disproportionately Few Head Coaching Opportunities for People of Color in Major Sports Leagues."
+  ],
+  "source_mappings": {
+    "The graph represents five sports leagues.": [
+      "across each of the five sports leagues represented in the graph"
+    ],
+    "Across each of the five sports leagues, there are disproportionately fewer coaches of color than players of color.": [
+      "across each of the five sports leagues represented in the graph, there is disproportionately fewer coaches of color compared to players of color"
+    ],
+    "In the National Football League, 13% of head coaches are people of color.": [
+      "in the National Football League, only 13% of head coaches are people of color"
+    ],
+    "In the National Football League, 74% of players are people of color.": [
+      "whilst 74% of players are people of color"
+    ],
+    "In the National Football League, there are nearly six players of color per one coach of color.": [
+      "there are nearly six players of color per one coach of color in the National Football League"
+    ],
+    "For the Women's National Basketball Association, there are approximately 3 players of color for every coach of color.": [
+      "there are approximately 3 players of color for every coach of color for both the Women's National Basketball Association"
+    ],
+    "For the National Basketball Association, there are approximately 3 players of color for every coach of color.": [
+      "and the National Basketball Association"
+    ],
+    "I wonder what causes there to be a disproportionately few amount of coaches of color compared to players of color.": [
+      "I wonder what causes there to be a disproportionately few amount of coaches of color compared to players of color"
+    ],
+    "I wonder what each of these sports leagues is currently doing to try to combat these disparities.": [
+      "I wonder what each of these sports leagues is currently doing to try to combat these disparities"
+    ],
+    "This has an impact on my community.": [
+      "This has an impact on my community"
+    ],
+    "This reflects how people of color have disproportionately few opportunities to be in leadership positions or positions of power.": [
+      "it reflects how people of color have disproportionately few opportunities to be in leadership positions or positions of power"
+    ],
+    "A catchy headline describes this graph.": [
+      "A catchy headline I would use to describe this graph would be"
+    ],
+    "The catchy headline is Disproportionately Few Head Coaching Opportunities for People of Color in Major Sports Leagues.": [
+      "Disproportionately Few Head Coaching Opportunities for People of Color in Major Sports Leagues"
+    ]
+  }
+}

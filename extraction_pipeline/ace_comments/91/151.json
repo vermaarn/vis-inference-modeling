@@ -1,0 +1,65 @@
+{
+  "article_id": "91",
+  "comment_index": 151,
+  "raw_comment": "What do you notice? \nI notice that the player to coach ratio for colour is significantly in favour for players of colour. I notice that the MLB is the lowest in terms of players of colour and the NFL is lowest for coaches of colour. \n\nWhat do you wonder? \nI wonder how this compares to the general population and why there is a significantly low percentage of coloured coaches. \n\nWhat impact does this have on you and your community? \nI think this impacts our communities in a good way, because it shows that diversity in sports is growing. \n\nWhat is going on in this graph? \nThe majority of the sports are dominated by players of color (ie. 83% NBA). However, most of coaches are white. This shows that poc get less higher management positions which is a bad impact on our community. \n\nCatchy title: Behind the screen. Is it really diverse in the front office?",
+  "ace_sentences": [
+    "I notice that the player to coach ratio for colour is significantly in favour for players of colour.",
+    "I notice that the MLB is the lowest in terms of players of colour.",
+    "I notice that the NFL is lowest for coaches of colour.",
+    "I wonder how this compares to the general population.",
+    "I wonder why there is a significantly low percentage of coloured coaches.",
+    "I think that this impacts our communities in a good way.",
+    "I think that this shows that diversity in sports is growing.",
+    "The majority of the sports are dominated by players of color.",
+    "83% of NBA players are players of color.",
+    "Most of coaches are white.",
+    "This shows that poc get less higher management positions.",
+    "This is a bad impact on our community.",
+    "The title is: Behind the screen.",
+    "Is it really diverse in the front office?"
+  ],
+  "source_mappings": {
+    "I notice that the player to coach ratio for colour is significantly in favour for players of colour.": [
+      "I notice that the player to coach ratio for colour is significantly in favour for players of colour."
+    ],
+    "I notice that the MLB is the lowest in terms of players of colour.": [
+      "I notice that the MLB is the lowest in terms of players of colour"
+    ],
+    "I notice that the NFL is lowest for coaches of colour.": [
+      "the NFL is lowest for coaches of colour."
+    ],
+    "I wonder how this compares to the general population.": [
+      "I wonder how this compares to the general population"
+    ],
+    "I wonder why there is a significantly low percentage of coloured coaches.": [
+      "why there is a significantly low percentage of coloured coaches."
+    ],
+    "I think that this impacts our communities in a good way.": [
+      "I think this impacts our communities in a good way"
+    ],
+    "I think that this shows that diversity in sports is growing.": [
+      "it shows that diversity in sports is growing."
+    ],
+    "The majority of the sports are dominated by players of color.": [
+      "The majority of the sports are dominated by players of color"
+    ],
+    "83% of NBA players are players of color.": [
+      "83% NBA"
+    ],
+    "Most of coaches are white.": [
+      "most of coaches are white."
+    ],
+    "This shows that poc get less higher management positions.": [
+      "This shows that poc get less higher management positions"
+    ],
+    "This is a bad impact on our community.": [
+      "which is a bad impact on our community."
+    ],
+    "The title is: Behind the screen.": [
+      "Catchy title: Behind the screen."
+    ],
+    "Is it really diverse in the front office?": [
+      "Is it really diverse in the front office?"
+    ]
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "article_id": "183",
+  "comment_index": 33,
+  "raw_comment": "From the graph, I noticed that young women more frequently contact their parents at least once a day or a few types a week than men. Also, out of the forms of communication, most young people contact their parents through sending text messages at 50% for young men and 75% for young women. This is interesting because text messages could be considered a faster form of communication than phone/video-chat and visits in person. I wonder if more young people prefer sending text messages to their parents because it is fast and convenient. Why do the amount of young people that contact their parents often vary between men and women? I wonder if young adults closer to the age of 18 that were surveyed reached out to their parents more or less than young adults closer to the age of 34. How many young adults stated that they do not contact their parents and were screened out of the survey? This graph relates to me because I am 18 years old and when I move to college this year, I wonder what form of communication I will rely on the most to contact my parents. How will my age impact how frequently and what source I contact my parents? This also relates to my community as it can demonstrate the closeness of parent–child relationships and young adult’s dependence on their parents in adulthood. \n\n“The Importance of Text Messages–In Young Adults’ Contact With Their Parents”",
+  "ace_sentences": [
+    "The graph exists.",
+    "I noticed something from the graph.",
+    "Young women contact their parents more frequently than men.",
+    "Young women contact their parents at least once a day.",
+    "Young women contact their parents a few types a week.",
+    "Most young people contact their parents through sending text messages.",
+    "Sending text messages is at 50% for young men.",
+    "Sending text messages is at 75% for young women.",
+    "This is interesting.",
+    "Text messages could be considered a faster form of communication than phone/video-chat.",
+    "Text messages could be considered a faster form of communication than visits in person.",
+    "I wonder if more young people prefer sending text messages to their parents.",
+    "I wonder if more young people prefer sending text messages to their parents because it is fast and convenient.",
+    "I ask why the amount of young people that contact their parents often varies between men and women.",
+    "I wonder something about young adults closer to the age of 18 that were surveyed.",
+    "I wonder if young adults closer to the age of 18 that were surveyed reached out to their parents more than young adults closer to the age of 34.",
+    "I wonder if young adults closer to the age of 18 that were surveyed reached out to their parents less than young adults closer to the age of 34.",
+    "I ask how many young adults stated that they do not contact their parents.",
+    "I ask how many young adults were screened out of the survey.",
+    "This graph relates to me.",
+    "I am 18 years old.",
+    "I will move to college this year.",
+    "I wonder what form of communication I will rely on the most to contact my parents.",
+    "I ask how my age will impact how frequently I contact my parents.",
+    "I ask how my age will impact what source I contact my parents.",
+    "This also relates to my community.",
+    "This can demonstrate the closeness of parent–child relationships.",
+    "This can demonstrate young adult’s dependence on their parents in adulthood.",
+    "The title is “The Importance of Text Messages–In Young Adults’ Contact With Their Parents”."
+  ],
+  "source_mappings": {
+    "The graph exists.": [
+      "the graph",
+      "This graph"
+    ],
+    "I noticed something from the graph.": [
+      "From the graph, I noticed"
+    ],
+    "Young women contact their parents more frequently than men.": [
+      "young women more frequently contact their parents",
+      "than men"
+    ],
+    "Young women contact their parents at least once a day.": [
+      "young women more frequently contact their parents at least once a day"
+    ],
+    "Young women contact their parents a few types a week.": [
+      "young women more frequently contact their parents",
+      "a few types a week"
+    ],
+    "Most young people contact their parents through sending text messages.": [
+      "most young people contact their parents through sending text messages"
+    ],
+    "Sending text messages is at 50% for young men.": [
+      "sending text messages at 50% for young men"
+    ],
+    "Sending text messages is at 75% for young women.": [
+      "75% for young women"
+    ],
+    "This is interesting.": [
+      "This is interesting"
+    ],
+    "Text messages could be considered a faster form of communication than phone/video-chat.": [
+      "text messages could be considered a faster form of communication than phone/video-chat"
+    ],
+    "Text messages could be considered a faster form of communication than visits in person.": [
+      "text messages could be considered a faster form of communication",
+      "and visits in person"
+    ],
+    "I wonder if more young people prefer sending text messages to their parents.": [
+      "I wonder if more young people prefer sending text messages to their parents"
+    ],
+    "I wonder if more young people prefer sending text messages to their parents because it is fast and convenient.": [
+      "I wonder if more young people prefer sending text messages to their parents because it is fast and convenient"
+    ],
+    "I ask why the amount of young people that contact their parents often varies between men and women.": [
+      "Why do the amount of young people that contact their parents often vary between men and women?"
+    ],
+    "I wonder something about young adults closer to the age of 18 that were surveyed.": [
+      "I wonder if young adults closer to the age of 18 that were surveyed"
+    ],
+    "I wonder if young adults closer to the age of 18 that were surveyed reached out to their parents more than young adults closer to the age of 34.": [
+      "I wonder if young adults closer to the age of 18 that were surveyed reached out to their parents more",
+      "than young adults closer to the age of 34"
+    ],
+    "I wonder if young adults closer to the age of 18 that were surveyed reached out to their parents less than young adults closer to the age of 34.": [
+      "I wonder if young adults closer to the age of 18 that were surveyed reached out to their parents more or less",
+      "than young adults closer to the age of 34"
+    ],
+    "I ask how many young adults stated that they do not contact their parents.": [
+      "How many young adults stated that they do not contact their parents"
+    ],
+    "I ask how many young adults were screened out of the survey.": [
+      "were screened out of the survey?"
+    ],
+    "This graph relates to me.": [
+      "This graph relates to me"
+    ],
+    "I am 18 years old.": [
+      "I am 18 years old"
+    ],
+    "I will move to college this year.": [
+      "when I move to college this year"
+    ],
+    "I wonder what form of communication I will rely on the most to contact my parents.": [
+      "I wonder what form of communication I will rely on the most to contact my parents"
+    ],
+    "I ask how my age will impact how frequently I contact my parents.": [
+      "How will my age impact how frequently"
+    ],
+    "I ask how my age will impact what source I contact my parents.": [
+      "and what source I contact my parents?"
+    ],
+    "This also relates to my community.": [
+      "This also relates to my community"
+    ],
+    "This can demonstrate the closeness of parent–child relationships.": [
+      "it can demonstrate the closeness of parent–child relationships"
+    ],
+    "This can demonstrate young adult’s dependence on their parents in adulthood.": [
+      "young adult’s dependence on their parents in adulthood"
+    ],
+    "The title is “The Importance of Text Messages–In Young Adults’ Contact With Their Parents”.": [
+      "“The Importance of Text Messages–In Young Adults’ Contact With Their Parents”"
+    ]
+  }
+}

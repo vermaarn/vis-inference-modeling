@@ -1,0 +1,17 @@
+{
+  "article_id": "35",
+  "comment_index": 66,
+  "raw_comment": "Annie, I have the same notices and wonders as you!",
+  "ace_sentences": [
+    "I have the same notices as Annie.",
+    "I have the same wonders as Annie."
+  ],
+  "source_mappings": {
+    "I have the same notices as Annie.": [
+      "Annie, I have the same notices"
+    ],
+    "I have the same wonders as Annie.": [
+      "wonders as you"
+    ]
+  }
+}

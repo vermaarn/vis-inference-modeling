@@ -1,0 +1,29 @@
+{
+  "article_id": "91",
+  "comment_index": 106,
+  "raw_comment": "I notice that there are a lot more players of color than coaches overall, and I wonder why there are the least amount of colored people in major league baseball. This impacts me and my community by showing the amount of representation colored people get in different sports.",
+  "ace_sentences": [
+    "I notice that there are a lot more players of color than coaches overall.",
+    "I wonder why there are the least amount of colored people in major league baseball.",
+    "This impacts me.",
+    "This impacts my community.",
+    "This shows the amount of representation colored people get in different sports."
+  ],
+  "source_mappings": {
+    "I notice that there are a lot more players of color than coaches overall.": [
+      "I notice that there are a lot more players of color than coaches overall"
+    ],
+    "I wonder why there are the least amount of colored people in major league baseball.": [
+      "I wonder why there are the least amount of colored people in major league baseball"
+    ],
+    "This impacts me.": [
+      "This impacts me"
+    ],
+    "This impacts my community.": [
+      "my community"
+    ],
+    "This shows the amount of representation colored people get in different sports.": [
+      "showing the amount of representation colored people get in different sports"
+    ]
+  }
+}

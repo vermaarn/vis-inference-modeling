@@ -1,0 +1,90 @@
+{
+  "article_id": "91",
+  "comment_index": 60,
+  "raw_comment": "1. What do you notice?\n \nI notice that in sports like basketball and football, African-American players dominate the sport. Soccer and baseball however, are much closer to the 50% mark. Also, I noticed that none of the five sports had over 50% of minority head coaches/managers. \n \n2. What do you wonder?\n \nI wonder, will there ever come a time where one of those sports eclipses the 50% of minority head coaches/managers mark?\n \n3. What impact does this have on you and your community?\n \nI am somebody who eats, breathes, and sleeps sports. I’m also someone who is passionate about racial issues and equality. I think it is absolutely disgusting how minorities are and have been treated in this country. These graphs just show another example of racial inequality.\n \n4. What’s going on in this graph? Write a catchy headline that captures the graph’s main idea.\n \nSports Need A Color-Blindness Test",
+  "ace_sentences": [
+    "I notice something.",
+    "Basketball is a sport.",
+    "Football is a sport.",
+    "In basketball and football, African-American players dominate the sport.",
+    "Soccer is a sport.",
+    "Baseball is a sport.",
+    "Soccer and baseball are much closer to the 50% mark.",
+    "None of the five sports had over 50% of minority head coaches or managers.",
+    "I wonder something.",
+    "I wonder if there will ever come a time.",
+    "I wonder if one of those sports eclipses the 50% of minority head coaches or managers mark.",
+    "I eat sports.",
+    "I breathe sports.",
+    "I sleep sports.",
+    "I am passionate about racial issues and equality.",
+    "Minorities are treated in this country.",
+    "Minorities have been treated in this country.",
+    "I think that this treatment is absolutely disgusting.",
+    "These graphs show another example of racial inequality.",
+    "The headline is Sports Need A Color-Blindness Test."
+  ],
+  "source_mappings": {
+    "I notice something.": [
+      "I notice"
+    ],
+    "Basketball is a sport.": [
+      "basketball"
+    ],
+    "Football is a sport.": [
+      "football"
+    ],
+    "In basketball and football, African-American players dominate the sport.": [
+      "in sports like basketball and football, African-American players dominate the sport"
+    ],
+    "Soccer is a sport.": [
+      "Soccer"
+    ],
+    "Baseball is a sport.": [
+      "baseball"
+    ],
+    "Soccer and baseball are much closer to the 50% mark.": [
+      "Soccer and baseball however, are much closer to the 50% mark"
+    ],
+    "None of the five sports had over 50% of minority head coaches or managers.": [
+      "none of the five sports had over 50% of minority head coaches/managers"
+    ],
+    "I wonder something.": [
+      "I wonder"
+    ],
+    "I wonder if there will ever come a time.": [
+      "will there ever come a time"
+    ],
+    "I wonder if one of those sports eclipses the 50% of minority head coaches or managers mark.": [
+      "one of those sports eclipses the 50% of minority head coaches/managers mark"
+    ],
+    "I eat sports.": [
+      "I am somebody who eats"
+    ],
+    "I breathe sports.": [
+      "breathes"
+    ],
+    "I sleep sports.": [
+      "sleeps sports"
+    ],
+    "I am passionate about racial issues and equality.": [
+      "I’m also someone who is passionate about racial issues and equality"
+    ],
+    "Minorities are treated in this country.": [
+      "minorities are",
+      "treated in this country"
+    ],
+    "Minorities have been treated in this country.": [
+      "minorities are and have been treated in this country"
+    ],
+    "I think that this treatment is absolutely disgusting.": [
+      "I think it is absolutely disgusting"
+    ],
+    "These graphs show another example of racial inequality.": [
+      "These graphs just show another example of racial inequality"
+    ],
+    "The headline is Sports Need A Color-Blindness Test.": [
+      "Sports Need A Color-Blindness Test"
+    ]
+  }
+}

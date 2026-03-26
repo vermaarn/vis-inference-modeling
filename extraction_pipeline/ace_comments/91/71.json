@@ -1,0 +1,96 @@
+{
+  "article_id": "91",
+  "comment_index": 71,
+  "raw_comment": "I notice that the visual shows the percentages of POC players as well as POC coaches in different professional sports. The only sport listed which has majority white players is Major League Baseball. The rest of the sports listed have majority POC players. Every sport listed has a fairly low number of POC coaches. The majority of coaches seem to be white. I wonder if racism embedded into the sports industry prevents people of minoritized ethnicities from becoming coaches. I also wonder why such a large percentage of baseball players are white. Do former sports players become coaches? If so, why are the racial demographics of coaches so different from the racial demographics of players?\n\nThis impacts my community because my city has several sports teams (a basketball team, a baseball team, and a soccer team). My city also has a majority Black population. It is very possible that African American coaches in my city are discriminated against and have trouble finding jobs coaching major teams.\n\nHeadline: Where are the coaches of color?",
+  "ace_sentences": [
+    "The visual shows the percentages of POC players in different professional sports.",
+    "The visual shows the percentages of POC coaches in different professional sports.",
+    "Major League Baseball is listed.",
+    "Major League Baseball has majority white players.",
+    "The rest of the sports listed have majority POC players.",
+    "Every sport listed has a fairly low number of POC coaches.",
+    "The majority of coaches seem to be white.",
+    "Racism is embedded into the sports industry.",
+    "Racism embedded into the sports industry may prevent people of minoritized ethnicities from becoming coaches.",
+    "A large percentage of baseball players are white.",
+    "Some former sports players become coaches.",
+    "The racial demographics of coaches are different from the racial demographics of players.",
+    "This impacts my community.",
+    "My city has several sports teams.",
+    "My city has a basketball team.",
+    "My city has a baseball team.",
+    "My city has a soccer team.",
+    "My city has a majority Black population.",
+    "It is very possible that African American coaches in my city are discriminated against.",
+    "It is very possible that African American coaches in my city have trouble finding jobs coaching major teams.",
+    "The headline is: Where are the coaches of color?"
+  ],
+  "source_mappings": {
+    "The visual shows the percentages of POC players in different professional sports.": [
+      "the visual shows the percentages of POC players",
+      "in different professional sports"
+    ],
+    "The visual shows the percentages of POC coaches in different professional sports.": [
+      "the visual shows the percentages of POC coaches",
+      "in different professional sports"
+    ],
+    "Major League Baseball is listed.": [
+      "Major League Baseball"
+    ],
+    "Major League Baseball has majority white players.": [
+      "Major League Baseball",
+      "has majority white players"
+    ],
+    "The rest of the sports listed have majority POC players.": [
+      "The rest of the sports listed have majority POC players."
+    ],
+    "Every sport listed has a fairly low number of POC coaches.": [
+      "Every sport listed has a fairly low number of POC coaches."
+    ],
+    "The majority of coaches seem to be white.": [
+      "The majority of coaches seem to be white."
+    ],
+    "Racism is embedded into the sports industry.": [
+      "racism embedded into the sports industry"
+    ],
+    "Racism embedded into the sports industry may prevent people of minoritized ethnicities from becoming coaches.": [
+      "racism embedded into the sports industry prevents people of minoritized ethnicities from becoming coaches"
+    ],
+    "A large percentage of baseball players are white.": [
+      "a large percentage of baseball players are white"
+    ],
+    "Some former sports players become coaches.": [
+      "Do former sports players become coaches?"
+    ],
+    "The racial demographics of coaches are different from the racial demographics of players.": [
+      "the racial demographics of coaches so different from the racial demographics of players"
+    ],
+    "This impacts my community.": [
+      "This impacts my community"
+    ],
+    "My city has several sports teams.": [
+      "my city has several sports teams"
+    ],
+    "My city has a basketball team.": [
+      "a basketball team"
+    ],
+    "My city has a baseball team.": [
+      "a baseball team"
+    ],
+    "My city has a soccer team.": [
+      "a soccer team"
+    ],
+    "My city has a majority Black population.": [
+      "My city also has a majority Black population."
+    ],
+    "It is very possible that African American coaches in my city are discriminated against.": [
+      "It is very possible that African American coaches in my city are discriminated against"
+    ],
+    "It is very possible that African American coaches in my city have trouble finding jobs coaching major teams.": [
+      "have trouble finding jobs coaching major teams"
+    ],
+    "The headline is: Where are the coaches of color?": [
+      "Headline: Where are the coaches of color?"
+    ]
+  }
+}

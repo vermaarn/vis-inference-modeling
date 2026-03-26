@@ -1,0 +1,90 @@
+{
+  "article_id": "183",
+  "comment_index": 117,
+  "raw_comment": "I notice that overall, young women tend to reach out to their parents more often than young men do. The difference between men and women visiting their parents in person is fairly similar, with women only visiting their parents in person about 5% more than men. The difference between men and women reaching out to parents via text, phone, or video chat is much more significant. It seems to be about a 40% difference, with women having the higher percentage. I wonder why exactly it is so common for women to reach out to their parents more often than men. There seems to be some sort of association between gender and parent relationship fostering, but the graph makes me wonder what exactly is causing this significant difference. I also wonder why there is such a drastic difference in face-to-face visits versus texts or calls. For a relationship as important as one with a parent, I would normally assume that people would place more emphasis on in person visits, but this graph is causing me to think otherwise. This graph relates to me and my community because I identify as part of the group of young women who does not live with my parents. As a result, I have to make an effort to foster the relationship I have with my parents, updating my life through calling and texting. In person visits are less frequent simply because of physical distance between our homes. A catchy headline would be \"Young Adults are Children Too- Reach Out to Your Parents!\".",
+  "ace_sentences": [
+    "Young women tend to reach out to their parents more often than young men do.",
+    "Women visit their parents in person about 5% more than men.",
+    "Men and women reach out to parents via text, phone, or video chat.",
+    "The difference between men and women reaching out to parents via text, phone, or video chat is much more significant than the difference between men and women visiting their parents in person.",
+    "It seems to be about a 40% difference.",
+    "Women have the higher percentage.",
+    "I wonder why it is so common for women to reach out to their parents more often than men.",
+    "There seems to be some sort of association between gender and parent relationship fostering.",
+    "The graph makes me wonder what is causing this significant difference.",
+    "I wonder why there is such a drastic difference in face-to-face visits versus texts or calls.",
+    "A relationship with a parent is important.",
+    "I would normally assume that people would place more emphasis on in person visits.",
+    "This graph is causing me to think otherwise.",
+    "This graph relates to me and my community.",
+    "I identify as part of the group of young women.",
+    "I do not live with my parents.",
+    "As a result, I have to make an effort to foster the relationship I have with my parents.",
+    "I update my life through calling and texting.",
+    "In person visits are less frequent because of physical distance between our homes.",
+    "A catchy headline would be \"Young Adults are Children Too- Reach Out to Your Parents!\"."
+  ],
+  "source_mappings": {
+    "Young women tend to reach out to their parents more often than young men do.": [
+      "young women tend to reach out to their parents more often than young men do"
+    ],
+    "Women visit their parents in person about 5% more than men.": [
+      "women only visiting their parents in person about 5% more than men"
+    ],
+    "Men and women reach out to parents via text, phone, or video chat.": [
+      "men and women reaching out to parents via text, phone, or video chat"
+    ],
+    "The difference between men and women reaching out to parents via text, phone, or video chat is much more significant than the difference between men and women visiting their parents in person.": [
+      "The difference between men and women reaching out to parents via text, phone, or video chat is much more significant.",
+      "The difference between men and women visiting their parents in person is fairly similar"
+    ],
+    "It seems to be about a 40% difference.": [
+      "It seems to be about a 40% difference"
+    ],
+    "Women have the higher percentage.": [
+      "with women having the higher percentage"
+    ],
+    "I wonder why it is so common for women to reach out to their parents more often than men.": [
+      "I wonder why exactly it is so common for women to reach out to their parents more often than men."
+    ],
+    "There seems to be some sort of association between gender and parent relationship fostering.": [
+      "There seems to be some sort of association between gender and parent relationship fostering"
+    ],
+    "The graph makes me wonder what is causing this significant difference.": [
+      "the graph makes me wonder what exactly is causing this significant difference"
+    ],
+    "I wonder why there is such a drastic difference in face-to-face visits versus texts or calls.": [
+      "I also wonder why there is such a drastic difference in face-to-face visits versus texts or calls."
+    ],
+    "A relationship with a parent is important.": [
+      "For a relationship as important as one with a parent"
+    ],
+    "I would normally assume that people would place more emphasis on in person visits.": [
+      "I would normally assume that people would place more emphasis on in person visits"
+    ],
+    "This graph is causing me to think otherwise.": [
+      "this graph is causing me to think otherwise"
+    ],
+    "This graph relates to me and my community.": [
+      "This graph relates to me and my community"
+    ],
+    "I identify as part of the group of young women.": [
+      "I identify as part of the group of young women"
+    ],
+    "I do not live with my parents.": [
+      "does not live with my parents"
+    ],
+    "As a result, I have to make an effort to foster the relationship I have with my parents.": [
+      "As a result, I have to make an effort to foster the relationship I have with my parents"
+    ],
+    "I update my life through calling and texting.": [
+      "updating my life through calling and texting"
+    ],
+    "In person visits are less frequent because of physical distance between our homes.": [
+      "In person visits are less frequent simply because of physical distance between our homes."
+    ],
+    "A catchy headline would be \"Young Adults are Children Too- Reach Out to Your Parents!\".": [
+      "A catchy headline would be \"Young Adults are Children Too- Reach Out to Your Parents!\"."
+    ]
+  }
+}

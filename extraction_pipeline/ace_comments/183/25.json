@@ -1,0 +1,21 @@
+{
+  "article_id": "183",
+  "comment_index": 25,
+  "raw_comment": "catchy headline\n\"the truth about how phones are a healthy way of connecting\"",
+  "ace_sentences": [
+    "The headline is catchy.",
+    "The headline is:",
+    "The truth about how phones are a healthy way of connecting."
+  ],
+  "source_mappings": {
+    "The headline is catchy.": [
+      "catchy headline"
+    ],
+    "The headline is:": [
+      "catchy headline"
+    ],
+    "The truth about how phones are a healthy way of connecting.": [
+      "\"the truth about how phones are a healthy way of connecting\""
+    ]
+  }
+}

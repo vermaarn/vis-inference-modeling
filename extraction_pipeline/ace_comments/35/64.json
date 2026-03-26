@@ -1,0 +1,37 @@
+{
+  "article_id": "35",
+  "comment_index": 64,
+  "raw_comment": "i see that southern places get the 'first leaf' first, the north later, and randomly near the rocky mountain, the latest. but i wounder why other places get spring earlier then near the rocky mountains.  \nThe graph shows which places get spring earlier, The leafs are going green.",
+  "ace_sentences": [
+    "Southern places get the first leaf first.",
+    "The north gets the first leaf later.",
+    "Places near the Rocky Mountain get the first leaf randomly.",
+    "Places near the Rocky Mountain get the first leaf latest.",
+    "I wonder why other places get spring earlier than places near the Rocky Mountains.",
+    "The graph shows which places get spring earlier.",
+    "The leafs are going green."
+  ],
+  "source_mappings": {
+    "Southern places get the first leaf first.": [
+      "southern places get the 'first leaf' first"
+    ],
+    "The north gets the first leaf later.": [
+      "the north later"
+    ],
+    "Places near the Rocky Mountain get the first leaf randomly.": [
+      "randomly near the rocky mountain"
+    ],
+    "Places near the Rocky Mountain get the first leaf latest.": [
+      "the latest"
+    ],
+    "I wonder why other places get spring earlier than places near the Rocky Mountains.": [
+      "but i wounder why other places get spring earlier then near the rocky mountains."
+    ],
+    "The graph shows which places get spring earlier.": [
+      "The graph shows which places get spring earlier"
+    ],
+    "The leafs are going green.": [
+      "The leafs are going green."
+    ]
+  }
+}

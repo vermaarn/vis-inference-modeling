@@ -1,0 +1,62 @@
+{
+  "article_id": "183",
+  "comment_index": 88,
+  "raw_comment": "I notice that there's a higher percentage of texts being sent to their parents for women and men however women are more prone to contact their parents vs men. I also noticed that voting in person has the lowest percentage compared to the other forms of communication. \n\nI wonder how big of a difference it would be comparing states or with other countries. I also wonder if this is due to whether or not they were coddled or if kids didn't have a good relationship with their parents. \n\nThis relates because since I am going to college soon, if I dorm I would be contacting my parents more often then if I was at home and this goes for other seniors too. \n\nHow Often Do You Call Your Parents?",
+  "ace_sentences": [
+    "There is a higher percentage of texts being sent to parents for women.",
+    "There is a higher percentage of texts being sent to parents for men.",
+    "Women are more prone to contact their parents than men.",
+    "Voting in person has the lowest percentage compared to other forms of communication.",
+    "I wonder how big of a difference it would be when comparing states.",
+    "I wonder how big of a difference it would be with other countries.",
+    "I wonder if this is due to whether or not they were coddled.",
+    "I wonder if this is due to whether or not kids did not have a good relationship with their parents.",
+    "I am going to college soon.",
+    "If I dorm then I would be contacting my parents more often than if I was at home.",
+    "This goes for other seniors too.",
+    "The headline is:",
+    "How Often Do You Call Your Parents?"
+  ],
+  "source_mappings": {
+    "There is a higher percentage of texts being sent to parents for women.": [
+      "there's a higher percentage of texts being sent to their parents for women"
+    ],
+    "There is a higher percentage of texts being sent to parents for men.": [
+      "there's a higher percentage of texts being sent to their parents for women and men",
+      "men"
+    ],
+    "Women are more prone to contact their parents than men.": [
+      "women are more prone to contact their parents vs men"
+    ],
+    "Voting in person has the lowest percentage compared to other forms of communication.": [
+      "voting in person has the lowest percentage compared to the other forms of communication"
+    ],
+    "I wonder how big of a difference it would be when comparing states.": [
+      "I wonder how big of a difference it would be comparing states"
+    ],
+    "I wonder how big of a difference it would be with other countries.": [
+      "with other countries"
+    ],
+    "I wonder if this is due to whether or not they were coddled.": [
+      "I also wonder if this is due to whether or not they were coddled"
+    ],
+    "I wonder if this is due to whether or not kids did not have a good relationship with their parents.": [
+      "if kids didn't have a good relationship with their parents"
+    ],
+    "I am going to college soon.": [
+      "I am going to college soon"
+    ],
+    "If I dorm then I would be contacting my parents more often than if I was at home.": [
+      "if I dorm I would be contacting my parents more often then if I was at home"
+    ],
+    "This goes for other seniors too.": [
+      "this goes for other seniors too"
+    ],
+    "The headline is:": [
+      "How Often Do You Call Your Parents?"
+    ],
+    "How Often Do You Call Your Parents?": [
+      "How Often Do You Call Your Parents?"
+    ]
+  }
+}

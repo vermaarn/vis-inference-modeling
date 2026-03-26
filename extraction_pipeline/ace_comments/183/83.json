@@ -1,0 +1,121 @@
+{
+  "article_id": "183",
+  "comment_index": 83,
+  "raw_comment": "The graph shows that a higher percent of young women contact their parents at least once a week than young men do. Higher percentages of both genders seem to use text messaging the most and in-person visits the least. It surprised me that less than 50% of young men reach out to a parent at least once a week via text, call, or in person. The question under the title of the graph is \"How involved are parents in their children's lives?\". I wonder if higher percentages of women contact their parents more because parents are more involved in their female children's lives, if young women have stronger relationships with their parents than their male counterparts, or if women are simply better at communicating and staying in touch. This relates to our community because for most college students we are no longer living with our parents and seeing them everyday. Everyone has different family dynamics that affect how often they contact their parents, but maybe gender is a part of this too. What makes this  a good graph to it putting the y-axis label horizontally which makes the graph easier to read. Another aspect of the graph I like is how they used percentages to compare the data. Had the authors used counts or means or ratios, the viewer would have had to more interpretations of their own to figure out the story the graph is telling us. Catchy Headlines: \"What's the Go-To for Parents and Adult Kids to Stay Connected?\"",
+  "ace_sentences": [
+    "The graph shows a higher percent of young women than young men.",
+    "A higher percent of young women contact their parents at least once a week.",
+    "A higher percent of young men contact their parents at least once a week.",
+    "Higher percentages of both genders use text messaging the most.",
+    "Higher percentages of both genders use in-person visits the least.",
+    "Less than 50% of young men reach out to a parent at least once a week via text.",
+    "Less than 50% of young men reach out to a parent at least once a week via call.",
+    "Less than 50% of young men reach out to a parent at least once a week in person.",
+    "The question under the title of the graph is \"How involved are parents in their children's lives?\".",
+    "I wonder if higher percentages of women contact their parents more because parents are more involved in their female children's lives.",
+    "I wonder if young women have stronger relationships with their parents than their male counterparts.",
+    "I wonder if women are simply better at communicating and staying in touch.",
+    "This relates to our community.",
+    "For most college students, we are no longer living with our parents.",
+    "For most college students, we are no longer seeing them everyday.",
+    "Everyone has different family dynamics.",
+    "Different family dynamics affect how often people contact their parents.",
+    "Maybe gender is a part of this too.",
+    "Putting the y-axis label horizontally makes the graph easier to read.",
+    "I like how they used percentages to compare the data.",
+    "If the authors had used counts, the viewer would have had to more interpretations of their own.",
+    "If the authors had used means, the viewer would have had to more interpretations of their own.",
+    "If the authors had used ratios, the viewer would have had to more interpretations of their own.",
+    "The viewer would have had to more interpretations of their own to figure out the story.",
+    "The graph is telling us a story.",
+    "The headline is \"What's the Go-To for Parents and Adult Kids to Stay Connected?\"."
+  ],
+  "source_mappings": {
+    "The graph shows a higher percent of young women than young men.": [
+      "The graph shows that a higher percent of young women",
+      "than young men do"
+    ],
+    "A higher percent of young women contact their parents at least once a week.": [
+      "a higher percent of young women contact their parents at least once a week"
+    ],
+    "A higher percent of young men contact their parents at least once a week.": [
+      "young men do"
+    ],
+    "Higher percentages of both genders use text messaging the most.": [
+      "Higher percentages of both genders seem to use text messaging the most"
+    ],
+    "Higher percentages of both genders use in-person visits the least.": [
+      "and in-person visits the least"
+    ],
+    "Less than 50% of young men reach out to a parent at least once a week via text.": [
+      "less than 50% of young men reach out to a parent at least once a week via text"
+    ],
+    "Less than 50% of young men reach out to a parent at least once a week via call.": [
+      "less than 50% of young men reach out to a parent at least once a week via",
+      "call"
+    ],
+    "Less than 50% of young men reach out to a parent at least once a week in person.": [
+      "less than 50% of young men reach out to a parent at least once a week via",
+      "in person"
+    ],
+    "The question under the title of the graph is \"How involved are parents in their children's lives?\".": [
+      "The question under the title of the graph is \"How involved are parents in their children's lives?\"."
+    ],
+    "I wonder if higher percentages of women contact their parents more because parents are more involved in their female children's lives.": [
+      "I wonder if higher percentages of women contact their parents more because parents are more involved in their female children's lives"
+    ],
+    "I wonder if young women have stronger relationships with their parents than their male counterparts.": [
+      "if young women have stronger relationships with their parents than their male counterparts"
+    ],
+    "I wonder if women are simply better at communicating and staying in touch.": [
+      "or if women are simply better at communicating and staying in touch"
+    ],
+    "This relates to our community.": [
+      "This relates to our community"
+    ],
+    "For most college students, we are no longer living with our parents.": [
+      "for most college students we are no longer living with our parents"
+    ],
+    "For most college students, we are no longer seeing them everyday.": [
+      "and seeing them everyday"
+    ],
+    "Everyone has different family dynamics.": [
+      "Everyone has different family dynamics"
+    ],
+    "Different family dynamics affect how often people contact their parents.": [
+      "family dynamics that affect how often they contact their parents"
+    ],
+    "Maybe gender is a part of this too.": [
+      "but maybe gender is a part of this too"
+    ],
+    "Putting the y-axis label horizontally makes the graph easier to read.": [
+      "it putting the y-axis label horizontally which makes the graph easier to read"
+    ],
+    "I like how they used percentages to compare the data.": [
+      "Another aspect of the graph I like is how they used percentages to compare the data"
+    ],
+    "If the authors had used counts, the viewer would have had to more interpretations of their own.": [
+      "Had the authors used counts",
+      "the viewer would have had to more interpretations of their own"
+    ],
+    "If the authors had used means, the viewer would have had to more interpretations of their own.": [
+      "Had the authors used",
+      "means",
+      "the viewer would have had to more interpretations of their own"
+    ],
+    "If the authors had used ratios, the viewer would have had to more interpretations of their own.": [
+      "Had the authors used",
+      "ratios",
+      "the viewer would have had to more interpretations of their own"
+    ],
+    "The viewer would have had to more interpretations of their own to figure out the story.": [
+      "the viewer would have had to more interpretations of their own to figure out the story"
+    ],
+    "The graph is telling us a story.": [
+      "the story the graph is telling us"
+    ],
+    "The headline is \"What's the Go-To for Parents and Adult Kids to Stay Connected?\".": [
+      "Catchy Headlines: \"What's the Go-To for Parents and Adult Kids to Stay Connected?\""
+    ]
+  }
+}

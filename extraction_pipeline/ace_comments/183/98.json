@@ -1,0 +1,58 @@
+{
+  "article_id": "183",
+  "comment_index": 98,
+  "raw_comment": "The first thing that I notice is that young women tend to reach out more compared to young men across all categories. I also noticed that as ease of communication increases (i.e less effort/time), the percentage of young people who reach out grows.\n\nOne thing I wonder is the why the disparities between the genders exist. \n\nThis relates to me, as I always try to contact my parents on a frequent basis via text and face time. Many college students are out of state, so it is likely we do not get to see our parents that much\n\nA title could be \"Parental communication: disconnecting to connect\"",
+  "ace_sentences": [
+    "I notice a first thing.",
+    "Young women tend to reach out more than young men across all categories.",
+    "I notice that ease of communication increases.",
+    "Ease of communication means less effort and less time.",
+    "The percentage of young people who reach out grows as ease of communication increases.",
+    "I wonder why the disparities between the genders exist.",
+    "This relates to me.",
+    "I always try to contact my parents on a frequent basis via text.",
+    "I always try to contact my parents on a frequent basis via face time.",
+    "Many college students are out of state.",
+    "It is likely that many college students do not get to see our parents that much.",
+    "A title could be \"Parental communication: disconnecting to connect\"."
+  ],
+  "source_mappings": {
+    "I notice a first thing.": [
+      "The first thing that I notice is that"
+    ],
+    "Young women tend to reach out more than young men across all categories.": [
+      "young women tend to reach out more compared to young men across all categories"
+    ],
+    "I notice that ease of communication increases.": [
+      "I also noticed that as ease of communication increases"
+    ],
+    "Ease of communication means less effort and less time.": [
+      "i.e less effort/time"
+    ],
+    "The percentage of young people who reach out grows as ease of communication increases.": [
+      "the percentage of young people who reach out grows",
+      "as ease of communication increases"
+    ],
+    "I wonder why the disparities between the genders exist.": [
+      "One thing I wonder is the why the disparities between the genders exist."
+    ],
+    "This relates to me.": [
+      "This relates to me"
+    ],
+    "I always try to contact my parents on a frequent basis via text.": [
+      "I always try to contact my parents on a frequent basis via text"
+    ],
+    "I always try to contact my parents on a frequent basis via face time.": [
+      "I always try to contact my parents on a frequent basis via text and face time"
+    ],
+    "Many college students are out of state.": [
+      "Many college students are out of state"
+    ],
+    "It is likely that many college students do not get to see our parents that much.": [
+      "so it is likely we do not get to see our parents that much"
+    ],
+    "A title could be \"Parental communication: disconnecting to connect\".": [
+      "A title could be \"Parental communication: disconnecting to connect\""
+    ]
+  }
+}

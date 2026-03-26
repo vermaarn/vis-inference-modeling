@@ -1,0 +1,55 @@
+{
+  "article_id": "91",
+  "comment_index": 195,
+  "raw_comment": "What do you notice?\n\nI notice that the NBA and the WNBA have the highest percentage out of all of them.\n\nWhat do you wonder?\n\nI wonder why the players percentage is so much higher  then the coaches percentage and why that is that way.\n\nWhat Impact does this have on your community?\n\nThere isn’t much of an impact on my community, because I think there is an equal amount of diversity in our players and coaches.\n\nWhat’s going on in this graph?\n\nIn the graph it is showing that there is more diversity going on in the players then there is in the coaches. There should be an equal mix of diversity between players and coaches.",
+  "ace_sentences": [
+    "I notice something.",
+    "The NBA has the highest percentage out of all of them.",
+    "The WNBA has the highest percentage out of all of them.",
+    "I wonder about something.",
+    "I wonder why the players percentage is so much higher then the coaches percentage.",
+    "I wonder why that is that way.",
+    "There is not much of an impact on my community.",
+    "I think that there is an equal amount of diversity in our players and coaches.",
+    "The graph shows something.",
+    "In the graph it is showing that there is more diversity going on in the players then there is in the coaches.",
+    "There should be an equal mix of diversity between players and coaches."
+  ],
+  "source_mappings": {
+    "I notice something.": [
+      "I notice"
+    ],
+    "The NBA has the highest percentage out of all of them.": [
+      "the NBA and the WNBA have the highest percentage out of all of them",
+      "the NBA"
+    ],
+    "The WNBA has the highest percentage out of all of them.": [
+      "the NBA and the WNBA have the highest percentage out of all of them",
+      "the WNBA"
+    ],
+    "I wonder about something.": [
+      "I wonder"
+    ],
+    "I wonder why the players percentage is so much higher then the coaches percentage.": [
+      "I wonder why the players percentage is so much higher  then the coaches percentage"
+    ],
+    "I wonder why that is that way.": [
+      "why that is that way"
+    ],
+    "There is not much of an impact on my community.": [
+      "There isn’t much of an impact on my community"
+    ],
+    "I think that there is an equal amount of diversity in our players and coaches.": [
+      "I think there is an equal amount of diversity in our players and coaches"
+    ],
+    "The graph shows something.": [
+      "What’s going on in this graph?"
+    ],
+    "In the graph it is showing that there is more diversity going on in the players then there is in the coaches.": [
+      "In the graph it is showing that there is more diversity going on in the players then there is in the coaches."
+    ],
+    "There should be an equal mix of diversity between players and coaches.": [
+      "There should be an equal mix of diversity between players and coaches."
+    ]
+  }
+}

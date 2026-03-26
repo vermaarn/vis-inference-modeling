@@ -1,0 +1,57 @@
+{
+  "article_id": "91",
+  "comment_index": 189,
+  "raw_comment": "In this graph I notice that is the key which shows light pink represents the head coaches of color and then the dark pink represents players of color, it also seems that it starts to decrease from 2020 from basketball to baseball. I wonder why the percentage starts to change over the time and different sports. It doesn't really impact me but it does affect me community because this just go to show how race is still a factor of today's society. In this graph it shows how  the players of color change within the different time and also different sports is why. Society Changes in Sports.",
+  "ace_sentences": [
+    "I notice this graph.",
+    "In this graph, the key shows that light pink represents head coaches of color.",
+    "In this graph, dark pink represents players of color.",
+    "It seems that it starts to decrease from 2020 from basketball to baseball.",
+    "I wonder why the percentage starts to change over the time.",
+    "I wonder why the percentage starts to change in different sports.",
+    "It does not really impact me.",
+    "However, it affects my community.",
+    "This shows that race is still a factor of today's society.",
+    "In this graph, the players of color change within the different time.",
+    "In this graph, the players of color change in different sports.",
+    "The headline is: Society Changes in Sports."
+  ],
+  "source_mappings": {
+    "I notice this graph.": [
+      "In this graph I notice"
+    ],
+    "In this graph, the key shows that light pink represents head coaches of color.": [
+      "the key which shows light pink represents the head coaches of color"
+    ],
+    "In this graph, dark pink represents players of color.": [
+      "the dark pink represents players of color"
+    ],
+    "It seems that it starts to decrease from 2020 from basketball to baseball.": [
+      "it also seems that it starts to decrease from 2020 from basketball to baseball"
+    ],
+    "I wonder why the percentage starts to change over the time.": [
+      "I wonder why the percentage starts to change over the time"
+    ],
+    "I wonder why the percentage starts to change in different sports.": [
+      "different sports"
+    ],
+    "It does not really impact me.": [
+      "It doesn't really impact me"
+    ],
+    "However, it affects my community.": [
+      "but it does affect me community"
+    ],
+    "This shows that race is still a factor of today's society.": [
+      "this just go to show how race is still a factor of today's society"
+    ],
+    "In this graph, the players of color change within the different time.": [
+      "In this graph it shows how  the players of color change within the different time"
+    ],
+    "In this graph, the players of color change in different sports.": [
+      "also different sports"
+    ],
+    "The headline is: Society Changes in Sports.": [
+      "Society Changes in Sports."
+    ]
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "article_id": "91",
+  "comment_index": 57,
+  "raw_comment": "1. What do you notice?\nI notice that there is a larger proportion of POC(people of color) that are players compared to the proportion of POC that are coaches\n \n2. What do you wonder?\nI wonder why there are more POC that are players than POC that are coaches, and will there be changes to these statistics in the future. I also wonder why other huge sports leagues weren’t included in these statistics such as the Fédération Internationale de Football Association (FIFA) or the National Hockey League, I think they would’ve made a good addition to either contrast or reinforce the already included data.\n \n \n \n3. What impact does this have on you and your community?\nI think this has an impact on me and my community in the sense that my community and I do watch sports and that my community like many others is impacted by current racial issues such as instances of societal discrimination, and I think that the statistics we see could be caused by societal dsicrimination in the sense that Colored people may be discriminated against when trying to find higher positioned jobs in sports such as coaching.\n \n4. What’s going on in this graph? Write a catchy headline that captures the graph’s main idea.\nThe graph is showing the contrast of the percentage of POC within coaching and playing positions.\nA catchy headline could be: “Why aren’t POC getting an equal amount of play on both ‘sides’ of the game?”",
+  "ace_sentences": [
+    "I notice that there is a larger proportion of POC that are players than the proportion of POC that are coaches.",
+    "I wonder why there are more POC that are players than POC that are coaches.",
+    "I wonder if there will be changes to these statistics in the future.",
+    "I wonder why other huge sports leagues were not included in these statistics.",
+    "The Fédération Internationale de Football Association is a huge sports league.",
+    "The National Hockey League is a huge sports league.",
+    "I think that these leagues would have made a good addition to these statistics.",
+    "These leagues could contrast the already included data.",
+    "These leagues could reinforce the already included data.",
+    "I think that this has an impact on me.",
+    "I think that this has an impact on my community.",
+    "My community and I watch sports.",
+    "My community is impacted by current racial issues.",
+    "Instances of societal discrimination are current racial issues.",
+    "I think that the statistics that we see could be caused by societal dsicrimination.",
+    "Colored people may be discriminated against when trying to find higher positioned jobs in sports.",
+    "Coaching is a higher positioned job in sports.",
+    "The graph shows the contrast of the percentage of POC within coaching positions and playing positions.",
+    "A catchy headline could be:",
+    "Why aren’t POC getting an equal amount of play on both ‘sides’ of the game?"
+  ],
+  "source_mappings": {
+    "I notice that there is a larger proportion of POC that are players than the proportion of POC that are coaches.": [
+      "I notice that there is a larger proportion of POC(people of color) that are players compared to the proportion of POC that are coaches"
+    ],
+    "I wonder why there are more POC that are players than POC that are coaches.": [
+      "I wonder why there are more POC that are players than POC that are coaches"
+    ],
+    "I wonder if there will be changes to these statistics in the future.": [
+      "will there be changes to these statistics in the future"
+    ],
+    "I wonder why other huge sports leagues were not included in these statistics.": [
+      "I also wonder why other huge sports leagues weren’t included in these statistics"
+    ],
+    "The Fédération Internationale de Football Association is a huge sports league.": [
+      "the Fédération Internationale de Football Association (FIFA)"
+    ],
+    "The National Hockey League is a huge sports league.": [
+      "the National Hockey League"
+    ],
+    "I think that these leagues would have made a good addition to these statistics.": [
+      "I think they would’ve made a good addition to either contrast or reinforce the already included data."
+    ],
+    "These leagues could contrast the already included data.": [
+      "either contrast"
+    ],
+    "These leagues could reinforce the already included data.": [
+      "or reinforce the already included data"
+    ],
+    "I think that this has an impact on me.": [
+      "I think this has an impact on me"
+    ],
+    "I think that this has an impact on my community.": [
+      "I think this has an impact on me and my community"
+    ],
+    "My community and I watch sports.": [
+      "my community and I do watch sports"
+    ],
+    "My community is impacted by current racial issues.": [
+      "my community like many others is impacted by current racial issues"
+    ],
+    "Instances of societal discrimination are current racial issues.": [
+      "such as instances of societal discrimination"
+    ],
+    "I think that the statistics that we see could be caused by societal dsicrimination.": [
+      "I think that the statistics we see could be caused by societal dsicrimination"
+    ],
+    "Colored people may be discriminated against when trying to find higher positioned jobs in sports.": [
+      "Colored people may be discriminated against when trying to find higher positioned jobs in sports"
+    ],
+    "Coaching is a higher positioned job in sports.": [
+      "such as coaching"
+    ],
+    "The graph shows the contrast of the percentage of POC within coaching positions and playing positions.": [
+      "The graph is showing the contrast of the percentage of POC within coaching and playing positions."
+    ],
+    "A catchy headline could be:": [
+      "A catchy headline could be:"
+    ],
+    "Why aren’t POC getting an equal amount of play on both ‘sides’ of the game?": [
+      "Why aren’t POC getting an equal amount of play on both ‘sides’ of the game?"
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "article_id": "35",
+  "comment_index": 19,
+  "raw_comment": "We originally thought that the Northern areas getting spring so late was just due to it being in the North but after reading the info in the article saw that it was more affected by the change in climate caused by the melting of Arctic sea ice leading to an even longer winter than the already long winters in the North U.S.",
+  "ace_sentences": [
+    "We originally thought that the Northern areas get spring so late.",
+    "We originally thought that this was just due to it being in the North.",
+    "After reading the info in the article, we saw that this was more affected by the change in climate.",
+    "The melting of Arctic sea ice causes the change in climate.",
+    "The melting of Arctic sea ice leads to an even longer winter.",
+    "The North U.S. has already long winters.",
+    "The even longer winter is longer than the already long winters in the North U.S."
+  ],
+  "source_mappings": {
+    "We originally thought that the Northern areas get spring so late.": [
+      "We originally thought that the Northern areas getting spring so late"
+    ],
+    "We originally thought that this was just due to it being in the North.": [
+      "was just due to it being in the North"
+    ],
+    "After reading the info in the article, we saw that this was more affected by the change in climate.": [
+      "after reading the info in the article saw that it was more affected by the change in climate"
+    ],
+    "The melting of Arctic sea ice causes the change in climate.": [
+      "caused by the melting of Arctic sea ice"
+    ],
+    "The melting of Arctic sea ice leads to an even longer winter.": [
+      "melting of Arctic sea ice leading to an even longer winter"
+    ],
+    "The North U.S. has already long winters.": [
+      "the already long winters in the North U.S."
+    ],
+    "The even longer winter is longer than the already long winters in the North U.S.": [
+      "an even longer winter than the already long winters in the North U.S."
+    ]
+  }
+}

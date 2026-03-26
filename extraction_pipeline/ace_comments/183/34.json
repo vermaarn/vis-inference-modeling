@@ -1,0 +1,119 @@
+{
+  "article_id": "183",
+  "comment_index": 34,
+  "raw_comment": "This graph depicts the difference between young men and women and how likely they are to communicate with their parents daily. Womenare more likely than men to reach out to their parents at least once a day. However, it is mainly digital with just under 75% responding that they text and over 50% saying that they call their parents. Only about 25% of young women responded that they visit their parents on a daily or weekly basis. On the other hand, young men are far less likely to have active communication with their parents. About 50% text, between 25%-50% call, and less than 25% see their parents frequently. I wonder why the percentage of seeing parents regularly is so low. I understand that this poll was asked by 18-34-year-olds who live with either one or no parents, but I feel like this statistic is so low. I wonder how these statistics have changed over time. With the new age of social media and technology, has there been a significant increase in young people who can communicate with their parents daily? This relates to my community because as a teenager, communication is key with my parents and most of my friend's parents. If we do not answer them right away or frequently check in, parents nowadays are prone or getting anxious and hysterical. I wonder in the upcoming generation if these numbers will spike because of the constant communication needed between child and parent. \n\n“Call Your Mom! Young People And Their Lackluster Interest In Talking To Their Parents.”",
+  "ace_sentences": [
+    "This graph depicts the difference between young men and women.",
+    "This graph depicts how likely young men and women are to communicate with their parents daily.",
+    "Women are more likely than men to reach out to their parents at least once a day.",
+    "This communication is mainly digital.",
+    "Just under 75% respond that they text.",
+    "Over 50% say that they call their parents.",
+    "Only about 25% of young women respond that they visit their parents on a daily or weekly basis.",
+    "Young men are far less likely to have active communication with their parents.",
+    "About 50% of young men text.",
+    "Between 25%-50% of young men call.",
+    "Less than 25% of young men see their parents frequently.",
+    "I wonder why the percentage of seeing parents regularly is so low.",
+    "This poll was asked by 18-34-year-olds.",
+    "These 18-34-year-olds live with either one or no parents.",
+    "I feel like this statistic is so low.",
+    "I wonder how these statistics have changed over time.",
+    "There is a new age of social media and technology.",
+    "I ask if there has been a significant increase in young people who can communicate with their parents daily.",
+    "This relates to my community.",
+    "I am a teenager.",
+    "Communication is key with my parents.",
+    "Communication is key with most of my friend's parents.",
+    "If we do not answer them right away, parents nowadays are prone or getting anxious and hysterical.",
+    "If we do not frequently check in, parents nowadays are prone or getting anxious and hysterical.",
+    "I wonder in the upcoming generation if these numbers will spike.",
+    "There is constant communication needed between child and parent.",
+    "The headline is \"Call Your Mom! Young People And Their Lackluster Interest In Talking To Their Parents.\""
+  ],
+  "source_mappings": {
+    "This graph depicts the difference between young men and women.": [
+      "This graph depicts the difference between young men and women"
+    ],
+    "This graph depicts how likely young men and women are to communicate with their parents daily.": [
+      "how likely they are to communicate with their parents daily"
+    ],
+    "Women are more likely than men to reach out to their parents at least once a day.": [
+      "Womenare more likely than men to reach out to their parents at least once a day."
+    ],
+    "This communication is mainly digital.": [
+      "it is mainly digital"
+    ],
+    "Just under 75% respond that they text.": [
+      "just under 75% responding that they text"
+    ],
+    "Over 50% say that they call their parents.": [
+      "over 50% saying that they call their parents"
+    ],
+    "Only about 25% of young women respond that they visit their parents on a daily or weekly basis.": [
+      "Only about 25% of young women responded that they visit their parents on a daily or weekly basis."
+    ],
+    "Young men are far less likely to have active communication with their parents.": [
+      "young men are far less likely to have active communication with their parents."
+    ],
+    "About 50% of young men text.": [
+      "About 50% text"
+    ],
+    "Between 25%-50% of young men call.": [
+      "between 25%-50% call"
+    ],
+    "Less than 25% of young men see their parents frequently.": [
+      "less than 25% see their parents frequently."
+    ],
+    "I wonder why the percentage of seeing parents regularly is so low.": [
+      "I wonder why the percentage of seeing parents regularly is so low."
+    ],
+    "This poll was asked by 18-34-year-olds.": [
+      "this poll was asked by 18-34-year-olds"
+    ],
+    "These 18-34-year-olds live with either one or no parents.": [
+      "18-34-year-olds who live with either one or no parents"
+    ],
+    "I feel like this statistic is so low.": [
+      "I feel like this statistic is so low."
+    ],
+    "I wonder how these statistics have changed over time.": [
+      "I wonder how these statistics have changed over time."
+    ],
+    "There is a new age of social media and technology.": [
+      "the new age of social media and technology"
+    ],
+    "I ask if there has been a significant increase in young people who can communicate with their parents daily.": [
+      "has there been a significant increase in young people who can communicate with their parents daily?"
+    ],
+    "This relates to my community.": [
+      "This relates to my community"
+    ],
+    "I am a teenager.": [
+      "as a teenager"
+    ],
+    "Communication is key with my parents.": [
+      "communication is key with my parents"
+    ],
+    "Communication is key with most of my friend's parents.": [
+      "most of my friend's parents"
+    ],
+    "If we do not answer them right away, parents nowadays are prone or getting anxious and hysterical.": [
+      "If we do not answer them right away",
+      "parents nowadays are prone or getting anxious and hysterical."
+    ],
+    "If we do not frequently check in, parents nowadays are prone or getting anxious and hysterical.": [
+      "frequently check in",
+      "parents nowadays are prone or getting anxious and hysterical."
+    ],
+    "I wonder in the upcoming generation if these numbers will spike.": [
+      "I wonder in the upcoming generation if these numbers will spike"
+    ],
+    "There is constant communication needed between child and parent.": [
+      "the constant communication needed between child and parent."
+    ],
+    "The headline is \"Call Your Mom! Young People And Their Lackluster Interest In Talking To Their Parents.\"": [
+      "“Call Your Mom! Young People And Their Lackluster Interest In Talking To Their Parents.”"
+    ]
+  }
+}

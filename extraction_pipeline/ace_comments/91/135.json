@@ -1,0 +1,33 @@
+{
+  "article_id": "91",
+  "comment_index": 135,
+  "raw_comment": "What do you notice?\nThere are more percentage of color players than coaches of color. Especially in the NFL you notice a huge contrast between the players of color than coaches.  \n\nWhat do you wonder?\nWhy is there a huge ratio difference in players of color and coaches \n\nWhat impact does this have on you and your community?\nReally goes to show there is also a lack of inequality in the sports industry too. \n\nWhat’s going on in this graph? Write a catchy headline that captures the graph’s main idea.\n“Lack of Diversity in Sports”",
+  "ace_sentences": [
+    "I notice a higher percentage of players of color than coaches of color.",
+    "In the NFL, I notice a huge contrast between players of color and coaches.",
+    "I wonder why there is a huge ratio difference between players of color and coaches.",
+    "This situation shows a lack of inequality in the sports industry.",
+    "The headline is:",
+    "Lack of Diversity in Sports."
+  ],
+  "source_mappings": {
+    "I notice a higher percentage of players of color than coaches of color.": [
+      "There are more percentage of color players than coaches of color."
+    ],
+    "In the NFL, I notice a huge contrast between players of color and coaches.": [
+      "Especially in the NFL you notice a huge contrast between the players of color than coaches."
+    ],
+    "I wonder why there is a huge ratio difference between players of color and coaches.": [
+      "Why is there a huge ratio difference in players of color and coaches"
+    ],
+    "This situation shows a lack of inequality in the sports industry.": [
+      "Really goes to show there is also a lack of inequality in the sports industry too."
+    ],
+    "The headline is:": [
+      "Write a catchy headline that captures the graph’s main idea."
+    ],
+    "Lack of Diversity in Sports.": [
+      "“Lack of Diversity in Sports”"
+    ]
+  }
+}

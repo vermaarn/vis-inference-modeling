@@ -1,0 +1,22 @@
+{
+  "article_id": "35",
+  "comment_index": 88,
+  "raw_comment": "I wounder what this map would look like in the 1700's without pollution and global warming",
+  "ace_sentences": [
+    "I wonder what this map would look like in the 1700's.",
+    "In the 1700's, there was no pollution.",
+    "In the 1700's, there was no global warming."
+  ],
+  "source_mappings": {
+    "I wonder what this map would look like in the 1700's.": [
+      "I wounder what this map would look like in the 1700's"
+    ],
+    "In the 1700's, there was no pollution.": [
+      "in the 1700's without pollution"
+    ],
+    "In the 1700's, there was no global warming.": [
+      "in the 1700's without",
+      "global warming"
+    ]
+  }
+}

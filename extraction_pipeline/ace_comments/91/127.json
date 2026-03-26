@@ -1,0 +1,69 @@
+{
+  "article_id": "91",
+  "comment_index": 127,
+  "raw_comment": "I immediately notice the disparity between players and coach percentages. The darker pink bars represent the players of color, and the lighter pink bars represent the head coaches of color. I also notice that in the graph they included the women's basketball association and the national basketball association. With these two graphs compared right next to each other, I notice that the women's basketball association has 5% fewer head coaches of color than the national basketball association. I  wonder why that is? I wonder why the national football league has the fewest amount of head coaches of color? I also wonder why the head coaches of the color statistic are less than 50% for all of the sports? This impacts my community as it provides knowledge and statistics to help inform people of the different percentages of diversity in different sports in regards to players and head coaches.\n\nTitle: \"Diversity of different sports with players and coaches\"",
+  "ace_sentences": [
+    "I immediately notice a disparity between player percentages and coach percentages.",
+    "The darker pink bars represent the players of color.",
+    "The lighter pink bars represent the head coaches of color.",
+    "In the graph, they included the women's basketball association.",
+    "In the graph, they included the national basketball association.",
+    "Two graphs are compared right next to each other.",
+    "The women's basketball association has 5% fewer head coaches of color than the national basketball association.",
+    "I wonder why that is.",
+    "I wonder why the national football league has the fewest amount of head coaches of color.",
+    "I wonder why the head coaches of the color statistic are less than 50% for all of the sports.",
+    "This impacts my community.",
+    "This provides knowledge and statistics.",
+    "This helps to inform people of the different percentages of diversity in different sports.",
+    "This is in regards to players and head coaches.",
+    "The title is \"Diversity of different sports with players and coaches\"."
+  ],
+  "source_mappings": {
+    "I immediately notice a disparity between player percentages and coach percentages.": [
+      "I immediately notice the disparity between players and coach percentages."
+    ],
+    "The darker pink bars represent the players of color.": [
+      "The darker pink bars represent the players of color"
+    ],
+    "The lighter pink bars represent the head coaches of color.": [
+      "the lighter pink bars represent the head coaches of color."
+    ],
+    "In the graph, they included the women's basketball association.": [
+      "in the graph they included the women's basketball association"
+    ],
+    "In the graph, they included the national basketball association.": [
+      "the national basketball association."
+    ],
+    "Two graphs are compared right next to each other.": [
+      "With these two graphs compared right next to each other"
+    ],
+    "The women's basketball association has 5% fewer head coaches of color than the national basketball association.": [
+      "the women's basketball association has 5% fewer head coaches of color than the national basketball association."
+    ],
+    "I wonder why that is.": [
+      "I  wonder why that is?"
+    ],
+    "I wonder why the national football league has the fewest amount of head coaches of color.": [
+      "I wonder why the national football league has the fewest amount of head coaches of color?"
+    ],
+    "I wonder why the head coaches of the color statistic are less than 50% for all of the sports.": [
+      "I also wonder why the head coaches of the color statistic are less than 50% for all of the sports?"
+    ],
+    "This impacts my community.": [
+      "This impacts my community"
+    ],
+    "This provides knowledge and statistics.": [
+      "it provides knowledge and statistics"
+    ],
+    "This helps to inform people of the different percentages of diversity in different sports.": [
+      "to help inform people of the different percentages of diversity in different sports"
+    ],
+    "This is in regards to players and head coaches.": [
+      "in regards to players and head coaches."
+    ],
+    "The title is \"Diversity of different sports with players and coaches\".": [
+      "Title: \"Diversity of different sports with players and coaches\""
+    ]
+  }
+}

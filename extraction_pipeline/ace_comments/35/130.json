@@ -1,0 +1,57 @@
+{
+  "article_id": "35",
+  "comment_index": 130,
+  "raw_comment": "Newspapers try to offer headlines that grab the reader's attention.  They tend to be shorter and have a zing -- something that the reader would not expect.  Maybe it surprises the reader with either surprise or shock.\nAlways the headlines come from evidence in the graph and not other information or opinion.  \nWhat do you propose?",
+  "ace_sentences": [
+    "Newspapers try to offer headlines.",
+    "These headlines grab the reader's attention.",
+    "These headlines tend to be shorter.",
+    "These headlines have a zing.",
+    "A zing is something that the reader would not expect.",
+    "A headline maybe surprises the reader.",
+    "A headline maybe surprises the reader with surprise.",
+    "A headline maybe surprises the reader with shock.",
+    "Always the headlines come from evidence in the graph.",
+    "The headlines do not come from other information.",
+    "The headlines do not come from opinion.",
+    "You ask what I propose."
+  ],
+  "source_mappings": {
+    "Newspapers try to offer headlines.": [
+      "Newspapers try to offer headlines"
+    ],
+    "These headlines grab the reader's attention.": [
+      "headlines that grab the reader's attention"
+    ],
+    "These headlines tend to be shorter.": [
+      "They tend to be shorter"
+    ],
+    "These headlines have a zing.": [
+      "have a zing"
+    ],
+    "A zing is something that the reader would not expect.": [
+      "something that the reader would not expect"
+    ],
+    "A headline maybe surprises the reader.": [
+      "Maybe it surprises the reader"
+    ],
+    "A headline maybe surprises the reader with surprise.": [
+      "with either surprise"
+    ],
+    "A headline maybe surprises the reader with shock.": [
+      "or shock"
+    ],
+    "Always the headlines come from evidence in the graph.": [
+      "Always the headlines come from evidence in the graph"
+    ],
+    "The headlines do not come from other information.": [
+      "not other information"
+    ],
+    "The headlines do not come from opinion.": [
+      "or opinion"
+    ],
+    "You ask what I propose.": [
+      "What do you propose?"
+    ]
+  }
+}

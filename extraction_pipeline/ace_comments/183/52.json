@@ -1,0 +1,75 @@
+{
+  "article_id": "183",
+  "comment_index": 52,
+  "raw_comment": "This graph shows the level of communication between children and parents when the children are not currently living with at least one of their parents. The graph tells viewers in what way and what percentage of people reach out to their parents at least once a day. Interestingly, this graph shows that young women are more likely to reach out to their parents overall. I wonder if this is because women are more family-oriented or thoughtful. I think it is interesting that the least popular mode of contact between parents and their children is in-person visits. I wonder if this is because a lot of these children live far from their families, maybe in college, or maybe they have just moved away. I also wonder what the specific age group that participated in this survey is, and if there was a major difference in responses between the ages (ex. an 18-year-old vs a 24-year-old). I would title this graph \"Parents and Children: How Connected Are They Really?\"",
+  "ace_sentences": [
+    "This graph shows the level of communication between children and parents.",
+    "The children are not currently living with at least one of their parents.",
+    "The graph tells viewers in what way people reach out to their parents at least once a day.",
+    "The graph tells viewers what percentage of people reach out to their parents at least once a day.",
+    "This graph shows that young women are more likely to reach out to their parents overall.",
+    "I wonder if this is because women are more family-oriented.",
+    "I wonder if this is because women are more thoughtful.",
+    "The least popular mode of contact between parents and their children is in-person visits.",
+    "I wonder if this is because a lot of these children live far from their families.",
+    "I wonder if this is because a lot of these children live in college.",
+    "I wonder if this is because a lot of these children have just moved away.",
+    "I wonder what the specific age group that participated in this survey is.",
+    "I wonder if there was a major difference in responses between the ages.",
+    "An 18-year-old is an age.",
+    "A 24-year-old is an age.",
+    "I would title this graph \"Parents and Children: How Connected Are They Really?\"."
+  ],
+  "source_mappings": {
+    "This graph shows the level of communication between children and parents.": [
+      "This graph shows the level of communication between children and parents"
+    ],
+    "The children are not currently living with at least one of their parents.": [
+      "when the children are not currently living with at least one of their parents"
+    ],
+    "The graph tells viewers in what way people reach out to their parents at least once a day.": [
+      "The graph tells viewers in what way",
+      "reach out to their parents at least once a day"
+    ],
+    "The graph tells viewers what percentage of people reach out to their parents at least once a day.": [
+      "and what percentage of people",
+      "reach out to their parents at least once a day"
+    ],
+    "This graph shows that young women are more likely to reach out to their parents overall.": [
+      "this graph shows that young women are more likely to reach out to their parents overall"
+    ],
+    "I wonder if this is because women are more family-oriented.": [
+      "I wonder if this is because women are more family-oriented"
+    ],
+    "I wonder if this is because women are more thoughtful.": [
+      "or thoughtful"
+    ],
+    "The least popular mode of contact between parents and their children is in-person visits.": [
+      "the least popular mode of contact between parents and their children is in-person visits"
+    ],
+    "I wonder if this is because a lot of these children live far from their families.": [
+      "I wonder if this is because a lot of these children live far from their families"
+    ],
+    "I wonder if this is because a lot of these children live in college.": [
+      "maybe in college"
+    ],
+    "I wonder if this is because a lot of these children have just moved away.": [
+      "or maybe they have just moved away"
+    ],
+    "I wonder what the specific age group that participated in this survey is.": [
+      "I also wonder what the specific age group that participated in this survey is"
+    ],
+    "I wonder if there was a major difference in responses between the ages.": [
+      "and if there was a major difference in responses between the ages"
+    ],
+    "An 18-year-old is an age.": [
+      "an 18-year-old"
+    ],
+    "A 24-year-old is an age.": [
+      "a 24-year-old"
+    ],
+    "I would title this graph \"Parents and Children: How Connected Are They Really?\".": [
+      "I would title this graph \"Parents and Children: How Connected Are They Really?\""
+    ]
+  }
+}

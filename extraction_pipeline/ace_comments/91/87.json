@@ -1,0 +1,49 @@
+{
+  "article_id": "91",
+  "comment_index": 87,
+  "raw_comment": "Notice- The percentage of players of color is so much higher than coaches of color\n\nWonder- Why is the MLB so much lower than the rest in terms of player percentage?\n\nImpact- A very good majority of people watch sports, especially right now with the superbowl coming up. It's important for kids to see someone of the same race as them doing great things and showing that they can be more than they are told\n\nHeadline- Diversity in Sports: Who do Our Children Have to Look up to?",
+  "ace_sentences": [
+    "The percentage of players of color is much higher than the percentage of coaches of color.",
+    "The MLB is much lower than the rest in terms of player percentage.",
+    "Many people watch sports.",
+    "Many people watch sports right now.",
+    "The superbowl is coming up.",
+    "It is important for kids to see someone of the same race as them.",
+    "It is important for kids to see someone of the same race as them doing great things.",
+    "It is important for kids to see someone of the same race as them showing that they can be more than they are told.",
+    "The headline is:",
+    "Diversity in Sports: Who do Our Children Have to Look up to?"
+  ],
+  "source_mappings": {
+    "The percentage of players of color is much higher than the percentage of coaches of color.": [
+      "The percentage of players of color is so much higher than coaches of color"
+    ],
+    "The MLB is much lower than the rest in terms of player percentage.": [
+      "the MLB so much lower than the rest in terms of player percentage"
+    ],
+    "Many people watch sports.": [
+      "A very good majority of people watch sports"
+    ],
+    "Many people watch sports right now.": [
+      "especially right now"
+    ],
+    "The superbowl is coming up.": [
+      "the superbowl coming up"
+    ],
+    "It is important for kids to see someone of the same race as them.": [
+      "It's important for kids to see someone of the same race as them"
+    ],
+    "It is important for kids to see someone of the same race as them doing great things.": [
+      "doing great things"
+    ],
+    "It is important for kids to see someone of the same race as them showing that they can be more than they are told.": [
+      "showing that they can be more than they are told"
+    ],
+    "The headline is:": [
+      "Headline-"
+    ],
+    "Diversity in Sports: Who do Our Children Have to Look up to?": [
+      "Diversity in Sports: Who do Our Children Have to Look up to?"
+    ]
+  }
+}

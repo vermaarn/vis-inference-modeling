@@ -1,0 +1,97 @@
+{
+  "article_id": "91",
+  "comment_index": 80,
+  "raw_comment": "I notice that there are more players of color in major sports leagues than there are head coaches of color. The Women’s National Basketball Association and the National Basketball Association have the highest percentage of players of color at 83 percent. Major League Baseball has the lowest percentage of players of color at only 40 percent. The National Football League has the lowest percentage of head coaches of color, 13 percent, and Major League Soccer has the highest percentage of coaches of color at 41 percent. \nI wonder why there is a higher percentage of players of color than coaches of color in the five major league sports? Does this reflect the number of players on each sports team or the number of coaching positions? Why does the National Football League have such a high percentage of players of color but such a low coaches of color percentage?\nThese graphs demonstrate to me and my community that systemic racism and obstacles exist for people of color. It seems that more barriers prevent people of color from becoming coaching staff instead of players. I believe this reflects a systemic preference for non-people of color to obtain leadership positions, which needs to be abolished. \n\"Leadership Diversity Eludes Major League Sports\"",
+  "ace_sentences": [
+    "There are more players of color in major sports leagues than head coaches of color.",
+    "The Women’s National Basketball Association has the highest percentage of players of color.",
+    "The National Basketball Association has the highest percentage of players of color.",
+    "The highest percentage of players of color is 83 percent.",
+    "Major League Baseball has the lowest percentage of players of color.",
+    "The lowest percentage of players of color is only 40 percent.",
+    "The National Football League has the lowest percentage of head coaches of color.",
+    "The lowest percentage of head coaches of color is 13 percent.",
+    "Major League Soccer has the highest percentage of coaches of color.",
+    "The highest percentage of coaches of color is 41 percent.",
+    "There is a higher percentage of players of color than coaches of color in the five major league sports.",
+    "This may reflect the number of players on each sports team.",
+    "This may reflect the number of coaching positions.",
+    "The National Football League has a high percentage of players of color.",
+    "The National Football League has a low coaches of color percentage.",
+    "These graphs demonstrate to me and my community that systemic racism exists for people of color.",
+    "These graphs demonstrate to me and my community that obstacles exist for people of color.",
+    "More barriers prevent people of color from becoming coaching staff instead of players.",
+    "This reflects a systemic preference for non-people of color to obtain leadership positions.",
+    "This systemic preference needs to be abolished.",
+    "The headline is \"Leadership Diversity Eludes Major League Sports\"."
+  ],
+  "source_mappings": {
+    "There are more players of color in major sports leagues than head coaches of color.": [
+      "there are more players of color in major sports leagues than there are head coaches of color"
+    ],
+    "The Women’s National Basketball Association has the highest percentage of players of color.": [
+      "The Women’s National Basketball Association",
+      "have the highest percentage of players of color"
+    ],
+    "The National Basketball Association has the highest percentage of players of color.": [
+      "the National Basketball Association",
+      "have the highest percentage of players of color"
+    ],
+    "The highest percentage of players of color is 83 percent.": [
+      "at 83 percent"
+    ],
+    "Major League Baseball has the lowest percentage of players of color.": [
+      "Major League Baseball has the lowest percentage of players of color"
+    ],
+    "The lowest percentage of players of color is only 40 percent.": [
+      "at only 40 percent"
+    ],
+    "The National Football League has the lowest percentage of head coaches of color.": [
+      "The National Football League has the lowest percentage of head coaches of color"
+    ],
+    "The lowest percentage of head coaches of color is 13 percent.": [
+      "13 percent"
+    ],
+    "Major League Soccer has the highest percentage of coaches of color.": [
+      "Major League Soccer has the highest percentage of coaches of color"
+    ],
+    "The highest percentage of coaches of color is 41 percent.": [
+      "at 41 percent"
+    ],
+    "There is a higher percentage of players of color than coaches of color in the five major league sports.": [
+      "there is a higher percentage of players of color than coaches of color in the five major league sports"
+    ],
+    "This may reflect the number of players on each sports team.": [
+      "the number of players on each sports team"
+    ],
+    "This may reflect the number of coaching positions.": [
+      "the number of coaching positions"
+    ],
+    "The National Football League has a high percentage of players of color.": [
+      "the National Football League have such a high percentage of players of color"
+    ],
+    "The National Football League has a low coaches of color percentage.": [
+      "such a low coaches of color percentage"
+    ],
+    "These graphs demonstrate to me and my community that systemic racism exists for people of color.": [
+      "These graphs demonstrate to me and my community that systemic racism",
+      "exist for people of color"
+    ],
+    "These graphs demonstrate to me and my community that obstacles exist for people of color.": [
+      "These graphs demonstrate to me and my community that",
+      "obstacles exist for people of color"
+    ],
+    "More barriers prevent people of color from becoming coaching staff instead of players.": [
+      "more barriers prevent people of color from becoming coaching staff instead of players"
+    ],
+    "This reflects a systemic preference for non-people of color to obtain leadership positions.": [
+      "this reflects a systemic preference for non-people of color to obtain leadership positions"
+    ],
+    "This systemic preference needs to be abolished.": [
+      "needs to be abolished"
+    ],
+    "The headline is \"Leadership Diversity Eludes Major League Sports\".": [
+      "\"Leadership Diversity Eludes Major League Sports\""
+    ]
+  }
+}

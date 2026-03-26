@@ -1,0 +1,41 @@
+{
+  "article_id": "183",
+  "comment_index": 18,
+  "raw_comment": "Texting eludes to like of men, thou fingers do not rest upon the silky smooth, glassy surface of thy phones. No messages find their way to their children's father and mother.  Though women articulate their fingers gracefully across the keyboard and scribe down messages to their ancestors. Long distances voice talks occur most in women. Thou parents must hither their poor sons to talk across thy magic voice box.",
+  "ace_sentences": [
+    "Texting eludes to like of men.",
+    "The fingers of men do not rest upon the silky smooth, glassy surface of phones.",
+    "No messages find their way to the children's father.",
+    "No messages find their way to the children's mother.",
+    "Women articulate their fingers gracefully across the keyboard.",
+    "Women scribe down messages to their ancestors.",
+    "Long distances voice talks occur most in women.",
+    "Parents must hither their poor sons to talk across the magic voice box."
+  ],
+  "source_mappings": {
+    "Texting eludes to like of men.": [
+      "Texting eludes to like of men"
+    ],
+    "The fingers of men do not rest upon the silky smooth, glassy surface of phones.": [
+      "thou fingers do not rest upon the silky smooth, glassy surface of thy phones"
+    ],
+    "No messages find their way to the children's father.": [
+      "No messages find their way to their children's father"
+    ],
+    "No messages find their way to the children's mother.": [
+      "mother"
+    ],
+    "Women articulate their fingers gracefully across the keyboard.": [
+      "Though women articulate their fingers gracefully across the keyboard"
+    ],
+    "Women scribe down messages to their ancestors.": [
+      "scribe down messages to their ancestors"
+    ],
+    "Long distances voice talks occur most in women.": [
+      "Long distances voice talks occur most in women"
+    ],
+    "Parents must hither their poor sons to talk across the magic voice box.": [
+      "Thou parents must hither their poor sons to talk across thy magic voice box"
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "article_id": "35",
+  "comment_index": 94,
+  "raw_comment": "I think a catchy title could be \nTime it Takes for the \"first Leaves\" to grow",
+  "ace_sentences": [
+    "I think that a title could be catchy.",
+    "The title could be:",
+    "Time it Takes for the \"first Leaves\" to grow."
+  ],
+  "source_mappings": {
+    "I think that a title could be catchy.": [
+      "I think a catchy title could be"
+    ],
+    "The title could be:": [
+      "a catchy title could be"
+    ],
+    "Time it Takes for the \"first Leaves\" to grow.": [
+      "Time it Takes for the \"first Leaves\" to grow"
+    ]
+  }
+}

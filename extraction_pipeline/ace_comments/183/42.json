@@ -1,0 +1,77 @@
+{
+  "article_id": "183",
+  "comment_index": 42,
+  "raw_comment": "What do you notice?\n\nMore women reach out than men and both men and women prefer to send texts and phone or video-chat, than visit in person.\n\nWhat do you wonder?\n\nI wonder why more women than men reach out to their parent. I also wonder how the different ages in this graph and the different lives of the people surveyed affects the data. For example, done people have good relationships with their parents and some don’t. \n\nHow does this relate to you and your community?\n\nThis relates to me and my community because it’s very important for everyone to, if they have a good relationship with them, to reach out to their parent at least semi-often because they usually need it.\n\nCreate a catchy headline that captures the graph’s main idea.\n\nParents Were Right: The Phone Does Work Both Ways",
+  "ace_sentences": [
+    "More women reach out than men.",
+    "Men prefer to send texts than to visit in person.",
+    "Women prefer to send texts than to visit in person.",
+    "Men prefer to phone or video-chat than to visit in person.",
+    "Women prefer to phone or video-chat than to visit in person.",
+    "I wonder why more women than men reach out to their parent.",
+    "I wonder how the different ages in this graph affect the data.",
+    "I wonder how the different lives of the people surveyed affects the data.",
+    "Some people have good relationships with their parents.",
+    "Some people do not have good relationships with their parents.",
+    "This relates to me and my community.",
+    "It is very important for everyone to reach out to their parent at least semi-often.",
+    "If someone has a good relationship with their parent, then it is very important for this person to reach out to their parent at least semi-often.",
+    "Parents usually need it.",
+    "The headline is: Parents Were Right: The Phone Does Work Both Ways."
+  ],
+  "source_mappings": {
+    "More women reach out than men.": [
+      "More women reach out than men"
+    ],
+    "Men prefer to send texts than to visit in person.": [
+      "both men and women prefer to send texts",
+      "than visit in person"
+    ],
+    "Women prefer to send texts than to visit in person.": [
+      "both men and women prefer to send texts",
+      "than visit in person"
+    ],
+    "Men prefer to phone or video-chat than to visit in person.": [
+      "both men and women prefer to send texts and phone or video-chat,",
+      "than visit in person"
+    ],
+    "Women prefer to phone or video-chat than to visit in person.": [
+      "both men and women prefer to send texts and phone or video-chat,",
+      "than visit in person"
+    ],
+    "I wonder why more women than men reach out to their parent.": [
+      "I wonder why more women than men reach out to their parent."
+    ],
+    "I wonder how the different ages in this graph affect the data.": [
+      "I also wonder how the different ages in this graph",
+      "affects the data."
+    ],
+    "I wonder how the different lives of the people surveyed affects the data.": [
+      "the different lives of the people surveyed affects the data."
+    ],
+    "Some people have good relationships with their parents.": [
+      "done people have good relationships with their parents"
+    ],
+    "Some people do not have good relationships with their parents.": [
+      "some don’t."
+    ],
+    "This relates to me and my community.": [
+      "This relates to me and my community"
+    ],
+    "It is very important for everyone to reach out to their parent at least semi-often.": [
+      "it’s very important for everyone to",
+      "to reach out to their parent at least semi-often"
+    ],
+    "If someone has a good relationship with their parent, then it is very important for this person to reach out to their parent at least semi-often.": [
+      "if they have a good relationship with them",
+      "it’s very important for everyone to",
+      "to reach out to their parent at least semi-often"
+    ],
+    "Parents usually need it.": [
+      "because they usually need it."
+    ],
+    "The headline is: Parents Were Right: The Phone Does Work Both Ways.": [
+      "Parents Were Right: The Phone Does Work Both Ways"
+    ]
+  }
+}

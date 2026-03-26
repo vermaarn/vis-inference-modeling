@@ -1,0 +1,31 @@
+{
+  "article_id": "35",
+  "comment_index": 140,
+  "raw_comment": "I notice that the closer to the equator you get leaves earlier you get leaves and on the Pacific ocean you they get leaves early. Mountain rages sperate when places get their leaves.",
+  "ace_sentences": [
+    "I notice something.",
+    "If a place is closer to the equator, then the place gets leaves earlier.",
+    "On the Pacific ocean, places get leaves early.",
+    "Mountain rages sperate places.",
+    "Places get their leaves."
+  ],
+  "source_mappings": {
+    "I notice something.": [
+      "I notice"
+    ],
+    "If a place is closer to the equator, then the place gets leaves earlier.": [
+      "the closer to the equator you get",
+      "leaves earlier you get leaves"
+    ],
+    "On the Pacific ocean, places get leaves early.": [
+      "on the Pacific ocean",
+      "they get leaves early"
+    ],
+    "Mountain rages sperate places.": [
+      "Mountain rages sperate"
+    ],
+    "Places get their leaves.": [
+      "places get their leaves"
+    ]
+  }
+}

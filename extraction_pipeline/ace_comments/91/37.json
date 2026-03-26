@@ -1,0 +1,41 @@
+{
+  "article_id": "91",
+  "comment_index": 37,
+  "raw_comment": "Notice:\nI notice that at least 60% of the players in all the leagues shown are colored.\nI notice that at least 13% of the head coaches in all the leagues shown are colored.\nWonder:\nI wonder why the leagues shown are mostly dominated by colored players.\nImpact:\nBecause sports are becoming more popular and available to more people, it is reasonable to assume there will be more diversity of people playing and coaching.\nHeadline:\nThe percent of colored people coaching and playing in national leagues.",
+  "ace_sentences": [
+    "I notice that at least 60% of the players in all the leagues shown are colored.",
+    "I notice that at least 13% of the head coaches in all the leagues shown are colored.",
+    "I wonder why the leagues shown are mostly dominated by colored players.",
+    "Sports are becoming more popular.",
+    "Sports are available to more people.",
+    "It is reasonable to assume that there will be more diversity of people playing and coaching.",
+    "The headline is:",
+    "The percent of colored people coaching and playing in national leagues."
+  ],
+  "source_mappings": {
+    "I notice that at least 60% of the players in all the leagues shown are colored.": [
+      "I notice that at least 60% of the players in all the leagues shown are colored."
+    ],
+    "I notice that at least 13% of the head coaches in all the leagues shown are colored.": [
+      "I notice that at least 13% of the head coaches in all the leagues shown are colored."
+    ],
+    "I wonder why the leagues shown are mostly dominated by colored players.": [
+      "I wonder why the leagues shown are mostly dominated by colored players."
+    ],
+    "Sports are becoming more popular.": [
+      "sports are becoming more popular"
+    ],
+    "Sports are available to more people.": [
+      "available to more people"
+    ],
+    "It is reasonable to assume that there will be more diversity of people playing and coaching.": [
+      "it is reasonable to assume there will be more diversity of people playing and coaching."
+    ],
+    "The headline is:": [
+      "Headline:"
+    ],
+    "The percent of colored people coaching and playing in national leagues.": [
+      "The percent of colored people coaching and playing in national leagues."
+    ]
+  }
+}

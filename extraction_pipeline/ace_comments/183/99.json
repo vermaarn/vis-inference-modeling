@@ -1,0 +1,110 @@
+{
+  "article_id": "183",
+  "comment_index": 99,
+  "raw_comment": "Upon observing this graphic, my initial attention is drawn to the distinct color scheme employed to represent the statistics for men and women. The chosen colors create a clear contrast, enabling the audience to easily discern differences between the sexes. Additionally, I observe that the study's age range is confined to individuals aged between 18 and 34, which is likely to have influenced the outcomes presented in the graphic.\n\n\nI wonder why women between 18 and 34 tend to reach out to their parents more than men of that age. One aspect that I believe may be worth considering is the evolving role of women in society. Over the past century, there has been significant progress in women's rights and opportunities. In this context, maintaining strong ties with parents can provide a sense of stability, guidance, and emotional support amid life's challenges and transitions.\n\n\nThis study is particularly relevant to my community at Cal Poly because many of my peers fall within the age range under investigation and meet the criteria for participation. By delving into this data, we can gain insights that might reshape our perspectives and behaviors concerning communication with our parents. For instance, members of our community, particularly men, might reconsider their communication habits after reviewing this data and opt to initiate more frequent contact with their parents.\n\nHeadline: A Battle of the Sexes",
+  "ace_sentences": [
+    "I observe this graphic.",
+    "My initial attention is drawn to the distinct color scheme.",
+    "The distinct color scheme represents the statistics for men.",
+    "The distinct color scheme represents the statistics for women.",
+    "The chosen colors create a clear contrast.",
+    "The clear contrast enables the audience to easily discern differences between the sexes.",
+    "I observe that the study's age range is confined to individuals aged between 18 and 34.",
+    "This confinement is likely to have influenced the outcomes presented in the graphic.",
+    "I wonder why women between 18 and 34 tend to reach out to their parents more than men of that age.",
+    "I believe that one aspect may be worth considering.",
+    "This aspect is the evolving role of women in society.",
+    "Over the past century, there has been significant progress in women's rights and opportunities.",
+    "In this context, maintaining strong ties with parents can provide a sense of stability.",
+    "In this context, maintaining strong ties with parents can provide guidance.",
+    "In this context, maintaining strong ties with parents can provide emotional support amid life's challenges and transitions.",
+    "This study is particularly relevant to my community at Cal Poly.",
+    "Many of my peers fall within the age range under investigation.",
+    "Many of my peers meet the criteria for participation.",
+    "We can delve into this data.",
+    "By delving into this data, we can gain insights.",
+    "These insights might reshape our perspectives and behaviors concerning communication with our parents.",
+    "Members of our community might reconsider their communication habits after reviewing this data.",
+    "Members of our community might opt to initiate more frequent contact with their parents.",
+    "Members of our community are particularly men.",
+    "The headline is A Battle of the Sexes."
+  ],
+  "source_mappings": {
+    "I observe this graphic.": [
+      "Upon observing this graphic"
+    ],
+    "My initial attention is drawn to the distinct color scheme.": [
+      "my initial attention is drawn to the distinct color scheme"
+    ],
+    "The distinct color scheme represents the statistics for men.": [
+      "the distinct color scheme employed to represent the statistics for men"
+    ],
+    "The distinct color scheme represents the statistics for women.": [
+      "the distinct color scheme employed to represent the statistics for men and women",
+      "women"
+    ],
+    "The chosen colors create a clear contrast.": [
+      "The chosen colors create a clear contrast"
+    ],
+    "The clear contrast enables the audience to easily discern differences between the sexes.": [
+      "enabling the audience to easily discern differences between the sexes"
+    ],
+    "I observe that the study's age range is confined to individuals aged between 18 and 34.": [
+      "I observe that the study's age range is confined to individuals aged between 18 and 34"
+    ],
+    "This confinement is likely to have influenced the outcomes presented in the graphic.": [
+      "which is likely to have influenced the outcomes presented in the graphic"
+    ],
+    "I wonder why women between 18 and 34 tend to reach out to their parents more than men of that age.": [
+      "I wonder why women between 18 and 34 tend to reach out to their parents more than men of that age"
+    ],
+    "I believe that one aspect may be worth considering.": [
+      "One aspect that I believe may be worth considering"
+    ],
+    "This aspect is the evolving role of women in society.": [
+      "the evolving role of women in society"
+    ],
+    "Over the past century, there has been significant progress in women's rights and opportunities.": [
+      "Over the past century, there has been significant progress in women's rights and opportunities"
+    ],
+    "In this context, maintaining strong ties with parents can provide a sense of stability.": [
+      "maintaining strong ties with parents can provide a sense of stability"
+    ],
+    "In this context, maintaining strong ties with parents can provide guidance.": [
+      "maintaining strong ties with parents can provide a sense of stability, guidance"
+    ],
+    "In this context, maintaining strong ties with parents can provide emotional support amid life's challenges and transitions.": [
+      "emotional support amid life's challenges and transitions"
+    ],
+    "This study is particularly relevant to my community at Cal Poly.": [
+      "This study is particularly relevant to my community at Cal Poly"
+    ],
+    "Many of my peers fall within the age range under investigation.": [
+      "many of my peers fall within the age range under investigation"
+    ],
+    "Many of my peers meet the criteria for participation.": [
+      "meet the criteria for participation"
+    ],
+    "We can delve into this data.": [
+      "By delving into this data"
+    ],
+    "By delving into this data, we can gain insights.": [
+      "By delving into this data, we can gain insights"
+    ],
+    "These insights might reshape our perspectives and behaviors concerning communication with our parents.": [
+      "insights that might reshape our perspectives and behaviors concerning communication with our parents"
+    ],
+    "Members of our community might reconsider their communication habits after reviewing this data.": [
+      "members of our community, particularly men, might reconsider their communication habits after reviewing this data"
+    ],
+    "Members of our community might opt to initiate more frequent contact with their parents.": [
+      "opt to initiate more frequent contact with their parents"
+    ],
+    "Members of our community are particularly men.": [
+      "particularly men"
+    ],
+    "The headline is A Battle of the Sexes.": [
+      "Headline: A Battle of the Sexes"
+    ]
+  }
+}

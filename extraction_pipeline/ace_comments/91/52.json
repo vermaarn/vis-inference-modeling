@@ -1,0 +1,73 @@
+{
+  "article_id": "91",
+  "comment_index": 52,
+  "raw_comment": "What do you notice?\nI noticed that this graph displays the racial disparity in different major sport leagues; showing the players of color in red and head coaches of color in pink. One of the graphs shows the women's national basketball association while the other ones just show the national sports associations which are men. \nWhat do you wonder?\nI wonder why they chose to incorporate only the women's national basketball association. I also wonder why there are more players of color rather than coaches. \nWhat impact does this have on you and your community?\nThis impacts my community in knowing that maybe there should be more diverse coaches in the national teams across the country in order for players and aspiring players of color to have someone they can see themselves in to look up to.\nWhat’s going on in this graph? Write a catchy headline that captures the graph’s main idea.\nA headline for this graph could be \"Players vs Coaches of Color in Major League Sports\"",
+  "ace_sentences": [
+    "I noticed that this graph displays the racial disparity in different major sport leagues.",
+    "This graph shows the players of color in red.",
+    "This graph shows head coaches of color in pink.",
+    "One of the graphs shows the women's national basketball association.",
+    "The other graphs show the national sports associations.",
+    "The national sports associations are men.",
+    "I wonder why they chose to incorporate only the women's national basketball association.",
+    "I wonder why there are more players of color than coaches.",
+    "This impacts my community.",
+    "This impacts my community in knowing that maybe there should be more diverse coaches in the national teams across the country.",
+    "More diverse coaches in the national teams across the country can help players of color.",
+    "More diverse coaches in the national teams across the country can help aspiring players of color.",
+    "Players of color can have someone they can see themselves in to look up to.",
+    "Aspiring players of color can have someone they can see themselves in to look up to.",
+    "A headline for this graph could be \"Players vs Coaches of Color in Major League Sports\"."
+  ],
+  "source_mappings": {
+    "I noticed that this graph displays the racial disparity in different major sport leagues.": [
+      "I noticed that this graph displays the racial disparity in different major sport leagues"
+    ],
+    "This graph shows the players of color in red.": [
+      "showing the players of color in red"
+    ],
+    "This graph shows head coaches of color in pink.": [
+      "head coaches of color in pink"
+    ],
+    "One of the graphs shows the women's national basketball association.": [
+      "One of the graphs shows the women's national basketball association"
+    ],
+    "The other graphs show the national sports associations.": [
+      "the other ones just show the national sports associations"
+    ],
+    "The national sports associations are men.": [
+      "which are men"
+    ],
+    "I wonder why they chose to incorporate only the women's national basketball association.": [
+      "I wonder why they chose to incorporate only the women's national basketball association."
+    ],
+    "I wonder why there are more players of color than coaches.": [
+      "I also wonder why there are more players of color rather than coaches."
+    ],
+    "This impacts my community.": [
+      "This impacts my community"
+    ],
+    "This impacts my community in knowing that maybe there should be more diverse coaches in the national teams across the country.": [
+      "in knowing that maybe there should be more diverse coaches in the national teams across the country"
+    ],
+    "More diverse coaches in the national teams across the country can help players of color.": [
+      "more diverse coaches in the national teams across the country",
+      "for players"
+    ],
+    "More diverse coaches in the national teams across the country can help aspiring players of color.": [
+      "more diverse coaches in the national teams across the country",
+      "and aspiring players of color"
+    ],
+    "Players of color can have someone they can see themselves in to look up to.": [
+      "for players",
+      "to have someone they can see themselves in to look up to"
+    ],
+    "Aspiring players of color can have someone they can see themselves in to look up to.": [
+      "aspiring players of color",
+      "to have someone they can see themselves in to look up to"
+    ],
+    "A headline for this graph could be \"Players vs Coaches of Color in Major League Sports\".": [
+      "A headline for this graph could be \"Players vs Coaches of Color in Major League Sports\""
+    ]
+  }
+}

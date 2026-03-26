@@ -1,0 +1,57 @@
+{
+  "article_id": "35",
+  "comment_index": 109,
+  "raw_comment": "I noticed that:\nThe graph shows what month leaves grow in which states\nThe states closer to the equator grew leaves first.\nThe graph doesn't show Alaska or Hawaii\nApril has the largest area\nThere is a slow growing spot towards the west\n\nI wondered:\nWhy does the west part grow slower?\nWhat about Alaska and Hawaii?",
+  "ace_sentences": [
+    "I noticed something.",
+    "The graph shows what month leaves grow in which states.",
+    "The states closer to the equator grew leaves first.",
+    "The graph does not show Alaska.",
+    "The graph does not show Hawaii.",
+    "April has the largest area.",
+    "There is a slow growing spot towards the west.",
+    "I wondered something.",
+    "The west part grows slower.",
+    "I ask why the west part grows slower.",
+    "I ask about Alaska.",
+    "I ask about Hawaii."
+  ],
+  "source_mappings": {
+    "I noticed something.": [
+      "I noticed that:"
+    ],
+    "The graph shows what month leaves grow in which states.": [
+      "The graph shows what month leaves grow in which states"
+    ],
+    "The states closer to the equator grew leaves first.": [
+      "The states closer to the equator grew leaves first."
+    ],
+    "The graph does not show Alaska.": [
+      "The graph doesn't show Alaska"
+    ],
+    "The graph does not show Hawaii.": [
+      "or Hawaii"
+    ],
+    "April has the largest area.": [
+      "April has the largest area"
+    ],
+    "There is a slow growing spot towards the west.": [
+      "There is a slow growing spot towards the west"
+    ],
+    "I wondered something.": [
+      "I wondered:"
+    ],
+    "The west part grows slower.": [
+      "the west part grow slower"
+    ],
+    "I ask why the west part grows slower.": [
+      "Why does the west part grow slower?"
+    ],
+    "I ask about Alaska.": [
+      "What about Alaska"
+    ],
+    "I ask about Hawaii.": [
+      "and Hawaii?"
+    ]
+  }
+}

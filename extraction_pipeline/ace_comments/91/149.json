@@ -1,0 +1,77 @@
+{
+  "article_id": "91",
+  "comment_index": 149,
+  "raw_comment": "I've noticed that there aren't as many players of color in the MLB than any other league, I think this is due to the years of race and context behind the sport. I also noticed the NFL has the smallest proportion of coaches of color. That surprises me because a lot of people of color play football.\n\nI wonder how in the future if these stats will go up or down for people with color, and I also wonder if it will only be certain ones that go up or down. it looks like these numbers have gone up for colored people so I expect them to keep going up for them still.\n\nI think this impacts me and my community because it goes to show that we are all equal and want to end racism. Also it shows us that this world isn't so bad after all.\n\nwhat going ronin this graph is that people of color are starting to have more and more rule over sports and they are starting to have more and more people in there doing the things that they love and proving they can.",
+  "ace_sentences": [
+    "I have noticed that there are not as many players of color in the MLB as in any other league.",
+    "I think that this is due to the years of race and context behind the sport.",
+    "I have noticed that the NFL has the smallest proportion of coaches of color.",
+    "This surprises me.",
+    "Many people of color play football.",
+    "I wonder how these stats will change in the future for people with color.",
+    "I wonder if only certain stats will change.",
+    "These numbers have gone up for colored people.",
+    "I expect these numbers to keep going up for them.",
+    "I think that this impacts me and my community.",
+    "This goes to show that we are all equal.",
+    "We want to end racism.",
+    "This shows us that this world is not so bad after all.",
+    "In this graph, people of color are starting to have more and more rule over sports.",
+    "In this graph, people of color are starting to have more and more people in there.",
+    "People of color are doing the things that they love.",
+    "People of color are proving that they can."
+  ],
+  "source_mappings": {
+    "I have noticed that there are not as many players of color in the MLB as in any other league.": [
+      "I've noticed that there aren't as many players of color in the MLB than any other league"
+    ],
+    "I think that this is due to the years of race and context behind the sport.": [
+      "I think this is due to the years of race and context behind the sport."
+    ],
+    "I have noticed that the NFL has the smallest proportion of coaches of color.": [
+      "I also noticed the NFL has the smallest proportion of coaches of color."
+    ],
+    "This surprises me.": [
+      "That surprises me"
+    ],
+    "Many people of color play football.": [
+      "a lot of people of color play football."
+    ],
+    "I wonder how these stats will change in the future for people with color.": [
+      "I wonder how in the future if these stats will go up or down for people with color"
+    ],
+    "I wonder if only certain stats will change.": [
+      "I also wonder if it will only be certain ones that go up or down."
+    ],
+    "These numbers have gone up for colored people.": [
+      "it looks like these numbers have gone up for colored people"
+    ],
+    "I expect these numbers to keep going up for them.": [
+      "so I expect them to keep going up for them still."
+    ],
+    "I think that this impacts me and my community.": [
+      "I think this impacts me and my community"
+    ],
+    "This goes to show that we are all equal.": [
+      "it goes to show that we are all equal"
+    ],
+    "We want to end racism.": [
+      "want to end racism."
+    ],
+    "This shows us that this world is not so bad after all.": [
+      "it shows us that this world isn't so bad after all."
+    ],
+    "In this graph, people of color are starting to have more and more rule over sports.": [
+      "what going ronin this graph is that people of color are starting to have more and more rule over sports"
+    ],
+    "In this graph, people of color are starting to have more and more people in there.": [
+      "and they are starting to have more and more people in there"
+    ],
+    "People of color are doing the things that they love.": [
+      "doing the things that they love"
+    ],
+    "People of color are proving that they can.": [
+      "proving they can."
+    ]
+  }
+}

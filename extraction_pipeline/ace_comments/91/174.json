@@ -1,0 +1,57 @@
+{
+  "article_id": "91",
+  "comment_index": 174,
+  "raw_comment": "What do you notice?\nNBA has the most players and coaches of color. \nWhat do you wonder?\nI wonder why there aren't nearly as many coaches of color. \nWhat impact does this have on you and your community?\nIt impacts my community because of the lack of diversity within coach jobs in professional sports leagues. \nWhat's going on in this graph? Write a catchy headline that captures the graph's main idea.\nHow diverse are American sports really?",
+  "ace_sentences": [
+    "You notice something.",
+    "The NBA has the most players of color.",
+    "The NBA has the most coaches of color.",
+    "You wonder about something.",
+    "You wonder why there are not nearly as many coaches of color.",
+    "This has an impact on you and your community.",
+    "This impacts your community.",
+    "This impacts your community because of the lack of diversity within coach jobs in professional sports leagues.",
+    "You ask what is going on in this graph.",
+    "You ask for a catchy headline.",
+    "The headline is:",
+    "How diverse are American sports really?"
+  ],
+  "source_mappings": {
+    "You notice something.": [
+      "What do you notice?"
+    ],
+    "The NBA has the most players of color.": [
+      "NBA has the most players"
+    ],
+    "The NBA has the most coaches of color.": [
+      "and coaches of color."
+    ],
+    "You wonder about something.": [
+      "What do you wonder?"
+    ],
+    "You wonder why there are not nearly as many coaches of color.": [
+      "I wonder why there aren't nearly as many coaches of color."
+    ],
+    "This has an impact on you and your community.": [
+      "What impact does this have on you and your community?"
+    ],
+    "This impacts your community.": [
+      "It impacts my community"
+    ],
+    "This impacts your community because of the lack of diversity within coach jobs in professional sports leagues.": [
+      "It impacts my community because of the lack of diversity within coach jobs in professional sports leagues."
+    ],
+    "You ask what is going on in this graph.": [
+      "What's going on in this graph?"
+    ],
+    "You ask for a catchy headline.": [
+      "Write a catchy headline that captures the graph's main idea."
+    ],
+    "The headline is:": [
+      "Write a catchy headline that captures the graph's main idea."
+    ],
+    "How diverse are American sports really?": [
+      "How diverse are American sports really?"
+    ]
+  }
+}

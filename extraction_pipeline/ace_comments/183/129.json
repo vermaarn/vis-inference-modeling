@@ -1,0 +1,83 @@
+{
+  "article_id": "183",
+  "comment_index": 129,
+  "raw_comment": "This graph shows that only half of men reach out to their parents once or a few days a week. While nearly 75% of young women do reach out to their parents every week. I wonder why women are more likely to reach out to their parents. A statistic that stands out, and relates to my community, is that less than a quarter of young men and women actually visit or reach out to their parents in person each week. I understand this statistic as it probably gets harder to find the time to visit your parents in person when you may live farther away or have a job. So sending a text to your parent every week is a simple and easy way to stay in contact.",
+  "ace_sentences": [
+    "This graph shows a fact.",
+    "Only half of men reach out to their parents once or a few days a week.",
+    "Nearly 75% of young women reach out to their parents every week.",
+    "Women are more likely to reach out to their parents than men.",
+    "I wonder why women are more likely to reach out to their parents.",
+    "A statistic stands out.",
+    "This statistic relates to my community.",
+    "Less than a quarter of young men and women visit their parents in person each week.",
+    "Less than a quarter of young men and women reach out to their parents in person each week.",
+    "I understand this statistic.",
+    "It probably gets harder to find the time to visit your parents in person.",
+    "You may live farther away.",
+    "You may have a job.",
+    "If you live farther away, then it probably gets harder to find the time to visit your parents in person.",
+    "If you have a job, then it probably gets harder to find the time to visit your parents in person.",
+    "Sending a text to your parent every week is a simple way to stay in contact.",
+    "Sending a text to your parent every week is an easy way to stay in contact."
+  ],
+  "source_mappings": {
+    "This graph shows a fact.": [
+      "This graph shows that"
+    ],
+    "Only half of men reach out to their parents once or a few days a week.": [
+      "only half of men reach out to their parents once or a few days a week"
+    ],
+    "Nearly 75% of young women reach out to their parents every week.": [
+      "nearly 75% of young women do reach out to their parents every week"
+    ],
+    "Women are more likely to reach out to their parents than men.": [
+      "women are more likely to reach out to their parents"
+    ],
+    "I wonder why women are more likely to reach out to their parents.": [
+      "I wonder why women are more likely to reach out to their parents."
+    ],
+    "A statistic stands out.": [
+      "A statistic that stands out"
+    ],
+    "This statistic relates to my community.": [
+      "relates to my community"
+    ],
+    "Less than a quarter of young men and women visit their parents in person each week.": [
+      "less than a quarter of young men and women actually visit",
+      "in person each week"
+    ],
+    "Less than a quarter of young men and women reach out to their parents in person each week.": [
+      "less than a quarter of young men and women",
+      "reach out to their parents in person each week"
+    ],
+    "I understand this statistic.": [
+      "I understand this statistic"
+    ],
+    "It probably gets harder to find the time to visit your parents in person.": [
+      "it probably gets harder to find the time to visit your parents in person"
+    ],
+    "You may live farther away.": [
+      "you may live farther away"
+    ],
+    "You may have a job.": [
+      "have a job"
+    ],
+    "If you live farther away, then it probably gets harder to find the time to visit your parents in person.": [
+      "when you may live farther away",
+      "it probably gets harder to find the time to visit your parents in person"
+    ],
+    "If you have a job, then it probably gets harder to find the time to visit your parents in person.": [
+      "or have a job",
+      "it probably gets harder to find the time to visit your parents in person"
+    ],
+    "Sending a text to your parent every week is a simple way to stay in contact.": [
+      "sending a text to your parent every week is a simple",
+      "way to stay in contact"
+    ],
+    "Sending a text to your parent every week is an easy way to stay in contact.": [
+      "sending a text to your parent every week is a",
+      "easy way to stay in contact"
+    ]
+  }
+}

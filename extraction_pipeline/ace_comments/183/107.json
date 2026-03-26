@@ -1,0 +1,87 @@
+{
+  "article_id": "183",
+  "comment_index": 107,
+  "raw_comment": "I notice a clear difference in how frequently young adults reach out to their parents based on gender. On average, young women maintain more consistent communication with their parents compared to young men, with a significant gap observed in electronic forms of communication such as texts or calls. The discrepancy remains even when considering in-person visits, albeit to a lesser extent. This disparity could be particularly noteworthy during the college years, a period which is known for creating a newfound independence for many. This makes me wonder how different these statistics would be different if the age range was narrower. It seems fair that young adults, especially those in college, would reach out less to their parents as they feel  more independent, but is this trend truly as evident past college years? This analysis is significant for me and my community as it highlights the importance of regular communication with parents, especially by a young male adult within this age range. It makes me want to reach even more as a college student myself and truly keep my parents involved with my life away from \"home\".\n\nHeadline: \"Is Parental Communication a Common Priority?\"",
+  "ace_sentences": [
+    "I notice a clear difference in how frequently young adults reach out to their parents based on gender.",
+    "On average, young women maintain more consistent communication with their parents than young men maintain communication with their parents.",
+    "A significant gap is observed in electronic forms of communication such as texts or calls.",
+    "The discrepancy remains when considering in-person visits.",
+    "The discrepancy is to a lesser extent when considering in-person visits.",
+    "This disparity could be particularly noteworthy during the college years.",
+    "The college years are a period.",
+    "This period is known for creating a newfound independence for many.",
+    "I wonder how different these statistics would be if the age range was narrower.",
+    "It seems fair that young adults would reach out less to their parents as they feel more independent.",
+    "It seems fair that young adults in college would reach out less to their parents as they feel more independent.",
+    "I wonder if this trend is truly as evident past college years.",
+    "This analysis is significant for me and my community.",
+    "This analysis highlights the importance of regular communication with parents.",
+    "This analysis highlights the importance of regular communication with parents by a young male adult within this age range.",
+    "I am a college student.",
+    "It makes me want to reach even more as a college student.",
+    "It makes me want to truly keep my parents involved with my life away from \"home\".",
+    "The headline is \"Is Parental Communication a Common Priority?\"."
+  ],
+  "source_mappings": {
+    "I notice a clear difference in how frequently young adults reach out to their parents based on gender.": [
+      "I notice a clear difference in how frequently young adults reach out to their parents based on gender."
+    ],
+    "On average, young women maintain more consistent communication with their parents than young men maintain communication with their parents.": [
+      "On average, young women maintain more consistent communication with their parents compared to young men"
+    ],
+    "A significant gap is observed in electronic forms of communication such as texts or calls.": [
+      "with a significant gap observed in electronic forms of communication such as texts or calls."
+    ],
+    "The discrepancy remains when considering in-person visits.": [
+      "The discrepancy remains even when considering in-person visits"
+    ],
+    "The discrepancy is to a lesser extent when considering in-person visits.": [
+      "albeit to a lesser extent."
+    ],
+    "This disparity could be particularly noteworthy during the college years.": [
+      "This disparity could be particularly noteworthy during the college years"
+    ],
+    "The college years are a period.": [
+      "the college years, a period"
+    ],
+    "This period is known for creating a newfound independence for many.": [
+      "a period which is known for creating a newfound independence for many."
+    ],
+    "I wonder how different these statistics would be if the age range was narrower.": [
+      "This makes me wonder how different these statistics would be different if the age range was narrower."
+    ],
+    "It seems fair that young adults would reach out less to their parents as they feel more independent.": [
+      "It seems fair that young adults",
+      "would reach out less to their parents as they feel  more independent"
+    ],
+    "It seems fair that young adults in college would reach out less to their parents as they feel more independent.": [
+      "especially those in college",
+      "would reach out less to their parents as they feel  more independent"
+    ],
+    "I wonder if this trend is truly as evident past college years.": [
+      "but is this trend truly as evident past college years?"
+    ],
+    "This analysis is significant for me and my community.": [
+      "This analysis is significant for me and my community"
+    ],
+    "This analysis highlights the importance of regular communication with parents.": [
+      "as it highlights the importance of regular communication with parents"
+    ],
+    "This analysis highlights the importance of regular communication with parents by a young male adult within this age range.": [
+      "especially by a young male adult within this age range."
+    ],
+    "I am a college student.": [
+      "as a college student myself"
+    ],
+    "It makes me want to reach even more as a college student.": [
+      "It makes me want to reach even more as a college student myself"
+    ],
+    "It makes me want to truly keep my parents involved with my life away from \"home\".": [
+      "and truly keep my parents involved with my life away from \"home\"."
+    ],
+    "The headline is \"Is Parental Communication a Common Priority?\".": [
+      "Headline: \"Is Parental Communication a Common Priority?\""
+    ]
+  }
+}

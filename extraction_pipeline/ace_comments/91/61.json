@@ -1,0 +1,57 @@
+{
+  "article_id": "91",
+  "comment_index": 61,
+  "raw_comment": "What I notice is that the WNBA and the NBA are the most popular and have the larger percentages.\n \nWhat I wonder is why are those the most popular and not the other ones.\n\nThis impacts the community because it shows how blacks don't have that opportunity to be a coach.\n\nBasically, it is showing the percentage difference between all these black coaches. A catchy headline for this is \"When will these sport coaches have equalality.",
+  "ace_sentences": [
+    "I notice that the WNBA is popular.",
+    "I notice that the NBA is popular.",
+    "I notice that the WNBA has larger percentages.",
+    "I notice that the NBA has larger percentages.",
+    "I wonder why the WNBA is the most popular.",
+    "I wonder why the NBA is the most popular.",
+    "I wonder why the other ones are not the most popular.",
+    "This impacts the community.",
+    "This shows that blacks do not have the opportunity to be a coach.",
+    "It shows the percentage difference between all these black coaches.",
+    "A catchy headline for this is \"When will these sport coaches have equalality\"."
+  ],
+  "source_mappings": {
+    "I notice that the WNBA is popular.": [
+      "What I notice is that the WNBA",
+      "are the most popular"
+    ],
+    "I notice that the NBA is popular.": [
+      "and the NBA",
+      "are the most popular"
+    ],
+    "I notice that the WNBA has larger percentages.": [
+      "the WNBA",
+      "have the larger percentages"
+    ],
+    "I notice that the NBA has larger percentages.": [
+      "the NBA",
+      "have the larger percentages"
+    ],
+    "I wonder why the WNBA is the most popular.": [
+      "What I wonder is why are those the most popular"
+    ],
+    "I wonder why the NBA is the most popular.": [
+      "What I wonder is why are those the most popular"
+    ],
+    "I wonder why the other ones are not the most popular.": [
+      "and not the other ones"
+    ],
+    "This impacts the community.": [
+      "This impacts the community"
+    ],
+    "This shows that blacks do not have the opportunity to be a coach.": [
+      "it shows how blacks don't have that opportunity to be a coach"
+    ],
+    "It shows the percentage difference between all these black coaches.": [
+      "it is showing the percentage difference between all these black coaches"
+    ],
+    "A catchy headline for this is \"When will these sport coaches have equalality\".": [
+      "A catchy headline for this is \"When will these sport coaches have equalality."
+    ]
+  }
+}

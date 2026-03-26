@@ -1,0 +1,21 @@
+{
+  "article_id": "35",
+  "comment_index": 98,
+  "raw_comment": "I noticed that northern areas see first leaves later than the southern because it is colder in the north. Additionally, I wonder why on the coast there are mixed first leaf appearances.",
+  "ace_sentences": [
+    "I noticed that northern areas see first leaves later than the southern areas.",
+    "It is colder in the north.",
+    "I wonder why on the coast there are mixed first leaf appearances."
+  ],
+  "source_mappings": {
+    "I noticed that northern areas see first leaves later than the southern areas.": [
+      "I noticed that northern areas see first leaves later than the southern"
+    ],
+    "It is colder in the north.": [
+      "because it is colder in the north"
+    ],
+    "I wonder why on the coast there are mixed first leaf appearances.": [
+      "I wonder why on the coast there are mixed first leaf appearances."
+    ]
+  }
+}

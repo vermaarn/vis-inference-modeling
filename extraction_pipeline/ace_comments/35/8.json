@@ -1,0 +1,41 @@
+{
+  "article_id": "35",
+  "comment_index": 8,
+  "raw_comment": "After reading this additional information, we learned that this graph is for multiple purposes such as allergies, knowing when to plant crops, keeping us caught up on climate shifts, habitat loss or other environmental factors.",
+  "ace_sentences": [
+    "We read this additional information.",
+    "After reading this additional information, we learned something.",
+    "This graph is for multiple purposes.",
+    "This graph is for allergies.",
+    "This graph is for knowing when to plant crops.",
+    "This graph is for keeping us caught up on climate shifts.",
+    "This graph is for habitat loss.",
+    "This graph is for other environmental factors."
+  ],
+  "source_mappings": {
+    "We read this additional information.": [
+      "reading this additional information"
+    ],
+    "After reading this additional information, we learned something.": [
+      "After reading this additional information, we learned"
+    ],
+    "This graph is for multiple purposes.": [
+      "this graph is for multiple purposes"
+    ],
+    "This graph is for allergies.": [
+      "allergies"
+    ],
+    "This graph is for knowing when to plant crops.": [
+      "knowing when to plant crops"
+    ],
+    "This graph is for keeping us caught up on climate shifts.": [
+      "keeping us caught up on climate shifts"
+    ],
+    "This graph is for habitat loss.": [
+      "habitat loss"
+    ],
+    "This graph is for other environmental factors.": [
+      "other environmental factors"
+    ]
+  }
+}

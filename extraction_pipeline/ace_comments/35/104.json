@@ -1,0 +1,18 @@
+{
+  "article_id": "35",
+  "comment_index": 104,
+  "raw_comment": "I wonder what this map would look like in the 1700-1800 without global warming",
+  "ace_sentences": [
+    "I wonder what this map would look like in the 1700-1800.",
+    "Global warming does not happen in the 1700-1800."
+  ],
+  "source_mappings": {
+    "I wonder what this map would look like in the 1700-1800.": [
+      "I wonder what this map would look like in the 1700-1800"
+    ],
+    "Global warming does not happen in the 1700-1800.": [
+      "without global warming",
+      "in the 1700-1800"
+    ]
+  }
+}

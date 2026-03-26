@@ -1,0 +1,21 @@
+{
+  "article_id": "183",
+  "comment_index": 22,
+  "raw_comment": "This graph shows the percentage of young people who keep in contact with there parents on a pretty consistent basis. This graph shows that young women stay in more contact than young men with there parents.",
+  "ace_sentences": [
+    "This graph shows the percentage of young people.",
+    "These young people keep in contact with their parents on a pretty consistent basis.",
+    "This graph shows that young women stay in more contact than young men with their parents."
+  ],
+  "source_mappings": {
+    "This graph shows the percentage of young people.": [
+      "This graph shows the percentage of young people"
+    ],
+    "These young people keep in contact with their parents on a pretty consistent basis.": [
+      "young people who keep in contact with there parents on a pretty consistent basis"
+    ],
+    "This graph shows that young women stay in more contact than young men with their parents.": [
+      "This graph shows that young women stay in more contact than young men with there parents."
+    ]
+  }
+}

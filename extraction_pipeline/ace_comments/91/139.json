@@ -1,0 +1,58 @@
+{
+  "article_id": "91",
+  "comment_index": 139,
+  "raw_comment": "What do I notice?\nI notice that the percentage of players of color in the Women's National Basketball Association in 2019 and the National Basketball Association in 2020 are the same, while the other charts in 2020 have lower percentages. \n\nWhat do I wonder?\nI wonder why the Major League Baseball chart has the lowest percentage of players of color in 2020 than the other sports. \n\nWhat impact does this have on you and your community? \nThis impacts my community because it shows that there are people of color able to play or be a part of a team in sports, but there are less numbers in the amount of head coaches of color that should be increasing in numbers as well.\n\nWhat’s going on in this graph? Write a catchy headline that captures the graph’s main idea. \n\"Diversity within major sports\"",
+  "ace_sentences": [
+    "I notice something.",
+    "The percentage of players of color in the Women's National Basketball Association in 2019 is the same as the percentage of players of color in the National Basketball Association in 2020.",
+    "The other charts in 2020 have lower percentages.",
+    "I wonder about something.",
+    "The Major League Baseball chart has the lowest percentage of players of color in 2020.",
+    "The Major League Baseball chart has a lower percentage of players of color in 2020 than the other sports.",
+    "This impacts my community.",
+    "This shows that there are people of color who are able to play in sports.",
+    "This shows that there are people of color who are able to be a part of a team in sports.",
+    "There are less numbers in the amount of head coaches of color.",
+    "The numbers of head coaches of color should be increasing.",
+    "The headline is \"Diversity within major sports\"."
+  ],
+  "source_mappings": {
+    "I notice something.": [
+      "What do I notice?"
+    ],
+    "The percentage of players of color in the Women's National Basketball Association in 2019 is the same as the percentage of players of color in the National Basketball Association in 2020.": [
+      "the percentage of players of color in the Women's National Basketball Association in 2019",
+      "the National Basketball Association in 2020 are the same"
+    ],
+    "The other charts in 2020 have lower percentages.": [
+      "the other charts in 2020 have lower percentages"
+    ],
+    "I wonder about something.": [
+      "What do I wonder?"
+    ],
+    "The Major League Baseball chart has the lowest percentage of players of color in 2020.": [
+      "the Major League Baseball chart has the lowest percentage of players of color in 2020"
+    ],
+    "The Major League Baseball chart has a lower percentage of players of color in 2020 than the other sports.": [
+      "the Major League Baseball chart has the lowest percentage of players of color in 2020 than the other sports"
+    ],
+    "This impacts my community.": [
+      "This impacts my community"
+    ],
+    "This shows that there are people of color who are able to play in sports.": [
+      "it shows that there are people of color able to play"
+    ],
+    "This shows that there are people of color who are able to be a part of a team in sports.": [
+      "or be a part of a team in sports"
+    ],
+    "There are less numbers in the amount of head coaches of color.": [
+      "there are less numbers in the amount of head coaches of color"
+    ],
+    "The numbers of head coaches of color should be increasing.": [
+      "should be increasing in numbers as well"
+    ],
+    "The headline is \"Diversity within major sports\".": [
+      "\"Diversity within major sports\""
+    ]
+  }
+}

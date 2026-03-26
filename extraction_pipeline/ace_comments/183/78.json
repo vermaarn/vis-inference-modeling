@@ -1,0 +1,86 @@
+{
+  "article_id": "183",
+  "comment_index": 78,
+  "raw_comment": "I notice from this graph that the percentage of women who stay in touch with their families at least once a week is greater than the percentage of men across all mediums. Texting has the highest percentage of both men and women who reach out to a parent at least once a week, and visiting in person is the least popular for both men and women. Additionally, I notice that for both texts and phone/video chat, the difference in proportion between women and men is the greatest, with women having a percentage about 25% higher than men. The in-person visit category has the smallest difference in percentage between women and men, with women only having about a 5% greater percentage than men. I wonder why women tend to communicate with their parents more often than men do. Does this maybe suggest that women also tend to be closer to their parents than men? I also wonder if those who visit in person do so because their parents may happen to live nearby or if many of the people in this category commute in order to be with their parents in-person. I am also curious to see how these statistics compare to those of teenagers, and if this would show any changes as teenagers enter into young adulthood. This impacts me as I am currently a college student and understand that it is important for my peers and I to remain in touch with our parents. A relevant headline could be “How young adults are staying in touch with their parents.”",
+  "ace_sentences": [
+    "I notice from this graph that the percentage of women is greater than the percentage of men across all mediums.",
+    "Women stay in touch with their families at least once a week.",
+    "Men stay in touch with their families at least once a week.",
+    "Texting has the highest percentage of both men and women who reach out to a parent at least once a week.",
+    "Visiting in person is the least popular for both men and women.",
+    "For both texts and phone/video chat, the difference in proportion between women and men is the greatest.",
+    "Women have a percentage about 25% higher than men.",
+    "The in-person visit category has the smallest difference in percentage between women and men.",
+    "Women have about a 5% greater percentage than men.",
+    "I wonder why women tend to communicate with their parents more often than men do.",
+    "This maybe suggests that women tend to be closer to their parents than men.",
+    "I wonder if those who visit in person do so because their parents may happen to live nearby.",
+    "I wonder if many of the people in this category commute in order to be with their parents in-person.",
+    "I am curious to see how these statistics compare to those of teenagers.",
+    "I am curious to see if this would show any changes as teenagers enter into young adulthood.",
+    "This impacts me.",
+    "I am currently a college student.",
+    "I understand that it is important for my peers and I to remain in touch with our parents.",
+    "A relevant headline could be “How young adults are staying in touch with their parents.”"
+  ],
+  "source_mappings": {
+    "I notice from this graph that the percentage of women is greater than the percentage of men across all mediums.": [
+      "I notice from this graph that the percentage of women",
+      "is greater than the percentage of men across all mediums."
+    ],
+    "Women stay in touch with their families at least once a week.": [
+      "women who stay in touch with their families at least once a week"
+    ],
+    "Men stay in touch with their families at least once a week.": [
+      "men"
+    ],
+    "Texting has the highest percentage of both men and women who reach out to a parent at least once a week.": [
+      "Texting has the highest percentage of both men and women who reach out to a parent at least once a week"
+    ],
+    "Visiting in person is the least popular for both men and women.": [
+      "visiting in person is the least popular for both men and women"
+    ],
+    "For both texts and phone/video chat, the difference in proportion between women and men is the greatest.": [
+      "for both texts and phone/video chat, the difference in proportion between women and men is the greatest"
+    ],
+    "Women have a percentage about 25% higher than men.": [
+      "women having a percentage about 25% higher than men"
+    ],
+    "The in-person visit category has the smallest difference in percentage between women and men.": [
+      "The in-person visit category has the smallest difference in percentage between women and men"
+    ],
+    "Women have about a 5% greater percentage than men.": [
+      "women only having about a 5% greater percentage than men"
+    ],
+    "I wonder why women tend to communicate with their parents more often than men do.": [
+      "I wonder why women tend to communicate with their parents more often than men do."
+    ],
+    "This maybe suggests that women tend to be closer to their parents than men.": [
+      "Does this maybe suggest that women also tend to be closer to their parents than men?"
+    ],
+    "I wonder if those who visit in person do so because their parents may happen to live nearby.": [
+      "I also wonder if those who visit in person do so because their parents may happen to live nearby"
+    ],
+    "I wonder if many of the people in this category commute in order to be with their parents in-person.": [
+      "or if many of the people in this category commute in order to be with their parents in-person."
+    ],
+    "I am curious to see how these statistics compare to those of teenagers.": [
+      "I am also curious to see how these statistics compare to those of teenagers"
+    ],
+    "I am curious to see if this would show any changes as teenagers enter into young adulthood.": [
+      "and if this would show any changes as teenagers enter into young adulthood."
+    ],
+    "This impacts me.": [
+      "This impacts me"
+    ],
+    "I am currently a college student.": [
+      "I am currently a college student"
+    ],
+    "I understand that it is important for my peers and I to remain in touch with our parents.": [
+      "understand that it is important for my peers and I to remain in touch with our parents."
+    ],
+    "A relevant headline could be “How young adults are staying in touch with their parents.”": [
+      "A relevant headline could be “How young adults are staying in touch with their parents.”"
+    ]
+  }
+}

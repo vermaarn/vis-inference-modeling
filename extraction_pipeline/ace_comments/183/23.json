@@ -1,0 +1,85 @@
+{
+  "article_id": "183",
+  "comment_index": 23,
+  "raw_comment": "1- This graph shows the percentages of young people who say they reach out to their parents at least once a day or a few times a week. I also notice how young women send texts, phone or video-chat, and visit their parents in person at a higher rate than young men do. \n\n2- Something I wonder is if social media and technology ruined genuine face-to-face conversations? Or is it because the 18-34 age group lives away from home, in-person visits are unattainable.\n\n3- This relates to my community because I fit the demographics of this study and also feel represented in the data. Also, I get along with nearly everyone I am surrounded with on a regular basis, am in the age range this graphic examines.\n\n4- \"Are you chatting ?\"",
+  "ace_sentences": [
+    "This graph shows percentages.",
+    "The percentages are percentages of young people.",
+    "Some young people say that they reach out to their parents at least once a day.",
+    "Some young people say that they reach out to their parents a few times a week.",
+    "I notice that young women send texts at a higher rate than young men do.",
+    "I notice that young women phone at a higher rate than young men do.",
+    "I notice that young women video-chat at a higher rate than young men do.",
+    "I notice that young women visit their parents in person at a higher rate than young men do.",
+    "I wonder if social media and technology ruined genuine face-to-face conversations.",
+    "I wonder if the 18-34 age group lives away from home.",
+    "I wonder if in-person visits are unattainable because the 18-34 age group lives away from home.",
+    "This relates to my community.",
+    "I fit the demographics of this study.",
+    "I feel represented in the data.",
+    "I get along with nearly everyone.",
+    "I am surrounded with nearly everyone on a regular basis.",
+    "I am in the age range this graphic examines.",
+    "The question is: Are you chatting ?"
+  ],
+  "source_mappings": {
+    "This graph shows percentages.": [
+      "This graph shows the percentages"
+    ],
+    "The percentages are percentages of young people.": [
+      "the percentages of young people"
+    ],
+    "Some young people say that they reach out to their parents at least once a day.": [
+      "young people who say they reach out to their parents at least once a day"
+    ],
+    "Some young people say that they reach out to their parents a few times a week.": [
+      "young people who say they reach out to their parents",
+      "a few times a week"
+    ],
+    "I notice that young women send texts at a higher rate than young men do.": [
+      "I also notice how young women send texts",
+      "at a higher rate than young men do"
+    ],
+    "I notice that young women phone at a higher rate than young men do.": [
+      "I also notice how young women send texts, phone",
+      "at a higher rate than young men do"
+    ],
+    "I notice that young women video-chat at a higher rate than young men do.": [
+      "I also notice how young women send texts, phone or video-chat",
+      "at a higher rate than young men do"
+    ],
+    "I notice that young women visit their parents in person at a higher rate than young men do.": [
+      "visit their parents in person at a higher rate than young men do"
+    ],
+    "I wonder if social media and technology ruined genuine face-to-face conversations.": [
+      "Something I wonder is if social media and technology ruined genuine face-to-face conversations?"
+    ],
+    "I wonder if the 18-34 age group lives away from home.": [
+      "the 18-34 age group lives away from home"
+    ],
+    "I wonder if in-person visits are unattainable because the 18-34 age group lives away from home.": [
+      "because the 18-34 age group lives away from home, in-person visits are unattainable."
+    ],
+    "This relates to my community.": [
+      "This relates to my community"
+    ],
+    "I fit the demographics of this study.": [
+      "I fit the demographics of this study"
+    ],
+    "I feel represented in the data.": [
+      "also feel represented in the data"
+    ],
+    "I get along with nearly everyone.": [
+      "I get along with nearly everyone"
+    ],
+    "I am surrounded with nearly everyone on a regular basis.": [
+      "everyone I am surrounded with on a regular basis"
+    ],
+    "I am in the age range this graphic examines.": [
+      "am in the age range this graphic examines"
+    ],
+    "The question is: Are you chatting ?": [
+      "\"Are you chatting ?\""
+    ]
+  }
+}

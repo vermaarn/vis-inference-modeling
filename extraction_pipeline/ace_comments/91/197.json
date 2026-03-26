@@ -1,0 +1,61 @@
+{
+  "article_id": "91",
+  "comment_index": 197,
+  "raw_comment": "One thing I noticed is that in the graphs there is more colored people with athletes. They were the red and had very high percentages. I thing I wondered is why soccer has the most color coaches. I don’t think it impacts or changes my perspective on things because I don’t see the color of someone’s skin a difference from all of us. I don’t think it impacts our community except for the people who think differently and have there opinions for people of color. So I don’t think it makes a big impact at all on my life or anyone’s.",
+  "ace_sentences": [
+    "I noticed one thing.",
+    "In the graphs, there are more colored people with athletes.",
+    "Some colored people were red.",
+    "Some colored people had very high percentages.",
+    "I wondered why soccer has the most color coaches.",
+    "I do not think that it impacts my perspective on things.",
+    "I do not think that it changes my perspective on things.",
+    "I do not see the color of someone's skin as a difference from all of us.",
+    "I do not think that it impacts our community.",
+    "Some people think differently.",
+    "Some people have opinions for people of color.",
+    "I do not think that it makes a big impact on my life.",
+    "I do not think that it makes a big impact on anyone's life."
+  ],
+  "source_mappings": {
+    "I noticed one thing.": [
+      "One thing I noticed is"
+    ],
+    "In the graphs, there are more colored people with athletes.": [
+      "in the graphs there is more colored people with athletes"
+    ],
+    "Some colored people were red.": [
+      "They were the red"
+    ],
+    "Some colored people had very high percentages.": [
+      "had very high percentages"
+    ],
+    "I wondered why soccer has the most color coaches.": [
+      "I thing I wondered is why soccer has the most color coaches."
+    ],
+    "I do not think that it impacts my perspective on things.": [
+      "I don’t think it impacts or changes my perspective on things"
+    ],
+    "I do not think that it changes my perspective on things.": [
+      "I don’t think it impacts or changes my perspective on things"
+    ],
+    "I do not see the color of someone's skin as a difference from all of us.": [
+      "I don’t see the color of someone’s skin a difference from all of us."
+    ],
+    "I do not think that it impacts our community.": [
+      "I don’t think it impacts our community"
+    ],
+    "Some people think differently.": [
+      "the people who think differently"
+    ],
+    "Some people have opinions for people of color.": [
+      "have there opinions for people of color"
+    ],
+    "I do not think that it makes a big impact on my life.": [
+      "I don’t think it makes a big impact at all on my life"
+    ],
+    "I do not think that it makes a big impact on anyone's life.": [
+      "or anyone’s."
+    ]
+  }
+}

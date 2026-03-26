@@ -1,0 +1,45 @@
+{
+  "article_id": "91",
+  "comment_index": 131,
+  "raw_comment": "I notice that the major soccer league has the highest percentage of colored coaches but it is still under the red of colored players. I also notice that the football league has the lowest percentage of colored coaches. I notice that some sports have mixed percentages.\n\nI wonder if maybe the football league has other restrictions on some things and maybe that why that they don't have many colored coaches, I also wonder if this is around the world or somewhere certain. I also wonder why jobs are not being offered to more colored people for coaching positons",
+  "ace_sentences": [
+    "The major soccer league has the highest percentage of colored coaches.",
+    "The percentage of colored coaches in the major soccer league is still under the percentage of colored players.",
+    "The football league has the lowest percentage of colored coaches.",
+    "Some sports have mixed percentages.",
+    "It is possible that the football league has other restrictions on some things.",
+    "It is possible that other restrictions cause that the football league does not have many colored coaches.",
+    "I wonder if this is around the world.",
+    "I wonder if this is somewhere certain.",
+    "I wonder why jobs are not being offered to more colored people for coaching positons."
+  ],
+  "source_mappings": {
+    "The major soccer league has the highest percentage of colored coaches.": [
+      "the major soccer league has the highest percentage of colored coaches"
+    ],
+    "The percentage of colored coaches in the major soccer league is still under the percentage of colored players.": [
+      "it is still under the red of colored players"
+    ],
+    "The football league has the lowest percentage of colored coaches.": [
+      "the football league has the lowest percentage of colored coaches"
+    ],
+    "Some sports have mixed percentages.": [
+      "some sports have mixed percentages"
+    ],
+    "It is possible that the football league has other restrictions on some things.": [
+      "the football league has other restrictions on some things"
+    ],
+    "It is possible that other restrictions cause that the football league does not have many colored coaches.": [
+      "maybe that why that they don't have many colored coaches"
+    ],
+    "I wonder if this is around the world.": [
+      "this is around the world"
+    ],
+    "I wonder if this is somewhere certain.": [
+      "somewhere certain"
+    ],
+    "I wonder why jobs are not being offered to more colored people for coaching positons.": [
+      "why jobs are not being offered to more colored people for coaching positons"
+    ]
+  }
+}

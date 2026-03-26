@@ -1,0 +1,73 @@
+{
+  "article_id": "91",
+  "comment_index": 122,
+  "raw_comment": "Part 1\n\nWhat do you notice? I immediately noticed the same percentage of people of color that are in the NBA and WNBA. However, the NBA has a greater percentage of colored head coaches than the WNBA by five percent. I believe the number of coaches of color and coaches who are women collaborates; the fact is that both of their numbers are extremely low compared to those of white males. The reasoning for this? I am not sure. Possibly because men who are white are more likely to get the job because of their appearance, even if the other colored coaches are a better fit for the job. My greatest assumption of why white coaches are more common in these major league sports than those of color is because these issues of racial inequality have not been addressed as profoundly as they have been this past year, especially with the Black Lives Matter Movement. Many of these coaches have been doing their jobs for what could be the last decade. I do think it would be unfair for a perfectly capable coach to be fired if he or she is white because the team thought they needed more diversity within their coaching staff. I do not think race should be involved in the decision of hiring coaches; whoever best fits deserves the position.",
+  "ace_sentences": [
+    "I noticed the same percentage of people of color in the NBA and in the WNBA.",
+    "The NBA has a greater percentage of colored head coaches than the WNBA by five percent.",
+    "I believe that the number of coaches of color and the number of coaches who are women collaborates.",
+    "The number of coaches of color is extremely low compared to the number of white males.",
+    "The number of coaches who are women is extremely low compared to the number of white males.",
+    "I am not sure about the reasoning for this.",
+    "Possibly, men who are white are more likely to get the job because of their appearance.",
+    "Possibly, other colored coaches are a better fit for the job.",
+    "I assume that white coaches are more common in these major league sports than those of color.",
+    "I assume that this is because these issues of racial inequality have not been addressed as profoundly as they have been this past year.",
+    "I assume that this is especially because of the Black Lives Matter Movement.",
+    "Many of these coaches have been doing their jobs for what could be the last decade.",
+    "It would be unfair for a perfectly capable coach to be fired if he or she is white.",
+    "It would be unfair for a perfectly capable coach to be fired because the team thought they needed more diversity within their coaching staff.",
+    "I do not think race should be involved in the decision of hiring coaches.",
+    "Whoever best fits deserves the position."
+  ],
+  "source_mappings": {
+    "I noticed the same percentage of people of color in the NBA and in the WNBA.": [
+      "I immediately noticed the same percentage of people of color that are in the NBA and WNBA."
+    ],
+    "The NBA has a greater percentage of colored head coaches than the WNBA by five percent.": [
+      "the NBA has a greater percentage of colored head coaches than the WNBA by five percent."
+    ],
+    "I believe that the number of coaches of color and the number of coaches who are women collaborates.": [
+      "I believe the number of coaches of color and coaches who are women collaborates;"
+    ],
+    "The number of coaches of color is extremely low compared to the number of white males.": [
+      "both of their numbers are extremely low compared to those of white males."
+    ],
+    "The number of coaches who are women is extremely low compared to the number of white males.": [
+      "both of their numbers are extremely low compared to those of white males."
+    ],
+    "I am not sure about the reasoning for this.": [
+      "The reasoning for this? I am not sure."
+    ],
+    "Possibly, men who are white are more likely to get the job because of their appearance.": [
+      "Possibly because men who are white are more likely to get the job because of their appearance,"
+    ],
+    "Possibly, other colored coaches are a better fit for the job.": [
+      "even if the other colored coaches are a better fit for the job."
+    ],
+    "I assume that white coaches are more common in these major league sports than those of color.": [
+      "My greatest assumption of why white coaches are more common in these major league sports than those of color"
+    ],
+    "I assume that this is because these issues of racial inequality have not been addressed as profoundly as they have been this past year.": [
+      "is because these issues of racial inequality have not been addressed as profoundly as they have been this past year,"
+    ],
+    "I assume that this is especially because of the Black Lives Matter Movement.": [
+      "especially with the Black Lives Matter Movement."
+    ],
+    "Many of these coaches have been doing their jobs for what could be the last decade.": [
+      "Many of these coaches have been doing their jobs for what could be the last decade."
+    ],
+    "It would be unfair for a perfectly capable coach to be fired if he or she is white.": [
+      "I do think it would be unfair for a perfectly capable coach to be fired if he or she is white"
+    ],
+    "It would be unfair for a perfectly capable coach to be fired because the team thought they needed more diversity within their coaching staff.": [
+      "because the team thought they needed more diversity within their coaching staff."
+    ],
+    "I do not think race should be involved in the decision of hiring coaches.": [
+      "I do not think race should be involved in the decision of hiring coaches;"
+    ],
+    "Whoever best fits deserves the position.": [
+      "whoever best fits deserves the position."
+    ]
+  }
+}

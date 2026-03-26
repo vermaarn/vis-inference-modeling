@@ -1,0 +1,74 @@
+{
+  "article_id": "183",
+  "comment_index": 43,
+  "raw_comment": "Looking at the graph, I immediately notice that young men in this survey reach out to parents noticeably less than the young women who were surveyed. With such a large disparity between the men and the women, I wonder how representative these results are for young men and women. Since the data was gathered via online survey over a relatively short time frame, I think the results might not be able to be generalized to young men and women in general. Whether or not the results are generalizable, knowing these statistics about the strength of relationships between parent and child is useful knowledge to have. There is a large amount of information regarding mental health issues in young adults, and cross referencing with data like this has the possibility to give insights to other broader issues. A title for this could be \"Screen Age: How Electronics have Impacted Parental Communication\"",
+  "ace_sentences": [
+    "The graph exists.",
+    "I look at the graph.",
+    "I immediately notice a fact.",
+    "Young men in this survey reach out to parents noticeably less than young women in this survey.",
+    "There is a large disparity between the men and the women.",
+    "I wonder how representative these results are for young men and women.",
+    "The data was gathered via online survey.",
+    "The data was gathered over a relatively short time frame.",
+    "I think that the results might not be able to be generalized to young men and women in general.",
+    "The results may be generalizable.",
+    "Knowing these statistics is useful knowledge to have.",
+    "These statistics are about the strength of relationships between parent and child.",
+    "There is a large amount of information regarding mental health issues in young adults.",
+    "Cross referencing with data like this has the possibility to give insights to other broader issues.",
+    "A title for this exists.",
+    "The title is \"Screen Age: How Electronics have Impacted Parental Communication\"."
+  ],
+  "source_mappings": {
+    "The graph exists.": [
+      "the graph"
+    ],
+    "I look at the graph.": [
+      "Looking at the graph"
+    ],
+    "I immediately notice a fact.": [
+      "I immediately notice"
+    ],
+    "Young men in this survey reach out to parents noticeably less than young women in this survey.": [
+      "young men in this survey reach out to parents noticeably less than the young women who were surveyed"
+    ],
+    "There is a large disparity between the men and the women.": [
+      "such a large disparity between the men and the women"
+    ],
+    "I wonder how representative these results are for young men and women.": [
+      "I wonder how representative these results are for young men and women"
+    ],
+    "The data was gathered via online survey.": [
+      "the data was gathered via online survey"
+    ],
+    "The data was gathered over a relatively short time frame.": [
+      "over a relatively short time frame"
+    ],
+    "I think that the results might not be able to be generalized to young men and women in general.": [
+      "I think the results might not be able to be generalized to young men and women in general"
+    ],
+    "The results may be generalizable.": [
+      "Whether or not the results are generalizable"
+    ],
+    "Knowing these statistics is useful knowledge to have.": [
+      "knowing these statistics",
+      "is useful knowledge to have"
+    ],
+    "These statistics are about the strength of relationships between parent and child.": [
+      "these statistics about the strength of relationships between parent and child"
+    ],
+    "There is a large amount of information regarding mental health issues in young adults.": [
+      "There is a large amount of information regarding mental health issues in young adults"
+    ],
+    "Cross referencing with data like this has the possibility to give insights to other broader issues.": [
+      "cross referencing with data like this has the possibility to give insights to other broader issues"
+    ],
+    "A title for this exists.": [
+      "A title for this could be"
+    ],
+    "The title is \"Screen Age: How Electronics have Impacted Parental Communication\".": [
+      "\"Screen Age: How Electronics have Impacted Parental Communication\""
+    ]
+  }
+}

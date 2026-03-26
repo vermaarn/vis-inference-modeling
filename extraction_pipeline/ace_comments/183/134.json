@@ -1,0 +1,45 @@
+{
+  "article_id": "183",
+  "comment_index": 134,
+  "raw_comment": "I noticed that young women tend to reach out to their parents more than men. I wonder why women do it more than men and I think it is because they are more attached to their parents. This relates to me because one day I will move out and go to college and I will probably text or call my parents a lot. Why do women reach out to their parents more often than men?",
+  "ace_sentences": [
+    "Young women tend to reach out to their parents more than men.",
+    "I wonder why women reach out to their parents more than men.",
+    "I think that women reach out to their parents more than men because women are more attached to their parents.",
+    "This relates to me.",
+    "One day I will move out.",
+    "One day I will go to college.",
+    "I will probably text my parents a lot.",
+    "I will probably call my parents a lot.",
+    "Women reach out to their parents more often than men."
+  ],
+  "source_mappings": {
+    "Young women tend to reach out to their parents more than men.": [
+      "young women tend to reach out to their parents more than men"
+    ],
+    "I wonder why women reach out to their parents more than men.": [
+      "I wonder why women do it more than men"
+    ],
+    "I think that women reach out to their parents more than men because women are more attached to their parents.": [
+      "I think it is because they are more attached to their parents"
+    ],
+    "This relates to me.": [
+      "This relates to me"
+    ],
+    "One day I will move out.": [
+      "one day I will move out"
+    ],
+    "One day I will go to college.": [
+      "go to college"
+    ],
+    "I will probably text my parents a lot.": [
+      "I will probably text"
+    ],
+    "I will probably call my parents a lot.": [
+      "call my parents a lot"
+    ],
+    "Women reach out to their parents more often than men.": [
+      "women reach out to their parents more often than men"
+    ]
+  }
+}

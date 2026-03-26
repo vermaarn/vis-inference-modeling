@@ -1,0 +1,69 @@
+{
+  "article_id": "91",
+  "comment_index": 138,
+  "raw_comment": "I notice that the percentage of head coaches stays under 50%, and are lower than those percentages of players of color with the lowest percentage being for the NFL.\n\nAssuming that the grey parts of the graphs represent the people that aren't of color, I wonder why their percentages are so low. If  there's a majority of players that are of color, why can't there be more coaches of color as well?\n\nThis impacts my community and I because it demonstrates how there is a lack of support for people of color. It shows how racism is still prevalent in society even in big leagues and associations.\n\nThese graphs demonstrate the percentages of players of color compared to head coaches of color.\n\nA catchy headline: \"Sports and graphs: Diverse, but only on the field.\"",
+  "ace_sentences": [
+    "I notice that the percentage of head coaches stays under 50%.",
+    "I notice that the percentage of head coaches is lower than the percentages of players of color.",
+    "The lowest percentage is for the NFL.",
+    "I assume that the grey parts of the graphs represent the people that aren't of color.",
+    "I wonder why the percentages of the people that aren't of color are so low.",
+    "There is a majority of players that are of color.",
+    "I wonder why there cannot be more coaches of color.",
+    "This impacts my community.",
+    "This impacts me.",
+    "This demonstrates that there is a lack of support for people of color.",
+    "This shows that racism is still prevalent in society.",
+    "Racism is still prevalent in big leagues.",
+    "Racism is still prevalent in associations.",
+    "These graphs demonstrate the percentages of players of color compared to head coaches of color.",
+    "A catchy headline is \"Sports and graphs: Diverse, but only on the field.\""
+  ],
+  "source_mappings": {
+    "I notice that the percentage of head coaches stays under 50%.": [
+      "I notice that the percentage of head coaches stays under 50%"
+    ],
+    "I notice that the percentage of head coaches is lower than the percentages of players of color.": [
+      "are lower than those percentages of players of color"
+    ],
+    "The lowest percentage is for the NFL.": [
+      "with the lowest percentage being for the NFL"
+    ],
+    "I assume that the grey parts of the graphs represent the people that aren't of color.": [
+      "Assuming that the grey parts of the graphs represent the people that aren't of color"
+    ],
+    "I wonder why the percentages of the people that aren't of color are so low.": [
+      "I wonder why their percentages are so low"
+    ],
+    "There is a majority of players that are of color.": [
+      "there's a majority of players that are of color"
+    ],
+    "I wonder why there cannot be more coaches of color.": [
+      "why can't there be more coaches of color as well?"
+    ],
+    "This impacts my community.": [
+      "This impacts my community"
+    ],
+    "This impacts me.": [
+      "and I"
+    ],
+    "This demonstrates that there is a lack of support for people of color.": [
+      "it demonstrates how there is a lack of support for people of color"
+    ],
+    "This shows that racism is still prevalent in society.": [
+      "It shows how racism is still prevalent in society"
+    ],
+    "Racism is still prevalent in big leagues.": [
+      "even in big leagues"
+    ],
+    "Racism is still prevalent in associations.": [
+      "and associations"
+    ],
+    "These graphs demonstrate the percentages of players of color compared to head coaches of color.": [
+      "These graphs demonstrate the percentages of players of color compared to head coaches of color."
+    ],
+    "A catchy headline is \"Sports and graphs: Diverse, but only on the field.\"": [
+      "A catchy headline: \"Sports and graphs: Diverse, but only on the field.\""
+    ]
+  }
+}

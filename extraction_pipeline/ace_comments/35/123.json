@@ -1,0 +1,53 @@
+{
+  "article_id": "35",
+  "comment_index": 123,
+  "raw_comment": "This graph Is showing the average \"first leaf\" appearance throughout the United States. I noticed that it seems the that some of the south shown in green sees there first leaf in January and as moving up it from the green region from January to April. So it is showing that the southern points see the the first leaf first and as you move norther the months are April and may. This makes sense because the southern areas are relatively warmer. I wonder why the midwest areas don't see the first leaf appearance until around May. A catchy headline for this graph could be leafing up. Showing from the bottom to the top of the map the leaves showing up.",
+  "ace_sentences": [
+    "This graph shows the average first leaf appearance throughout the United States.",
+    "Some of the south is shown in green.",
+    "Some of the south sees the first leaf in January.",
+    "As one moves up from the green region, the months change from January to April.",
+    "The southern points see the first leaf first.",
+    "As one moves norther, the months are April and may.",
+    "This makes sense because the southern areas are relatively warmer.",
+    "The midwest areas do not see the first leaf appearance until around May.",
+    "I wonder why the midwest areas do not see the first leaf appearance until around May.",
+    "A catchy headline for this graph could be leafing up.",
+    "From the bottom to the top of the map, the leaves are showing up."
+  ],
+  "source_mappings": {
+    "This graph shows the average first leaf appearance throughout the United States.": [
+      "This graph Is showing the average \"first leaf\" appearance throughout the United States."
+    ],
+    "Some of the south is shown in green.": [
+      "some of the south shown in green"
+    ],
+    "Some of the south sees the first leaf in January.": [
+      "some of the south shown in green sees there first leaf in January"
+    ],
+    "As one moves up from the green region, the months change from January to April.": [
+      "as moving up it from the green region from January to April"
+    ],
+    "The southern points see the first leaf first.": [
+      "the southern points see the the first leaf first"
+    ],
+    "As one moves norther, the months are April and may.": [
+      "as you move norther the months are April and may"
+    ],
+    "This makes sense because the southern areas are relatively warmer.": [
+      "This makes sense because the southern areas are relatively warmer."
+    ],
+    "The midwest areas do not see the first leaf appearance until around May.": [
+      "the midwest areas don't see the first leaf appearance until around May"
+    ],
+    "I wonder why the midwest areas do not see the first leaf appearance until around May.": [
+      "I wonder why the midwest areas don't see the first leaf appearance until around May."
+    ],
+    "A catchy headline for this graph could be leafing up.": [
+      "A catchy headline for this graph could be leafing up."
+    ],
+    "From the bottom to the top of the map, the leaves are showing up.": [
+      "Showing from the bottom to the top of the map the leaves showing up."
+    ]
+  }
+}

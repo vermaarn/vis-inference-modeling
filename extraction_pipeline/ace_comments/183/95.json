@@ -1,0 +1,131 @@
+{
+  "article_id": "183",
+  "comment_index": 95,
+  "raw_comment": "One thing that I notice in the visualization is that young women, at least the ones included in the survey, tend to be in contact with at least one parent more than the young men included in the survey. This could be due to traditional societal roles, where men are seen to have to not feel emotions and having to be independent at a younger age than women. That if they are in contact with their parents more, they may think they are seen as weak, even though that is not true. I also notice that visiting in person is the lowest for both young men and women, which is most likely due to them moving away for jobs and/or college and they are unable to visit as much. One thing I wonder is how these responses would change by age. The survey questions asked those 18 to 34, a 16  year difference, which is a pretty big considering that it takes roughly 13 years between kindergarten and end of high school. Would the older ones be more or less likely than the younger ones to be in contact with a parent? Also, how does where the respondent go to school or do for work affect their contact status. This graph makes me want to be in contact with my parents more. I am very fortunate to have a good relationship with both parents, one where I could text or call them easily. I do stay in contact with them, but not as often as I think I should. Even a quick 10-minute conversation would be good. A catchy headline could be, \"Parental Guidance – How Young Men and Women Differ in Contact with Parents.\"",
+  "ace_sentences": [
+    "I notice one thing in the visualization.",
+    "Young women tend to be in contact with at least one parent more than young men.",
+    "The young women are included in the survey.",
+    "The young men are included in the survey.",
+    "This could be due to traditional societal roles.",
+    "In traditional societal roles, men are seen to have to not feel emotions.",
+    "In traditional societal roles, men are seen to have to be independent at a younger age than women.",
+    "If men are in contact with their parents more, they may think that they are seen as weak.",
+    "It is not true that men are weak.",
+    "I also notice one thing.",
+    "Visiting in person is the lowest for young men.",
+    "Visiting in person is the lowest for young women.",
+    "This is most likely due to them moving away for jobs and-or college.",
+    "They are unable to visit as much.",
+    "I wonder one thing.",
+    "The responses would change by age.",
+    "The survey questions asked those 18 to 34.",
+    "A 16 year difference is a pretty big.",
+    "It takes roughly 13 years between kindergarten and end of high school.",
+    "The older ones would be more or less likely than the younger ones to be in contact with a parent.",
+    "I ask how where the respondent goes to school affects their contact status.",
+    "I ask how what the respondent does for work affects their contact status.",
+    "This graph makes me want to be in contact with my parents more.",
+    "I am very fortunate to have a good relationship with both parents.",
+    "I could text them easily.",
+    "I could call them easily.",
+    "I do stay in contact with them.",
+    "I do not stay in contact with them as often as I think I should.",
+    "Even a quick 10-minute conversation would be good.",
+    "A catchy headline could be \"Parental Guidance – How Young Men and Women Differ in Contact with Parents.\""
+  ],
+  "source_mappings": {
+    "I notice one thing in the visualization.": [
+      "One thing that I notice in the visualization is"
+    ],
+    "Young women tend to be in contact with at least one parent more than young men.": [
+      "young women, at least the ones included in the survey, tend to be in contact with at least one parent more than the young men included in the survey"
+    ],
+    "The young women are included in the survey.": [
+      "young women, at least the ones included in the survey"
+    ],
+    "The young men are included in the survey.": [
+      "the young men included in the survey"
+    ],
+    "This could be due to traditional societal roles.": [
+      "This could be due to traditional societal roles"
+    ],
+    "In traditional societal roles, men are seen to have to not feel emotions.": [
+      "where men are seen to have to not feel emotions"
+    ],
+    "In traditional societal roles, men are seen to have to be independent at a younger age than women.": [
+      "having to be independent at a younger age than women"
+    ],
+    "If men are in contact with their parents more, they may think that they are seen as weak.": [
+      "That if they are in contact with their parents more, they may think they are seen as weak"
+    ],
+    "It is not true that men are weak.": [
+      "even though that is not true"
+    ],
+    "I also notice one thing.": [
+      "I also notice that"
+    ],
+    "Visiting in person is the lowest for young men.": [
+      "visiting in person is the lowest for both young men"
+    ],
+    "Visiting in person is the lowest for young women.": [
+      "and women"
+    ],
+    "This is most likely due to them moving away for jobs and-or college.": [
+      "which is most likely due to them moving away for jobs and/or college"
+    ],
+    "They are unable to visit as much.": [
+      "they are unable to visit as much"
+    ],
+    "I wonder one thing.": [
+      "One thing I wonder is"
+    ],
+    "The responses would change by age.": [
+      "how these responses would change by age"
+    ],
+    "The survey questions asked those 18 to 34.": [
+      "The survey questions asked those 18 to 34"
+    ],
+    "A 16 year difference is a pretty big.": [
+      "a 16  year difference, which is a pretty big"
+    ],
+    "It takes roughly 13 years between kindergarten and end of high school.": [
+      "it takes roughly 13 years between kindergarten and end of high school"
+    ],
+    "The older ones would be more or less likely than the younger ones to be in contact with a parent.": [
+      "Would the older ones be more or less likely than the younger ones to be in contact with a parent?"
+    ],
+    "I ask how where the respondent goes to school affects their contact status.": [
+      "how does where the respondent go to school",
+      "affect their contact status"
+    ],
+    "I ask how what the respondent does for work affects their contact status.": [
+      "or do for work",
+      "affect their contact status"
+    ],
+    "This graph makes me want to be in contact with my parents more.": [
+      "This graph makes me want to be in contact with my parents more"
+    ],
+    "I am very fortunate to have a good relationship with both parents.": [
+      "I am very fortunate to have a good relationship with both parents"
+    ],
+    "I could text them easily.": [
+      "I could text"
+    ],
+    "I could call them easily.": [
+      "or call them easily"
+    ],
+    "I do stay in contact with them.": [
+      "I do stay in contact with them"
+    ],
+    "I do not stay in contact with them as often as I think I should.": [
+      "but not as often as I think I should"
+    ],
+    "Even a quick 10-minute conversation would be good.": [
+      "Even a quick 10-minute conversation would be good"
+    ],
+    "A catchy headline could be \"Parental Guidance – How Young Men and Women Differ in Contact with Parents.\"": [
+      "A catchy headline could be, \"Parental Guidance – How Young Men and Women Differ in Contact with Parents.\""
+    ]
+  }
+}

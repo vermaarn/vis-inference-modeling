@@ -1,0 +1,86 @@
+{
+  "article_id": "91",
+  "comment_index": 133,
+  "raw_comment": "What I noticed: I noticed that there is much more diversity in the player role then there is in the coaching role. Many of the sports have at least two times the percent of players of color then coaches of color, the one exception being the M.L.S. One other thing I noticed is that there are far less colored players in the M.L.B. \n\nWhat I wonder: I wonder why companies or sports corporations have not been giving out more jobs to colored people in the coaching position. With many of the players in sports now being colored I think a colored coach may end up being able to work with them better. I also wonder why there is such a lack of diversity in the M.L.B. Something just seems off when you look at all the other sports diversity compared to the M.L.B’s. \n\nImpact: This statistics show the truth about professional careers in sports being both a player and a coach. It makes me think that it must be a lot harder to be good at basketball if you are white then if you are colored. Seeing these statistics may call others to try and do something about the lack of diversity in coaching or leadership roles. I thought many sports organizations have said that they try to add diversity but this shows that they are not doing so in any leadership roles.\n\nTitle:  Lack of diversity for leadership roles. Something needs to change.\n\nI had written more but I could not fit it all in the allotted space.",
+  "ace_sentences": [
+    "I noticed that there is much more diversity in the player role than in the coaching role.",
+    "Many sports have at least two times the percent of players of color than coaches of color.",
+    "The M.L.S. is one exception.",
+    "I noticed that there are far less colored players in the M.L.B.",
+    "I wonder why companies or sports corporations have not been giving out more jobs to colored people in the coaching position.",
+    "Many players in sports are colored now.",
+    "I think that a colored coach may be able to work with colored players better.",
+    "I wonder why there is a lack of diversity in the M.L.B.",
+    "Something seems off when I compare the diversity in other sports to the diversity in the M.L.B’s.",
+    "These statistics show the truth about professional careers in sports as a player and as a coach.",
+    "These statistics make me think that it must be harder to be good at basketball if a person is white than if a person is colored.",
+    "Seeing these statistics may call others to try to do something about the lack of diversity in coaching roles.",
+    "Seeing these statistics may call others to try to do something about the lack of diversity in leadership roles.",
+    "I thought that many sports organizations have said that they try to add diversity.",
+    "This shows that many sports organizations are not adding diversity in any leadership roles.",
+    "The title is \"Lack of diversity for leadership roles\".",
+    "The title is \"Something needs to change\".",
+    "I had written more.",
+    "I could not fit it all in the allotted space."
+  ],
+  "source_mappings": {
+    "I noticed that there is much more diversity in the player role than in the coaching role.": [
+      "I noticed that there is much more diversity in the player role then there is in the coaching role."
+    ],
+    "Many sports have at least two times the percent of players of color than coaches of color.": [
+      "Many of the sports have at least two times the percent of players of color then coaches of color"
+    ],
+    "The M.L.S. is one exception.": [
+      "the one exception being the M.L.S."
+    ],
+    "I noticed that there are far less colored players in the M.L.B.": [
+      "One other thing I noticed is that there are far less colored players in the M.L.B."
+    ],
+    "I wonder why companies or sports corporations have not been giving out more jobs to colored people in the coaching position.": [
+      "I wonder why companies or sports corporations have not been giving out more jobs to colored people in the coaching position."
+    ],
+    "Many players in sports are colored now.": [
+      "many of the players in sports now being colored"
+    ],
+    "I think that a colored coach may be able to work with colored players better.": [
+      "I think a colored coach may end up being able to work with them better."
+    ],
+    "I wonder why there is a lack of diversity in the M.L.B.": [
+      "I also wonder why there is such a lack of diversity in the M.L.B."
+    ],
+    "Something seems off when I compare the diversity in other sports to the diversity in the M.L.B’s.": [
+      "Something just seems off when you look at all the other sports diversity compared to the M.L.B’s."
+    ],
+    "These statistics show the truth about professional careers in sports as a player and as a coach.": [
+      "This statistics show the truth about professional careers in sports being both a player and a coach."
+    ],
+    "These statistics make me think that it must be harder to be good at basketball if a person is white than if a person is colored.": [
+      "It makes me think that it must be a lot harder to be good at basketball if you are white then if you are colored."
+    ],
+    "Seeing these statistics may call others to try to do something about the lack of diversity in coaching roles.": [
+      "Seeing these statistics may call others to try and do something about the lack of diversity in coaching"
+    ],
+    "Seeing these statistics may call others to try to do something about the lack of diversity in leadership roles.": [
+      "Seeing these statistics may call others to try and do something about the lack of diversity in",
+      "leadership roles."
+    ],
+    "I thought that many sports organizations have said that they try to add diversity.": [
+      "I thought many sports organizations have said that they try to add diversity"
+    ],
+    "This shows that many sports organizations are not adding diversity in any leadership roles.": [
+      "but this shows that they are not doing so in any leadership roles."
+    ],
+    "The title is \"Lack of diversity for leadership roles\".": [
+      "Title:  Lack of diversity for leadership roles."
+    ],
+    "The title is \"Something needs to change\".": [
+      "Something needs to change."
+    ],
+    "I had written more.": [
+      "I had written more"
+    ],
+    "I could not fit it all in the allotted space.": [
+      "I could not fit it all in the allotted space."
+    ]
+  }
+}

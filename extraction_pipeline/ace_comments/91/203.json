@@ -1,0 +1,33 @@
+{
+  "article_id": "91",
+  "comment_index": 203,
+  "raw_comment": "I noticed that there are less coaches of color for every major sports organization.\nI wonder why is there is less coaches of color for every major sports organization.\nI am part of the community of color. The impact it has on us is that they could be trying to say that people of color are not fit to be in leadership. This is not true.\nAre African Americans fit to run Sports Organizations?",
+  "ace_sentences": [
+    "I noticed that there are less coaches of color for every major sports organization.",
+    "I wonder why there are less coaches of color for every major sports organization.",
+    "I am part of the community of color.",
+    "Some people could be trying to say that people of color are not fit to be in leadership.",
+    "This is not true.",
+    "I ask whether African Americans are fit to run sports organizations."
+  ],
+  "source_mappings": {
+    "I noticed that there are less coaches of color for every major sports organization.": [
+      "I noticed that there are less coaches of color for every major sports organization."
+    ],
+    "I wonder why there are less coaches of color for every major sports organization.": [
+      "I wonder why is there is less coaches of color for every major sports organization."
+    ],
+    "I am part of the community of color.": [
+      "I am part of the community of color."
+    ],
+    "Some people could be trying to say that people of color are not fit to be in leadership.": [
+      "they could be trying to say that people of color are not fit to be in leadership."
+    ],
+    "This is not true.": [
+      "This is not true."
+    ],
+    "I ask whether African Americans are fit to run sports organizations.": [
+      "Are African Americans fit to run Sports Organizations?"
+    ]
+  }
+}

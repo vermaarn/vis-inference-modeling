@@ -1,0 +1,33 @@
+{
+  "article_id": "35",
+  "comment_index": 21,
+  "raw_comment": "I noticed that each month, the first leaf gets larger than the previous month. Except  February and March. Only with January and April. And May doesn't really have any first leaf.",
+  "ace_sentences": [
+    "I noticed a fact.",
+    "Each month, the first leaf gets larger than the previous month.",
+    "February is an exception.",
+    "March is an exception.",
+    "Only January and April have this pattern.",
+    "May does not really have any first leaf."
+  ],
+  "source_mappings": {
+    "I noticed a fact.": [
+      "I noticed"
+    ],
+    "Each month, the first leaf gets larger than the previous month.": [
+      "each month, the first leaf gets larger than the previous month."
+    ],
+    "February is an exception.": [
+      "Except  February"
+    ],
+    "March is an exception.": [
+      "March."
+    ],
+    "Only January and April have this pattern.": [
+      "Only with January and April."
+    ],
+    "May does not really have any first leaf.": [
+      "May doesn't really have any first leaf."
+    ]
+  }
+}

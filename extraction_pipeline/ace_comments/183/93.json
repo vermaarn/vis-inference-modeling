@@ -1,0 +1,57 @@
+{
+  "article_id": "183",
+  "comment_index": 93,
+  "raw_comment": "1. I notice that a higher percentage of both men and women send texts to communicate with their parents.\n2. I wonder how close the parents live to them to those who visit in person\n3. This impacts me as I am a senior in high school and have yet to attend college, where I will not be living with my parents.\n4. Say Hello: How Often Young Adults Communicate With Their Parents",
+  "ace_sentences": [
+    "I notice a higher percentage.",
+    "Both men and women send texts.",
+    "Men and women send texts to communicate with their parents.",
+    "I wonder how close the parents live to them.",
+    "Some people visit in person.",
+    "I am a senior in high school.",
+    "This impacts me.",
+    "I have not yet attended college.",
+    "I will attend college.",
+    "I will not be living with my parents.",
+    "The headline is:",
+    "Say Hello: How Often Young Adults Communicate With Their Parents."
+  ],
+  "source_mappings": {
+    "I notice a higher percentage.": [
+      "I notice that a higher percentage"
+    ],
+    "Both men and women send texts.": [
+      "both men and women send texts"
+    ],
+    "Men and women send texts to communicate with their parents.": [
+      "send texts to communicate with their parents"
+    ],
+    "I wonder how close the parents live to them.": [
+      "I wonder how close the parents live to them"
+    ],
+    "Some people visit in person.": [
+      "those who visit in person"
+    ],
+    "I am a senior in high school.": [
+      "I am a senior in high school"
+    ],
+    "This impacts me.": [
+      "This impacts me"
+    ],
+    "I have not yet attended college.": [
+      "have yet to attend college"
+    ],
+    "I will attend college.": [
+      "I will not be living with my parents"
+    ],
+    "I will not be living with my parents.": [
+      "I will not be living with my parents"
+    ],
+    "The headline is:": [
+      "Say Hello:"
+    ],
+    "Say Hello: How Often Young Adults Communicate With Their Parents.": [
+      "Say Hello: How Often Young Adults Communicate With Their Parents"
+    ]
+  }
+}

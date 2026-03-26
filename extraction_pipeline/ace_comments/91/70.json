@@ -1,0 +1,98 @@
+{
+  "article_id": "91",
+  "comment_index": 70,
+  "raw_comment": "Based on the graphs shown at the top of the article, I noticed right away that there is a much lower percentage of diversity among the coaches of these major sports leagues when compared to the actual diversity among the players. A potential issue with this could be that coaches often maintain their jobs for a very long time when compared to the players. \nI wonder why this study excluded important sports leagues such as the National Basketball Association and the National Hockey League. While the NBA has a very high percentage of diversity amongst the players in their league, it also wields a very low diversity percentage for their coaches. Then, when considering the NHL, there are only 43 professional players in the entire league that are of color. Out of upwards of 620 players, it truly shows how undiverse a sport like that is. So a sport like that would be a good equalized contradiction to the graphs being shown.\nThis has a large impact on me and my community because I come from a city with very little diversity. Growing playing sports, most of my teams have always been predominantly white and the same for our coaches. Meaning that because of the lack of diversity within our community, also reflects itself upon the sports we play.\nThe graphs in this article depict the gap between the diversity of the players of sports and the diversity of the coaches of the sports in large national sports. My alternative title would be: “Diversity on the field, similarity on the sideline”",
+  "ace_sentences": [
+    "The graphs are shown at the top of the article.",
+    "I noticed right away that there is a much lower percentage of diversity among the coaches of these major sports leagues.",
+    "I noticed right away that there is the actual diversity among the players.",
+    "The percentage of diversity among the coaches is lower than the actual diversity among the players.",
+    "A potential issue is that coaches often maintain their jobs for a very long time.",
+    "Coaches often maintain their jobs for a very long time when compared to the players.",
+    "I wonder why this study excluded the National Basketball Association.",
+    "I wonder why this study excluded the National Hockey League.",
+    "The NBA has a very high percentage of diversity amongst the players in their league.",
+    "The NBA wields a very low diversity percentage for their coaches.",
+    "When considering the NHL, there are only 43 professional players in the entire league that are of color.",
+    "There are upwards of 620 players.",
+    "Out of upwards of 620 players, it truly shows how undiverse a sport like that is.",
+    "A sport like that would be a good equalized contradiction to the graphs being shown.",
+    "This has a large impact on me and my community.",
+    "I come from a city with very little diversity.",
+    "Growing playing sports, most of my teams have always been predominantly white.",
+    "Our coaches have always been predominantly white.",
+    "There is a lack of diversity within our community.",
+    "The lack of diversity within our community reflects itself upon the sports we play.",
+    "The graphs in this article depict the gap between the diversity of the players of sports and the diversity of the coaches of the sports in large national sports.",
+    "My alternative title would be: “Diversity on the field, similarity on the sideline”."
+  ],
+  "source_mappings": {
+    "The graphs are shown at the top of the article.": [
+      "the graphs shown at the top of the article"
+    ],
+    "I noticed right away that there is a much lower percentage of diversity among the coaches of these major sports leagues.": [
+      "I noticed right away that there is a much lower percentage of diversity among the coaches of these major sports leagues"
+    ],
+    "I noticed right away that there is the actual diversity among the players.": [
+      "the actual diversity among the players"
+    ],
+    "The percentage of diversity among the coaches is lower than the actual diversity among the players.": [
+      "a much lower percentage of diversity among the coaches of these major sports leagues",
+      "the actual diversity among the players"
+    ],
+    "A potential issue is that coaches often maintain their jobs for a very long time.": [
+      "A potential issue with this could be that coaches often maintain their jobs for a very long time"
+    ],
+    "Coaches often maintain their jobs for a very long time when compared to the players.": [
+      "coaches often maintain their jobs for a very long time when compared to the players"
+    ],
+    "I wonder why this study excluded the National Basketball Association.": [
+      "I wonder why this study excluded important sports leagues such as the National Basketball Association"
+    ],
+    "I wonder why this study excluded the National Hockey League.": [
+      "the National Hockey League"
+    ],
+    "The NBA has a very high percentage of diversity amongst the players in their league.": [
+      "the NBA has a very high percentage of diversity amongst the players in their league"
+    ],
+    "The NBA wields a very low diversity percentage for their coaches.": [
+      "it also wields a very low diversity percentage for their coaches"
+    ],
+    "When considering the NHL, there are only 43 professional players in the entire league that are of color.": [
+      "when considering the NHL, there are only 43 professional players in the entire league that are of color"
+    ],
+    "There are upwards of 620 players.": [
+      "upwards of 620 players"
+    ],
+    "Out of upwards of 620 players, it truly shows how undiverse a sport like that is.": [
+      "Out of upwards of 620 players, it truly shows how undiverse a sport like that is"
+    ],
+    "A sport like that would be a good equalized contradiction to the graphs being shown.": [
+      "So a sport like that would be a good equalized contradiction to the graphs being shown"
+    ],
+    "This has a large impact on me and my community.": [
+      "This has a large impact on me and my community"
+    ],
+    "I come from a city with very little diversity.": [
+      "I come from a city with very little diversity"
+    ],
+    "Growing playing sports, most of my teams have always been predominantly white.": [
+      "Growing playing sports, most of my teams have always been predominantly white"
+    ],
+    "Our coaches have always been predominantly white.": [
+      "and the same for our coaches"
+    ],
+    "There is a lack of diversity within our community.": [
+      "the lack of diversity within our community"
+    ],
+    "The lack of diversity within our community reflects itself upon the sports we play.": [
+      "because of the lack of diversity within our community, also reflects itself upon the sports we play"
+    ],
+    "The graphs in this article depict the gap between the diversity of the players of sports and the diversity of the coaches of the sports in large national sports.": [
+      "The graphs in this article depict the gap between the diversity of the players of sports and the diversity of the coaches of the sports in large national sports"
+    ],
+    "My alternative title would be: “Diversity on the field, similarity on the sideline”.": [
+      "My alternative title would be: “Diversity on the field, similarity on the sideline”"
+    ]
+  }
+}
