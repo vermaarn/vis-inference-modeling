@@ -19059,7 +19059,85 @@
       "I also noticed that the less automatable jobs seemed to be the higher paying jobs.": 5,
       "Jobs that require machine operation or contrustction or any trade seem to have less communication skills.": 6
     },
-    "dependency_graph": null
+    "dependency_graph": [
+      {
+        "id": 0,
+        "sentence": "This graph made me realize the way that the jobs are divided into the different quadrants.",
+        "depends_on": [],
+        "comment_tag": "Visual Observation: Chart Structure & Text",
+        "reasoning": "Step 2a: Describes the chart's quadrant structure and division."
+      },
+      {
+        "id": 1,
+        "sentence": "This graph made me realize why they were placed where they were.",
+        "depends_on": [
+          {
+            "id": 0,
+            "edge_type": "Elaborative",
+            "justification": "(1) B refers back to the same graph and the placement of jobs introduced in A, continuing the same observation. (2) Elaborative because B adds a related interpretation of the graph rather than a new cause, judgment, or contrast."
+          }
+        ],
+        "comment_tag": "Visual Observation: Cross-point Pattern Recognition",
+        "reasoning": "Step 2c: Refers to the placement pattern of jobs across the chart."
+      },
+      {
+        "id": 2,
+        "sentence": "I noticed how they used different colors to show which jobs were less automatable.",
+        "depends_on": [
+          {
+            "id": 0,
+            "edge_type": "Elaborative",
+            "justification": "(1) B continues the discussion of the graph by explaining one visual encoding used in it. (2) Elaborative because it specifies how the graph represents information, not a causal explanation or subjective evaluation."
+          }
+        ],
+        "comment_tag": "Visual Observation: Chart Structure & Text",
+        "reasoning": "Step 2a: Decodes the meaning of the color encoding."
+      },
+      {
+        "id": 3,
+        "sentence": "I noticed how they used different colors to show which jobs were more automatable.",
+        "depends_on": [
+          {
+            "id": 0,
+            "edge_type": "Elaborative",
+            "justification": "(1) B also refers to the same graph and its color-coding scheme introduced in A. (2) Elaborative because it adds a parallel visual-detail interpretation rather than introducing a new inference or stance."
+          }
+        ],
+        "comment_tag": "Visual Observation: Chart Structure & Text",
+        "reasoning": "Step 2a: Decodes the meaning of the color encoding."
+      },
+      {
+        "id": 4,
+        "sentence": "I also noticed that the less automatable jobs seemed to be the higher paying jobs.",
+        "depends_on": [
+          {
+            "id": 2,
+            "edge_type": "Inferential",
+            "justification": "(1) B builds on the observation in A about less automatable jobs by drawing a further conclusion about their pay. (2) Inferential because B goes beyond the visual encoding to state a relationship between automability and pay, rather than merely elaborating the graph's colors."
+          },
+          {
+            "id": 3,
+            "edge_type": "Inferential",
+            "justification": "(1) B also depends on the color-coded distinction in A between more and less automatable jobs. (2) Inferential because B uses that distinction to infer a new claim about higher pay, not just restate the encoding."
+          }
+        ],
+        "comment_tag": "Visual Observation: Cross-point Pattern Recognition",
+        "reasoning": "Step 2c: Compares two groups of jobs and describes an observed relationship between automability and pay."
+      },
+      {
+        "id": 5,
+        "sentence": "Jobs that require machine operation or contrustction or any trade seem to have less communication skills.",
+        "depends_on": [
+          {
+            "id": 4,
+            "edge_type": "Inferential",
+            "justification": "(1) B appears to explain the pattern in A by identifying a type of job associated with the less automatable/higher-paying group. (2) Inferential because B proposes a new explanatory claim about job characteristics and communication skills, rather than simply refining A's observation."
+          }
+        ],
+        "comment_tag": "Visual Observation: Cross-point Pattern Recognition",
+        "reasoning": "Step 2c: Describes a chart-grounded pattern relating job type to communication emphasis."
+      }
+    ]
   },
   {
     "article_id": "34",
@@ -19092,7 +19170,54 @@
       "I have not been able to conclude what the color means.": 3,
       "My best guess would be salary.": 4
     },
-    "dependency_graph": null
+    "dependency_graph": [
+      {
+        "id": 0,
+        "sentence": "The jobs are put into categories based on the qualities a job ensures.",
+        "depends_on": [],
+        "comment_tag": "Visual Observation: Chart Structure & Text",
+        "reasoning": "Step 2a: Describes the chart's categorical organization and what it encodes."
+      },
+      {
+        "id": 1,
+        "sentence": "The jobs are also given a color.",
+        "depends_on": [
+          {
+            "id": 0,
+            "edge_type": "Elaborative",
+            "justification": "(1) Edge exists because B continues describing the same job-classification system introduced in A, adding that jobs are also assigned colors. (2) Elaborative because B adds another feature of the same setup rather than making a causal claim, a subjective judgment, or a contrast."
+          }
+        ],
+        "comment_tag": "Visual Observation: Chart Structure & Text",
+        "reasoning": "Step 2a: Notes the visible color encoding applied to jobs."
+      },
+      {
+        "id": 2,
+        "sentence": "I have not been able to conclude what the color means.",
+        "depends_on": [
+          {
+            "id": 1,
+            "edge_type": "Evaluative",
+            "justification": "(1) Edge exists because B refers to the color assignment mentioned in A and expresses uncertainty about its meaning. (2) Evaluative because B is a subjective curiosity/uncertainty response to A, not a factual elaboration or an explanation."
+          }
+        ],
+        "comment_tag": "Curiosity",
+        "reasoning": "Step 5: Expresses uncertainty and desire for interpretation of the color encoding."
+      },
+      {
+        "id": 3,
+        "sentence": "My best guess would be salary.",
+        "depends_on": [
+          {
+            "id": 2,
+            "edge_type": "Inferential",
+            "justification": "(1) Edge exists because B offers a candidate interpretation in response to the uncertainty stated in A. (2) Inferential because B proposes a possible explanation for the color meaning, going beyond A's uncertainty rather than merely restating it or expressing a pure reaction."
+          }
+        ],
+        "comment_tag": "Inference: Explanatory",
+        "reasoning": "Step 6: Offers a tentative explanation for the color coding, linking it to salary."
+      }
+    ]
   },
   {
     "article_id": "34",
@@ -19115,7 +19240,28 @@
       "This graph seems to have different colors for different jobs.": 1,
       "I was wondering if the color was based on salary or an unstated variable.": 2
     },
-    "dependency_graph": null
+    "dependency_graph": [
+      {
+        "id": 0,
+        "sentence": "This graph seems to have different colors for different jobs.",
+        "depends_on": [],
+        "comment_tag": "Visual Observation: Chart Structure & Text",
+        "reasoning": "Step 2a: Notes the chart's color coding across jobs."
+      },
+      {
+        "id": 1,
+        "sentence": "I was wondering if the color was based on salary or an unstated variable.",
+        "depends_on": [
+          {
+            "id": 0,
+            "edge_type": "Evaluative",
+            "justification": "(1) Edge exists because B refers to the graph's color scheme introduced in A and asks what determines it. (2) Evaluative because B expresses curiosity/uncertainty about A's content rather than adding factual detail (Elaborative) or proposing a cause as a settled explanation (Inferential)."
+          }
+        ],
+        "comment_tag": "Curiosity",
+        "reasoning": "Step 5: Explicit wondering about the meaning of the color encoding."
+      }
+    ]
   },
   {
     "article_id": "34",
@@ -19158,7 +19304,74 @@
       "Grey is in between blue-collar jobs and white-collar jobs.": 5,
       "Green jobs also require extensive higher-level learning.": 6
     },
-    "dependency_graph": null
+    "dependency_graph": [
+      {
+        "id": 0,
+        "sentence": "I noticed that some jobs require physical work.",
+        "depends_on": [],
+        "comment_tag": "Visual Observation: Cross-point Pattern Recognition",
+        "reasoning": "Step 2c: Describes a pattern across jobs regarding physical-work emphasis."
+      },
+      {
+        "id": 1,
+        "sentence": "You would not expect some jobs to require physical work.",
+        "depends_on": [
+          {
+            "id": 0,
+            "edge_type": "Evaluative",
+            "justification": "(1) Edge exists because B reacts to the observation in A by expressing surprise about jobs requiring physical work. (2) Evaluative because B is a subjective expectation/response to A, not a factual refinement (Elaborative), causal explanation (Inferential), or counterpoint between two facts (Contrastive)."
+          }
+        ],
+        "comment_tag": "Prior Knowledge: Background",
+        "reasoning": "Step 7: General expectation about jobs, not a chart-grounded observation."
+      },
+      {
+        "id": 2,
+        "sentence": "A food preparer requires more physical work than a welder.",
+        "depends_on": [
+          {
+            "id": 0,
+            "edge_type": "Elaborative",
+            "justification": "(1) Edge exists because B elaborates on the general claim in A by giving a specific example of a job that requires physical work. (2) Elaborative because B stays within the same topic and adds a more specific comparison rather than introducing a cause, judgment, or opposition."
+          }
+        ],
+        "comment_tag": "Visual Observation: Cross-point Pattern Recognition",
+        "reasoning": "Step 2c: Compares two jobs on the chart with respect to physical work."
+      },
+      {
+        "id": 3,
+        "sentence": "The different colors indicate whether it is a blue-collar job or a white-collar job.",
+        "depends_on": [],
+        "comment_tag": "Visual Observation: Chart Structure & Text",
+        "reasoning": "Step 2a: Interprets the meaning of the color encoding."
+      },
+      {
+        "id": 4,
+        "sentence": "Grey is in between blue-collar jobs and white-collar jobs.",
+        "depends_on": [
+          {
+            "id": 3,
+            "edge_type": "Elaborative",
+            "justification": "(1) Edge exists because B depends on the color-coding scheme introduced in A and specifies where grey fits within it. (2) Elaborative because B refines the classification system from A rather than making a causal claim or a subjective evaluation."
+          }
+        ],
+        "comment_tag": "Visual Observation: Cross-point Pattern Recognition",
+        "reasoning": "Step 2c: Describes the relative placement of a color category between two groups."
+      },
+      {
+        "id": 5,
+        "sentence": "Green jobs also require extensive higher-level learning.",
+        "depends_on": [
+          {
+            "id": 3,
+            "edge_type": "Elaborative",
+            "justification": "(1) Edge exists because B uses the same color-based job classification introduced in A to add another category-related fact. (2) Elaborative because B extends the description of the chart/topic with additional detail, not a cause, judgment, or contrast."
+          }
+        ],
+        "comment_tag": "Visual Observation: Cross-point Pattern Recognition",
+        "reasoning": "Step 2c: Describes a pattern linking green-coded jobs to educational requirements."
+      }
+    ]
   },
   {
     "article_id": "34",
@@ -19216,7 +19429,169 @@
       "I cannot make a conclusion.": 8,
       "Clergy and lawyers share similar positions on the graph.": 9
     },
-    "dependency_graph": null
+    "dependency_graph": [
+      {
+        "id": 0,
+        "sentence": "The careers in purple entail more physical requirements.",
+        "depends_on": [],
+        "comment_tag": "Visual Observation: Cross-point Pattern Recognition",
+        "reasoning": "Step 2c: Describes a pattern across purple-coded careers and physical requirements."
+      },
+      {
+        "id": 1,
+        "sentence": "The careers in purple entail less of an educational background.",
+        "depends_on": [],
+        "comment_tag": "Visual Observation: Cross-point Pattern Recognition",
+        "reasoning": "Step 2c: Describes a pattern across purple-coded careers and education requirements."
+      },
+      {
+        "id": 2,
+        "sentence": "The careers in green require less physical work.",
+        "depends_on": [],
+        "comment_tag": "Visual Observation: Cross-point Pattern Recognition",
+        "reasoning": "Step 2c: Describes a pattern across green-coded careers and physical-work emphasis."
+      },
+      {
+        "id": 3,
+        "sentence": "The careers in green require more critical thinking.",
+        "depends_on": [],
+        "comment_tag": "Visual Observation: Cross-point Pattern Recognition",
+        "reasoning": "Step 2c: Describes a pattern across green-coded careers and critical-thinking emphasis."
+      },
+      {
+        "id": 4,
+        "sentence": "The careers in green require a more vast educational background.",
+        "depends_on": [],
+        "comment_tag": "Visual Observation: Cross-point Pattern Recognition",
+        "reasoning": "Step 2c: Describes a pattern across green-coded careers and education requirements."
+      },
+      {
+        "id": 5,
+        "sentence": "The careers in green require communication.",
+        "depends_on": [],
+        "comment_tag": "Visual Observation: Cross-point Pattern Recognition",
+        "reasoning": "Step 2c: Describes a pattern across green-coded careers and communication emphasis."
+      },
+      {
+        "id": 6,
+        "sentence": "I wonder if the job placement aspect has anything to do with salaries.",
+        "depends_on": [
+          {
+            "id": 0,
+            "edge_type": "Evaluative",
+            "justification": "(1) Edge exists because B is a question prompted by the graph-based comparison of careers, and it asks whether job placement relates to salaries. (2) Evaluative because B expresses curiosity/uncertainty about A's content rather than adding factual detail, making a causal explanation, or contrasting it."
+          },
+          {
+            "id": 1,
+            "edge_type": "Evaluative",
+            "justification": "(1) Edge exists because B's question is prompted by the purple-career observations in A, especially the job-related differences implied by the graph. (2) Evaluative because B is a subjective inquiry about A rather than an elaboration or causal claim."
+          },
+          {
+            "id": 2,
+            "edge_type": "Evaluative",
+            "justification": "(1) Edge exists because B is a question prompted by the green-career observations in A, asking whether job placement connects to salaries. (2) Evaluative because B registers curiosity about A's facts instead of refining them or explaining them."
+          },
+          {
+            "id": 3,
+            "edge_type": "Evaluative",
+            "justification": "(1) Edge exists because B is prompted by the green-career skill requirements described in A. (2) Evaluative because the sentence is a subjective question, not a factual continuation or a causal inference."
+          },
+          {
+            "id": 4,
+            "edge_type": "Evaluative",
+            "justification": "(1) Edge exists because B is prompted by the educational-background difference described in A. (2) Evaluative because it expresses curiosity about a possible relationship rather than elaborating the graph or contrasting it."
+          },
+          {
+            "id": 5,
+            "edge_type": "Evaluative",
+            "justification": "(1) Edge exists because B is prompted by the communication requirement in A as part of the same graph interpretation. (2) Evaluative because it is an inquisitive stance toward A's content, not a new factual claim or explanation."
+          }
+        ],
+        "comment_tag": "Curiosity",
+        "reasoning": "Step 5: Explicit 'I wonder if' indicates curiosity about a possible explanation."
+      },
+      {
+        "id": 7,
+        "sentence": "I cannot make a conclusion.",
+        "depends_on": [
+          {
+            "id": 0,
+            "edge_type": "Evaluative",
+            "justification": "(1) Edge exists because B is a reaction to the set of graph observations in A, indicating the speaker cannot conclude from them. (2) Evaluative because it expresses the speaker's subjective inability to judge or decide, rather than adding detail or making a causal claim."
+          },
+          {
+            "id": 1,
+            "edge_type": "Evaluative",
+            "justification": "(1) Edge exists because B responds to the purple-career observations in A as part of the overall evidence. (2) Evaluative because it is a stance about the sufficiency of the information, not an elaboration or contrast."
+          },
+          {
+            "id": 2,
+            "edge_type": "Evaluative",
+            "justification": "(1) Edge exists because B responds to the green-career observations in A as part of the overall evidence. (2) Evaluative because it conveys the speaker's uncertainty about drawing a conclusion, which is a subjective response rather than factual development."
+          },
+          {
+            "id": 3,
+            "edge_type": "Evaluative",
+            "justification": "(1) Edge exists because B is a reaction to the green-career skill requirements in A. (2) Evaluative because it states the speaker cannot conclude, which is a subjective assessment of the evidence rather than a causal or descriptive extension."
+          },
+          {
+            "id": 4,
+            "edge_type": "Evaluative",
+            "justification": "(1) Edge exists because B responds to the educational-background observation in A as part of the same comparison. (2) Evaluative because it expresses uncertainty about inference, not a refinement of A's content."
+          },
+          {
+            "id": 5,
+            "edge_type": "Evaluative",
+            "justification": "(1) Edge exists because B responds to the communication requirement in A as part of the same graph reading. (2) Evaluative because it is a subjective conclusion about the evidence's adequacy, not an elaboration or explanation."
+          },
+          {
+            "id": 6,
+            "edge_type": "Evaluative",
+            "justification": "(1) Edge exists because B's question about salaries is part of the same interpretive uncertainty that leads to not making a conclusion. (2) Evaluative because it reflects the speaker's uncertainty and inquiry, not a factual continuation or causal mechanism."
+          }
+        ],
+        "comment_tag": "Curiosity",
+        "reasoning": "Step 5: Expresses uncertainty/lack of information, indicating curiosity rather than a chart observation."
+      },
+      {
+        "id": 8,
+        "sentence": "Clergy and lawyers share similar positions on the graph.",
+        "depends_on": [
+          {
+            "id": 0,
+            "edge_type": "Elaborative",
+            "justification": "(1) Edge exists because B adds another category comparison on the same graph, extending the discussion of career positions. (2) Elaborative because it is a parallel observation that develops the graph-reading context rather than introducing a cause, judgment, or opposition."
+          },
+          {
+            "id": 1,
+            "edge_type": "Elaborative",
+            "justification": "(1) Edge exists because B continues the same graph-based comparison by adding clergy and lawyers as another pair of positions. (2) Elaborative because it broadens the set of observed categories without making a causal or evaluative claim."
+          },
+          {
+            "id": 2,
+            "edge_type": "Elaborative",
+            "justification": "(1) Edge exists because B is another graph observation in the same comparison space as the purple careers. (2) Elaborative because it adds a related factual point rather than reasoning beyond A or opposing it."
+          },
+          {
+            "id": 3,
+            "edge_type": "Elaborative",
+            "justification": "(1) Edge exists because B continues the same graph interpretation by comparing another set of positions. (2) Elaborative because it is a same-direction extension of the chart reading, not a causal explanation or subjective reaction."
+          },
+          {
+            "id": 4,
+            "edge_type": "Elaborative",
+            "justification": "(1) Edge exists because B adds another category comparison to the educational/skill pattern already being discussed. (2) Elaborative because it is a parallel factual observation, not a contrast or inference."
+          },
+          {
+            "id": 5,
+            "edge_type": "Elaborative",
+            "justification": "(1) Edge exists because B extends the graph reading with another occupational comparison. (2) Elaborative because it continues the same descriptive analysis rather than introducing a new causal or evaluative claim."
+          }
+        ],
+        "comment_tag": "Visual Observation: Cross-point Pattern Recognition",
+        "reasoning": "Step 2c: Compares two jobs by their positions on the chart."
+      }
+    ]
   },
   {
     "article_id": "34",
@@ -19244,7 +19619,41 @@
       "Where on the graph would the jobs be placed?": 2,
       "Also, why were green and purple chosen to be the colors that would arrange these jobs on the graph?": 3
     },
-    "dependency_graph": null
+    "dependency_graph": [
+      {
+        "id": 0,
+        "sentence": "How are the jobs calculated by the amount of skills that are needed for each job?",
+        "depends_on": [],
+        "comment_tag": "Curiosity",
+        "reasoning": "Step 5: Explicit question about how the chart's job placement is determined."
+      },
+      {
+        "id": 1,
+        "sentence": "Where on the graph would the jobs be placed?",
+        "depends_on": [
+          {
+            "id": 0,
+            "edge_type": "Evaluative",
+            "justification": "(1) B follows from the same graph-and-jobs topic introduced in A, asking for another detail about the representation. (2) Evaluative because B is a question expressing curiosity about the chart rather than elaborating A with factual content or explaining a cause."
+          }
+        ],
+        "comment_tag": "Curiosity",
+        "reasoning": "Step 5: Explicit question about chart placement indicates curiosity."
+      },
+      {
+        "id": 2,
+        "sentence": "Also, why were green and purple chosen to be the colors that would arrange these jobs on the graph?",
+        "depends_on": [
+          {
+            "id": 1,
+            "edge_type": "Elaborative",
+            "justification": "(1) B continues the same graph-reading discussion by asking about another aspect of how the jobs are displayed. (2) Elaborative because it adds a further detail about the graph's encoding (colors) rather than introducing a causal explanation, a value judgment, or a contrast."
+          }
+        ],
+        "comment_tag": "Curiosity",
+        "reasoning": "Step 5: Explicit question about the color choice/encoding."
+      }
+    ]
   },
   {
     "article_id": "34",
@@ -19272,7 +19681,41 @@
       "I noticed that some jobs require more physical work.": 2,
       "I noticed that other jobs focus on communications.": 3
     },
-    "dependency_graph": null
+    "dependency_graph": [
+      {
+        "id": 0,
+        "sentence": "This graph has brought my attention to thinking about what car career I should pursue.",
+        "depends_on": [],
+        "comment_tag": "Prior Knowledge: Personal / Episodic",
+        "reasoning": "Step 3: Personal self-reference about the commenter's own career consideration."
+      },
+      {
+        "id": 1,
+        "sentence": "I noticed that some jobs require more physical work.",
+        "depends_on": [
+          {
+            "id": 0,
+            "edge_type": "Elaborative",
+            "justification": "(1) Edge exists because B is a continuation of the graph-based reflection introduced in A, moving from the graph to a specific observation about jobs. (2) Elaborative because B adds a related detail about job characteristics rather than giving a cause, judgment, or contrast."
+          }
+        ],
+        "comment_tag": "Visual Observation: Cross-point Pattern Recognition",
+        "reasoning": "Step 2c: Describes a pattern across jobs regarding physical-work emphasis."
+      },
+      {
+        "id": 2,
+        "sentence": "I noticed that other jobs focus on communications.",
+        "depends_on": [
+          {
+            "id": 1,
+            "edge_type": "Contrastive",
+            "justification": "(1) Edge exists because B introduces a parallel observation about a different set of jobs, contrasting with the physical-work focus in A. (2) Contrastive because the sentence sets up a side-by-side distinction between job types rather than simply elaborating the same point."
+          }
+        ],
+        "comment_tag": "Visual Observation: Cross-point Pattern Recognition",
+        "reasoning": "Step 2c: Describes a pattern across jobs regarding communication emphasis."
+      }
+    ]
   },
   {
     "article_id": "34",
@@ -19305,7 +19748,53 @@
       "How many of these jobs will no longer be on the graph?": 3,
       "How would that affect the graph?": 4
     },
-    "dependency_graph": null
+    "dependency_graph": [
+      {
+        "id": 0,
+        "sentence": "I wonder if the jobs closer to the emphasis on operating machines and processes will still be available when jobs is 10-15.",
+        "depends_on": [],
+        "comment_tag": "Curiosity",
+        "reasoning": "Step 5: Explicit 'I wonder if' asks about a future/hypothetical state."
+      },
+      {
+        "id": 1,
+        "sentence": "Many jobs are becoming automated.",
+        "depends_on": [],
+        "comment_tag": "Inference: Predictive / Hypothetical",
+        "reasoning": "Step 8: Future-oriented statement about jobs becoming automated."
+      },
+      {
+        "id": 2,
+        "sentence": "How many of these jobs will no longer be on the graph?",
+        "depends_on": [
+          {
+            "id": 1,
+            "edge_type": "Evaluative",
+            "justification": "(1) Edge exists because 'these jobs' refers back to the jobs becoming automated in A, and B asks about their disappearance from the graph. (2) Evaluative because B is a question expressing curiosity about A's implication, not a factual elaboration or causal explanation."
+          }
+        ],
+        "comment_tag": "Curiosity",
+        "reasoning": "Step 5: Explicit question about a future change in the chart's contents."
+      },
+      {
+        "id": 3,
+        "sentence": "How would that affect the graph?",
+        "depends_on": [
+          {
+            "id": 1,
+            "edge_type": "Inferential",
+            "justification": "(1) Edge exists because 'that' refers to the automation trend in A, and B asks for its consequence on the graph. (2) Inferential because B is a predicted effect of A, moving beyond A's statement rather than merely refining it or expressing a subjective reaction."
+          },
+          {
+            "id": 2,
+            "edge_type": "Inferential",
+            "justification": "(1) Edge exists because 'that' can also refer to the jobs mentioned in B, and the question asks what their removal would do to the graph. (2) Inferential because B seeks a downstream consequence of the disappearance described in A, not an evaluation or elaboration."
+          }
+        ],
+        "comment_tag": "Curiosity",
+        "reasoning": "Step 5: Explicit question about a hypothetical effect."
+      }
+    ]
   },
   {
     "article_id": "34",
@@ -19348,7 +19837,67 @@
       "Purple jobs are other jobs.": 5,
       "Why are most gray jobs more spread out than other jobs?": 6
     },
-    "dependency_graph": null
+    "dependency_graph": [
+      {
+        "id": 0,
+        "sentence": "Could these jobs be organized in relation to salary and average life expectancy?",
+        "depends_on": [],
+        "comment_tag": "Curiosity",
+        "reasoning": "Step 5: Explicit question about a possible organization of the data."
+      },
+      {
+        "id": 1,
+        "sentence": "Could divorce rates and average credit scores be derived from this graph?",
+        "depends_on": [],
+        "comment_tag": "Curiosity",
+        "reasoning": "Step 5: Explicit question about whether additional information can be derived."
+      },
+      {
+        "id": 2,
+        "sentence": "I notice that most gray jobs are more spread out than other jobs.",
+        "depends_on": [
+          {
+            "id": 3,
+            "edge_type": "Elaborative",
+            "justification": "(1) Edge exists because B refers to the same set of jobs by contrasting gray jobs with 'other jobs,' which are introduced in A as green jobs. (2) Elaborative because B is a descriptive observation about the graph's grouping/spread, not a causal explanation, subjective judgment, or counterpoint."
+          },
+          {
+            "id": 4,
+            "edge_type": "Elaborative",
+            "justification": "(1) Edge exists because B refers to the same set of jobs by contrasting gray jobs with 'other jobs,' which are introduced in A as purple jobs. (2) Elaborative because B continues the graph-reading description by specifying the comparison class rather than introducing new reasoning or evaluation."
+          }
+        ],
+        "comment_tag": "Visual Observation: Cross-point Pattern Recognition",
+        "reasoning": "Step 2c: Describes the distribution of gray jobs relative to other jobs."
+      },
+      {
+        "id": 3,
+        "sentence": "Green jobs are other jobs.",
+        "depends_on": [],
+        "comment_tag": "Visual Observation: Chart Structure & Text",
+        "reasoning": "Step 2a: Refers to the chart's color-coded job grouping, though the ACE is terse/garbled."
+      },
+      {
+        "id": 4,
+        "sentence": "Purple jobs are other jobs.",
+        "depends_on": [],
+        "comment_tag": "Visual Observation: Chart Structure & Text",
+        "reasoning": "Step 2a: Refers to the chart's color-coded job grouping, though the ACE is terse/garbled."
+      },
+      {
+        "id": 5,
+        "sentence": "Why are most gray jobs more spread out than other jobs?",
+        "depends_on": [
+          {
+            "id": 2,
+            "edge_type": "Evaluative",
+            "justification": "(1) Edge exists because B directly asks about the observation that most gray jobs are more spread out than other jobs. (2) Evaluative because the sentence expresses curiosity/questioning about A's pattern rather than elaborating it or explaining it causally."
+          }
+        ],
+        "comment_tag": "Curiosity",
+        "reasoning": "Step 5: Explicit question about the observed distribution of gray jobs."
+      }
+    ]
   },
   {
     "article_id": "34",
@@ -19371,7 +19920,28 @@
       "I notice that physicists have the most emphasis on communication and critical thinking skills among this graph.": 1,
       "I wonder if the colors indicate anything about the jobs or the work a job requires.": 2
     },
-    "dependency_graph": null
+    "dependency_graph": [
+      {
+        "id": 0,
+        "sentence": "I notice that physicists have the most emphasis on communication and critical thinking skills among this graph.",
+        "depends_on": [],
+        "comment_tag": "Visual Observation: Cross-point Pattern Recognition",
+        "reasoning": "Step 2c: Identifies a named job and compares it against others on the communication/critical-thinking dimension."
+      },
+      {
+        "id": 1,
+        "sentence": "I wonder if the colors indicate anything about the jobs or the work a job requires.",
+        "depends_on": [
+          {
+            "id": 0,
+            "edge_type": "Evaluative",
+            "justification": "(1) Edge exists because B refers to 'the colors' in the graph that A is discussing, so the question is prompted by the same visual content. (2) Evaluative because B expresses curiosity about the meaning of A's observation rather than adding detail (Elaborative), explaining a cause (Inferential), or contrasting it (Contrastive)."
+          }
+        ],
+        "comment_tag": "Curiosity",
+        "reasoning": "Step 5: Explicit 'I wonder if' expresses curiosity about the meaning of the colors."
+      }
+    ]
   },
   {
     "article_id": "34",
@@ -19419,7 +19989,84 @@
       "The headline is:": 6,
       "Jobs: What's Their Focus?": 7
     },
-    "dependency_graph": null
+    "dependency_graph": [
+      {
+        "id": 0,
+        "sentence": "I notice that the 1st quadrant is mostly hospitality.",
+        "depends_on": [],
+        "comment_tag": "Visual Observation: Cross-point Pattern Recognition",
+        "reasoning": "Step 2c: Compares the distribution of jobs within one quadrant and summarizes the visible pattern, without extracting a single value."
+      },
+      {
+        "id": 1,
+        "sentence": "I notice that the 2nd quadrant is mostly governmental jobs.",
+        "depends_on": [],
+        "comment_tag": "Visual Observation: Cross-point Pattern Recognition",
+        "reasoning": "Step 2c: Describes the visible clustering of jobs in a quadrant as a pattern across multiple points."
+      },
+      {
+        "id": 2,
+        "sentence": "I notice that the 3rd quadrant is mostly based on the scientific field.",
+        "depends_on": [],
+        "comment_tag": "Visual Observation: Cross-point Pattern Recognition",
+        "reasoning": "Step 2c: Summarizes a quadrant-level pattern from multiple plotted jobs rather than one data point."
+      },
+      {
+        "id": 3,
+        "sentence": "I notice that the 4th quadrant is mostly jobs that do not need a lot of education.",
+        "depends_on": [],
+        "comment_tag": "Visual Observation: Cross-point Pattern Recognition",
+        "reasoning": "Step 2c: Characterizes the overall grouping of jobs in a quadrant, which is a cross-point pattern."
+      },
+      {
+        "id": 4,
+        "sentence": "I wonder if the jobs that stray far from the graph have a specific difference in what they are meant for than the ones closer to the mid point.",
+        "depends_on": [
+          {
+            "id": 0,
+            "edge_type": "Evaluative",
+            "justification": "(1) Edge exists because the question is prompted by the quadrant observations about job types in the graph. (2) Evaluative because 'I wonder if' expresses curiosity about those observations rather than adding factual detail (Elaborative) or proposing a cause (Inferential)."
+          },
+          {
+            "id": 1,
+            "edge_type": "Evaluative",
+            "justification": "(1) Edge exists because the question is prompted by the quadrant observations about job types in the graph. (2) Evaluative because 'I wonder if' expresses curiosity about those observations rather than adding factual detail (Elaborative) or proposing a cause (Inferential)."
+          },
+          {
+            "id": 2,
+            "edge_type": "Evaluative",
+            "justification": "(1) Edge exists because the question is prompted by the quadrant observations about job types in the graph. (2) Evaluative because 'I wonder if' expresses curiosity about those observations rather than adding factual detail (Elaborative) or proposing a cause (Inferential)."
+          },
+          {
+            "id": 3,
+            "edge_type": "Evaluative",
+            "justification": "(1) Edge exists because the question is prompted by the quadrant observations about job types in the graph. (2) Evaluative because 'I wonder if' expresses curiosity about those observations rather than adding factual detail (Elaborative) or proposing a cause (Inferential)."
+          }
+        ],
+        "comment_tag": "Curiosity",
+        "reasoning": "Step 5: Expresses uncertainty and asks whether distant jobs differ from central ones, which is curiosity."
+      },
+      {
+        "id": 5,
+        "sentence": "The headline is:",
+        "depends_on": [],
+        "comment_tag": "Meta / Paratext",
+        "reasoning": "Step 1: This is paratext about the graph artifact itself, introducing a headline rather than describing chart data."
+      },
+      {
+        "id": 6,
+        "sentence": "Jobs: What's Their Focus?",
+        "depends_on": [
+          {
+            "id": 5,
+            "edge_type": "Elaborative",
+            "justification": "(1) Edge exists because the quoted text completes and specifies the incomplete headline introduced in A. (2) Elaborative because B is a direct continuation of the headline frame rather than a causal claim, subjective reaction, or contrast."
+          }
+        ],
+        "comment_tag": "Meta / Paratext",
+        "reasoning": "Step 1: This is a user-generated headline/title for the graph, which is meta commentary."
+      }
+    ]
   },
   {
     "article_id": "34",
@@ -19442,7 +20089,28 @@
       "I notice that many of the jobs on the left involve medical assistance or community involvement.": 1,
       "I wonder how the colors differentiate the jobs from one another.": 2
     },
-    "dependency_graph": null
+    "dependency_graph": [
+      {
+        "id": 0,
+        "sentence": "I notice that many of the jobs on the left involve medical assistance or community involvement.",
+        "depends_on": [],
+        "comment_tag": "Visual Observation: Cross-point Pattern Recognition",
+        "reasoning": "Step 2c: Describes a visible left-side clustering of job types across multiple points."
+      },
+      {
+        "id": 1,
+        "sentence": "I wonder how the colors differentiate the jobs from one another.",
+        "depends_on": [
+          {
+            "id": 0,
+            "edge_type": "Evaluative",
+            "justification": "(1) Edge exists because B refers to the same chart context and asks about how the colors encode the jobs described in A. (2) Evaluative because B expresses curiosity about the visual encoding of A's content, rather than adding factual detail (Elaborative) or explaining a cause (Inferential)."
+          }
+        ],
+        "comment_tag": "Curiosity",
+        "reasoning": "Step 5: Explicitly asks about the meaning of the colors, indicating curiosity about the encoding."
+      }
+    ]
   },
   {
     "article_id": "34",
@@ -19460,7 +20128,15 @@
     "order": {
       "The comment is: nice.": 1
     },
-    "dependency_graph": null
+    "dependency_graph": [
+      {
+        "id": 0,
+        "sentence": "The comment is: nice.",
+        "depends_on": [],
+        "comment_tag": "Meta / Paratext",
+        "reasoning": "Step 1: This is commentary about the comment/task text itself, not about the visualization content."
+      }
+    ]
   },
   {
     "article_id": "34",
@@ -19518,7 +20194,113 @@
       "The headline is:": 8,
       "Study's show that in just 5 years over half of our world's jobs might be automated": 9
     },
-    "dependency_graph": null
+    "dependency_graph": [
+      {
+        "id": 0,
+        "sentence": "I noticed that more physical jobs and labor jobs were at higher risk of being automated.",
+        "depends_on": [],
+        "comment_tag": "Visual Observation: Cross-point Pattern Recognition",
+        "reasoning": "Step 2c: Compares groups of jobs and states an observed relationship between physical/labor work and automation risk."
+      },
+      {
+        "id": 1,
+        "sentence": "I wonder where they found this information.",
+        "depends_on": [
+          {
+            "id": 0,
+            "edge_type": "Evaluative",
+            "justification": "(1) Edge exists because B is a question prompted by the risk claim in A, asking about the source of that information. (2) Evaluative because B expresses the viewer's curiosity about A rather than adding factual detail, explaining a cause, or contrasting it."
+          }
+        ],
+        "comment_tag": "Curiosity",
+        "reasoning": "Step 5: Requests the source of the information, which is an explicit expression of curiosity."
+      },
+      {
+        "id": 2,
+        "sentence": "I wonder why they would release this to the public.",
+        "depends_on": [
+          {
+            "id": 0,
+            "edge_type": "Evaluative",
+            "justification": "(1) Edge exists because B is a curiosity response to the public-risk claim in A and asks for the motive behind presenting it. (2) Evaluative because B registers subjective questioning about A, not an elaboration of the claim or a causal consequence."
+          }
+        ],
+        "comment_tag": "Curiosity",
+        "reasoning": "Step 5: Asks why the information was released, showing curiosity about motivation or source context."
+      },
+      {
+        "id": 3,
+        "sentence": "They might release this to the public to make people feel diminished.",
+        "depends_on": [
+          {
+            "id": 2,
+            "edge_type": "Inferential",
+            "justification": "(1) Edge exists because B answers the question in A by proposing a motive for releasing the information. (2) Inferential because B introduces a speculative explanation of purpose, which goes beyond A's question rather than merely refining it."
+          }
+        ],
+        "comment_tag": "Inference: Explanatory",
+        "reasoning": "Step 6: Proposes a motive/cause for releasing the chart, linking the action to an intended effect."
+      },
+      {
+        "id": 4,
+        "sentence": "They might release this to the public to show the shocking truth.",
+        "depends_on": [
+          {
+            "id": 2,
+            "edge_type": "Inferential",
+            "justification": "(1) Edge exists because B also offers a possible motive in response to the question posed in A. (2) Inferential because B supplies a candidate explanation for why the information was released, not a subjective reaction or a simple restatement."
+          }
+        ],
+        "comment_tag": "Inference: Explanatory",
+        "reasoning": "Step 6: Gives a causal explanation for why the chart was released, namely to reveal a truth."
+      },
+      {
+        "id": 5,
+        "sentence": "The graph shows that people are at high risk for labor jobs.",
+        "depends_on": [
+          {
+            "id": 0,
+            "edge_type": "Elaborative",
+            "justification": "(1) Edge exists because B restates the same risk idea from A using the graph as the source and focusing on labor jobs. (2) Elaborative because B develops A's observation with a more specific visual reference rather than introducing a new cause, judgment, or contrast."
+          }
+        ],
+        "comment_tag": "Visual Observation: Cross-point Pattern Recognition",
+        "reasoning": "Step 2c: Summarizes an overall pattern across jobs, not a single extracted value."
+      },
+      {
+        "id": 6,
+        "sentence": "A labor job might become a robot's job.",
+        "depends_on": [
+          {
+            "id": 0,
+            "edge_type": "Inferential",
+            "justification": "(1) Edge exists because B draws out the consequence of the automation risk described in A. (2) Inferential because B predicts a future outcome from A's claim, rather than merely specifying it or expressing a stance."
+          }
+        ],
+        "comment_tag": "Inference: Predictive / Hypothetical",
+        "reasoning": "Step 8: Projects a hypothetical future outcome about a job being replaced by a robot."
+      },
+      {
+        "id": 7,
+        "sentence": "The headline is:",
+        "depends_on": [],
+        "comment_tag": "Meta / Paratext",
+        "reasoning": "Step 1: This is paratext introducing a headline, not a chart observation."
+      },
+      {
+        "id": 8,
+        "sentence": "Study's show that in just 5 years over half of our world's jobs might be automated",
+        "depends_on": [
+          {
+            "id": 7,
+            "edge_type": "Elaborative",
+            "justification": "(1) Edge exists because B completes and specifies the incomplete headline introduced in A. (2) Elaborative because B is a continuation of the headline text, not a causal claim, evaluation, or contrast."
+          }
+        ],
+        "comment_tag": "Inference: Predictive / Hypothetical",
+        "reasoning": "Step 8: Future-oriented projection about automation over time, beyond what is directly shown."
+      }
+    ]
   },
   {
     "article_id": "34",
@@ -19576,7 +20358,122 @@
       "The headline is:": 8,
       "How Machines are Taking Over Human Jobs.": 9
     },
-    "dependency_graph": null
+    "dependency_graph": [
+      {
+        "id": 0,
+        "sentence": "Most of the jobs that require physical work can be automated.",
+        "depends_on": [],
+        "comment_tag": "Visual Observation: Cross-point Pattern Recognition",
+        "reasoning": "Step 2c: States a broad pattern across many jobs in the chart, comparing physical work with automability."
+      },
+      {
+        "id": 1,
+        "sentence": "I wonder how some people would react.",
+        "depends_on": [
+          {
+            "id": 0,
+            "edge_type": "Evaluative",
+            "justification": "(1) Edge exists because B is a reaction to the automation claim in A, asking about people's response to jobs being automated. (2) Evaluative because B expresses subjective curiosity about A rather than adding factual detail (Elaborative) or explaining a consequence (Inferential)."
+          }
+        ],
+        "comment_tag": "Curiosity",
+        "reasoning": "Step 5: Expresses curiosity about people's reactions, which are not shown in the chart."
+      },
+      {
+        "id": 2,
+        "sentence": "Some people would see that their jobs could be done by machines.",
+        "depends_on": [
+          {
+            "id": 0,
+            "edge_type": "Inferential",
+            "justification": "(1) Edge exists because B describes the likely realization people would have in response to the automation claim in A. (2) Inferential because B states a consequence of A's premise, not a refinement of A's content or a subjective judgment."
+          },
+          {
+            "id": 1,
+            "edge_type": "Inferential",
+            "justification": "(1) Edge exists because B answers the question posed in A about how people would react. (2) Inferential because B provides a predicted reaction, which is a consequence of the curiosity in A rather than an elaboration or contrast."
+          }
+        ],
+        "comment_tag": "Inference: Predictive / Hypothetical",
+        "reasoning": "Step 8: Hypothetical future reaction or realization about jobs being done by machines."
+      },
+      {
+        "id": 3,
+        "sentence": "I think that this will make many people lose their jobs.",
+        "depends_on": [
+          {
+            "id": 0,
+            "edge_type": "Inferential",
+            "justification": "(1) Edge exists because B follows from the automation premise in A by predicting job loss. (2) Inferential because B introduces a new outcome caused by A, rather than merely restating A or expressing a stance."
+          },
+          {
+            "id": 2,
+            "edge_type": "Inferential",
+            "justification": "(1) Edge exists because B builds on the idea in A that jobs could be done by machines, turning that into job loss. (2) Inferential because B reasons beyond A to a consequence, not a detail or subjective reaction."
+          }
+        ],
+        "comment_tag": "Inference: Predictive / Hypothetical",
+        "reasoning": "Step 8: Predicts a future consequence of automation, which goes beyond the observed chart."
+      },
+      {
+        "id": 4,
+        "sentence": "I think that this will make many people not be able to make a living.",
+        "depends_on": [
+          {
+            "id": 3,
+            "edge_type": "Inferential",
+            "justification": "(1) Edge exists because B extends the job-loss consequence in A into an inability to earn a living. (2) Inferential because B adds a further predicted effect, not a clarification or evaluation of A."
+          }
+        ],
+        "comment_tag": "Inference: Predictive / Hypothetical",
+        "reasoning": "Step 8: Forecasts a future consequence, not a directly observed chart pattern."
+      },
+      {
+        "id": 5,
+        "sentence": "I also think that this will not be good for the environment.",
+        "depends_on": [
+          {
+            "id": 0,
+            "edge_type": "Inferential",
+            "justification": "(1) Edge exists because B links the automation of physical jobs in A to an environmental downside. (2) Inferential because B introduces a new consequence of A, rather than elaborating on A's content or merely reacting to it."
+          },
+          {
+            "id": 6,
+            "edge_type": "Inferential",
+            "justification": "(1) Edge exists because B is supported by the pollution claim in A, which gives a reason why the situation would harm the environment. (2) Inferential because B draws a causal conclusion from A's factual statement, not a subjective judgment alone."
+          }
+        ],
+        "comment_tag": "Inference: Predictive / Hypothetical",
+        "reasoning": "Step 8: Predicts a future effect on the environment, which is hypothetical reasoning."
+      },
+      {
+        "id": 6,
+        "sentence": "Most machines pollute the air.",
+        "depends_on": [],
+        "comment_tag": "Prior Knowledge: Background",
+        "reasoning": "Step 7: Standalone factual claim about machines and pollution, not derived from the chart."
+      },
+      {
+        "id": 7,
+        "sentence": "The headline is:",
+        "depends_on": [],
+        "comment_tag": "Meta / Paratext",
+        "reasoning": "Step 1: This is a headline prompt about the artifact, not chart content."
+      },
+      {
+        "id": 8,
+        "sentence": "How Machines are Taking Over Human Jobs.",
+        "depends_on": [
+          {
+            "id": 0,
+            "edge_type": "Elaborative",
+            "justification": "(1) Edge exists because the headline restates the main topic of A: machines replacing human work. (2) Elaborative because B summarizes and frames A's content without adding a new cause, judgment, or counterpoint."
+          }
+        ],
+        "comment_tag": "Meta / Paratext",
+        "reasoning": "Step 1: This is a user-generated headline/title for the graph, so it is meta commentary."
+      }
+    ]
   },
   {
     "article_id": "34",
@@ -19639,7 +20536,131 @@
       "Is your job at risk of termination due to wider spread automation?": 9,
       "See what this graph says": 10
     },
-    "dependency_graph": null
+    "dependency_graph": [
+      {
+        "id": 0,
+        "sentence": "I noticed that it graphs what jobs could be replaced by robots or A.I.",
+        "depends_on": [],
+        "comment_tag": "Visual Observation: Chart Structure & Text",
+        "reasoning": "Step 2a: Describes what the chart is about and what the plotted labels represent, without extracting a value."
+      },
+      {
+        "id": 1,
+        "sentence": "Green means less likely.",
+        "depends_on": [
+          {
+            "id": 0,
+            "edge_type": "Elaborative",
+            "justification": "(1) Edge exists because B explains the color encoding used in the graph introduced in A. (2) Elaborative because B decodes a visual feature of A rather than adding a cause, judgment, or counterpoint."
+          }
+        ],
+        "comment_tag": "Visual Observation: Chart Structure & Text",
+        "reasoning": "Step 2a: Decodes the color legend meaning, which is chart structure/text rather than a data value."
+      },
+      {
+        "id": 2,
+        "sentence": "Purple means more likely.",
+        "depends_on": [
+          {
+            "id": 0,
+            "edge_type": "Elaborative",
+            "justification": "(1) Edge exists because B explains the color encoding used in the graph introduced in A. (2) Elaborative because B decodes a visual feature of A rather than adding a cause, judgment, or counterpoint."
+          }
+        ],
+        "comment_tag": "Visual Observation: Chart Structure & Text",
+        "reasoning": "Step 2a: Interprets the color encoding from the legend, a structural chart element."
+      },
+      {
+        "id": 3,
+        "sentence": "I wonder if it takes into account arts like painting and drawing.",
+        "depends_on": [
+          {
+            "id": 0,
+            "edge_type": "Evaluative",
+            "justification": "(1) Edge exists because B is a question prompted by the graph described in A. (2) Evaluative because it expresses curiosity about A's scope rather than elaborating on the graph's content or explaining it causally."
+          }
+        ],
+        "comment_tag": "Curiosity",
+        "reasoning": "Step 5: Explicitly asks whether certain jobs are included, showing curiosity about missing information."
+      },
+      {
+        "id": 4,
+        "sentence": "A.I art programs like Dall.E and Midjourney become increasingly more popular.",
+        "depends_on": [
+          {
+            "id": 3,
+            "edge_type": "Inferential",
+            "justification": "(1) Edge exists because B provides a relevant example of AI-related art that answers the concern raised in A. (2) Inferential because B goes beyond A by supplying evidence or a possible reason for including art, rather than merely refining A's wording."
+          }
+        ],
+        "comment_tag": "Prior Knowledge: Background",
+        "reasoning": "Step 7: General claim about AI art programs becoming popular, not directly shown in the chart."
+      },
+      {
+        "id": 5,
+        "sentence": "If the jobs in deep purple are going to be replaced, how are the people in those jobs going to find another job?",
+        "depends_on": [
+          {
+            "id": 2,
+            "edge_type": "Inferential",
+            "justification": "(1) Edge exists because B takes the 'more likely' deep-purple jobs from A as the condition for its question about replacement. (2) Inferential because B projects a consequence of A's claim (job replacement leading to unemployment concerns), not a simple restatement or visual clarification."
+          }
+        ],
+        "comment_tag": "Inference: Predictive / Hypothetical",
+        "reasoning": "Step 8: Hypothetical conditional about future replacement and consequences for workers."
+      },
+      {
+        "id": 6,
+        "sentence": "For example, the shutting down of coal mines cannot happen on a mass scale until we make more jobs in electric technology.",
+        "depends_on": [
+          {
+            "id": 5,
+            "edge_type": "Inferential",
+            "justification": "(1) Edge exists because B gives a concrete example of the job-transition problem raised in A. (2) Inferential because B develops A into a causal/conditional claim about what must happen before coal mines can shut down, rather than merely adding detail."
+          }
+        ],
+        "comment_tag": "Inference: Predictive / Hypothetical",
+        "reasoning": "Step 8: Future-oriented conditional about what would need to happen, which is hypothetical reasoning."
+      },
+      {
+        "id": 7,
+        "sentence": "My idea for a catchy headline would be:",
+        "depends_on": [],
+        "comment_tag": "Meta / Paratext",
+        "reasoning": "Step 1: This is meta commentary introducing a proposed headline for the graph."
+      },
+      {
+        "id": 8,
+        "sentence": "Is your job at risk of termination due to wider spread automation?",
+        "depends_on": [
+          {
+            "id": 0,
+            "edge_type": "Elaborative",
+            "justification": "(1) Edge exists because B restates the graph's topic from A in headline form, focusing on jobs being replaced by automation. (2) Elaborative because B is a rephrasing/packaging of A's content rather than a new causal claim, evaluation, or contrast."
+          },
+          {
+            "id": 7,
+            "edge_type": "Elaborative",
+            "justification": "(1) Edge exists because B is explicitly introduced as the catchy headline idea mentioned in A. (2) Elaborative because B completes and specifies A's headline prompt without adding a new argument or stance."
+          }
+        ],
+        "comment_tag": "Meta / Paratext",
+        "reasoning": "Step 1: This is a user-generated headline/question about the graph artifact, not a chart observation."
+      },
+      {
+        "id": 9,
+        "sentence": "See what this graph says",
+        "depends_on": [
+          {
+            "id": 0,
+            "edge_type": "Elaborative",
+            "justification": "(1) Edge exists because B refers back to the graph introduced in A with 'this graph.' (2) Elaborative because B is a brief continuation/imperative tied to A's graph rather than a causal explanation or subjective judgment."
+          }
+        ],
+        "comment_tag": "Meta / Paratext",
+        "reasoning": "Step 1: This is a task-oriented prompt about the graph artifact itself."
+      }
+    ]
   },
   {
     "article_id": "34",
@@ -19752,7 +20773,261 @@
       "Some things go terribly wrong.": 19,
       "Some things do not work how they thought it would work.": 20
     },
-    "dependency_graph": null
+    "dependency_graph": [
+      {
+        "id": 0,
+        "sentence": "I notice that there are a lot of jobs that involve a lot of robots and automated things.",
+        "depends_on": [],
+        "comment_tag": "Visual Observation: Cross-point Pattern Recognition",
+        "reasoning": "Step 2c: Summarizes a broad visible pattern across many jobs in the chart."
+      },
+      {
+        "id": 1,
+        "sentence": "A taxi driver may use auto pilot.",
+        "depends_on": [
+          {
+            "id": 0,
+            "edge_type": "Elaborative",
+            "justification": "(1) Edge exists because B gives a concrete example of the robot/automation in jobs mentioned in A. (2) Elaborative because B specifies A's general claim with a particular case rather than adding a cause, judgment, or counterpoint."
+          }
+        ],
+        "comment_tag": "Prior Knowledge: Background",
+        "reasoning": "Step 7: Standalone claim about taxi drivers and autopilot, not directly shown in the chart."
+      },
+      {
+        "id": 2,
+        "sentence": "Some people do not feel comfortable with auto pilot.",
+        "depends_on": [
+          {
+            "id": 1,
+            "edge_type": "Evaluative",
+            "justification": "(1) Edge exists because B responds to the autopilot example in A by stating a subjective discomfort with it. (2) Evaluative because B expresses a personal stance/reaction, not a factual elaboration or causal explanation."
+          }
+        ],
+        "comment_tag": "Prior Knowledge: Background",
+        "reasoning": "Step 7: General statement about people's feelings toward autopilot, not chart-derived."
+      },
+      {
+        "id": 3,
+        "sentence": "A lot of people have either gotten into a really bad car accident or have died.",
+        "depends_on": [
+          {
+            "id": 2,
+            "edge_type": "Inferential",
+            "justification": "(1) Edge exists because B gives a reason for why people might feel uncomfortable with autopilot in A, namely the risk of accidents and death. (2) Inferential because B introduces a consequence/explanation beyond A rather than merely refining it."
+          }
+        ],
+        "comment_tag": "Prior Knowledge: Background",
+        "reasoning": "Step 7: Standalone factual claim about accidents and deaths, not visible in the chart."
+      },
+      {
+        "id": 4,
+        "sentence": "I wonder why robots have to exist.",
+        "depends_on": [
+          {
+            "id": 0,
+            "edge_type": "Evaluative",
+            "justification": "(1) Edge exists because B is a curiosity response to the presence of robots and automation described in A. (2) Evaluative because 'I wonder why' expresses subjective questioning rather than a factual elaboration or causal claim."
+          }
+        ],
+        "comment_tag": "Curiosity",
+        "reasoning": "Step 5: Explicit question expressing curiosity about robots' existence."
+      },
+      {
+        "id": 5,
+        "sentence": "I know that I would live a much happier childhood and life if screens like this did not exist like they do now.",
+        "depends_on": [
+          {
+            "id": 0,
+            "edge_type": "Inferential",
+            "justification": "(1) Edge exists because B uses the screen/technology context from A to project a hypothetical outcome about the speaker's life. (2) Inferential because B states a conditional consequence ('if...did not exist') rather than just adding detail."
+          }
+        ],
+        "comment_tag": "Prior Knowledge: Personal / Episodic",
+        "reasoning": "Step 3: Self-reference about the commenter's own life and hypothetical personal experience."
+      },
+      {
+        "id": 6,
+        "sentence": "It would affect a community.",
+        "depends_on": [
+          {
+            "id": 5,
+            "edge_type": "Inferential",
+            "justification": "(1) Edge exists because B extends the hypothetical in A to a broader social consequence. (2) Inferential because B reasons beyond A by predicting an effect on a community, not merely elaborating the same idea."
+          }
+        ],
+        "comment_tag": "Inference: Predictive / Hypothetical",
+        "reasoning": "Step 8: Hypothetical future effect on a community, not a direct chart observation."
+      },
+      {
+        "id": 7,
+        "sentence": "No one ever actually really hangs out as much as they used to.",
+        "depends_on": [
+          {
+            "id": 6,
+            "edge_type": "Inferential",
+            "justification": "(1) Edge exists because B states a concrete social outcome that follows from the community-level effect in A. (2) Inferential because B develops the consequence chain rather than restating or qualifying A."
+          }
+        ],
+        "comment_tag": "Prior Knowledge: Background",
+        "reasoning": "Step 7: General claim about social behavior over time, not directly shown in the chart."
+      },
+      {
+        "id": 8,
+        "sentence": "We all have phones now.",
+        "depends_on": [
+          {
+            "id": 7,
+            "edge_type": "Inferential",
+            "justification": "(1) Edge exists because B offers a plausible explanation for the reduced hanging out described in A. (2) Inferential because B introduces a causal factor (phones) rather than a mere detail or subjective reaction."
+          }
+        ],
+        "comment_tag": "Prior Knowledge: Background",
+        "reasoning": "Step 7: General factual claim about current phone use, not chart-derived."
+      },
+      {
+        "id": 9,
+        "sentence": "My parents recently just got me a phone.",
+        "depends_on": [
+          {
+            "id": 8,
+            "edge_type": "Elaborative",
+            "justification": "(1) Edge exists because B personalizes and concretizes the general statement in A about everyone having phones. (2) Elaborative because B adds a specific example from the speaker's life without introducing a new cause or judgment."
+          }
+        ],
+        "comment_tag": "Prior Knowledge: Personal / Episodic",
+        "reasoning": "Step 3: Personal family/self-reference about the commenter's own experience."
+      },
+      {
+        "id": 10,
+        "sentence": "I am very grateful that they did.",
+        "depends_on": [
+          {
+            "id": 9,
+            "edge_type": "Evaluative",
+            "justification": "(1) Edge exists because B reacts to the phone-giving event in A with gratitude. (2) Evaluative because it expresses the speaker's subjective appreciation rather than elaborating the event or explaining it."
+          }
+        ],
+        "comment_tag": "Evaluative: Reactive",
+        "reasoning": "Step 4b: Expresses gratitude, an emotional reaction without prescribing action."
+      },
+      {
+        "id": 11,
+        "sentence": "I also do not want the phone.",
+        "depends_on": [
+          {
+            "id": 9,
+            "edge_type": "Contrastive",
+            "justification": "(1) Edge exists because B contrasts with A's phone-giving event by stating a negative desire about the phone. (2) Contrastive because it introduces tension with the prior positive/received-phone context rather than extending it in the same direction."
+          }
+        ],
+        "comment_tag": "Prior Knowledge: Personal / Episodic",
+        "reasoning": "Step 3: Personal preference/self-reference."
+      },
+      {
+        "id": 12,
+        "sentence": "I am going to get addicted to it.",
+        "depends_on": [
+          {
+            "id": 11,
+            "edge_type": "Inferential",
+            "justification": "(1) Edge exists because B explains why the speaker does not want the phone in A: fear of addiction. (2) Inferential because B predicts a consequence of having the phone, not merely elaborating A."
+          }
+        ],
+        "comment_tag": "Inference: Predictive / Hypothetical",
+        "reasoning": "Step 8: Predicts a future personal outcome, which is hypothetical reasoning."
+      },
+      {
+        "id": 13,
+        "sentence": "I do not want to get addicted to it.",
+        "depends_on": [
+          {
+            "id": 12,
+            "edge_type": "Evaluative",
+            "justification": "(1) Edge exists because B directly responds to the addiction concern in A with a negative preference. (2) Evaluative because it is a subjective aversion, not a factual refinement or causal explanation."
+          }
+        ],
+        "comment_tag": "Prior Knowledge: Personal / Episodic",
+        "reasoning": "Step 3: Personal preference/self-reference about the speaker's own desire."
+      },
+      {
+        "id": 14,
+        "sentence": "I think that it would be much better if screens did not exist.",
+        "depends_on": [
+          {
+            "id": 5,
+            "edge_type": "Evaluative",
+            "justification": "(1) Edge exists because B evaluates the hypothetical world described in A as preferable. (2) Evaluative because 'I think that it would be much better' is a normative judgment, not an inference or elaboration."
+          },
+          {
+            "id": 13,
+            "edge_type": "Inferential",
+            "justification": "(1) Edge exists because B follows from the concern about addiction in A by generalizing to a broader claim about screens. (2) Inferential because B draws a conclusion about what would be better based on the prior negative consequence."
+          }
+        ],
+        "comment_tag": "Inference: Predictive / Hypothetical",
+        "reasoning": "Step 8: Hypothetical counterfactual about screens not existing."
+      },
+      {
+        "id": 15,
+        "sentence": "I think that a catchy headline would be:",
+        "depends_on": [
+          {
+            "id": 14,
+            "edge_type": "Elaborative",
+            "justification": "(1) Edge exists because B shifts from the evaluation in A to a proposed headline that summarizes the same viewpoint. (2) Elaborative because it continues the same topic by framing it rhetorically rather than adding a new cause or counterpoint."
+          }
+        ],
+        "comment_tag": "Meta / Paratext",
+        "reasoning": "Step 1: Meta commentary introducing a proposed headline."
+      },
+      {
+        "id": 16,
+        "sentence": "What Job Would You Trust?",
+        "depends_on": [
+          {
+            "id": 15,
+            "edge_type": "Elaborative",
+            "justification": "(1) Edge exists because B is the actual headline introduced in A. (2) Elaborative because it completes and specifies the headline proposal rather than making a causal or evaluative claim."
+          }
+        ],
+        "comment_tag": "Meta / Paratext",
+        "reasoning": "Step 1: User-generated headline/title for the graph, which is paratext."
+      },
+      {
+        "id": 17,
+        "sentence": "Some things were invented.",
+        "depends_on": [],
+        "comment_tag": "Prior Knowledge: Background",
+        "reasoning": "Step 7: Standalone factual claim about invention, not chart-derived."
+      },
+      {
+        "id": 18,
+        "sentence": "Some things go terribly wrong.",
+        "depends_on": [
+          {
+            "id": 17,
+            "edge_type": "Inferential",
+            "justification": "(1) Edge exists because B states a negative consequence of inventions mentioned in A. (2) Inferential because B moves from the fact of invention to an outcome, not merely elaborating the invention claim."
+          }
+        ],
+        "comment_tag": "Prior Knowledge: Background",
+        "reasoning": "Step 7: General claim about things going wrong, not a chart observation."
+      },
+      {
+        "id": 19,
+        "sentence": "Some things do not work how they thought it would work.",
+        "depends_on": [
+          {
+            "id": 18,
+            "edge_type": "Elaborative",
+            "justification": "(1) Edge exists because B restates the idea of things going wrong in A with more specific wording about malfunction or mismatch with expectations. (2) Elaborative because it refines the same negative outcome rather than introducing a new cause or stance."
+          }
+        ],
+        "comment_tag": "Prior Knowledge: Background",
+        "reasoning": "Step 7: General claim about malfunction or mismatch, not directly shown in the chart."
+      }
+    ]
   },
   {
     "article_id": "34",
@@ -19850,7 +21125,217 @@
       "NPC's are non-playable-characters.": 16,
       "They are taking away jobs from people like cashiers.": 17
     },
-    "dependency_graph": null
+    "dependency_graph": [
+      {
+        "id": 0,
+        "sentence": "I noticed the graph says what is more automatable and what is less automatable.",
+        "depends_on": [],
+        "comment_tag": "unknown",
+        "reasoning": ""
+      },
+      {
+        "id": 1,
+        "sentence": "I wonder why food preparation is listed as more automatable.",
+        "depends_on": [
+          {
+            "id": 0,
+            "edge_type": "Evaluative",
+            "justification": "(1) Edge exists because B is a reaction to the graph-reading observation in A and asks about the classification shown there. (2) Evaluative because 'I wonder why' expresses curiosity about A's content rather than adding factual detail (Elaborative) or proposing a cause as a claim (Inferential)."
+          }
+        ],
+        "comment_tag": "Curiosity",
+        "reasoning": "Step 5: Explicitly asks why a category is placed where it is, indicating curiosity."
+      },
+      {
+        "id": 2,
+        "sentence": "Most food preparation I see now is still made by people.",
+        "depends_on": [
+          {
+            "id": 1,
+            "edge_type": "Inferential",
+            "justification": "(1) Edge exists because B gives the reason for wondering in A by pointing to the current human-made nature of food preparation. (2) Inferential because B functions as evidence/justification for the automatable label, moving beyond A's question rather than merely refining it."
+          }
+        ],
+        "comment_tag": "Prior Knowledge: Background",
+        "reasoning": "Step 7: General observation about current food preparation, not directly shown in the chart."
+      },
+      {
+        "id": 3,
+        "sentence": "Some people may not like food preparation made by robots.",
+        "depends_on": [
+          {
+            "id": 2,
+            "edge_type": "Inferential",
+            "justification": "(1) Edge exists because B follows from the idea in A that food preparation is still human-made: if robots did it, some people might dislike it. (2) Inferential because B introduces a predicted reaction/consequence, not a simple elaboration or subjective judgment about A."
+          }
+        ],
+        "comment_tag": "Prior Knowledge: Background",
+        "reasoning": "Step 7: General claim about people's preferences, not a chart-derived observation."
+      },
+      {
+        "id": 4,
+        "sentence": "Some people may not trust what is in their food.",
+        "depends_on": [
+          {
+            "id": 3,
+            "edge_type": "Inferential",
+            "justification": "(1) Edge exists because B explains a specific reason people may dislike robot-made food in A, namely distrust of the food contents. (2) Inferential because B adds a causal explanation for the concern rather than just restating or specifying A."
+          }
+        ],
+        "comment_tag": "Prior Knowledge: Background",
+        "reasoning": "Step 7: Standalone claim about trust in food, not directly shown in the chart."
+      },
+      {
+        "id": 5,
+        "sentence": "Roofers is also something someone might not feel safe with.",
+        "depends_on": [
+          {
+            "id": 3,
+            "edge_type": "Elaborative",
+            "justification": "(1) Edge exists because B adds another example of a job people may be uneasy about, parallel to robot-made food in A. (2) Elaborative because it extends the same concern with a new example rather than introducing a new causal claim or a contrast."
+          }
+        ],
+        "comment_tag": "Prior Knowledge: Background",
+        "reasoning": "Step 7: General claim about roofers and safety, not a direct chart observation."
+      },
+      {
+        "id": 6,
+        "sentence": "Someone may not trust a machine building the thing they are staying under every day.",
+        "depends_on": [
+          {
+            "id": 5,
+            "edge_type": "Inferential",
+            "justification": "(1) Edge exists because B spells out why roofers might feel unsafe: a machine building something overhead could be untrusted. (2) Inferential because B provides a mechanism/explanation for A's safety concern, not merely a detail or paraphrase."
+          }
+        ],
+        "comment_tag": "Prior Knowledge: Background",
+        "reasoning": "Step 7: General claim about trust in machine-built structures, not chart-derived."
+      },
+      {
+        "id": 7,
+        "sentence": "I think it will make people lose their jobs.",
+        "depends_on": [
+          {
+            "id": 0,
+            "edge_type": "Inferential",
+            "justification": "(1) Edge exists because B draws a consequence from the graph's automatable categories in A. (2) Inferential because B predicts an outcome (job loss) that follows from automation, rather than elaborating the graph or expressing a pure reaction."
+          }
+        ],
+        "comment_tag": "Inference: Predictive / Hypothetical",
+        "reasoning": "Step 8: Predicts a future consequence of automation, beyond the chart itself."
+      },
+      {
+        "id": 8,
+        "sentence": "Maybe fewer people will go to the company.",
+        "depends_on": [
+          {
+            "id": 7,
+            "edge_type": "Inferential",
+            "justification": "(1) Edge exists because B is another predicted consequence of the job-loss idea in A. (2) Inferential because it extends the causal chain with a new outcome, not a refinement or subjective stance."
+          }
+        ],
+        "comment_tag": "Inference: Predictive / Hypothetical",
+        "reasoning": "Step 8: Future-oriented hypothetical prediction about company attendance or demand."
+      },
+      {
+        "id": 9,
+        "sentence": "People may not trust robots doing everything.",
+        "depends_on": [
+          {
+            "id": 0,
+            "edge_type": "Inferential",
+            "justification": "(1) Edge exists because B is a broader consequence of the automatable/robotic work shown in A. (2) Inferential because B states a likely effect on trust, which goes beyond A's graph description."
+          }
+        ],
+        "comment_tag": "Prior Knowledge: Background",
+        "reasoning": "Step 7: General claim about trust in robots, not directly shown in the chart."
+      },
+      {
+        "id": 10,
+        "sentence": "I think it would make going to restaurants less fun.",
+        "depends_on": [
+          {
+            "id": 9,
+            "edge_type": "Inferential",
+            "justification": "(1) Edge exists because B follows from the distrust of robots in A and applies it to restaurant experiences. (2) Inferential because B predicts a downstream effect on enjoyment, not a factual elaboration or a direct contrast."
+          }
+        ],
+        "comment_tag": "Inference: Predictive / Hypothetical",
+        "reasoning": "Step 8: Hypothetical future effect on restaurant experiences."
+      },
+      {
+        "id": 11,
+        "sentence": "You would not be able to interact with your waiter.",
+        "depends_on": [
+          {
+            "id": 10,
+            "edge_type": "Inferential",
+            "justification": "(1) Edge exists because B explains why restaurants would be less fun: the human interaction with a waiter would be lost. (2) Inferential because B gives a consequence/mechanism for A's claim rather than simply adding detail."
+          }
+        ],
+        "comment_tag": "Inference: Predictive / Hypothetical",
+        "reasoning": "Step 8: Hypothetical consequence of automation in restaurants."
+      },
+      {
+        "id": 12,
+        "sentence": "I think a good headline would be:",
+        "depends_on": [],
+        "comment_tag": "Meta / Paratext",
+        "reasoning": "Step 1: Meta commentary introducing a headline suggestion."
+      },
+      {
+        "id": 13,
+        "sentence": "\"job taking NPC's\"",
+        "depends_on": [
+          {
+            "id": 12,
+            "edge_type": "Elaborative",
+            "justification": "(1) Edge exists because B completes the headline introduced in A. (2) Elaborative because it is a continuation/specification of the headline idea rather than a causal claim, evaluation, or contrast."
+          }
+        ],
+        "comment_tag": "Meta / Paratext",
+        "reasoning": "Step 1: This is a proposed headline/title, which is paratext."
+      },
+      {
+        "id": 14,
+        "sentence": "They are NPC's.",
+        "depends_on": [
+          {
+            "id": 13,
+            "edge_type": "Elaborative",
+            "justification": "(1) Edge exists because B clarifies the shorthand in the proposed headline from A. (2) Elaborative because it defines the term used in the headline, adding explanatory detail without new causal or evaluative content."
+          }
+        ],
+        "comment_tag": "Prior Knowledge: Background",
+        "reasoning": "Step 7: Standalone claim about NPCs, not chart-derived and not clearly about the visualization."
+      },
+      {
+        "id": 15,
+        "sentence": "NPC's are non-playable-characters.",
+        "depends_on": [
+          {
+            "id": 14,
+            "edge_type": "Elaborative",
+            "justification": "(1) Edge exists because B expands the abbreviation 'NPC's' mentioned in A. (2) Elaborative because it is a definitional clarification, not a causal explanation or subjective judgment."
+          }
+        ],
+        "comment_tag": "Prior Knowledge: Background",
+        "reasoning": "Step 7: General definitional fact about NPCs, not from the chart."
+      },
+      {
+        "id": 16,
+        "sentence": "They are taking away jobs from people like cashiers.",
+        "depends_on": [
+          {
+            "id": 13,
+            "edge_type": "Inferential",
+            "justification": "(1) Edge exists because B explains the meaning of the headline phrase 'job taking' by stating the job-loss effect. (2) Inferential because it states the consequence implied by the headline rather than merely defining a term or adding a parallel example."
+          }
+        ],
+        "comment_tag": "Inference: Predictive / Hypothetical",
+        "reasoning": "Step 8: Predicts or asserts a future consequence of automation on jobs, beyond the chart."
+      }
+    ]
   },
   {
     "article_id": "34",
@@ -19905,7 +21390,100 @@
       "The headline is:": 7,
       "Robot Taking Jobs, See if Your Job is One of Them!": 8
     },
-    "dependency_graph": null
+    "dependency_graph": [
+      {
+        "id": 0,
+        "sentence": "There are jobs that are purple or green.",
+        "depends_on": [],
+        "comment_tag": "Visual Observation: Chart Structure & Text",
+        "reasoning": "Step 2a: Describes the color encoding present in the chart, which is structural/textual information."
+      },
+      {
+        "id": 1,
+        "sentence": "These jobs determine which jobs are more automatable or not.",
+        "depends_on": [
+          {
+            "id": 0,
+            "edge_type": "Elaborative",
+            "justification": "(1) Edge exists because 'these jobs' refers back to the purple or green jobs introduced in A. (2) Elaborative because B clarifies the role of those jobs in the chart by specifying what they indicate, rather than adding a cause, judgment, or contrast."
+          }
+        ],
+        "comment_tag": "Visual Observation: Chart Structure & Text",
+        "reasoning": "Step 2a: Explains what the chart's color/encoding indicates, without extracting a specific value."
+      },
+      {
+        "id": 2,
+        "sentence": "I wonder if one day the jobs on this chart will be taken over by machines.",
+        "depends_on": [
+          {
+            "id": 1,
+            "edge_type": "Evaluative",
+            "justification": "(1) Edge exists because B is prompted by the automatable jobs described in A and asks about their future fate. (2) Evaluative because 'I wonder if' expresses curiosity about A's content, not a factual refinement or causal explanation."
+          }
+        ],
+        "comment_tag": "Curiosity",
+        "reasoning": "Step 5: Explicit question about a future possibility, indicating curiosity."
+      },
+      {
+        "id": 3,
+        "sentence": "If robots do eventually take over a majority of jobs, this will help communities in need.",
+        "depends_on": [
+          {
+            "id": 2,
+            "edge_type": "Inferential",
+            "justification": "(1) Edge exists because B develops the possibility raised in A into a conditional consequence. (2) Inferential because it states a predicted outcome ('will help communities in need') that follows from the hypothetical robot takeover, rather than merely elaborating or evaluating A."
+          }
+        ],
+        "comment_tag": "Inference: Predictive / Hypothetical",
+        "reasoning": "Step 8: Hypothetical conditional about a future outcome."
+      },
+      {
+        "id": 4,
+        "sentence": "If robots do eventually take over a majority of jobs, this might make some people uncomfortable.",
+        "depends_on": [
+          {
+            "id": 2,
+            "edge_type": "Inferential",
+            "justification": "(1) Edge exists because B also builds on the hypothetical robot takeover raised in A. (2) Inferential because it adds a further predicted consequence ('might make some people uncomfortable') contingent on A, not a same-topic detail or subjective reaction."
+          }
+        ],
+        "comment_tag": "Inference: Predictive / Hypothetical",
+        "reasoning": "Step 8: Hypothetical conditional projecting a future emotional/social effect."
+      },
+      {
+        "id": 5,
+        "sentence": "People will not like it if robots take their job.",
+        "depends_on": [
+          {
+            "id": 4,
+            "edge_type": "Elaborative",
+            "justification": "(1) Edge exists because B restates the discomfort in A in a more direct, specific form about job loss. (2) Elaborative because it refines the same idea about people's negative reaction without introducing a new causal claim or a counterpoint."
+          }
+        ],
+        "comment_tag": "Inference: Predictive / Hypothetical",
+        "reasoning": "Step 8: Predicts a future reaction if robots take jobs."
+      },
+      {
+        "id": 6,
+        "sentence": "The headline is:",
+        "depends_on": [],
+        "comment_tag": "Meta / Paratext",
+        "reasoning": "Step 1: Meta commentary introducing a headline."
+      },
+      {
+        "id": 7,
+        "sentence": "Robot Taking Jobs, See if Your Job is One of Them!",
+        "depends_on": [
+          {
+            "id": 2,
+            "edge_type": "Elaborative",
+            "justification": "(1) Edge exists because the headline echoes the concern about jobs being taken over by machines raised in A. (2) Elaborative because it restates and frames the same topic in headline form rather than adding a cause, judgment, or contrast."
+          }
+        ],
+        "comment_tag": "Meta / Paratext",
+        "reasoning": "Step 1: User-generated headline/title for the graph, which is paratext."
+      }
+    ]
   },
   {
     "article_id": "34",
@@ -19985,7 +21563,179 @@
       "The headline is:": 12,
       "Local Jobs disappearing due to robot uprising": 13
     },
-    "dependency_graph": null
+    "dependency_graph": [
+      {
+        "id": 0,
+        "sentence": "I noticed that the jobs in purple receive less income.",
+        "depends_on": [],
+        "comment_tag": "Visual Observation: Cross-point Pattern Recognition",
+        "reasoning": "Step 2c: Compares a color-coded group of jobs with income, describing a visible pattern across multiple points."
+      },
+      {
+        "id": 1,
+        "sentence": "The jobs in purple are more automatable.",
+        "depends_on": [
+          {
+            "id": 0,
+            "edge_type": "Inferential",
+            "justification": "(1) Edge exists because the lower income of purple jobs in A is used to support the claim that they are more automatable in B. (2) Inferential because B draws a causal/interpretive conclusion from A rather than merely restating the income difference or expressing a subjective reaction."
+          }
+        ],
+        "comment_tag": "Visual Observation: Chart Structure & Text",
+        "reasoning": "Step 2a: Interprets the color-coded category as more automatable, which is chart encoding information."
+      },
+      {
+        "id": 2,
+        "sentence": "Vice versa, the jobs in green receive more income.",
+        "depends_on": [
+          {
+            "id": 0,
+            "edge_type": "Contrastive",
+            "justification": "(1) Edge exists because B mirrors A with the opposite income pattern for green jobs. (2) Contrastive because 'vice versa' explicitly sets up an opposing comparison rather than elaborating A or inferring a consequence from it."
+          }
+        ],
+        "comment_tag": "Visual Observation: Cross-point Pattern Recognition",
+        "reasoning": "Step 2c: Compares the green group with income, describing a cross-point pattern."
+      },
+      {
+        "id": 3,
+        "sentence": "Vice versa, the jobs in green are less automatable.",
+        "depends_on": [
+          {
+            "id": 1,
+            "edge_type": "Contrastive",
+            "justification": "(1) Edge exists because B presents the opposite automability pattern for green jobs relative to the purple jobs in A. (2) Contrastive because 'vice versa' signals a paired opposition, not a same-direction elaboration or a causal inference."
+          }
+        ],
+        "comment_tag": "Visual Observation: Chart Structure & Text",
+        "reasoning": "Step 2a: Decodes the green color category as less automatable, which is legend information."
+      },
+      {
+        "id": 4,
+        "sentence": "I wonder how modern technology would be able to take over the job of chefs.",
+        "depends_on": [],
+        "comment_tag": "Curiosity",
+        "reasoning": "Step 5: Explicitly asks how technology could do a job, showing curiosity."
+      },
+      {
+        "id": 5,
+        "sentence": "Everytime there is a new item, they will have to change the coding.",
+        "depends_on": [
+          {
+            "id": 4,
+            "edge_type": "Inferential",
+            "justification": "(1) Edge exists because B answers the question in A by giving a mechanism for how technology could take over chefs' work. (2) Inferential because B proposes a conditional explanation ('everytime...') that goes beyond A's curiosity rather than merely refining it."
+          }
+        ],
+        "comment_tag": "Inference: Predictive / Hypothetical",
+        "reasoning": "Step 8: Predicts a future operational consequence, not a chart observation."
+      },
+      {
+        "id": 6,
+        "sentence": "When someone has a food restriction, they will have to change the coding.",
+        "depends_on": [
+          {
+            "id": 4,
+            "edge_type": "Inferential",
+            "justification": "(1) Edge exists because B provides another concrete scenario explaining how chefs' work would need to adapt, which addresses A's question. (2) Inferential because B adds a hypothetical mechanism/condition rather than a subjective stance or simple detail."
+          }
+        ],
+        "comment_tag": "Inference: Predictive / Hypothetical",
+        "reasoning": "Step 8: Future-oriented hypothetical about changing coding in response to restrictions."
+      },
+      {
+        "id": 7,
+        "sentence": "I think that when a lot of jobs become automatable, it will be a lot harder for a society to find jobs.",
+        "depends_on": [
+          {
+            "id": 1,
+            "edge_type": "Inferential",
+            "justification": "(1) Edge exists because the automatable nature of purple jobs in A supports the broader prediction in B about society finding jobs. (2) Inferential because B states a consequence that follows from A's premise, not just a refinement of the same fact."
+          },
+          {
+            "id": 3,
+            "edge_type": "Inferential",
+            "justification": "(1) Edge exists because the less automatable green jobs in A contribute to the broader contrast about job availability and automation in B. (2) Inferential because B reasons about a societal outcome from the automation pattern rather than merely contrasting the two groups."
+          }
+        ],
+        "comment_tag": "Inference: Predictive / Hypothetical",
+        "reasoning": "Step 8: Predicts a future societal consequence of automation."
+      },
+      {
+        "id": 8,
+        "sentence": "A lot of those other jobs require a good amount of schooling.",
+        "depends_on": [
+          {
+            "id": 7,
+            "edge_type": "Elaborative",
+            "justification": "(1) Edge exists because 'those other jobs' refers back to the jobs discussed in A and adds a specific requirement. (2) Elaborative because B supplies additional detail about the jobs in A without introducing a new causal claim or subjective judgment."
+          }
+        ],
+        "comment_tag": "Prior Knowledge: Background",
+        "reasoning": "Step 7: General factual claim about job requirements, not directly shown in the chart."
+      },
+      {
+        "id": 9,
+        "sentence": "Not everyone can afford it.",
+        "depends_on": [
+          {
+            "id": 8,
+            "edge_type": "Inferential",
+            "justification": "(1) Edge exists because the schooling requirement in A is used to explain why access is limited in B. (2) Inferential because B states a consequence of A's condition (cost/affordability barrier), not just a detail about schooling."
+          }
+        ],
+        "comment_tag": "Prior Knowledge: Background",
+        "reasoning": "Step 7: General claim about affordability, not chart-derived."
+      },
+      {
+        "id": 10,
+        "sentence": "Only so many people can have the same job in a city.",
+        "depends_on": [
+          {
+            "id": 7,
+            "edge_type": "Inferential",
+            "justification": "(1) Edge exists because B follows from the idea in A that finding jobs becomes harder when many jobs are automatable. (2) Inferential because B adds a broader labor-market constraint as a consequence, rather than elaborating A's wording."
+          },
+          {
+            "id": 9,
+            "edge_type": "Inferential",
+            "justification": "(1) Edge exists because B extends the affordability limitation in A into a general scarcity of job slots in a city. (2) Inferential because B draws a further conclusion about job availability, not a mere specification or subjective reaction."
+          }
+        ],
+        "comment_tag": "Prior Knowledge: Background",
+        "reasoning": "Step 7: General claim about job availability in a city, not directly shown in the chart."
+      },
+      {
+        "id": 11,
+        "sentence": "The headline is:",
+        "depends_on": [],
+        "comment_tag": "Meta / Paratext",
+        "reasoning": "Step 1: Meta commentary introducing a headline."
+      },
+      {
+        "id": 12,
+        "sentence": "Local Jobs disappearing due to robot uprising",
+        "depends_on": [
+          {
+            "id": 7,
+            "edge_type": "Inferential",
+            "justification": "(1) Edge exists because the headline summarizes the automation-driven job loss predicted in A. (2) Inferential because B turns A's reasoning into a headline-style consequence, rather than simply restating A or adding neutral detail."
+          },
+          {
+            "id": 10,
+            "edge_type": "Inferential",
+            "justification": "(1) Edge exists because the headline also reflects the scarcity of jobs in a city described in A. (2) Inferential because B packages A's broader conclusion into a dramatic outcome, not an elaboration or contrast."
+          },
+          {
+            "id": 11,
+            "edge_type": "Elaborative",
+            "justification": "(1) Edge exists because B is the content of the headline introduced by A. (2) Elaborative because B completes and specifies the headline frame rather than adding a new causal or evaluative claim."
+          }
+        ],
+        "comment_tag": "Meta / Paratext",
+        "reasoning": "Step 1: User-generated headline/title for the graph, which is paratext."
+      }
+    ]
   },
   {
     "article_id": "34",
@@ -20033,7 +21783,92 @@
       "The headline could be:": 6,
       "Watch out soon your job may be taken by scrap metal!": 7
     },
-    "dependency_graph": null
+    "dependency_graph": [
+      {
+        "id": 0,
+        "sentence": "A lot of the jobs had more emphasis on critical thinking.",
+        "depends_on": [],
+        "comment_tag": "Visual Observation: Cross-point Pattern Recognition",
+        "reasoning": "Step 2c: Summarizes a visible pattern across many jobs in the plot."
+      },
+      {
+        "id": 1,
+        "sentence": "I noticed this.",
+        "depends_on": [
+          {
+            "id": 0,
+            "edge_type": "Elaborative",
+            "justification": "(1) Edge exists because 'this' in B refers back to the job trend described in A. (2) Elaborative because B simply acknowledges or continues A's observation without adding a new cause, judgment, or contrast."
+          }
+        ],
+        "comment_tag": "Uncategorizable",
+        "reasoning": "Step 12: Too vague to classify meaningfully; it does not specify what 'this' refers to."
+      },
+      {
+        "id": 2,
+        "sentence": "I wonder what future people's opinions will be.",
+        "depends_on": [
+          {
+            "id": 0,
+            "edge_type": "Evaluative",
+            "justification": "(1) Edge exists because B is prompted by the job trend in A and asks about future people's opinions in response to it. (2) Evaluative because B expresses curiosity rather than elaborating on A's content or explaining it causally."
+          }
+        ],
+        "comment_tag": "Curiosity",
+        "reasoning": "Step 5: Explicit curiosity about future opinions."
+      },
+      {
+        "id": 3,
+        "sentence": "More jobs may become taken over by machines.",
+        "depends_on": [
+          {
+            "id": 0,
+            "edge_type": "Inferential",
+            "justification": "(1) Edge exists because B extrapolates from the emphasis on critical thinking in A to a future outcome about jobs being taken over by machines. (2) Inferential because B makes a prediction that goes beyond A's stated observation, rather than merely refining it."
+          }
+        ],
+        "comment_tag": "Inference: Predictive / Hypothetical",
+        "reasoning": "Step 8: Future-oriented prediction about automation taking over jobs."
+      },
+      {
+        "id": 4,
+        "sentence": "I think that this chart may be warning us about how a lot of jobs will soon be done by machines.",
+        "depends_on": [
+          {
+            "id": 3,
+            "edge_type": "Inferential",
+            "justification": "(1) Edge exists because B builds on the prediction in A and interprets the chart as a warning about that outcome. (2) Inferential because B draws a further conclusion from A, not just a detail or a subjective reaction."
+          }
+        ],
+        "comment_tag": "Inference: Predictive / Hypothetical",
+        "reasoning": "Step 8: Although evaluative in tone, it primarily predicts a future outcome and frames the chart as warning about it."
+      },
+      {
+        "id": 5,
+        "sentence": "The headline could be:",
+        "depends_on": [],
+        "comment_tag": "Meta / Paratext",
+        "reasoning": "Step 1: Meta commentary introducing a proposed headline."
+      },
+      {
+        "id": 6,
+        "sentence": "Watch out soon your job may be taken by scrap metal!",
+        "depends_on": [
+          {
+            "id": 4,
+            "edge_type": "Elaborative",
+            "justification": "(1) Edge exists because B functions as a headline that restates the warning about jobs being taken over by machines in A. (2) Elaborative because it rephrases and dramatizes the same idea rather than introducing a new cause, judgment, or opposition."
+          },
+          {
+            "id": 5,
+            "edge_type": "Elaborative",
+            "justification": "(1) Edge exists because B is the content of the headline introduced in A. (2) Elaborative because it completes and specifies the headline frame without adding a separate inference or evaluation."
+          }
+        ],
+        "comment_tag": "Meta / Paratext",
+        "reasoning": "Step 1: User-generated headline/title for the graph, which is paratext."
+      }
+    ]
   },
   {
     "article_id": "34",
@@ -20086,7 +21921,103 @@
       "The headline is:": 7,
       "In a matter of time, robots could be taking over humanity, and it would be harder to just find a simple job. Are you with me?": 8
     },
-    "dependency_graph": null
+    "dependency_graph": [
+      {
+        "id": 0,
+        "sentence": "The jobs to the right look like lower income jobs.",
+        "depends_on": [],
+        "comment_tag": "Visual Observation: Cross-point Pattern Recognition",
+        "reasoning": "Step 2c: Compares the right-side cluster of jobs with income, describing a visible pattern."
+      },
+      {
+        "id": 1,
+        "sentence": "The ones to the left look like higher income jobs.",
+        "depends_on": [],
+        "comment_tag": "Visual Observation: Cross-point Pattern Recognition",
+        "reasoning": "Step 2c: Compares the left-side cluster of jobs with income, describing a visible pattern."
+      },
+      {
+        "id": 2,
+        "sentence": "There is more purple in the green section than green in the purple section.",
+        "depends_on": [
+          {
+            "id": 0,
+            "edge_type": "Contrastive",
+            "justification": "(1) Edge exists because B compares the color distribution in the chart against the job-income interpretation introduced in A, using the same visual context. (2) Contrastive because B highlights an asymmetry/tension between the two sections rather than refining A's claim or explaining it causally."
+          },
+          {
+            "id": 1,
+            "edge_type": "Contrastive",
+            "justification": "(1) Edge exists because B is part of the same left/right chart interpretation as A and contrasts the color balance across sections. (2) Contrastive because B sets up a side-by-side comparison with imbalance, not a same-direction elaboration or an inference."
+          }
+        ],
+        "comment_tag": "Visual Observation: Cross-point Pattern Recognition",
+        "reasoning": "Step 2c: Compares the distribution of colors across sections, which is a cross-point pattern."
+      },
+      {
+        "id": 3,
+        "sentence": "The impact in the community may be that it is harder for people to find jobs.",
+        "depends_on": [
+          {
+            "id": 0,
+            "edge_type": "Inferential",
+            "justification": "(1) Edge exists because B draws a consequence from the lower-income jobs on the right described in A. (2) Inferential because B predicts a community effect (harder to find jobs) that goes beyond A's observation rather than merely adding detail."
+          },
+          {
+            "id": 1,
+            "edge_type": "Inferential",
+            "justification": "(1) Edge exists because B also depends on the higher-income jobs on the left as part of the same job-distribution interpretation. (2) Inferential because B turns the chart reading into a predicted social consequence, not a refinement or subjective reaction."
+          }
+        ],
+        "comment_tag": "Inference: Predictive / Hypothetical",
+        "reasoning": "Step 8: Predicts a future community impact of automation."
+      },
+      {
+        "id": 4,
+        "sentence": "If it is automated, we do not need a person to run it.",
+        "depends_on": [
+          {
+            "id": 5,
+            "edge_type": "Inferential",
+            "justification": "(1) Edge exists because B states the consequence of A's claim that a robot is doing it automatically. (2) Inferential because B uses A as the condition for a new conclusion about needing no person, which is a causal/conditional step rather than an elaboration."
+          }
+        ],
+        "comment_tag": "Inference: Predictive / Hypothetical",
+        "reasoning": "Step 8: Hypothetical conditional about automation reducing the need for human labor."
+      },
+      {
+        "id": 5,
+        "sentence": "A robot is just doing it automatically.",
+        "depends_on": [],
+        "comment_tag": "Prior Knowledge: Background",
+        "reasoning": "Step 7: General statement about robots and automation, not directly shown in the chart."
+      },
+      {
+        "id": 6,
+        "sentence": "The headline is:",
+        "depends_on": [],
+        "comment_tag": "Meta / Paratext",
+        "reasoning": "Step 1: Meta commentary introducing a headline."
+      },
+      {
+        "id": 7,
+        "sentence": "In a matter of time, robots could be taking over humanity, and it would be harder to just find a simple job. Are you with me?",
+        "depends_on": [
+          {
+            "id": 4,
+            "edge_type": "Inferential",
+            "justification": "(1) Edge exists because B extends the automation idea in A into a broader prediction about robots taking over and jobs becoming harder to find. (2) Inferential because B reasons beyond A to a future consequence, not merely restating the automation claim or expressing a separate judgment."
+          },
+          {
+            "id": 6,
+            "edge_type": "Elaborative",
+            "justification": "(1) Edge exists because B is presented as the content of the headline introduced in A. (2) Elaborative because B completes and specifies the headline text rather than adding a new causal claim or a counterpoint."
+          }
+        ],
+        "comment_tag": "Inference: Predictive / Hypothetical",
+        "reasoning": "Step 8: Future-oriented hypothetical about robots taking over and job difficulty."
+      }
+    ]
   },
   {
     "article_id": "34",
@@ -20159,7 +22090,166 @@
       "The headline is:": 11,
       "Don't let the robots be in control": 12
     },
-    "dependency_graph": null
+    "dependency_graph": [
+      {
+        "id": 0,
+        "sentence": "Most of the jobs that are in green are easier than most of the jobs that are in purple.",
+        "depends_on": [],
+        "comment_tag": "Visual Observation: Cross-point Pattern Recognition",
+        "reasoning": "Step 2c: Compares two color-coded groups and their relative ease, describing a chart pattern."
+      },
+      {
+        "id": 1,
+        "sentence": "I wonder what these categories will look like in a few years.",
+        "depends_on": [
+          {
+            "id": 0,
+            "edge_type": "Evaluative",
+            "justification": "(1) Edge exists because 'these categories' refers to the green and purple job categories described in A. (2) Evaluative because B expresses curiosity about A's content rather than adding detail, explaining a cause, or contrasting it."
+          }
+        ],
+        "comment_tag": "Curiosity",
+        "reasoning": "Step 5: Explicit curiosity about future appearance of the categories."
+      },
+      {
+        "id": 2,
+        "sentence": "I wonder how they will look different then they do now.",
+        "depends_on": [
+          {
+            "id": 0,
+            "edge_type": "Evaluative",
+            "justification": "(1) Edge exists because 'they' refers back to the same job categories in A. (2) Evaluative because B is a subjective wondering about future change, not an elaboration or causal explanation."
+          },
+          {
+            "id": 1,
+            "edge_type": "Elaborative",
+            "justification": "(1) Edge exists because B restates the same future-oriented question from A using a different wording ('how they will look different'). (2) Elaborative because it continues and refines the prior curiosity without introducing a new stance or causal claim."
+          }
+        ],
+        "comment_tag": "Curiosity",
+        "reasoning": "Step 5: Explicit curiosity about future differences."
+      },
+      {
+        "id": 3,
+        "sentence": "The impact on the community will not be good.",
+        "depends_on": [
+          {
+            "id": 5,
+            "edge_type": "Inferential",
+            "justification": "(1) Edge exists because B draws a consequence from robots stealing less automatable jobs in A. (2) Inferential because B predicts a downstream negative effect on the community, which goes beyond A's statement rather than merely elaborating it."
+          },
+          {
+            "id": 9,
+            "edge_type": "Inferential",
+            "justification": "(1) Edge exists because B also depends on the existence of people with less automatable jobs in A as part of the harm being described. (2) Inferential because B states a broader consequence of that situation, not a refinement or subjective reaction."
+          }
+        ],
+        "comment_tag": "Inference: Predictive / Hypothetical",
+        "reasoning": "Step 8: Predicts a future negative impact on the community."
+      },
+      {
+        "id": 4,
+        "sentence": "Lots of people cannot afford to go to school.",
+        "depends_on": [
+          {
+            "id": 9,
+            "edge_type": "Inferential",
+            "justification": "(1) Edge exists because B follows from the existence of people with less automatable jobs in A, implying financial hardship. (2) Inferential because B states a new consequence about affordability rather than simply specifying A or expressing a judgment."
+          }
+        ],
+        "comment_tag": "Prior Knowledge: Background",
+        "reasoning": "Step 7: General socioeconomic claim, not directly shown in the chart."
+      },
+      {
+        "id": 5,
+        "sentence": "Robots will steal all of the less automatable jobs.",
+        "depends_on": [
+          {
+            "id": 8,
+            "edge_type": "Inferential",
+            "justification": "(1) Edge exists because B explains the badness of the situation in A by stating a harmful future event involving robots. (2) Inferential because B introduces a predicted consequence, not a detail or a subjective reaction."
+          },
+          {
+            "id": 9,
+            "edge_type": "Inferential",
+            "justification": "(1) Edge exists because B depends on the existence of less automatable jobs described in A. (2) Inferential because B predicts what will happen to those jobs, which is a causal/hypothetical outcome rather than an elaboration."
+          }
+        ],
+        "comment_tag": "Inference: Predictive / Hypothetical",
+        "reasoning": "Step 8: Future-oriented prediction about robots taking jobs."
+      },
+      {
+        "id": 6,
+        "sentence": "Robots are programmed to do what they are told.",
+        "depends_on": [],
+        "comment_tag": "Prior Knowledge: Background",
+        "reasoning": "Step 7: General factual claim about robots, not chart-derived."
+      },
+      {
+        "id": 7,
+        "sentence": "That is bad.",
+        "depends_on": [
+          {
+            "id": 6,
+            "edge_type": "Evaluative",
+            "justification": "(1) Edge exists because 'that' refers to the claim that robots are programmed to do what they are told. (2) Evaluative because B is a subjective negative judgment about A, not a factual extension or causal consequence."
+          }
+        ],
+        "comment_tag": "Evaluative: Reactive",
+        "reasoning": "Step 4b: Expresses a negative evaluative reaction without prescribing action."
+      },
+      {
+        "id": 8,
+        "sentence": "Some people have less automatable jobs.",
+        "depends_on": [
+          {
+            "id": 0,
+            "edge_type": "Elaborative",
+            "justification": "(1) Edge exists because B narrows the broad comparison in A down to a subset of jobs that are less automatable. (2) Elaborative because B specifies the kind of jobs being discussed rather than introducing a new cause, judgment, or contrast."
+          }
+        ],
+        "comment_tag": "Visual Observation: Chart Structure & Text",
+        "reasoning": "Step 2a: Refers to the chart's automability categories in a descriptive way, without a specific value or comparison."
+      },
+      {
+        "id": 9,
+        "sentence": "Some people with less automatable jobs cannot afford to go to school.",
+        "depends_on": [
+          {
+            "id": 8,
+            "edge_type": "Inferential",
+            "justification": "(1) Edge exists because B builds on the existence of people with less automatable jobs in A and states a likely hardship affecting them. (2) Inferential because B moves from the job category to a consequence about school affordability, not merely adding detail."
+          }
+        ],
+        "comment_tag": "Prior Knowledge: Background",
+        "reasoning": "Step 7: General claim about affordability and schooling, not directly shown in the chart."
+      },
+      {
+        "id": 10,
+        "sentence": "The headline is:",
+        "depends_on": [],
+        "comment_tag": "Meta / Paratext",
+        "reasoning": "Step 1: Meta commentary introducing a headline."
+      },
+      {
+        "id": 11,
+        "sentence": "Don't let the robots be in control",
+        "depends_on": [
+          {
+            "id": 5,
+            "edge_type": "Inferential",
+            "justification": "(1) Edge exists because the headline is a call to action motivated by robots stealing jobs in A. (2) Inferential because B turns A's harmful scenario into a warning/prescriptive conclusion, rather than elaborating or contrasting it."
+          },
+          {
+            "id": 6,
+            "edge_type": "Contrastive",
+            "justification": "(1) Edge exists because B opposes the idea that robots should be controlled by their programming in A. (2) Contrastive because the headline pushes against A's neutral description of robot behavior by urging that robots should not be in control."
+          }
+        ],
+        "comment_tag": "Evaluative: Prescriptive",
+        "reasoning": "Step 4a: This is a directive/call to action, using a prescriptive imperative."
+      }
+    ]
   },
   {
     "article_id": "34",
@@ -20197,7 +22287,66 @@
       "The title is:": 4,
       "These jobs could be in danger of automation, is your's at stake?": 5
     },
-    "dependency_graph": null
+    "dependency_graph": [
+      {
+        "id": 0,
+        "sentence": "Jobs with less critical thinking and more use of machinery are the most automatable.",
+        "depends_on": [],
+        "comment_tag": "Visual Observation: Cross-point Pattern Recognition",
+        "reasoning": "Step 2c: Compares job characteristics across the chart and states the overall pattern of automability."
+      },
+      {
+        "id": 1,
+        "sentence": "Jobs like surgeon and physicist will be harder to automate.",
+        "depends_on": [
+          {
+            "id": 0,
+            "edge_type": "Contrastive",
+            "justification": "(1) Edge exists because B contrasts specific high-skill jobs like surgeon and physicist with the general automation pattern stated in A. (2) Contrastive because B highlights an exception or opposing case to A's broad claim, rather than elaborating it or drawing a causal consequence."
+          }
+        ],
+        "comment_tag": "Inference: Predictive / Hypothetical",
+        "reasoning": "Step 8: Predicts future difficulty of automation for certain jobs."
+      },
+      {
+        "id": 2,
+        "sentence": "Jobs that require less thought and more machine operations pay less than jobs that require more critical thinking and less machine operation.",
+        "depends_on": [
+          {
+            "id": 0,
+            "edge_type": "Inferential",
+            "justification": "(1) Edge exists because B links the same job features in A to a wage consequence, comparing low-thought/more-machine jobs against higher-thought/less-machine jobs. (2) Inferential because B goes beyond A by stating a new outcome about pay, not merely refining A's description."
+          }
+        ],
+        "comment_tag": "Prior Knowledge: Background",
+        "reasoning": "Step 7: General claim about pay and job characteristics, not directly shown in the chart."
+      },
+      {
+        "id": 3,
+        "sentence": "The title is:",
+        "depends_on": [],
+        "comment_tag": "Meta / Paratext",
+        "reasoning": "Step 1: Meta commentary introducing a title."
+      },
+      {
+        "id": 4,
+        "sentence": "These jobs could be in danger of automation, is your's at stake?",
+        "depends_on": [
+          {
+            "id": 0,
+            "edge_type": "Inferential",
+            "justification": "(1) Edge exists because 'these jobs' refers back to the automatable jobs described in A, and B states a resulting risk. (2) Inferential because B draws a consequence/prediction from A's claim about automatable jobs, rather than just restating or detailing it."
+          },
+          {
+            "id": 1,
+            "edge_type": "Contrastive",
+            "justification": "(1) Edge exists because B juxtaposes the danger of automation with the harder-to-automate jobs in A, creating a tension between vulnerable and resistant occupations. (2) Contrastive because B sets up a comparison/juxtaposition rather than a same-direction elaboration or a direct causal explanation."
+          }
+        ],
+        "comment_tag": "Meta / Paratext",
+        "reasoning": "Step 1: This is a user-generated headline/question about the graph, not a chart observation."
+      }
+    ]
   },
   {
     "article_id": "34",
@@ -20255,7 +22404,118 @@
       "The headline is:": 8,
       "Get out of there now because soon people with more automatable jobs will not have a job anymore.": 9
     },
-    "dependency_graph": null
+    "dependency_graph": [
+      {
+        "id": 0,
+        "sentence": "I noticed that each color corresponds to which careers are more automatable and which careers are less automatable.",
+        "depends_on": [],
+        "comment_tag": "Visual Observation: Chart Structure & Text",
+        "reasoning": "Step 2a: Decodes the color legend and what the colors mean, which is chart structure/text."
+      },
+      {
+        "id": 1,
+        "sentence": "I wonder if people with more automatable jobs think that it is better to be replaced by machines.",
+        "depends_on": [
+          {
+            "id": 0,
+            "edge_type": "Evaluative",
+            "justification": "(1) Edge exists because B is a question prompted by the chart-reading observation in A about automatable versus less automatable careers. (2) Evaluative because B expresses curiosity about people's attitudes toward A's content, rather than elaborating the chart meaning or making a causal claim."
+          }
+        ],
+        "comment_tag": "Curiosity",
+        "reasoning": "Step 5: Explicit question about people's thoughts, indicating curiosity."
+      },
+      {
+        "id": 2,
+        "sentence": "I wonder if people with more automatable jobs think that it is worse for them.",
+        "depends_on": [
+          {
+            "id": 0,
+            "edge_type": "Evaluative",
+            "justification": "(1) Edge exists because B is another curiosity response to the same automatable-careers mapping described in A. (2) Evaluative because B asks about subjective judgment, not a factual refinement (Elaborative) or an explanation (Inferential)."
+          }
+        ],
+        "comment_tag": "Curiosity",
+        "reasoning": "Step 5: Explicit uncertainty about people's reactions, which is curiosity."
+      },
+      {
+        "id": 3,
+        "sentence": "I think that there are two sides to how it impacts the community.",
+        "depends_on": [
+          {
+            "id": 0,
+            "edge_type": "Inferential",
+            "justification": "(1) Edge exists because B draws a conclusion about the community impact from the automatable-career distinction in A. (2) Inferential because B goes beyond the chart-reading observation to infer a broader consequence, rather than merely adding detail or expressing a question."
+          }
+        ],
+        "comment_tag": "Prior Knowledge: Background",
+        "reasoning": "Step 7: General evaluative claim about impacts, but it does not prescribe action or clearly infer a cause; it is a broad background-style statement."
+      },
+      {
+        "id": 4,
+        "sentence": "On one side, people may be very sad that they lost their jobs.",
+        "depends_on": [
+          {
+            "id": 3,
+            "edge_type": "Elaborative",
+            "justification": "(1) Edge exists because 'On one side' directly elaborates the two-sided framing introduced in A. (2) Elaborative because B specifies one branch of the same idea without introducing a new cause, judgment, or counterpoint."
+          }
+        ],
+        "comment_tag": "Evaluative: Reactive",
+        "reasoning": "Step 4b: Expresses an emotional reaction ('sad') without prescribing change."
+      },
+      {
+        "id": 5,
+        "sentence": "They might not have enough money or support to get another job.",
+        "depends_on": [
+          {
+            "id": 4,
+            "edge_type": "Inferential",
+            "justification": "(1) Edge exists because B explains a likely consequence of losing jobs and being sad in A. (2) Inferential because B adds a downstream effect (lack of money/support) rather than simply refining A's description."
+          }
+        ],
+        "comment_tag": "Inference: Predictive / Hypothetical",
+        "reasoning": "Step 8: Predicts a future consequence of job loss."
+      },
+      {
+        "id": 6,
+        "sentence": "On the other side, people might think that it is good for them to get out there and experience new opportunities.",
+        "depends_on": [
+          {
+            "id": 3,
+            "edge_type": "Elaborative",
+            "justification": "(1) Edge exists because 'On the other side' explicitly continues the two-sided structure introduced in A. (2) Elaborative because B provides the second side of the same framing, not a causal explanation or subjective reaction to A."
+          }
+        ],
+        "comment_tag": "Evaluative: Reactive",
+        "reasoning": "Step 4b: Expresses a positive evaluative stance about opportunities without prescribing action."
+      },
+      {
+        "id": 7,
+        "sentence": "The headline is:",
+        "depends_on": [],
+        "comment_tag": "Meta / Paratext",
+        "reasoning": "Step 1: Meta commentary introducing a headline."
+      },
+      {
+        "id": 8,
+        "sentence": "Get out of there now because soon people with more automatable jobs will not have a job anymore.",
+        "depends_on": [
+          {
+            "id": 0,
+            "edge_type": "Inferential",
+            "justification": "(1) Edge exists because the headline's warning about job loss is grounded in the automatable-careers mapping from A. (2) Inferential because B states a predicted consequence ('will not have a job anymore') that follows from A, rather than merely restating the chart or expressing a reaction."
+          },
+          {
+            "id": 7,
+            "edge_type": "Elaborative",
+            "justification": "(1) Edge exists because B is the content of the headline introduced by A. (2) Elaborative because A frames the headline and B supplies its text, which is a continuation/specification rather than a separate causal or evaluative move."
+          }
+        ],
+        "comment_tag": "Inference: Predictive / Hypothetical",
+        "reasoning": "Step 8: Future-oriented warning about job loss, which is predictive/hypothetical."
+      }
+    ]
   },
   {
     "article_id": "34",
@@ -20303,7 +22563,91 @@
       "The headline is:": 6,
       "Robots can do anything, but can they really?": 7
     },
-    "dependency_graph": null
+    "dependency_graph": [
+      {
+        "id": 0,
+        "sentence": "Most less automatable jobs have more emphasis on communication and critical thinking.",
+        "depends_on": [],
+        "comment_tag": "Visual Observation: Cross-point Pattern Recognition",
+        "reasoning": "Step 2c: Describes a broad pattern across jobs in the chart, comparing automability with communication/critical thinking."
+      },
+      {
+        "id": 1,
+        "sentence": "I wonder whether robots will be able to think like a human.",
+        "depends_on": [
+          {
+            "id": 0,
+            "edge_type": "Evaluative",
+            "justification": "(1) Edge exists because B is a direct curiosity response to the idea in A that less automatable jobs rely on communication and critical thinking, which raises the question of whether robots can think like humans. (2) Evaluative because B expresses subjective uncertainty/wonder about A rather than adding factual detail (Elaborative) or proposing a causal consequence (Inferential)."
+          }
+        ],
+        "comment_tag": "Curiosity",
+        "reasoning": "Step 5: Explicit question about a future capability, indicating curiosity."
+      },
+      {
+        "id": 2,
+        "sentence": "This would affect the global community.",
+        "depends_on": [
+          {
+            "id": 1,
+            "edge_type": "Inferential",
+            "justification": "(1) Edge exists because B refers back to the possibility raised in A and states a consequence of robots thinking like humans. (2) Inferential because B predicts an effect on the world/community, which goes beyond A's question and is not merely a refinement or a subjective reaction."
+          }
+        ],
+        "comment_tag": "Inference: Predictive / Hypothetical",
+        "reasoning": "Step 8: Hypothetical future effect on the global community."
+      },
+      {
+        "id": 3,
+        "sentence": "Robots can do anything that does not require years of schooling.",
+        "depends_on": [],
+        "comment_tag": "Prior Knowledge: Background",
+        "reasoning": "Step 7: General claim about robots' capabilities, not directly shown in the chart."
+      },
+      {
+        "id": 4,
+        "sentence": "To get a less automatable job, you would need lots of schooling.",
+        "depends_on": [
+          {
+            "id": 0,
+            "edge_type": "Inferential",
+            "justification": "(1) Edge exists because B draws a conclusion from A's claim that less automatable jobs emphasize communication and critical thinking. (2) Inferential because B turns that observation into a requirement/prediction about schooling, rather than simply specifying A or expressing a stance."
+          },
+          {
+            "id": 3,
+            "edge_type": "Contrastive",
+            "justification": "(1) Edge exists because B contrasts the schooling requirement for less automatable jobs with A's claim that robots can do anything not requiring years of schooling. (2) Contrastive because the two statements highlight a tension between human job requirements and robot capabilities, not a same-direction elaboration or a causal chain."
+          }
+        ],
+        "comment_tag": "Prior Knowledge: Background",
+        "reasoning": "Step 7: General claim about schooling requirements, not a chart observation."
+      },
+      {
+        "id": 5,
+        "sentence": "The headline is:",
+        "depends_on": [],
+        "comment_tag": "Meta / Paratext",
+        "reasoning": "Step 1: Meta commentary introducing a headline."
+      },
+      {
+        "id": 6,
+        "sentence": "Robots can do anything, but can they really?",
+        "depends_on": [
+          {
+            "id": 3,
+            "edge_type": "Contrastive",
+            "justification": "(1) Edge exists because B directly juxtaposes the broad claim that robots can do anything with a skeptical question about whether that is really true. (2) Contrastive because the 'but' introduces tension and doubt, rather than elaborating A or inferring a consequence from it."
+          },
+          {
+            "id": 5,
+            "edge_type": "Elaborative",
+            "justification": "(1) Edge exists because B completes the incomplete headline introduced in A. (2) Elaborative because B is a continuation/specification of the headline frame, not a causal explanation, subjective judgment, or counterpoint."
+          }
+        ],
+        "comment_tag": "Meta / Paratext",
+        "reasoning": "Step 1: User-generated headline/title for the graph, which is paratext."
+      }
+    ]
   },
   {
     "article_id": "34",
@@ -20366,7 +22710,135 @@
       "The headline is:": 9,
       "Many jobs will be lost due to more automatable. Or will they?": 10
     },
-    "dependency_graph": null
+    "dependency_graph": [
+      {
+        "id": 0,
+        "sentence": "There are a bunch of jobs.",
+        "depends_on": [],
+        "comment_tag": "Visual Observation: Chart Structure & Text",
+        "reasoning": "Step 2a: Describes the presence of many plotted jobs, a structural observation about the chart content."
+      },
+      {
+        "id": 1,
+        "sentence": "They are in different colors.",
+        "depends_on": [
+          {
+            "id": 0,
+            "edge_type": "Elaborative",
+            "justification": "(1) Edge exists because 'they' refers back to the jobs introduced in A, and B adds a visual property of those jobs. (2) Elaborative because B refines the description of A without adding a cause, judgment, or counterpoint."
+          }
+        ],
+        "comment_tag": "Visual Observation: Chart Structure & Text",
+        "reasoning": "Step 2a: Notes the color encoding used for the jobs, which is chart structure/text."
+      },
+      {
+        "id": 2,
+        "sentence": "Automatable means done by machines.",
+        "depends_on": [],
+        "comment_tag": "Visual Observation: Chart Structure & Text",
+        "reasoning": "Step 2a: Decodes the meaning of the term/encoding, which is chart text/legend information."
+      },
+      {
+        "id": 3,
+        "sentence": "I wonder why they are all in different colors.",
+        "depends_on": [
+          {
+            "id": 1,
+            "edge_type": "Evaluative",
+            "justification": "(1) Edge exists because B directly questions the different colors described in A. (2) Evaluative because 'I wonder why' expresses curiosity about A rather than elaborating it or explaining it causally."
+          }
+        ],
+        "comment_tag": "Curiosity",
+        "reasoning": "Step 5: Explicit question about the color scheme, indicating curiosity."
+      },
+      {
+        "id": 4,
+        "sentence": "I wonder what the colors mean.",
+        "depends_on": [
+          {
+            "id": 1,
+            "edge_type": "Evaluative",
+            "justification": "(1) Edge exists because 'the colors' refers to the color-coding introduced in A. (2) Evaluative because B is a subjective question about A's meaning, not a factual refinement or causal inference."
+          },
+          {
+            "id": 2,
+            "edge_type": "Evaluative",
+            "justification": "(1) Edge exists because B asks what the colors signify, which depends on understanding the definition of 'automatable' in A. (2) Evaluative because the sentence is a curiosity/question response rather than an elaboration or explanation."
+          }
+        ],
+        "comment_tag": "Curiosity",
+        "reasoning": "Step 5: Explicitly asks for the meaning of the colors, which is curiosity."
+      },
+      {
+        "id": 5,
+        "sentence": "I think that many families will become jobless.",
+        "depends_on": [
+          {
+            "id": 6,
+            "edge_type": "Inferential",
+            "justification": "(1) Edge exists because B states a consequence of jobs being done by machines: families may lose employment. (2) Inferential because B predicts an outcome from A's premise, introducing new propositional content rather than merely refining A."
+          },
+          {
+            "id": 7,
+            "edge_type": "Inferential",
+            "justification": "(1) Edge exists because B states a consequence of jobs being lost due to increased automation. (2) Inferential because B reasons beyond A by drawing a further outcome (jobless families) from the job-loss claim."
+          },
+          {
+            "id": 8,
+            "edge_type": "Inferential",
+            "justification": "(1) Edge exists because B states a consequence of more automatable jobs leading to job loss. (2) Inferential because B extends A's causal claim into a broader social outcome, not a detail or subjective reaction."
+          }
+        ],
+        "comment_tag": "Inference: Predictive / Hypothetical",
+        "reasoning": "Step 8: Predicts a future consequence of automation for families."
+      },
+      {
+        "id": 6,
+        "sentence": "Most of the jobs will be done by machines.",
+        "depends_on": [
+          {
+            "id": 2,
+            "edge_type": "Inferential",
+            "justification": "(1) Edge exists because B uses the definition of 'automatable' from A to predict what will happen to the jobs. (2) Inferential because B applies A's definition to make a forward-looking claim about machines doing the jobs, rather than simply restating the definition."
+          }
+        ],
+        "comment_tag": "Inference: Predictive / Hypothetical",
+        "reasoning": "Step 8: Future-oriented prediction about jobs being done by machines."
+      },
+      {
+        "id": 7,
+        "sentence": "Many jobs will be lost due to more automatable.",
+        "depends_on": [
+          {
+            "id": 2,
+            "edge_type": "Inferential",
+            "justification": "(1) Edge exists because B relies on the definition of 'automatable' in A to explain why jobs may be lost. (2) Inferential because B introduces a causal consequence of automation, not just a clarification of the term."
+          }
+        ],
+        "comment_tag": "Inference: Predictive / Hypothetical",
+        "reasoning": "Step 8: Predicts future job loss due to increased automability."
+      },
+      {
+        "id": 8,
+        "sentence": "The headline is:",
+        "depends_on": [],
+        "comment_tag": "Meta / Paratext",
+        "reasoning": "Step 1: Meta commentary introducing a headline."
+      },
+      {
+        "id": 9,
+        "sentence": "Many jobs will be lost due to more automatable. Or will they?",
+        "depends_on": [
+          {
+            "id": 7,
+            "edge_type": "Contrastive",
+            "justification": "(1) Edge exists because B repeats the job-loss claim from A and then immediately questions it with 'Or will they?'. (2) Contrastive because the second clause introduces doubt and tension against the asserted prediction, rather than elaborating or explaining it."
+          }
+        ],
+        "comment_tag": "Meta / Paratext",
+        "reasoning": "Step 1: This is a headline/title for the graph, despite the rhetorical question form."
+      }
+    ]
   },
   {
     "article_id": "34",

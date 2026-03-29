@@ -46,3 +46,5 @@ analysis/outputs/comment_similarity/
 *.webp
 extraction_pipeline/visual_observations.csv
 # !extraction_pipeline/ace_comments/*.json
+
+*.pdf

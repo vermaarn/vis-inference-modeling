@@ -55755,7 +55755,62 @@
       "The older age groups usually are negative on technology.": 5,
       "I wonder why older age groups did not groom as much as younger people.": 6
     },
-    "dependency_graph": null
+    "dependency_graph": [
+      {
+        "id": 0,
+        "sentence": "I notice a lot when looking at these comments.",
+        "depends_on": [],
+        "comment_tag": "Meta / Paratext",
+        "reasoning": "Step 1: Commentary about the comments/task context rather than the chart data itself."
+      },
+      {
+        "id": 1,
+        "sentence": "The 15-24 age group is mostly positive.",
+        "depends_on": [],
+        "comment_tag": "Visual Observation: Cross-point Pattern Recognition",
+        "reasoning": "Step 2c: Describes an overall pattern for one group across the chart."
+      },
+      {
+        "id": 2,
+        "sentence": "The 15-24 age group is mostly positive except for exercising.",
+        "depends_on": [
+          {
+            "id": 1,
+            "edge_type": "Elaborative",
+            "justification": "(1) Edge exists because B narrows the general positive assessment in A by adding the exception 'except for exercising.' (2) Elaborative because B refines A with a specific qualifier rather than introducing a cause, a subjective judgment, or a counterpoint."
+          }
+        ],
+        "comment_tag": "Visual Observation: Cross-point Pattern Recognition",
+        "reasoning": "Step 2c: Describes a cross-activity pattern with an exception."
+      },
+      {
+        "id": 3,
+        "sentence": "The older age groups usually are negative on grooming.",
+        "depends_on": [],
+        "comment_tag": "Visual Observation: Cross-point Pattern Recognition",
+        "reasoning": "Step 2c: Summarizes a pattern across older groups for grooming."
+      },
+      {
+        "id": 4,
+        "sentence": "The older age groups usually are negative on technology.",
+        "depends_on": [],
+        "comment_tag": "Visual Observation: Cross-point Pattern Recognition",
+        "reasoning": "Step 2c: Summarizes a pattern across older groups for technology-related activities."
+      },
+      {
+        "id": 5,
+        "sentence": "I wonder why older age groups did not groom as much as younger people.",
+        "depends_on": [
+          {
+            "id": 3,
+            "edge_type": "Evaluative",
+            "justification": "(1) Edge exists because B directly asks about the grooming difference stated in A. (2) Evaluative because 'I wonder why' expresses curiosity about A's observation rather than elaborating it or explaining it causally."
+          }
+        ],
+        "comment_tag": "Curiosity",
+        "reasoning": "Step 5: Explicit curiosity about the reason for the observed grooming difference."
+      }
+    ]
   },
   {
     "article_id": "106",
@@ -142404,7 +142459,80 @@
       "Maybe the oldest groups focused on other things.": 5,
       "The younger group had nothing else to do.": 6
     },
-    "dependency_graph": null
+    "dependency_graph": [
+      {
+        "id": 0,
+        "sentence": "I noticed that 45-64 year olds originally spent the most time grooming.",
+        "depends_on": [],
+        "comment_tag": "Visual Observation: Data Point Extraction",
+        "reasoning": "Step 2b: Extracts the relative starting position of one age group in the grooming panel."
+      },
+      {
+        "id": 1,
+        "sentence": "I noticed that 45-64 year olds then dropped the largest amount of time.",
+        "depends_on": [
+          {
+            "id": 0,
+            "edge_type": "Elaborative",
+            "justification": "(1) Edge exists because B continues the same observation about 45-64 year olds by referring to their later change in grooming time. (2) Elaborative because B adds a temporal follow-up to A's claim rather than introducing a cause, judgment, or counterpoint."
+          }
+        ],
+        "comment_tag": "Visual Observation: Cross-point Pattern Recognition",
+        "reasoning": "Step 2c: Describes a comparative change across groups, not a single value."
+      },
+      {
+        "id": 2,
+        "sentence": "15-24 year olds spent a little bit more time grooming.",
+        "depends_on": [
+          {
+            "id": 0,
+            "edge_type": "Contrastive",
+            "justification": "(1) Edge exists because B compares a different age group against the 45-64 year olds in A, shifting the focus to a smaller amount of grooming time. (2) Contrastive because B sets up a cross-group comparison that contrasts with A's 'most time' claim rather than elaborating it or inferring a consequence."
+          }
+        ],
+        "comment_tag": "Visual Observation: Cross-point Pattern Recognition",
+        "reasoning": "Step 2c: Describes a comparative increase for one group relative to others."
+      },
+      {
+        "id": 3,
+        "sentence": "The oldest groups spent less time grooming.",
+        "depends_on": [
+          {
+            "id": 0,
+            "edge_type": "Contrastive",
+            "justification": "(1) Edge exists because B introduces another age group and states a lower grooming amount relative to the high usage in A. (2) Contrastive because B highlights a differing pattern across groups, not a refinement of A's original observation."
+          }
+        ],
+        "comment_tag": "Visual Observation: Cross-point Pattern Recognition",
+        "reasoning": "Step 2c: Summarizes a cross-group pattern in the grooming panel."
+      },
+      {
+        "id": 4,
+        "sentence": "Maybe the oldest groups focused on other things.",
+        "depends_on": [
+          {
+            "id": 3,
+            "edge_type": "Inferential",
+            "justification": "(1) Edge exists because B offers a possible explanation for why the oldest groups in A spent less time grooming. (2) Inferential because 'Maybe' introduces a causal hypothesis beyond A's observation, rather than a mere detail or subjective reaction."
+          }
+        ],
+        "comment_tag": "Inference: Explanatory",
+        "reasoning": "Step 6: 'Maybe' proposes a possible explanation for the observed pattern."
+      },
+      {
+        "id": 5,
+        "sentence": "The younger group had nothing else to do.",
+        "depends_on": [
+          {
+            "id": 2,
+            "edge_type": "Inferential",
+            "justification": "(1) Edge exists because B gives a possible reason for the younger group's slightly higher grooming time mentioned in A. (2) Inferential because B proposes an explanation for the observed difference, not just a restatement or elaboration."
+          }
+        ],
+        "comment_tag": "Inference: Explanatory",
+        "reasoning": "Step 6: Provides a causal explanation for the observed behavior."
+      }
+    ]
   },
   {
     "article_id": "106",

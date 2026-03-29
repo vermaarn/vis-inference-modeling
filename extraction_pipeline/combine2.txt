@@ -66,33 +66,6 @@ Combining article 32 ...
 Combining article 33 ...
   Wrote 371 combined comments to /Users/arnav/Desktop/vis-inference-modeling/extraction_pipeline/combined_data/33.json
 Combining article 34 ...
-  Warning: dependency graph missing for comment 164
-  Warning: dependency graph missing for comment 165
-  Warning: dependency graph missing for comment 166
-  Warning: dependency graph missing for comment 167
-  Warning: dependency graph missing for comment 168
-  Warning: dependency graph missing for comment 169
-  Warning: dependency graph missing for comment 170
-  Warning: dependency graph missing for comment 171
-  Warning: dependency graph missing for comment 172
-  Warning: dependency graph missing for comment 173
-  Warning: dependency graph missing for comment 174
-  Warning: dependency graph missing for comment 175
-  Warning: dependency graph missing for comment 176
-  Warning: dependency graph missing for comment 177
-  Warning: dependency graph missing for comment 178
-  Warning: dependency graph missing for comment 179
-  Warning: dependency graph missing for comment 180
-  Warning: dependency graph missing for comment 181
-  Warning: dependency graph missing for comment 182
-  Warning: dependency graph missing for comment 183
-  Warning: dependency graph missing for comment 184
-  Warning: dependency graph missing for comment 185
-  Warning: dependency graph missing for comment 186
-  Warning: dependency graph missing for comment 187
-  Warning: dependency graph missing for comment 188
-  Warning: dependency graph missing for comment 189
-  Warning: dependency graph missing for comment 190
   Wrote 367 combined comments to /Users/arnav/Desktop/vis-inference-modeling/extraction_pipeline/combined_data/34.json
 Combining article 35 ...
   Wrote 145 combined comments to /Users/arnav/Desktop/vis-inference-modeling/extraction_pipeline/combined_data/35.json
@@ -231,8 +204,6 @@ Combining article 104 ...
 Combining article 105 ...
   Wrote 16 combined comments to /Users/arnav/Desktop/vis-inference-modeling/extraction_pipeline/combined_data/105.json
 Combining article 106 ...
-  Warning: dependency graph missing for comment 249
-  Warning: dependency graph missing for comment 601
   Wrote 744 combined comments to /Users/arnav/Desktop/vis-inference-modeling/extraction_pipeline/combined_data/106.json
 Combining article 107 ...
   Wrote 309 combined comments to /Users/arnav/Desktop/vis-inference-modeling/extraction_pipeline/combined_data/107.json
