@@ -190,7 +190,7 @@ def build_subcat_counts_and_chart(df: pd.DataFrame) -> tuple[pd.DataFrame, pd.Da
         sort=FINEGRAIN_PLOT_LABELS,
         scale=alt.Scale(domain=FINEGRAIN_PLOT_LABELS, range=FINEGRAIN_COLORS),
         title="Subcategory",
-        legend=alt.Legend(orient="left", title="Subcategory"),
+        legend=alt.Legend(orient="right", title="Subcategory"),
     )
 
     chart_articles = (
@@ -222,7 +222,7 @@ def build_subcat_counts_and_chart(df: pd.DataFrame) -> tuple[pd.DataFrame, pd.Da
     chart_all = (
         alt.Chart(
             global_by_subcat,
-            title="Across all sentences\n(fine subcategories; excl. Meta / Uncategorizable)",
+            title="Across all sentences",
         )
         .mark_bar()
         .encode(
@@ -242,7 +242,7 @@ def build_subcat_counts_and_chart(df: pd.DataFrame) -> tuple[pd.DataFrame, pd.Da
         .properties(width=72, height=350)
     )
 
-    chart = alt.hconcat(chart_articles, chart_all, spacing=16).resolve_scale(color="shared", y="shared")
+    chart = alt.hconcat(chart_all, chart_articles, spacing=16).resolve_scale(color="shared", y="shared")
 
     return subcat_counts, fine_props_out, summary, chart
 

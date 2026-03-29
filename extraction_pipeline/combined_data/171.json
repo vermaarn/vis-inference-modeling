@@ -75,6 +75,112 @@
       "The headline is:": 12,
       "No New News": 13
     },
+    "sentence_classifications": [
+      {
+        "article_id": "171",
+        "comment_id": 1,
+        "original_comment": "I noticed that states on the left side of the map and the top right have more green.",
+        "reasoning": "Step 2c: Describes a spatial distribution across multiple counties/states on the map, comparing regions by color without extracting a single value.",
+        "comment_tag": "Visual Observation: Cross-point Pattern Recognition",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 1,
+        "original_comment": "Most of the middle is orange.",
+        "reasoning": "Step 2c: Summarizes the overall spatial pattern of the map by region and color, not a single data point.",
+        "comment_tag": "Visual Observation: Cross-point Pattern Recognition",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 1,
+        "original_comment": "This means that there are more local news outlets on the coast.",
+        "reasoning": "Step 2c: Interprets the map as showing a regional pattern comparing coastal versus inland areas.",
+        "comment_tag": "Visual Observation: Cross-point Pattern Recognition",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 1,
+        "original_comment": "This means that there are less or no local news outlets in the general areas of the middle of the country.",
+        "reasoning": "Step 2c: Describes a broad geographic distribution across the map, comparing the middle of the country with other regions.",
+        "comment_tag": "Visual Observation: Cross-point Pattern Recognition",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 1,
+        "original_comment": "I wonder if this is because they are on the coast.",
+        "reasoning": "Step 5: Expresses uncertainty and asks a why-question about the observed coastal pattern.",
+        "comment_tag": "Curiosity",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 1,
+        "original_comment": "I wonder if this is because of a different reason.",
+        "reasoning": "Step 5: Explicitly wonders about an explanation, indicating curiosity about missing information.",
+        "comment_tag": "Curiosity",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 1,
+        "original_comment": "This relates to me because I live in this country.",
+        "reasoning": "Step 3: Self-reference and personal connection to the country make this a personal/episodic statement.",
+        "comment_tag": "Prior Knowledge: Personal / Episodic",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 1,
+        "original_comment": "I live in a state.",
+        "reasoning": "Step 3: Direct self-reference about the commenter’s residence.",
+        "comment_tag": "Prior Knowledge: Personal / Episodic",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 1,
+        "original_comment": "The state that I specifically live in is covered in green.",
+        "reasoning": "Step 3: Although it mentions a map color, the key feature is the commenter’s own state, making it personal/episodic.",
+        "comment_tag": "Prior Knowledge: Personal / Episodic",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 1,
+        "original_comment": "It is good that there is not a problem in my state yet.",
+        "reasoning": "Step 4b: Expresses a positive evaluative reaction ('good') without prescribing action.",
+        "comment_tag": "Evaluative: Reactive",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 1,
+        "original_comment": "It is possible that my state will change colors in the near future.",
+        "reasoning": "Step 8: Future-oriented speculation about a possible change in the map.",
+        "comment_tag": "Inference: Predictive / Hypothetical",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 1,
+        "original_comment": "The headline is:",
+        "reasoning": "Step 1: This is paratext about the graph artifact itself, introducing a headline.",
+        "comment_tag": "Meta / Paratext",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 1,
+        "original_comment": "No New News",
+        "reasoning": "Step 1: This is a user-generated headline/title for the graph, not a claim about the world shown in the map.",
+        "comment_tag": "Meta / Paratext",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      }
+    ],
     "dependency_graph": [
       {
         "id": 0,
@@ -304,6 +410,72 @@
       "The headline is:": 7,
       "Say goodbye to new news.": 8
     },
+    "sentence_classifications": [
+      {
+        "article_id": "171",
+        "comment_id": 2,
+        "original_comment": "States in the west have far more news outlets than states in the east.",
+        "reasoning": "Step 2c: Compares two geographic regions and states a visible pattern.",
+        "comment_tag": "Visual Observation: Cross-point Pattern Recognition",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 2,
+        "original_comment": "I wonder if this has to do with the literal land mass of states in the west.",
+        "reasoning": "Step 5: Expresses curiosity about a possible explanation.",
+        "comment_tag": "Curiosity",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 2,
+        "original_comment": "More counties may mean more news outlets.",
+        "reasoning": "Step 6: Suggests a causal relationship between county count and outlet count.",
+        "comment_tag": "Inference: Explanatory",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 2,
+        "original_comment": "This relates to me.",
+        "reasoning": "Step 3: Personal self-reference.",
+        "comment_tag": "Prior Knowledge: Personal / Episodic",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 2,
+        "original_comment": "I live near Boston.",
+        "reasoning": "Step 3: Personal residence reference.",
+        "comment_tag": "Prior Knowledge: Personal / Episodic",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 2,
+        "original_comment": "Journalism is usually very frequent in Boston.",
+        "reasoning": "Step 7: General claim about Boston journalism, not directly read from the map.",
+        "comment_tag": "Prior Knowledge: Background",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 2,
+        "original_comment": "The headline is:",
+        "reasoning": "Step 1: Paratext introducing a headline.",
+        "comment_tag": "Meta / Paratext",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 2,
+        "original_comment": "Say goodbye to new news.",
+        "reasoning": "Step 1: User-generated headline/title about the graph artifact.",
+        "comment_tag": "Meta / Paratext",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      }
+    ],
     "dependency_graph": [
       {
         "id": 0,
@@ -459,6 +631,96 @@
       "The headline is:": 10,
       "The shortage of news outlets.": 11
     },
+    "sentence_classifications": [
+      {
+        "article_id": "171",
+        "comment_id": 3,
+        "original_comment": "California and Arizona both have the most news outlets.",
+        "reasoning": "Step 2c: Compares named states and identifies a shared high-coverage pattern.",
+        "comment_tag": "Visual Observation: Cross-point Pattern Recognition",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 3,
+        "original_comment": "1,562 counties only have one news outlet.",
+        "reasoning": "Step 2b: Extracts a specific count from the chart.",
+        "comment_tag": "Visual Observation: Data Point Extraction",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 3,
+        "original_comment": "This makes me wonder if the population of a state affects the amount of news outlets in that state.",
+        "reasoning": "Step 5: Explicitly wonders about a possible explanation, indicating curiosity.",
+        "comment_tag": "Curiosity",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 3,
+        "original_comment": "This relates to me and my community.",
+        "reasoning": "Step 3: Personal/community reference.",
+        "comment_tag": "Prior Knowledge: Personal / Episodic",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 3,
+        "original_comment": "I live in Texas.",
+        "reasoning": "Step 3: Direct self-reference about residence.",
+        "comment_tag": "Prior Knowledge: Personal / Episodic",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 3,
+        "original_comment": "Texas has 29 counties that are not home to any news outlets.",
+        "reasoning": "Step 2b: Extracts a specific count for one state.",
+        "comment_tag": "Visual Observation: Data Point Extraction",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 3,
+        "original_comment": "This is the most of any state.",
+        "reasoning": "Step 2c: Compares Texas with other states and states a ranking pattern.",
+        "comment_tag": "Visual Observation: Cross-point Pattern Recognition",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 3,
+        "original_comment": "The expansion of information is important in each state.",
+        "reasoning": "Step 7: General normative-sounding background claim, not a direct chart observation.",
+        "comment_tag": "Prior Knowledge: Background",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 3,
+        "original_comment": "I believe that there should be more news outlets in our state.",
+        "reasoning": "Step 4a: Contains 'should', a prescriptive recommendation for change.",
+        "comment_tag": "Evaluative: Prescriptive",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 3,
+        "original_comment": "The headline is:",
+        "reasoning": "Step 1: Paratext introducing a headline.",
+        "comment_tag": "Meta / Paratext",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 3,
+        "original_comment": "The shortage of news outlets.",
+        "reasoning": "Step 1: User-generated headline/title for the graph.",
+        "comment_tag": "Meta / Paratext",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      }
+    ],
     "dependency_graph": [
       {
         "id": 0,
@@ -653,6 +915,72 @@
       "The headline is:": 7,
       "No New News": 8
     },
+    "sentence_classifications": [
+      {
+        "article_id": "171",
+        "comment_id": 4,
+        "original_comment": "Most areas in the eastern southern states have one or few local news outlets.",
+        "reasoning": "Step 2c: Describes a regional distribution across multiple states/counties.",
+        "comment_tag": "Visual Observation: Cross-point Pattern Recognition",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 4,
+        "original_comment": "Bigger counties tend to have more news outlets.",
+        "reasoning": "Step 2c: States a relationship across multiple counties, comparing size and outlet count.",
+        "comment_tag": "Visual Observation: Cross-point Pattern Recognition",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 4,
+        "original_comment": "This makes me wonder if the size of the county impacts the number of news outlets.",
+        "reasoning": "Step 5: Explicitly wonders about a possible cause, showing curiosity.",
+        "comment_tag": "Curiosity",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 4,
+        "original_comment": "If counties are small enough, they may feel like they can just receive their news from an outlet that reports on multiple outlets rather than just one.",
+        "reasoning": "Step 8: Hypothetical conditional reasoning about what may happen if counties are small enough.",
+        "comment_tag": "Inference: Predictive / Hypothetical",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 4,
+        "original_comment": "This relates to my community.",
+        "reasoning": "Step 3: Personal/community reference.",
+        "comment_tag": "Prior Knowledge: Personal / Episodic",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 4,
+        "original_comment": "We mainly receive news from multiple news outlets.",
+        "reasoning": "Step 3: Community/personal reference using 'we'.",
+        "comment_tag": "Prior Knowledge: Personal / Episodic",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 4,
+        "original_comment": "The headline is:",
+        "reasoning": "Step 1: Paratext introducing a headline.",
+        "comment_tag": "Meta / Paratext",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 4,
+        "original_comment": "No New News",
+        "reasoning": "Step 1: User-generated headline/title for the graph.",
+        "comment_tag": "Meta / Paratext",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      }
+    ],
     "dependency_graph": [
       {
         "id": 0,
@@ -888,6 +1216,200 @@
       "The headline is:": 23,
       "What's the news on the U.S.'s news?": 24
     },
+    "sentence_classifications": [
+      {
+        "article_id": "171",
+        "comment_id": 5,
+        "original_comment": "California has the most local news outlets.",
+        "reasoning": "Step 2c: Compares California with other states and identifies a highest-value pattern.",
+        "comment_tag": "Visual Observation: Cross-point Pattern Recognition",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 5,
+        "original_comment": "A great portion of these outlets are located in Los Angeles.",
+        "reasoning": "Step 2c: Describes the spatial concentration of outlets within California.",
+        "comment_tag": "Visual Observation: Cross-point Pattern Recognition",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 5,
+        "original_comment": "California is filled with millions of celebrities.",
+        "reasoning": "Step 7: General background claim about California, not shown in the map.",
+        "comment_tag": "Prior Knowledge: Background",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 5,
+        "original_comment": "This high celebrity presence creates a desire to hear about their life and drama.",
+        "reasoning": "Step 6: Proposes a cause for news interest, linking celebrity presence to demand for coverage.",
+        "comment_tag": "Inference: Explanatory",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 5,
+        "original_comment": "Celebrity gossip often appears on news channels and outlets.",
+        "reasoning": "Step 7: General media-content claim, not a direct chart observation.",
+        "comment_tag": "Prior Knowledge: Background",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 5,
+        "original_comment": "L.A. is a bustling city.",
+        "reasoning": "Step 7: Standalone factual/background claim about Los Angeles.",
+        "comment_tag": "Prior Knowledge: Background",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 5,
+        "original_comment": "L.A. has a lot going on.",
+        "reasoning": "Step 7: General background claim about activity in Los Angeles.",
+        "comment_tag": "Prior Knowledge: Background",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 5,
+        "original_comment": "L.A. has big businesses.",
+        "reasoning": "Step 7: General background claim about the city.",
+        "comment_tag": "Prior Knowledge: Background",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 5,
+        "original_comment": "L.A. has movie and tv production.",
+        "reasoning": "Step 7: General background claim about Los Angeles industries.",
+        "comment_tag": "Prior Knowledge: Background",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 5,
+        "original_comment": "L.A. has real estate.",
+        "reasoning": "Step 7: General background claim about the city.",
+        "comment_tag": "Prior Knowledge: Background",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 5,
+        "original_comment": "There is a lot of news to capture and document.",
+        "reasoning": "Step 7: General claim about news volume, not a chart observation.",
+        "comment_tag": "Prior Knowledge: Background",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 5,
+        "original_comment": "New York has suffered a decline in news outlets.",
+        "reasoning": "Step 2c: Describes a time trend for one state across the map's temporal context.",
+        "comment_tag": "Visual Observation: Cross-point Pattern Recognition",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 5,
+        "original_comment": "I am truly surprised.",
+        "reasoning": "Step 4b: Expresses an emotional reaction without prescribing change.",
+        "comment_tag": "Evaluative: Reactive",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 5,
+        "original_comment": "I initially looked at this graph.",
+        "reasoning": "Step 3: Personal episodic reference to the act of viewing the graph.",
+        "comment_tag": "Prior Knowledge: Personal / Episodic",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 5,
+        "original_comment": "I assumed that New York would have the most news outlets.",
+        "reasoning": "Step 8: Hypothetical expectation about what would be the case, not a direct observation.",
+        "comment_tag": "Inference: Predictive / Hypothetical",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 5,
+        "original_comment": "I typically associate New York with news.",
+        "reasoning": "Step 3: Personal association and memory.",
+        "comment_tag": "Prior Knowledge: Personal / Episodic",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 5,
+        "original_comment": "I only hear local news from New York about the weather.",
+        "reasoning": "Step 3: Personal experience about what the commenter hears.",
+        "comment_tag": "Prior Knowledge: Personal / Episodic",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 5,
+        "original_comment": "At times, my mom watches morning talk shows.",
+        "reasoning": "Step 3: Family/personal episodic reference.",
+        "comment_tag": "Prior Knowledge: Personal / Episodic",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 5,
+        "original_comment": "The morning talk shows air in New York.",
+        "reasoning": "Step 7: General factual claim about TV shows, not a chart observation.",
+        "comment_tag": "Prior Knowledge: Background",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 5,
+        "original_comment": "I associate California more with celebrity gossip and entertainment news.",
+        "reasoning": "Step 3: Personal association based on memory/experience.",
+        "comment_tag": "Prior Knowledge: Personal / Episodic",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 5,
+        "original_comment": "I believe that the high celebrity presence has a lot to do with the amount of news outlets that they have in comparison to New York.",
+        "reasoning": "Step 6: Explicit causal explanation linking celebrity presence to outlet count.",
+        "comment_tag": "Inference: Explanatory",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 5,
+        "original_comment": "I believe that movie and tv production has a lot to do with the amount of news outlets that they have in comparison to New York.",
+        "reasoning": "Step 6: Proposes a cause for the observed difference in outlet counts.",
+        "comment_tag": "Inference: Explanatory",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 5,
+        "original_comment": "The headline is:",
+        "reasoning": "Step 1: Paratext introducing a headline.",
+        "comment_tag": "Meta / Paratext",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 5,
+        "original_comment": "What's the news on the U.S.'s news?",
+        "reasoning": "Step 1: User-generated headline/title about the graph artifact.",
+        "comment_tag": "Meta / Paratext",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      }
+    ],
     "dependency_graph": [
       {
         "id": 0,
@@ -1292,6 +1814,128 @@
       "The headline is:": 14,
       "The fall of interconnectedness in America": 15
     },
+    "sentence_classifications": [
+      {
+        "article_id": "171",
+        "comment_id": 6,
+        "original_comment": "I noticed that coastal counties have more news outlets than inland counties.",
+        "reasoning": "Step 2c: Compares coastal and inland counties, describing a visible spatial pattern.",
+        "comment_tag": "Visual Observation: Cross-point Pattern Recognition",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 6,
+        "original_comment": "I wonder why some counties have no news outlets.",
+        "reasoning": "Step 5: Explicit why-question about the absence of outlets.",
+        "comment_tag": "Curiosity",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 6,
+        "original_comment": "Some counties have a low population.",
+        "reasoning": "Step 7: Standalone background claim about population, not directly shown in the chart.",
+        "comment_tag": "Prior Knowledge: Background",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 6,
+        "original_comment": "There should be something going on there.",
+        "reasoning": "Step 4a: Contains 'should', expressing a prescriptive/diagnostic stance that something ought to explain the pattern.",
+        "comment_tag": "Evaluative: Prescriptive",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 6,
+        "original_comment": "The event may be minor.",
+        "reasoning": "Step 8: Hypothetical speculation about an unshown event.",
+        "comment_tag": "Inference: Predictive / Hypothetical",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 6,
+        "original_comment": "This relates to my community.",
+        "reasoning": "Step 3: Personal/community reference.",
+        "comment_tag": "Prior Knowledge: Personal / Episodic",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 6,
+        "original_comment": "My community has a lot of news outlets.",
+        "reasoning": "Step 3: Personal/community reference.",
+        "comment_tag": "Prior Knowledge: Personal / Episodic",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 6,
+        "original_comment": "I am grateful for that.",
+        "reasoning": "Step 4b: Expresses an emotional reaction of gratitude without prescribing change.",
+        "comment_tag": "Evaluative: Reactive",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 6,
+        "original_comment": "It makes me stay informed on the latest incident.",
+        "reasoning": "Step 3: Personal experience about the effect on the commenter.",
+        "comment_tag": "Prior Knowledge: Personal / Episodic",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 6,
+        "original_comment": "The latest incident may be a maniac going around killing people.",
+        "reasoning": "Step 8: Hypothetical speculation about a possible incident.",
+        "comment_tag": "Inference: Predictive / Hypothetical",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 6,
+        "original_comment": "The latest incident may be a severe hurricane hurling towards my location.",
+        "reasoning": "Step 8: Hypothetical future-oriented scenario.",
+        "comment_tag": "Inference: Predictive / Hypothetical",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 6,
+        "original_comment": "News reports influence my next actions.",
+        "reasoning": "Step 3: Personal/episodic statement about the commenter’s behavior.",
+        "comment_tag": "Prior Knowledge: Personal / Episodic",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 6,
+        "original_comment": "News reports give me the latest information on how I could keep myself and my family safe.",
+        "reasoning": "Step 3: Personal/family reference about how the commenter uses news.",
+        "comment_tag": "Prior Knowledge: Personal / Episodic",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 6,
+        "original_comment": "The headline is:",
+        "reasoning": "Step 1: Paratext introducing a headline.",
+        "comment_tag": "Meta / Paratext",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 6,
+        "original_comment": "The fall of interconnectedness in America",
+        "reasoning": "Step 1: User-generated headline/title for the graph.",
+        "comment_tag": "Meta / Paratext",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      }
+    ],
     "dependency_graph": [
       {
         "id": 0,
@@ -1523,6 +2167,88 @@
       "Local News Vanishing: A Threat to Informed Communities Across the United States.": 9,
       "Create a catchy headline that captures the graph's main idea.": 10
     },
+    "sentence_classifications": [
+      {
+        "article_id": "171",
+        "comment_id": 7,
+        "original_comment": "I noticed that most of the western states have more news outlets.",
+        "reasoning": "Step 2c: Describes a regional pattern across multiple states.",
+        "comment_tag": "Visual Observation: Cross-point Pattern Recognition",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 7,
+        "original_comment": "I wonder what the news outlets in the more rural areas are reporting.",
+        "reasoning": "Step 5: Explicit curiosity about missing information.",
+        "comment_tag": "Curiosity",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 7,
+        "original_comment": "I wonder why the drop in news outlets happened.",
+        "reasoning": "Step 5: Explicit why-question about the observed decline.",
+        "comment_tag": "Curiosity",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 7,
+        "original_comment": "This relates to my community.",
+        "reasoning": "Step 3: Personal/community reference.",
+        "comment_tag": "Prior Knowledge: Personal / Episodic",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 7,
+        "original_comment": "News outlets tend to inform communities about what is going on.",
+        "reasoning": "Step 7: General background claim about the role of news outlets.",
+        "comment_tag": "Prior Knowledge: Background",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 7,
+        "original_comment": "News outlets tend to raise awareness.",
+        "reasoning": "Step 7: General background claim about news outlets.",
+        "comment_tag": "Prior Knowledge: Background",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 7,
+        "original_comment": "News could help promote things within the community.",
+        "reasoning": "Step 8: Hypothetical/ সম্ভাব্য effect statement about what news could do.",
+        "comment_tag": "Inference: Predictive / Hypothetical",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 7,
+        "original_comment": "The headline is:",
+        "reasoning": "Step 1: Paratext introducing a headline.",
+        "comment_tag": "Meta / Paratext",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 7,
+        "original_comment": "Local News Vanishing: A Threat to Informed Communities Across the United States.",
+        "reasoning": "Step 1: User-generated headline/title about the graph artifact.",
+        "comment_tag": "Meta / Paratext",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 7,
+        "original_comment": "Create a catchy headline that captures the graph's main idea.",
+        "reasoning": "Step 1: Task instruction about the graph artifact, not the world shown in the map.",
+        "comment_tag": "Meta / Paratext",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      }
+    ],
     "dependency_graph": [
       {
         "id": 0,
@@ -1695,6 +2421,56 @@
       "I wonder if it is a way for all areas to receive news and know all events at the same time.": 5,
       "In the upcoming years, I wonder if there will be a technology in the upcoming technology that could accomplish this.": 6
     },
+    "sentence_classifications": [
+      {
+        "article_id": "171",
+        "comment_id": 8,
+        "original_comment": "I feel that the title \"news deserts\" is an accurate description of the areas without news coverage.",
+        "reasoning": "Step 4b: Evaluative approval ('accurate description') without prescribing action.",
+        "comment_tag": "Evaluative: Reactive",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 8,
+        "original_comment": "Those areas are technically considered \"deserted\" because the news did not reach them.",
+        "reasoning": "Step 6: Uses 'because' to explain why the areas are called deserted, linking lack of news to the label.",
+        "comment_tag": "Inference: Explanatory",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 8,
+        "original_comment": "They do not know most current events happening in the world.",
+        "reasoning": "Step 7: General claim about information access, not a direct chart observation.",
+        "comment_tag": "Prior Knowledge: Background",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 8,
+        "original_comment": "Even when they do find out, they would not be so current anymore.",
+        "reasoning": "Step 8: Hypothetical consequence about timeliness of information.",
+        "comment_tag": "Inference: Predictive / Hypothetical",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 8,
+        "original_comment": "I wonder if it is a way for all areas to receive news and know all events at the same time.",
+        "reasoning": "Step 5: Explicit wonder/whether question about a possible solution.",
+        "comment_tag": "Curiosity",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 8,
+        "original_comment": "In the upcoming years, I wonder if there will be a technology in the upcoming technology that could accomplish this.",
+        "reasoning": "Step 5: Expresses curiosity about a future technology and asks whether it will exist.",
+        "comment_tag": "Curiosity",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      }
+    ],
     "dependency_graph": [
       {
         "id": 0,
@@ -1831,6 +2607,72 @@
       "The headline is:": 7,
       "Where's All the News?": 8
     },
+    "sentence_classifications": [
+      {
+        "article_id": "171",
+        "comment_id": 9,
+        "original_comment": "Throughout recent years, the number of local news outlets has declined dramatically.",
+        "reasoning": "Step 2c: Describes a time trend across recent years.",
+        "comment_tag": "Visual Observation: Cross-point Pattern Recognition",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 9,
+        "original_comment": "I wonder how this will negatively impact society.",
+        "reasoning": "Step 5: Explicitly asks about future effects, showing curiosity.",
+        "comment_tag": "Curiosity",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 9,
+        "original_comment": "Will citizens be able to receive the local information needed when there are so few local news outlets?",
+        "reasoning": "Step 5: Direct question about a future/uncertain outcome.",
+        "comment_tag": "Curiosity",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 9,
+        "original_comment": "This relates to myself and my community.",
+        "reasoning": "Step 3: Personal/community reference.",
+        "comment_tag": "Prior Knowledge: Personal / Episodic",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 9,
+        "original_comment": "I feel that it is beneficial to stay updated and connected with the occurrences of the world around you.",
+        "reasoning": "Step 4b: Expresses a positive evaluative stance ('beneficial') without prescribing action.",
+        "comment_tag": "Evaluative: Reactive",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 9,
+        "original_comment": "However, if an area lacks local news, it is difficult to stay connected.",
+        "reasoning": "Step 6: Links lack of local news to difficulty staying connected, giving a causal explanation.",
+        "comment_tag": "Inference: Explanatory",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 9,
+        "original_comment": "The headline is:",
+        "reasoning": "Step 1: Paratext introducing a headline.",
+        "comment_tag": "Meta / Paratext",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 9,
+        "original_comment": "Where's All the News?",
+        "reasoning": "Step 1: User-generated headline/title for the graph.",
+        "comment_tag": "Meta / Paratext",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      }
+    ],
     "dependency_graph": [
       {
         "id": 0,
@@ -2002,6 +2844,88 @@
       "The headline is:": 9,
       "Local News Declines, Where Does Information Come From?": 10
     },
+    "sentence_classifications": [
+      {
+        "article_id": "171",
+        "comment_id": 10,
+        "original_comment": "The areas with the most coverage tend to be the more metropolitan, coastal areas.",
+        "reasoning": "Step 2c: Compares regions and characterizes a spatial pattern in the map.",
+        "comment_tag": "Visual Observation: Cross-point Pattern Recognition",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 10,
+        "original_comment": "In contrast, the counties with little to no local news coverage are more rural, southern, and midwestern parts of the country.",
+        "reasoning": "Step 2c: Describes a contrasting geographic distribution across multiple counties and regions.",
+        "comment_tag": "Visual Observation: Cross-point Pattern Recognition",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 10,
+        "original_comment": "I wonder what can be done to revive local news.",
+        "reasoning": "Step 5: An explicit question about possible remedies shows curiosity.",
+        "comment_tag": "Curiosity",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 10,
+        "original_comment": "I wonder how people in rural communities feel about the prevalence of large, countrywide journalism.",
+        "reasoning": "Step 5: Expresses curiosity about others' feelings and an unshown explanation.",
+        "comment_tag": "Curiosity",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 10,
+        "original_comment": "This relates to me and my community.",
+        "reasoning": "Step 3: Personal/community self-reference.",
+        "comment_tag": "Prior Knowledge: Personal / Episodic",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 10,
+        "original_comment": "I live in a county with a large number of news outlets.",
+        "reasoning": "Step 3: Direct personal residence/community reference.",
+        "comment_tag": "Prior Knowledge: Personal / Episodic",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 10,
+        "original_comment": "I could not imagine absolutely no outlets for more populated areas.",
+        "reasoning": "Step 8: Hypothetical imagining of a situation not directly shown in the chart.",
+        "comment_tag": "Inference: Predictive / Hypothetical",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 10,
+        "original_comment": "Large media sides would not have the capacity to spread local news to the people who need it.",
+        "reasoning": "Step 8: Predicts a consequence about media capacity rather than describing the map itself.",
+        "comment_tag": "Inference: Predictive / Hypothetical",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 10,
+        "original_comment": "The headline is:",
+        "reasoning": "Step 1: Paratext introducing a headline for the graph.",
+        "comment_tag": "Meta / Paratext",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 10,
+        "original_comment": "Local News Declines, Where Does Information Come From?",
+        "reasoning": "Step 1: User-generated headline/title about the graph artifact.",
+        "comment_tag": "Meta / Paratext",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      }
+    ],
     "dependency_graph": [
       {
         "id": 0,
@@ -2204,6 +3128,88 @@
       "The headline is:": 9,
       "Is local journalism declining and does it matter?": 10
     },
+    "sentence_classifications": [
+      {
+        "article_id": "171",
+        "comment_id": 11,
+        "original_comment": "There has been a decline in journalism across countries.",
+        "reasoning": "Step 7: General factual claim about journalism trends, not directly read from the map and not tied to a specific chart observation.",
+        "comment_tag": "Prior Knowledge: Background",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 11,
+        "original_comment": "Urban areas have more local news than rural areas.",
+        "reasoning": "Step 2c: Compares two geographic groups and states a pattern visible in the map.",
+        "comment_tag": "Visual Observation: Cross-point Pattern Recognition",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 11,
+        "original_comment": "In the United States, the spread of local news is very insufficient.",
+        "reasoning": "Step 4b: Evaluative judgment ('very insufficient') about the data without prescribing action.",
+        "comment_tag": "Evaluative: Reactive",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 11,
+        "original_comment": "California has more local news outlets than LA.",
+        "reasoning": "Step 2c: Compares two named places by outlet coverage, which is a cross-point comparison grounded in the map.",
+        "comment_tag": "Visual Observation: Cross-point Pattern Recognition",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 11,
+        "original_comment": "There is a huge difference between the number of local news in two states of the same country.",
+        "reasoning": "Step 2c: Describes a comparative pattern across multiple states without giving a single value.",
+        "comment_tag": "Visual Observation: Cross-point Pattern Recognition",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 11,
+        "original_comment": "It does not relate to my community.",
+        "reasoning": "Step 3: Personal/community reference about relevance to the commenter.",
+        "comment_tag": "Prior Knowledge: Personal / Episodic",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 11,
+        "original_comment": "Outlets are very popular over here.",
+        "reasoning": "Step 3: Refers to the commenter’s local area ('over here'), making it personal/episodic.",
+        "comment_tag": "Prior Knowledge: Personal / Episodic",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 11,
+        "original_comment": "The way news is perceived everywhere is different.",
+        "reasoning": "Step 7: General claim about how news is perceived, not a chart-derived observation.",
+        "comment_tag": "Prior Knowledge: Background",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 11,
+        "original_comment": "The headline is:",
+        "reasoning": "Step 1: Paratext introducing a headline.",
+        "comment_tag": "Meta / Paratext",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 11,
+        "original_comment": "Is local journalism declining and does it matter?",
+        "reasoning": "Step 1: This is a user-generated headline/title about the graph artifact.",
+        "comment_tag": "Meta / Paratext",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      }
+    ],
     "dependency_graph": [
       {
         "id": 0,
@@ -2399,6 +3405,104 @@
       "A good title for this graph could be:": 11,
       "Depletion of Paper across the US.": 12
     },
+    "sentence_classifications": [
+      {
+        "article_id": "171",
+        "comment_id": 12,
+        "original_comment": "In this graph, I noticed that most places in the US do not have more than 1 news outlet.",
+        "reasoning": "Step 2c: Summarizes a broad distribution across many counties/states, not a single data point.",
+        "comment_tag": "Visual Observation: Cross-point Pattern Recognition",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 12,
+        "original_comment": "Cities such as New York and California are populated areas.",
+        "reasoning": "Step 7: General background fact about population, not a direct chart observation.",
+        "comment_tag": "Prior Knowledge: Background",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 12,
+        "original_comment": "New York has experienced a drastic decrease in its number of outlets since 2005.",
+        "reasoning": "Step 2c: Describes a time trend for one named place across years.",
+        "comment_tag": "Visual Observation: Cross-point Pattern Recognition",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 12,
+        "original_comment": "I wonder what may persuade people to read the news more on paper rather than on the web.",
+        "reasoning": "Step 5: Explicitly asks what might explain a behavior, showing curiosity.",
+        "comment_tag": "Curiosity",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 12,
+        "original_comment": "People nowadays can access information at the tip of their fingers.",
+        "reasoning": "Step 7: General background claim about modern information access.",
+        "comment_tag": "Prior Knowledge: Background",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 12,
+        "original_comment": "People nowadays do not have to pick up newspapers.",
+        "reasoning": "Step 7: General factual claim about media consumption habits, not a chart observation.",
+        "comment_tag": "Prior Knowledge: Background",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 12,
+        "original_comment": "This relates to my community.",
+        "reasoning": "Step 3: Personal/community reference.",
+        "comment_tag": "Prior Knowledge: Personal / Episodic",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 12,
+        "original_comment": "I do not even receive the papers in my mail anymore.",
+        "reasoning": "Step 3: Personal experience about the commenter’s own mail delivery.",
+        "comment_tag": "Prior Knowledge: Personal / Episodic",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 12,
+        "original_comment": "I live in New York in a somewhat urban area.",
+        "reasoning": "Step 3: Direct self-reference about residence.",
+        "comment_tag": "Prior Knowledge: Personal / Episodic",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 12,
+        "original_comment": "No one goes to get the newspaper.",
+        "reasoning": "Step 7: General claim about behavior, not tied to the chart.",
+        "comment_tag": "Prior Knowledge: Background",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 12,
+        "original_comment": "A good title for this graph could be:",
+        "reasoning": "Step 1: User-generated title prompt about the graph artifact.",
+        "comment_tag": "Meta / Paratext",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 12,
+        "original_comment": "Depletion of Paper across the US.",
+        "reasoning": "Step 1: Proposed headline/title for the graph, not a world claim.",
+        "comment_tag": "Meta / Paratext",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      }
+    ],
     "dependency_graph": [
       {
         "id": 0,
@@ -2615,6 +3719,96 @@
       "The headline is:": 10,
       "Is journalism now useless?": 11
     },
+    "sentence_classifications": [
+      {
+        "article_id": "171",
+        "comment_id": 13,
+        "original_comment": "I noticed one thing.",
+        "reasoning": "Step 9: Too vague and content-free to classify meaningfully.",
+        "comment_tag": "Uncategorizable",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 13,
+        "original_comment": "There are mostly new journalism outlets along the west coast.",
+        "reasoning": "Step 2c: Describes a spatial distribution across the map.",
+        "comment_tag": "Visual Observation: Cross-point Pattern Recognition",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 13,
+        "original_comment": "There are close to zero local journalism outlets in Alaska.",
+        "reasoning": "Step 2b: Extracts a specific quantity for one location ('close to zero').",
+        "comment_tag": "Visual Observation: Data Point Extraction",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 13,
+        "original_comment": "I wonder why there are fewer local journalists on the east coast than on the west coast.",
+        "reasoning": "Step 5: Explicit why-question about the observed regional difference.",
+        "comment_tag": "Curiosity",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 13,
+        "original_comment": "I also wonder whether the lack of local journalism is because we have so much news from our phones and devices.",
+        "reasoning": "Step 6: Proposes a cause ('because we have so much news from our phones and devices') for the lack of local journalism.",
+        "comment_tag": "Inference: Explanatory",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 13,
+        "original_comment": "The current state of journalism affects my community by influencing the information we receive.",
+        "reasoning": "Step 3: Although it mentions an effect, the sentence centers on the commenter’s community, making it personal/episodic.",
+        "comment_tag": "Prior Knowledge: Personal / Episodic",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 13,
+        "original_comment": "The information we receive can be about our community or the world.",
+        "reasoning": "Step 7: General background claim about information content.",
+        "comment_tag": "Prior Knowledge: Background",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 13,
+        "original_comment": "Good quality journalism encourages an informed population.",
+        "reasoning": "Step 7: General factual/normative-sounding claim about journalism, not a direct chart observation.",
+        "comment_tag": "Prior Knowledge: Background",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 13,
+        "original_comment": "Misinformation might cause a misunderstanding in a community.",
+        "reasoning": "Step 6: Uses causal language ('might cause') to explain an outcome.",
+        "comment_tag": "Inference: Explanatory",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 13,
+        "original_comment": "The headline is:",
+        "reasoning": "Step 1: Paratext introducing a headline.",
+        "comment_tag": "Meta / Paratext",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 13,
+        "original_comment": "Is journalism now useless?",
+        "reasoning": "Step 1: User-generated headline/title about the graph artifact.",
+        "comment_tag": "Meta / Paratext",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      }
+    ],
     "dependency_graph": [
       {
         "id": 0,
@@ -2800,6 +3994,72 @@
       "The headline is:": 7,
       "The Limiting Local News": 8
     },
+    "sentence_classifications": [
+      {
+        "article_id": "171",
+        "comment_id": 14,
+        "original_comment": "I noticed that across the U.S., there is not a large number of local news in each state.",
+        "reasoning": "Step 2c: Summarizes a broad distribution across states on the map.",
+        "comment_tag": "Visual Observation: Cross-point Pattern Recognition",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 14,
+        "original_comment": "There are several areas that have only 1 local news outlet.",
+        "reasoning": "Step 2b: Extracts a specific quantity for a subset of areas.",
+        "comment_tag": "Visual Observation: Data Point Extraction",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 14,
+        "original_comment": "I wonder why populated states such as New York and Texas do not have as much local news as I would have expected.",
+        "reasoning": "Step 5: Explicit why-question about the observed pattern.",
+        "comment_tag": "Curiosity",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 14,
+        "original_comment": "Considering they are both populated states, I would assume that the large population would have a direct relationship to their number of local news outlets.",
+        "reasoning": "Step 6: Proposes a causal relationship between population and outlet count.",
+        "comment_tag": "Inference: Explanatory",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 14,
+        "original_comment": "This related to my community because in Long Island there are several local news outlets.",
+        "reasoning": "Step 3: Personal/community reference to Long Island.",
+        "comment_tag": "Prior Knowledge: Personal / Episodic",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 14,
+        "original_comment": "The map displays Long Island as a place with 10+ news outlets.",
+        "reasoning": "Step 2b: Reads a specific value for one named place from the map.",
+        "comment_tag": "Visual Observation: Data Point Extraction",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 14,
+        "original_comment": "The headline is:",
+        "reasoning": "Step 1: Paratext introducing a headline.",
+        "comment_tag": "Meta / Paratext",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      },
+      {
+        "article_id": "171",
+        "comment_id": 14,
+        "original_comment": "The Limiting Local News",
+        "reasoning": "Step 1: User-generated headline/title for the graph.",
+        "comment_tag": "Meta / Paratext",
+        "image_description": "## 1. Chart type\n- **Choropleth map** of U.S. counties.\n\n## 2. Layout techniques\n- Uses a **geographic map layout** with counties as the unit of analysis.\n- Includes **inset maps** for **Alaska** and **Hawaii**.\n- No faceting, stacking, or small multiples.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| U.S. county location | Geographic/spatial | Position on map |\n| Number of local news outlets (binned: None, 1, 2–5, 6–9, 10+) | Ordinal | Color/hue of county fill |\n| State name/abbreviation | Categorical/nominal | Text labels on map |\n| Selected county/state callout statistics (e.g., California 524, L.A. County 104, NYC metro lost 210, Texas 29 counties with none) | Quantitative | Annotation text/callouts with leader lines |"
+      }
+    ],
     "dependency_graph": [
       {
         "id": 0,

@@ -2,6 +2,8 @@
 Histogram of word counts per raw_comment across all JSON files under ace_comments/,
 plus a histogram of unique comment_tag subcategories per comment from ace_classifications/.
 Both charts are written side by side (horizontal concat) to one HTML file.
+Also writes a CSV of comment text for comments that have exactly one distinct comment_tag
+in ace_classifications (see --examples-csv).
 
 Each ace_comments file is one comment; words are counted by splitting on whitespace after stripping.
 Word-count chart: Altair bar mark with 10-word-wide bins on word_count (0–9, 10–19, …).
@@ -22,6 +24,9 @@ import pandas as pd
 ACE_COMMENTS_DIR = Path(__file__).resolve().parent.parent / "ace_comments"
 CLASSIFICATIONS_DIR = Path(__file__).resolve().parent.parent / "ace_classifications"
 DEFAULT_HTML = Path(__file__).resolve().parent / "figures/comment_word_count_histogram.html"
+DEFAULT_EXAMPLES_CSV = (
+    Path(__file__).resolve().parent / "figures/comments_single_subcategory_examples.csv"
+)
 BIN_WIDTH = 10
 WORD_CHART_WIDTH = 520
 SUBCAT_CHART_WIDTH = 400
@@ -49,6 +54,7 @@ def load_comment_rows() -> list[dict]:
                 "article_id": str(data.get("article_id", path.parent.name)),
                 "comment_index": data.get("comment_index"),
                 "rel_path": str(path.relative_to(ACE_COMMENTS_DIR)),
+                "raw_comment": raw if isinstance(raw, str) else str(raw) if raw is not None else "",
                 "word_count": word_count(raw),
             }
         )
@@ -91,6 +97,45 @@ def merge_word_counts_with_subcat_counts(
     out = out.merge(n_sub, on=["article_id", "comment_id"], how="left")
     out["n_subcategories"] = out["n_subcategories"].fillna(0).astype(int)
     return out
+
+
+def single_subcategory_examples_df(
+    merged: pd.DataFrame, df_cls: pd.DataFrame
+) -> pd.DataFrame:
+    """Comments with exactly one distinct comment_tag; includes raw_comment and that tag."""
+    cls = df_cls.dropna(subset=["comment_tag"])
+    if cls.empty:
+        return pd.DataFrame(
+            columns=[
+                "article_id",
+                "comment_id",
+                "comment_index",
+                "comment_tag",
+                "word_count",
+                "rel_path",
+                "raw_comment",
+            ]
+        )
+    g = cls.groupby(["article_id", "comment_id"], observed=True)
+    summary = g.agg(
+        n_sub=("comment_tag", "nunique"),
+        comment_tag=(
+            "comment_tag",
+            lambda s: sorted(pd.Series(s).dropna().astype(str).unique())[0],
+        ),
+    ).reset_index()
+    summary = summary[summary["n_sub"] == 1].drop(columns=["n_sub"])
+    ex = merged.merge(summary, on=["article_id", "comment_id"], how="inner")
+    cols = [
+        "article_id",
+        "comment_id",
+        "comment_index",
+        "comment_tag",
+        "word_count",
+        "rel_path",
+        "raw_comment",
+    ]
+    return ex[[c for c in cols if c in ex.columns]]
 
 
 def build_word_count_chart(merged: pd.DataFrame) -> alt.Chart:
@@ -183,6 +228,15 @@ def main() -> int:
         default=None,
         help="Optional path to save per-comment word counts as CSV",
     )
+    parser.add_argument(
+        "--examples-csv",
+        type=Path,
+        default=DEFAULT_EXAMPLES_CSV,
+        help=(
+            "Path for CSV of raw_comment rows with exactly one distinct comment_tag "
+            f"(default: {DEFAULT_EXAMPLES_CSV})"
+        ),
+    )
     args = parser.parse_args()
 
     if not ACE_COMMENTS_DIR.is_dir():
@@ -207,6 +261,11 @@ def main() -> int:
         df.to_csv(args.csv, index=False)
 
     merged = merge_word_counts_with_subcat_counts(df, df_cls)
+    examples_path = Path(args.examples_csv)
+    examples = single_subcategory_examples_df(merged, df_cls)
+    examples_path.parent.mkdir(parents=True, exist_ok=True)
+    examples.to_csv(examples_path, index=False)
+
     chart = build_chart(merged, df_cls)
     args.output.parent.mkdir(parents=True, exist_ok=True)
     chart.save(str(args.output))
@@ -218,6 +277,9 @@ def main() -> int:
     print(
         f"Wrote {args.output} ({len(df)} ace_comments; "
         f"{n_sub.shape[0]} comments in classifications)"
+    )
+    print(
+        f"Wrote {examples_path} ({len(examples)} comments with exactly one subcategory)"
     )
     print("Word-count panel: slider sets minimum unique subcategories (left chart only).")
     wc = df["word_count"]
