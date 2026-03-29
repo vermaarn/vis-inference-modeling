@@ -168,10 +168,10 @@
 (function() {
   const currentCommentIndex = 3;
   const maxCommentIndex = 153;
-  const nodes = [{"id": 0, "sentence": "The speaker is Brody.", "category": "Meta / paratext", "color": "#17becf", "source_mappings": ["i am brody"]}, {"id": 1, "sentence": "Brody thinks that over 25 gigawatts is crazy.", "category": "Evaluative / affective judgment", "color": "#7f7f7f", "source_mappings": ["I think over 25 gigawatts is crazy"]}];
-  const links = [{"source": 0, "target": 1, "edge_type": "Narrative/Referential", "color": "#f781bf"}];
-  const legendItems = [{"category": "Evaluative / affective judgment", "color": "#7f7f7f"}, {"category": "Meta / paratext", "color": "#17becf"}];
-  const edgeLegendItems = [{"edge_type": "Narrative/Referential", "color": "#f781bf"}];
+  const nodes = [{"id": 0, "sentence": "The speaker is Brody.", "category": "Meta / Paratext", "color": "#aec7e8", "source_mappings": ["i am brody"]}, {"id": 1, "sentence": "Brody thinks that over 25 gigawatts is crazy.", "category": "Evaluative: Reactive", "color": "#e377c2", "source_mappings": ["I think over 25 gigawatts is crazy"]}];
+  const links = [{"source": 0, "target": 1, "edge_type": "Elaborative", "color": "#377eb8"}];
+  const legendItems = [{"category": "Evaluative: Reactive", "color": "#e377c2"}, {"category": "Meta / Paratext", "color": "#aec7e8"}];
+  const edgeLegendItems = [{"edge_type": "Elaborative", "color": "#377eb8"}];
 
   const NODE_W = 180;
   const PAD_X = 8, PAD_Y = 6;

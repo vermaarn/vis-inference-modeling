@@ -3,19 +3,19 @@
   "comment_index": 24,
   "raw_comment": "Why does the May area sprout last even thought it's not that far north?",
   "ace_sentences": [
-    "The speaker asks a question.",
-    "The speaker asks why the May area sprouts last.",
-    "The May area does not be far north."
+    "The May area sprouts last.",
+    "The May area is not that far north."
   ],
   "source_mappings": {
-    "The speaker asks a question.": [
-      "Why does"
+    "The May area sprouts last.": [
+      "the May area sprout last"
     ],
-    "The speaker asks why the May area sprouts last.": [
-      "Why does the May area sprout last"
-    ],
-    "The May area does not be far north.": [
+    "The May area is not that far north.": [
       "it's not that far north"
     ]
+  },
+  "order": {
+    "The May area sprouts last.": 1,
+    "The May area is not that far north.": 2
   }
 }

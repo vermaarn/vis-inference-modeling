@@ -3,11 +3,14 @@
   "comment_index": 38,
   "raw_comment": "I wonder why the mid west takes the longest to get there first leaf",
   "ace_sentences": [
-    "I wonder why the mid west takes the longest to get there first leaf."
+    "I wonder why the Midwest takes the longest to get there first leaf."
   ],
   "source_mappings": {
-    "I wonder why the mid west takes the longest to get there first leaf.": [
+    "I wonder why the Midwest takes the longest to get there first leaf.": [
       "I wonder why the mid west takes the longest to get there first leaf"
     ]
+  },
+  "order": {
+    "I wonder why the Midwest takes the longest to get there first leaf.": 1
   }
 }

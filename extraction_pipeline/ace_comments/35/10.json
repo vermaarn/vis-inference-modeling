@@ -3,19 +3,24 @@
   "comment_index": 10,
   "raw_comment": "In this graph, it seems to show that leaves fall at different times and even in the end spring comes faster for states in the southern part of the united states. Spring doesn't come at the same time for every state.",
   "ace_sentences": [
-    "This graph seems to show that leaves fall at different times.",
-    "This graph seems to show that spring comes faster for states in the southern part of the united states.",
+    "In this graph, it seems to show that leaves fall at different times.",
+    "In the end, spring comes faster for states in the southern part of the United States.",
     "Spring does not come at the same time for every state."
   ],
   "source_mappings": {
-    "This graph seems to show that leaves fall at different times.": [
+    "In this graph, it seems to show that leaves fall at different times.": [
       "In this graph, it seems to show that leaves fall at different times"
     ],
-    "This graph seems to show that spring comes faster for states in the southern part of the united states.": [
-      "spring comes faster for states in the southern part of the united states"
+    "In the end, spring comes faster for states in the southern part of the United States.": [
+      "and even in the end spring comes faster for states in the southern part of the united states"
     ],
     "Spring does not come at the same time for every state.": [
-      "Spring doesn't come at the same time for every state."
+      "Spring doesn't come at the same time for every state"
     ]
+  },
+  "order": {
+    "In this graph, it seems to show that leaves fall at different times.": 1,
+    "In the end, spring comes faster for states in the southern part of the United States.": 2,
+    "Spring does not come at the same time for every state.": 3
   }
 }

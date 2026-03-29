@@ -3,19 +3,14 @@
   "comment_index": 16,
   "raw_comment": "i noticed that the aerage leaft fall starts ins in florida and ends in wyoming",
   "ace_sentences": [
-    "I noticed something.",
-    "The average leaf fall starts in Florida.",
-    "The average leaf fall ends in Wyoming."
+    "I noticed that the average leaf fall starts in Florida and ends in Wyoming."
   ],
   "source_mappings": {
-    "I noticed something.": [
-      "i noticed"
-    ],
-    "The average leaf fall starts in Florida.": [
-      "the aerage leaft fall starts ins in florida"
-    ],
-    "The average leaf fall ends in Wyoming.": [
-      "ends in wyoming"
+    "I noticed that the average leaf fall starts in Florida and ends in Wyoming.": [
+      "i noticed that the aerage leaft fall starts ins in florida and ends in wyoming"
     ]
+  },
+  "order": {
+    "I noticed that the average leaf fall starts in Florida and ends in Wyoming.": 1
   }
 }

@@ -4,57 +4,58 @@
   "raw_comment": "I wonder why parts of Washington state got their first leaf before parts of New Mexico and Arizona? Arizona and New Mexico are much closer to the equator. From my background knowledge I know that the closer you are to the equator the warmer weather that location would have. Additionally, I would assume leaves grow in warm weather which Arizona and Washington are warmer. However, plants need sunlight so maybe some of Washington got more sunlight than New Mexico and Arizona.\n\nName idea: \nAloe Spring!",
   "ace_sentences": [
     "I wonder why parts of Washington state got their first leaf before parts of New Mexico and Arizona.",
-    "Arizona is much closer to the equator.",
-    "New Mexico is much closer to the equator.",
-    "From my background knowledge, I know that the closer you are to the equator, the warmer weather that location would have.",
-    "I assume that leaves grow in warm weather.",
-    "I assume that Arizona is warmer.",
-    "I assume that Washington is warmer.",
+    "Arizona and New Mexico are much closer to the equator.",
+    "The closer you are to the equator, the warmer weather that location would have.",
+    "I know this from my background knowledge.",
+    "Leaves grow in warm weather.",
+    "Arizona and Washington are warmer.",
     "Plants need sunlight.",
-    "Maybe some of Washington got more sunlight than New Mexico.",
-    "Maybe some of Washington got more sunlight than Arizona.",
-    "The name idea is Aloe Spring."
+    "Some of Washington got more sunlight than New Mexico and Arizona.",
+    "The name idea is:",
+    "Aloe Spring!"
   ],
   "source_mappings": {
     "I wonder why parts of Washington state got their first leaf before parts of New Mexico and Arizona.": [
       "I wonder why parts of Washington state got their first leaf before parts of New Mexico and Arizona?"
     ],
-    "Arizona is much closer to the equator.": [
-      "Arizona and New Mexico are much closer to the equator.",
-      "Arizona"
+    "Arizona and New Mexico are much closer to the equator.": [
+      "Arizona and New Mexico are much closer to the equator."
     ],
-    "New Mexico is much closer to the equator.": [
-      "Arizona and New Mexico are much closer to the equator.",
-      "New Mexico"
+    "The closer you are to the equator, the warmer weather that location would have.": [
+      "the closer you are to the equator the warmer weather that location would have"
     ],
-    "From my background knowledge, I know that the closer you are to the equator, the warmer weather that location would have.": [
-      "From my background knowledge I know that the closer you are to the equator the warmer weather that location would have."
+    "I know this from my background knowledge.": [
+      "From my background knowledge I know"
     ],
-    "I assume that leaves grow in warm weather.": [
-      "I would assume leaves grow in warm weather"
+    "Leaves grow in warm weather.": [
+      "leaves grow in warm weather"
     ],
-    "I assume that Arizona is warmer.": [
-      "Arizona and Washington are warmer.",
-      "Arizona"
-    ],
-    "I assume that Washington is warmer.": [
-      "Arizona and Washington are warmer.",
-      "Washington"
+    "Arizona and Washington are warmer.": [
+      "Arizona and Washington are warmer"
     ],
     "Plants need sunlight.": [
       "plants need sunlight"
     ],
-    "Maybe some of Washington got more sunlight than New Mexico.": [
-      "maybe some of Washington got more sunlight than New Mexico and Arizona.",
-      "New Mexico"
+    "Some of Washington got more sunlight than New Mexico and Arizona.": [
+      "some of Washington got more sunlight than New Mexico and Arizona"
     ],
-    "Maybe some of Washington got more sunlight than Arizona.": [
-      "maybe some of Washington got more sunlight than New Mexico and Arizona.",
-      "Arizona"
+    "The name idea is:": [
+      "Name idea:"
     ],
-    "The name idea is Aloe Spring.": [
-      "Name idea:",
+    "Aloe Spring!": [
       "Aloe Spring!"
     ]
+  },
+  "order": {
+    "I wonder why parts of Washington state got their first leaf before parts of New Mexico and Arizona.": 1,
+    "Arizona and New Mexico are much closer to the equator.": 2,
+    "The closer you are to the equator, the warmer weather that location would have.": 3,
+    "I know this from my background knowledge.": 4,
+    "Leaves grow in warm weather.": 5,
+    "Arizona and Washington are warmer.": 6,
+    "Plants need sunlight.": 7,
+    "Some of Washington got more sunlight than New Mexico and Arizona.": 8,
+    "The name idea is:": 9,
+    "Aloe Spring!": 10
   }
 }

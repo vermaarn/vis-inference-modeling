@@ -3,11 +3,14 @@
   "comment_index": 15,
   "raw_comment": "i wonder how so many people reported this data",
   "ace_sentences": [
-    "I wonder how many people reported this data."
+    "I wonder how so many people reported this data."
   ],
   "source_mappings": {
-    "I wonder how many people reported this data.": [
+    "I wonder how so many people reported this data.": [
       "i wonder how so many people reported this data"
     ]
+  },
+  "order": {
+    "I wonder how so many people reported this data.": 1
   }
 }

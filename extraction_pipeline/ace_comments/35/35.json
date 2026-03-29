@@ -3,15 +3,19 @@
   "comment_index": 35,
   "raw_comment": "I think this graph is very informational but I wondered why the Pacific coast almost at once was filled.",
   "ace_sentences": [
-    "I think that this graph is very informational.",
-    "I wondered why the Pacific coast almost at once was filled."
+    "I think that this graph is very informative.",
+    "I wondered why the Pacific coast was filled almost at once."
   ],
   "source_mappings": {
-    "I think that this graph is very informational.": [
+    "I think that this graph is very informative.": [
       "I think this graph is very informational"
     ],
-    "I wondered why the Pacific coast almost at once was filled.": [
-      "I wondered why the Pacific coast almost at once was filled."
+    "I wondered why the Pacific coast was filled almost at once.": [
+      "I wondered why the Pacific coast almost at once was filled"
     ]
+  },
+  "order": {
+    "I think that this graph is very informative.": 1,
+    "I wondered why the Pacific coast was filled almost at once.": 2
   }
 }

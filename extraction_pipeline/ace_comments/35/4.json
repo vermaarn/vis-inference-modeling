@@ -3,39 +3,24 @@
   "comment_index": 4,
   "raw_comment": "Th graph shows that Texas and other southern state are close to the equators and close to the ocean’s . End it was very interesting looking at this graph and interesting to learn about it.",
   "ace_sentences": [
-    "The graph shows something.",
-    "Texas is close to the equators.",
-    "Other southern state are close to the equators.",
-    "Texas is close to the ocean’s .",
-    "Other southern state are close to the ocean’s .",
-    "Looking at this graph was very interesting.",
+    "The graph shows that Texas and other southern states are close to the equator and close to the ocean.",
+    "It was very interesting to look at this graph.",
     "It was interesting to learn about it."
   ],
   "source_mappings": {
-    "The graph shows something.": [
-      "Th graph shows"
+    "The graph shows that Texas and other southern states are close to the equator and close to the ocean.": [
+      "Th graph shows that Texas and other southern state are close to the equators and close to the ocean’s ."
     ],
-    "Texas is close to the equators.": [
-      "Texas",
-      "close to the equators"
-    ],
-    "Other southern state are close to the equators.": [
-      "other southern state",
-      "close to the equators"
-    ],
-    "Texas is close to the ocean’s .": [
-      "Texas",
-      "close to the ocean’s ."
-    ],
-    "Other southern state are close to the ocean’s .": [
-      "other southern state",
-      "close to the ocean’s ."
-    ],
-    "Looking at this graph was very interesting.": [
+    "It was very interesting to look at this graph.": [
       "End it was very interesting looking at this graph"
     ],
     "It was interesting to learn about it.": [
-      "interesting to learn about it"
+      "and interesting to learn about it"
     ]
+  },
+  "order": {
+    "The graph shows that Texas and other southern states are close to the equator and close to the ocean.": 1,
+    "It was very interesting to look at this graph.": 2,
+    "It was interesting to learn about it.": 3
   }
 }

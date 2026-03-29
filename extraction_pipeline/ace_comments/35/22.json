@@ -3,23 +3,14 @@
   "comment_index": 22,
   "raw_comment": "It should have have been called leaves leaves everywhere in the trees and in your hair",
   "ace_sentences": [
-    "It should have been called leaves.",
-    "Leaves are everywhere.",
-    "Leaves are in the trees.",
-    "Leaves are in your hair."
+    "It should have been called \"Leaves Leaves Everywhere in the Trees and in Your Hair\"."
   ],
   "source_mappings": {
-    "It should have been called leaves.": [
-      "It should have have been called leaves"
-    ],
-    "Leaves are everywhere.": [
-      "leaves everywhere"
-    ],
-    "Leaves are in the trees.": [
-      "in the trees"
-    ],
-    "Leaves are in your hair.": [
-      "in your hair"
+    "It should have been called \"Leaves Leaves Everywhere in the Trees and in Your Hair\".": [
+      "It should have have been called leaves leaves everywhere in the trees and in your hair"
     ]
+  },
+  "order": {
+    "It should have been called \"Leaves Leaves Everywhere in the Trees and in Your Hair\".": 1
   }
 }

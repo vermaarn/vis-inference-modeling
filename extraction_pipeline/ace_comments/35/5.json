@@ -5,14 +5,12 @@
   "ace_sentences": [
     "The graph shows the days from January till May.",
     "The graph shows how leafs are coming out.",
-    "I have noticed something.",
-    "Most states in the south have leafs that are growing faster than in north America.",
-    "Most states in the west south have leafs that are growing faster than in center america.",
-    "The latest ones were in April.",
-    "The latest ones were in May.",
-    "The latest ones were mostly the north states.",
-    "Leafs come out.",
-    "The title is \"I am a leaf\"."
+    "Most states in the south and west south have leafs that are growing faster than in north and center america.",
+    "The latest leafs were in April and May.",
+    "The latest leafs were mostly in the north states.",
+    "The headline is:",
+    "I am a leaf.",
+    "What makes leafs come out?"
   ],
   "source_mappings": {
     "The graph shows the days from January till May.": [
@@ -21,32 +19,33 @@
     "The graph shows how leafs are coming out.": [
       "and how leafs are coming out"
     ],
-    "I have noticed something.": [
-      "So i have noticed"
+    "Most states in the south and west south have leafs that are growing faster than in north and center america.": [
+      "most states that are in the south and west south leafs are growing more faster than in north and center america"
     ],
-    "Most states in the south have leafs that are growing faster than in north America.": [
-      "most states that are in the south",
-      "leafs are growing more faster than in north"
+    "The latest leafs were in April and May.": [
+      "The latest ones were in April and May"
     ],
-    "Most states in the west south have leafs that are growing faster than in center america.": [
-      "and west south",
-      "leafs are growing more faster than in",
-      "center america"
+    "The latest leafs were mostly in the north states.": [
+      "that's mostly the north states"
     ],
-    "The latest ones were in April.": [
-      "The latest ones were in April"
+    "The headline is:": [
+      "Title"
     ],
-    "The latest ones were in May.": [
-      "and May"
+    "I am a leaf.": [
+      "I am a leaf"
     ],
-    "The latest ones were mostly the north states.": [
-      "and that's mostly the north states"
-    ],
-    "Leafs come out.": [
-      "leafs to come out"
-    ],
-    "The title is \"I am a leaf\".": [
-      "Title: I am a leaf."
+    "What makes leafs come out?": [
+      "What makes leafs to come out?"
     ]
+  },
+  "order": {
+    "The graph shows the days from January till May.": 1,
+    "The graph shows how leafs are coming out.": 2,
+    "Most states in the south and west south have leafs that are growing faster than in north and center america.": 3,
+    "The latest leafs were in April and May.": 4,
+    "The latest leafs were mostly in the north states.": 5,
+    "The headline is:": 6,
+    "I am a leaf.": 7,
+    "What makes leafs come out?": 8
   }
 }

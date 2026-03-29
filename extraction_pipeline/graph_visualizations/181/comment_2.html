@@ -168,10 +168,10 @@
 (function() {
   const currentCommentIndex = 2;
   const maxCommentIndex = 153;
-  const nodes = [{"id": 0, "sentence": "Andre Hamana says hello.", "category": "Uncategorizable", "color": "#aec7e8", "source_mappings": ["hello"]}, {"id": 1, "sentence": "Andre Hamana says that this is Andre Hamana.", "category": "Personal/episodic retrieval", "color": "#9467bd", "source_mappings": ["this is Andre Hamana"]}, {"id": 2, "sentence": "Andre Hamana thinks that over 25 gigawatts is crazy.", "category": "Evaluative / affective judgment", "color": "#7f7f7f", "source_mappings": ["i think that over 25 gigawatts is crazy"]}];
-  const links = [];
-  const legendItems = [{"category": "Personal/episodic retrieval", "color": "#9467bd"}, {"category": "Evaluative / affective judgment", "color": "#7f7f7f"}, {"category": "Uncategorizable", "color": "#aec7e8"}];
-  const edgeLegendItems = [];
+  const nodes = [{"id": 0, "sentence": "Andre Hamana says hello.", "category": "Prior Knowledge: Personal / Episodic", "color": "#9467bd", "source_mappings": ["hello"]}, {"id": 1, "sentence": "Andre Hamana says that this is Andre Hamana.", "category": "Prior Knowledge: Personal / Episodic", "color": "#9467bd", "source_mappings": ["this is Andre Hamana"]}, {"id": 2, "sentence": "Andre Hamana thinks that over 25 gigawatts is crazy.", "category": "Evaluative: Reactive", "color": "#e377c2", "source_mappings": ["i think that over 25 gigawatts is crazy"]}];
+  const links = [{"source": 0, "target": 1, "edge_type": "Elaborative", "color": "#377eb8"}, {"source": 1, "target": 2, "edge_type": "Evaluative", "color": "#984ea3"}];
+  const legendItems = [{"category": "Prior Knowledge: Personal / Episodic", "color": "#9467bd"}, {"category": "Evaluative: Reactive", "color": "#e377c2"}];
+  const edgeLegendItems = [{"edge_type": "Elaborative", "color": "#377eb8"}, {"edge_type": "Evaluative", "color": "#984ea3"}];
 
   const NODE_W = 180;
   const PAD_X = 8, PAD_Y = 6;

@@ -3,15 +3,24 @@
   "comment_index": 23,
   "raw_comment": "This is an okay title; Lets Leaf Winter and Spring Forward",
   "ace_sentences": [
-    "This is an okay title.",
-    "The title is \"Lets Leaf Winter and Spring Forward\"."
+    "The title is:",
+    "Lets Leaf Winter and Spring Forward",
+    "This is an okay title."
   ],
   "source_mappings": {
-    "This is an okay title.": [
-      "This is an okay title;"
+    "The title is:": [
+      "title"
     ],
-    "The title is \"Lets Leaf Winter and Spring Forward\".": [
+    "Lets Leaf Winter and Spring Forward": [
       "Lets Leaf Winter and Spring Forward"
+    ],
+    "This is an okay title.": [
+      "This is an okay title"
     ]
+  },
+  "order": {
+    "The title is:": 1,
+    "Lets Leaf Winter and Spring Forward": 2,
+    "This is an okay title.": 3
   }
 }

@@ -11,7 +11,11 @@
       "I wonder why the east side of the USA is neater"
     ],
     "Meanwhile, the west side has different months all over the states.": [
-      "meanwhile the west side has different months all over the states"
+      "meanwhile, the west side has different months all over the states"
     ]
+  },
+  "order": {
+    "I wonder why the east side of the USA is neater.": 1,
+    "Meanwhile, the west side has different months all over the states.": 2
   }
 }

@@ -168,9 +168,9 @@
 (function() {
   const currentCommentIndex = 144;
   const maxCommentIndex = 153;
-  const nodes = [{"id": 0, "sentence": "I am very surprised that the US has such a low energy usage increase.", "category": "Evaluative / affective judgment", "color": "#7f7f7f", "source_mappings": ["I am very surprised that the US has such a low energy usage increase."]}, {"id": 1, "sentence": "I would expect the energy to rise drastically through 2000-2024.", "category": "Evaluative / affective judgment", "color": "#7f7f7f", "source_mappings": ["I would expect the energy to rise drastically through 2000-2024."]}, {"id": 2, "sentence": "I was also surprised how low India's energy usage was.", "category": "Evaluative / affective judgment", "color": "#7f7f7f", "source_mappings": ["I was also surprised how low India's energy usage was."]}];
-  const links = [{"source": 0, "target": 1, "edge_type": "Contrastive", "color": "#a65628"}];
-  const legendItems = [{"category": "Evaluative / affective judgment", "color": "#7f7f7f"}];
+  const nodes = [{"id": 0, "sentence": "I am very surprised that the US has such a low energy usage increase.", "category": "Evaluative: Reactive", "color": "#e377c2", "source_mappings": ["I am very surprised that the US has such a low energy usage increase."]}, {"id": 1, "sentence": "I would expect the energy to rise drastically through 2000-2024.", "category": "Inference: Predictive / Hypothetical", "color": "#bcbd22", "source_mappings": ["I would expect the energy to rise drastically through 2000-2024."]}, {"id": 2, "sentence": "I was also surprised how low India's energy usage was.", "category": "Evaluative: Reactive", "color": "#e377c2", "source_mappings": ["I was also surprised how low India's energy usage was."]}];
+  const links = [{"source": 0, "target": 1, "edge_type": "Contrastive", "color": "#a65628"}, {"source": 0, "target": 2, "edge_type": "Contrastive", "color": "#a65628"}];
+  const legendItems = [{"category": "Evaluative: Reactive", "color": "#e377c2"}, {"category": "Inference: Predictive / Hypothetical", "color": "#bcbd22"}];
   const edgeLegendItems = [{"edge_type": "Contrastive", "color": "#a65628"}];
 
   const NODE_W = 180;

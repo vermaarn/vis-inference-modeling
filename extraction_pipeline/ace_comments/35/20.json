@@ -4,14 +4,23 @@
   "raw_comment": "I would name this article,\n\"Goodbye Winter, Hello Spring!\"",
   "ace_sentences": [
     "I would name this article.",
-    "The name is \"Goodbye Winter, Hello Spring!\"."
+    "The article name is:",
+    "Goodbye Winter, Hello Spring!"
   ],
   "source_mappings": {
     "I would name this article.": [
-      "I would name this article,"
+      "I would name this article"
     ],
-    "The name is \"Goodbye Winter, Hello Spring!\".": [
+    "The article name is:": [
+      "I would name this article"
+    ],
+    "Goodbye Winter, Hello Spring!": [
       "\"Goodbye Winter, Hello Spring!\""
     ]
+  },
+  "order": {
+    "I would name this article.": 1,
+    "The article name is:": 1,
+    "Goodbye Winter, Hello Spring!": 2
   }
 }

@@ -3,11 +3,14 @@
   "comment_index": 36,
   "raw_comment": "I wonder if the heat of the sun affects the time of when the leaves start appearing?",
   "ace_sentences": [
-    "I wonder if the heat of the sun affects the time when the leaves start appearing."
+    "I wonder whether the heat of the sun affects the time when the leaves start appearing."
   ],
   "source_mappings": {
-    "I wonder if the heat of the sun affects the time when the leaves start appearing.": [
-      "I wonder if the heat of the sun affects the time of when the leaves start appearing?"
+    "I wonder whether the heat of the sun affects the time when the leaves start appearing.": [
+      "I wonder if the heat of the sun affects the time of when the leaves start appearing"
     ]
+  },
+  "order": {
+    "I wonder whether the heat of the sun affects the time when the leaves start appearing.": 1
   }
 }

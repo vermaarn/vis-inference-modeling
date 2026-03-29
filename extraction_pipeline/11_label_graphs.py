@@ -387,32 +387,33 @@ body {
   /* ===== 1. Constants (synced with 10_visualize_graph.py) ===== */
 
   var CATEGORIES = [
-    "L1: Elemental and encoded properties",
-    "L2: Statistical concepts and relations",
-    "L3: Trend and pattern analysis",
-    "Background knowledge",
-    "Personal/episodic retrieval",
-    "Explanatory inference",
-    "Predictive / counterfactual inference",
-    "Evaluative / affective judgment",
-    "Information need / curiosity",
-    "Meta / paratext",
+    "Visual Observation: Chart Structure & Text",
+    "Visual Observation: Data Point Extraction",
+    "Visual Observation: Cross-point Pattern Recognition",
+    "Prior Knowledge: Background",
+    "Prior Knowledge: Personal / Episodic",
+    "Evaluative: Prescriptive",
+    "Evaluative: Reactive",
+    "Inference: Explanatory",
+    "Inference: Predictive / Hypothetical",
+    "Curiosity",
+    "Meta / Paratext",
     "Uncategorizable"
   ];
   var TAB10 = [
     "#1f77b4","#ff7f0e","#2ca02c","#d62728","#9467bd",
     "#8c564b","#e377c2","#7f7f7f","#bcbd22","#17becf",
-    "#aec7e8"
+    "#aec7e8","#ffbb78"
   ];
   var CATEGORY_COLORS = {};
   CATEGORIES.forEach(function(c, i) { CATEGORY_COLORS[c] = TAB10[i % TAB10.length]; });
   CATEGORY_COLORS["unknown"] = "#b3b3b3";
 
-  var EDGE_TYPES = ["Causal","Elaboration","Conditional","Evaluative","Questioning","Contrastive","Narrative/Referential"];
+  var EDGE_TYPES = ["Inferential","Elaborative","Evaluative","Contrastive","Uncategorized"];
   var EDGE_TYPE_COLORS = {
-    "Causal":"#e41a1c","Elaboration":"#377eb8","Conditional":"#ff7f00",
-    "Evaluative":"#984ea3","Questioning":"#4daf4a","Contrastive":"#a65628",
-    "Narrative/Referential":"#f781bf","unknown":"#999999"
+    "Inferential":"#e41a1c","Elaborative":"#377eb8",
+    "Evaluative":"#984ea3","Contrastive":"#a65628",
+    "Uncategorized":"#999999","unknown":"#999999"
   };
 
   var NODE_W = 180, PAD_X = 8, PAD_Y = 6, LINE_H = 14, CHAR_W = 6.2;

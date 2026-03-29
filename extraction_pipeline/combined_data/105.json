@@ -1,0 +1,2607 @@
+[
+  {
+    "article_id": "105",
+    "comment_index": 1,
+    "image_description": "## 1) Chart type\n- **Two side-by-side thematic point maps** of the contiguous United States.\n- Each map overlays many small geographic marks on a basemap, colored by energy type.\n\n## 2) Layout techniques\n- **Small multiples / side-by-side comparison**: one map for **“Wind and Solar Footprint Today”** and one for **“Wind and Solar Needed by 2050.”**\n- **Layering/overlay**: colored point/area marks are drawn on top of a geographic basemap with city/state labels.\n- No stacking is visible.\n\n## 3) Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| Geographic location (U.S. position) | Spatial / geographic | Position on map (x-y geographic coordinates) |\n| Energy type: Wind vs Solar | Categorical/nominal | Color/hue (blue for wind, orange for solar) |\n| Scenario / time frame: Today vs Needed by 2050 | Categorical/nominal (temporal comparison in labels) | Faceting / separate side-by-side map panels; title text |\n| City names / place names | Categorical/nominal | Text labels on map |\n| Basemap geography (state outlines/coastline/terrain) | Spatial / geographic | Background map outlines and shading |\n\nNotes:\n- The titles explicitly indicate the two comparison conditions: **Today** and **Needed by 2050**.\n- No explicit quantitative axis or legend is visible.",
+    "raw_comment": "What going on in this graph is the change in median net worth from 1989 to 2016. A possible headline for this graph is \"The change of median net worth over time has been changing a lot since the 1990's\". What I see that makes me say this is the change that first starts from 1992 to 1995. After that, the graph begins to change. There's also another graph that started in 1998 that has been improving since. This can relate to my community because we all have families. This can display the change in money over the years for families. It makes me wonder if the yellow graph will keep increasing or changing. This is based on the 1st graph",
+    "ace_sentences": [
+      "This graph shows the change in median net worth from 1989 to 2016.",
+      "A possible headline for this graph is \"The change of median net worth over time has been changing a lot since the 1990's\".",
+      "I see the change that first starts from 1992 to 1995.",
+      "After that, the graph begins to change.",
+      "Another graph started in 1998.",
+      "This other graph has been improving since 1998.",
+      "This can relate to my community.",
+      "We all have families.",
+      "This can display the change in money over the years for families.",
+      "I wonder if the yellow graph will keep increasing.",
+      "I wonder if the yellow graph will keep changing.",
+      "This is based on the 1st graph."
+    ],
+    "source_mappings": {
+      "This graph shows the change in median net worth from 1989 to 2016.": [
+        "What going on in this graph is the change in median net worth from 1989 to 2016."
+      ],
+      "A possible headline for this graph is \"The change of median net worth over time has been changing a lot since the 1990's\".": [
+        "A possible headline for this graph is \"The change of median net worth over time has been changing a lot since the 1990's\"."
+      ],
+      "I see the change that first starts from 1992 to 1995.": [
+        "What I see that makes me say this is the change that first starts from 1992 to 1995."
+      ],
+      "After that, the graph begins to change.": [
+        "After that, the graph begins to change."
+      ],
+      "Another graph started in 1998.": [
+        "There's also another graph that started in 1998"
+      ],
+      "This other graph has been improving since 1998.": [
+        "has been improving since."
+      ],
+      "This can relate to my community.": [
+        "This can relate to my community"
+      ],
+      "We all have families.": [
+        "because we all have families."
+      ],
+      "This can display the change in money over the years for families.": [
+        "This can display the change in money over the years for families."
+      ],
+      "I wonder if the yellow graph will keep increasing.": [
+        "It makes me wonder if the yellow graph will keep increasing"
+      ],
+      "I wonder if the yellow graph will keep changing.": [
+        "or changing."
+      ],
+      "This is based on the 1st graph.": [
+        "This is based on the 1st graph"
+      ]
+    },
+    "order": {
+      "This graph shows the change in median net worth from 1989 to 2016.": 1,
+      "A possible headline for this graph is \"The change of median net worth over time has been changing a lot since the 1990's\".": 2,
+      "I see the change that first starts from 1992 to 1995.": 3,
+      "After that, the graph begins to change.": 4,
+      "Another graph started in 1998.": 5,
+      "This other graph has been improving since 1998.": 6,
+      "This can relate to my community.": 7,
+      "We all have families.": 8,
+      "This can display the change in money over the years for families.": 9,
+      "I wonder if the yellow graph will keep increasing.": 10,
+      "I wonder if the yellow graph will keep changing.": 11,
+      "This is based on the 1st graph.": 12
+    },
+    "dependency_graph": [
+      {
+        "id": 0,
+        "sentence": "This graph shows the change in median net worth from 1989 to 2016.",
+        "depends_on": [],
+        "comment_tag": "Visual Observation: Chart Structure & Text",
+        "reasoning": "Step 2a: It describes the chart's subject and time span, which is visible chart text/structure rather than a specific data value."
+      },
+      {
+        "id": 1,
+        "sentence": "A possible headline for this graph is \"The change of median net worth over time has been changing a lot since the 1990's\".",
+        "depends_on": [
+          {
+            "id": 0,
+            "edge_type": "Elaborative",
+            "justification": "(1) B is a headline-style restatement of the graph described in A, using the same topic and time span. (2) Elaborative because it paraphrases and summarizes A without adding a cause, judgment, or contrast."
+          }
+        ],
+        "comment_tag": "Meta / Paratext",
+        "reasoning": "Step 1: This is a user-generated headline about the graph artifact, not an observation from the data itself."
+      },
+      {
+        "id": 2,
+        "sentence": "I see the change that first starts from 1992 to 1995.",
+        "depends_on": [
+          {
+            "id": 0,
+            "edge_type": "Elaborative",
+            "justification": "(1) B identifies a specific segment of the graph introduced in A. (2) Elaborative because it narrows A to a particular time window rather than explaining or evaluating it."
+          }
+        ],
+        "comment_tag": "Visual Observation: Cross-point Pattern Recognition",
+        "reasoning": "Step 2c: It refers to a change across a time interval, which is a pattern over multiple points rather than one value."
+      },
+      {
+        "id": 3,
+        "sentence": "After that, the graph begins to change.",
+        "depends_on": [
+          {
+            "id": 2,
+            "edge_type": "Elaborative",
+            "justification": "(1) B continues the timeline from the change first identified in A with the phrase \"After that.\" (2) Elaborative because it extends the same observation in sequence rather than adding a new causal or evaluative claim."
+          }
+        ],
+        "comment_tag": "Visual Observation: Cross-point Pattern Recognition",
+        "reasoning": "Step 2c: This describes a trend across the chart over time, not a single extracted value."
+      },
+      {
+        "id": 4,
+        "sentence": "Another graph started in 1998.",
+        "depends_on": [
+          {
+            "id": 0,
+            "edge_type": "Elaborative",
+            "justification": "(1) B introduces another graph within the same overall chart context described in A. (2) Elaborative because it adds a related detail about the graph set rather than making a causal or contrastive claim."
+          }
+        ],
+        "comment_tag": "Visual Observation: Chart Structure & Text",
+        "reasoning": "Step 2a: It comments on the presence/start of another graph element, which is structural rather than quantitative."
+      },
+      {
+        "id": 5,
+        "sentence": "This other graph has been improving since 1998.",
+        "depends_on": [
+          {
+            "id": 4,
+            "edge_type": "Elaborative",
+            "justification": "(1) B refers back to \"this other graph\" introduced in A and adds its trend since 1998. (2) Elaborative because it specifies the earlier mention rather than reasoning beyond it or judging it."
+          }
+        ],
+        "comment_tag": "Visual Observation: Cross-point Pattern Recognition",
+        "reasoning": "Step 2c: It describes an overall trend over time in the chart."
+      },
+      {
+        "id": 6,
+        "sentence": "This can relate to my community.",
+        "depends_on": [
+          {
+            "id": 0,
+            "edge_type": "Inferential",
+            "justification": "(1) B links the graph in A to the speaker's community, treating the graph as something socially relevant. (2) Inferential because it draws a broader implication from A rather than merely restating or detailing it."
+          }
+        ],
+        "comment_tag": "Prior Knowledge: Personal / Episodic",
+        "reasoning": "Step 3: This is a self/community reference, so it is personal/episodic rather than a chart observation."
+      },
+      {
+        "id": 7,
+        "sentence": "We all have families.",
+        "depends_on": [],
+        "comment_tag": "Prior Knowledge: Background",
+        "reasoning": "Step 7: This is a general world claim not directly shown in the chart."
+      },
+      {
+        "id": 8,
+        "sentence": "This can display the change in money over the years for families.",
+        "depends_on": [
+          {
+            "id": 6,
+            "edge_type": "Elaborative",
+            "justification": "(1) B develops the community connection in A by specifying that the graph can show family money changes over time. (2) Elaborative because it expands the same idea with a more concrete interpretation, not a new cause or evaluation."
+          },
+          {
+            "id": 7,
+            "edge_type": "Inferential",
+            "justification": "(1) B uses the shared fact that everyone has families to generalize the graph's relevance to families. (2) Inferential because it moves from the premise in A to a broader implication about what the graph can display."
+          }
+        ],
+        "comment_tag": "Visual Observation: Chart Structure & Text",
+        "reasoning": "Step 2a: It states what the graph is about in general terms, describing the chart's displayed subject."
+      },
+      {
+        "id": 9,
+        "sentence": "I wonder if the yellow graph will keep increasing.",
+        "depends_on": [
+          {
+            "id": 5,
+            "edge_type": "Evaluative",
+            "justification": "(1) B's question about the yellow graph is prompted by the improving trend described in A. (2) Evaluative because it expresses curiosity about A's content rather than adding factual detail or a causal explanation."
+          }
+        ],
+        "comment_tag": "Curiosity",
+        "reasoning": "Step 5: 'I wonder if' expresses explicit uncertainty and curiosity about a future outcome."
+      },
+      {
+        "id": 10,
+        "sentence": "I wonder if the yellow graph will keep changing.",
+        "depends_on": [
+          {
+            "id": 5,
+            "edge_type": "Evaluative",
+            "justification": "(1) B again refers to the same yellow graph trend introduced in A. (2) Evaluative because it is a subjective question about the graph's future behavior, not an elaboration or inference."
+          }
+        ],
+        "comment_tag": "Curiosity",
+        "reasoning": "Step 5: This is an explicit question/uncertainty about what may happen next."
+      },
+      {
+        "id": 11,
+        "sentence": "This is based on the 1st graph.",
+        "depends_on": [
+          {
+            "id": 0,
+            "edge_type": "Elaborative",
+            "justification": "(1) B explicitly anchors itself to the first graph introduced in A. (2) Elaborative because it identifies the source of the discussion rather than adding a cause, judgment, or contrast."
+          }
+        ],
+        "comment_tag": "Meta / Paratext",
+        "reasoning": "Step 1: It refers to the graph artifact itself and how the comment is grounded in it, which is meta commentary."
+      }
+    ]
+  },
+  {
+    "article_id": "105",
+    "comment_index": 2,
+    "image_description": "## 1) Chart type\n- **Two side-by-side thematic point maps** of the contiguous United States.\n- Each map overlays many small geographic marks on a basemap, colored by energy type.\n\n## 2) Layout techniques\n- **Small multiples / side-by-side comparison**: one map for **“Wind and Solar Footprint Today”** and one for **“Wind and Solar Needed by 2050.”**\n- **Layering/overlay**: colored point/area marks are drawn on top of a geographic basemap with city/state labels.\n- No stacking is visible.\n\n## 3) Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| Geographic location (U.S. position) | Spatial / geographic | Position on map (x-y geographic coordinates) |\n| Energy type: Wind vs Solar | Categorical/nominal | Color/hue (blue for wind, orange for solar) |\n| Scenario / time frame: Today vs Needed by 2050 | Categorical/nominal (temporal comparison in labels) | Faceting / separate side-by-side map panels; title text |\n| City names / place names | Categorical/nominal | Text labels on map |\n| Basemap geography (state outlines/coastline/terrain) | Spatial / geographic | Background map outlines and shading |\n\nNotes:\n- The titles explicitly indicate the two comparison conditions: **Today** and **Needed by 2050**.\n- No explicit quantitative axis or legend is visible.",
+    "raw_comment": "i notice that in 2007 the regular families peaked then decline, while the rich families peaked declined then increased\ni wonder what the peak was that made both families peaked then declined.\nthis relates to me cause recently the economy affected my family\n\"the economy is unpredictable\"",
+    "ace_sentences": [
+      "In 2007, the regular families peaked.",
+      "After 2007, the regular families declined.",
+      "In 2007, the rich families peaked.",
+      "After 2007, the rich families declined.",
+      "After that, the rich families increased.",
+      "I wonder what the peak was.",
+      "This peak made both families peak.",
+      "This peak made both families decline.",
+      "This relates to me.",
+      "Recently, the economy affected my family.",
+      "The economy is unpredictable."
+    ],
+    "source_mappings": {
+      "In 2007, the regular families peaked.": [
+        "in 2007 the regular families peaked"
+      ],
+      "After 2007, the regular families declined.": [
+        "then decline"
+      ],
+      "In 2007, the rich families peaked.": [
+        "the rich families peaked"
+      ],
+      "After 2007, the rich families declined.": [
+        "peaked declined"
+      ],
+      "After that, the rich families increased.": [
+        "then increased"
+      ],
+      "I wonder what the peak was.": [
+        "i wonder what the peak was"
+      ],
+      "This peak made both families peak.": [
+        "that made both families peaked"
+      ],
+      "This peak made both families decline.": [
+        "then declined"
+      ],
+      "This relates to me.": [
+        "this relates to me"
+      ],
+      "Recently, the economy affected my family.": [
+        "recently the economy affected my family"
+      ],
+      "The economy is unpredictable.": [
+        "the economy is unpredictable"
+      ]
+    },
+    "order": {
+      "In 2007, the regular families peaked.": 1,
+      "After 2007, the regular families declined.": 2,
+      "In 2007, the rich families peaked.": 3,
+      "After 2007, the rich families declined.": 4,
+      "After that, the rich families increased.": 5,
+      "I wonder what the peak was.": 6,
+      "This peak made both families peak.": 7,
+      "This peak made both families decline.": 8,
+      "This relates to me.": 9,
+      "Recently, the economy affected my family.": 10,
+      "The economy is unpredictable.": 11
+    },
+    "dependency_graph": [
+      {
+        "id": 0,
+        "sentence": "In 2007, the regular families peaked.",
+        "depends_on": [],
+        "comment_tag": "Visual Observation: Data Point Extraction",
+        "reasoning": "Step 2b: It extracts a specific time-point value/event for one group."
+      },
+      {
+        "id": 1,
+        "sentence": "After 2007, the regular families declined.",
+        "depends_on": [
+          {
+            "id": 0,
+            "edge_type": "Inferential",
+            "justification": "(1) B follows the peak in A with a later decline, using the same family group and time sequence. (2) Inferential because it states a subsequent outcome after the peak rather than merely refining A."
+          }
+        ],
+        "comment_tag": "Visual Observation: Cross-point Pattern Recognition",
+        "reasoning": "Step 2c: It describes a trend over time for a group."
+      },
+      {
+        "id": 2,
+        "sentence": "In 2007, the rich families peaked.",
+        "depends_on": [],
+        "comment_tag": "Visual Observation: Data Point Extraction",
+        "reasoning": "Step 2b: It identifies a specific peak at a particular time for one group."
+      },
+      {
+        "id": 3,
+        "sentence": "After 2007, the rich families declined.",
+        "depends_on": [
+          {
+            "id": 2,
+            "edge_type": "Inferential",
+            "justification": "(1) B continues the rich-families timeline from the peak in A into a later decline. (2) Inferential because it presents a consequence/next stage rather than a simple detail."
+          }
+        ],
+        "comment_tag": "Visual Observation: Cross-point Pattern Recognition",
+        "reasoning": "Step 2c: It describes a downward trend over time."
+      },
+      {
+        "id": 4,
+        "sentence": "After that, the rich families increased.",
+        "depends_on": [
+          {
+            "id": 3,
+            "edge_type": "Contrastive",
+            "justification": "(1) B directly follows the decline in A but reverses direction with \"increased.\" (2) Contrastive because it introduces a change that runs against the prior downward trend rather than elaborating it."
+          }
+        ],
+        "comment_tag": "Visual Observation: Cross-point Pattern Recognition",
+        "reasoning": "Step 2c: It describes a subsequent trend change across time."
+      },
+      {
+        "id": 5,
+        "sentence": "I wonder what the peak was.",
+        "depends_on": [
+          {
+            "id": 0,
+            "edge_type": "Evaluative",
+            "justification": "(1) B is a question prompted by the peak mentioned in A. (2) Evaluative because it expresses curiosity about A's content rather than adding factual detail or a causal explanation."
+          },
+          {
+            "id": 2,
+            "edge_type": "Evaluative",
+            "justification": "(1) B also asks about the peak in the rich-families line mentioned in A. (2) Evaluative because it is a subjective inquiry, not an elaboration or inference."
+          }
+        ],
+        "comment_tag": "Curiosity",
+        "reasoning": "Step 5: It explicitly asks for missing information about the peak."
+      },
+      {
+        "id": 6,
+        "sentence": "This peak made both families peak.",
+        "depends_on": [
+          {
+            "id": 0,
+            "edge_type": "Inferential",
+            "justification": "(1) B treats the peak in A as the cause of both families peaking. (2) Inferential because it introduces a causal mechanism beyond A rather than restating A."
+          },
+          {
+            "id": 2,
+            "edge_type": "Inferential",
+            "justification": "(1) B also uses the rich-families peak in A as the basis for the same causal claim. (2) Inferential because it reasons from the observed peaks to a cause-effect relation."
+          }
+        ],
+        "comment_tag": "Inference: Explanatory",
+        "reasoning": "Step 6: It proposes a causal link between the peak and both families peaking."
+      },
+      {
+        "id": 7,
+        "sentence": "This peak made both families decline.",
+        "depends_on": [
+          {
+            "id": 0,
+            "edge_type": "Inferential",
+            "justification": "(1) B links the peak in A to a later decline for both families. (2) Inferential because it proposes a causal consequence rather than a mere description."
+          },
+          {
+            "id": 2,
+            "edge_type": "Inferential",
+            "justification": "(1) B likewise uses the rich-families peak in A as the premise for the decline claim. (2) Inferential because it extends A into a cause/effect statement."
+          }
+        ],
+        "comment_tag": "Inference: Explanatory",
+        "reasoning": "Step 6: It proposes a causal explanation for the decline in both families."
+      },
+      {
+        "id": 8,
+        "sentence": "This relates to me.",
+        "depends_on": [
+          {
+            "id": 0,
+            "edge_type": "Inferential",
+            "justification": "(1) B connects the family wealth pattern in A to the speaker's own life. (2) Inferential because it draws a broader personal relevance from the graph rather than simply elaborating the graph itself."
+          }
+        ],
+        "comment_tag": "Prior Knowledge: Personal / Episodic",
+        "reasoning": "Step 3: Direct self-reference indicates personal/episodic content."
+      },
+      {
+        "id": 9,
+        "sentence": "Recently, the economy affected my family.",
+        "depends_on": [
+          {
+            "id": 8,
+            "edge_type": "Elaborative",
+            "justification": "(1) B specifies why the graph relates to the speaker by giving a concrete family experience. (2) Elaborative because it adds contextual detail to A's personal relevance rather than introducing a new causal claim about the graph."
+          }
+        ],
+        "comment_tag": "Prior Knowledge: Personal / Episodic",
+        "reasoning": "Step 3: It refers to the speaker's family and lived experience."
+      },
+      {
+        "id": 10,
+        "sentence": "The economy is unpredictable.",
+        "depends_on": [
+          {
+            "id": 9,
+            "edge_type": "Inferential",
+            "justification": "(1) B generalizes from the family being affected by the economy in A to a broader claim about the economy. (2) Inferential because it draws a conclusion from A's example rather than merely restating it."
+          }
+        ],
+        "comment_tag": "Prior Knowledge: Background",
+        "reasoning": "Step 7: This is a general factual claim about the economy, not a chart observation."
+      }
+    ]
+  },
+  {
+    "article_id": "105",
+    "comment_index": 3,
+    "image_description": "## 1) Chart type\n- **Two side-by-side thematic point maps** of the contiguous United States.\n- Each map overlays many small geographic marks on a basemap, colored by energy type.\n\n## 2) Layout techniques\n- **Small multiples / side-by-side comparison**: one map for **“Wind and Solar Footprint Today”** and one for **“Wind and Solar Needed by 2050.”**\n- **Layering/overlay**: colored point/area marks are drawn on top of a geographic basemap with city/state labels.\n- No stacking is visible.\n\n## 3) Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| Geographic location (U.S. position) | Spatial / geographic | Position on map (x-y geographic coordinates) |\n| Energy type: Wind vs Solar | Categorical/nominal | Color/hue (blue for wind, orange for solar) |\n| Scenario / time frame: Today vs Needed by 2050 | Categorical/nominal (temporal comparison in labels) | Faceting / separate side-by-side map panels; title text |\n| City names / place names | Categorical/nominal | Text labels on map |\n| Basemap geography (state outlines/coastline/terrain) | Spatial / geographic | Background map outlines and shading |\n\nNotes:\n- The titles explicitly indicate the two comparison conditions: **Today** and **Needed by 2050**.\n- No explicit quantitative axis or legend is visible.",
+    "raw_comment": "I noticed the graphs are similar but the changes with the top ten percent are more significants and change by higher percentages. I wonder what was going on from 1992 to 1995 that made all the top ten percent less rich but all families increased. This relates to my community now that prices for everything have increased by double or more but the pay is still about the same. This graph shows the change in median net worth since 1989 for the top 10 percent and then for all families.",
+    "ace_sentences": [
+      "I noticed that the graphs are similar.",
+      "I noticed that the changes with the top ten percent are more significants.",
+      "I noticed that the changes with the top ten percent change by higher percentages.",
+      "I wonder what was going on from 1992 to 1995.",
+      "I wonder what made all the top ten percent less rich from 1992 to 1995.",
+      "I wonder what made all families increased from 1992 to 1995.",
+      "This relates to my community now.",
+      "In my community now, prices for everything have increased by double or more.",
+      "In my community now, the pay is still about the same.",
+      "This graph shows the change in median net worth since 1989.",
+      "This graph shows the change in median net worth since 1989 for the top 10 percent.",
+      "This graph shows the change in median net worth since 1989 for all families."
+    ],
+    "source_mappings": {
+      "I noticed that the graphs are similar.": [
+        "I noticed the graphs are similar"
+      ],
+      "I noticed that the changes with the top ten percent are more significants.": [
+        "the changes with the top ten percent are more significants"
+      ],
+      "I noticed that the changes with the top ten percent change by higher percentages.": [
+        "change by higher percentages"
+      ],
+      "I wonder what was going on from 1992 to 1995.": [
+        "I wonder what was going on from 1992 to 1995"
+      ],
+      "I wonder what made all the top ten percent less rich from 1992 to 1995.": [
+        "made all the top ten percent less rich"
+      ],
+      "I wonder what made all families increased from 1992 to 1995.": [
+        "but all families increased"
+      ],
+      "This relates to my community now.": [
+        "This relates to my community now"
+      ],
+      "In my community now, prices for everything have increased by double or more.": [
+        "prices for everything have increased by double or more"
+      ],
+      "In my community now, the pay is still about the same.": [
+        "the pay is still about the same"
+      ],
+      "This graph shows the change in median net worth since 1989.": [
+        "This graph shows the change in median net worth since 1989"
+      ],
+      "This graph shows the change in median net worth since 1989 for the top 10 percent.": [
+        "for the top 10 percent"
+      ],
+      "This graph shows the change in median net worth since 1989 for all families.": [
+        "for all families"
+      ]
+    },
+    "order": {
+      "I noticed that the graphs are similar.": 1,
+      "I noticed that the changes with the top ten percent are more significants.": 2,
+      "I noticed that the changes with the top ten percent change by higher percentages.": 3,
+      "I wonder what was going on from 1992 to 1995.": 4,
+      "I wonder what made all the top ten percent less rich from 1992 to 1995.": 5,
+      "I wonder what made all families increased from 1992 to 1995.": 6,
+      "This relates to my community now.": 7,
+      "In my community now, prices for everything have increased by double or more.": 8,
+      "In my community now, the pay is still about the same.": 9,
+      "This graph shows the change in median net worth since 1989.": 10,
+      "This graph shows the change in median net worth since 1989 for the top 10 percent.": 11,
+      "This graph shows the change in median net worth since 1989 for all families.": 12
+    },
+    "dependency_graph": [
+      {
+        "id": 0,
+        "sentence": "I noticed that the graphs are similar.",
+        "depends_on": [],
+        "comment_tag": "Visual Observation: Cross-point Pattern Recognition",
+        "reasoning": "Step 2c: It compares multiple graphs and identifies a shared pattern."
+      },
+      {
+        "id": 1,
+        "sentence": "I noticed that the changes with the top ten percent are more significants.",
+        "depends_on": [
+          {
+            "id": 0,
+            "edge_type": "Elaborative",
+            "justification": "(1) B elaborates on the similarity in A by pointing to a specific way the graphs differ in magnitude. (2) Elaborative because it refines the observation rather than introducing a causal or evaluative stance."
+          }
+        ],
+        "comment_tag": "Visual Observation: Cross-point Pattern Recognition",
+        "reasoning": "Step 2c: It compares the magnitude of changes across groups, which is cross-point pattern recognition."
+      },
+      {
+        "id": 2,
+        "sentence": "I noticed that the changes with the top ten percent change by higher percentages.",
+        "depends_on": [
+          {
+            "id": 1,
+            "edge_type": "Elaborative",
+            "justification": "(1) B further specifies the significance of the top-ten-percent changes mentioned in A. (2) Elaborative because it adds quantitative detail to the same observation rather than reasoning beyond it."
+          }
+        ],
+        "comment_tag": "Visual Observation: Cross-point Pattern Recognition",
+        "reasoning": "Step 2c: It compares percentage changes across groups, a multi-point pattern."
+      },
+      {
+        "id": 3,
+        "sentence": "I wonder what was going on from 1992 to 1995.",
+        "depends_on": [
+          {
+            "id": 0,
+            "edge_type": "Evaluative",
+            "justification": "(1) B is a question prompted by the graph patterns in A. (2) Evaluative because it expresses curiosity about the observed data rather than elaborating or explaining it."
+          }
+        ],
+        "comment_tag": "Curiosity",
+        "reasoning": "Step 5: It explicitly expresses curiosity about a time period in the chart."
+      },
+      {
+        "id": 4,
+        "sentence": "I wonder what made all the top ten percent less rich from 1992 to 1995.",
+        "depends_on": [
+          {
+            "id": 1,
+            "edge_type": "Evaluative",
+            "justification": "(1) B asks for a cause behind the top-ten-percent change described in A. (2) Evaluative because it is a subjective question, not a factual explanation."
+          },
+          {
+            "id": 3,
+            "edge_type": "Inferential",
+            "justification": "(1) B narrows the general time question in A to a specific causal question about the top ten percent. (2) Inferential because it moves from a broad observation to a proposed explanation target."
+          }
+        ],
+        "comment_tag": "Curiosity",
+        "reasoning": "Step 5: It asks for an explanation, indicating curiosity."
+      },
+      {
+        "id": 5,
+        "sentence": "I wonder what made all families increased from 1992 to 1995.",
+        "depends_on": [
+          {
+            "id": 3,
+            "edge_type": "Inferential",
+            "justification": "(1) B continues the same 1992-1995 inquiry from A but focuses on the all-families trend. (2) Inferential because it frames a causal question about why the increase happened."
+          }
+        ],
+        "comment_tag": "Curiosity",
+        "reasoning": "Step 5: It is an explicit question seeking explanation."
+      },
+      {
+        "id": 6,
+        "sentence": "This relates to my community now.",
+        "depends_on": [
+          {
+            "id": 0,
+            "edge_type": "Inferential",
+            "justification": "(1) B connects the graph patterns in A to the speaker's present community. (2) Inferential because it draws a broader relevance from the observation rather than merely adding detail."
+          }
+        ],
+        "comment_tag": "Prior Knowledge: Personal / Episodic",
+        "reasoning": "Step 3: It connects the chart to the speaker's community, making it personal/episodic."
+      },
+      {
+        "id": 7,
+        "sentence": "In my community now, prices for everything have increased by double or more.",
+        "depends_on": [
+          {
+            "id": 6,
+            "edge_type": "Elaborative",
+            "justification": "(1) B explains what the community relation in A looks like by giving a concrete example. (2) Elaborative because it specifies the relevance rather than introducing a new causal claim."
+          }
+        ],
+        "comment_tag": "Prior Knowledge: Personal / Episodic",
+        "reasoning": "Step 3: This is a personal/community experience, not a chart observation."
+      },
+      {
+        "id": 8,
+        "sentence": "In my community now, the pay is still about the same.",
+        "depends_on": [
+          {
+            "id": 7,
+            "edge_type": "Contrastive",
+            "justification": "(1) B contrasts rising prices in A with stagnant pay in the same community context. (2) Contrastive because it highlights a tension between two economic conditions rather than elaborating one of them."
+          }
+        ],
+        "comment_tag": "Prior Knowledge: Personal / Episodic",
+        "reasoning": "Step 3: This is a personal/community experience, so it is episodic."
+      },
+      {
+        "id": 9,
+        "sentence": "This graph shows the change in median net worth since 1989.",
+        "depends_on": [],
+        "comment_tag": "Visual Observation: Chart Structure & Text",
+        "reasoning": "Step 2a: It describes the chart's topic and time span, which is structural/textual information."
+      },
+      {
+        "id": 10,
+        "sentence": "This graph shows the change in median net worth since 1989 for the top 10 percent.",
+        "depends_on": [
+          {
+            "id": 9,
+            "edge_type": "Elaborative",
+            "justification": "(1) B specifies that the graph in A concerns the top 10 percent. (2) Elaborative because it narrows the scope of A without adding a new claim."
+          }
+        ],
+        "comment_tag": "Visual Observation: Chart Structure & Text",
+        "reasoning": "Step 2a: It reads the category/label of one series in the graph, which is chart text."
+      },
+      {
+        "id": 11,
+        "sentence": "This graph shows the change in median net worth since 1989 for all families.",
+        "depends_on": [
+          {
+            "id": 9,
+            "edge_type": "Elaborative",
+            "justification": "(1) B specifies another scope of the same graph described in A. (2) Elaborative because it provides a parallel, more specific formulation rather than a causal or contrastive statement."
+          }
+        ],
+        "comment_tag": "Visual Observation: Chart Structure & Text",
+        "reasoning": "Step 2a: It reads the category/label of one series in the graph, which is chart text."
+      }
+    ]
+  },
+  {
+    "article_id": "105",
+    "comment_index": 4,
+    "image_description": "## 1) Chart type\n- **Two side-by-side thematic point maps** of the contiguous United States.\n- Each map overlays many small geographic marks on a basemap, colored by energy type.\n\n## 2) Layout techniques\n- **Small multiples / side-by-side comparison**: one map for **“Wind and Solar Footprint Today”** and one for **“Wind and Solar Needed by 2050.”**\n- **Layering/overlay**: colored point/area marks are drawn on top of a geographic basemap with city/state labels.\n- No stacking is visible.\n\n## 3) Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| Geographic location (U.S. position) | Spatial / geographic | Position on map (x-y geographic coordinates) |\n| Energy type: Wind vs Solar | Categorical/nominal | Color/hue (blue for wind, orange for solar) |\n| Scenario / time frame: Today vs Needed by 2050 | Categorical/nominal (temporal comparison in labels) | Faceting / separate side-by-side map panels; title text |\n| City names / place names | Categorical/nominal | Text labels on map |\n| Basemap geography (state outlines/coastline/terrain) | Spatial / geographic | Background map outlines and shading |\n\nNotes:\n- The titles explicitly indicate the two comparison conditions: **Today** and **Needed by 2050**.\n- No explicit quantitative axis or legend is visible.",
+    "raw_comment": "1) I notice that the line for the richest 10% mostly goes up, but at some pointit also goes down \n2) I wonder why the richest 10% of families are below the rest of the families from 1889-2001\n3) This relates to my community, since there are a lot of rich people in my town \n4) I think this graph is about the upper class, middle class and lower class and how much money they made over the years.",
+    "ace_sentences": [
+      "I notice that the line for the richest 10% mostly goes up.",
+      "At some point, the line for the richest 10% also goes down.",
+      "I wonder why the richest 10% of families are below the rest of the families from 1889-2001.",
+      "This relates to my community.",
+      "There are a lot of rich people in my town.",
+      "I think that this graph is about the upper class.",
+      "I think that this graph is about the middle class.",
+      "I think that this graph is about the lower class.",
+      "I think that this graph is about how much money they made over the years."
+    ],
+    "source_mappings": {
+      "I notice that the line for the richest 10% mostly goes up.": [
+        "I notice that the line for the richest 10% mostly goes up"
+      ],
+      "At some point, the line for the richest 10% also goes down.": [
+        "at some pointit also goes down"
+      ],
+      "I wonder why the richest 10% of families are below the rest of the families from 1889-2001.": [
+        "I wonder why the richest 10% of families are below the rest of the families from 1889-2001"
+      ],
+      "This relates to my community.": [
+        "This relates to my community"
+      ],
+      "There are a lot of rich people in my town.": [
+        "there are a lot of rich people in my town"
+      ],
+      "I think that this graph is about the upper class.": [
+        "I think this graph is about the upper class"
+      ],
+      "I think that this graph is about the middle class.": [
+        "middle class"
+      ],
+      "I think that this graph is about the lower class.": [
+        "lower class"
+      ],
+      "I think that this graph is about how much money they made over the years.": [
+        "how much money they made over the years"
+      ]
+    },
+    "order": {
+      "I notice that the line for the richest 10% mostly goes up.": 1,
+      "At some point, the line for the richest 10% also goes down.": 2,
+      "I wonder why the richest 10% of families are below the rest of the families from 1889-2001.": 3,
+      "This relates to my community.": 4,
+      "There are a lot of rich people in my town.": 5,
+      "I think that this graph is about the upper class.": 6,
+      "I think that this graph is about the middle class.": 7,
+      "I think that this graph is about the lower class.": 8,
+      "I think that this graph is about how much money they made over the years.": 9
+    },
+    "dependency_graph": [
+      {
+        "id": 0,
+        "sentence": "I notice that the line for the richest 10% mostly goes up.",
+        "depends_on": [],
+        "comment_tag": "Visual Observation: Cross-point Pattern Recognition",
+        "reasoning": "Step 2c: It describes an upward trend for one line across the chart."
+      },
+      {
+        "id": 1,
+        "sentence": "At some point, the line for the richest 10% also goes down.",
+        "depends_on": [
+          {
+            "id": 0,
+            "edge_type": "Contrastive",
+            "justification": "(1) B adds a downward movement to the mostly upward trend in A for the same line. (2) Contrastive because it introduces an exception or counter-direction rather than a same-direction elaboration."
+          }
+        ],
+        "comment_tag": "Visual Observation: Cross-point Pattern Recognition",
+        "reasoning": "Step 2c: It describes a change in trend over time for one line."
+      },
+      {
+        "id": 2,
+        "sentence": "I wonder why the richest 10% of families are below the rest of the families from 1889-2001.",
+        "depends_on": [
+          {
+            "id": 0,
+            "edge_type": "Evaluative",
+            "justification": "(1) B is a question prompted by the upward trend in A and the broader graph pattern. (2) Evaluative because it expresses curiosity about the observation rather than explaining it."
+          },
+          {
+            "id": 1,
+            "edge_type": "Evaluative",
+            "justification": "(1) B is also prompted by the fact that the line can go down at some point, which complicates the pattern in A. (2) Evaluative because it is a subjective question, not a factual contrast or inference."
+          }
+        ],
+        "comment_tag": "Curiosity",
+        "reasoning": "Step 5: It explicitly asks why a pattern occurs, indicating curiosity."
+      },
+      {
+        "id": 3,
+        "sentence": "This relates to my community.",
+        "depends_on": [
+          {
+            "id": 2,
+            "edge_type": "Inferential",
+            "justification": "(1) B connects the graph comparison in A to the speaker's own community. (2) Inferential because it draws a broader personal relevance from the observation rather than merely elaborating it."
+          }
+        ],
+        "comment_tag": "Prior Knowledge: Personal / Episodic",
+        "reasoning": "Step 3: It is a personal/community reference."
+      },
+      {
+        "id": 4,
+        "sentence": "There are a lot of rich people in my town.",
+        "depends_on": [
+          {
+            "id": 3,
+            "edge_type": "Elaborative",
+            "justification": "(1) B explains the community connection in A by giving a concrete local detail. (2) Elaborative because it specifies the relevance rather than introducing a new causal or evaluative claim."
+          }
+        ],
+        "comment_tag": "Prior Knowledge: Personal / Episodic",
+        "reasoning": "Step 3: This is a statement about the speaker's town, so it is personal/episodic."
+      },
+      {
+        "id": 5,
+        "sentence": "I think that this graph is about the upper class.",
+        "depends_on": [
+          {
+            "id": 0,
+            "edge_type": "Elaborative",
+            "justification": "(1) B interprets the richest-10% line in A as representing the upper class. (2) Elaborative because it maps A's data onto a social category without adding causation or contrast."
+          }
+        ],
+        "comment_tag": "Meta / Paratext",
+        "reasoning": "Step 1: It comments on what the graph is about, which is meta commentary about the artifact."
+      },
+      {
+        "id": 6,
+        "sentence": "I think that this graph is about the middle class.",
+        "depends_on": [
+          {
+            "id": 0,
+            "edge_type": "Elaborative",
+            "justification": "(1) B offers another interpretation of the same graph in A. (2) Elaborative because it is a classification/reading of A rather than a causal or evaluative response."
+          }
+        ],
+        "comment_tag": "Meta / Paratext",
+        "reasoning": "Step 1: It is a statement about the graph's intended subject, so it is meta commentary."
+      },
+      {
+        "id": 7,
+        "sentence": "I think that this graph is about the lower class.",
+        "depends_on": [
+          {
+            "id": 0,
+            "edge_type": "Elaborative",
+            "justification": "(1) B continues the interpretive possibilities for the graph introduced in A. (2) Elaborative because it remains within the same descriptive territory rather than reasoning beyond A."
+          }
+        ],
+        "comment_tag": "Meta / Paratext",
+        "reasoning": "Step 1: It comments on the graph's topic rather than the data itself."
+      },
+      {
+        "id": 8,
+        "sentence": "I think that this graph is about how much money they made over the years.",
+        "depends_on": [
+          {
+            "id": 0,
+            "edge_type": "Elaborative",
+            "justification": "(1) B summarizes the graph in A as a long-term money/wealth trend. (2) Elaborative because it paraphrases the graph's meaning rather than adding a cause or judgment."
+          }
+        ],
+        "comment_tag": "Meta / Paratext",
+        "reasoning": "Step 1: It describes the graph's purpose/topic, which is meta commentary."
+      }
+    ]
+  },
+  {
+    "article_id": "105",
+    "comment_index": 5,
+    "image_description": "## 1) Chart type\n- **Two side-by-side thematic point maps** of the contiguous United States.\n- Each map overlays many small geographic marks on a basemap, colored by energy type.\n\n## 2) Layout techniques\n- **Small multiples / side-by-side comparison**: one map for **“Wind and Solar Footprint Today”** and one for **“Wind and Solar Needed by 2050.”**\n- **Layering/overlay**: colored point/area marks are drawn on top of a geographic basemap with city/state labels.\n- No stacking is visible.\n\n## 3) Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| Geographic location (U.S. position) | Spatial / geographic | Position on map (x-y geographic coordinates) |\n| Energy type: Wind vs Solar | Categorical/nominal | Color/hue (blue for wind, orange for solar) |\n| Scenario / time frame: Today vs Needed by 2050 | Categorical/nominal (temporal comparison in labels) | Faceting / separate side-by-side map panels; title text |\n| City names / place names | Categorical/nominal | Text labels on map |\n| Basemap geography (state outlines/coastline/terrain) | Spatial / geographic | Background map outlines and shading |\n\nNotes:\n- The titles explicitly indicate the two comparison conditions: **Today** and **Needed by 2050**.\n- No explicit quantitative axis or legend is visible.",
+    "raw_comment": "Ive noticed that in 2007 the median seemed to have peaked then pretty quickly declined\nI wonder what happened to make those things happen\nThis relates to me because it could happen at any point especially with the prices right now\n\"change can happen pretty fast\"",
+    "ace_sentences": [
+      "I have noticed that in 2007 the median seemed to have peaked.",
+      "I have noticed that the median pretty quickly declined.",
+      "I wonder what happened.",
+      "This relates to me.",
+      "It could happen at any point.",
+      "It could happen especially with the prices right now.",
+      "Change can happen pretty fast."
+    ],
+    "source_mappings": {
+      "I have noticed that in 2007 the median seemed to have peaked.": [
+        "Ive noticed that in 2007 the median seemed to have peaked"
+      ],
+      "I have noticed that the median pretty quickly declined.": [
+        "pretty quickly declined"
+      ],
+      "I wonder what happened.": [
+        "I wonder what happened"
+      ],
+      "This relates to me.": [
+        "This relates to me"
+      ],
+      "It could happen at any point.": [
+        "it could happen at any point"
+      ],
+      "It could happen especially with the prices right now.": [
+        "especially with the prices right now"
+      ],
+      "Change can happen pretty fast.": [
+        "change can happen pretty fast"
+      ]
+    },
+    "order": {
+      "I have noticed that in 2007 the median seemed to have peaked.": 1,
+      "I have noticed that the median pretty quickly declined.": 2,
+      "I wonder what happened.": 3,
+      "This relates to me.": 4,
+      "It could happen at any point.": 5,
+      "It could happen especially with the prices right now.": 6,
+      "Change can happen pretty fast.": 7
+    },
+    "dependency_graph": [
+      {
+        "id": 0,
+        "sentence": "I have noticed that in 2007 the median seemed to have peaked.",
+        "depends_on": [],
+        "comment_tag": "Visual Observation: Data Point Extraction",
+        "reasoning": "Step 2b: It identifies a specific peak at a particular time for one series."
+      },
+      {
+        "id": 1,
+        "sentence": "I have noticed that the median pretty quickly declined.",
+        "depends_on": [
+          {
+            "id": 0,
+            "edge_type": "Inferential",
+            "justification": "(1) B follows the peak in A with a subsequent decline in the same median series. (2) Inferential because it states the next outcome in the trend rather than merely restating the peak."
+          }
+        ],
+        "comment_tag": "Visual Observation: Cross-point Pattern Recognition",
+        "reasoning": "Step 2c: It describes a trend over time rather than a single value."
+      },
+      {
+        "id": 2,
+        "sentence": "I wonder what happened.",
+        "depends_on": [
+          {
+            "id": 0,
+            "edge_type": "Evaluative",
+            "justification": "(1) B is a question prompted by the peak and decline described in A. (2) Evaluative because it expresses curiosity about the observed pattern rather than explaining it."
+          },
+          {
+            "id": 1,
+            "edge_type": "Evaluative",
+            "justification": "(1) B is also prompted by the decline in A. (2) Evaluative because it is a subjective inquiry, not a factual elaboration or causal claim."
+          }
+        ],
+        "comment_tag": "Curiosity",
+        "reasoning": "Step 5: It is an explicit request for explanation, showing curiosity."
+      },
+      {
+        "id": 3,
+        "sentence": "This relates to me.",
+        "depends_on": [
+          {
+            "id": 0,
+            "edge_type": "Inferential",
+            "justification": "(1) B connects the graph pattern in A to the speaker's own life. (2) Inferential because it draws personal relevance from the observation rather than elaborating the graph itself."
+          }
+        ],
+        "comment_tag": "Prior Knowledge: Personal / Episodic",
+        "reasoning": "Step 3: Direct self-reference makes it personal/episodic."
+      },
+      {
+        "id": 4,
+        "sentence": "It could happen at any point.",
+        "depends_on": [
+          {
+            "id": 2,
+            "edge_type": "Inferential",
+            "justification": "(1) B answers the open-ended question in A by generalizing the possibility of the event. (2) Inferential because it proposes a broader conclusion about timing rather than adding detail."
+          }
+        ],
+        "comment_tag": "Inference: Predictive / Hypothetical",
+        "reasoning": "Step 8: This is a hypothetical statement about possible future occurrence."
+      },
+      {
+        "id": 5,
+        "sentence": "It could happen especially with the prices right now.",
+        "depends_on": [
+          {
+            "id": 4,
+            "edge_type": "Inferential",
+            "justification": "(1) B builds on the general possibility in A by adding a specific condition about current prices. (2) Inferential because it introduces a conditional explanation for when the event could happen."
+          }
+        ],
+        "comment_tag": "Inference: Predictive / Hypothetical",
+        "reasoning": "Step 8: It speculates about a possible future/hypothetical situation."
+      },
+      {
+        "id": 6,
+        "sentence": "Change can happen pretty fast.",
+        "depends_on": [
+          {
+            "id": 1,
+            "edge_type": "Inferential",
+            "justification": "(1) B generalizes from the quick decline in A to a broader statement about the speed of change. (2) Inferential because it draws a conclusion from the observed trend rather than merely elaborating it."
+          }
+        ],
+        "comment_tag": "Prior Knowledge: Background",
+        "reasoning": "Step 7: This is a general claim about change, not directly shown in the chart."
+      }
+    ]
+  },
+  {
+    "article_id": "105",
+    "comment_index": 6,
+    "image_description": "## 1) Chart type\n- **Two side-by-side thematic point maps** of the contiguous United States.\n- Each map overlays many small geographic marks on a basemap, colored by energy type.\n\n## 2) Layout techniques\n- **Small multiples / side-by-side comparison**: one map for **“Wind and Solar Footprint Today”** and one for **“Wind and Solar Needed by 2050.”**\n- **Layering/overlay**: colored point/area marks are drawn on top of a geographic basemap with city/state labels.\n- No stacking is visible.\n\n## 3) Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| Geographic location (U.S. position) | Spatial / geographic | Position on map (x-y geographic coordinates) |\n| Energy type: Wind vs Solar | Categorical/nominal | Color/hue (blue for wind, orange for solar) |\n| Scenario / time frame: Today vs Needed by 2050 | Categorical/nominal (temporal comparison in labels) | Faceting / separate side-by-side map panels; title text |\n| City names / place names | Categorical/nominal | Text labels on map |\n| Basemap geography (state outlines/coastline/terrain) | Spatial / geographic | Background map outlines and shading |\n\nNotes:\n- The titles explicitly indicate the two comparison conditions: **Today** and **Needed by 2050**.\n- No explicit quantitative axis or legend is visible.",
+    "raw_comment": "One thing I notice is that in recent years, the median net worth for the richest 10% as well as all other families have been increasing. I also notice that at this point, the median for the richest 10% is at the highest its ever been, while the median for all families is around what it was in 1990, way lower than it was at its peak. I wonder what events could have caused this specific pattern in the data?",
+    "ace_sentences": [
+      "In recent years, the median net worth for the richest 10% has increased.",
+      "In recent years, the median net worth for all other families has increased.",
+      "At this point, the median net worth for the richest 10% is at the highest it has ever been.",
+      "At this point, the median net worth for all families is around what it was in 1990.",
+      "The median net worth for all families is way lower than it was at its peak.",
+      "I wonder what events could have caused this specific pattern in the data."
+    ],
+    "source_mappings": {
+      "In recent years, the median net worth for the richest 10% has increased.": [
+        "in recent years, the median net worth for the richest 10%",
+        "have been increasing"
+      ],
+      "In recent years, the median net worth for all other families has increased.": [
+        "in recent years, the median net worth for",
+        "all other families have been increasing"
+      ],
+      "At this point, the median net worth for the richest 10% is at the highest it has ever been.": [
+        "at this point, the median for the richest 10% is at the highest its ever been"
+      ],
+      "At this point, the median net worth for all families is around what it was in 1990.": [
+        "the median for all families is around what it was in 1990"
+      ],
+      "The median net worth for all families is way lower than it was at its peak.": [
+        "way lower than it was at its peak"
+      ],
+      "I wonder what events could have caused this specific pattern in the data.": [
+        "I wonder what events could have caused this specific pattern in the data?"
+      ]
+    },
+    "order": {
+      "In recent years, the median net worth for the richest 10% has increased.": 1,
+      "In recent years, the median net worth for all other families has increased.": 2,
+      "At this point, the median net worth for the richest 10% is at the highest it has ever been.": 3,
+      "At this point, the median net worth for all families is around what it was in 1990.": 4,
+      "The median net worth for all families is way lower than it was at its peak.": 5,
+      "I wonder what events could have caused this specific pattern in the data.": 6
+    },
+    "dependency_graph": [
+      {
+        "id": 0,
+        "sentence": "In recent years, the median net worth for the richest 10% has increased.",
+        "depends_on": [],
+        "comment_tag": "Visual Observation: Cross-point Pattern Recognition",
+        "reasoning": "Step 2c: It describes an upward trend over time for one group."
+      },
+      {
+        "id": 1,
+        "sentence": "In recent years, the median net worth for all other families has increased.",
+        "depends_on": [],
+        "comment_tag": "Visual Observation: Cross-point Pattern Recognition",
+        "reasoning": "Step 2c: It describes an upward trend over time for another group."
+      },
+      {
+        "id": 2,
+        "sentence": "At this point, the median net worth for the richest 10% is at the highest it has ever been.",
+        "depends_on": [
+          {
+            "id": 0,
+            "edge_type": "Inferential",
+            "justification": "(1) B takes the increase in A and concludes that the richest 10% are now at a historical high. (2) Inferential because it reasons to a stronger state from the trend rather than simply restating it."
+          }
+        ],
+        "comment_tag": "Visual Observation: Data Point Extraction",
+        "reasoning": "Step 2b: It extracts a specific relative maximum for one group at a point in time."
+      },
+      {
+        "id": 3,
+        "sentence": "At this point, the median net worth for all families is around what it was in 1990.",
+        "depends_on": [
+          {
+            "id": 1,
+            "edge_type": "Inferential",
+            "justification": "(1) B uses the increase in A to frame all families as roughly back to their 1990 level. (2) Inferential because it draws a comparative conclusion from the trend rather than elaborating it."
+          }
+        ],
+        "comment_tag": "Visual Observation: Data Point Extraction",
+        "reasoning": "Step 2b: It compares one group's value at a point to a specific earlier value, extracting a single data point relation."
+      },
+      {
+        "id": 4,
+        "sentence": "The median net worth for all families is way lower than it was at its peak.",
+        "depends_on": [
+          {
+            "id": 3,
+            "edge_type": "Contrastive",
+            "justification": "(1) B contrasts the current level in A with the earlier peak level for all families. (2) Contrastive because it highlights a gap between present and peak values rather than extending the same trend."
+          }
+        ],
+        "comment_tag": "Visual Observation: Cross-point Pattern Recognition",
+        "reasoning": "Step 2c: It compares values across time and characterizes the overall pattern."
+      },
+      {
+        "id": 5,
+        "sentence": "I wonder what events could have caused this specific pattern in the data.",
+        "depends_on": [
+          {
+            "id": 2,
+            "edge_type": "Evaluative",
+            "justification": "(1) B is a causal question prompted by the high level described in A. (2) Evaluative because it expresses curiosity about the pattern rather than providing the cause."
+          },
+          {
+            "id": 3,
+            "edge_type": "Evaluative",
+            "justification": "(1) B is also prompted by the all-families pattern described in A. (2) Evaluative because it asks for an explanation instead of stating one."
+          },
+          {
+            "id": 4,
+            "edge_type": "Evaluative",
+            "justification": "(1) B is prompted by the contrast between current and peak values in A. (2) Evaluative because it is a subjective request for explanation, not a factual inference."
+          }
+        ],
+        "comment_tag": "Curiosity",
+        "reasoning": "Step 5: It explicitly asks for a cause, indicating curiosity."
+      }
+    ]
+  },
+  {
+    "article_id": "105",
+    "comment_index": 7,
+    "image_description": "## 1) Chart type\n- **Two side-by-side thematic point maps** of the contiguous United States.\n- Each map overlays many small geographic marks on a basemap, colored by energy type.\n\n## 2) Layout techniques\n- **Small multiples / side-by-side comparison**: one map for **“Wind and Solar Footprint Today”** and one for **“Wind and Solar Needed by 2050.”**\n- **Layering/overlay**: colored point/area marks are drawn on top of a geographic basemap with city/state labels.\n- No stacking is visible.\n\n## 3) Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| Geographic location (U.S. position) | Spatial / geographic | Position on map (x-y geographic coordinates) |\n| Energy type: Wind vs Solar | Categorical/nominal | Color/hue (blue for wind, orange for solar) |\n| Scenario / time frame: Today vs Needed by 2050 | Categorical/nominal (temporal comparison in labels) | Faceting / separate side-by-side map panels; title text |\n| City names / place names | Categorical/nominal | Text labels on map |\n| Basemap geography (state outlines/coastline/terrain) | Spatial / geographic | Background map outlines and shading |\n\nNotes:\n- The titles explicitly indicate the two comparison conditions: **Today** and **Needed by 2050**.\n- No explicit quantitative axis or legend is visible.",
+    "raw_comment": "1) I notice that the line for the Richest 10% mostly increases but does decrease at some point\n2) I wonder why all the richest 10% families are below the rest of the families from the 1889-2001\n3) this relates to my community because a lot of rich people live in my town. \n4) I think this graph is about the upper class and middle class and lower class and how much money they’ve made over the years.",
+    "ace_sentences": [
+      "I notice that the line for the Richest 10% mostly increases.",
+      "The line for the Richest 10% decreases at some point.",
+      "I wonder why all the richest 10% families are below the rest of the families from the 1889-2001.",
+      "This relates to my community.",
+      "A lot of rich people live in my town.",
+      "I think this graph is about the upper class.",
+      "I think this graph is about the middle class.",
+      "I think this graph is about the lower class.",
+      "I think this graph is about how much money they have made over the years."
+    ],
+    "source_mappings": {
+      "I notice that the line for the Richest 10% mostly increases.": [
+        "I notice that the line for the Richest 10% mostly increases"
+      ],
+      "The line for the Richest 10% decreases at some point.": [
+        "does decrease at some point"
+      ],
+      "I wonder why all the richest 10% families are below the rest of the families from the 1889-2001.": [
+        "I wonder why all the richest 10% families are below the rest of the families from the 1889-2001"
+      ],
+      "This relates to my community.": [
+        "this relates to my community"
+      ],
+      "A lot of rich people live in my town.": [
+        "a lot of rich people live in my town"
+      ],
+      "I think this graph is about the upper class.": [
+        "I think this graph is about the upper class"
+      ],
+      "I think this graph is about the middle class.": [
+        "middle class"
+      ],
+      "I think this graph is about the lower class.": [
+        "lower class"
+      ],
+      "I think this graph is about how much money they have made over the years.": [
+        "how much money they’ve made over the years"
+      ]
+    },
+    "order": {
+      "I notice that the line for the Richest 10% mostly increases.": 1,
+      "The line for the Richest 10% decreases at some point.": 2,
+      "I wonder why all the richest 10% families are below the rest of the families from the 1889-2001.": 3,
+      "This relates to my community.": 4,
+      "A lot of rich people live in my town.": 5,
+      "I think this graph is about the upper class.": 6,
+      "I think this graph is about the middle class.": 7,
+      "I think this graph is about the lower class.": 8,
+      "I think this graph is about how much money they have made over the years.": 9
+    },
+    "dependency_graph": [
+      {
+        "id": 0,
+        "sentence": "I notice that the line for the Richest 10% mostly increases.",
+        "depends_on": [],
+        "comment_tag": "Visual Observation: Cross-point Pattern Recognition",
+        "reasoning": "Step 2c: It describes an overall upward trend for one line."
+      },
+      {
+        "id": 1,
+        "sentence": "The line for the Richest 10% decreases at some point.",
+        "depends_on": [
+          {
+            "id": 0,
+            "edge_type": "Contrastive",
+            "justification": "(1) B introduces a downward movement in the same line that A says mostly increases. (2) Contrastive because it qualifies the upward trend with an opposing movement."
+          }
+        ],
+        "comment_tag": "Visual Observation: Cross-point Pattern Recognition",
+        "reasoning": "Step 2c: It describes a change in trend over time for one line."
+      },
+      {
+        "id": 2,
+        "sentence": "I wonder why all the richest 10% families are below the rest of the families from the 1889-2001.",
+        "depends_on": [
+          {
+            "id": 0,
+            "edge_type": "Evaluative",
+            "justification": "(1) B is a question prompted by the upward trend in A and the broader graph comparison. (2) Evaluative because it expresses curiosity about the observation rather than explaining it."
+          },
+          {
+            "id": 1,
+            "edge_type": "Evaluative",
+            "justification": "(1) B is also prompted by the fact that the line can decrease at some point, which complicates the pattern in A. (2) Evaluative because it is a subjective question, not a factual contrast or inference."
+          }
+        ],
+        "comment_tag": "Curiosity",
+        "reasoning": "Step 5: It is an explicit question asking for explanation."
+      },
+      {
+        "id": 3,
+        "sentence": "This relates to my community.",
+        "depends_on": [
+          {
+            "id": 2,
+            "edge_type": "Inferential",
+            "justification": "(1) B connects the wealth pattern in A to the speaker's community. (2) Inferential because it draws a broader relevance from the observation rather than merely elaborating it."
+          }
+        ],
+        "comment_tag": "Prior Knowledge: Personal / Episodic",
+        "reasoning": "Step 3: It is a personal/community reference."
+      },
+      {
+        "id": 4,
+        "sentence": "A lot of rich people live in my town.",
+        "depends_on": [
+          {
+            "id": 3,
+            "edge_type": "Elaborative",
+            "justification": "(1) B gives a concrete local detail explaining the community connection in A. (2) Elaborative because it specifies the relevance rather than introducing a new causal or evaluative claim."
+          }
+        ],
+        "comment_tag": "Prior Knowledge: Personal / Episodic",
+        "reasoning": "Step 3: It refers to the speaker's town, making it personal/episodic."
+      },
+      {
+        "id": 5,
+        "sentence": "I think this graph is about the upper class.",
+        "depends_on": [
+          {
+            "id": 0,
+            "edge_type": "Elaborative",
+            "justification": "(1) B interprets the richest-10% line in A as representing the upper class. (2) Elaborative because it maps A's data onto a social category without adding causation or contrast."
+          }
+        ],
+        "comment_tag": "Meta / Paratext",
+        "reasoning": "Step 1: It comments on the graph's topic, which is meta commentary."
+      },
+      {
+        "id": 6,
+        "sentence": "I think this graph is about the middle class.",
+        "depends_on": [
+          {
+            "id": 0,
+            "edge_type": "Elaborative",
+            "justification": "(1) B offers another interpretation of the same graph in A. (2) Elaborative because it is a classification of A rather than a causal or evaluative response."
+          }
+        ],
+        "comment_tag": "Meta / Paratext",
+        "reasoning": "Step 1: It is a statement about the graph's subject, not the data itself."
+      },
+      {
+        "id": 7,
+        "sentence": "I think this graph is about the lower class.",
+        "depends_on": [
+          {
+            "id": 0,
+            "edge_type": "Elaborative",
+            "justification": "(1) B continues the interpretive possibilities for the graph introduced in A. (2) Elaborative because it remains within the same descriptive territory rather than reasoning beyond A."
+          }
+        ],
+        "comment_tag": "Meta / Paratext",
+        "reasoning": "Step 1: It comments on the graph's intended topic, which is meta commentary."
+      },
+      {
+        "id": 8,
+        "sentence": "I think this graph is about how much money they have made over the years.",
+        "depends_on": [
+          {
+            "id": 0,
+            "edge_type": "Elaborative",
+            "justification": "(1) B summarizes the graph in A as a long-term money/wealth trend. (2) Elaborative because it paraphrases the graph's meaning rather than adding a cause or judgment."
+          }
+        ],
+        "comment_tag": "Meta / Paratext",
+        "reasoning": "Step 1: It describes the graph's purpose/topic, which is meta commentary."
+      }
+    ]
+  },
+  {
+    "article_id": "105",
+    "comment_index": 8,
+    "image_description": "## 1) Chart type\n- **Two side-by-side thematic point maps** of the contiguous United States.\n- Each map overlays many small geographic marks on a basemap, colored by energy type.\n\n## 2) Layout techniques\n- **Small multiples / side-by-side comparison**: one map for **“Wind and Solar Footprint Today”** and one for **“Wind and Solar Needed by 2050.”**\n- **Layering/overlay**: colored point/area marks are drawn on top of a geographic basemap with city/state labels.\n- No stacking is visible.\n\n## 3) Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| Geographic location (U.S. position) | Spatial / geographic | Position on map (x-y geographic coordinates) |\n| Energy type: Wind vs Solar | Categorical/nominal | Color/hue (blue for wind, orange for solar) |\n| Scenario / time frame: Today vs Needed by 2050 | Categorical/nominal (temporal comparison in labels) | Faceting / separate side-by-side map panels; title text |\n| City names / place names | Categorical/nominal | Text labels on map |\n| Basemap geography (state outlines/coastline/terrain) | Spatial / geographic | Background map outlines and shading |\n\nNotes:\n- The titles explicitly indicate the two comparison conditions: **Today** and **Needed by 2050**.\n- No explicit quantitative axis or legend is visible.",
+    "raw_comment": "rich families peaked starting in 2016 and were at the lowest in 1995 and since 1995 they have grown.\"All families\" peaked in 2007 and were at their lowest in 2010.",
+    "ace_sentences": [
+      "Rich families peaked starting in 2016.",
+      "Rich families were at the lowest in 1995.",
+      "Since 1995, rich families have grown.",
+      "All families peaked in 2007.",
+      "All families were at their lowest in 2010."
+    ],
+    "source_mappings": {
+      "Rich families peaked starting in 2016.": [
+        "rich families peaked starting in 2016"
+      ],
+      "Rich families were at the lowest in 1995.": [
+        "were at the lowest in 1995"
+      ],
+      "Since 1995, rich families have grown.": [
+        "since 1995 they have grown"
+      ],
+      "All families peaked in 2007.": [
+        "\"All families\" peaked in 2007"
+      ],
+      "All families were at their lowest in 2010.": [
+        "were at their lowest in 2010"
+      ]
+    },
+    "order": {
+      "Rich families peaked starting in 2016.": 1,
+      "Rich families were at the lowest in 1995.": 2,
+      "Since 1995, rich families have grown.": 3,
+      "All families peaked in 2007.": 4,
+      "All families were at their lowest in 2010.": 5
+    },
+    "dependency_graph": [
+      {
+        "id": 0,
+        "sentence": "Rich families peaked starting in 2016.",
+        "depends_on": [],
+        "comment_tag": "Visual Observation: Data Point Extraction",
+        "reasoning": "Step 2b: It identifies a peak at a specific time for one group."
+      },
+      {
+        "id": 1,
+        "sentence": "Rich families were at the lowest in 1995.",
+        "depends_on": [],
+        "comment_tag": "Visual Observation: Data Point Extraction",
+        "reasoning": "Step 2b: It extracts a specific low point for one group at a time point."
+      },
+      {
+        "id": 2,
+        "sentence": "Since 1995, rich families have grown.",
+        "depends_on": [
+          {
+            "id": 1,
+            "edge_type": "Inferential",
+            "justification": "(1) B follows from the low point in A by stating the later growth of rich families. (2) Inferential because it reasons from the starting point to a subsequent trend rather than merely restating A."
+          }
+        ],
+        "comment_tag": "Visual Observation: Cross-point Pattern Recognition",
+        "reasoning": "Step 2c: It describes a trend over time for one group."
+      },
+      {
+        "id": 3,
+        "sentence": "All families peaked in 2007.",
+        "depends_on": [],
+        "comment_tag": "Visual Observation: Data Point Extraction",
+        "reasoning": "Step 2b: It identifies a specific peak time for a group."
+      },
+      {
+        "id": 4,
+        "sentence": "All families were at their lowest in 2010.",
+        "depends_on": [
+          {
+            "id": 3,
+            "edge_type": "Contrastive",
+            "justification": "(1) B contrasts the peak in A with a later low point for the same group. (2) Contrastive because it highlights opposing extremes rather than elaborating the same state."
+          }
+        ],
+        "comment_tag": "Visual Observation: Data Point Extraction",
+        "reasoning": "Step 2b: It identifies a specific low point for a group."
+      }
+    ]
+  },
+  {
+    "article_id": "105",
+    "comment_index": 9,
+    "image_description": "## 1) Chart type\n- **Two side-by-side thematic point maps** of the contiguous United States.\n- Each map overlays many small geographic marks on a basemap, colored by energy type.\n\n## 2) Layout techniques\n- **Small multiples / side-by-side comparison**: one map for **“Wind and Solar Footprint Today”** and one for **“Wind and Solar Needed by 2050.”**\n- **Layering/overlay**: colored point/area marks are drawn on top of a geographic basemap with city/state labels.\n- No stacking is visible.\n\n## 3) Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| Geographic location (U.S. position) | Spatial / geographic | Position on map (x-y geographic coordinates) |\n| Energy type: Wind vs Solar | Categorical/nominal | Color/hue (blue for wind, orange for solar) |\n| Scenario / time frame: Today vs Needed by 2050 | Categorical/nominal (temporal comparison in labels) | Faceting / separate side-by-side map panels; title text |\n| City names / place names | Categorical/nominal | Text labels on map |\n| Basemap geography (state outlines/coastline/terrain) | Spatial / geographic | Background map outlines and shading |\n\nNotes:\n- The titles explicitly indicate the two comparison conditions: **Today** and **Needed by 2050**.\n- No explicit quantitative axis or legend is visible.",
+    "raw_comment": "the rich people had less money at one point.",
+    "ace_sentences": [
+      "Some rich people had less money at one point."
+    ],
+    "source_mappings": {
+      "Some rich people had less money at one point.": [
+        "the rich people had less money at one point."
+      ]
+    },
+    "order": {
+      "Some rich people had less money at one point.": 1
+    },
+    "dependency_graph": [
+      {
+        "id": 0,
+        "sentence": "Some rich people had less money at one point.",
+        "depends_on": [],
+        "comment_tag": "Visual Observation: Cross-point Pattern Recognition",
+        "reasoning": "Step 2c: It describes a change across time for a group, not a single value."
+      }
+    ]
+  },
+  {
+    "article_id": "105",
+    "comment_index": 10,
+    "image_description": "## 1) Chart type\n- **Two side-by-side thematic point maps** of the contiguous United States.\n- Each map overlays many small geographic marks on a basemap, colored by energy type.\n\n## 2) Layout techniques\n- **Small multiples / side-by-side comparison**: one map for **“Wind and Solar Footprint Today”** and one for **“Wind and Solar Needed by 2050.”**\n- **Layering/overlay**: colored point/area marks are drawn on top of a geographic basemap with city/state labels.\n- No stacking is visible.\n\n## 3) Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| Geographic location (U.S. position) | Spatial / geographic | Position on map (x-y geographic coordinates) |\n| Energy type: Wind vs Solar | Categorical/nominal | Color/hue (blue for wind, orange for solar) |\n| Scenario / time frame: Today vs Needed by 2050 | Categorical/nominal (temporal comparison in labels) | Faceting / separate side-by-side map panels; title text |\n| City names / place names | Categorical/nominal | Text labels on map |\n| Basemap geography (state outlines/coastline/terrain) | Spatial / geographic | Background map outlines and shading |\n\nNotes:\n- The titles explicitly indicate the two comparison conditions: **Today** and **Needed by 2050**.\n- No explicit quantitative axis or legend is visible.",
+    "raw_comment": "It looks like the rich families had the most money for a long time after 1999",
+    "ace_sentences": [
+      "The rich families had the most money for a long time after 1999.",
+      "This situation looks like this."
+    ],
+    "source_mappings": {
+      "The rich families had the most money for a long time after 1999.": [
+        "the rich families had the most money for a long time after 1999"
+      ],
+      "This situation looks like this.": [
+        "It looks like"
+      ]
+    },
+    "order": {
+      "The rich families had the most money for a long time after 1999.": 1,
+      "This situation looks like this.": 2
+    },
+    "dependency_graph": [
+      {
+        "id": 0,
+        "sentence": "The rich families had the most money for a long time after 1999.",
+        "depends_on": [],
+        "comment_tag": "Visual Observation: Cross-point Pattern Recognition",
+        "reasoning": "Step 2c: It compares a group's wealth over time and describes a sustained pattern in the chart."
+      },
+      {
+        "id": 1,
+        "sentence": "This situation looks like this.",
+        "depends_on": [
+          {
+            "id": 0,
+            "edge_type": "Elaborative",
+            "justification": "(1) B refers back to the situation described in A with a vague demonstrative phrase. (2) Elaborative because it is a referential continuation of A rather than a causal, evaluative, or contrastive move."
+          }
+        ],
+        "comment_tag": "Uncategorizable",
+        "reasoning": "Step 12: The ACE sentence is too vague and malformed to classify meaningfully."
+      }
+    ]
+  },
+  {
+    "article_id": "105",
+    "comment_index": 11,
+    "image_description": "## 1) Chart type\n- **Two side-by-side thematic point maps** of the contiguous United States.\n- Each map overlays many small geographic marks on a basemap, colored by energy type.\n\n## 2) Layout techniques\n- **Small multiples / side-by-side comparison**: one map for **“Wind and Solar Footprint Today”** and one for **“Wind and Solar Needed by 2050.”**\n- **Layering/overlay**: colored point/area marks are drawn on top of a geographic basemap with city/state labels.\n- No stacking is visible.\n\n## 3) Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| Geographic location (U.S. position) | Spatial / geographic | Position on map (x-y geographic coordinates) |\n| Energy type: Wind vs Solar | Categorical/nominal | Color/hue (blue for wind, orange for solar) |\n| Scenario / time frame: Today vs Needed by 2050 | Categorical/nominal (temporal comparison in labels) | Faceting / separate side-by-side map panels; title text |\n| City names / place names | Categorical/nominal | Text labels on map |\n| Basemap geography (state outlines/coastline/terrain) | Spatial / geographic | Background map outlines and shading |\n\nNotes:\n- The titles explicitly indicate the two comparison conditions: **Today** and **Needed by 2050**.\n- No explicit quantitative axis or legend is visible.",
+    "raw_comment": "What is going on in this graph? Create a headline or caption for the graph.\nWhat do you see that makes you say that?\nHow does this relate to you and your community?\nWhat does this graph make you wonder about?\n\n  In the graph it shows how the richest 10% people grow higher and higher than for all regular families they ended up decreasing around 2008.\n\nI see the lines for \"Richest 10%\" and \"All Families\" either increase or decrease.\n\nThis relates to me and my community  because how other families net worth ends up decreasing then not increasing like the richest 10%, the decrease can cause a huge impact.\n\nThis graph is making me wonder how is all of this happening the the reason behind it.",
+    "ace_sentences": [
+      "The graph shows how the richest 10% people grow higher and higher.",
+      "The graph shows that all regular families ended up decreasing around 2008.",
+      "I see the lines for \"Richest 10%\" and \"All Families\".",
+      "The lines either increase or decrease.",
+      "This relates to me and my community.",
+      "Other families net worth ends up decreasing.",
+      "Other families net worth does not increase like the richest 10%.",
+      "The decrease can cause a huge impact.",
+      "This graph makes me wonder how all of this is happening.",
+      "This graph makes me wonder about the reason behind it."
+    ],
+    "source_mappings": {
+      "The graph shows how the richest 10% people grow higher and higher.": [
+        "In the graph it shows how the richest 10% people grow higher and higher"
+      ],
+      "The graph shows that all regular families ended up decreasing around 2008.": [
+        "for all regular families they ended up decreasing around 2008"
+      ],
+      "I see the lines for \"Richest 10%\" and \"All Families\".": [
+        "I see the lines for \"Richest 10%\" and \"All Families\""
+      ],
+      "The lines either increase or decrease.": [
+        "either increase or decrease"
+      ],
+      "This relates to me and my community.": [
+        "This relates to me and my community"
+      ],
+      "Other families net worth ends up decreasing.": [
+        "how other families net worth ends up decreasing"
+      ],
+      "Other families net worth does not increase like the richest 10%.": [
+        "then not increasing like the richest 10%"
+      ],
+      "The decrease can cause a huge impact.": [
+        "the decrease can cause a huge impact"
+      ],
+      "This graph makes me wonder how all of this is happening.": [
+        "This graph is making me wonder how is all of this happening"
+      ],
+      "This graph makes me wonder about the reason behind it.": [
+        "the the reason behind it"
+      ]
+    },
+    "order": {
+      "The graph shows how the richest 10% people grow higher and higher.": 1,
+      "The graph shows that all regular families ended up decreasing around 2008.": 2,
+      "I see the lines for \"Richest 10%\" and \"All Families\".": 3,
+      "The lines either increase or decrease.": 4,
+      "This relates to me and my community.": 5,
+      "Other families net worth ends up decreasing.": 6,
+      "Other families net worth does not increase like the richest 10%.": 7,
+      "The decrease can cause a huge impact.": 8,
+      "This graph makes me wonder how all of this is happening.": 9,
+      "This graph makes me wonder about the reason behind it.": 10
+    },
+    "dependency_graph": [
+      {
+        "id": 0,
+        "sentence": "The graph shows how the richest 10% people grow higher and higher.",
+        "depends_on": [],
+        "comment_tag": "Visual Observation: Cross-point Pattern Recognition",
+        "reasoning": "Step 2c: It describes an upward trend across multiple points in the chart."
+      },
+      {
+        "id": 1,
+        "sentence": "The graph shows that all regular families ended up decreasing around 2008.",
+        "depends_on": [],
+        "comment_tag": "Visual Observation: Cross-point Pattern Recognition",
+        "reasoning": "Step 2c: It identifies a decline over time for a group, which is a cross-point pattern."
+      },
+      {
+        "id": 2,
+        "sentence": "I see the lines for \"Richest 10%\" and \"All Families\".",
+        "depends_on": [
+          {
+            "id": 0,
+            "edge_type": "Elaborative",
+            "justification": "(1) B identifies the specific line in A by naming the richest 10% series. (2) Elaborative because it points to a component of A's graph rather than adding a new claim."
+          },
+          {
+            "id": 1,
+            "edge_type": "Elaborative",
+            "justification": "(1) B also identifies the all-families line mentioned in A. (2) Elaborative because it is a direct referential continuation of A's graph description."
+          }
+        ],
+        "comment_tag": "Visual Observation: Chart Structure & Text",
+        "reasoning": "Step 2a: It reads the labels/names of chart lines, which is chart text/structure."
+      },
+      {
+        "id": 3,
+        "sentence": "The lines either increase or decrease.",
+        "depends_on": [
+          {
+            "id": 0,
+            "edge_type": "Elaborative",
+            "justification": "(1) B summarizes the behavior of the lines described in A. (2) Elaborative because it abstracts the same information rather than introducing a new causal or evaluative claim."
+          },
+          {
+            "id": 1,
+            "edge_type": "Elaborative",
+            "justification": "(1) B also summarizes the all-families decrease in A as part of the line behavior. (2) Elaborative because it is a general restatement of the graph's movement."
+          }
+        ],
+        "comment_tag": "Visual Observation: Cross-point Pattern Recognition",
+        "reasoning": "Step 2c: It summarizes the overall directional pattern of the lines across the chart."
+      },
+      {
+        "id": 4,
+        "sentence": "This relates to me and my community.",
+        "depends_on": [
+          {
+            "id": 0,
+            "edge_type": "Inferential",
+            "justification": "(1) B connects the graph trend in A to the speaker's own life and community. (2) Inferential because it draws broader personal relevance from the observation rather than merely elaborating it."
+          }
+        ],
+        "comment_tag": "Prior Knowledge: Personal / Episodic",
+        "reasoning": "Step 3: This is a personal/community reference rather than a chart-derived observation."
+      },
+      {
+        "id": 5,
+        "sentence": "Other families net worth ends up decreasing.",
+        "depends_on": [
+          {
+            "id": 1,
+            "edge_type": "Elaborative",
+            "justification": "(1) B restates the decline of regular families in A using different wording. (2) Elaborative because it paraphrases A's content rather than adding a cause or contrast."
+          }
+        ],
+        "comment_tag": "Visual Observation: Cross-point Pattern Recognition",
+        "reasoning": "Step 2c: It describes a downward trend across the chart for a group."
+      },
+      {
+        "id": 6,
+        "sentence": "Other families net worth does not increase like the richest 10%.",
+        "depends_on": [
+          {
+            "id": 0,
+            "edge_type": "Contrastive",
+            "justification": "(1) B contrasts the richest 10%'s increase in A with the lack of increase for other families. (2) Contrastive because it sets the two groups against each other rather than simply elaborating one of them."
+          },
+          {
+            "id": 1,
+            "edge_type": "Contrastive",
+            "justification": "(1) B also contrasts the all-families decline in A with the richer group's increase. (2) Contrastive because it highlights a difference between groups and trends."
+          }
+        ],
+        "comment_tag": "Visual Observation: Cross-point Pattern Recognition",
+        "reasoning": "Step 2c: It compares two groups' trends, which is cross-point pattern recognition."
+      },
+      {
+        "id": 7,
+        "sentence": "The decrease can cause a huge impact.",
+        "depends_on": [
+          {
+            "id": 1,
+            "edge_type": "Inferential",
+            "justification": "(1) B treats the decrease in A as something that can lead to a larger effect. (2) Inferential because it introduces a consequence of the decline rather than restating it."
+          }
+        ],
+        "comment_tag": "Inference: Explanatory",
+        "reasoning": "Step 6: 'Can cause' proposes a causal consequence beyond what the chart directly shows."
+      },
+      {
+        "id": 8,
+        "sentence": "This graph makes me wonder how all of this is happening.",
+        "depends_on": [
+          {
+            "id": 0,
+            "edge_type": "Evaluative",
+            "justification": "(1) B is a curiosity response to the upward trend in A. (2) Evaluative because it expresses wonder about the graph rather than explaining it."
+          },
+          {
+            "id": 1,
+            "edge_type": "Evaluative",
+            "justification": "(1) B is also prompted by the decline in A. (2) Evaluative because it is a subjective question, not a factual elaboration."
+          }
+        ],
+        "comment_tag": "Curiosity",
+        "reasoning": "Step 5: It explicitly expresses wondering and a desire for explanation."
+      },
+      {
+        "id": 9,
+        "sentence": "This graph makes me wonder about the reason behind it.",
+        "depends_on": [
+          {
+            "id": 8,
+            "edge_type": "Evaluative",
+            "justification": "(1) B continues the wondering in A by asking for the reason behind the same pattern. (2) Evaluative because it remains a subjective inquiry rather than a causal explanation."
+          }
+        ],
+        "comment_tag": "Curiosity",
+        "reasoning": "Step 5: It is an explicit request for explanation, signaled by 'wonder about the reason'."
+      }
+    ]
+  },
+  {
+    "article_id": "105",
+    "comment_index": 12,
+    "image_description": "## 1) Chart type\n- **Two side-by-side thematic point maps** of the contiguous United States.\n- Each map overlays many small geographic marks on a basemap, colored by energy type.\n\n## 2) Layout techniques\n- **Small multiples / side-by-side comparison**: one map for **“Wind and Solar Footprint Today”** and one for **“Wind and Solar Needed by 2050.”**\n- **Layering/overlay**: colored point/area marks are drawn on top of a geographic basemap with city/state labels.\n- No stacking is visible.\n\n## 3) Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| Geographic location (U.S. position) | Spatial / geographic | Position on map (x-y geographic coordinates) |\n| Energy type: Wind vs Solar | Categorical/nominal | Color/hue (blue for wind, orange for solar) |\n| Scenario / time frame: Today vs Needed by 2050 | Categorical/nominal (temporal comparison in labels) | Faceting / separate side-by-side map panels; title text |\n| City names / place names | Categorical/nominal | Text labels on map |\n| Basemap geography (state outlines/coastline/terrain) | Spatial / geographic | Background map outlines and shading |\n\nNotes:\n- The titles explicitly indicate the two comparison conditions: **Today** and **Needed by 2050**.\n- No explicit quantitative axis or legend is visible.",
+    "raw_comment": "What is going on in this graph? Create a headline or caption for the graph.\nWhat do you see that makes you say that?\nHow does this relate to you and your community?\nWhat does this graph make you wonder about?\n\nWhat going on in this graph is the change in median net worth from 1989 to 2016. A possible headline for this graph is \"The change of median net worth over time has been changing a lot since the 1990s\".\n\nWhat I see that makes me say this is the change that first starts from 1992 to 1995. After that, the graph begins to change. There's also another graph that started in 1998 that has been improving since.\n\nThis can relate to me and my community because I have a family also. This can display the change in money over the years for families.\n\nThis graph makes me wonder about how it can possibly be in a few years. It makes me wonder if the yellow graph will keep increasing or changing.\n\n(Based on the 1st graph).",
+    "ace_sentences": [
+      "The comment asks what is going on in this graph.",
+      "The comment asks to create a headline or caption for the graph.",
+      "The comment asks what I see that makes me say that.",
+      "The comment asks how this relates to me and my community.",
+      "The comment asks what this graph makes me wonder about.",
+      "This graph shows the change in median net worth from 1989 to 2016.",
+      "A possible headline for this graph is \"The change of median net worth over time has been changing a lot since the 1990s\".",
+      "I see the change that first starts from 1992 to 1995.",
+      "After that, the graph begins to change.",
+      "There is another graph.",
+      "This other graph started in 1998.",
+      "This other graph has been improving since 1998.",
+      "This can relate to me and my community because I have a family also.",
+      "This can display the change in money over the years for families.",
+      "This graph makes me wonder about how it can possibly be in a few years.",
+      "It makes me wonder if the yellow graph will keep increasing.",
+      "It makes me wonder if the yellow graph will keep changing.",
+      "This is based on the 1st graph."
+    ],
+    "source_mappings": {
+      "The comment asks what is going on in this graph.": [
+        "What is going on in this graph?"
+      ],
+      "The comment asks to create a headline or caption for the graph.": [
+        "Create a headline or caption for the graph."
+      ],
+      "The comment asks what I see that makes me say that.": [
+        "What do you see that makes you say that?"
+      ],
+      "The comment asks how this relates to me and my community.": [
+        "How does this relate to you and your community?"
+      ],
+      "The comment asks what this graph makes me wonder about.": [
+        "What does this graph make you wonder about?"
+      ],
+      "This graph shows the change in median net worth from 1989 to 2016.": [
+        "What going on in this graph is the change in median net worth from 1989 to 2016."
+      ],
+      "A possible headline for this graph is \"The change of median net worth over time has been changing a lot since the 1990s\".": [
+        "A possible headline for this graph is \"The change of median net worth over time has been changing a lot since the 1990s\"."
+      ],
+      "I see the change that first starts from 1992 to 1995.": [
+        "What I see that makes me say this is the change that first starts from 1992 to 1995."
+      ],
+      "After that, the graph begins to change.": [
+        "After that, the graph begins to change."
+      ],
+      "There is another graph.": [
+        "There's also another graph"
+      ],
+      "This other graph started in 1998.": [
+        "started in 1998"
+      ],
+      "This other graph has been improving since 1998.": [
+        "has been improving since"
+      ],
+      "This can relate to me and my community because I have a family also.": [
+        "This can relate to me and my community because I have a family also."
+      ],
+      "This can display the change in money over the years for families.": [
+        "This can display the change in money over the years for families."
+      ],
+      "This graph makes me wonder about how it can possibly be in a few years.": [
+        "This graph makes me wonder about how it can possibly be in a few years."
+      ],
+      "It makes me wonder if the yellow graph will keep increasing.": [
+        "It makes me wonder if the yellow graph will keep increasing"
+      ],
+      "It makes me wonder if the yellow graph will keep changing.": [
+        "or changing."
+      ],
+      "This is based on the 1st graph.": [
+        "(Based on the 1st graph)."
+      ]
+    },
+    "order": {
+      "The comment asks what is going on in this graph.": 1,
+      "The comment asks to create a headline or caption for the graph.": 2,
+      "The comment asks what I see that makes me say that.": 3,
+      "The comment asks how this relates to me and my community.": 4,
+      "The comment asks what this graph makes me wonder about.": 5,
+      "This graph shows the change in median net worth from 1989 to 2016.": 6,
+      "A possible headline for this graph is \"The change of median net worth over time has been changing a lot since the 1990s\".": 7,
+      "I see the change that first starts from 1992 to 1995.": 8,
+      "After that, the graph begins to change.": 9,
+      "There is another graph.": 10,
+      "This other graph started in 1998.": 11,
+      "This other graph has been improving since 1998.": 12,
+      "This can relate to me and my community because I have a family also.": 13,
+      "This can display the change in money over the years for families.": 14,
+      "This graph makes me wonder about how it can possibly be in a few years.": 15,
+      "It makes me wonder if the yellow graph will keep increasing.": 16,
+      "It makes me wonder if the yellow graph will keep changing.": 17,
+      "This is based on the 1st graph.": 18
+    },
+    "dependency_graph": [
+      {
+        "id": 0,
+        "sentence": "The comment asks what is going on in this graph.",
+        "depends_on": [],
+        "comment_tag": "Curiosity",
+        "reasoning": "Step 5: It reports a question, indicating curiosity about the chart."
+      },
+      {
+        "id": 1,
+        "sentence": "The comment asks to create a headline or caption for the graph.",
+        "depends_on": [],
+        "comment_tag": "Meta / Paratext",
+        "reasoning": "Step 1: This is meta commentary about generating a headline/caption for the graph artifact."
+      },
+      {
+        "id": 2,
+        "sentence": "The comment asks what I see that makes me say that.",
+        "depends_on": [],
+        "comment_tag": "Curiosity",
+        "reasoning": "Step 5: It is an explicit question seeking clarification or evidence."
+      },
+      {
+        "id": 3,
+        "sentence": "The comment asks how this relates to me and my community.",
+        "depends_on": [],
+        "comment_tag": "Curiosity",
+        "reasoning": "Step 5: It asks for information/connection, which is explicit curiosity."
+      },
+      {
+        "id": 4,
+        "sentence": "The comment asks what this graph makes me wonder about.",
+        "depends_on": [],
+        "comment_tag": "Curiosity",
+        "reasoning": "Step 5: It directly frames the sentence as a question about what is wondered."
+      },
+      {
+        "id": 5,
+        "sentence": "This graph shows the change in median net worth from 1989 to 2016.",
+        "depends_on": [],
+        "comment_tag": "Visual Observation: Chart Structure & Text",
+        "reasoning": "Step 2a: It describes the chart's subject and time range, which is visible chart text/structure."
+      },
+      {
+        "id": 6,
+        "sentence": "A possible headline for this graph is \"The change of median net worth over time has been changing a lot since the 1990s\".",
+        "depends_on": [
+          {
+            "id": 5,
+            "edge_type": "Elaborative",
+            "justification": "(1) B is a headline-style restatement of the graph described in A. (2) Elaborative because it summarizes the same content without adding a cause, judgment, or contrast."
+          }
+        ],
+        "comment_tag": "Meta / Paratext",
+        "reasoning": "Step 1: This is a proposed headline, which is paratext about the graph rather than a data observation."
+      },
+      {
+        "id": 7,
+        "sentence": "I see the change that first starts from 1992 to 1995.",
+        "depends_on": [
+          {
+            "id": 5,
+            "edge_type": "Elaborative",
+            "justification": "(1) B identifies a specific segment of the graph introduced in A. (2) Elaborative because it narrows A to a particular time window rather than explaining it."
+          }
+        ],
+        "comment_tag": "Visual Observation: Cross-point Pattern Recognition",
+        "reasoning": "Step 2c: It describes a change over a time interval, which is a pattern across points."
+      },
+      {
+        "id": 8,
+        "sentence": "After that, the graph begins to change.",
+        "depends_on": [
+          {
+            "id": 7,
+            "edge_type": "Elaborative",
+            "justification": "(1) B continues the timeline from the change identified in A with \"After that.\" (2) Elaborative because it extends the same observation in sequence rather than adding a new causal claim."
+          }
+        ],
+        "comment_tag": "Visual Observation: Cross-point Pattern Recognition",
+        "reasoning": "Step 2c: It summarizes a trend over time in the chart."
+      },
+      {
+        "id": 9,
+        "sentence": "There is another graph.",
+        "depends_on": [],
+        "comment_tag": "Visual Observation: Chart Structure & Text",
+        "reasoning": "Step 2a: It notes the presence of another graph/panel, which is structural."
+      },
+      {
+        "id": 10,
+        "sentence": "This other graph started in 1998.",
+        "depends_on": [
+          {
+            "id": 9,
+            "edge_type": "Elaborative",
+            "justification": "(1) B specifies when the other graph introduced in A started. (2) Elaborative because it adds detail to the same referent rather than introducing a new relation."
+          }
+        ],
+        "comment_tag": "Visual Observation: Chart Structure & Text",
+        "reasoning": "Step 2a: It identifies the start label/time of another graph element, which is chart structure/text."
+      },
+      {
+        "id": 11,
+        "sentence": "This other graph has been improving since 1998.",
+        "depends_on": [
+          {
+            "id": 10,
+            "edge_type": "Elaborative",
+            "justification": "(1) B adds the trend of the other graph introduced in A. (2) Elaborative because it develops the same graph with more information rather than reasoning beyond it."
+          }
+        ],
+        "comment_tag": "Visual Observation: Cross-point Pattern Recognition",
+        "reasoning": "Step 2c: It describes an upward trend over time in the chart."
+      },
+      {
+        "id": 12,
+        "sentence": "This can relate to me and my community because I have a family also.",
+        "depends_on": [
+          {
+            "id": 3,
+            "edge_type": "Inferential",
+            "justification": "(1) B explains the personal/community relevance requested in A by mentioning the speaker's family. (2) Inferential because it draws a relevance connection rather than merely elaborating the graph."
+          },
+          {
+            "id": 5,
+            "edge_type": "Inferential",
+            "justification": "(1) B links the graph in A to the speaker's family/community context. (2) Inferential because it moves from the graph to a broader personal implication."
+          }
+        ],
+        "comment_tag": "Prior Knowledge: Personal / Episodic",
+        "reasoning": "Step 3: It explicitly references the speaker and their community/family, making it personal/episodic."
+      },
+      {
+        "id": 13,
+        "sentence": "This can display the change in money over the years for families.",
+        "depends_on": [
+          {
+            "id": 12,
+            "edge_type": "Elaborative",
+            "justification": "(1) B clarifies what the community/family relation in A means in terms of money over time. (2) Elaborative because it specifies the same idea rather than introducing a new cause or judgment."
+          }
+        ],
+        "comment_tag": "Visual Observation: Chart Structure & Text",
+        "reasoning": "Step 2a: It states what the graph displays in general terms, which is chart structure/text."
+      },
+      {
+        "id": 14,
+        "sentence": "This graph makes me wonder about how it can possibly be in a few years.",
+        "depends_on": [
+          {
+            "id": 5,
+            "edge_type": "Evaluative",
+            "justification": "(1) B is a future-oriented question prompted by the graph in A. (2) Evaluative because it expresses curiosity about the graph rather than adding factual content."
+          }
+        ],
+        "comment_tag": "Curiosity",
+        "reasoning": "Step 5: It expresses uncertainty and curiosity about a future state."
+      },
+      {
+        "id": 15,
+        "sentence": "It makes me wonder if the yellow graph will keep increasing.",
+        "depends_on": [
+          {
+            "id": 11,
+            "edge_type": "Evaluative",
+            "justification": "(1) B asks whether the yellow graph will continue the improving trend described in A. (2) Evaluative because it is a subjective question about the graph's future, not an explanation."
+          }
+        ],
+        "comment_tag": "Curiosity",
+        "reasoning": "Step 5: 'Wonder if' signals explicit curiosity about a future outcome."
+      },
+      {
+        "id": 16,
+        "sentence": "It makes me wonder if the yellow graph will keep changing.",
+        "depends_on": [
+          {
+            "id": 11,
+            "edge_type": "Evaluative",
+            "justification": "(1) B again asks about the future behavior of the yellow graph introduced in A. (2) Evaluative because it is curiosity about A's trend rather than elaboration or inference."
+          }
+        ],
+        "comment_tag": "Curiosity",
+        "reasoning": "Step 5: This is an explicit question about what may happen later."
+      },
+      {
+        "id": 17,
+        "sentence": "This is based on the 1st graph.",
+        "depends_on": [
+          {
+            "id": 5,
+            "edge_type": "Elaborative",
+            "justification": "(1) B explicitly anchors the discussion to the first graph introduced in A. (2) Elaborative because it identifies the source of the comment rather than adding a causal or evaluative claim."
+          }
+        ],
+        "comment_tag": "Meta / Paratext",
+        "reasoning": "Step 1: It refers to the graph artifact as the basis for the comment, which is meta commentary."
+      }
+    ]
+  },
+  {
+    "article_id": "105",
+    "comment_index": 13,
+    "image_description": "## 1) Chart type\n- **Two side-by-side thematic point maps** of the contiguous United States.\n- Each map overlays many small geographic marks on a basemap, colored by energy type.\n\n## 2) Layout techniques\n- **Small multiples / side-by-side comparison**: one map for **“Wind and Solar Footprint Today”** and one for **“Wind and Solar Needed by 2050.”**\n- **Layering/overlay**: colored point/area marks are drawn on top of a geographic basemap with city/state labels.\n- No stacking is visible.\n\n## 3) Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| Geographic location (U.S. position) | Spatial / geographic | Position on map (x-y geographic coordinates) |\n| Energy type: Wind vs Solar | Categorical/nominal | Color/hue (blue for wind, orange for solar) |\n| Scenario / time frame: Today vs Needed by 2050 | Categorical/nominal (temporal comparison in labels) | Faceting / separate side-by-side map panels; title text |\n| City names / place names | Categorical/nominal | Text labels on map |\n| Basemap geography (state outlines/coastline/terrain) | Spatial / geographic | Background map outlines and shading |\n\nNotes:\n- The titles explicitly indicate the two comparison conditions: **Today** and **Needed by 2050**.\n- No explicit quantitative axis or legend is visible.",
+    "raw_comment": "Thanks for this wonderful resource.  I would only suggest using different colors in some of the graphs to create better contrast.  When I project the graphs on the screen, information gets lost.",
+    "ace_sentences": [
+      "I thank you for this wonderful resource.",
+      "I suggest using different colors in some of the graphs.",
+      "Different colors in some of the graphs can create better contrast.",
+      "I project the graphs on the screen.",
+      "When I project the graphs on the screen, information gets lost."
+    ],
+    "source_mappings": {
+      "I thank you for this wonderful resource.": [
+        "Thanks for this wonderful resource."
+      ],
+      "I suggest using different colors in some of the graphs.": [
+        "I would only suggest using different colors in some of the graphs"
+      ],
+      "Different colors in some of the graphs can create better contrast.": [
+        "to create better contrast"
+      ],
+      "I project the graphs on the screen.": [
+        "I project the graphs on the screen"
+      ],
+      "When I project the graphs on the screen, information gets lost.": [
+        "When I project the graphs on the screen, information gets lost."
+      ]
+    },
+    "order": {
+      "I thank you for this wonderful resource.": 1,
+      "I suggest using different colors in some of the graphs.": 2,
+      "Different colors in some of the graphs can create better contrast.": 3,
+      "I project the graphs on the screen.": 4,
+      "When I project the graphs on the screen, information gets lost.": 5
+    },
+    "dependency_graph": [
+      {
+        "id": 0,
+        "sentence": "I thank you for this wonderful resource.",
+        "depends_on": [],
+        "comment_tag": "Meta / Paratext",
+        "reasoning": "Step 1: This comments on the resource/artifact itself rather than the data shown."
+      },
+      {
+        "id": 1,
+        "sentence": "I suggest using different colors in some of the graphs.",
+        "depends_on": [
+          {
+            "id": 0,
+            "edge_type": "Evaluative",
+            "justification": "(1) B is a response to the resource in A, shifting from thanks to a recommendation. (2) Evaluative because it expresses the speaker's normative stance about improving the graphs rather than describing them."
+          }
+        ],
+        "comment_tag": "Evaluative: Prescriptive",
+        "reasoning": "Step 4a: 'I suggest' is a recommendation for action, so it is prescriptive."
+      },
+      {
+        "id": 2,
+        "sentence": "Different colors in some of the graphs can create better contrast.",
+        "depends_on": [
+          {
+            "id": 1,
+            "edge_type": "Inferential",
+            "justification": "(1) B gives the reason for the suggestion in A by explaining why different colors would help. (2) Inferential because it states a consequence/benefit of the proposed change rather than merely elaborating A."
+          }
+        ],
+        "comment_tag": "Inference: Explanatory",
+        "reasoning": "Step 6: It gives a causal explanation for why a design choice would help, linking colors to contrast."
+      },
+      {
+        "id": 3,
+        "sentence": "I project the graphs on the screen.",
+        "depends_on": [],
+        "comment_tag": "Meta / Paratext",
+        "reasoning": "Step 1: This is about handling/presenting the graph artifact, not the data content."
+      },
+      {
+        "id": 4,
+        "sentence": "When I project the graphs on the screen, information gets lost.",
+        "depends_on": [
+          {
+            "id": 3,
+            "edge_type": "Inferential",
+            "justification": "(1) B states the effect of projecting the graphs described in A. (2) Inferential because it introduces a consequence of the action rather than a detail or judgment."
+          }
+        ],
+        "comment_tag": "Meta / Paratext",
+        "reasoning": "Step 1: It discusses the graph artifact and its presentation, which is meta commentary."
+      }
+    ]
+  },
+  {
+    "article_id": "105",
+    "comment_index": 14,
+    "image_description": "## 1) Chart type\n- **Two side-by-side thematic point maps** of the contiguous United States.\n- Each map overlays many small geographic marks on a basemap, colored by energy type.\n\n## 2) Layout techniques\n- **Small multiples / side-by-side comparison**: one map for **“Wind and Solar Footprint Today”** and one for **“Wind and Solar Needed by 2050.”**\n- **Layering/overlay**: colored point/area marks are drawn on top of a geographic basemap with city/state labels.\n- No stacking is visible.\n\n## 3) Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| Geographic location (U.S. position) | Spatial / geographic | Position on map (x-y geographic coordinates) |\n| Energy type: Wind vs Solar | Categorical/nominal | Color/hue (blue for wind, orange for solar) |\n| Scenario / time frame: Today vs Needed by 2050 | Categorical/nominal (temporal comparison in labels) | Faceting / separate side-by-side map panels; title text |\n| City names / place names | Categorical/nominal | Text labels on map |\n| Basemap geography (state outlines/coastline/terrain) | Spatial / geographic | Background map outlines and shading |\n\nNotes:\n- The titles explicitly indicate the two comparison conditions: **Today** and **Needed by 2050**.\n- No explicit quantitative axis or legend is visible.",
+    "raw_comment": "i did graph E and i wonder why the income is the lowest thing",
+    "ace_sentences": [
+      "I graphed E.",
+      "I wonder why the income is the lowest thing."
+    ],
+    "source_mappings": {
+      "I graphed E.": [
+        "i did graph E"
+      ],
+      "I wonder why the income is the lowest thing.": [
+        "i wonder why the income is the lowest thing"
+      ]
+    },
+    "order": {
+      "I graphed E.": 1,
+      "I wonder why the income is the lowest thing.": 2
+    },
+    "dependency_graph": [
+      {
+        "id": 0,
+        "sentence": "I graphed E.",
+        "depends_on": [],
+        "comment_tag": "Uncategorizable",
+        "reasoning": "Step 12: The sentence is too terse and ambiguous to classify meaningfully."
+      },
+      {
+        "id": 1,
+        "sentence": "I wonder why the income is the lowest thing.",
+        "depends_on": [
+          {
+            "id": 0,
+            "edge_type": "Evaluative",
+            "justification": "(1) B is a question about the graphing activity in A and the observed income pattern. (2) Evaluative because it expresses curiosity about the data rather than adding a factual explanation."
+          }
+        ],
+        "comment_tag": "Curiosity",
+        "reasoning": "Step 5: 'I wonder why' is explicit curiosity seeking an explanation."
+      }
+    ]
+  },
+  {
+    "article_id": "105",
+    "comment_index": 15,
+    "image_description": "## 1) Chart type\n- **Two side-by-side thematic point maps** of the contiguous United States.\n- Each map overlays many small geographic marks on a basemap, colored by energy type.\n\n## 2) Layout techniques\n- **Small multiples / side-by-side comparison**: one map for **“Wind and Solar Footprint Today”** and one for **“Wind and Solar Needed by 2050.”**\n- **Layering/overlay**: colored point/area marks are drawn on top of a geographic basemap with city/state labels.\n- No stacking is visible.\n\n## 3) Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| Geographic location (U.S. position) | Spatial / geographic | Position on map (x-y geographic coordinates) |\n| Energy type: Wind vs Solar | Categorical/nominal | Color/hue (blue for wind, orange for solar) |\n| Scenario / time frame: Today vs Needed by 2050 | Categorical/nominal (temporal comparison in labels) | Faceting / separate side-by-side map panels; title text |\n| City names / place names | Categorical/nominal | Text labels on map |\n| Basemap geography (state outlines/coastline/terrain) | Spatial / geographic | Background map outlines and shading |\n\nNotes:\n- The titles explicitly indicate the two comparison conditions: **Today** and **Needed by 2050**.\n- No explicit quantitative axis or legend is visible.",
+    "raw_comment": "I decided to put my focus on the first graph, the change in median net worth since 1989.  The jarringly obvious thing that jumps out is that rich people in 2016 were doing fantastically. The increase in their wealth is high. I also notice that in 2016 the rest of the world was having a very small increase in wealth percentage after the recession. One thing that is important to note is that this graph is not about during the pandemic, but the years preceding the pandemic to try and outline possible trends that could occur.\nI wonder if the economic bounceback from this historic event will be similar to that of the recession for average families. There was a flatline in the graph the years after the recession but then an increase. I know that the rich right now just keep getting richer, so will there be any sort of dip in their net worth?\nI know a lot of people that have quit their jobs because of this pandemic, myself included. I know these people are struggling for money and to make ends meet. I would hope, for their sake, the graph trend is right and that there will be a solid increase after the downtrend. I also know now that things are starting to open again people are spending more and helping small businesses. For business owners, this will probably show a little increase in their income. I know the lower-income people around me are struggling, so I don't know that they'll have the same return as the rest.\nTitle: Patterns: What We Know About Net Worth in Hard Times",
+    "ace_sentences": [
+      "I decided to put my focus on the first graph.",
+      "The first graph is about the change in median net worth since 1989.",
+      "A jarringly obvious thing jumps out.",
+      "Rich people in 2016 were doing fantastically.",
+      "The increase in the wealth of rich people is high.",
+      "I notice that in 2016 the rest of the world was having a very small increase in wealth percentage after the recession.",
+      "This graph is not about during the pandemic.",
+      "This graph is about the years preceding the pandemic.",
+      "The purpose is to outline possible trends that could occur.",
+      "I wonder if the economic bounceback from this historic event will be similar to that of the recession for average families.",
+      "There was a flatline in the graph in the years after the recession.",
+      "Then there was an increase.",
+      "I know that the rich right now keep getting richer.",
+      "I wonder if there will be any sort of dip in the net worth of the rich.",
+      "I know a lot of people.",
+      "These people have quit their jobs because of this pandemic.",
+      "I am included.",
+      "I know that these people are struggling for money.",
+      "I know that these people are struggling to make ends meet.",
+      "I would hope for their sake that the graph trend is right.",
+      "I would hope for their sake that there will be a solid increase after the downtrend.",
+      "I know now that things are starting to open again.",
+      "People are spending more.",
+      "People are helping small businesses.",
+      "For business owners, this will probably show a little increase in their income.",
+      "I know the lower-income people around me are struggling.",
+      "I do not know that the lower-income people around me will have the same return as the rest.",
+      "The title is Patterns: What We Know About Net Worth in Hard Times."
+    ],
+    "source_mappings": {
+      "I decided to put my focus on the first graph.": [
+        "I decided to put my focus on the first graph"
+      ],
+      "The first graph is about the change in median net worth since 1989.": [
+        "the change in median net worth since 1989"
+      ],
+      "A jarringly obvious thing jumps out.": [
+        "The jarringly obvious thing that jumps out"
+      ],
+      "Rich people in 2016 were doing fantastically.": [
+        "rich people in 2016 were doing fantastically"
+      ],
+      "The increase in the wealth of rich people is high.": [
+        "The increase in their wealth is high"
+      ],
+      "I notice that in 2016 the rest of the world was having a very small increase in wealth percentage after the recession.": [
+        "I also notice that in 2016 the rest of the world was having a very small increase in wealth percentage after the recession"
+      ],
+      "This graph is not about during the pandemic.": [
+        "this graph is not about during the pandemic"
+      ],
+      "This graph is about the years preceding the pandemic.": [
+        "the years preceding the pandemic"
+      ],
+      "The purpose is to outline possible trends that could occur.": [
+        "to try and outline possible trends that could occur"
+      ],
+      "I wonder if the economic bounceback from this historic event will be similar to that of the recession for average families.": [
+        "I wonder if the economic bounceback from this historic event will be similar to that of the recession for average families"
+      ],
+      "There was a flatline in the graph in the years after the recession.": [
+        "There was a flatline in the graph the years after the recession"
+      ],
+      "Then there was an increase.": [
+        "but then an increase"
+      ],
+      "I know that the rich right now keep getting richer.": [
+        "I know that the rich right now just keep getting richer"
+      ],
+      "I wonder if there will be any sort of dip in the net worth of the rich.": [
+        "so will there be any sort of dip in their net worth?"
+      ],
+      "I know a lot of people.": [
+        "I know a lot of people"
+      ],
+      "These people have quit their jobs because of this pandemic.": [
+        "that have quit their jobs because of this pandemic"
+      ],
+      "I am included.": [
+        "myself included"
+      ],
+      "I know that these people are struggling for money.": [
+        "I know these people are struggling for money"
+      ],
+      "I know that these people are struggling to make ends meet.": [
+        "and to make ends meet"
+      ],
+      "I would hope for their sake that the graph trend is right.": [
+        "I would hope, for their sake, the graph trend is right"
+      ],
+      "I would hope for their sake that there will be a solid increase after the downtrend.": [
+        "and that there will be a solid increase after the downtrend"
+      ],
+      "I know now that things are starting to open again.": [
+        "I also know now that things are starting to open again"
+      ],
+      "People are spending more.": [
+        "people are spending more"
+      ],
+      "People are helping small businesses.": [
+        "and helping small businesses"
+      ],
+      "For business owners, this will probably show a little increase in their income.": [
+        "For business owners, this will probably show a little increase in their income"
+      ],
+      "I know the lower-income people around me are struggling.": [
+        "I know the lower-income people around me are struggling"
+      ],
+      "I do not know that the lower-income people around me will have the same return as the rest.": [
+        "so I don't know that they'll have the same return as the rest"
+      ],
+      "The title is Patterns: What We Know About Net Worth in Hard Times.": [
+        "Title: Patterns: What We Know About Net Worth in Hard Times"
+      ]
+    },
+    "order": {
+      "I decided to put my focus on the first graph.": 1,
+      "The first graph is about the change in median net worth since 1989.": 2,
+      "A jarringly obvious thing jumps out.": 3,
+      "Rich people in 2016 were doing fantastically.": 4,
+      "The increase in the wealth of rich people is high.": 5,
+      "I notice that in 2016 the rest of the world was having a very small increase in wealth percentage after the recession.": 6,
+      "This graph is not about during the pandemic.": 7,
+      "This graph is about the years preceding the pandemic.": 8,
+      "The purpose is to outline possible trends that could occur.": 9,
+      "I wonder if the economic bounceback from this historic event will be similar to that of the recession for average families.": 10,
+      "There was a flatline in the graph in the years after the recession.": 11,
+      "Then there was an increase.": 12,
+      "I know that the rich right now keep getting richer.": 13,
+      "I wonder if there will be any sort of dip in the net worth of the rich.": 14,
+      "I know a lot of people.": 15,
+      "These people have quit their jobs because of this pandemic.": 16,
+      "I am included.": 17,
+      "I know that these people are struggling for money.": 18,
+      "I know that these people are struggling to make ends meet.": 19,
+      "I would hope for their sake that the graph trend is right.": 20,
+      "I would hope for their sake that there will be a solid increase after the downtrend.": 21,
+      "I know now that things are starting to open again.": 22,
+      "People are spending more.": 23,
+      "People are helping small businesses.": 24,
+      "For business owners, this will probably show a little increase in their income.": 25,
+      "I know the lower-income people around me are struggling.": 26,
+      "I do not know that the lower-income people around me will have the same return as the rest.": 27,
+      "The title is Patterns: What We Know About Net Worth in Hard Times.": 28
+    },
+    "dependency_graph": [
+      {
+        "id": 0,
+        "sentence": "I decided to put my focus on the first graph.",
+        "depends_on": [],
+        "comment_tag": "Meta / Paratext",
+        "reasoning": "Step 1: This is about the commenter's focus on a graph artifact, not the data itself."
+      },
+      {
+        "id": 1,
+        "sentence": "The first graph is about the change in median net worth since 1989.",
+        "depends_on": [
+          {
+            "id": 0,
+            "edge_type": "Elaborative",
+            "justification": "(1) B identifies the specific graph that A says will be the focus. (2) Elaborative because it specifies the referent rather than introducing a new claim."
+          }
+        ],
+        "comment_tag": "Visual Observation: Chart Structure & Text",
+        "reasoning": "Step 2a: It describes the chart's topic and time span, which is structural/textual information."
+      },
+      {
+        "id": 2,
+        "sentence": "A jarringly obvious thing jumps out.",
+        "depends_on": [
+          {
+            "id": 1,
+            "edge_type": "Evaluative",
+            "justification": "(1) B is a subjective reaction to the graph described in A. (2) Evaluative because it expresses the speaker's stance/emphasis rather than adding factual detail."
+          }
+        ],
+        "comment_tag": "Evaluative: Reactive",
+        "reasoning": "Step 4b: This is an evaluative reaction expressing emphasis/impact without prescribing action."
+      },
+      {
+        "id": 3,
+        "sentence": "Rich people in 2016 were doing fantastically.",
+        "depends_on": [
+          {
+            "id": 1,
+            "edge_type": "Inferential",
+            "justification": "(1) B interprets the graph in A as showing strong outcomes for rich people in 2016. (2) Inferential because it draws a conclusion from the graph rather than merely restating it."
+          }
+        ],
+        "comment_tag": "Evaluative: Reactive",
+        "reasoning": "Step 4b: It expresses a positive evaluative reaction to the data rather than a factual extraction."
+      },
+      {
+        "id": 4,
+        "sentence": "The increase in the wealth of rich people is high.",
+        "depends_on": [
+          {
+            "id": 3,
+            "edge_type": "Elaborative",
+            "justification": "(1) B restates the strong outcome for rich people in A in more explicit wealth-trend terms. (2) Elaborative because it refines the same observation rather than introducing a new cause or judgment."
+          }
+        ],
+        "comment_tag": "Visual Observation: Cross-point Pattern Recognition",
+        "reasoning": "Step 2c: It describes a comparative trend in wealth over time."
+      },
+      {
+        "id": 5,
+        "sentence": "I notice that in 2016 the rest of the world was having a very small increase in wealth percentage after the recession.",
+        "depends_on": [
+          {
+            "id": 1,
+            "edge_type": "Elaborative",
+            "justification": "(1) B points to a specific part of the first graph described in A, namely the 2016/recession period. (2) Elaborative because it adds a more detailed observation within the same graph."
+          }
+        ],
+        "comment_tag": "Visual Observation: Cross-point Pattern Recognition",
+        "reasoning": "Step 2c: It identifies a trend for a group over time, grounded in the chart."
+      },
+      {
+        "id": 6,
+        "sentence": "This graph is not about during the pandemic.",
+        "depends_on": [
+          {
+            "id": 1,
+            "edge_type": "Contrastive",
+            "justification": "(1) B qualifies the graph in A by excluding the pandemic period. (2) Contrastive because it sets a boundary against a possible interpretation rather than elaborating the graph."
+          }
+        ],
+        "comment_tag": "Visual Observation: Chart Structure & Text",
+        "reasoning": "Step 2a: It comments on the chart's time coverage, which is structural/textual information."
+      },
+      {
+        "id": 7,
+        "sentence": "This graph is about the years preceding the pandemic.",
+        "depends_on": [
+          {
+            "id": 6,
+            "edge_type": "Contrastive",
+            "justification": "(1) B corrects/redirects the scope of A by specifying the pre-pandemic period. (2) Contrastive because it contrasts with the excluded pandemic framing rather than simply adding detail."
+          }
+        ],
+        "comment_tag": "Visual Observation: Chart Structure & Text",
+        "reasoning": "Step 2a: It describes the chart's temporal scope, which is chart structure/text."
+      },
+      {
+        "id": 8,
+        "sentence": "The purpose is to outline possible trends that could occur.",
+        "depends_on": [
+          {
+            "id": 1,
+            "edge_type": "Inferential",
+            "justification": "(1) B infers the graph's purpose from the first graph's historical pattern. (2) Inferential because it moves from the observed data to a projected use/purpose."
+          }
+        ],
+        "comment_tag": "Meta / Paratext",
+        "reasoning": "Step 1: This states the graph's purpose, which is meta commentary about the artifact."
+      },
+      {
+        "id": 9,
+        "sentence": "I wonder if the economic bounceback from this historic event will be similar to that of the recession for average families.",
+        "depends_on": [
+          {
+            "id": 8,
+            "edge_type": "Evaluative",
+            "justification": "(1) B is a question about a possible future trend prompted by the purpose stated in A. (2) Evaluative because it expresses curiosity about the pattern rather than explaining it."
+          }
+        ],
+        "comment_tag": "Inference: Predictive / Hypothetical",
+        "reasoning": "Step 8: It speculates about a future/hypothetical comparison, using 'will be similar'."
+      },
+      {
+        "id": 10,
+        "sentence": "There was a flatline in the graph in the years after the recession.",
+        "depends_on": [
+          {
+            "id": 1,
+            "edge_type": "Elaborative",
+            "justification": "(1) B specifies a feature of the first graph's post-recession period. (2) Elaborative because it adds a concrete detail to A's graph focus."
+          }
+        ],
+        "comment_tag": "Visual Observation: Cross-point Pattern Recognition",
+        "reasoning": "Step 2c: It describes a pattern over time in the chart."
+      },
+      {
+        "id": 11,
+        "sentence": "Then there was an increase.",
+        "depends_on": [
+          {
+            "id": 10,
+            "edge_type": "Inferential",
+            "justification": "(1) B follows the flatline in A with a later upward movement. (2) Inferential because it states the next trend/outcome rather than merely restating A."
+          }
+        ],
+        "comment_tag": "Visual Observation: Cross-point Pattern Recognition",
+        "reasoning": "Step 2c: It continues the trend description across time."
+      },
+      {
+        "id": 12,
+        "sentence": "I know that the rich right now keep getting richer.",
+        "depends_on": [
+          {
+            "id": 3,
+            "edge_type": "Inferential",
+            "justification": "(1) B generalizes from the rich people's strong position in A to a present-tense claim about ongoing enrichment. (2) Inferential because it draws a broader conclusion from the graph observation."
+          }
+        ],
+        "comment_tag": "Prior Knowledge: Background",
+        "reasoning": "Step 7: This is a general world claim about wealth inequality, not directly shown in the chart."
+      },
+      {
+        "id": 13,
+        "sentence": "I wonder if there will be any sort of dip in the net worth of the rich.",
+        "depends_on": [
+          {
+            "id": 12,
+            "edge_type": "Evaluative",
+            "justification": "(1) B is a question prompted by the claim in A that the rich keep getting richer. (2) Evaluative because it expresses curiosity about a possible reversal rather than stating one."
+          }
+        ],
+        "comment_tag": "Curiosity",
+        "reasoning": "Step 5: 'I wonder if' expresses explicit curiosity about a future possibility."
+      },
+      {
+        "id": 14,
+        "sentence": "I know a lot of people.",
+        "depends_on": [],
+        "comment_tag": "Uncategorizable",
+        "reasoning": "Step 12: The sentence is too vague and does not provide a classifiable relation to the chart."
+      },
+      {
+        "id": 15,
+        "sentence": "These people have quit their jobs because of this pandemic.",
+        "depends_on": [
+          {
+            "id": 14,
+            "edge_type": "Inferential",
+            "justification": "(1) B elaborates the group in A by describing what happened to them during the pandemic. (2) Inferential because it adds a consequential circumstance tied to the people mentioned in A."
+          }
+        ],
+        "comment_tag": "Prior Knowledge: Background",
+        "reasoning": "Step 7: This is a standalone factual claim about people and the pandemic, not a chart observation."
+      },
+      {
+        "id": 16,
+        "sentence": "I am included.",
+        "depends_on": [
+          {
+            "id": 14,
+            "edge_type": "Elaborative",
+            "justification": "(1) B clarifies that the speaker is part of the people mentioned in A. (2) Elaborative because it specifies the referent rather than introducing a new claim."
+          }
+        ],
+        "comment_tag": "Prior Knowledge: Personal / Episodic",
+        "reasoning": "Step 3: This is direct self-reference."
+      },
+      {
+        "id": 17,
+        "sentence": "I know that these people are struggling for money.",
+        "depends_on": [
+          {
+            "id": 15,
+            "edge_type": "Inferential",
+            "justification": "(1) B states a consequence/condition of the job quitting described in A. (2) Inferential because it reasons to financial struggle from the pandemic-related job loss."
+          }
+        ],
+        "comment_tag": "Prior Knowledge: Background",
+        "reasoning": "Step 7: It states a general claim about financial hardship, not directly shown in the chart."
+      },
+      {
+        "id": 18,
+        "sentence": "I know that these people are struggling to make ends meet.",
+        "depends_on": [
+          {
+            "id": 17,
+            "edge_type": "Elaborative",
+            "justification": "(1) B restates the financial struggle in A with a more idiomatic phrase. (2) Elaborative because it refines the same idea rather than adding a new causal claim."
+          }
+        ],
+        "comment_tag": "Prior Knowledge: Background",
+        "reasoning": "Step 7: This is a general factual claim about hardship, not a chart-derived observation."
+      },
+      {
+        "id": 19,
+        "sentence": "I would hope for their sake that the graph trend is right.",
+        "depends_on": [
+          {
+            "id": 17,
+            "edge_type": "Evaluative",
+            "justification": "(1) B is a hopeful reaction to the financial struggle described in A. (2) Evaluative because it expresses the speaker's stance rather than a factual inference."
+          }
+        ],
+        "comment_tag": "Evaluative: Reactive",
+        "reasoning": "Step 4b: It expresses hope, an emotional reaction, without prescribing action."
+      },
+      {
+        "id": 20,
+        "sentence": "I would hope for their sake that there will be a solid increase after the downtrend.",
+        "depends_on": [
+          {
+            "id": 11,
+            "edge_type": "Evaluative",
+            "justification": "(1) B responds to the increase after the flatline in A by hoping for a stronger recovery. (2) Evaluative because it is a wishful stance, not a causal explanation."
+          }
+        ],
+        "comment_tag": "Inference: Predictive / Hypothetical",
+        "reasoning": "Step 8: It projects a future increase, making it predictive/hypothetical."
+      },
+      {
+        "id": 21,
+        "sentence": "I know now that things are starting to open again.",
+        "depends_on": [],
+        "comment_tag": "Prior Knowledge: Background",
+        "reasoning": "Step 7: This is a general real-world claim about reopening, not directly shown in the chart."
+      },
+      {
+        "id": 22,
+        "sentence": "People are spending more.",
+        "depends_on": [
+          {
+            "id": 21,
+            "edge_type": "Inferential",
+            "justification": "(1) B follows from the reopening in A as a likely economic effect. (2) Inferential because it states a consequence of reopening rather than elaborating A."
+          }
+        ],
+        "comment_tag": "Prior Knowledge: Background",
+        "reasoning": "Step 7: This is a general claim about behavior, not a chart observation."
+      },
+      {
+        "id": 23,
+        "sentence": "People are helping small businesses.",
+        "depends_on": [
+          {
+            "id": 22,
+            "edge_type": "Inferential",
+            "justification": "(1) B is another consequence of people spending more in A. (2) Inferential because it extends the economic effect chain rather than merely refining A."
+          }
+        ],
+        "comment_tag": "Prior Knowledge: Background",
+        "reasoning": "Step 7: This is a general world claim, not derived from the chart."
+      },
+      {
+        "id": 24,
+        "sentence": "For business owners, this will probably show a little increase in their income.",
+        "depends_on": [
+          {
+            "id": 23,
+            "edge_type": "Inferential",
+            "justification": "(1) B predicts the effect of people helping small businesses in A. (2) Inferential because it introduces a downstream outcome rather than a detail or judgment."
+          }
+        ],
+        "comment_tag": "Inference: Predictive / Hypothetical",
+        "reasoning": "Step 8: 'Will probably show' projects a future outcome, so it is predictive/hypothetical."
+      },
+      {
+        "id": 25,
+        "sentence": "I know the lower-income people around me are struggling.",
+        "depends_on": [],
+        "comment_tag": "Prior Knowledge: Personal / Episodic",
+        "reasoning": "Step 3: It references the speaker's local community, making it personal/episodic."
+      },
+      {
+        "id": 26,
+        "sentence": "I do not know that the lower-income people around me will have the same return as the rest.",
+        "depends_on": [
+          {
+            "id": 25,
+            "edge_type": "Contrastive",
+            "justification": "(1) B contrasts the struggling lower-income group in A with the possibility of a different return from others. (2) Contrastive because it introduces uncertainty and a potential difference rather than elaborating A."
+          }
+        ],
+        "comment_tag": "Curiosity",
+        "reasoning": "Step 5: It explicitly expresses uncertainty about a future outcome."
+      },
+      {
+        "id": 27,
+        "sentence": "The title is Patterns: What We Know About Net Worth in Hard Times.",
+        "depends_on": [
+          {
+            "id": 1,
+            "edge_type": "Elaborative",
+            "justification": "(1) B provides the title for the graph-focused discussion introduced in A. (2) Elaborative because it frames the same content rather than adding a causal or evaluative claim."
+          }
+        ],
+        "comment_tag": "Meta / Paratext",
+        "reasoning": "Step 1: It reads the title text of the graph, which is chart text/paratext."
+      }
+    ]
+  },
+  {
+    "article_id": "105",
+    "comment_index": 16,
+    "image_description": "## 1) Chart type\n- **Two side-by-side thematic point maps** of the contiguous United States.\n- Each map overlays many small geographic marks on a basemap, colored by energy type.\n\n## 2) Layout techniques\n- **Small multiples / side-by-side comparison**: one map for **“Wind and Solar Footprint Today”** and one for **“Wind and Solar Needed by 2050.”**\n- **Layering/overlay**: colored point/area marks are drawn on top of a geographic basemap with city/state labels.\n- No stacking is visible.\n\n## 3) Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| Geographic location (U.S. position) | Spatial / geographic | Position on map (x-y geographic coordinates) |\n| Energy type: Wind vs Solar | Categorical/nominal | Color/hue (blue for wind, orange for solar) |\n| Scenario / time frame: Today vs Needed by 2050 | Categorical/nominal (temporal comparison in labels) | Faceting / separate side-by-side map panels; title text |\n| City names / place names | Categorical/nominal | Text labels on map |\n| Basemap geography (state outlines/coastline/terrain) | Spatial / geographic | Background map outlines and shading |\n\nNotes:\n- The titles explicitly indicate the two comparison conditions: **Today** and **Needed by 2050**.\n- No explicit quantitative axis or legend is visible.",
+    "raw_comment": "On the first graph why are the richest below the all families from 1989 thru 2001?",
+    "ace_sentences": [
+      "The comment refers to the first graph.",
+      "The comment asks why the richest are below all families from 1989 through 2001."
+    ],
+    "source_mappings": {
+      "The comment refers to the first graph.": [
+        "On the first graph"
+      ],
+      "The comment asks why the richest are below all families from 1989 through 2001.": [
+        "why are the richest below the all families from 1989 thru 2001?"
+      ]
+    },
+    "order": {
+      "The comment refers to the first graph.": 1,
+      "The comment asks why the richest are below all families from 1989 through 2001.": 2
+    },
+    "dependency_graph": [
+      {
+        "id": 0,
+        "sentence": "The comment refers to the first graph.",
+        "depends_on": [],
+        "comment_tag": "Meta / Paratext",
+        "reasoning": "Step 1: It refers to the graph artifact itself, which is meta commentary."
+      },
+      {
+        "id": 1,
+        "sentence": "The comment asks why the richest are below all families from 1989 through 2001.",
+        "depends_on": [
+          {
+            "id": 0,
+            "edge_type": "Elaborative",
+            "justification": "(1) B specifies the graph context introduced in A by asking about the richest vs. all-families comparison. (2) Elaborative because it narrows the referent and topic rather than introducing a causal explanation or judgment."
+          }
+        ],
+        "comment_tag": "Curiosity",
+        "reasoning": "Step 5: It is an explicit question asking for explanation, so it is curiosity."
+      }
+    ]
+  }
+]

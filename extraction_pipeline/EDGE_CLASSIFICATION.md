@@ -4,365 +4,219 @@ This document describes the edge types used in the dependency graphs produced by
 
 Valid edge types:
 
-- `Causal`
-- `Elaboration`
-- `Conditional`
+- `Inferential`
+- `Elaborative`
 - `Evaluative`
-- `Questioning`
 - `Contrastive`
-- `Narrative/Referential`
 - `Uncategorized`
 
+These four substantive categories (plus a fallback) replace the previous eight-category system. The consolidation is motivated by two observations: (1) the node-level ACE sentence classification (12 categories) already encodes *what kind* of information each statement contains, so the edge types need only capture the *rhetorical move* between statements; and (2) the analytical power comes from the `(node_type_A, edge_type, node_type_B)` triple, not from the edge type alone.
+
+**Mapping from previous categories:**
+
+| Old label | New label |
+|---|---|
+| Causal | Inferential |
+| Conditional | Inferential |
+| Elaboration | Elaborative |
+| Narrative/Referential | Elaborative |
+| Evaluative | Evaluative |
+| Questioning | Evaluative |
+| Contrastive | Contrastive |
+| Uncategorized | Uncategorized |
+
 ---
 
-## 1. Causal
+## Differentiation at a glance
 
-**JSON label:** `Causal`
+|  | Same direction as A | Against / orthogonal to A |
+|---|---|---|
+| **Factual/propositional** | **Elaborative** (refine, specify, continue) | **Contrastive** (counterpoint, tension, exception) |
+| **Reasoning beyond A** | **Inferential** (cause, effect, prediction) | — |
+| **Subjective orientation** | **Evaluative** (judgment, reaction, question) | — |
+
+---
+
+## 1. Inferential
+
+**JSON label:** `Inferential`
 
 **Description**
 
-Use `Causal` when one sentence gives a *cause or reason* for another sentence, or when it states that one event *leads to* another.
+A provides a premise, observation, or condition; B states a consequence, explanation, prediction, or hypothetical outcome that reasons *beyond* what A alone states. Covers causal reasoning ("X caused Y"), abductive explanation ("this can be explained by"), conditional/hypothetical chains ("if X then Y"), and predictions ("X may lead to Y").
 
-**Typical patterns**
+**Typical source-text cues:** "because," "so," "thus," "therefore," "this means that," "suggesting that," "can be explained by," "may be causing," "if…then," "may," "could," "depending on," "which would," "leads to," "due to."
 
-- “X caused Y…”
-- “Because X, Y…”
-- “X explains why Y…”
+**How it differs:**
+- Unlike Elaborative: introduces *new propositional content* (a cause, effect, prediction) rather than refining A.
+- Unlike Evaluative: makes a factual/explanatory claim rather than expressing a subjective stance.
+- Unlike Contrastive: follows *from* A rather than introducing tension *against* it.
 
 **Examples**
 
-1. **Cause of policy action**
+1. **Causal consequence**
+   - A: "Those with legacy have a higher chance of getting in."
+   - B: "This lowers my own chance of acceptance."
+   - Source cue: "which **then** lowers" — B is a consequence of A.
 
-- **Source (cause):**  
-  “The rate of wind energy and solar energy has increased since 2000.”
-- **Target (effect):**  
-  “The governments of various countries promote renewable energy.”
-- **Edge:** `Causal` (0 → 3)
-- **Why this label:** The increase in wind and solar energy is presented as the reason governments promote renewable energy, so the target sentence is an effect of the source.
+2. **Abductive explanation**
+   - A: "The percentage is more balanced for players and head coaches."
+   - B: "This can be explained by the large number of countries playing soccer."
+   - Source cue: "**This probably can be explained by**"
 
-2. **Cause of economic slump**
+3. **Logical derivation**
+   - A: "The energy usage of the United States was only about twice as less as China's."
+   - B: "The average energy usage per person in the US is significantly greater."
+   - Source cue: "**This means that**"
 
-- **Source (cause):**  
-  “The Lehman Shock happened in 2008.”
-- **Target (effect):**  
-  “The Lehman Shock caused an economic slump.”
-- **Edge:** `Causal` (8 → 10)
-- **Why this label:** The second sentence explicitly states that the Lehman Shock “caused” the economic slump, making the relationship straightforwardly causal.
+4. **Conditional chain**
+   - A: "The U.S. may be unable to purchase fossil fuels from other countries."
+   - B: "If the U.S. is unable to purchase fossil fuels then people may start to struggle."
+   - Source cue: "**If**…**then**"
 
-3. **Cause of decreased electricity demand**
-
-- **Source (cause):**  
-  “The Lehman Shock caused an economic slump.”  
-  “The spread of coronavirus caused an economic slump.”
-- **Target (effect):**  
-  “An economic slump reduces the demand for electric power generation.”
-- **Edge:** `Causal` (10 → 12, 11 → 12)
-- **Why this label:** Both source sentences describe events that lead to an economic slump, which in turn explains the reduced demand for electricity in the target sentence.
-
-4. **Cause of global warming**
-
-- **Source (cause):**  
-  “The use of fossil fuels has been consistently higher than the use of clean energy sources.”  
-  “Everyone is impacted by the negative effects of climate change.”
-- **Target (effect):**  
-  “The expenditure of fossil fuels contributes to global warming.”
-- **Edge:** `Causal` (2 → 20, 19 → 20)
-- **Why this label:** The target sentence claims that burning fossil fuels contributes to global warming, using the high fossil fuel use and widespread climate impacts as causal background.
+5. **Conditional with predicted outcome**
+   - A: "Students with less access to resources need to be addressed."
+   - B: "If we can address this issue, we can reduce the disparity."
+   - Source cue: "**If we can**…**we can**"
 
 ---
 
-## 2. Elaboration
+## 2. Elaborative
 
-**JSON label:** `Elaboration`
+**JSON label:** `Elaborative`
 
 **Description**
 
-Use `Elaboration` when a sentence *adds detail, examples, clarification, or supporting information* to another sentence without changing its basic meaning.
+B refines, specifies, continues, or contextualizes A without introducing a new causal, evaluative, or contrastive claim. Covers: general-to-specific, specific-to-general, encoding interpretation (visual→meaning), parallel enumeration, narrative continuation, temporal sequence, anaphoric reference, and headline framing.
 
-**Typical patterns**
+**Typical source-text cues:** apposition (commas, parenthetical detail), "like [specific]," "such as," "for example," "for instance," "this" + same-topic continuation, "whether through," repeated entity names, "at that time," "during the," "these events," headline framing.
 
-- “For example, …”
-- “In more detail, …”
-- “This shows that…”
-- Listing specific instances of a general claim.
-
-**Examples**
-
-1. **Detailing fossil fuel rate**
-
-- **Source (base idea):**  
-  “However, fossil fuels occupy more than half of energy materials.”
-- **Target (detail):**  
-  “The rate of fossil fuels may remain steady.”
-- **Edge:** `Elaboration` (1 → 15)
-- **Why this label:** The target sentence adds a more specific characterization (the rate remaining steady) of the already-mentioned dominance of fossil fuels, enriching rather than changing the original claim.
-
-2. **Detailing variance of stats**
-
-- **Source (base idea):**  
-  “During the canvassing, I noticed a fact.”
-- **Target (detail):**  
-  “The fact is that clean energy was a very important issue.”
-- **Edge:** `Elaboration` (17 → 18)
-- **Why this label:** The target spells out what the “fact” is, supplying concrete content to the vague reference in the source sentence.
-
-3. **Detailing clean energy growth**
-
-- **Source (base idea):**  
-  “The use of clean energy sources in the world has grown during the last 20 years.”
-- **Targets (detail / examples):**  
-  “Wind power has experienced much growth recently.”  
-  “Solar power has experienced much growth recently.”
-- **Edge:** `Elaboration` (1 → 5, 1 → 6)
-- **Why this label:** The wind and solar sentences serve as concrete examples that flesh out the general statement about clean energy growth.
-
-4. **Detailing resource usage**
-
-- **Sources (base idea):**  
-  “Coal is a popular energy source.”  
-  “Gas is a popular energy source.”
-- **Targets (detail):**  
-  “The use of coal has steadily increased.”  
-  “The use of gas has steadily increased.”
-- **Edge:** `Elaboration` (3 → 9, 4 → 8)
-- **Why this label:** The target sentences specify how coal and gas are popular (their usage has increased), elaborating on the more general popularity statements.
-
-5. **Strengthening a claim**
-
-- **Source (base claim):**  
-  “The expenditure of fossil fuels contributes to global warming.”
-- **Target (stronger version / support):**  
-  “It has been proven that the expenditure of fossil fuels greatly contributes to global warming.”
-- **Edge:** `Elaboration` (20 → 21)
-- **Why this label:** The target rephrases and strengthens the same claim by adding that it has been “proven” and “greatly” contributes, deepening the original assertion without introducing a new relation.
-
----
-
-## 3. Conditional
-
-**JSON label:** `Conditional`
-
-**Description**
-
-Use `Conditional` when a sentence explicitly states an *if–then* relationship: a condition and its potential consequence.
-
-**Typical patterns**
-
-- “If X, then Y…”
-- “If X happens, Y will/may/could happen…”
+**How it differs:**
+- Unlike Inferential: stays within A's informational territory rather than reasoning beyond it.
+- Unlike Evaluative: adds factual detail or continuation, not a subjective stance.
+- Unlike Contrastive: develops A in the same direction rather than introducing tension.
 
 **Examples**
 
-1. **Fossil fuels and global warming**
+1. **Quantification of a qualitative claim**
+   - A: "Legacy students who are also wealthy see an even more significant boost."
+   - B: "This boost is around 7x than the average."
+   - Source cue: "**around 7x**" quantifies the "significant boost."
 
-- **Source (condition):**  
-  “The rate of fossil fuels may remain steady.”
-- **Targets (conditional outcomes):**  
-  “If the rate of fossil fuels remains steady then global warming will worsen.”  
-  “If the rate of fossil fuels remains steady then air pollution will worsen.”
-- **Edge:** `Conditional` (15 → 16, 15 → 17)
-- **Why this label:** The targets explicitly use “If … then …” structure to link the steady fossil fuel rate to potential worsening of global warming and air pollution.
+2. **Visual encoding → data meaning**
+   - A: "Southern states tended to be shaded orange."
+   - B: "The shading orange means that abortion is or will be banned."
+   - Source cue: decodes the color encoding.
 
-2. **Global warming and local environment**
+3. **General → specific instance**
+   - A: "The use of clean energy sources has grown."
+   - B: "Wind power has experienced much growth recently."
+   - Source cue: wind power is a specific instance of clean energy.
 
-- **Source (condition):**  
-  “If the rate of fossil fuels remains steady then global warming will worsen.”
-- **Targets (conditional outcomes):**  
-  “If global warming worsens then the natural environment in Akita could be negatively affected.”  
-  “If global warming worsens then the growth of Akita cedars may deteriorate.”
-- **Edge:** `Conditional` (16 → 20, 16 → 22)
-- **Why this label:** Both targets state what may happen *if* global warming worsens, maintaining a clear conditional structure tied to the source sentence.
+4. **Narrative continuation / anaphoric reference**
+   - A: "Religious students were exempt from this type of education."
+   - B: "A lot more of these students got pregnant accidentally."
+   - Source cue: "**these students**" anaphorically references the group in A.
+
+5. **Headline framing**
+   - A: "Young women tend to reach out to their parents more often than young men."
+   - B: "A catchy headline would be 'Young Adults are Children Too.'"
+   - Source cue: headline restates A's observation.
 
 ---
 
-## 4. Evaluative
+## 3. Evaluative
 
 **JSON label:** `Evaluative`
 
 **Description**
 
-Use `Evaluative` when a sentence expresses a *value judgment, evaluation, or opinion* about another sentence or situation.
+B registers the viewer's subjective orientation toward A — a value judgment, emotional reaction, normative claim, or expressed curiosity/uncertainty. Whether the stance is assertive ("this is unfair") or interrogative ("I wonder why"), the edge captures the same structural move: content prompts a subjective response. The *kind* of response (prescriptive, reactive, or curiosity) is captured by B's node type, not the edge type.
 
-**Typical patterns**
+**Typical source-text cues:** "it seems unfair," "is alarming," "I am deeply concerned," "is puzzling," "it is important," "I hope that," "I feel like," "should," "need to," "I wonder why/if/how," "I am curious," "I would like to know."
 
-- “This is a problem / good / bad / important / beneficial / harmful…”
-- “It is surprising / concerning that…”
-
-**Example**
-
-1. **Evaluating a situation**
-
-- **Source (situation described):**  
-  “However, fossil fuels occupy more than half of energy materials.”
-- **Target (evaluation):**  
-  “This situation is a problem.”
-- **Edge:** `Evaluative` (1 → 2)
-- **Why this label:** The target sentence explicitly judges the described situation as “a problem,” expressing a value-laden evaluation rather than adding new factual content.
-
----
-
-## 5. Questioning
-
-**JSON label:** `Questioning`
-
-**Description**
-
-Use `Questioning` when a sentence *asks about, interrogates, or expresses curiosity* about another sentence or fact.
-
-**Typical patterns**
-
-- “I wonder why X…”  
-- “I wonder how much X affects Y…”  
-- “Why is X…?”  
+**How it differs:**
+- Unlike Inferential: registers a reaction rather than building a reasoning chain.
+- Unlike Elaborative: introduces subjectivity rather than developing A's factual content.
+- Unlike Contrastive: responds *to* A rather than opposing it factually.
 
 **Examples**
 
-1. **Questioning increases in gas/coal**
+1. **Fairness judgment**
+   - A: "Applicants with a higher income family and a legacy have a higher chance."
+   - B: "It seems unfair to accept higher income applicants more."
+   - Source cue: "**it seems unfair**"
 
-- **Sources (facts):**  
-  “The use of gas has steadily increased.”  
-  “The use of coal has steadily increased.”
-- **Target (question):**  
-  “I wonder why the use of gas and coal has steadily increased.”
-- **Edge:** `Questioning` (8 → 10, 9 → 10)
-- **Why this label:** The target shows the author asking why the earlier facts are true, turning the preceding statements into the object of a question.
+2. **Emotional reaction**
+   - A: "States with heavily restricted abortions are more likely to stress abstinence."
+   - B: "I am deeply concerned for my female friends in those states."
+   - Source cue: "**I am deeply concerned**"
 
-2. **Questioning population–electricity link**
+3. **Normative claim**
+   - A: "There is only a certain amount of time with our loved ones."
+   - B: "It is important that we spend that time."
+   - Source cue: "**it's important**"
 
-- **Sources (facts):**  
-  “Electricity generation has increased over time.”  
-  “The global population has grown.”
-- **Target (question):**  
-  “I wonder how much global population growth affects how electricity is generated.”
-- **Edge:** `Questioning` (0 → 13, 12 → 13)
-- **Why this label:** The target sentence explicitly wonders about the effect of population growth on electricity generation, questioning the relationship between the two earlier facts.
+4. **Curiosity / questioning**
+   - A: "The younger generation is more optimistic about the future."
+   - B: "I wonder why older people are less optimistic."
+   - Source cue: "**I wonder why**"
 
-3. **Questioning cross-country variation**
-
-- **Source (fact):**  
-  “Statistics about electricity generation vary from country to country.”
-- **Target (question):**  
-  “I wonder how greatly these statistics vary from country to country.”
-- **Edge:** `Questioning` (14 → 15)
-- **Why this label:** The target takes the stated fact and turns it into an inquiry about *how much* variation there is, so the relationship is driven by a question about the source statement.
+5. **Questioning a connection**
+   - A: "Most states have heavy restrictions on abortion."
+   - B: "I wonder if there is a connection between abstinence and restrictions."
+   - Source cue: "**I wonder if there is a connection**"
 
 ---
 
-## 6. Contrastive
+## 4. Contrastive
 
 **JSON label:** `Contrastive`
 
 **Description**
 
-Use `Contrastive` when a sentence *contrasts, opposes, or highlights a difference* with another sentence.
+B introduces a counterpoint, qualification, tension, exception, or surprising juxtaposition against A. The viewer holds both in mind and highlights that they pull in different directions.
 
-**Typical patterns**
+**Typical source-text cues:** "but," "however," "despite," "on the other hand," "while," "meanwhile," "as opposed to," "doesn't mean," "pales in comparison to," "even during," violated-expectation juxtaposition.
 
-- “However, …”  
-- “In contrast, …”  
-- “On the other hand, …”  
-- “X, but Y…”
-
-**Examples**
-
-1. **Clean vs fossil energy**
-
-- **Source (clean energy growth):**  
-  “The use of clean energy sources in the world has grown during the last 20 years.”
-- **Target (contrast: fossil fuels higher):**  
-  “The use of fossil fuels has been consistently higher than the use of clean energy sources.”
-- **Edge:** `Contrastive` (1 → 2)
-- **Why this label:** The target explicitly compares fossil fuel use to clean energy use and emphasizes that it is “higher,” putting the two trends in contrast.
-
-2. **Contrast between new and traditional sources**
-
-- **Source (new ways):**  
-  “New ways to generate electricity have proliferated.”
-- **Target (questioning increased gas/coal use, contrasting with proliferation):**  
-  “I wonder why the use of gas and coal has steadily increased.”
-- **Edge:** `Contrastive` (7 → 10)
-- **Why this label:** The coexistence of proliferating new methods and increasing gas/coal use sets up a tension between old and new sources, so the question implicitly contrasts these trends.
-
----
-
-## 7. Narrative/Referential
-
-**JSON label:** `Narrative/Referential`
-
-**Description**
-
-Use `Narrative/Referential` when a sentence *refers back to a previously mentioned event, entity, or time*, or continues a personal or story-like narrative. The connection is about *reference or narrative flow*, not necessarily causal or evaluative content.
-
-**Typical patterns**
-
-- “At that time, …” (referring to an earlier event)  
-- “The decrease… relates to these events.”  
-- “During X, I noticed…”  
+**How it differs:**
+- Unlike Inferential: does not chain A to a consequence; places A and B side-by-side.
+- Unlike Elaborative: pushes *against* A rather than developing it in the same direction.
+- Unlike Evaluative: stays in the factual/observational register rather than expressing subjectivity.
 
 **Examples**
 
-1. **Linking problem to earlier situation**
+1. **Explicit adversative**
+   - A: "The majority of players are players of color."
+   - B: "However, there are fewer coaches of color."
+   - Source cue: "**However**"
 
-- **Source (reference situation):**  
-  “This situation is a problem.”
-- **Target (narrative continuation / reference to that situation):**  
-  “At that time, I thought about a solution to improve this situation.”
-- **Edge:** `Narrative/Referential` (2 → 5)
-- **Why this label:** The target refers back to “this situation” and “that time,” continuing the story about the problem rather than introducing a new causal or evaluative relation.
+2. **Tension between magnitude and usage**
+   - A: "India's population is greater than China's."
+   - B: "Compared to China, India's power usage is significantly less."
+   - Source cue: tension between large population and low usage.
 
-2. **Linking personal experience**
+3. **Violated expectation**
+   - A: "I noticed that many more states have abortion bans than I had anticipated."
+   - B: "For some reason, I thought that only a few states did this."
+   - Source cue: A is reality; B is the violated prior belief.
 
-- **Source (earlier life event):**  
-  “When I was a junior high school student, I had an opportunity.”
-- **Target (later thought, tied to that time):**  
-  “At that time, I thought about a solution to improve this situation.”
-- **Edge:** `Narrative/Referential` (4 → 5)
-- **Why this label:** The target anchors itself in the same time frame (“that time”) as the source, advancing a personal narrative linked by reference rather than cause or contrast.
+4. **Exception to a trend**
+   - A: "As your parent's income rank increases, your chance of getting accepted increases."
+   - B: "At the 90th rank and beyond, there is a dip in acceptance."
+   - Source cue: "**dip**" contrasts with the upward trend.
 
-3. **Referring to earlier events and outcome**
-
-- **Sources (events and outcome):**  
-  “The electric power generation in the world decreased around 2008.”  
-  “The electric power generation in the world also decreased around 2021.”  
-  “The demand for electric power generation decreased.”
-- **Target (reference to them):**  
-  “The decrease in electric power generation relates to these events.”
-- **Edges:**  
-  `Narrative/Referential` (6 → 14, 7 → 14), plus `Causal` (13 → 14)
-- **Why this label:** The target sentence explicitly says the decrease “relates to these events,” tying back to previously mentioned episodes and outcomes in a referential way, while also gesturing at causality from the demand decrease.
-
-4. **Personal location / environment**
-
-- **Source (location):**  
-  “I live in Akita.”
-- **Targets (narrative / referential ties):**  
-  “If global warming worsens then the natural environment in Akita could be negatively affected.”  
-  “Akita cedars grow in Akita.”
-- **Edge:** `Narrative/Referential` (19 → 20, 19 → 21)
-- **Why this label:** Both targets refer back to Akita, using the shared place to connect the speaker’s location with the potential environmental consequences there.
-
-5. **Narrative of canvassing**
-
-- **Source (earlier action):**  
-  “I canvassed for a local democratic campaign.”
-- **Target (subsequent event in same story):**  
-  “During the canvassing, I noticed a fact.”
-- **Edge:** `Narrative/Referential` (16 → 17)
-- **Why this label:** The target situates itself “during the canvassing,” clearly continuing the same narrative episode introduced in the source.
+5. **Qualification**
+   - A: "The majority of major sports leagues are made up of players of color."
+   - B: "This does not mean that we have accomplished increasing diversity."
+   - Source cue: "**Though this doesn't mean**"
 
 ---
 
-## 8. Uncategorized
+## 5. Uncategorized
 
 **JSON label:** `Uncategorized`
 
 **Description**
 
-Use `Uncategorized` when a dependency between sentences is present but *does not clearly fit* any of the other categories, or when you are uncertain about the best label.
-
-**When to use**
-
-- The relationship is vague or mixed in type.  
-- The sentence is related, but not clearly causal, elaborative, conditional, evaluative, questioning, contrastive, or narrative/referential.
-
-_No concrete examples are enforced in the current script; use this label sparingly and prefer a more specific type when possible._
+The dependency between A and B is present but does not clearly fit any of the four substantive categories. Use sparingly — prefer a more specific type when possible.

@@ -30,23 +30,24 @@ from typing import Dict
 
 
 CATEGORIES = [
-    "L1: Elemental and encoded properties",
-    "L2: Statistical concepts and relations",
-    "L3: Trend and pattern analysis",
-    "Background knowledge",
-    "Personal/episodic retrieval",
-    "Explanatory inference",
-    "Predictive / counterfactual inference",
-    "Evaluative / affective judgment",
-    "Information need / curiosity",
-    "Meta / paratext",
+    "Visual Observation: Chart Structure & Text",
+    "Visual Observation: Data Point Extraction",
+    "Visual Observation: Cross-point Pattern Recognition",
+    "Prior Knowledge: Background",
+    "Prior Knowledge: Personal / Episodic",
+    "Evaluative: Prescriptive",
+    "Evaluative: Reactive",
+    "Inference: Explanatory",
+    "Inference: Predictive / Hypothetical",
+    "Curiosity",
+    "Meta / Paratext",
     "Uncategorizable",
 ]
 
 TAB10_HEX = [
     "#1f77b4", "#ff7f0e", "#2ca02c", "#d62728", "#9467bd",
     "#8c564b", "#e377c2", "#7f7f7f", "#bcbd22", "#17becf",
-    "#aec7e8",
+    "#aec7e8", "#ffbb78",
 ]
 
 CATEGORY_COLORS: Dict[str, str] = {
@@ -55,24 +56,20 @@ CATEGORY_COLORS: Dict[str, str] = {
 CATEGORY_COLORS["unknown"] = "#b3b3b3"
 
 EDGE_TYPES = [
-    "Causal",
-    "Elaboration",
-    "Conditional",
+    "Inferential",
+    "Elaborative",
     "Evaluative",
-    "Questioning",
     "Contrastive",
-    "Narrative/Referential",
+    "Uncategorized",
 ]
 
 EDGE_TYPE_COLORS: Dict[str, str] = {
-    "Causal":               "#e41a1c",
-    "Elaboration":          "#377eb8",
-    "Conditional":          "#ff7f00",
-    "Evaluative":           "#984ea3",
-    "Questioning":          "#4daf4a",
-    "Contrastive":          "#a65628",
-    "Narrative/Referential": "#f781bf",
-    "unknown":              "#999999",
+    "Inferential":  "#e41a1c",
+    "Elaborative":  "#377eb8",
+    "Evaluative":   "#984ea3",
+    "Contrastive":  "#a65628",
+    "Uncategorized": "#999999",
+    "unknown":      "#999999",
 }
 
 

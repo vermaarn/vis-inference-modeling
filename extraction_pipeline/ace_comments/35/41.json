@@ -3,31 +3,44 @@
   "comment_index": 41,
   "raw_comment": "I noticed that the leaves arrived later when the location was further away from from the equator. I noticed that the interactive graph had to factor in the weather also because that affects the leaves. \n\nI wonder why they colors represent each month and if they represent anything in relation to a weather map. \n\nLeaves living at their lovely pace",
   "ace_sentences": [
-    "I noticed that the leaves arrived later when the location was further away from the equator.",
-    "I noticed that the interactive graph had to factor in the weather.",
+    "The leaves arrived later when the location was further away from the equator.",
+    "The interactive graph had to factor in the weather.",
     "The weather affects the leaves.",
-    "I wonder why the colors represent each month.",
-    "I wonder if the colors represent anything in relation to a weather map.",
-    "Leaves live at their lovely pace."
+    "The colors represent each month.",
+    "The colors may represent something in relation to a weather map.",
+    "The headline is:",
+    "Leaves living at their lovely pace"
   ],
   "source_mappings": {
-    "I noticed that the leaves arrived later when the location was further away from the equator.": [
-      "I noticed that the leaves arrived later when the location was further away from from the equator."
+    "The leaves arrived later when the location was further away from the equator.": [
+      "I noticed that the leaves arrived later when the location was further away from from the equator"
     ],
-    "I noticed that the interactive graph had to factor in the weather.": [
-      "I noticed that the interactive graph had to factor in the weather"
+    "The interactive graph had to factor in the weather.": [
+      "I noticed that the interactive graph had to factor in the weather also"
     ],
     "The weather affects the leaves.": [
-      "because that affects the leaves."
+      "because that affects the leaves"
     ],
-    "I wonder why the colors represent each month.": [
-      "I wonder why they colors represent each month"
+    "The colors represent each month.": [
+      "they colors represent each month"
     ],
-    "I wonder if the colors represent anything in relation to a weather map.": [
-      "if they represent anything in relation to a weather map."
+    "The colors may represent something in relation to a weather map.": [
+      "if they represent anything in relation to a weather map"
     ],
-    "Leaves live at their lovely pace.": [
+    "The headline is:": [
+      "Leaves living at their lovely pace"
+    ],
+    "Leaves living at their lovely pace": [
       "Leaves living at their lovely pace"
     ]
+  },
+  "order": {
+    "The leaves arrived later when the location was further away from the equator.": 1,
+    "The interactive graph had to factor in the weather.": 2,
+    "The weather affects the leaves.": 3,
+    "The colors represent each month.": 4,
+    "The colors may represent something in relation to a weather map.": 5,
+    "The headline is:": 6,
+    "Leaves living at their lovely pace": 7
   }
 }

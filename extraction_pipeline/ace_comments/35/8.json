@@ -3,39 +3,39 @@
   "comment_index": 8,
   "raw_comment": "After reading this additional information, we learned that this graph is for multiple purposes such as allergies, knowing when to plant crops, keeping us caught up on climate shifts, habitat loss or other environmental factors.",
   "ace_sentences": [
-    "We read this additional information.",
-    "After reading this additional information, we learned something.",
-    "This graph is for multiple purposes.",
-    "This graph is for allergies.",
-    "This graph is for knowing when to plant crops.",
-    "This graph is for keeping us caught up on climate shifts.",
-    "This graph is for habitat loss.",
-    "This graph is for other environmental factors."
+    "After reading this additional information, we learned that this graph is for multiple purposes.",
+    "One purpose is allergies.",
+    "One purpose is knowing when to plant crops.",
+    "One purpose is keeping us caught up on climate shifts.",
+    "One purpose is habitat loss.",
+    "One purpose is other environmental factors."
   ],
   "source_mappings": {
-    "We read this additional information.": [
-      "reading this additional information"
+    "After reading this additional information, we learned that this graph is for multiple purposes.": [
+      "After reading this additional information, we learned that this graph is for multiple purposes"
     ],
-    "After reading this additional information, we learned something.": [
-      "After reading this additional information, we learned"
-    ],
-    "This graph is for multiple purposes.": [
-      "this graph is for multiple purposes"
-    ],
-    "This graph is for allergies.": [
+    "One purpose is allergies.": [
       "allergies"
     ],
-    "This graph is for knowing when to plant crops.": [
+    "One purpose is knowing when to plant crops.": [
       "knowing when to plant crops"
     ],
-    "This graph is for keeping us caught up on climate shifts.": [
+    "One purpose is keeping us caught up on climate shifts.": [
       "keeping us caught up on climate shifts"
     ],
-    "This graph is for habitat loss.": [
+    "One purpose is habitat loss.": [
       "habitat loss"
     ],
-    "This graph is for other environmental factors.": [
+    "One purpose is other environmental factors.": [
       "other environmental factors"
     ]
+  },
+  "order": {
+    "After reading this additional information, we learned that this graph is for multiple purposes.": 1,
+    "One purpose is allergies.": 2,
+    "One purpose is knowing when to plant crops.": 3,
+    "One purpose is keeping us caught up on climate shifts.": 4,
+    "One purpose is habitat loss.": 5,
+    "One purpose is other environmental factors.": 6
   }
 }

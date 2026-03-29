@@ -8,37 +8,159 @@ The input includes an `order` field that maps each ACE sentence to its position 
 
 ## Edge Types
 
-Assign exactly one of the following edge types to each dependency:
+Assign exactly one of the following edge types to each dependency. There are four substantive types plus a fallback:
 
-1. **Causal** — A states a cause or mechanism and B states its effect, or B provides a causal explanation for the observation in A. Use when the link is about *why* something happened or *what* something leads to.
-   - *"The Lehman Shock happened in 2008" → "The Lehman Shock caused an economic slump"*
-   - *"Fossil fuels occupy more than half of energy materials" → "The expenditure of fossil fuels contributes to global warming"*
+### 1. Inferential
 
-2. **Elaboration** — B adds detail, specifies, quantifies, generalises, or provides supporting evidence for A. Also covers encoding interpretation (mapping visual features to data meaning) and any zooming-in or zooming-out on information in A.
-   - *"Clean energy has grown" → "Wind power has experienced much growth recently"* (general → specific)
-   - *"The graph has tiered color blocks" → "Each block symbolises a different fuel"* (visual → meaning)
+A provides a premise, observation, or condition; B states a consequence, explanation, prediction, or hypothetical outcome that **reasons beyond** what A alone states. Use this when B introduces a cause, mechanism, effect, prediction, or counterfactual that follows from A.
 
-3. **Conditional** — B states a consequence, prediction, or counterfactual that is contingent on the premise in A. Often marked by "if…then" or modal language ("may", "could").
-   - *"The rate of fossil fuels may remain steady" → "If the rate remains steady then global warming will worsen"*
-   - *"If global warming worsens" → "the natural environment in Akita could be negatively affected"*
+**Typical source-text cues:** "because," "so," "thus," "therefore," "this means that," "suggesting that," "can be explained by," "may be causing," "if…then," "may," "could," "depending on," "which would," "leads to," "due to."
 
-4. **Evaluative** — B is a value judgement, normative claim, or affective reaction about the content of A.
-   - *"Fossil fuels occupy more than half" → "This situation is a problem"*
-   - *"The smoke damages my community" → "My town needs more clean energy"*
+**How it differs from the other types:**
+- Unlike **Elaborative**, Inferential introduces *new propositional content* (a cause, effect, or prediction). Elaborative stays within A's informational territory and refines it.
+- Unlike **Evaluative**, Inferential makes a factual or explanatory claim about the world. Evaluative registers the viewer's subjective stance (judgment, emotion, or question).
+- Unlike **Contrastive**, Inferential follows *from* A in the same direction. Contrastive introduces tension *against* A.
 
-5. **Questioning** — B raises a question, wonder, or expressed uncertainty triggered by the content of A.
-   - *"The use of gas has steadily increased" → "I wonder why the use of gas has increased"*
-   - *"Electricity generation has increased" → "I wonder how statistics vary from country to country"*
+**Examples (causal reasoning — B explains or follows from A):**
+- *"Those with legacy have a higher chance of getting in." → "This lowers my own chance of acceptance."*
+  Source cue: "which **then** lowers" — a causal consequence.
+- *"Yet because of their income and status, many people are not even considered." → "Thus, the wealth inequality becomes even greater."*
+  Source cue: "**because of**" introduces cause; "**Thus**" introduces effect.
+- *"The energy usage of the United States was only about twice as less as China's." → "The average energy usage per person in the US is significantly greater."*
+  Source cue: "**This means that**" signals a logical derivation.
+- *"The western region has the Rocky Mts." → "The Rocky Mts would change the climate."*
+  Source cue: "**which would**" signals a causal mechanism.
+- *"I wonder what causes the strange placement of purple areas on the map." → "The altitude may cause the strange placement."*
+  Source cue: "**what causes**" in A; "**Is it**" in B offers a candidate cause.
+- *"The statistics for all three categories for women combine to over 100%." → "This suggests that many young women utilize several different methods."*
+  Source cue: "**suggesting that**" signals an inference drawn from data.
+- *"The percentage is more balanced for players and head coaches." → "This can be explained by the large number of countries playing soccer."*
+  Source cue: "**This probably can be explained by**" is abductive explanation.
 
-6. **Contrastive** — B introduces a counterpoint, qualification, surprising tension, or exception to A. Often signalled by "however", "despite", "but", or a juxtaposition of conflicting facts.
-   - *"Clean energy has grown" → "However, fossil fuels have been consistently higher"*
-   - *"New clean-energy ways have proliferated" → "I wonder why gas and coal still increased"* (the proliferation of clean energy contrasts with fossil growth)
+**Examples (conditional/hypothetical reasoning — B is contingent on A):**
+- *"The U.S. may be unable to purchase fossil fuels from other countries." → "If the U.S. is unable to purchase fossil fuels then people may start to struggle."*
+  Source cue: "**If**…**then**" marks an explicit conditional chain.
+- *"Students with less access to resources need to be addressed." → "If we can address this issue, we can reduce the disparity."*
+  Source cue: "**If we can**…**we can**" links premise to predicted outcome.
+- *"We should be looking at giving people of color more opportunities." → "If people of color get more opportunities then we will have more of them managing sports teams when they grow up."*
+  Source cue: "**If**…**then**…**when they grow up**" chains conditional to future prediction.
+- *"The majority of states have restricted abortion." → "Depending on where you live, it can affect the future of your life."*
+  Source cue: "**Depending on**" signals a conditional frame.
 
-7. **Narrative/Referential** — B continues a personal story or temporal sequence from A, performs a discourse act (e.g. headline) that references A, or links to A primarily through anaphoric reference ("this situation", "at that time", "these events").
-   - *"When I was a junior high school student, I had an opportunity" → "At that time, I thought about a solution"*
-   - *"I live in Akita" → "Akita cedars grow in Akita"*
+### 2. Elaborative
 
-8. **Uncategorized** — The dependency between A and B is clear but does not fit any of the above categories. Use this when none of the other 7 edge types adequately describe the relationship.
+B refines, specifies, continues, or contextualizes A **without introducing a new causal, evaluative, or contrastive claim**. This covers: general-to-specific, specific-to-general, encoding interpretation (mapping visual features to data meaning), adding a parallel case, providing quantification for a qualitative claim, continuing a narrative or temporal sequence, and anchoring to a previously mentioned referent through anaphoric reference ("this situation," "at that time," "these events").
+
+**Typical source-text cues:** apposition (commas, parenthetical detail), "like [specific]," "such as," "for example," "for instance," "this" + same-topic continuation, "whether through," repeated entity names, headline framing, "at that time," "during the," "these events."
+
+**How it differs from the other types:**
+- Unlike **Inferential**, Elaborative does not introduce a cause, mechanism, or prediction. It develops A rather than reasoning beyond it.
+- Unlike **Evaluative**, Elaborative adds factual detail or continuation, not a subjective judgment or question.
+- Unlike **Contrastive**, Elaborative develops A in the same direction rather than introducing tension or opposition.
+
+**Examples (detail, specification, quantification):**
+- *"Legacy students who are also wealthy see an even more significant boost." → "This boost is around 7x than the average."*
+  Source cue: "**around 7x**" quantifies the "significant boost" from A.
+- *"A stacked area chart is utilized to visualize the data." → "Each section is built on top of one another like layers of sediment."*
+  Source cue: explains what "stacked area chart" means visually.
+- *"Southern states tended to be shaded orange." → "The shading orange means that abortion is or will be banned."*
+  Source cue: decodes the visual encoding — chart reading → data meaning.
+- *"Spring seems to come earlier in the southern area." → "Spring seems to come in January in the southern area."*
+  Source cue: "**like January**" adds temporal specificity to "earlier."
+- *"This lead applies to each form of communication." → "The forms of communication are text and phone and in person."*
+  Source cue: "**whether through text, phone or in person**" specifies "each form."
+- *"My community is very much left leaning." → "My neighbors mostly believe abortion should be readily available."*
+  Source cue: B concretizes what "left leaning" means for A's community.
+
+**Examples (narrative continuation, anaphoric reference, headline framing):**
+- *"Religious students were exempt from this type of education." → "A lot more of these students got pregnant accidentally."*
+  Source cue: "**these students**" anaphorically references the group in A.
+- *"Some children of these legacy families get accepted." → "Some grandchildren of these legacy families get accepted."*
+  Source cue: parallel structure extending the same pattern from "children" to "grandchildren."
+- *"Young women tend to reach out to their parents more often than young men." → "A catchy headline would be 'Young Adults are Children Too — Reach Out to Your Parents!'."*
+  Source cue: headline restates and dramatizes the observation from A.
+- *"I examined the World's Electricity Generation Graph." → "I noticed that clean sources produce the most amount of power."*
+  Source cue: "I examined" → "I noticed" continues the narrative of analysis.
+- *"A station in life is a huge factor in the colleges you can go to." → "This is prevalent in students' and parents' minds."*
+  Source cue: "**something prevalent**" anaphorically references the claim in A.
+
+### 3. Evaluative
+
+B registers the viewer's **subjective orientation** toward the content of A — a value judgment, emotional reaction, normative claim, or expressed curiosity/uncertainty. A presents content; B is the viewer's *stance* in response. Whether that stance is assertive ("this is a problem," "this is unfair") or interrogative ("I wonder why," "I'm curious whether"), the edge captures the same structural move: content prompts a subjective response.
+
+**Note:** The *kind* of subjective response (prescriptive judgment vs. emotional reaction vs. curiosity) is captured by the **node type** of B (e.g. Evaluative: Prescriptive, Evaluative: Reactive, or Curiosity), not by the edge type. The edge type simply marks that B is a subjective response to A.
+
+**Typical source-text cues:** "it seems unfair," "is alarming," "I am deeply concerned," "is puzzling," "it is important," "I hope that," "I feel like," "should," "need to," "I wonder why," "I wonder if," "I am curious," "I would like to know," "why is," "what causes."
+
+**How it differs from the other types:**
+- Unlike **Inferential**, Evaluative does not propose a cause or prediction. It registers a reaction rather than building a reasoning chain.
+- Unlike **Elaborative**, Evaluative introduces the viewer's subjectivity rather than developing A's factual content.
+- Unlike **Contrastive**, Evaluative responds *to* A rather than opposing it with a conflicting observation.
+
+**Examples (value judgments, reactions, normative claims):**
+- *"Applicants with a higher income family and a legacy have a higher chance to be accepted." → "It seems unfair to accept higher income applicants more than lower income applicants."*
+  Source cue: "**it seems unfair**" is an explicit fairness judgment.
+- *"There is a disconnect between young people and older people about the future." → "This disconnect is more alarming than anything else."*
+  Source cue: "**more alarming**" is an affective evaluation.
+- *"It is clear that states with heavily restricted abortions are more likely to stress abstinence." → "I am deeply concerned for my female friends in states where abortion is prohibited."*
+  Source cue: "**I am deeply concerned**" is an emotional reaction.
+- *"China's electrical production has grown at a high linear rate." → "The large discrepancy in electrical generation is puzzling."*
+  Source cue: "**is puzzling**" expresses cognitive dissonance.
+- *"There is only a certain amount of time that we get with our loved ones." → "It is important that we spend that time."*
+  Source cue: "**it's important**" is a normative/prescriptive response.
+- *"I notice that coal has generated the most amount of gigawatt hours." → "Coal is the worst for the environment."*
+  Source cue: evaluative judgment ("**the worst**") about A's observation.
+
+**Examples (questioning, curiosity, wonder):**
+- *"The younger generation in this data is more optimistic about the future." → "I wonder why older people are less optimistic than younger people."*
+  Source cue: "**I wonder why**" directly questions A's observation.
+- *"I noticed that most of the states have heavy restrictions on abortion." → "I wonder if there is a connection between abstinence being stressed and restrictions on abortions."*
+  Source cue: "**I wonder if there is a connection**" questions the relationship.
+- *"Out of the country graphs, China has the biggest jump in use." → "I wonder why countries like China have seen a drastic increase."*
+  Source cue: "**I wonder why**" questions the cause of A's observation.
+- *"Legacy applicants have a significant advantage in the college admissions process." → "I wonder which elite college favors more legacies overall."*
+  Source cue: "**I wonder**" + follow-up question prompted by the pattern in A.
+- *"The least popular mode of contact between parents and their children is in-person visits." → "I wonder if this is because a lot of these children live far from their families."*
+  Source cue: "**I wonder if this is because**" questions A with a candidate explanation.
+
+### 4. Contrastive
+
+B introduces a counterpoint, qualification, tension, exception, or surprising juxtaposition against A. The viewer holds both in mind and highlights that they pull in **different directions**. This covers: opposing trends, unexpected exceptions, asymmetries between groups, or violated expectations.
+
+**Typical source-text cues:** "but," "however," "despite," "on the other hand," "while," "meanwhile," "as opposed to," "doesn't mean," "in no way am I saying," "pales in comparison to," "even during," juxtaposition of conflicting facts.
+
+**How it differs from the other types:**
+- Unlike **Inferential**, Contrastive does not chain from A to a consequence or explanation. It places A and B *side by side* to highlight divergence.
+- Unlike **Elaborative**, Contrastive pushes *against* A rather than developing it in the same direction. If B adds a parallel, same-direction observation, that is Elaborative; if B undermines, qualifies, or creates tension with A, that is Contrastive.
+- Unlike **Evaluative**, Contrastive stays in the factual/observational register — it juxtaposes two observations rather than expressing the viewer's subjective reaction.
+
+**Examples:**
+- *"India's population is greater than the population of China." → "Compared to China, the use of power of India is significantly less."*
+  Source cue: "**Compared to**" and the tension between large population and low power usage.
+- *"The national basketball associations have the highest percentages of players of color." → "The head coaches of color do not come close to the percentage of players of color."*
+  Source cue: "**don't even come close**" highlights the gap.
+- *"Women are more likely than men to reach out to their parents at least once a day." → "Young men are far less likely to have active communication with their parents."*
+  Source cue: "**On the other hand**" explicitly signals contrast between women and men.
+- *"Spring is only beginning to emerge here in N.J." → "I notice that many states across the nation are already well into its midst."*
+  Source cue: "**While**" sets up a geographic contrast.
+- *"With the highest income, the likelihood of students being admitted is slightly over 2x." → "This likelihood pales in comparison to legacy students with a 99.9 parent income rate."*
+  Source cue: "**which pales in comparison to**" explicitly signals B dwarfs A.
+- *"I notice that the majority of major sports leagues are made up of players of color." → "This does not mean that we have accomplished increasing diversity."*
+  Source cue: "**Though this doesn't mean**" qualifies A's positive implication.
+- *"From 2000 onwards, there has been a huge expansion of the amount of energy used." → "Oil has somewhat stagnated throughout these 20 years."*
+  Source cue: "huge expansion" in A contrasts with "**stagnated**" in B.
+- *"I noticed that many more states have abortion bans than I had anticipated." → "For some reason, I thought that only a few states did this."*
+  Source cue: violated expectation — A is reality, B is prior belief.
+- *"In all of these major sports leagues, the majority of players are players of color." → "However, there are fewer coaches of color in these sports leagues."*
+  Source cue: "**However**" explicitly marks the contrast.
+- *"As your parent's income rank increases, your chance of getting accepted increases." → "At the 90th rank and beyond, there is a dip in acceptance."*
+  Source cue: "**dip**" contrasts with the upward trend in A.
+
+### 5. Uncategorized
+
+The dependency between A and B is clear but does not fit any of the above four categories. Use this sparingly — prefer a more specific type when possible.
+
+---
 
 A sentence may depend on **zero, one, or many** other sentences. Each dependency edge receives exactly one edge type.
 
@@ -47,24 +169,31 @@ A sentence may depend on **zero, one, or many** other sentences. Each dependency
 1. The graph **must be a DAG** (Directed Acyclic Graph): there must be no cycles. If A depends on B, then B must NOT (directly or transitively) depend on A.
 2. Every sentence from the input must appear exactly once in the output.
 3. Each node's `id` must be a 0-based integer matching the sentence's position in the input list.
-4. `depends_on` is an array of objects, each with `id` (integer) and `edge_type` (one of the 8 labels above). May be empty.
-5. Use the exact edge type labels: "Causal", "Elaboration", "Conditional", "Evaluative", "Questioning", "Contrastive", "Narrative/Referential", "Uncategorized".
+4. `depends_on` is an array of objects, each with `id` (integer), `edge_type` (one of the 5 labels above), and `justification` (a 1–2 sentence explanation with two parts: **(1) why the edge exists** — what textual or semantic cue connects B to A, and **(2) why it receives this label** — which category-defining feature applies and why the other categories do not fit). May be empty.
+5. Use the exact edge type labels: "Inferential", "Elaborative", "Evaluative", "Contrastive", "Uncategorized".
 6. **Ordering constraint**: For every direct edge (B `depends_on` A), A must have a strictly lower `order` value than B. In other words, the parent node must appear before the child node in the original source comment. No backward edges are permitted.
 
 ## Output format
+
+The input is always a JSON object with a `comments` array (length ≥ 1). Each element has `article_id`, `comment_index`, `ace_sentences`, and `order`. Build **one independent dependency graph per comment** — do not add edges between sentences from different comments.
 
 Return a single JSON object with exactly this shape:
 
 ```json
 {
-  "article_id": <article_id from input>,
-  "comment_index": <comment_index from input>,
-  "dependency_graph": [
+  "results": [
     {
-      "id": <int>,
-      "sentence": "<the sentence text>",
-      "depends_on": [
-        { "id": <int>, "edge_type": "<one of the 8 labels>" },
+      "article_id": <article_id from input>,
+      "comment_index": <comment_index from input>,
+      "dependency_graph": [
+        {
+          "id": <int>,
+          "sentence": "<the sentence text>",
+          "depends_on": [
+            { "id": <int>, "edge_type": "<one of the 5 labels>", "justification": "<1-2 sentence explanation>" },
+            ...
+          ]
+        },
         ...
       ]
     },
@@ -73,8 +202,10 @@ Return a single JSON object with exactly this shape:
 }
 ```
 
+`results` must have the **same length** as `comments` and appear in the **same order**. When `comments` has length 1, `results` has one element.
+
 ## Examples
 
 <DEPENDENCY_EDGE_EXAMPLES>
 
-Now process the following input and return the dependency graph JSON.
+Now process the following input and return the JSON object with a `results` array.

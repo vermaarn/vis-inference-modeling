@@ -1,0 +1,638 @@
+[
+  {
+    "article_id": "174",
+    "comment_index": 1,
+    "image_description": "## 1. Chart type\n- **Time-series line chart with point markers** (annual values connected by a line).\n\n## 2. Layout techniques\n- **Single-panel chart** (no faceting or small multiples).\n- Uses **point markers connected by lines**.\n- Uses **color to distinguish warmer vs. cooler anomalies** relative to a baseline.\n- Includes **text annotations/labels** for selected years.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| Year | Temporal | Position on x-axis; text labels for selected years |\n| Temperature difference from late-19th-century average (annual anomaly, °C) | Quantitative | Position on y-axis; connected line; point position |\n| Relative temperature status (warmer vs. cooler than 1880–1899 average) | Categorical/nominal | Color/hue of points (warm peach vs. cool blue/neutral) |\n| Selected highlighted year values (e.g., 1904, 1944, 1998, 2016, 2018) | Temporal | Direct text labels/annotations near points |",
+    "raw_comment": "Excellent work!! I'm very impacted by this publication!! Thank you!!",
+    "ace_sentences": [
+      "The work is excellent.",
+      "I am very impacted by this publication.",
+      "Thank you."
+    ],
+    "source_mappings": {
+      "The work is excellent.": [
+        "Excellent work!!"
+      ],
+      "I am very impacted by this publication.": [
+        "I'm very impacted by this publication!!"
+      ],
+      "Thank you.": [
+        "Thank you!!"
+      ]
+    },
+    "order": {
+      "The work is excellent.": 1,
+      "I am very impacted by this publication.": 2,
+      "Thank you.": 3
+    },
+    "dependency_graph": [
+      {
+        "id": 0,
+        "sentence": "The work is excellent.",
+        "depends_on": [],
+        "comment_tag": "Evaluative: Reactive",
+        "reasoning": "Step 4b: This is a positive evaluative reaction to the publication, not a prescription for change."
+      },
+      {
+        "id": 1,
+        "sentence": "I am very impacted by this publication.",
+        "depends_on": [
+          {
+            "id": 0,
+            "edge_type": "Evaluative",
+            "justification": "(1) B is a subjective reaction to the work being excellent, with 'this publication' referring back to the work in A. (2) Evaluative because B expresses the speaker's personal impact/response rather than adding factual detail, explaining a cause, or contrasting with A."
+          }
+        ],
+        "comment_tag": "Evaluative: Reactive",
+        "reasoning": "Step 4b: Expresses a personal emotional reaction to the publication without recommending action."
+      },
+      {
+        "id": 2,
+        "sentence": "Thank you.",
+        "depends_on": [
+          {
+            "id": 0,
+            "edge_type": "Evaluative",
+            "justification": "(1) B is a direct appreciative response to the excellent work described in A. (2) Evaluative because it conveys gratitude and positive stance toward A, not elaboration, inference, or contrast."
+          }
+        ],
+        "comment_tag": "Evaluative: Reactive",
+        "reasoning": "Step 4b: A brief appreciative reaction to the work, functioning as positive feedback rather than a prescription."
+      }
+    ]
+  },
+  {
+    "article_id": "174",
+    "comment_index": 2,
+    "image_description": "## 1. Chart type\n- **Time-series line chart with point markers** (annual values connected by a line).\n\n## 2. Layout techniques\n- **Single-panel chart** (no faceting or small multiples).\n- Uses **point markers connected by lines**.\n- Uses **color to distinguish warmer vs. cooler anomalies** relative to a baseline.\n- Includes **text annotations/labels** for selected years.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| Year | Temporal | Position on x-axis; text labels for selected years |\n| Temperature difference from late-19th-century average (annual anomaly, °C) | Quantitative | Position on y-axis; connected line; point position |\n| Relative temperature status (warmer vs. cooler than 1880–1899 average) | Categorical/nominal | Color/hue of points (warm peach vs. cool blue/neutral) |\n| Selected highlighted year values (e.g., 1904, 1944, 1998, 2016, 2018) | Temporal | Direct text labels/annotations near points |",
+    "raw_comment": "I loved it you all did amazing but some of the graphs move to fast so I cant understand because it doesn't give your eyes enough time to adjust.",
+    "ace_sentences": [
+      "I loved it.",
+      "You all did amazing.",
+      "Some of the graphs move too fast.",
+      "I cannot understand it.",
+      "It does not give your eyes enough time to adjust."
+    ],
+    "source_mappings": {
+      "I loved it.": [
+        "I loved it"
+      ],
+      "You all did amazing.": [
+        "you all did amazing"
+      ],
+      "Some of the graphs move too fast.": [
+        "some of the graphs move to fast"
+      ],
+      "I cannot understand it.": [
+        "I cant understand"
+      ],
+      "It does not give your eyes enough time to adjust.": [
+        "because it doesn't give your eyes enough time to adjust"
+      ]
+    },
+    "order": {
+      "I loved it.": 1,
+      "You all did amazing.": 2,
+      "Some of the graphs move too fast.": 3,
+      "I cannot understand it.": 4,
+      "It does not give your eyes enough time to adjust.": 5
+    },
+    "dependency_graph": [
+      {
+        "id": 0,
+        "sentence": "I loved it.",
+        "depends_on": [],
+        "comment_tag": "Evaluative: Reactive",
+        "reasoning": "Step 4b: Direct emotional approval of the visualization, with no call for change."
+      },
+      {
+        "id": 1,
+        "sentence": "You all did amazing.",
+        "depends_on": [
+          {
+            "id": 0,
+            "edge_type": "Evaluative",
+            "justification": "(1) B is a positive reaction to the same item praised in A, with 'you all' addressing the creators of 'it.' (2) Evaluative because it expresses approval/praise rather than adding detail or making a causal claim."
+          }
+        ],
+        "comment_tag": "Evaluative: Reactive",
+        "reasoning": "Step 4b: Positive evaluative praise directed at the creators, not a normative demand."
+      },
+      {
+        "id": 2,
+        "sentence": "Some of the graphs move too fast.",
+        "depends_on": [],
+        "comment_tag": "Visual Observation: Chart Structure & Text",
+        "reasoning": "Step 2a: This comments on the presentation/structure of the graphs, specifically their pacing, which is a visual artifact property rather than a data value."
+      },
+      {
+        "id": 3,
+        "sentence": "I cannot understand it.",
+        "depends_on": [
+          {
+            "id": 2,
+            "edge_type": "Inferential",
+            "justification": "(1) B follows from the graphs moving too fast in A, since that speed is presented as the reason comprehension fails. (2) Inferential because B states a consequence of A's condition, not a subjective judgment about A or a mere refinement."
+          }
+        ],
+        "comment_tag": "Evaluative: Reactive",
+        "reasoning": "Step 4b: Expresses confusion/frustration as a reaction to the visualization, without asking a question or prescribing change."
+      },
+      {
+        "id": 4,
+        "sentence": "It does not give your eyes enough time to adjust.",
+        "depends_on": [
+          {
+            "id": 2,
+            "edge_type": "Inferential",
+            "justification": "(1) B explains why the fast-moving graphs in A are hard to process, referring back to the same graphs. (2) Inferential because B gives a causal explanation/effect of A's speed, rather than simply elaborating on the graphs or expressing a stance."
+          }
+        ],
+        "comment_tag": "Visual Observation: Chart Structure & Text",
+        "reasoning": "Step 2a: Describes a presentation feature of the visualization (its pacing/legibility) rather than extracting data or comparing points."
+      }
+    ]
+  },
+  {
+    "article_id": "174",
+    "comment_index": 3,
+    "image_description": "## 1. Chart type\n- **Time-series line chart with point markers** (annual values connected by a line).\n\n## 2. Layout techniques\n- **Single-panel chart** (no faceting or small multiples).\n- Uses **point markers connected by lines**.\n- Uses **color to distinguish warmer vs. cooler anomalies** relative to a baseline.\n- Includes **text annotations/labels** for selected years.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| Year | Temporal | Position on x-axis; text labels for selected years |\n| Temperature difference from late-19th-century average (annual anomaly, °C) | Quantitative | Position on y-axis; connected line; point position |\n| Relative temperature status (warmer vs. cooler than 1880–1899 average) | Categorical/nominal | Color/hue of points (warm peach vs. cool blue/neutral) |\n| Selected highlighted year values (e.g., 1904, 1944, 1998, 2016, 2018) | Temporal | Direct text labels/annotations near points |",
+    "raw_comment": "The most important graph is missing: The Keeling Curve. It tells us how rapidly atmospheric CO2 concentrations are rising, and this tells us what we can expect for future warming.",
+    "ace_sentences": [
+      "The most important graph is missing.",
+      "The Keeling Curve is the most important graph.",
+      "The Keeling Curve tells us how rapidly atmospheric CO2 concentrations are rising.",
+      "This tells us what we can expect for future warming."
+    ],
+    "source_mappings": {
+      "The most important graph is missing.": [
+        "The most important graph is missing"
+      ],
+      "The Keeling Curve is the most important graph.": [
+        "The Keeling Curve"
+      ],
+      "The Keeling Curve tells us how rapidly atmospheric CO2 concentrations are rising.": [
+        "The Keeling Curve",
+        "It tells us how rapidly atmospheric CO2 concentrations are rising"
+      ],
+      "This tells us what we can expect for future warming.": [
+        "and this tells us what we can expect for future warming"
+      ]
+    },
+    "order": {
+      "The most important graph is missing.": 1,
+      "The Keeling Curve is the most important graph.": 2,
+      "The Keeling Curve tells us how rapidly atmospheric CO2 concentrations are rising.": 3,
+      "This tells us what we can expect for future warming.": 4
+    },
+    "dependency_graph": [
+      {
+        "id": 0,
+        "sentence": "The most important graph is missing.",
+        "depends_on": [],
+        "comment_tag": "Visual Observation: Chart Structure & Text",
+        "reasoning": "Step 2a: Notes the absence of a visual element in the artifact, which is a structural observation about the chart set."
+      },
+      {
+        "id": 1,
+        "sentence": "The Keeling Curve is the most important graph.",
+        "depends_on": [
+          {
+            "id": 0,
+            "edge_type": "Contrastive",
+            "justification": "(1) B directly counters A by naming a specific graph as the most important one, which clashes with the claim that the most important graph is missing. (2) Contrastive because B introduces an opposing factual claim rather than elaborating on A or drawing a causal inference from it."
+          }
+        ],
+        "comment_tag": "Evaluative: Reactive",
+        "reasoning": "Step 4b: This is an evaluative judgment about importance, not a description of what is visible in the chart."
+      },
+      {
+        "id": 2,
+        "sentence": "The Keeling Curve tells us how rapidly atmospheric CO2 concentrations are rising.",
+        "depends_on": [
+          {
+            "id": 1,
+            "edge_type": "Inferential",
+            "justification": "(1) B explains why the Keeling Curve is important by stating the information it provides. (2) Inferential because B gives the reason/value of A's claim, moving from the graph's identity to its significance."
+          }
+        ],
+        "comment_tag": "Prior Knowledge: Background",
+        "reasoning": "Step 7: States a general factual claim about the Keeling Curve and atmospheric CO2, not a direct observation from this chart."
+      },
+      {
+        "id": 3,
+        "sentence": "This tells us what we can expect for future warming.",
+        "depends_on": [
+          {
+            "id": 2,
+            "edge_type": "Inferential",
+            "justification": "(1) B builds on the information in A, with 'This' referring to the CO2-rise information from the Keeling Curve. (2) Inferential because B draws a further consequence/prediction about future warming from A's data, not merely restating it."
+          }
+        ],
+        "comment_tag": "Inference: Predictive / Hypothetical",
+        "reasoning": "Step 8: Projects beyond the chart into future expectations, making it predictive/hypothetical."
+      }
+    ]
+  },
+  {
+    "article_id": "174",
+    "comment_index": 4,
+    "image_description": "## 1. Chart type\n- **Time-series line chart with point markers** (annual values connected by a line).\n\n## 2. Layout techniques\n- **Single-panel chart** (no faceting or small multiples).\n- Uses **point markers connected by lines**.\n- Uses **color to distinguish warmer vs. cooler anomalies** relative to a baseline.\n- Includes **text annotations/labels** for selected years.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| Year | Temporal | Position on x-axis; text labels for selected years |\n| Temperature difference from late-19th-century average (annual anomaly, °C) | Quantitative | Position on y-axis; connected line; point position |\n| Relative temperature status (warmer vs. cooler than 1880–1899 average) | Categorical/nominal | Color/hue of points (warm peach vs. cool blue/neutral) |\n| Selected highlighted year values (e.g., 1904, 1944, 1998, 2016, 2018) | Temporal | Direct text labels/annotations near points |",
+    "raw_comment": "I love scientists who create technology to fix world problems. \n\nAdditionally people need to realize that their actions make a difference and an accumulation of small changes is what creates lasting impact. There is no more ignoring and hoping it will go away. It’s not worth the detriment to our world for the  “comfort” we get from deluding ourselves that there is not a crisis happening.",
+    "ace_sentences": [
+      "I love scientists.",
+      "Scientists create technology.",
+      "The technology fixes world problems.",
+      "People need to realize something.",
+      "Their actions make a difference.",
+      "An accumulation of small changes creates lasting impact.",
+      "There is no more ignoring.",
+      "There is no more hoping that it will go away.",
+      "It is not worth the detriment to our world for the comfort we get from deluding ourselves.",
+      "We delude ourselves that there is not a crisis happening."
+    ],
+    "source_mappings": {
+      "I love scientists.": [
+        "I love scientists"
+      ],
+      "Scientists create technology.": [
+        "who create technology"
+      ],
+      "The technology fixes world problems.": [
+        "to fix world problems"
+      ],
+      "People need to realize something.": [
+        "Additionally people need to realize that"
+      ],
+      "Their actions make a difference.": [
+        "their actions make a difference"
+      ],
+      "An accumulation of small changes creates lasting impact.": [
+        "an accumulation of small changes is what creates lasting impact"
+      ],
+      "There is no more ignoring.": [
+        "There is no more ignoring"
+      ],
+      "There is no more hoping that it will go away.": [
+        "and hoping it will go away"
+      ],
+      "It is not worth the detriment to our world for the comfort we get from deluding ourselves.": [
+        "It’s not worth the detriment to our world for the  “comfort” we get from deluding ourselves"
+      ],
+      "We delude ourselves that there is not a crisis happening.": [
+        "that there is not a crisis happening"
+      ]
+    },
+    "order": {
+      "I love scientists.": 1,
+      "Scientists create technology.": 2,
+      "The technology fixes world problems.": 3,
+      "People need to realize something.": 4,
+      "Their actions make a difference.": 5,
+      "An accumulation of small changes creates lasting impact.": 6,
+      "There is no more ignoring.": 7,
+      "There is no more hoping that it will go away.": 8,
+      "It is not worth the detriment to our world for the comfort we get from deluding ourselves.": 9,
+      "We delude ourselves that there is not a crisis happening.": 10
+    },
+    "dependency_graph": [
+      {
+        "id": 0,
+        "sentence": "I love scientists.",
+        "depends_on": [],
+        "comment_tag": "Evaluative: Reactive",
+        "reasoning": "Step 4b: Expresses a positive emotional stance toward scientists, without prescribing action."
+      },
+      {
+        "id": 1,
+        "sentence": "Scientists create technology.",
+        "depends_on": [
+          {
+            "id": 0,
+            "edge_type": "Elaborative",
+            "justification": "(1) B expands on the subject 'scientists' from A by stating what they do. (2) Elaborative because it adds factual detail about scientists without introducing a causal chain, subjective judgment, or contrast."
+          }
+        ],
+        "comment_tag": "Prior Knowledge: Background",
+        "reasoning": "Step 7: A standalone factual claim about the world, not directly shown in the chart."
+      },
+      {
+        "id": 2,
+        "sentence": "The technology fixes world problems.",
+        "depends_on": [
+          {
+            "id": 1,
+            "edge_type": "Inferential",
+            "justification": "(1) B follows from A by stating the effect/purpose of the technology scientists create. (2) Inferential because it moves from creation to consequence, adding new propositional content rather than just refining A."
+          }
+        ],
+        "comment_tag": "Prior Knowledge: Background",
+        "reasoning": "Step 7: General background claim about technology and problems, not a chart-based observation."
+      },
+      {
+        "id": 3,
+        "sentence": "People need to realize something.",
+        "depends_on": [],
+        "comment_tag": "Evaluative: Prescriptive",
+        "reasoning": "Step 4a: 'Need to' is a deontic operator that prescribes action or awareness."
+      },
+      {
+        "id": 4,
+        "sentence": "Their actions make a difference.",
+        "depends_on": [
+          {
+            "id": 3,
+            "edge_type": "Elaborative",
+            "justification": "(1) B continues the call for awareness in A by specifying what people should realize. (2) Elaborative because it develops the same exhortative topic without adding a new causal explanation or a counterpoint."
+          }
+        ],
+        "comment_tag": "Prior Knowledge: Background",
+        "reasoning": "Step 7: General factual claim about actions having effects, without tying it to a chart observation."
+      },
+      {
+        "id": 5,
+        "sentence": "An accumulation of small changes creates lasting impact.",
+        "depends_on": [
+          {
+            "id": 4,
+            "edge_type": "Inferential",
+            "justification": "(1) B explains the mechanism behind the claim that people's actions make a difference. (2) Inferential because it states a general causal principle about how small actions lead to impact, rather than merely elaborating A."
+          }
+        ],
+        "comment_tag": "Prior Knowledge: Background",
+        "reasoning": "Step 7: General world claim about cumulative effects, not a direct chart observation."
+      },
+      {
+        "id": 6,
+        "sentence": "There is no more ignoring.",
+        "depends_on": [
+          {
+            "id": 3,
+            "edge_type": "Inferential",
+            "justification": "(1) B is a stronger conclusion from the need to realize something in A, implying that ignorance should stop. (2) Inferential because it states a normative consequence of A's call to awareness, not a factual detail or contrast."
+          }
+        ],
+        "comment_tag": "Evaluative: Prescriptive",
+        "reasoning": "Step 4a: This functions as a call to stop ignoring the issue, implying a prescriptive stance."
+      },
+      {
+        "id": 7,
+        "sentence": "There is no more hoping that it will go away.",
+        "depends_on": [
+          {
+            "id": 6,
+            "edge_type": "Elaborative",
+            "justification": "(1) B extends the same imperative stance in A by specifying another form of denial to stop. (2) Elaborative because it adds a parallel, same-direction admonition rather than a new causal claim or subjective reaction."
+          }
+        ],
+        "comment_tag": "Evaluative: Prescriptive",
+        "reasoning": "Step 4a: This is a normative call to stop passively hoping, functioning as prescriptive commentary."
+      },
+      {
+        "id": 8,
+        "sentence": "It is not worth the detriment to our world for the comfort we get from deluding ourselves.",
+        "depends_on": [
+          {
+            "id": 6,
+            "edge_type": "Evaluative",
+            "justification": "(1) B responds to the anti-ignoring stance in A by judging the tradeoff as not worth it. (2) Evaluative because it expresses a normative/value judgment about the situation, not a causal explanation or factual elaboration."
+          },
+          {
+            "id": 7,
+            "edge_type": "Evaluative",
+            "justification": "(1) B also responds to the anti-hoping stance in A by condemning the comfort of self-delusion. (2) Evaluative because it is a subjective moral judgment rather than a refinement or causal consequence."
+          }
+        ],
+        "comment_tag": "Evaluative: Prescriptive",
+        "reasoning": "Step 4a: Evaluates the situation as not worth it, which is a moral/value judgment implying what should not be accepted."
+      },
+      {
+        "id": 9,
+        "sentence": "We delude ourselves that there is not a crisis happening.",
+        "depends_on": [
+          {
+            "id": 8,
+            "edge_type": "Inferential",
+            "justification": "(1) B explains the kind of self-delusion referred to in A, namely denial of the crisis. (2) Inferential because it identifies the underlying belief/state that makes A's judgment meaningful, rather than merely restating A."
+          }
+        ],
+        "comment_tag": "Prior Knowledge: Background",
+        "reasoning": "Step 7: This is a general claim about denial of a crisis, not a direct observation from the chart and not framed as causal explanation."
+      }
+    ]
+  },
+  {
+    "article_id": "174",
+    "comment_index": 5,
+    "image_description": "## 1. Chart type\n- **Time-series line chart with point markers** (annual values connected by a line).\n\n## 2. Layout techniques\n- **Single-panel chart** (no faceting or small multiples).\n- Uses **point markers connected by lines**.\n- Uses **color to distinguish warmer vs. cooler anomalies** relative to a baseline.\n- Includes **text annotations/labels** for selected years.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| Year | Temporal | Position on x-axis; text labels for selected years |\n| Temperature difference from late-19th-century average (annual anomaly, °C) | Quantitative | Position on y-axis; connected line; point position |\n| Relative temperature status (warmer vs. cooler than 1880–1899 average) | Categorical/nominal | Color/hue of points (warm peach vs. cool blue/neutral) |\n| Selected highlighted year values (e.g., 1904, 1944, 1998, 2016, 2018) | Temporal | Direct text labels/annotations near points |",
+    "raw_comment": "This is a remarkable piece of work. It will take time to digest these charts and the background. But the message is clear with a first glance, we need to do more than read and understand the issue. We need to get engaged now, elect leaders who will address the climate crisis, join effective grassroots organizations, change our own behavior and talk about the climate crisis.",
+    "ace_sentences": [
+      "This is a remarkable piece of work.",
+      "It will take time to digest these charts and the background.",
+      "However, the message is clear at first glance.",
+      "We need to do more than read and understand the issue.",
+      "We need to get engaged now.",
+      "We need to elect leaders who will address the climate crisis.",
+      "We need to join effective grassroots organizations.",
+      "We need to change our own behavior.",
+      "We need to talk about the climate crisis."
+    ],
+    "source_mappings": {
+      "This is a remarkable piece of work.": [
+        "This is a remarkable piece of work."
+      ],
+      "It will take time to digest these charts and the background.": [
+        "It will take time to digest these charts and the background."
+      ],
+      "However, the message is clear at first glance.": [
+        "But the message is clear with a first glance"
+      ],
+      "We need to do more than read and understand the issue.": [
+        "we need to do more than read and understand the issue"
+      ],
+      "We need to get engaged now.": [
+        "We need to get engaged now"
+      ],
+      "We need to elect leaders who will address the climate crisis.": [
+        "elect leaders who will address the climate crisis"
+      ],
+      "We need to join effective grassroots organizations.": [
+        "join effective grassroots organizations"
+      ],
+      "We need to change our own behavior.": [
+        "change our own behavior"
+      ],
+      "We need to talk about the climate crisis.": [
+        "talk about the climate crisis"
+      ]
+    },
+    "order": {
+      "This is a remarkable piece of work.": 1,
+      "It will take time to digest these charts and the background.": 2,
+      "However, the message is clear at first glance.": 3,
+      "We need to do more than read and understand the issue.": 4,
+      "We need to get engaged now.": 5,
+      "We need to elect leaders who will address the climate crisis.": 6,
+      "We need to join effective grassroots organizations.": 7,
+      "We need to change our own behavior.": 8,
+      "We need to talk about the climate crisis.": 9
+    },
+    "dependency_graph": [
+      {
+        "id": 0,
+        "sentence": "This is a remarkable piece of work.",
+        "depends_on": [],
+        "comment_tag": "Evaluative: Reactive",
+        "reasoning": "Step 4b: Positive evaluative reaction to the artifact, without prescribing change."
+      },
+      {
+        "id": 1,
+        "sentence": "It will take time to digest these charts and the background.",
+        "depends_on": [
+          {
+            "id": 0,
+            "edge_type": "Inferential",
+            "justification": "(1) B follows from A's praise by explaining why the work is substantial enough to require time to digest. (2) Inferential because B gives a consequence/implication of A's assessment rather than simply elaborating the same praise."
+          }
+        ],
+        "comment_tag": "Inference: Predictive / Hypothetical",
+        "reasoning": "Step 8: Future-oriented statement about what will happen when processing the charts, so it is predictive/hypothetical."
+      },
+      {
+        "id": 2,
+        "sentence": "However, the message is clear at first glance.",
+        "depends_on": [
+          {
+            "id": 1,
+            "edge_type": "Contrastive",
+            "justification": "(1) B directly contrasts with A by saying that despite needing time to digest the material, the message is still immediately clear. (2) Contrastive because it juxtaposes two opposing-seeming observations rather than extending A in the same direction."
+          }
+        ],
+        "comment_tag": "Visual Observation: Chart Structure & Text",
+        "reasoning": "Step 2a: Comments on the chart's communicative clarity, a structural/textual property of the artifact rather than a data value."
+      },
+      {
+        "id": 3,
+        "sentence": "We need to do more than read and understand the issue.",
+        "depends_on": [
+          {
+            "id": 2,
+            "edge_type": "Inferential",
+            "justification": "(1) B follows from the clarity of the message in A by moving from understanding to action. (2) Inferential because it draws a practical conclusion from A's observation, not a mere refinement or a subjective reaction."
+          }
+        ],
+        "comment_tag": "Evaluative: Prescriptive",
+        "reasoning": "Step 4a: 'Need to' prescribes action, making this a normative recommendation."
+      },
+      {
+        "id": 4,
+        "sentence": "We need to get engaged now.",
+        "depends_on": [
+          {
+            "id": 3,
+            "edge_type": "Inferential",
+            "justification": "(1) B is a stronger action-oriented conclusion from A's claim that more than reading and understanding is needed. (2) Inferential because it advances the call to action as a consequence of A, rather than elaborating A's wording."
+          }
+        ],
+        "comment_tag": "Evaluative: Prescriptive",
+        "reasoning": "Step 4a: Contains 'need to' and urges immediate action, so it is prescriptive."
+      },
+      {
+        "id": 5,
+        "sentence": "We need to elect leaders who will address the climate crisis.",
+        "depends_on": [
+          {
+            "id": 4,
+            "edge_type": "Elaborative",
+            "justification": "(1) B specifies one concrete way to get engaged now, namely electing leaders. (2) Elaborative because it refines the general call in A with a specific action, not a new causal claim or contrast."
+          }
+        ],
+        "comment_tag": "Evaluative: Prescriptive",
+        "reasoning": "Step 4a: 'Need to' explicitly recommends political action, making it prescriptive."
+      },
+      {
+        "id": 6,
+        "sentence": "We need to join effective grassroots organizations.",
+        "depends_on": [
+          {
+            "id": 4,
+            "edge_type": "Elaborative",
+            "justification": "(1) B gives another concrete example of getting engaged now. (2) Elaborative because it adds a parallel specific action under the same general imperative in A."
+          }
+        ],
+        "comment_tag": "Evaluative: Prescriptive",
+        "reasoning": "Step 4a: 'Need to' is a deontic operator prescribing participation."
+      },
+      {
+        "id": 7,
+        "sentence": "We need to change our own behavior.",
+        "depends_on": [
+          {
+            "id": 4,
+            "edge_type": "Elaborative",
+            "justification": "(1) B is another specific form of engagement that fits under the general call in A. (2) Elaborative because it lists a parallel action rather than introducing a new reason or opposition."
+          }
+        ],
+        "comment_tag": "Evaluative: Prescriptive",
+        "reasoning": "Step 4a: This is a direct recommendation for action, so it is prescriptive."
+      },
+      {
+        "id": 8,
+        "sentence": "We need to talk about the climate crisis.",
+        "depends_on": [
+          {
+            "id": 4,
+            "edge_type": "Elaborative",
+            "justification": "(1) B adds one more concrete action that follows the general call to get engaged in A. (2) Elaborative because it continues the list of recommended actions without adding causal reasoning or contrast."
+          }
+        ],
+        "comment_tag": "Evaluative: Prescriptive",
+        "reasoning": "Step 4a: 'Need to' prescribes discussion/action, which is normative."
+      }
+    ]
+  },
+  {
+    "article_id": "174",
+    "comment_index": 6,
+    "image_description": "## 1. Chart type\n- **Time-series line chart with point markers** (annual values connected by a line).\n\n## 2. Layout techniques\n- **Single-panel chart** (no faceting or small multiples).\n- Uses **point markers connected by lines**.\n- Uses **color to distinguish warmer vs. cooler anomalies** relative to a baseline.\n- Includes **text annotations/labels** for selected years.\n\n## 3. Data variables\n\n| Data Variable | Type of Variable | Visual Encoding |\n|---|---|---|\n| Year | Temporal | Position on x-axis; text labels for selected years |\n| Temperature difference from late-19th-century average (annual anomaly, °C) | Quantitative | Position on y-axis; connected line; point position |\n| Relative temperature status (warmer vs. cooler than 1880–1899 average) | Categorical/nominal | Color/hue of points (warm peach vs. cool blue/neutral) |\n| Selected highlighted year values (e.g., 1904, 1944, 1998, 2016, 2018) | Temporal | Direct text labels/annotations near points |",
+    "raw_comment": "Very well done and informative series of graphs. If these can’t spur political action, what can?",
+    "ace_sentences": [
+      "The series of graphs is very well done and informative.",
+      "If these graphs cannot spur political action, nothing can."
+    ],
+    "source_mappings": {
+      "The series of graphs is very well done and informative.": [
+        "Very well done and informative series of graphs."
+      ],
+      "If these graphs cannot spur political action, nothing can.": [
+        "If these can’t spur political action, what can?"
+      ]
+    },
+    "order": {
+      "The series of graphs is very well done and informative.": 1,
+      "If these graphs cannot spur political action, nothing can.": 2
+    },
+    "dependency_graph": [
+      {
+        "id": 0,
+        "sentence": "The series of graphs is very well done and informative.",
+        "depends_on": [],
+        "comment_tag": "Evaluative: Reactive",
+        "reasoning": "Step 4b: This is a positive evaluative reaction to the visualization series, not a prescription."
+      },
+      {
+        "id": 1,
+        "sentence": "If these graphs cannot spur political action, nothing can.",
+        "depends_on": [
+          {
+            "id": 0,
+            "edge_type": "Inferential",
+            "justification": "(1) B uses the quality of the graphs in A as the basis for a stronger conclusion about their political impact. (2) Inferential because it states a conditional consequence/assessment drawn from A, not a mere elaboration or subjective reaction."
+          }
+        ],
+        "comment_tag": "Inference: Predictive / Hypothetical",
+        "reasoning": "Step 8: A hypothetical conditional about future political action, projecting beyond the chart itself."
+      }
+    ]
+  }
+]

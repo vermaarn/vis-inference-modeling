@@ -168,10 +168,10 @@
 (function() {
   const currentCommentIndex = 153;
   const maxCommentIndex = 153;
-  const nodes = [{"id": 0, "sentence": "This is an estimate.", "category": "Meta / paratext", "color": "#17becf", "source_mappings": ["As an estimate"]}, {"id": 1, "sentence": "It is probably accurate.", "category": "Meta / paratext", "color": "#17becf", "source_mappings": ["it's probably accurate"]}, {"id": 2, "sentence": "This will keep increasing.", "category": "Predictive / counterfactual inference", "color": "#e377c2", "source_mappings": ["will keep increasing"]}, {"id": 3, "sentence": "This is sad.", "category": "Evaluative / affective judgment", "color": "#7f7f7f", "source_mappings": ["sadly"]}];
-  const links = [{"source": 0, "target": 1, "edge_type": "Evaluative", "color": "#984ea3"}, {"source": 0, "target": 2, "edge_type": "Elaboration", "color": "#377eb8"}, {"source": 2, "target": 3, "edge_type": "Evaluative", "color": "#984ea3"}];
-  const legendItems = [{"category": "Predictive / counterfactual inference", "color": "#e377c2"}, {"category": "Evaluative / affective judgment", "color": "#7f7f7f"}, {"category": "Meta / paratext", "color": "#17becf"}];
-  const edgeLegendItems = [{"edge_type": "Elaboration", "color": "#377eb8"}, {"edge_type": "Evaluative", "color": "#984ea3"}];
+  const nodes = [{"id": 0, "sentence": "This is an estimate.", "category": "Visual Observation: Chart Structure & Text", "color": "#1f77b4", "source_mappings": ["As an estimate"]}, {"id": 1, "sentence": "It is probably accurate.", "category": "Evaluative: Reactive", "color": "#e377c2", "source_mappings": ["it's probably accurate"]}, {"id": 2, "sentence": "This will keep increasing.", "category": "Inference: Predictive / Hypothetical", "color": "#bcbd22", "source_mappings": ["will keep increasing"]}, {"id": 3, "sentence": "This is sad.", "category": "Evaluative: Reactive", "color": "#e377c2", "source_mappings": ["sadly"]}];
+  const links = [{"source": 0, "target": 1, "edge_type": "Evaluative", "color": "#984ea3"}, {"source": 0, "target": 2, "edge_type": "Inferential", "color": "#e41a1c"}, {"source": 1, "target": 2, "edge_type": "Inferential", "color": "#e41a1c"}, {"source": 0, "target": 3, "edge_type": "Evaluative", "color": "#984ea3"}, {"source": 2, "target": 3, "edge_type": "Evaluative", "color": "#984ea3"}];
+  const legendItems = [{"category": "Visual Observation: Chart Structure & Text", "color": "#1f77b4"}, {"category": "Evaluative: Reactive", "color": "#e377c2"}, {"category": "Inference: Predictive / Hypothetical", "color": "#bcbd22"}];
+  const edgeLegendItems = [{"edge_type": "Inferential", "color": "#e41a1c"}, {"edge_type": "Evaluative", "color": "#984ea3"}];
 
   const NODE_W = 180;
   const PAD_X = 8, PAD_Y = 6;

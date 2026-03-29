@@ -3,35 +3,44 @@
   "comment_index": 48,
   "raw_comment": "My notice: I notice that near the Rocky Mountains range  their 1st leaves were spotted in May\n\nMy wonder: I wonder if the temperature is the only thing that matters?\n\nTitle idea: Spring has sprung! So have the leaves!",
   "ace_sentences": [
-    "I notice something.",
-    "The Rocky Mountains have a range.",
-    "Near the Rocky Mountains range, their 1st leaves were spotted in May.",
-    "I wonder about something.",
-    "I wonder if the temperature is the only thing that matters.",
-    "The title idea is: Spring has sprung!",
-    "The title idea is: So have the leaves!"
+    "The notice is:",
+    "I notice that near the Rocky Mountains range their first leaves were spotted in May.",
+    "The wonder is:",
+    "I wonder whether the temperature is the only thing that matters.",
+    "The title idea is:",
+    "Spring has sprung!",
+    "So have the leaves!"
   ],
   "source_mappings": {
-    "I notice something.": [
-      "My notice: I notice"
+    "The notice is:": [
+      "My notice:"
     ],
-    "The Rocky Mountains have a range.": [
-      "the Rocky Mountains range"
+    "I notice that near the Rocky Mountains range their first leaves were spotted in May.": [
+      "I notice that near the Rocky Mountains range  their 1st leaves were spotted in May"
     ],
-    "Near the Rocky Mountains range, their 1st leaves were spotted in May.": [
-      "near the Rocky Mountains range  their 1st leaves were spotted in May"
+    "The wonder is:": [
+      "My wonder:"
     ],
-    "I wonder about something.": [
-      "My wonder: I wonder"
-    ],
-    "I wonder if the temperature is the only thing that matters.": [
+    "I wonder whether the temperature is the only thing that matters.": [
       "I wonder if the temperature is the only thing that matters?"
     ],
-    "The title idea is: Spring has sprung!": [
-      "Title idea: Spring has sprung!"
+    "The title idea is:": [
+      "Title idea:"
     ],
-    "The title idea is: So have the leaves!": [
+    "Spring has sprung!": [
+      "Spring has sprung!"
+    ],
+    "So have the leaves!": [
       "So have the leaves!"
     ]
+  },
+  "order": {
+    "The notice is:": 1,
+    "I notice that near the Rocky Mountains range their first leaves were spotted in May.": 2,
+    "The wonder is:": 3,
+    "I wonder whether the temperature is the only thing that matters.": 4,
+    "The title idea is:": 5,
+    "Spring has sprung!": 6,
+    "So have the leaves!": 7
   }
 }
