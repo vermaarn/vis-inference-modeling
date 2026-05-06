@@ -1,0 +1,51 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Environment variables
+.env
+.DS_Store
+node_modules/
+.pnpm-store/
+.ipynb_checkpoints/
+*.pth
+*.npy
+*.pth.tar
+*.safetensors
+.github/
+.DS_Store
+analysis/outputs/comment_similarity/
+
+*.html
+!extraction_pipeline/graph_visualizations/181/*.html
+*.json
+!extraction_pipeline/combined_data/*.json
+!extraction_pipeline/ace_comments/181/*.json
+!extraction_pipeline/ace_classifications/ace_sentence_classifications_181.json
+!extraction_pipeline/combined_data/181.json
+
+!extraction_pipeline/ace_comments/183/*.json
+!extraction_pipeline/ace_classifications/ace_sentence_classifications_183.json
+!extraction_pipeline/combined_data/183.json
+
+!extraction_pipeline/ace_comments/35/*.json
+!extraction_pipeline/ace_classifications/ace_sentence_classifications_35.json
+!extraction_pipeline/combined_data/35.json
+
+!extraction_pipeline/ace_comments/91/*.json
+!extraction_pipeline/ace_classifications/ace_sentence_classifications_91.json
+!extraction_pipeline/combined_data/91.json
+*.png
+*.webp
+extraction_pipeline/visual_observations.csv
+# !extraction_pipeline/ace_comments/*.json
+
+*.pdf
+*.csv
