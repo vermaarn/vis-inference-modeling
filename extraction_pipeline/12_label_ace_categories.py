@@ -1214,7 +1214,7 @@ MIME_TYPES = {
 def discover_articles(base: Path) -> list[str]:
     """Return sorted list of article IDs that have both comments and classifications."""
     comments_dir = base / "ace_comments"
-    classifications_dir = base / "ace_classifications"
+    classifications_dir = base / "combined_data"
     if not comments_dir.exists() or not classifications_dir.exists():
         return []
     comment_ids = {
@@ -1222,8 +1222,8 @@ def discover_articles(base: Path) -> list[str]:
         if d.is_dir() and any(d.glob("*.json"))
     }
     class_ids = set()
-    for f in classifications_dir.glob("ace_sentence_classifications_*.json"):
-        aid = f.stem.replace("ace_sentence_classifications_", "")
+    for f in classifications_dir.glob("*.json"):
+        aid = f.stem.replace("", "")
         class_ids.add(aid)
     available = sorted(comment_ids & class_ids, key=lambda x: int(x) if x.isdigit() else x)
     return available
@@ -1235,7 +1235,7 @@ def load_article_data(
     """Load all data for a given article. Returns a dict of everything needed."""
     comments_dir = base / "ace_comments" / article_id
     classifications_path = (
-        base / "ace_classifications" / f"ace_sentence_classifications_{article_id}.json"
+        base / "combined_data" / f"{article_id}.json"
     )
 
     comments_data: list = []
@@ -1246,9 +1246,13 @@ def load_article_data(
         comments_data.sort(key=lambda c: c["comment_index"])
 
     classifications_data: list = []
+    image_description = ""
     if classifications_path.exists():
         with open(classifications_path, "r", encoding="utf-8") as f:
-            classifications_data = json.load(f)
+            json_f = json.load(f)
+            classifications_data = json_f["comments"]
+            if json_f.get("image_description"):
+                image_description = json_f["image_description"]
 
     images_dir = base.parent / "data" / "images"
     image_path = None
@@ -1258,23 +1262,28 @@ def load_article_data(
             image_path = candidate
             break
 
-    image_description = ""
-    for cl in classifications_data:
-        if cl.get("image_description"):
-            image_description = cl["image_description"]
-            break
-
     labels_path = (labels_dir / f"{article_id}.json").resolve()
     if labels_path.exists():
         with open(labels_path, "r", encoding="utf-8") as f:
             labels = json.load(f)
     else:
         labels = {"article_id": article_id, "comments": {}}
+    comment_labels = []
+    for comment in labels['comments']:
+      for s in comment['sentences']:
+        comment_labels.append({
+          "article_id": article_id,
+          "comment_id": comment["comment_index"],
+          "original_comment": s["text"],
+          "reasoning": s["reasoning"],
+          "comment_tag": s["comment_tag"],
+          "image_description": image_description 
+        })
 
     return {
         "comments_data": comments_data,
-        "classifications_data": classifications_data,
-        "labels": labels,
+        "classifications_data": comment_labels,
+        "labels": comment_labels,
         "labels_path": labels_path,
         "image_path": image_path,
         "image_description": image_description,
@@ -1402,8 +1411,8 @@ def main() -> None:
         help="Optional initial article ID (e.g. 181). If omitted, select in the UI.",
     )
     parser.add_argument(
-        "--labels-dir", type=Path, default=Path("ace_category_labels"),
-        help="Directory for label output files (default: ace_category_labels/).",
+        "--labels-dir", type=Path, default=Path("combined_data"),
+        help="Directory for label output files (default: combined_data/).",
     )
     parser.add_argument(
         "--port", type=int, default=8051,

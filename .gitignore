@@ -23,6 +23,8 @@ node_modules/
 .DS_Store
 analysis/outputs/comment_similarity/
 
+*.zip
+
 *.html
 !extraction_pipeline/graph_visualizations/181/*.html
 *.json
