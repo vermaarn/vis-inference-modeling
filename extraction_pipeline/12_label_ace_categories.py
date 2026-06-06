@@ -33,6 +33,7 @@ import webbrowser
 from http.server import HTTPServer, BaseHTTPRequestHandler
 from pathlib import Path
 from urllib.parse import urlparse
+from datetime import datetime
 
 
 HTML_TEMPLATE = r"""<!DOCTYPE html>
@@ -1211,10 +1212,49 @@ MIME_TYPES = {
 }
 
 
+def log_label_change(
+    article_id: str,
+    comment_id: int,
+    original_comment: str,
+    original_label: dict,
+    modified_label: dict,
+    original_reasoning: str,
+    image_description: str,
+    log_dir: Path,
+) -> None:
+    """Log a label change to a JSON file named after the article_id."""
+    log_dir.mkdir(parents=True, exist_ok=True)
+    log_file = log_dir / f"{article_id}.json"
+
+    entry = {
+        "article_id": article_id,
+        "comment_id": comment_id,
+        "original_comment": original_comment,
+        "original_label": original_label,
+        "modified_label": modified_label,
+        "original_reasoning": original_reasoning,
+        "image_description": image_description,
+        "timestamp": datetime.now().isoformat(),
+    }
+
+    if log_file.exists():
+        with open(log_file, "r", encoding="utf-8") as f:
+            logs = json.load(f)
+        if not isinstance(logs, list):
+            logs = [logs]
+    else:
+        logs = []
+
+    logs.append(entry)
+
+    with open(log_file, "w", encoding="utf-8") as f:
+        json.dump(logs, f, indent=2)
+
+
 def discover_articles(base: Path) -> list[str]:
     """Return sorted list of article IDs that have both comments and classifications."""
     comments_dir = base / "ace_comments"
-    classifications_dir = base / "combined_data"
+    classifications_dir = base / "ace_classifications"
     if not comments_dir.exists() or not classifications_dir.exists():
         return []
     comment_ids = {
@@ -1222,8 +1262,8 @@ def discover_articles(base: Path) -> list[str]:
         if d.is_dir() and any(d.glob("*.json"))
     }
     class_ids = set()
-    for f in classifications_dir.glob("*.json"):
-        aid = f.stem.replace("", "")
+    for f in classifications_dir.glob("ace_sentence_classifications_*.json"):
+        aid = f.stem.replace("ace_sentence_classifications_", "")
         class_ids.add(aid)
     available = sorted(comment_ids & class_ids, key=lambda x: int(x) if x.isdigit() else x)
     return available
@@ -1235,7 +1275,7 @@ def load_article_data(
     """Load all data for a given article. Returns a dict of everything needed."""
     comments_dir = base / "ace_comments" / article_id
     classifications_path = (
-        base / "combined_data" / f"{article_id}.json"
+        base / "ace_classifications" / f"ace_sentence_classifications_{article_id}.json"
     )
 
     comments_data: list = []
@@ -1246,13 +1286,9 @@ def load_article_data(
         comments_data.sort(key=lambda c: c["comment_index"])
 
     classifications_data: list = []
-    image_description = ""
     if classifications_path.exists():
         with open(classifications_path, "r", encoding="utf-8") as f:
-            json_f = json.load(f)
-            classifications_data = json_f["comments"]
-            if json_f.get("image_description"):
-                image_description = json_f["image_description"]
+            classifications_data = json.load(f)
 
     images_dir = base.parent / "data" / "images"
     image_path = None
@@ -1262,28 +1298,23 @@ def load_article_data(
             image_path = candidate
             break
 
+    image_description = ""
+    for cl in classifications_data:
+        if cl.get("image_description"):
+            image_description = cl["image_description"]
+            break
+
     labels_path = (labels_dir / f"{article_id}.json").resolve()
     if labels_path.exists():
         with open(labels_path, "r", encoding="utf-8") as f:
             labels = json.load(f)
     else:
         labels = {"article_id": article_id, "comments": {}}
-    comment_labels = []
-    for comment in labels['comments']:
-      for s in comment['sentences']:
-        comment_labels.append({
-          "article_id": article_id,
-          "comment_id": comment["comment_index"],
-          "original_comment": s["text"],
-          "reasoning": s["reasoning"],
-          "comment_tag": s["comment_tag"],
-          "image_description": image_description 
-        })
 
     return {
         "comments_data": comments_data,
-        "classifications_data": comment_labels,
-        "labels": comment_labels,
+        "classifications_data": classifications_data,
+        "labels": labels,
         "labels_path": labels_path,
         "image_path": image_path,
         "image_description": image_description,
@@ -1302,6 +1333,7 @@ class LabelHandler(BaseHTTPRequestHandler):
     available_articles: list[str] = []
     base_dir: Path = Path()
     labels_dir: Path = Path()
+    log_dir: Path = Path()
 
     def do_GET(self) -> None:
         path = urlparse(self.path).path
@@ -1348,18 +1380,18 @@ class LabelHandler(BaseHTTPRequestHandler):
         else:
             self.send_error(404)
 
-    def _handle_save_labels(self) -> None:
-        try:
-            length = int(self.headers.get("Content-Length", 0))
-            body = self.rfile.read(length)
-            new_labels = json.loads(body)
-            LabelHandler.labels = new_labels
-            LabelHandler.labels_path.parent.mkdir(parents=True, exist_ok=True)
-            with open(LabelHandler.labels_path, "w", encoding="utf-8") as f:
-                json.dump(new_labels, f, indent=2)
-            self._respond('{"ok":true}', "application/json")
-        except Exception as exc:
-            self.send_error(500, str(exc))
+    # def _handle_save_labels(self) -> None:
+    #     try:
+    #         length = int(self.headers.get("Content-Length", 0))
+    #         body = self.rfile.read(length)
+    #         new_labels = json.loads(body)
+    #         LabelHandler.labels = new_labels
+    #         LabelHandler.labels_path.parent.mkdir(parents=True, exist_ok=True)
+    #         with open(LabelHandler.labels_path, "w", encoding="utf-8") as f:
+    #             json.dump(new_labels, f, indent=2)
+    #         self._respond('{"ok":true}', "application/json")
+    #     except Exception as exc:
+    #         self.send_error(500, str(exc))
 
     def _handle_switch_article(self) -> None:
         try:
@@ -1401,6 +1433,96 @@ class LabelHandler(BaseHTTPRequestHandler):
     def log_message(self, fmt, *args) -> None:  # type: ignore[override]
         pass
 
+    def _handle_save_labels(self) -> None:
+        try:
+            length = int(self.headers.get("Content-Length", 0))
+            body = self.rfile.read(length)
+            new_labels = json.loads(body)
+
+            # Detect changes and log them
+            self._detect_and_log_changes(new_labels)
+
+            LabelHandler.labels = new_labels
+            LabelHandler.labels_path.parent.mkdir(parents=True, exist_ok=True)
+            with open(LabelHandler.labels_path, "w", encoding="utf-8") as f:
+                json.dump(new_labels, f, indent=2)
+            self._respond('{"ok":true}', "application/json")
+        except Exception as exc:
+            print(f"Attempting to save labels to: {LabelHandler.labels_path}", flush=True)
+            print(exc)
+            self.send_error(500, str(exc))
+
+    def _detect_and_log_changes(self, new_labels: dict) -> None:
+        """Compare old and new labels, logging any changes."""
+        old_labels = LabelHandler.labels
+        article_id = LabelHandler.current_article_id
+        image_desc = LabelHandler.image_description
+
+        # Build lookup for comments and classifications
+        comments_by_id = {c["comment_index"]: c for c in LabelHandler.comments_data}
+        class_by_sent = {
+            (cl["comment_id"], idx): cl
+            for idx, cl in enumerate(LabelHandler.classifications_data)
+        }
+
+        old_comments = old_labels.get("comments", {})
+        new_comments = new_labels.get("comments", {})
+
+        classifications_by_id = {}
+        for idx, cl in enumerate(LabelHandler.classifications_data):
+            comment_id = cl.get("comment_id")
+            classifications_by_id[(comment_id, idx)] = cl
+
+        for comment_id_str in new_comments:
+            old_entry = old_comments.get(comment_id_str, {})
+            new_entry = new_comments[comment_id_str]
+
+            old_sents = old_entry.get("sentences", {})
+            new_sents = new_entry.get("sentences", {})
+
+            for sent_idx_str in new_sents:
+                comment_id = int(comment_id_str)
+                sent_idx = int(sent_idx_str)
+
+                old_sent_label = old_sents.get(sent_idx_str)
+                new_sent_label = new_sents[sent_idx_str]
+
+                # Only log if there's an actual change
+                if old_sent_label == new_sent_label:
+                    continue
+
+                # Get comment text and reasoning
+                comment = comments_by_id.get(comment_id, {})
+                original_comment = comment.get("raw_comment", "")
+                
+
+                # Find the classification to get reasoning
+                classification = classifications_by_id.get((comment_id, sent_idx))
+                if not classification:
+                    continue
+
+                sentence_fragment = classification.get("original_comment", "")
+                original_reasoning = classification.get("reasoning", "")
+
+                old_sent_label["correct_category"] = classification.get("comment_tag")
+
+                original_reasoning = classification.get("reasoning", "") if classification else ""
+                if 'correct_category' not in new_sent_label or new_sent_label["category_correct"]:
+                  continue
+                if new_sent_label['correct_category'] == "":
+                  continue
+
+                log_label_change(
+                    article_id=article_id,
+                    comment_id=comment_id,
+                    original_comment=sentence_fragment,
+                    original_label=old_sent_label or {},
+                    modified_label=new_sent_label,
+                    original_reasoning=original_reasoning,
+                    image_description=image_desc,
+                    log_dir=LabelHandler.log_dir,
+                )
+
 
 def main() -> None:
     parser = argparse.ArgumentParser(
@@ -1411,8 +1533,12 @@ def main() -> None:
         help="Optional initial article ID (e.g. 181). If omitted, select in the UI.",
     )
     parser.add_argument(
-        "--labels-dir", type=Path, default=Path("combined_data"),
-        help="Directory for label output files (default: combined_data/).",
+        "--labels-dir", type=Path, default=Path("ace_category_labels"),
+        help="Directory for label output files (default: ace_category_labels/).",
+    )
+    parser.add_argument(
+        "--log-dir", type=Path, default=Path("ace_category_logs"),
+        help="Directory for change log files (default: ace_category_logs/).",
     )
     parser.add_argument(
         "--port", type=int, default=8051,
@@ -1433,6 +1559,7 @@ def main() -> None:
     LabelHandler.base_dir = base
     LabelHandler.labels_dir = args.labels_dir
     LabelHandler.available_articles = available
+    LabelHandler.log_dir = args.log_dir
     LabelHandler.html_content = HTML_TEMPLATE
 
     initial_id = args.article_id if args.article_id in available else available[0]
