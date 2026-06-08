@@ -1458,20 +1458,21 @@ class LabelHandler(BaseHTTPRequestHandler):
         article_id = LabelHandler.current_article_id
         image_desc = LabelHandler.image_description
 
-        # Build lookup for comments and classifications
         comments_by_id = {c["comment_index"]: c for c in LabelHandler.comments_data}
-        class_by_sent = {
-            (cl["comment_id"], idx): cl
-            for idx, cl in enumerate(LabelHandler.classifications_data)
-        }
-
         old_comments = old_labels.get("comments", {})
         new_comments = new_labels.get("comments", {})
 
+        # Build classifications lookup: map (comment_id, sent_idx) to classification
         classifications_by_id = {}
-        for idx, cl in enumerate(LabelHandler.classifications_data):
+        sent_counts = {}  # Track sentence index for each comment_id
+        
+        for cl in LabelHandler.classifications_data:
             comment_id = cl.get("comment_id")
-            classifications_by_id[(comment_id, idx)] = cl
+            if comment_id not in sent_counts:
+                sent_counts[comment_id] = 0
+            sent_idx = sent_counts[comment_id]
+            classifications_by_id[(comment_id, sent_idx)] = cl
+            sent_counts[comment_id] += 1
 
         for comment_id_str in new_comments:
             old_entry = old_comments.get(comment_id_str, {})
@@ -1487,16 +1488,9 @@ class LabelHandler(BaseHTTPRequestHandler):
                 old_sent_label = old_sents.get(sent_idx_str)
                 new_sent_label = new_sents[sent_idx_str]
 
-                # Only log if there's an actual change
                 if old_sent_label == new_sent_label:
                     continue
 
-                # Get comment text and reasoning
-                comment = comments_by_id.get(comment_id, {})
-                original_comment = comment.get("raw_comment", "")
-                
-
-                # Find the classification to get reasoning
                 classification = classifications_by_id.get((comment_id, sent_idx))
                 if not classification:
                     continue
@@ -1504,13 +1498,16 @@ class LabelHandler(BaseHTTPRequestHandler):
                 sentence_fragment = classification.get("original_comment", "")
                 original_reasoning = classification.get("reasoning", "")
 
-                old_sent_label["correct_category"] = classification.get("comment_tag")
+                if old_sent_label is None:
+                    old_sent_label = {"correct_category": classification.get("comment_tag")}
+                else:
+                    old_sent_label = dict(old_sent_label)
+                    old_sent_label["correct_category"] = classification.get("comment_tag")
 
-                original_reasoning = classification.get("reasoning", "") if classification else ""
-                if 'correct_category' not in new_sent_label or new_sent_label["category_correct"]:
-                  continue
-                if new_sent_label['correct_category'] == "":
-                  continue
+                if "correct_category" not in new_sent_label or new_sent_label.get("category_correct") is True:
+                    continue
+                if new_sent_label.get("correct_category") == "":
+                    continue
 
                 log_label_change(
                     article_id=article_id,
